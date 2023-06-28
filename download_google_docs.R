@@ -14,11 +14,11 @@ for (i in 1:length(docs_yaml$docs)) {
   
   print(url)
   
-  doc <- GET(url, write_disk("public/google_docs/tmp.pdf", overwrite=TRUE))
+  doc <- GET(url, write_disk("docs/google_docs/tmp.pdf", overwrite=TRUE))
   
   # Rename
-  doc_infos <- pdf_info("public/google_docs/tmp.pdf")
+  doc_infos <- pdf_info("docs/google_docs/tmp.pdf")
   doc_title <- doc_infos$keys$Title
   
-  file.rename("public/google_docs/tmp.pdf", paste0("public/google_docs/", doc_title, ".pdf"))
+  file.rename("docs/google_docs/tmp.pdf", paste0("docs/google_docs/", doc_title, ".pdf"))
 }
