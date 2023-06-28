@@ -5,7 +5,7 @@ library(pdftools)
 library(yaml)
 docs_yaml <- read_yaml("google_docs.yaml")
 
-unlink("public/google_docs/*.pdf")
+unlink("docs/google_docs/*.pdf")
 
 for (i in 1:length(docs_yaml$docs)) { 
   
