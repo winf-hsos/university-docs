@@ -6,7 +6,7 @@ md_file <- paste0(path, "index.md")
 output <- c("# Content\n")
 
 for (file in files) {
-  if(endsWith(file, ".pdf")) {
+  if(endsWith(file, ".pdf") | endsWith(file, ".png")) {
     file_name <- basename(file)
     file <- gsub("docs//", "", file)
     file_link <- paste0("- [", file_name, "](", file, ")")
