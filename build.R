@@ -1,11 +1,11 @@
 # Docs
-source("download_google_docs.R")
+source("build_scripts/download_google_docs.R")
 
 # Slides
-source("download_google_slides.R")
-source("extract_images_from_pdf.R")
+source("build_scripts/download_google_slides.R")
+source("build_scripts/extract_images_from_pdf.R")
 
-source("create_index.R")
+source("build_scripts/create_index.R")
 
 # Push
-source("push.R")
+source("build_scripts/push.R")
