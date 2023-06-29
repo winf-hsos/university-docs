@@ -6,3 +6,4 @@
 - [Problem Solving and Computational Thinking.pdf](google_slides/Problem Solving and Computational Thinking.pdf)
 - [computational_schema_1.png](images/computational_schema_1.png)
 - [computational_schema_2.png](images/computational_schema_2.png)
+- [variables_as_containers.png](images/variables_as_containers.png)
