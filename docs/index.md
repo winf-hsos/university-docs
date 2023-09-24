@@ -1,6 +1,9 @@
 # Content
 
 - [Infoblatt Projekt Agrar Lebensmittel.pdf](google_docs/Infoblatt Projekt Agrar Lebensmittel.pdf)
+- [Information Management  - Course Logistics.pdf](google_slides/Information Management  - Course Logistics.pdf)
+- [Introduction to CSS.pdf](google_slides/Introduction to CSS.pdf)
+- [Introduction to HTML.pdf](google_slides/Introduction to HTML.pdf)
 - [LiFi-Project - Kick-Off.pdf](google_slides/LiFi-Project - Kick-Off.pdf)
 - [LiFi-Project - Program's Anatomy.pdf](google_slides/LiFi-Project - Program's Anatomy.pdf)
 - [Problem Solving and Computational Thinking.pdf](google_slides/Problem Solving and Computational Thinking.pdf)
