@@ -1,6 +1,7 @@
 # Content
 
 - [Infoblatt Projekt Agrar Lebensmittel.pdf](google_docs/Infoblatt Projekt Agrar Lebensmittel.pdf)
+- [Applied Analytics - Course Logistics.pdf](google_slides/Applied Analytics - Course Logistics.pdf)
 - [Information Management  - Course Logistics.pdf](google_slides/Information Management  - Course Logistics.pdf)
 - [Introduction to CSS.pdf](google_slides/Introduction to CSS.pdf)
 - [Introduction to HTML.pdf](google_slides/Introduction to HTML.pdf)
