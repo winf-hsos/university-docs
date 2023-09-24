@@ -7,3 +7,5 @@
 - [computational_schema_1.png](images/computational_schema_1.png)
 - [computational_schema_2.png](images/computational_schema_2.png)
 - [variables_as_containers.png](images/variables_as_containers.png)
+- [exercise-personal-website.pdf](quarto/web-engineering/exercise-personal-website.pdf)
+- [exercise-todo-app.pdf](quarto/web-engineering/exercise-todo-app.pdf)

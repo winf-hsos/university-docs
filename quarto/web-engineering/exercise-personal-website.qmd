@@ -1,0 +1,82 @@
+---
+title: "Übung: Erstellung einer persönlichen Webseite - Teil HTML"
+lang: de
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+  html:
+    toc: false
+    html-math-method: katex
+---
+
+Eine persönliche Webseite ist ein gutes Übungsbeispiel für die Einführung von HTML und CSS. Wir beginnen in dieser Übung mit der Erstellung einer persönlichen Webseite und lernen dabei die Möglichkeiten von HTML kennen.
+
+### Aufgabe 1: Das Webseiten-Projekt aufsetzen
+
+Für die persönliche Webseite wollen wir ein eigenes Webseiten-Projekt anlegen. Initialisiert ein neues Projekt und erstellt eine Datei `index.html` mit dem HTML-Basisgerüst:
+
+```html
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+  </body>
+</html>
+```
+Entfernt alle anderen Dateien, wie etwa `.css` oder `.js`-Dateien. Diese benötigen wir in dieser Übung nicht. Wir werden sie in späteren Übungen neu erstellen und in unsere Webseite einbinden.
+
+Betrachtet die erste Version eurer Webseite in der Browservorschau.
+
+### Aufgabe 2: Die Metainformationen
+
+Der Kopf (`<head>`) einer Webseite beinhaltet Informationen *über* die Webseite. Elemente im Kopf sind nicht sichtbar, haben aber einen Einfluss auf die Darstellung der Webseite im Browser. Gleichzeitig bestimmen wir hier relevante Informationen für Suchmaschinen. 
+
+Ihr beginnt in dieser Übung mit dem Kopf eurer Webseite. Arbeitet dazu den Abschnitt [What's in the head? Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML) der MDN-Dokumentationsseiten durch. Bearbeitet anschließend die folgenden Aufgaben:
+
+- Fügt eurer Webseite einen Titel hinzu!
+
+- Gebt den Suchmaschinen mittels passender `<meta>`-Tags die Informationen über den Autor sowie eine kurze Beschreibung der Webseite an die Hand!
+
+- Habt ihr bereits ein quadratisches Favorite-Icon für eure Webseite? Wenn ja, fügt es als Asset eurem Projekt hinzu und spezifiziert es im Kopf eurer Webseite!m Prüft, ob es korrekt angezeigt wird!
+
+- In welcher Sprache ist eurer persönliche Webseite verfasst? Gebt den Suchmaschinen auch diese Auskunft, um besser im Netz gefunden zu werden!
+
+### Aufgabe 3: Informationen über euch
+
+Der sichtbare Teil einer Webseite steht im sogenannten Körper oder `<body>`. Darunter fallen sämtliche Inhalte wie Überschriften, Texte, Listen, Links, Tabellen, Bilder und vieles mehr. In diesem Teil der Aufgabe beginnen wir damit, eurer Webseite erste Inhalte hinzuzufügen.
+
+Textuelle Inhalte sind ein wichtiger Bestandteil jeder Webseite. Schaut euch dazu das MDN-Tutorial [HTML text fundamentals](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals) an und erweitert anschließend eure Webseite wie folgt:
+
+- Der erste Teil eurer Webseite soll eine kurze Zusammenfassung zu eurer Person liefern. Beginnt mit einer passenden Überschrift und einem Absatz mit 3-4 Zeilen zu eurer Person!
+
+- Erstellt darunter einen kurzen Lebenslauf als Liste! Verwendet für die Darstellung von Details zu den einzelnen Stationen eingerückte Listen!
+
+- Hebt wichtige Informationen in eurem Lebenslauf, wie etwa Jahreszahlen oder die Namen von Schulen, Firmen oder anderen Institutionen, mittels geeigneter HTML-Tags hervor!
+
+
+### Aufgabe 4: Externe Links
+
+Die Grundidee des Internet bestand ursprünglich in der Verlinkung von Informationen zu einer großen vernetzten Wissensbasis. Diese Idee ist auch heute noch vorhanden und kann mittels Hyperlinks (oder nur Links) umgesetzt werden. Lest dazu das MDN-Tutorial [Creating Hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) und erweitert eure Webseite wie folgt:
+
+- Verlinkt in eurem Lebenslauf auf die offiziellen Webseiten der Schulen, Firmen oder anderer Institutionen!
+
+- Erstellt an geeigneter Stelle auf eurer Webseite Links zu euren Social Media Profilen! Stellt sicher, dass die Links funktionieren und in einem neuen Tab geöffnet werden!
+
+### Aufgabe 5: Bilder
+
+Neben Texten gehören auch Bilder zu jeder Webseite dazu. Browser können die meisten gängigen Formate wie `png`, `jpg` oder `gif` anzeigen. Gerade auf einer persönliche Webseite erwarten die Leser ein Foto von euch. Lest dazu den Abschnitt [Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML) auf den MDN-Einfürhungseiten:
+
+- Sucht ein aussagekräftiges Foto von euch und bindet es auf euerer Webseite ein. Stellt sicher, dass das Foto in eurem Projekt gespeichert ist und verlinkt es über eine relative Pfadangabe!
+
+- Überarbeitet eure Links zu den Social Media Profilen von oben und ersetzt die Texte durch frei verfügbare Icons!
+
+- Was ist der wichtigste Unterschied zwischen den Formaten `jpg` und `svg`? Recherchiert dazu im Internet!
+
+
