@@ -1,0 +1,47 @@
+---
+title: "Übung: Erstellung einer persönlichen Webseite - Teil CSS"
+lang: de
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+  html:
+    toc: false
+    html-math-method: katex
+---
+
+In diesem Übungsblatt fügt ihr eurer persönlichen Webseite aus dem HTML-Teil Stylings mithilfe von CSS hinzu.
+
+### Aufgabe 1: CSS einbinden
+
+Ihr habt drei Wege kennengelernt, um CSS auf eurer Webseite einzubinden. Die Einbindung einer oder mehrerer externer Dateien mit der Endung `.css` hat viele Vorteile und ist der Standard in der Webentwicklung. 
+
+- Erstellt eine neue Datei `styles.css` in eurem Projektordner!
+
+- Ladet die neue Datei beim Öffnen eurer HTML-Seite im Browser! Verwendet dazu den euch bekannten `<link>` Tag.
+
+### Aufgabe 2: Schriften und Farben
+
+Wir sind jetzt bereit, in der `styles.css` unsere ersten CSS-Regeln zu definieren. Wir beginnen mit einigen globalen Einstellungen zur durchgängigen Verwendung von Schriftarten und Farben auf unserer Webseite.
+
+- Wenn wir es nicht anders angeben, werden Überschriften und Texte stets vom Browser in schwarz dargestellt. Das ist ein sehr starker Kontrast zum weißen Hintergrund und anstrengend für die Augen. Ein etwas abgeschwächtes Anthrazit bietet sich als Alternative an und wird in der Praxis gerne verwendet. Stellt die Textfarbe für eurer Webseite entsprechend ein! (Tip: Erinnert ihr euch an den RGB-Farbcode und die Darstellung als Hexadezimalzahl?)
+
+- Die Hochschule Osnabrück verwendet die Schriftart "Roboto" auf allen Online- und Printmedien. Wir wollen das auch für unsere Webseite so handhaben! Definiert eine CSS-Regel, die "Roboto" als globale Schriftart festlegt!
+
+- Die Standardschriftgröße für Überschriften ersten Grades (`<h1>`) ist ziemlich groß. (Findet Ihr heraus, wie groß genau?). Wir wollen die Größe ein wenig kleiner einstellen. Recherchiert dabei einmal den Unterschied zwischen absoluten Größenangaben, wie etwa `16px`, und relativen Angaben, wie etwa `1.5rem`. Welche Art ist hier besser geeignet?
+
+- Textuelle Inhalte, die wir mit `<strong>` oder `<b>` hervorheben, wollen wir zusätzlich auch farblich absetzen. Setzt daher die Hintergrundfarbe auf ein helles Gelb, so als wäre jemand mit einem gelben Marker darüber gefahren. Gleichzeitig soll die Schriftfarbe des hervorgehobenen Textes ein dunkles Grau sein.
+
+- Links sollen ab jetzt in dem Blau der Hochschule erscheinen und nicht mehr unterstrichen werden. Das Blau der Hochschule entspricht dem RGB-Farbcode `#009ee3`. Recherchiert dabei, was es mit den Selektoren `a:link`, `a:visited`, `a:hover` und `a:active` auf sich hat!
+
+### Aufgabe 3: Euer Profilbild
+
+- Auf modernen Profilseiten wird das Profilbild oft als Kreis dargestellt. Versucht das auch für euer Profilbild mithilfe von CSS umzusetzen, ohne dass ihr das Foto selbst verändern müsst! Welchen CSS-Selektor verwendet ihr hier sinnvollerweise? Setzt gleichzeitig die Größe auf eine Breits von 150 px!
+
+- Versucht euer Profilfoto als Graustufenbild darzustellen. Macht euch dazu mit den CSS-Filtern vertraut.
+
+- Fügt eurem Bild nun mittels CSS eine leichte Schattierung hinzu!
+
+
+

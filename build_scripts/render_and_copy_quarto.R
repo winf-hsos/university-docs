@@ -10,6 +10,8 @@ pdf_list <- list.files("quarto", ".pdf", full.names = TRUE, recursive = TRUE)
 pdf_dest_list <- gsub("quarto/", "docs/quarto/", pdf_list)
 
 # Create directories for modules
+unlink("docs/quarto", recursive = TRUE)
+dir.create("docs/quarto")
 dir.create("docs/quarto/web-engineering")
 
 # Copy PDF files
