@@ -1,0 +1,17 @@
+---
+title: "Exercise: Entity Relationship Model for Exam Planning"
+lang: en
+---
+
+### Your Task
+
+You are all familiar with the examinations at the end of the semester. As you might have guessed, before the examinations can take place, a lot of planning and organization must have happened in the background. Let's assist our student office and create an information model of their problem domain! As *one example*, think about all the rooms that need to be booked.
+
+Follow the proposed steps from table 1 in Song & Froehlich's paper (Song & Froehlich 1995, p. 33, see below) and apply the suggested rules to build an Entity-Relationship Model (ERM).
+
+![](images/steps_erm_database.png)
+
+### References
+
+Il-Yeol Song and K. Froehlich, "Entity-relationship modeling," in IEEE Potentials, vol. 13, no. 5,\
+pp. 29-34, Dec. 1994-Jan. 1995, doi: 10.1109/45.464652.

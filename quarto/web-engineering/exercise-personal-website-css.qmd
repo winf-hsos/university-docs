@@ -1,14 +1,6 @@
 ---
 title: "Übung: Erstellung einer persönlichen Webseite - Teil CSS"
-lang: de
-format:
-  pdf:
-    toc: false
-    number-sections: false
-    colorlinks: true
-  html:
-    toc: false
-    html-math-method: katex
+title-meta: "Web Engineering"
 ---
 
 In diesem Übungsblatt fügt ihr eurer persönlichen Webseite aus dem HTML-Teil Stylings mithilfe von CSS hinzu.

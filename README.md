@@ -11,6 +11,3 @@
 To add a Google Slide document, open the `google_slides.yaml` and add the documents ID from the URL. When building, a listed documents will be fetched via their ID and downloaded as PDF.
 
 The same is true for Google Docs, but here the file is `google_docs.yaml`.
-
-
-

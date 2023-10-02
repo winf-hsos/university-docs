@@ -19,3 +19,14 @@ output
 
 # Write the markdown document
 writeLines(output, md_file)
+
+
+# Replace 'your_file.pdf' with the path to your PDF file
+#pdf_file <- "docs/quarto/web-engineering/exercise-personal-website-html.pdf"
+#pdf_file <- "docs/google_slides/Information Management  - Course Logistics.pdf"
+
+# Extract metadata
+#pdf_info <- pdf_info(pdf_file)
+
+# Print metadata
+#print(pdf_info)

@@ -2,7 +2,7 @@
 
 - [Infoblatt Projekt Agrar Lebensmittel.pdf](google_docs/Infoblatt Projekt Agrar Lebensmittel.pdf)
 - [Applied Analytics - Course Logistics.pdf](google_slides/Applied Analytics - Course Logistics.pdf)
-- [Information Management  - Course Logistics.pdf](google_slides/Information Management  - Course Logistics.pdf)
+- [Information Management - Course Logistics.pdf](google_slides/Information Management - Course Logistics.pdf)
 - [Introduction to CSS.pdf](google_slides/Introduction to CSS.pdf)
 - [Introduction to HTML.pdf](google_slides/Introduction to HTML.pdf)
 - [LiFi-Project - Kick-Off.pdf](google_slides/LiFi-Project - Kick-Off.pdf)
@@ -12,7 +12,8 @@
 - [computational_schema_1.png](images/computational_schema_1.png)
 - [computational_schema_2.png](images/computational_schema_2.png)
 - [variables_as_containers.png](images/variables_as_containers.png)
+- [exercise_erm_exam_planning.pdf](quarto/information-management/exercise_erm_exam_planning.pdf)
+- [exercise_information_modeling.pdf](quarto/information-management/exercise_information_modeling.pdf)
 - [exercise-personal-website-css.pdf](quarto/web-engineering/exercise-personal-website-css.pdf)
 - [exercise-personal-website-html.pdf](quarto/web-engineering/exercise-personal-website-html.pdf)
-- [exercise-personal-website.pdf](quarto/web-engineering/exercise-personal-website.pdf)
 - [exercise-todo-app.pdf](quarto/web-engineering/exercise-todo-app.pdf)

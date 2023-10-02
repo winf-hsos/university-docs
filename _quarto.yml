@@ -1,0 +1,7 @@
+toc: false
+number-sections: false
+lang: de
+
+format:
+  pdf:
+    colorlinks: true

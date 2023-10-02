@@ -13,6 +13,7 @@ pdf_dest_list <- gsub("quarto/", "docs/quarto/", pdf_list)
 unlink("docs/quarto", recursive = TRUE)
 dir.create("docs/quarto")
 dir.create("docs/quarto/web-engineering")
+dir.create("docs/quarto/information-management")
 
 # Copy PDF files
 file.copy(pdf_list, pdf_dest_list, overwrite = TRUE)

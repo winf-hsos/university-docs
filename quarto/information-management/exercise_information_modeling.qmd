@@ -1,0 +1,20 @@
+---
+title: "Exercise: Information Modeling"
+lang: en
+---
+
+### Your Task
+
+Read the following scenario carefully. The company described wants to come up with a suitable information model for their use case. When you\'re done reading, try and answer the following questions:
+
+1.  Which relevant **information objects** can you identify from the scenario description?
+
+2.  Which information **attributes** would you include for each of the information objects?
+
+3.  Are there any **relationships** between the information objects? If yes, which are they?
+
+4.  How can you further characterize the relationships you found?
+
+### The Scenario
+
+A company is an online reseller for a number of products. To make their online shop easier to navigate, one product is assigned to one of 12 product categories, and the shop\'s navigation is structured using these product categories. Alongside with the product category, the shop should display the EAN, name, description, and of course the selling price of the product. The company usually buys a specific product from the same supplier. However, for some commodities there can be multiple suppliers competing for the best price. The company is only interested in the most recent price for a product and supplier. To quickly reach out to a supplier, the company wants to store the supplier\'s phone number and the email address. The company keeps products in stock in different warehouses across the country. A warehouse has a large number of shelves, but a particular shelf stores only one type of product. On the other hand, the same product can be stored in different shelves and warehouses. A shelf\'s id is unique for one warehouse. However, the same id may exist in two warehouses.
