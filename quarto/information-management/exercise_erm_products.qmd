@@ -1,0 +1,17 @@
+---
+title: "Exercise: Entity Relationship Model"
+lang: en
+---
+
+### Your Task
+
+Consider the scenario of the online reseller from the previous exercise. Try to create a more formal information model for the scenario description and document it using an Entity Relationship Diagram (ERM).
+
+1.  Make yourself familiar with the notation of the ERM!
+
+2.  Create a ERM that reflects the company\'s information requirements! Build upon the result of the previous exercise!
+
+## Hints
+
+You can use tools such as Miro, PowerPoint or Google Slides to build an ERM in a digital format. Drawing it on a piece of paper and scanning it later is another viable option.
+
