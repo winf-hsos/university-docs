@@ -52,7 +52,8 @@ for (file in files) {
   
   if(endsWith(file, ".pdf") | endsWith(file, ".png")) {
     file_name <- basename(file)
-    file <- gsub("docs//", "", file)
+    file <- gsub("docs/", "", file)
+    
     file_link <- paste0("- [", file_name, "](", file, ")")
     output <- c(output, file_link)
   }
