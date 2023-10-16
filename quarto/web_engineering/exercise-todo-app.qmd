@@ -16,7 +16,7 @@ In diesem Übungsblatt erstellt ihr eine einfache Webanwendung, mit der ihr täg
 
 ### Vorbereitung
 
-Erstellt für dieses Projekt ein neues Glitch-Projekt. Das Projekt sollte die folgenden drei Dateien beinhalten:
+Erstellt für diese Übungsaufgabe einen neuen Ordner, in dem ihr alle Dateien für die Todo-App speichert. Euer Projekt sollte die folgenden drei Dateien beinhalten:
 
 1. `index.html` als Startseite der Anwendung
 2. `styles.css` für die Definition des verwendeten Designs

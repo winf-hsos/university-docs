@@ -37,7 +37,7 @@
 - [Introductuib to JavaScript for the Web.pdf](docs/google_slides/web_enigneering/Introductuib to JavaScript for the Web.pdf)
 - [Web Engineering - Course Logistics.pdf](docs/google_slides/web_enigneering/Web Engineering - Course Logistics.pdf)
 
-### wirtschaftsinformatik
+### Wirtschaftsinformatik
 
 - [LiFi-Project - Kick-Off.pdf](docs/google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf)
 - [LiFi-Project - Program's Anatomy.pdf](docs/google_slides/wirtschaftsinformatik/LiFi-Project - Program's Anatomy.pdf)
