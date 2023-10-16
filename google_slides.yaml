@@ -1,34 +1,41 @@
 ---
 slides:
-  # LiFi Project
-  # Kick-Off
-  - 1lRCrl_BbCE6KLBV0Y-Vj1IKzU-AlUotFVPyBg9e79xE
+
+  wirtschaftsinformatik:
+    # LiFi Project
+    # Kick-Off
+    - 1lRCrl_BbCE6KLBV0Y-Vj1IKzU-AlUotFVPyBg9e79xE
+    
+    # Program's Anatomy
+    - 1hdT157l8ks8t49ktot5N15vDoLCoIIynNgNBydQwWm8
+    
+    # Problem Solving and Computational Thinking
+    - 1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A
   
-  # Program's Anatomy
-  - 1hdT157l8ks8t49ktot5N15vDoLCoIIynNgNBydQwWm8
+  web_enigneering:  
+    # Web Engineering
+    # Course Logistics
+    - 1xG8rBdHbc308U5ryFhGmFGJnPtjM6-E9Zq_W7vGbJ-A
+    
+    # Introduction to HTML
+    - 1N5fJwgkVglszE4oxu1zvrBRWI9kEF2LuDqYEEXEYIlk
+    
+    # Introduction to CSS
+    - 1QZj_FTUeBuIWhP5lk11xIDqOA0gGWPv6IfIdiEygZAA
   
-  # Problem Solving and Computational Thinking
-  - 1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A
+  information_management:
+    
+    # Information Management
+    # Course Logistics
+    - 1tiqBi4mK0d5HvXXR7d-MAPTZv5PoAr3RYGIVGOngXvg
   
-  # Web Engineering
-  # Course Logistics
-  - 1xG8rBdHbc308U5ryFhGmFGJnPtjM6-E9Zq_W7vGbJ-A
-  
-  # Introduction to HTML
-  - 1N5fJwgkVglszE4oxu1zvrBRWI9kEF2LuDqYEEXEYIlk
-  
-  # Introduction to CSS
-  - 1QZj_FTUeBuIWhP5lk11xIDqOA0gGWPv6IfIdiEygZAA
-  
-  # Information Management
-  # Course Logistics
-  - 1tiqBi4mK0d5HvXXR7d-MAPTZv5PoAr3RYGIVGOngXvg
-  
-  # Applied Analytics
-  # Course Logistics
-  - 1rLTsGoA1IUYDFfX1kkPrS103XZyVC1KlYqDg_7m2NC8
-  
-  # Data Transformation with R & dplyr
-  - 1HLRd41yePsS4DDA1bHMLoqv3fdHkOH4lIG2SpPFH1ME
-  
+  applied_analytics:  
+    
+    # Applied Analytics
+    # Course Logistics
+    - 1rLTsGoA1IUYDFfX1kkPrS103XZyVC1KlYqDg_7m2NC8
+    
+    # Data Transformation with R & dplyr
+    - 1HLRd41yePsS4DDA1bHMLoqv3fdHkOH4lIG2SpPFH1ME
+    
 ---

@@ -5,20 +5,28 @@ library(pdftools)
 library(yaml)
 docs_yaml <- read_yaml("google_slides.yaml")
 
-unlink("docs/google_slides/*.pdf")
-
-for (i in 1:length(docs_yaml$slides)) { 
+for (module_name in names(docs_yaml$slides)) {
+  module_path = paste0("docs/google_slides/", module_name)
   
-  # Save temporary
-  url <- paste0("https://docs.google.com/presentation/d/", docs_yaml$slides[i], "/export?format=pdf")
+  unlink(module_path, recursive = TRUE)
   
-  print(url)
+  # Access the list of IDs for the current module
+  ids <- docs_yaml$slides[[module_name]]
   
-  doc <- GET(url, write_disk("docs/google_slides/tmp.pdf", overwrite=TRUE))
+  dir.create(module_path)
   
-  # Rename
-  doc_infos <- pdf_info("docs/google_slides/tmp.pdf")
-  doc_title <- doc_infos$keys$Title
-  
-  file.rename("docs/google_slides/tmp.pdf", paste0("docs/google_slides/", doc_title, ".pdf"))
+  # Iterate through the slides IDs within the current module
+  for (id in ids) {
+    
+    # Save temporary
+    url <- paste0("https://docs.google.com/presentation/d/", id, "/export?format=pdf")
+    doc <- GET(url, write_disk("docs/google_slides/tmp.pdf", overwrite=TRUE))
+    
+    # Rename
+    doc_infos <- pdf_info("docs/google_slides/tmp.pdf")
+    doc_title <- doc_infos$keys$Title
+    
+    new_file_name = paste0(module_path, "/", doc_title, ".pdf")
+    file.rename("docs/google_slides/tmp.pdf", new_file_name)
+  }
 }

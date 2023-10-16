@@ -1,11 +1,35 @@
-path <- "docs/"
+path <- "docs"
 files <- list.files(path, full.names = TRUE, recursive = T)
+files <- sort(files)
+
+#files
 
 # Create a markdown document
 md_file <- paste0(path, "index.md")
 output <- c("# Content\n")
 
+headings_dict <- c(
+  google_docs = "Google Documents",
+  google_slides = "Google Slides",
+  quarto = "Quarto Documents"
+)
+
+category = ""
 for (file in files) {
+  
+  parts <- unlist(strsplit(file, "/"))
+  
+  current_category = parts[2]
+  if(current_category != category) {
+    category = current_category
+    heading_text = headings_dict[category]
+    
+    if(is.na(heading_text))
+      heading_text = category
+    
+    output <- c(output, paste0("## ", heading_text, "\n"))
+  }
+  
   if(endsWith(file, ".pdf") | endsWith(file, ".png")) {
     file_name <- basename(file)
     file <- gsub("docs//", "", file)
@@ -15,7 +39,7 @@ for (file in files) {
   
 }
 
-output
+#output
 
 # Write the markdown document
 writeLines(output, md_file)
