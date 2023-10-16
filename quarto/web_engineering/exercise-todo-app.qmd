@@ -2,14 +2,6 @@
 title: "Übung: Erstellung einer Todo-App"
 subtitle: "Die GUI mit HTML, CSS und JavaScript"
 lang: de
-format:
-  pdf:
-    toc: false
-    number-sections: false
-    colorlinks: true
-  html:
-    toc: false
-    html-math-method: katex
 ---
 
 In diesem Übungsblatt erstellt ihr eine einfache Webanwendung, mit der ihr tägliche Aufgaben planen und verwalten könnt. Beispiele für diese Art von Anwendungen sind [Microsoft Todo](https://todo.microsoft.com/) oder [Zenkit To Do](https://zenkit.com/en/todo/). Die Aufgabe erstreckt sich über mehrere Übungsblätter. Im ersten Teil der Aufgabe erstellen wir eine grafische Benutzeroberfläche mit HTML, CSS und JavaScript.
