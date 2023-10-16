@@ -12,8 +12,8 @@ pdf_dest_list <- gsub("quarto/", "docs/quarto/", pdf_list)
 # Create directories for modules
 unlink("docs/quarto", recursive = TRUE)
 dir.create("docs/quarto")
-dir.create("docs/quarto/web-engineering")
-dir.create("docs/quarto/information-management")
+dir.create("docs/quarto/web_engineering")
+dir.create("docs/quarto/information_management")
 
 # Copy PDF files
 file.copy(pdf_list, pdf_dest_list, overwrite = TRUE)

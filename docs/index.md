@@ -57,3 +57,19 @@
 ### variables_as_containers.png
 
 - [variables_as_containers.png](docs/images/variables_as_containers.png)
+
+## Quarto Documents
+
+
+### Information Management
+
+- [exercise_erm_exam_planning.pdf](docs/quarto/information_management/exercise_erm_exam_planning.pdf)
+- [exercise_erm_products.pdf](docs/quarto/information_management/exercise_erm_products.pdf)
+- [exercise_information_modeling.pdf](docs/quarto/information_management/exercise_information_modeling.pdf)
+- [exercise_information_modeling_products.pdf](docs/quarto/information_management/exercise_information_modeling_products.pdf)
+
+### Web Engineering
+
+- [exercise-personal-website-css.pdf](docs/quarto/web_engineering/exercise-personal-website-css.pdf)
+- [exercise-personal-website-html.pdf](docs/quarto/web_engineering/exercise-personal-website-html.pdf)
+- [exercise-todo-app.pdf](docs/quarto/web_engineering/exercise-todo-app.pdf)
