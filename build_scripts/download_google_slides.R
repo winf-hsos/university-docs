@@ -20,6 +20,7 @@ for (module_name in names(docs_yaml$slides)) {
     
     # Save temporary
     url <- paste0("https://docs.google.com/presentation/d/", id, "/export?format=pdf")
+    print(url)
     doc <- GET(url, write_disk("docs/google_slides/tmp.pdf", overwrite=TRUE))
     
     # Rename

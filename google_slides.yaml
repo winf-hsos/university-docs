@@ -12,7 +12,8 @@ slides:
     # Problem Solving and Computational Thinking
     - 1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A
   
-  web_enigneering:  
+  web_engineering:  
+  
     # Web Engineering
     # Course Logistics
     - 1xG8rBdHbc308U5ryFhGmFGJnPtjM6-E9Zq_W7vGbJ-A
@@ -22,12 +23,24 @@ slides:
     
     # Introduction to CSS
     - 1QZj_FTUeBuIWhP5lk11xIDqOA0gGWPv6IfIdiEygZAA
+    
+    # Introduction to JavaScript for the Web
+    - 1gBtIKnXM6ayCophn6M76ljtbvqQwHjv8z6BDYImOiwU
   
   information_management:
     
     # Information Management
     # Course Logistics
     - 1tiqBi4mK0d5HvXXR7d-MAPTZv5PoAr3RYGIVGOngXvg
+    
+    # Entity Relationship Model
+    - 1JW1AW9AZB8ONJH-kSKNDrE70xvpoaOh8i3qMmHnvFns
+    
+    # Relational Databases
+    - 1JNgNrq583kt7wF1Mew6JCw7_huIFltguWsoq3L-ppKQ
+    
+    # What is a Database?
+    #- 1I2fAiSCkrlCss0AtTx5gF7YFcKytpcpRmVxWptXerfk
   
   applied_analytics:  
     
@@ -38,4 +51,6 @@ slides:
     # Data Transformation with R & dplyr
     - 1HLRd41yePsS4DDA1bHMLoqv3fdHkOH4lIG2SpPFH1ME
     
+    # Data Visualization with ggplot2 and the Grammar of Graphics
+    - 176XeVUA2xsyZTnrYWMlGMRfl2i274daiyjVQt0syptw
 ---

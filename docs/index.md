@@ -15,15 +15,26 @@
 
 - [Applied Analytics - Course Logistics.pdf](docs/google_slides/applied_analytics/Applied Analytics - Course Logistics.pdf)
 - [Data Transformation with R and dplyr.pdf](docs/google_slides/applied_analytics/Data Transformation with R and dplyr.pdf)
+- [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](docs/google_slides/applied_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf)
 
 ### Information Management
 
 - [Information Management - Course Logistics.pdf](docs/google_slides/information_management/Information Management - Course Logistics.pdf)
+- [Information Management - Entity Relationship Model.pdf](docs/google_slides/information_management/Information Management - Entity Relationship Model.pdf)
+- [Information Management - Relational Databases.pdf](docs/google_slides/information_management/Information Management - Relational Databases.pdf)
+
+### Web Engineering
+
+- [Introduction to CSS.pdf](docs/google_slides/web_engineering/Introduction to CSS.pdf)
+- [Introduction to HTML.pdf](docs/google_slides/web_engineering/Introduction to HTML.pdf)
+- [Introductuib to JavaScript for the Web.pdf](docs/google_slides/web_engineering/Introductuib to JavaScript for the Web.pdf)
+- [Web Engineering - Course Logistics.pdf](docs/google_slides/web_engineering/Web Engineering - Course Logistics.pdf)
 
 ### web_enigneering
 
 - [Introduction to CSS.pdf](docs/google_slides/web_enigneering/Introduction to CSS.pdf)
 - [Introduction to HTML.pdf](docs/google_slides/web_enigneering/Introduction to HTML.pdf)
+- [Introductuib to JavaScript for the Web.pdf](docs/google_slides/web_enigneering/Introductuib to JavaScript for the Web.pdf)
 - [Web Engineering - Course Logistics.pdf](docs/google_slides/web_enigneering/Web Engineering - Course Logistics.pdf)
 
 ### wirtschaftsinformatik
@@ -46,19 +57,3 @@
 ### variables_as_containers.png
 
 - [variables_as_containers.png](docs/images/variables_as_containers.png)
-
-## Quarto Documents
-
-
-### information-management
-
-- [exercise_erm_exam_planning.pdf](docs/quarto/information-management/exercise_erm_exam_planning.pdf)
-- [exercise_erm_products.pdf](docs/quarto/information-management/exercise_erm_products.pdf)
-- [exercise_information_modeling.pdf](docs/quarto/information-management/exercise_information_modeling.pdf)
-- [exercise_information_modeling_products.pdf](docs/quarto/information-management/exercise_information_modeling_products.pdf)
-
-### web-engineering
-
-- [exercise-personal-website-css.pdf](docs/quarto/web-engineering/exercise-personal-website-css.pdf)
-- [exercise-personal-website-html.pdf](docs/quarto/web-engineering/exercise-personal-website-html.pdf)
-- [exercise-todo-app.pdf](docs/quarto/web-engineering/exercise-todo-app.pdf)
