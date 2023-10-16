@@ -29,7 +29,7 @@ for (file in files) {
     if(is.na(heading_text))
       heading_text = category
     
-    output <- c(output, paste0("## ", heading_text, "\n"))
+    output <- c(output, paste0("\n## ", heading_text, "\n"))
   }
   
   if(endsWith(file, ".pdf") | endsWith(file, ".png")) {
