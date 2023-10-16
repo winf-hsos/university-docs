@@ -30,13 +30,6 @@
 - [Introductuib to JavaScript for the Web.pdf](docs/google_slides/web_engineering/Introductuib to JavaScript for the Web.pdf)
 - [Web Engineering - Course Logistics.pdf](docs/google_slides/web_engineering/Web Engineering - Course Logistics.pdf)
 
-### web_enigneering
-
-- [Introduction to CSS.pdf](docs/google_slides/web_enigneering/Introduction to CSS.pdf)
-- [Introduction to HTML.pdf](docs/google_slides/web_enigneering/Introduction to HTML.pdf)
-- [Introductuib to JavaScript for the Web.pdf](docs/google_slides/web_enigneering/Introductuib to JavaScript for the Web.pdf)
-- [Web Engineering - Course Logistics.pdf](docs/google_slides/web_enigneering/Web Engineering - Course Logistics.pdf)
-
 ### Wirtschaftsinformatik
 
 - [LiFi-Project - Kick-Off.pdf](docs/google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf)
