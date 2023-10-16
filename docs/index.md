@@ -27,7 +27,7 @@
 
 - [Introduction to CSS.pdf](google_slides/web_engineering/Introduction to CSS.pdf)
 - [Introduction to HTML.pdf](google_slides/web_engineering/Introduction to HTML.pdf)
-- [Introductuib to JavaScript for the Web.pdf](google_slides/web_engineering/Introductuib to JavaScript for the Web.pdf)
+- [Introduction to JavaScript for the Web.pdf](google_slides/web_engineering/Introduction to JavaScript for the Web.pdf)
 - [Web Engineering - Course Logistics.pdf](google_slides/web_engineering/Web Engineering - Course Logistics.pdf)
 
 ### Wirtschaftsinformatik
