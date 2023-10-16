@@ -13,15 +13,22 @@ headings_dict <- c(
   google_docs = "Google Documents",
   google_slides = "Google Slides",
   quarto = "Quarto Documents",
-  images = "Images"
+  images = "Images",
+  information_management = "Information Management",
+  applied_analytics = "Applied Analytics",
+  web_engineering = "Web Engineering",
+  projekt_agrar_lebensmittel = "Projekt Agrar/Lebensmittel"
 )
 
 category = ""
+subcategory = ""
 for (file in files) {
   
   parts <- unlist(strsplit(file, "/"))
   
   current_category = parts[2]
+  current_subcategory = parts[3]
+  
   if(current_category != category) {
     category = current_category
     heading_text = headings_dict[category]
@@ -30,6 +37,16 @@ for (file in files) {
       heading_text = category
     
     output <- c(output, paste0("\n## ", heading_text, "\n"))
+  }
+  
+  if(current_subcategory != subcategory) {
+    subcategory = current_subcategory
+    heading_text = headings_dict[subcategory]
+    
+    if(is.na(heading_text))
+      heading_text = subcategory
+    
+    output <- c(output, paste0("\n### ", heading_text, "\n"))
   }
   
   if(endsWith(file, ".pdf") | endsWith(file, ".png")) {
