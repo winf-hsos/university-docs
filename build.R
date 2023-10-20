@@ -12,3 +12,5 @@ source("build_scripts/create_index.R")
 
 # Push
 source("build_scripts/push.R")
+
+print("Done: https://winf-hsos.github.io/university-docs/")
