@@ -14,6 +14,7 @@ unlink("docs/quarto", recursive = TRUE)
 dir.create("docs/quarto")
 dir.create("docs/quarto/web_engineering")
 dir.create("docs/quarto/information_management")
+dir.create("docs/quarto/applied_analytics")
 
 # Copy PDF files
 file.copy(pdf_list, pdf_dest_list, overwrite = TRUE)

@@ -52,12 +52,22 @@
 
 - [computational_schema_2.png](images/computational_schema_2.png)
 
+### database_system_architecture.png
+
+- [database_system_architecture.png](images/database_system_architecture.png)
+
 ### variables_as_containers.png
 
 - [variables_as_containers.png](images/variables_as_containers.png)
 
 ## Quarto Documents
 
+
+### Applied Analytics
+
+- [exercise_campusbier_datentransformation.pdf](quarto/applied_analytics/exercise_campusbier_datentransformation.pdf)
+- [exercise_campusbier_erkundung.pdf](quarto/applied_analytics/exercise_campusbier_erkundung.pdf)
+- [exercise_campusbier_find_and_build_the_plot.pdf](quarto/applied_analytics/exercise_campusbier_find_and_build_the_plot.pdf)
 
 ### Information Management
 

@@ -28,7 +28,10 @@ extract_images <- function(pdf_path) {
 
 path <- "docs/google_slides"
 files <- list.files(path, full.names = TRUE, recursive = T)
-files
+#files
+
+unlink("docs/images", recursive = TRUE)
+dir.create("docs/images")
 
 for (file in files) {
   if(endsWith(file, ".pdf")) {
