@@ -1,0 +1,44 @@
+---
+title: "Exercise: Find and build the plot"
+lang: de
+---
+
+### Preparation
+
+Load the data set containing the *Campusbier* orders:
+
+```{r}
+#| eval: false
+library(tidyverse)
+orders <- read_csv("data/orders.csv")
+```
+
+The focus of this task is to identify one or more suitable visualization types and build them with R and `{ggplot2}`. Don't bother too much with details of the plot's appearance, such as titles, colors, fonts or labels! Make it work, then make it nice (if you have time)!
+
+### Task 1: Find a suitable plot and build it with `{ggplot2}`
+
+1. Visualize the distribution of the order's total price:
+
+    - For all orders in a single plot
+    - Distinguished by the customer's gender
+  
+2. How is the time between the creation and closing of an order distributed?
+
+3. Find a suitable plot to show the proportions of payment type usage!
+
+4. Visualize the sales by week:
+
+    - For the year 2021 only!
+    - For the whole time span available!
+  
+5. Visualize the amount we lost per discount code!
+
+6. Visualize when customers order during the day (hour) and compare weekends with weekdays in one plot!
+
+7. Find a visual representation of our top 10 customers by turnover?
+
+8. Who is more open to marketing emails: University staff or other people? Find a suitable visual display!
+
+9. Do iPhone or Android users spent more money per order?
+
+10. Find a suitable visualization to quickly identify the hotspot order time slote during the week! When should we careful not to perform any shop maintenance?

@@ -16,12 +16,17 @@
 - [Applied Analytics - Course Logistics.pdf](google_slides/applied_analytics/Applied Analytics - Course Logistics.pdf)
 - [Data Transformation with R and dplyr.pdf](google_slides/applied_analytics/Data Transformation with R and dplyr.pdf)
 - [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/applied_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf)
+- [Joining data sets with R and SQL.pdf](google_slides/applied_analytics/Joining data sets with R and SQL.pdf)
 
 ### Information Management
 
+- [Basic SQL.pdf](google_slides/information_management/Basic SQL.pdf)
 - [Information Management - Course Logistics.pdf](google_slides/information_management/Information Management - Course Logistics.pdf)
 - [Information Management - Entity Relationship Model.pdf](google_slides/information_management/Information Management - Entity Relationship Model.pdf)
 - [Information Management - Relational Databases.pdf](google_slides/information_management/Information Management - Relational Databases.pdf)
+- [Information Management - What is a Database.pdf](google_slides/information_management/Information Management - What is a Database.pdf)
+- [Joining data sets with R and SQL.pdf](google_slides/information_management/Joining data sets with R and SQL.pdf)
+- [Manage Tables with SQL.pdf](google_slides/information_management/Manage Tables with SQL.pdf)
 
 ### Web Engineering
 

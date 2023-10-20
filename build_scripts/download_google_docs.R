@@ -19,7 +19,8 @@ for (module_name in names(docs_yaml$docs)) {
   for (id in ids) {
     
     # Save temporary
-    url <- paste0("https://docs.google.com/document/d/", docs_yaml$docs[i], "/export?format=pdf")
+    url <- paste0("https://docs.google.com/document/d/", id, "/export?format=pdf")
+    print(url)
     doc <- GET(url, write_disk("docs/google_docs/tmp.pdf", overwrite=TRUE))
     
     # Rename

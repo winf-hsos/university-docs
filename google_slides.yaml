@@ -40,7 +40,16 @@ slides:
     - 1JNgNrq583kt7wF1Mew6JCw7_huIFltguWsoq3L-ppKQ
     
     # What is a Database?
-    #- 1I2fAiSCkrlCss0AtTx5gF7YFcKytpcpRmVxWptXerfk
+    - 1I2fAiSCkrlCss0AtTx5gF7YFcKytpcpRmVxWptXerfk
+    
+    # SQL - Manage Tables
+    - 1Ze-mszwSnqrJOwPQdmh2XchZ0JltoNgADmTrseqnqhY
+    
+    # Basic SQL
+    - 1WuXDfByfEEiDi_ifCfU1Qqpq_vHfz36p7Qs3eZ1Lsoo
+    
+    # Joining Data Sets with R and SQL
+    - 1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4
   
   applied_analytics:  
     
@@ -53,4 +62,7 @@ slides:
     
     # Data Visualization with ggplot2 and the Grammar of Graphics
     - 176XeVUA2xsyZTnrYWMlGMRfl2i274daiyjVQt0syptw
+    
+    # Joining Data Sets with R and SQL
+    - 1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4
 ---
