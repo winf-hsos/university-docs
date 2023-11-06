@@ -1,3 +1,11 @@
+# Create output directory
+library(fs)
+output_path <- "docs"
+if (dir_exists(output_path)) {
+  dir_delete(output_path)
+}
+dir_create(output_path)
+  
 # Docs
 source("build_scripts/download_google_docs.R")
 

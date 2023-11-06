@@ -1,12 +1,12 @@
 # Content
 
 
-## Google Documents
+## google_documents
 
 
 ### Projekt Agrar/Lebensmittel
 
-- [Infoblatt Projekt Agrar Lebensmittel.pdf](google_projekt_agrar_lebensmittel/Infoblatt Projekt Agrar Lebensmittel.pdf)
+- [Infoblatt Projekt Agrar Lebensmittel.pdf](google_documents/projekt_agrar_lebensmittel/Infoblatt Projekt Agrar Lebensmittel.pdf)
 
 ## Google Slides
 

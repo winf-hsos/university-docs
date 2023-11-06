@@ -2,11 +2,18 @@
 library(httr)
 library(pdftools)
 
+library(fs)
+output_path <- "docs/google_documents/"
+if (dir_exists(output_path)) {
+  dir_delete(output_path)
+}
+dir_create(output_path)
+
 library(yaml)
 docs_yaml <- read_yaml("google_docs.yaml")
 
 for (module_name in names(docs_yaml$docs)) {
-  module_path = paste0("docs/google_docs/", module_name)
+  module_path = paste0(output_path, module_name)
   
   unlink(module_path, recursive = TRUE)
   
@@ -21,13 +28,13 @@ for (module_name in names(docs_yaml$docs)) {
     # Save temporary
     url <- paste0("https://docs.google.com/document/d/", id, "/export?format=pdf")
     print(url)
-    doc <- GET(url, write_disk("docs/google_docs/tmp.pdf", overwrite=TRUE))
+    doc <- GET(url, write_disk(paste0(output_path,"tmp.pdf"), overwrite=TRUE))
     
     # Rename
-    doc_infos <- pdf_info("docs/google_docs/tmp.pdf")
+    doc_infos <- pdf_info(paste0(output_path,"tmp.pdf"))
     doc_title <- doc_infos$keys$Title
     
     new_file_name = paste0(module_path, "/", doc_title, ".pdf")
-    file.rename("docs/google_docs/tmp.pdf", new_file_name)
+    file.rename(paste0(output_path,"tmp.pdf"), new_file_name)
   }
 }
