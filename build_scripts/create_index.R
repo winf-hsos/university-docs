@@ -10,7 +10,7 @@ md_file <- paste0(path, "/index.md")
 output <- c("# Content\n")
 
 headings_dict <- c(
-  google_docs = "Google Documents",
+  google_documents = "Google Documents",
   google_slides = "Google Slides",
   quarto = "Quarto Documents",
   images = "Images",
