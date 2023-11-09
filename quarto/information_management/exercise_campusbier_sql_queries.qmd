@@ -1,0 +1,33 @@
+---
+title: "Exercise: Answer Questions with SQL"
+subtitle: "Campusbier Database"
+lang: en
+---
+
+In this exercise, you are going to answer some questions regarding our *campusbier* database.
+
+::: {.callout-note appearance="simple" icon="false"}
+Note that you must have downloaded and opened the *campusbier* database before you start this exercise.
+:::
+
+### Task 1: Find SQL statements to answer the following questions regarding our orders
+
+1. How many orders were placed in total?
+
+2. How many orders were placed within each year?
+
+3. How many orders were refunded?
+
+4. Which is the most popular payment type?
+
+5. Which hours of the day are the preferred shopping times of our customers?
+
+6. How many unique customers do we have?s
+
+7. How many of the unique customers are from Osnabrück?
+
+8. Besides Osnabrück, what is the top 10 of locations where our customers come from?
+
+9. What percentage of our customers allows us to contact them with marketing?
+
+10. Which are the 3 months with the most turnover?

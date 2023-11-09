@@ -1,0 +1,2 @@
+- Check last change date and decide wether a quarto file needs to be rendered
+- Fix problem with stepwise build and deleting everything from the outset

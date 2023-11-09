@@ -71,6 +71,7 @@
 
 ### Information Management
 
+- [exercise_campusbier_sql_queries.pdf](quarto/information_management/exercise_campusbier_sql_queries.pdf)
 - [exercise_erm_exam_planning.pdf](quarto/information_management/exercise_erm_exam_planning.pdf)
 - [exercise_erm_products.pdf](quarto/information_management/exercise_erm_products.pdf)
 - [exercise_information_modeling.pdf](quarto/information_management/exercise_information_modeling.pdf)
