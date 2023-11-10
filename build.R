@@ -1,23 +1,18 @@
-# Create output directory
-library(fs)
-output_path <- "docs"
-if (dir_exists(output_path)) {
-  dir_delete(output_path)
-}
-dir_create(output_path)
+source("build_scripts/utils.R")
 
 if (exists("build_steps")) {
   print("Running defined build steps only.")
 } else {
   print("Running all build steps")
   build_steps <- c("google_slides", "google_docs", "quarto", "extract_images", "create_index", "push")
+  recreate_ouput_directory("")
+  rm(build_steps)
 }
 
 # Docs
 if("google_docs" %in% build_steps) {
   source("build_scripts/download_google_docs.R")
 }
-
 
 # Slides
 if("google_slides" %in% build_steps) {

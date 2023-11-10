@@ -2,7 +2,7 @@ library(quarto)
 
 # Render and copy course material ####
 qmd_list <- list.files("quarto", ".qmd", full.names = TRUE, recursive = TRUE)
-quarto_render(qmd_list, output_format = "pdf")
+quarto_render(qmd_list, output_format = "pdf", quiet = TRUE)
 
 
 # Get all PDF files
