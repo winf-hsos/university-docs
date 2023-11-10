@@ -6,7 +6,7 @@ if (exists("build_steps")) {
   print("Running all build steps")
   build_steps <- c("google_slides", "google_docs", "quarto", "extract_images", "create_index", "push")
   recreate_ouput_directory("")
-  rm(build_steps)
+  run_all <- TRUE
 }
 
 # Docs
@@ -36,6 +36,10 @@ if("create_index" %in% build_steps) {
 # Push
 if("push" %in% build_steps) {
   source("build_scripts/push.R")
+}
+
+if(run_all == TRUE) {
+  rm(build_steps)
 }
 
 print("Done: https://winf-hsos.github.io/university-docs/")

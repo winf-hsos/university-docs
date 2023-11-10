@@ -1,13 +1,10 @@
 # Download and save Google Docs from google_docs.yaml ####
+source("build_scripts/utils.R")
+
 library(httr)
 library(pdftools)
 
-library(fs)
-output_path <- "docs/google_documents/"
-if (dir_exists(output_path)) {
-  dir_delete(output_path)
-}
-dir_create(output_path)
+recreate_ouput_directory("google_documents/")
 
 library(yaml)
 docs_yaml <- read_yaml("google_docs.yaml")
