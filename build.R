@@ -39,6 +39,7 @@ if("push" %in% build_steps) {
 }
 
 if(run_all == TRUE) {
+  cat("Removing variable >build_steps<\n")
   rm(build_steps)
 }
 

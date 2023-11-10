@@ -16,15 +16,14 @@ for (qmd_file in qmd_files) {
   # Check if the ".pdf" file exists or if it doesn't exist
   if (!file.exists(pdf_file) || file.info(qmd_file)$mtime > file.info(pdf_file)$mtime) {
     # Execute the "render_quarto()" function with the ".qmd" file
-    cat("Start rendering:", qmd_file, "\n")
+    cat("Start rendering: ", qmd_file, "\n")
     quarto_render(qmd_file, output_format = "pdf", quiet = TRUE)
-    cat("Finished rendering:", qmd_file, "\n")
+    cat("Finished rendering: ", qmd_file, "\n")
   }
 }
 
-cat("Done with rendering Quarto files!")
-
-cat("Copying PDF files to output foleder")
+cat("Done with rendering Quarto files!\n")
+cat("Copying PDF files to output foleder\n")
 
 # Get all PDF files
 pdf_list <- list.files("quarto", ".pdf", full.names = TRUE, recursive = TRUE)
