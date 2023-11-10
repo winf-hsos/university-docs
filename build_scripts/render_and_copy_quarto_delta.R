@@ -1,6 +1,5 @@
 library(quarto)  # Load the quarto package if not already loaded
 
-
 # Define the directory where you want to search for ".qmd" files
 base_directory <- "quarto"
 

@@ -1,9 +1,10 @@
 source("build_scripts/utils.R")
 
 if (exists("build_steps")) {
-  cat("Running defined build steps only.")
+  cat("Running defined build steps only.\n")
+  run_all <- FALSE
 } else {
-  cat("Running all build steps")
+  cat("Running all build steps\n")
   build_steps <- c("google_slides", "google_docs", "quarto", "extract_images", "create_index", "push")
   recreate_ouput_directory("docs/")
   run_all <- TRUE
@@ -39,8 +40,7 @@ if("push" %in% build_steps) {
 }
 
 if(run_all == TRUE) {
-  cat("Removing variable >build_steps<\n")
   rm(build_steps)
 }
 
-cat("Done: https://winf-hsos.github.io/university-docs/")
+cat("Done: https://winf-hsos.github.io/university-docs/\n")
