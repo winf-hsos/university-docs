@@ -22,7 +22,7 @@ Note that you must have downloaded and opened the *campusbier* database before y
 
 5. Which hours of the day are the preferred shopping times of our customers?
 
-6. How many unique customers do we have?s
+6. How many unique customers do we have?
 
 7. How many of the unique customers are from Osnabrück?
 

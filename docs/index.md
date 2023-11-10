@@ -35,6 +35,7 @@
 - [Introduction to JavaScript for the Web.pdf](google_slides/web_engineering/Introduction to JavaScript for the Web.pdf)
 - [Web Engineering - Course Logistics.pdf](google_slides/web_engineering/Web Engineering - Course Logistics.pdf)
 - [Web Engineering - Das JSON Format.pdf](google_slides/web_engineering/Web Engineering - Das JSON Format.pdf)
+- [Web Engineering - Local Storage.pdf](google_slides/web_engineering/Web Engineering - Local Storage.pdf)
 
 ### Wirtschaftsinformatik
 
