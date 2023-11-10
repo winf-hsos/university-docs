@@ -2,13 +2,9 @@
 library(httr)
 library(pdftools)
 
-library(fs)
+source("build_scripts/utils.R")
 output_path <- "docs/google_slides/"
-if (dir_exists(output_path)) {
-  dir_delete(output_path)
-}
-dir_create(output_path)
-
+recreate_ouput_directory(output_path)
 
 library(yaml)
 docs_yaml <- read_yaml("google_slides.yaml")
@@ -28,7 +24,7 @@ for (module_name in names(docs_yaml$slides)) {
     
     # Save temporary
     url <- paste0("https://docs.google.com/presentation/d/", id, "/export?format=pdf")
-    print(url)
+    cat(url)
     doc <- GET(url, write_disk(paste0(output_path, "tmp.pdf"), overwrite=TRUE))
     
     # Rename

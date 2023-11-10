@@ -1,9 +1,8 @@
 # Download and save Google Docs from google_docs.yaml ####
-source("build_scripts/utils.R")
-
 library(httr)
 library(pdftools)
 
+source("build_scripts/utils.R")
 output_path <- "docs/google_documents/"
 recreate_ouput_directory(output_path)
 
@@ -25,7 +24,7 @@ for (module_name in names(docs_yaml$docs)) {
     
     # Save temporary
     url <- paste0("https://docs.google.com/document/d/", id, "/export?format=pdf")
-    print(url)
+    cat(url)
     doc <- GET(url, write_disk(paste0(output_path,"tmp.pdf"), overwrite=TRUE))
     
     # Rename

@@ -1,9 +1,9 @@
 source("build_scripts/utils.R")
 
 if (exists("build_steps")) {
-  print("Running defined build steps only.")
+  cat("Running defined build steps only.")
 } else {
-  print("Running all build steps")
+  cat("Running all build steps")
   build_steps <- c("google_slides", "google_docs", "quarto", "extract_images", "create_index", "push")
   recreate_ouput_directory("docs/")
   run_all <- TRUE
@@ -42,4 +42,4 @@ if(run_all == TRUE) {
   rm(build_steps)
 }
 
-print("Done: https://winf-hsos.github.io/university-docs/")
+cat("Done: https://winf-hsos.github.io/university-docs/")
