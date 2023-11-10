@@ -4,7 +4,8 @@ source("build_scripts/utils.R")
 library(httr)
 library(pdftools)
 
-recreate_ouput_directory("google_documents/")
+output_path <- "docs/google_documents/"
+recreate_ouput_directory(output_path)
 
 library(yaml)
 docs_yaml <- read_yaml("google_docs.yaml")

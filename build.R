@@ -5,7 +5,7 @@ if (exists("build_steps")) {
 } else {
   print("Running all build steps")
   build_steps <- c("google_slides", "google_docs", "quarto", "extract_images", "create_index", "push")
-  recreate_ouput_directory("")
+  recreate_ouput_directory("docs/")
   run_all <- TRUE
 }
 
@@ -26,7 +26,7 @@ if("extract_images" %in% build_steps) {
 
 # Quarto
 if("quarto" %in% build_steps) {
-  source("build_scripts/render_and_copy_quarto.R")
+  source("build_scripts/render_and_copy_quarto_delta.R")
 }
 
 if("create_index" %in% build_steps) {

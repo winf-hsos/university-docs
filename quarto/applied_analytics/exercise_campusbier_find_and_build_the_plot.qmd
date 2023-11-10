@@ -37,8 +37,8 @@ The focus of this task is to identify one or more suitable visualization types a
 
 7. Find a visual representation of our top 10 customers by turnover?
 
-8. Who is more open to marketing emails: University staff or other people? Find a suitable visual display!
+8. Who is more open to marketing emails: University staff or other people? Find a suitable visualization!
 
 9. Do iPhone or Android users spent more money per order?
 
-10. Find a suitable visualization to quickly identify the hotspot order time slote during the week! When should we careful not to perform any shop maintenance?
+10. Find a suitable visualization to quickly identify the hotspot order time slots during the week! When should we careful not to perform any shop maintenance?

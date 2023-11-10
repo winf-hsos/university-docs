@@ -33,7 +33,7 @@ Die `index.html` befüllt ihr mit dem rudimentären HTML-Template. Die anderen b
 
 ### Aufgabe 1: Neue Aufgaben erstellen
 
-Im ersten Schritt sollt ihr die Möglichkeit schaffen, Aufgaben zu erstellen und in einer Liste anzuzeigen. Dazu benötigen wir ein Eingabefeld, in das der Benutzer den Titel der Aufgabe eingeben kann. Gleichzeitig benötigen wir eine Schaltfläche (Button), um die Aufgabe anzulegen.
+Im ersten Schritt sollt ihr die Möglichkeit schaffen, Aufgaben zu erstellen und in einer Liste anzuzeigen. Dazu benötigt ihr ein Eingabefeld, in das der Benutzer den Titel der Aufgabe eingeben kann. Gleichzeitig benötigt ihr eine Schaltfläche (Button), um die Aufgabe anzulegen.
 
 - Fügt eurer Anwendung ein Texteingabefeld und einen Button hinzu! Gebt dem Button ein sinnvolles Label!
 
