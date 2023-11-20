@@ -1,33 +1,26 @@
 ---
-title: "Exercise: Answer Questions with SQL"
+title: "Exercise: Building the Data Layer with Python"
 subtitle: "Campusbier Database"
 lang: en
 ---
 
-In this exercise, you are going to answer some questions regarding our *campusbier* database.
+In this exercise, we are going to build the data layer with Python that allows to fetch data via defined queries from our database. The data layer serves as the glue between the database and the application layer and aims to encapsulate access to the database to decouple the application from the underlying data structure.
 
 ::: {.callout-note appearance="simple" icon="false"}
-Note that you must have downloaded and opened the *campusbier* database before you start this exercise.
+Note that you must have downloaded and opened the *campusbier.db* database before you start this exercise.
 :::
 
-### Task 1: Find SQL statements to answer the following questions regarding our orders
+### Task 1: Create read access for frequent reports
 
-1. How many orders were placed in total?
+Imagine that we're building an information system that uses data from our Campusbier database to serve a hypothetical employee in her daily business. The employee requires the same information at a certain frequency (e.g. daily, weekly) and we therefore want to create a functionality to pull up that information with the push of a button.
 
-2. How many orders were placed within each year?
+Create suitable Python functions to fetch the following information. Use parameters where necessary:
 
-3. How many orders were refunded?
+1. The detailed information regarding a specific order with a given order ID.
 
-4. Which is the most popular payment type?
+2. A list of orders containing the order ID, date, and customer information for a given date range.
 
-5. Which hours of the day are the preferred shopping times of our customers?
+3. A list of the unique customers along with number of orders and total turnover per customer for a given date range.
 
-6. How many unique customers do we have?
+4. Create Python script that as user can run from the command line and that prompts the user to choose one of the three reports from above. It then asks for the specific parameter values of the chosen report, fetches the data, and displays the result on the console.
 
-7. How many of the unique customers are from Osnabrück?
-
-8. Besides Osnabrück, what is the top 10 of locations where our customers come from?
-
-9. What percentage of our customers allows us to contact them with marketing?
-
-10. Which are the 3 months with the most turnover?
