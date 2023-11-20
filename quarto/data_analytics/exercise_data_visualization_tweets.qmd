@@ -1,0 +1,14 @@
+---
+title: "Data Visualization with Tweets"
+---
+
+## 1. Simple Visualizations
+
+...
+
+
+## 2. Food for Thought
+
+Try to answer the following questions to deepen your understanding of the topics around data visualization with R and ggplot2. 
+
+-   In the context of data visualization, what is the Grammar of Graphics, and how does ggplot2 implement it? How does this framework help users create complex and customizable visualizations?

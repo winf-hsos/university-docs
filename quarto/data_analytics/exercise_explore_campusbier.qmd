@@ -1,0 +1,44 @@
+---
+title: "Explore Campusbier Sales Data"
+---
+
+## Exercise 1: Determine dimensions
+
+Determine the number of columns and rows of the data set. You will find that there are several ways to do this. Also, find a way to store both sizes on one variable each. This can be important, for example, if you want to work with the sizes in the further course of the script.
+
+## Exercise 2: Useful exploration functions
+
+Research and test the following functions. Write down in your own words what each function returns:
+
+-   `head()`
+-   `tail()`
+-   `print()`
+-   `sample_n()`
+-   `glimpse()`
+-   `summary()`
+-   `colnames()`
+
+What parameters can you pass to each function? What would you use the functions for?
+
+## Exercise 3: Determine data types
+
+Find a way to output the data type for each column on the console!
+
+-  Which data types are represented?
+
+-  In your view, have all columns been recognized correctly?
+
+## Exercise 4: The `{skimr}` package
+
+Install the `{skimr}` package by executing the following line:
+
+```{r}
+#| eval: false
+install.packages("skimr")
+```
+
+Now consider the function `skim()`.
+
+-  What does the function determine when we pass it a data set?
+
+-  Use the function to output only the percentage of missing values (`NA`) for each column on the console!

@@ -74,6 +74,17 @@
 - [exercise_campusbier_find_and_build_the_plot.pdf](quarto/applied_analytics/exercise_campusbier_find_and_build_the_plot.pdf)
 - [exercise_experts_in_data_transformation.pdf](quarto/applied_analytics/exercise_experts_in_data_transformation.pdf)
 
+### Data Analytics
+
+- [exercise_data_transformation_and_visualization_with_tweets.pdf](quarto/data_analytics/exercise_data_transformation_and_visualization_with_tweets.pdf)
+- [exercise_data_transformation_campusbier.pdf](quarto/data_analytics/exercise_data_transformation_campusbier.pdf)
+- [exercise_data_transformation_tweets.pdf](quarto/data_analytics/exercise_data_transformation_tweets.pdf)
+- [exercise_data_visualization_tweets.pdf](quarto/data_analytics/exercise_data_visualization_tweets.pdf)
+- [exercise_explore_campusbier.pdf](quarto/data_analytics/exercise_explore_campusbier.pdf)
+- [exercise_explore_transform_rewe_products.pdf](quarto/data_analytics/exercise_explore_transform_rewe_products.pdf)
+- [exercise_rule_based_text_classification_newspaper_articles.pdf](quarto/data_analytics/exercise_rule_based_text_classification_newspaper_articles.pdf)
+- [exercise_search_and_extract_text_data_from_tweets.pdf](quarto/data_analytics/exercise_search_and_extract_text_data_from_tweets.pdf)
+
 ### Information Management
 
 - [exercise_campusbier_sql_queries.pdf](quarto/information_management/exercise_campusbier_sql_queries.pdf)
