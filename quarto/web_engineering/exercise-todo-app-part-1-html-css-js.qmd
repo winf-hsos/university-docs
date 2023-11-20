@@ -1,5 +1,5 @@
 ---
-title: "Übung: Erstellung einer Todo-App"
+title: "Übung: Entwicklung einer Todo-App"
 subtitle: "Die GUI mit HTML, CSS und JavaScript"
 lang: de
 ---
