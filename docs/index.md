@@ -35,6 +35,8 @@
 - [Introduction to JavaScript for the Web.pdf](google_slides/web_engineering/Introduction to JavaScript for the Web.pdf)
 - [Web Engineering - Course Logistics.pdf](google_slides/web_engineering/Web Engineering - Course Logistics.pdf)
 - [Web Engineering - Das JSON Format.pdf](google_slides/web_engineering/Web Engineering - Das JSON Format.pdf)
+- [Web Engineering - Einfuehrung Bootstrap.pdf](google_slides/web_engineering/Web Engineering - Einfuehrung Bootstrap.pdf)
+- [Web Engineering - Layout mit Bootstrap.pdf](google_slides/web_engineering/Web Engineering - Layout mit Bootstrap.pdf)
 - [Web Engineering - Local Storage.pdf](google_slides/web_engineering/Web Engineering - Local Storage.pdf)
 
 ### Wirtschaftsinformatik
@@ -75,6 +77,7 @@
 ### Information Management
 
 - [exercise_campusbier_sql_queries.pdf](quarto/information_management/exercise_campusbier_sql_queries.pdf)
+- [exercise_data_layer_with_python.pdf](quarto/information_management/exercise_data_layer_with_python.pdf)
 - [exercise_erm_exam_planning.pdf](quarto/information_management/exercise_erm_exam_planning.pdf)
 - [exercise_erm_products.pdf](quarto/information_management/exercise_erm_products.pdf)
 - [exercise_information_modeling.pdf](quarto/information_management/exercise_information_modeling.pdf)
