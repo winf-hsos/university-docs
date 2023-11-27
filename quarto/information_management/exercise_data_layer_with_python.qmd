@@ -22,5 +22,5 @@ Create suitable Python functions to fetch the following information. Use paramet
 
 3. A list of the unique customers along with number of orders and total turnover per customer for a given date range.
 
-4. Create Python script that as user can run from the command line and that prompts the user to choose one of the three reports from above. It then asks for the specific parameter values of the chosen report, fetches the data, and displays the result on the console.
+4. Create Python script that a user can run from the command line and that prompts the user to choose one of the three reports from above. It then asks for the specific parameter values of the chosen report, fetches the data, and displays the result on the console.
 

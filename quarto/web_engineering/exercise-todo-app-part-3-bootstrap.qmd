@@ -24,7 +24,7 @@ Jeder Webanwendung liegt eine Struktur zugrunde, die bestimmt, an welcher Stelle
 
     3.  Einen Footer (**E**), in dem neben Informationen zu unserem Unternehmen ein Menü mit Einträgen zum Impressum etc. erscheinen soll.
 
--   Überlegt euch für jede der drei Bereiche und deren Spalten passende Größenverhältnisse. Erstellt eine SKizze eures Layouts.
+-   Überlegt euch für jede der drei Bereiche und deren Spalten passende Größenverhältnisse. Erstellt eine Skizze eures Layouts.
 
 -   Setzt das Layout mithilfe der entsprechenden Bootstrap-Klassen wie `.container`, `.row` und `.col` und seinen Spezialfällen um.
 
