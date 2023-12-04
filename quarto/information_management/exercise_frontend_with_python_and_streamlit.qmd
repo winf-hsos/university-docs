@@ -1,5 +1,5 @@
 ---
-title: "Exercise: Building the GUI with Python and Streamlit"
+title: "Exercise: Building the Presentation Layer with Python and Streamlit"
 subtitle: "Campusbier Database"
 lang: en
 ---
