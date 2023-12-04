@@ -91,6 +91,7 @@
 - [exercise_data_layer_with_python.pdf](quarto/information_management/exercise_data_layer_with_python.pdf)
 - [exercise_erm_exam_planning.pdf](quarto/information_management/exercise_erm_exam_planning.pdf)
 - [exercise_erm_products.pdf](quarto/information_management/exercise_erm_products.pdf)
+- [exercise_frontend_with_python_and_streamlit.pdf](quarto/information_management/exercise_frontend_with_python_and_streamlit.pdf)
 - [exercise_information_modeling.pdf](quarto/information_management/exercise_information_modeling.pdf)
 - [exercise_information_modeling_products.pdf](quarto/information_management/exercise_information_modeling_products.pdf)
 
