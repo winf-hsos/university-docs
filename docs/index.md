@@ -27,6 +27,7 @@
 - [Information Management - What is a Database.pdf](google_slides/information_management/Information Management - What is a Database.pdf)
 - [Joining data sets with R and SQL.pdf](google_slides/information_management/Joining data sets with R and SQL.pdf)
 - [Manage Tables with SQL.pdf](google_slides/information_management/Manage Tables with SQL.pdf)
+- [SQL - Cheat Sheet.pdf](google_slides/information_management/SQL - Cheat Sheet.pdf)
 
 ### Web Engineering
 
