@@ -95,11 +95,13 @@
 - [exercise_frontend_with_python_and_streamlit.pdf](quarto/information_management/exercise_frontend_with_python_and_streamlit.pdf)
 - [exercise_information_modeling.pdf](quarto/information_management/exercise_information_modeling.pdf)
 - [exercise_information_modeling_products.pdf](quarto/information_management/exercise_information_modeling_products.pdf)
+- [exercise_recruiting.pdf](quarto/information_management/exercise_recruiting.pdf)
 
 ### Web Engineering
 
 - [exercise-personal-website-css.pdf](quarto/web_engineering/exercise-personal-website-css.pdf)
 - [exercise-personal-website-html.pdf](quarto/web_engineering/exercise-personal-website-html.pdf)
+- [exercise-tic-tac-toe.pdf](quarto/web_engineering/exercise-tic-tac-toe.pdf)
 - [exercise-todo-app-part-1-html-css-js.pdf](quarto/web_engineering/exercise-todo-app-part-1-html-css-js.pdf)
 - [exercise-todo-app-part-2-data.pdf](quarto/web_engineering/exercise-todo-app-part-2-data.pdf)
 - [exercise-todo-app-part-3-bootstrap.pdf](quarto/web_engineering/exercise-todo-app-part-3-bootstrap.pdf)

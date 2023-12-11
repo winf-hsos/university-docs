@@ -1,0 +1,50 @@
+---
+title: "Exercise: Human Resources Recruitment"
+lang: en
+---
+
+### Scenario
+
+In this exercise, you will develop an information management solution to enhance the recruitment process at your company. The focus is on the IT department, which is in search of skilled workers. Your objective is to automate the application screening process to the greatest extent possible, streamlining the task of identifying suitable candidates.
+
+Your company is looking to fill positions that require specific IT skills. These skills include expertise in programming languages, knowledge of various software packages, and qualifications in project management, like being a certified Scrum Master. In addition to the required qualifications, a job posting will specify the job title, the level of seniority, the salary range, the date of publication, and the application deadline.
+
+Applicants can submit their applications through the company's recruitment portal. First, they need to create an account using their email address. After that, they can add their contact details, such as their address and phone number. The final step is to submit their application, which should include a cover letter and a CV, both in plain text format. They also have to specify the job position they apply for. After submission, the applicant is notified via e-mail that the application has been received.
+
+Once an application is received, it undergoes a screening process according to the specified job requirements. In this process, each requirement is carefully assessed and given a rating between 1 and 3. A rating of 1 shows that the requirement is fully met, whereas a 3 indicates it is not met at all. A rating of 2 is given when it's unclear if the requirement is fully met. Based on these evaluations, a decision is documented on whether to advance the application to the next stage of the recruitment process. For each job posting, the company assings an employee from the HR team who is responsible for the whole process.
+
+### Task 1: Modeling the database
+
+Our first step is to get a clearer picture about the information requirements and how a database model could look like!
+
+1.  Model the information requirements using an **Entity Relationship Diagram**. For your model, take into account the scenario description from above!
+
+2.  Transform the ERM into a **relational database model**!
+
+### Task 2: Implementing the database
+
+Set up the relational database model in an **SQLite database**. Write a SQL script that, when executed, constructs the entire database. Ensure that this script can be run repeatedly without resulting in any errors. Select appropriate data types for each column in your database. It's important to include primary and foreign key relationships in your design. Also, remember to follow the standard SQL naming conventions throughout your database.
+
+### Task 3: Modeling the business process
+
+Now that the database is set up, it's time to plan the required steps and figure out how they can be assisted by your information management system. For this, put yourself in the shoes of both an applicant and an HR employee. Then, map out the entire process using the **Business Process Modeling Notation (BPMN)**. This will help you understand and design the process from both perspectives. Make sure to include in your BPMN model the points where access to the database is necessary, both reading and writing.
+
+### Task 4: Building the data layer
+
+In every step of your business process that requires data access, identify which of the four CRUD (Create, Read, Update, Delete) operations is needed. Then, write a designated Python function to perform this operation. Make sure to include all the necessary parameters in the function's signature. Also, give your functions descriptive and meaningful names.
+
+### Task 5: Adding a user interface
+
+Develop a simple user interface using Streamlit. For every step in the business process that needs human input, set up an appropriate screen on a separate page. This page should have all the elements needed to collect user responses and show important information. Make sure to create these screens for both the applicant and the HR employee, considering their different needs. Also, use the data layer to connect to the database whenever necessary
+
+### Task 6: Programming the application logic
+
+Now, develop the application logic for the information management system. The application layer plays a crucial role in automating certain steps in the recruitment process. Here are the key components you need to focus on:
+
+1.  Implement the decision logic for deciding if job requirements are met by an applicant:\
+    \
+    Your system should evaluate each applicant based on whether they meet 80% or more of the job requirements. This score should be calculated automatically based on the requirements of a job posting and the assessment for a specific application.
+
+2.  Integration of GPT-3.5 for requirement assessment of an application:\
+    \
+    Integrate OpenAI's GPT-3.5 to assist in assessing whether applicants meet the specified job requirements. Utilize GPT-3.5 to analyze the applicants' submitted information (such as CVs and cover letters) and determine the extent to which they satisfy the necessary skills and qualifications. Ensure that the integration is seamless and that GPT-3.5's analysis contributes effectively to the decision-making process. The AI model should create a suggestion for an assessment, which must be confirmed via the GUI by the HR employee responsible.
