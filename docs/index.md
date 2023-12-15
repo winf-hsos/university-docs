@@ -4,6 +4,10 @@
 ## Google Documents
 
 
+### modern_data_analytics_with_r
+
+- [Syllabus - Modern Data Analytics with R.pdf](google_documents/modern_data_analytics_with_r/Syllabus - Modern Data Analytics with R.pdf)
+
 ### Projekt Agrar/Lebensmittel
 
 - [Infoblatt Projekt Agrar Lebensmittel.pdf](google_documents/projekt_agrar_lebensmittel/Infoblatt Projekt Agrar Lebensmittel.pdf)
