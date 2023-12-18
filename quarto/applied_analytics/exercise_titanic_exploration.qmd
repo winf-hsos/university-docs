@@ -1,0 +1,52 @@
+---
+title: "Übung: Explorative Analyse des Titanic-Unglücks"
+lang: de
+---
+
+### Vorbereitung
+
+Ladet den Datensatz der der Titanic-Passagiere mit den folgenden Zeilen:
+
+```{r}
+#| eval: false
+library(tidyverse)
+titanic <- readRDS("data/titanic.rds")
+```
+
+Erstellt eure Analyse in einem neuen Quarto-Dokument. Nutzt Markdown und strukturierte Überschriften, um eure Analyse übersichtlich zu gestalten. Gliedert eure Untersuchung in die folgenden drei Phasen:
+
+1.  Datensatz kennenlernen
+2.  Explorative Analyse
+3.  Zusammenfassung und Ausblick
+
+Nutzt die Vorzüge von Quarto zur Automatisierung eurer Analyse. Verwendet etwa Variablen in eurem Fließetext, wenn ihr Ergebnisse kommentiert. Nutzt Querverweise auf Abbildungen, wenn ihr sie im Text referenziert.
+
+### Aufgabe 1: Den Datensatz kennenlernen
+
+In diesem Abschnitt sollt ihr den Titanic-Datensatz laden und euch mit dessen Inhalt vertraut machen. Beantwortet folgende Fragen:
+
+-   Was repräsentieren die verschiedenen Spalten?
+
+-   Überprüft die Datentypen jeder Spalte. Sind Anpassungen notwendig?
+
+-   Untersucht die Wertebereiche und Verteilungen innerhalb der einzelnen Spalten. Gibt es Besonderheiten oder Auffälligkeiten?
+
+-   Wie würdet ihr die Datenqualität jeder Spalte bewerten?
+
+### Aufgabe 2: Explorative Analyse
+
+Nun führt eine tiefere Untersuchung der Daten durch. Entwickelt Fragen basierend auf euren Beobachtungen aus Aufgabe 1:
+
+-   Wie lassen sich die Verteilungen bestimmter Spalten erklären?
+
+-   Zwischen welchen Variablen könnten Zusammenhänge bestehen?
+
+-   Welche Muster oder Besonderheiten fallen euch in euren Visualisierungen auf?
+
+### Aufgabe 3: Erkenntnisse und Ausblick
+
+Schließt eure Analyse ab, indem ihr:
+
+-   Eure wichtigsten Erkenntnisse zusammenfasst und bewertet.
+
+-   Überlegt, welche weiteren Analysen interessant wären, die ihr nicht durchgeführt habt. Welche zusätzlichen Daten würden helfen, um tiefergehende Fragen zu untersuchen?

@@ -3,7 +3,7 @@ title: "Übung: Entwicklung eines Tic-Tac-Toe-Spiels"
 title-meta: "Web Engineering"
 ---
 
-In diesem Übungsblatt ...
+In diesem Übungsblatt entwickelt ihr eine einfache, webbasierte Variante des beliebten Tic Tac Toe Spiels.
 
 ### Aufgabe 1: ...
 

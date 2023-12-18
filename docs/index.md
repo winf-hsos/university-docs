@@ -78,6 +78,7 @@
 - [exercise_campusbier_erkundung.pdf](quarto/applied_analytics/exercise_campusbier_erkundung.pdf)
 - [exercise_campusbier_find_and_build_the_plot.pdf](quarto/applied_analytics/exercise_campusbier_find_and_build_the_plot.pdf)
 - [exercise_experts_in_data_transformation.pdf](quarto/applied_analytics/exercise_experts_in_data_transformation.pdf)
+- [exercise_titanic_exploration.pdf](quarto/applied_analytics/exercise_titanic_exploration.pdf)
 
 ### Data Analytics
 
