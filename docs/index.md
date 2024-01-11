@@ -53,10 +53,6 @@
 ## Images
 
 
-### computational_schema_1.png
-
-- [computational_schema_1.png](images/computational_schema_1.png)
-
 ### computational_schema_2.png
 
 - [computational_schema_2.png](images/computational_schema_2.png)
