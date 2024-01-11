@@ -48,7 +48,10 @@ for (file in files) {
     if(is.na(heading_text))
       heading_text = subcategory
     
-    output <- c(output, paste0("\n### ", heading_text, "\n"))
+    # No subheader for images
+    if(current_category != "images") {
+      output <- c(output, paste0("\n### ", heading_text, "\n"))
+    }
   }
   
   if(endsWith(file, ".pdf") | endsWith(file, ".png")) {

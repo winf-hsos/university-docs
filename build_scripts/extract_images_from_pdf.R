@@ -5,6 +5,7 @@ library(stringr)
 source("build_scripts/utils.R")
 
 extract_images <- function(pdf_path) {
+  #print(pdf_path)
   pdf_info <- pdf_info(pdf_path)
   total_slides <- pdf_info$pages
   pdf_text <- pdf_text(pdf_path)
@@ -17,6 +18,7 @@ extract_images <- function(pdf_path) {
     #print(image_file_name)
     
     if(!is.na(image_file_name)) {
+      print(image_file_name)
       image <- image_read_pdf(pdf_path, pages = p )
       image_path = paste0(images_output_path, image_file_name, ".png")
       unlink(image_path)
