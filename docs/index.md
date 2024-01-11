@@ -53,9 +53,29 @@
 ## Images
 
 
-### computational_schema_2.png
+### computational_schema_blackbox.png
 
-- [computational_schema_2.png](images/computational_schema_2.png)
+- [computational_schema_blackbox.png](images/computational_schema_blackbox.png)
+
+### computational_schema_chatgpt.png
+
+- [computational_schema_chatgpt.png](images/computational_schema_chatgpt.png)
+
+### computational_schema_computation.png
+
+- [computational_schema_computation.png](images/computational_schema_computation.png)
+
+### computational_schema_function.png
+
+- [computational_schema_function.png](images/computational_schema_function.png)
+
+### computational_schema_input_output_function.png
+
+- [computational_schema_input_output_function.png](images/computational_schema_input_output_function.png)
+
+### computational_schema_processing_representation.png
+
+- [computational_schema_processing_representation.png](images/computational_schema_processing_representation.png)
 
 ### database_system_architecture.png
 
