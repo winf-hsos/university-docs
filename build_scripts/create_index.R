@@ -10,6 +10,7 @@ md_file <- paste0(path, "/index.md")
 output <- c("# Content\n")
 
 headings_dict <- c(
+  static = "Static Files",
   google_documents = "Google Documents",
   google_slides = "Google Slides",
   quarto = "Quarto Documents",
@@ -19,6 +20,7 @@ headings_dict <- c(
   web_engineering = "Web Engineering",
   projekt_agrar_lebensmittel = "Projekt Agrar/Lebensmittel",
   wirtschaftsinformatik = "Wirtschaftsinformatik",
+  empirisches_arbeiten = "Empirisches Arbeiten",
   data_analytics= "Data Analytics"
 )
 

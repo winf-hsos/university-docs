@@ -107,3 +107,26 @@
 - [exercise-todo-app-part-1-html-css-js.pdf](quarto/web_engineering/exercise-todo-app-part-1-html-css-js.pdf)
 - [exercise-todo-app-part-2-data.pdf](quarto/web_engineering/exercise-todo-app-part-2-data.pdf)
 - [exercise-todo-app-part-3-bootstrap.pdf](quarto/web_engineering/exercise-todo-app-part-3-bootstrap.pdf)
+
+## Static Files
+
+
+### klausur_ea_ss_23.pdf
+
+- [klausur_ea_ss_23.pdf](static/klausur_ea_ss_23.pdf)
+
+### klausur_ea_ws_21_22.pdf
+
+- [klausur_ea_ws_21_22.pdf](static/klausur_ea_ws_21_22.pdf)
+
+### klausur_ea_ws_22_23.pdf
+
+- [klausur_ea_ws_22_23.pdf](static/klausur_ea_ws_22_23.pdf)
+
+### klausur_ea_ws_23_24.pdf
+
+- [klausur_ea_ws_23_24.pdf](static/klausur_ea_ws_23_24.pdf)
+
+### klausur_ea_ws_23_24_mit_loesungen.pdf
+
+- [klausur_ea_ws_23_24_mit_loesungen.pdf](static/klausur_ea_ws_23_24_mit_loesungen.pdf)

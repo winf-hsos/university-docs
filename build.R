@@ -5,9 +5,14 @@ if (exists("build_steps")) {
   run_all <- FALSE
 } else {
   cat("Running all build steps\n")
-  build_steps <- c("google_slides", "google_docs", "quarto", "extract_images", "create_index", "push")
+  build_steps <- c("static_files", "google_slides", "google_docs", "quarto", "extract_images", "create_index", "push")
   recreate_ouput_directory("docs/")
   run_all <- TRUE
+}
+
+# Static Files
+if("static_files" %in% build_steps) {
+  source("build_scripts/copy_static_files.R")
 }
 
 # Docs
