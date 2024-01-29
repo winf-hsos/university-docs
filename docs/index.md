@@ -60,6 +60,9 @@
 - [computational_schema_input_output_function.png](images/computational_schema_input_output_function.png)
 - [computational_schema_processing_representation.png](images/computational_schema_processing_representation.png)
 - [database_system_architecture.png](images/database_system_architecture.png)
+- [digital_competence_society_smooth.png](images/digital_competence_society_smooth.png)
+- [digital_competence_society_split.png](images/digital_competence_society_split.png)
+- [problem_model_input_solution_output.png](images/problem_model_input_solution_output.png)
 - [variables_as_containers.png](images/variables_as_containers.png)
 
 ## Quarto Documents
