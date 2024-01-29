@@ -15,5 +15,15 @@ if (dir.exists("docs/static")) {
 # Overwrite all contents if the directory exists
 dir.create("docs/static", recursive = TRUE, showWarnings = FALSE)
 
-# Copy all files to the "docs" directory
-file.copy(static_files, "docs/static", recursive = TRUE)
+for (static_file in static_files) {
+  
+  destination <- paste0("docs/", static_file)
+  
+  # Check if destination exists and create if not
+  if (!dir.exists(dirname(destination))) {
+    dir.create(dirname(destination), recursive = TRUE, showWarnings = FALSE)
+  }
+
+  # Copy the file to the "docs" directory
+  file.copy(static_file, destination, overwrite = TRUE)
+}
