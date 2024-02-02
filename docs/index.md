@@ -46,9 +46,9 @@
 
 ### Wirtschaftsinformatik
 
+- [Digitization and Programming.pdf](google_slides/wirtschaftsinformatik/Digitization and Programming.pdf)
 - [LiFi-Project - Kick-Off.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf)
 - [LiFi-Project - Program's Anatomy.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Program's Anatomy.pdf)
-- [Problem Solving and Computational Thinking.pdf](google_slides/wirtschaftsinformatik/Problem Solving and Computational Thinking.pdf)
 
 ## Images
 
