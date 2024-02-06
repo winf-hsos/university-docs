@@ -55,6 +55,7 @@
 - [chess_1.png](images/chess_1.png)
 - [chess_2.png](images/chess_2.png)
 - [chess_3.png](images/chess_3.png)
+- [chess_move.png](images/chess_move.png)
 - [codes_heart_pixel.png](images/codes_heart_pixel.png)
 - [computational_schema_blackbox.png](images/computational_schema_blackbox.png)
 - [computational_schema_chatgpt.png](images/computational_schema_chatgpt.png)
