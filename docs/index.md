@@ -52,6 +52,7 @@
 
 ## Images
 
+- [chess_1.png](images/chess_1.png)
 - [chess_2.png](images/chess_2.png)
 - [chess_3.png](images/chess_3.png)
 - [codes_heart_pixel.png](images/codes_heart_pixel.png)
