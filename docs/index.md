@@ -65,6 +65,7 @@
 - [digital_competence_society_split.png](images/digital_competence_society_split.png)
 - [digital_literacy_skills.png](images/digital_literacy_skills.png)
 - [digital_literacy_skills_with_languages.png](images/digital_literacy_skills_with_languages.png)
+- [flashlight.png](images/flashlight.png)
 - [problem_example_addition.png](images/problem_example_addition.png)
 - [problem_model_input_solution_output.png](images/problem_model_input_solution_output.png)
 - [variables_as_containers.png](images/variables_as_containers.png)
