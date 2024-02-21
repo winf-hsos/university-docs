@@ -47,6 +47,7 @@
 ### Wirtschaftsinformatik
 
 - [Digitization and Programming.pdf](google_slides/wirtschaftsinformatik/Digitization and Programming.pdf)
+- [Exploratory Data Analysis with R and Python.pdf](google_slides/wirtschaftsinformatik/Exploratory Data Analysis with R and Python.pdf)
 - [LiFi-Project - Kick-Off.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf)
 - [LiFi-Project - Program's Anatomy.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Program's Anatomy.pdf)
 
@@ -69,6 +70,7 @@
 - [digital_competence_society_split.png](images/digital_competence_society_split.png)
 - [digital_literacy_skills.png](images/digital_literacy_skills.png)
 - [digital_literacy_skills_with_languages.png](images/digital_literacy_skills_with_languages.png)
+- [eda_process.png](images/eda_process.png)
 - [flashlight.png](images/flashlight.png)
 - [permutations_a_no_information.png](images/permutations_a_no_information.png)
 - [permutations_abc_n2.png](images/permutations_abc_n2.png)
