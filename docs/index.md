@@ -70,7 +70,6 @@
 - [database_system_architecture.png](images/database_system_architecture.png)
 - [digital_competence_society_smooth.png](images/digital_competence_society_smooth.png)
 - [digital_competence_society_split.png](images/digital_competence_society_split.png)
-- [digital_literacy_skills.png](images/digital_literacy_skills.png)
 - [digital_literacy_skills_with_languages.png](images/digital_literacy_skills_with_languages.png)
 - [eda_process.png](images/eda_process.png)
 - [flashlight.png](images/flashlight.png)
