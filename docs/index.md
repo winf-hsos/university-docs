@@ -46,10 +46,11 @@
 
 ### Wirtschaftsinformatik
 
-- [Digitization and Programming.pdf](google_slides/wirtschaftsinformatik/Digitization and Programming.pdf)
+- [Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing.pdf)
 - [Exploratory Data Analysis with R and Python.pdf](google_slides/wirtschaftsinformatik/Exploratory Data Analysis with R and Python.pdf)
 - [LiFi-Project - Kick-Off.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf)
 - [LiFi-Project - Program's Anatomy.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Program's Anatomy.pdf)
+- [Programming with Python.pdf](google_slides/wirtschaftsinformatik/Programming with Python.pdf)
 
 ## Images
 
