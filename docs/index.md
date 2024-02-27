@@ -92,7 +92,10 @@
 - [problem_search_prime_number_67_binary_step_5.png](images/problem_search_prime_number_67_binary_step_5.png)
 - [problem_search_prime_number_67_linear.png](images/problem_search_prime_number_67_linear.png)
 - [problem_word_count.png](images/problem_word_count.png)
+- [problem_word_count_distributed_2.png](images/problem_word_count_distributed_2.png)
+- [problem_word_count_distributed_4.png](images/problem_word_count_distributed_4.png)
 - [problem_word_count_linear_sequential.png](images/problem_word_count_linear_sequential.png)
+- [problem_word_count_parallelized.png](images/problem_word_count_parallelized.png)
 - [variables_as_containers.png](images/variables_as_containers.png)
 
 ## Quarto Documents
