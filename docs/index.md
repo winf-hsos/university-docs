@@ -53,6 +53,7 @@
 
 ## Images
 
+- [algorithms_size_runtime.png](images/algorithms_size_runtime.png)
 - [chess_1.png](images/chess_1.png)
 - [chess_2.png](images/chess_2.png)
 - [chess_3.png](images/chess_3.png)
