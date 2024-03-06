@@ -21,7 +21,9 @@ headings_dict <- c(
   projekt_agrar_lebensmittel = "Projekt Agrar/Lebensmittel",
   wirtschaftsinformatik = "Wirtschaftsinformatik",
   empirisches_arbeiten = "Empirisches Arbeiten",
-  data_analytics= "Data Analytics"
+  data_analytics= "Data Analytics",
+  digitization_and_programming = "Digitization and Programming",
+  digital_lab = "Digital Lab"
 )
 
 category = ""

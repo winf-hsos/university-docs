@@ -12,8 +12,14 @@ slides:
     # Digitization
     - 1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A
     
+    # SS 24 - Digitization
+    - 1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg
+    
     # Programming
     - 1N-HoYfpsdk4yOKgU7V3hjdLgl7vWHbQZl_6fJ8PEYno
+    
+    # SS24 - Programming with Python
+    - 1YQGgTCClB41fIFI6oUQVgbCrwFCd7iIiesHqnAQp4KU
     
     # Exploratory Data Analysis with R and Python
     - 1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ
@@ -87,4 +93,8 @@ slides:
     
     # Joining Data Sets with R and SQL
     - 1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4
+    
+  digital_lab:
+    
+    - 1NDn4rTBssxLHyO-_05APybLDME_yS2M9fFv18Kmblnw
 ---

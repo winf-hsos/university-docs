@@ -22,6 +22,10 @@
 - [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/applied_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf)
 - [Joining data sets with R and SQL.pdf](google_slides/applied_analytics/Joining data sets with R and SQL.pdf)
 
+### Digital Lab
+
+- [Digital Lab.pdf](google_slides/digital_lab/Digital Lab.pdf)
+
 ### Information Management
 
 - [Basic SQL.pdf](google_slides/information_management/Basic SQL.pdf)
@@ -51,6 +55,8 @@
 - [LiFi-Project - Kick-Off.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf)
 - [LiFi-Project - Program's Anatomy.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Program's Anatomy.pdf)
 - [Programming with Python.pdf](google_slides/wirtschaftsinformatik/Programming with Python.pdf)
+- [SS 24 - Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing.pdf)
+- [SS 24 - Programming with Python.pdf](google_slides/wirtschaftsinformatik/SS 24 - Programming with Python.pdf)
 
 ## Images
 
@@ -120,6 +126,11 @@
 - [exercise_explore_transform_rewe_products.pdf](quarto/data_analytics/exercise_explore_transform_rewe_products.pdf)
 - [exercise_rule_based_text_classification_newspaper_articles.pdf](quarto/data_analytics/exercise_rule_based_text_classification_newspaper_articles.pdf)
 - [exercise_search_and_extract_text_data_from_tweets.pdf](quarto/data_analytics/exercise_search_and_extract_text_data_from_tweets.pdf)
+
+### Digitization and Programming
+
+- [exercises_problem_solving.pdf](quarto/digitization_and_programming/exercises_problem_solving.pdf)
+- [exercises_programming_first_program.pdf](quarto/digitization_and_programming/exercises_programming_first_program.pdf)
 
 ### Information Management
 
