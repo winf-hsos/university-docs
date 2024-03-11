@@ -24,7 +24,7 @@
 
 ### Digital Lab
 
-- [Digital Lab.pdf](google_slides/digital_lab/Digital Lab.pdf)
+- [SS 24 - Digital Lab.pdf](google_slides/digital_lab/SS 24 - Digital Lab.pdf)
 
 ### Information Management
 
