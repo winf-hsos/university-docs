@@ -80,7 +80,6 @@
 - [digital_competence_society_split.png](images/digital_competence_society_split.png)
 - [digital_literacy_skills_with_languages.png](images/digital_literacy_skills_with_languages.png)
 - [eda_process.png](images/eda_process.png)
-- [flashlight.png](images/flashlight.png)
 - [large_complex_problem.png](images/large_complex_problem.png)
 - [large_complex_problem_4_smaller_problems.png](images/large_complex_problem_4_smaller_problems.png)
 - [large_complex_problem_5_smaller_problems.png](images/large_complex_problem_5_smaller_problems.png)
