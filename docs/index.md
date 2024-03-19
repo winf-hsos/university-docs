@@ -128,6 +128,7 @@
 
 ### Digitization and Programming
 
+- [exercises_information.pdf](quarto/digitization_and_programming/exercises_information.pdf)
 - [exercises_problem_solving.pdf](quarto/digitization_and_programming/exercises_problem_solving.pdf)
 - [exercises_programming_first_program.pdf](quarto/digitization_and_programming/exercises_programming_first_program.pdf)
 
