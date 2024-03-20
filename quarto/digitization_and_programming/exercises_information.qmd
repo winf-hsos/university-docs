@@ -6,11 +6,11 @@ lang: de
 
 ### Übungen
 
-1.  Was ist der Unterschied zwischen der Unsicherheit $H$ und Information $I$? Was haben beide Größen gemein?
+1.  Was ist der Unterschied zwischen der Unsicherheit $H$ und Information $I$? Was haben beide Größen gemeinsam?
 
 2.  Erläutere mit eigenen Worten, warum Ja/Nein-Fragen, die den Raum der Möglichkeiten jeweils halbieren, am effizientesten sind.
 
-3. Ihr sollt einen Buchstaben auf dem Alphabet erraten und dürft so viele Ja/Nein-Fragen stellen, wie ihr wollt. Welch Fragen stellt ihr?
+3. Ihr sollt einen Buchstaben aus dem Alphabet erraten und dürft so viele Ja/Nein-Fragen stellen, wie ihr wollt. Welche Fragen stellt ihr?
 
 4.  Warum ist das Bit die kleinste mögliche Informationseinheit?
 
@@ -27,6 +27,8 @@ lang: de
     d.  1000
     
     e.  1024
+    
+    f.  16777216
     
 
 7.  Berechnet den Bedarf an Bits, um die folgenden Nachrichten zu repräsentieren:
