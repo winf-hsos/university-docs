@@ -21,6 +21,7 @@
 - [Data Transformation with R and dplyr.pdf](google_slides/applied_analytics/Data Transformation with R and dplyr.pdf)
 - [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/applied_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf)
 - [Joining data sets with R and SQL.pdf](google_slides/applied_analytics/Joining data sets with R and SQL.pdf)
+- [The R Murder Mystery.pdf](google_slides/applied_analytics/The R Murder Mystery.pdf)
 
 ### Digital Lab
 
