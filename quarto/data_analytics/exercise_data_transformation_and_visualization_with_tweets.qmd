@@ -6,14 +6,6 @@ title: "Data Transformation and Visualization with Tweets"
 
 To develop proficiency in natural language processing (NLP), it is essential to first update your general data exploration skills. For this reason, your initial exercise will not involve working with unstructured data. Instead, you must demonstrate your ability to use **the five fundamental data transformation techniques** and employ **the basics of data visualization** with structured data first.
 
-Here are the relevant lessons from the online script. Make sure you study them carefully, including the provided literature, in order to solve this exercise:
-
--   [1 - Working Environment](https://wordlens.datalit.de/part-1-transform-and-visualize-data/working-environment)
--   [2 - R and the Tidyverse](https://wordlens.datalit.de/part-1-transform-and-visualize-data/r-and-the-tidyverse)
--   [3 - Data Loading](https://wordlens.datalit.de/part-1-transform-and-visualize-data/data-loading)
--   [4 - Data Transformation](https://wordlens.datalit.de/part-1-transform-and-visualize-data/data-transformation)
--   [5 - Data Visualization](https://wordlens.datalit.de/part-1-transform-and-visualize-data/data-visualization)
-
 Good Luck!
 
 ## YOUR TASKS
