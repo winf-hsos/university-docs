@@ -21,12 +21,20 @@ lang: de
 
 7. Ermittle die maximale Farbtiefe, die du für ein Bild mit 1000 x 800 Pixeln und einer Dateigröße von 0,8 MB verwenden kannst.
 
-8. Du möchtest eine Audiodatei mit einer Länge von 1 Minute speichern. Du wählst eine Sample Rate von 4000 Hz und eine Bit Depth von 16 Bit. Wie groß wird die Datei?
+8. Wie viele Farben könnten wir kodieren, wenn wir nur 7 Bits statt 8 für jede der Grundfarben Rot, Grün und Blau verwenden würden?
 
-9. Du hast eine Audiodatei (unkomprimiert) mit einer Länge von 10 Sekunden und einer Größe von 100 KB. Du weißt, dass die Sample Rate 5 Khz beträgt. Welche Bit Depth hat die Aufnahme?
+9. Wäre es sinnvoll, eine erweiterte Version des RGB-Codes zu erstellen, die für jede der Grundfarben ein zusätzliches Nibble hinzufügt? Wie viele Farben könnten wir dann kodieren? Finde Argumente für und gegen diese Idee!
 
-10. Du entwirfst ein Logo für deine Firma, das du auf möglichst unterschiedlichen Medien, vom Flyer bis zum Plakat, in hoher Qualität drucken möchtest. Welches Dateiformat wählst du und warum?
+10. Wir hatten nicht immer die vollen 16.777.216 Farben auf unseren Computerbildschirmen. Recherchiere, wie sich Farbcodes im Laufe der Geschichte der digitalen Computer entwickelt haben. Kannst du einige Screenshots aus längst vergangenen Zeiten finden?
 
-11. Erläutere den Unterschied zwischen Codesystemen mit fester und variabler Länge. Nenne jeweils ein Beispiel.
+11. Du möchtest eine Audiodatei mit einer Länge von 1 Minute speichern. Du wählst eine Sample Rate von 4000 Hz und eine Bit Depth von 16 Bit. Wie groß wird die Datei?
 
-12. Ist der Morsecode ein binäres Codesystem? Begründe deine Antwort.
+12. Du hast eine Audiodatei (unkomprimiert) mit einer Länge von 10 Sekunden und einer Größe von 100 KB. Du weißt, dass die Sample Rate 5 Khz beträgt. Welche Bit Depth hat die Aufnahme?
+
+13. Du entwirfst ein Logo für deine Firma, das du auf möglichst unterschiedlichen Medien, vom Flyer bis zum Plakat, in hoher Qualität drucken möchtest. Welches Dateiformat wählst du und warum?
+
+14. Erläutere den Unterschied zwischen Codesystemen mit fester und variabler Länge. Nenne jeweils ein Beispiel.
+
+15. Ist der Morsecode ein binäres Codesystem? Begründe deine Antwort.
+
+16. Wie viele Bits verwendet der Braille-Code, um ein Symbol darzustellen? Ist der Braille-Code ein Binärcode?

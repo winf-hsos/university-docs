@@ -6,20 +6,10 @@ lang: de
 
 ### Übungen
 
-1.  Welche Funktionen kennst du, die zum Funktionsumfang von Python gehören? Schlag in der [Dokumentation](https://docs.python.org/3/) nach und nenne mindestens 5 Funktionen und erläutere ihren Zweck!
+1.  Warum ist es nicht sinnvoll, hinter einer `return`-Anweisung innerhalb einer Funktion noch weitere Anweisungen zu schreiben?
 
-2.  Erläutere die Begriffe *Parameter* und *Rückgabewert* im Zusammenhang mit Funktionen in der Programmierung und nenne jeweils ein Beispiel!
+2.  Erläutere die Funktionsweise eine Format-Strings in Python? was passiert mit den Platzhaltern, wenn wir das "f" als Prefix weglassen?
 
+3.  Schreibe eine Funktion, die prüft, ob eine Zahl größer als die andere ist. Die Funktion soll zwei Parameter entgegennehmen und `True` zurückgeben, wenn die erste Zahl größer ist als die zweite, andernfalls `False`.
 
-3.  Wozu können Kommentare in einem Programm nützlich sein?
-
-4.  Beschreibt die Konventionen für die Benennung von Variablen oder Funktionen in Python! Warum ist es sinnvoll, Konventionen zu haben und einzuhalten?
-
-5. Was versteht man unter dem Begriff *bug* in der Programmierung? Welche Arten kennst du?
-
-6. Beschreibe mit eigenen Worten, was unter einer *Variable* zu verstehen ist! Was ist eine Variable aus technischer Sicht?
-
-7. Schreibe ein Programm, das den Benutzer um die Eingabe seines Namens bittet und ihn anschließend unter Nennung seines Namens begrüßt! Formuliere dein Programm zunächst als Pseudocode und schreibe die Schritte als Kommentare in dein Programm!
-
-8. Recherchiere, wie wir den Benutzer um die Eingabe von Zahlen bitten können und wie wir diese Zahlen in Python verarbeiten können! Schreibe ein Programm, das den Benutzer um die Eingabe von zwei Zahlen bittet und anschließend die Summe der beiden Zahlen ausgibt! Welche Art von Fehler kann dabei auftreten?
-
+4. Schreibe ein Programm für das folgende Problem: Der Benutzer wird beim Start aufgefordert, einen beliebigen Text bestehend aus Buchstaben und Zahlen einzugeben. Dein Programm soll den Text in Morse Code umwandeln und als Ton ausgeben. Verwende dazu die Funktion `Beep(frequency, duration)` aus dem Modul `winsound`. Die Funktion `Beep` erwartet zwei Parameter: die Frequenz des Tons in Hertz und die Dauer des Tons in Millisekunden. Wähle eine geeignete Frequenz für die Töne und schlage die Dauer der Töne für Dots, Dashes und Pausen im Internet nach. Gehe nach dem in der Vorlesung eingeführten Problemlösungsschema vor.
