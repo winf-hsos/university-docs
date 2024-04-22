@@ -51,22 +51,17 @@
 
 ### Wirtschaftsinformatik
 
-- [Digitization - Information Representation and Processing - Algorithms.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Algorithms.pdf)
-- [Digitization - Information Representation and Processing - Analog vs Digital.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Analog vs Digital.pdf)
-- [Digitization - Information Representation and Processing - Bits.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Bits.pdf)
-- [Digitization - Information Representation and Processing - Codes.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Codes.pdf)
-- [Digitization - Information Representation and Processing - Computers.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Computers.pdf)
-- [Digitization - Information Representation and Processing - Counting.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Counting.pdf)
-- [Digitization - Information Representation and Processing - Information.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Information.pdf)
-- [Digitization - Information Representation and Processing - Logic and Arithmetic.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Logic and Arithmetic.pdf)
-- [Digitization - Information Representation and Processing - Memory.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Memory.pdf)
-- [Digitization - Information Representation and Processing - Motivation.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Motivation.pdf)
-- [Digitization - Information Representation and Processing - Problem Solving.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - Problem Solving.pdf)
 - [Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing.pdf)
 - [Exploratory Data Analysis with R and Python.pdf](google_slides/wirtschaftsinformatik/Exploratory Data Analysis with R and Python.pdf)
 - [LiFi-Project - Kick-Off.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf)
 - [LiFi-Project - Program's Anatomy.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Program's Anatomy.pdf)
 - [Programming with Python.pdf](google_slides/wirtschaftsinformatik/Programming with Python.pdf)
+- [SS 24 - Digitization - Information Representation and Processing - Analog vs Digital.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - Analog vs Digital.pdf)
+- [SS 24 - Digitization - Information Representation and Processing - Bits.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - Bits.pdf)
+- [SS 24 - Digitization - Information Representation and Processing - Counting.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - Counting.pdf)
+- [SS 24 - Digitization - Information Representation and Processing - Information.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - Information.pdf)
+- [SS 24 - Digitization - Information Representation and Processing - Motivation.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - Motivation.pdf)
+- [SS 24 - Digitization - Information Representation and Processing - Problem Solving.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - Problem Solving.pdf)
 - [SS 24 - Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing.pdf)
 - [SS 24 - Programming with Python.pdf](google_slides/wirtschaftsinformatik/SS 24 - Programming with Python.pdf)
 

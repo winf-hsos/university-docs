@@ -46,5 +46,16 @@ split_pdf <- function(pdf_path) {
   }
 }
 
-# Example usage
-split_pdf("docs/google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing.pdf")
+# Split all PDFs with markers into separate files
+
+black_list = c("docs/google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing.pdf")
+
+files <- list.files(google_slides_output_path, full.names = TRUE, recursive = T)
+
+for (file in files) {
+  print(file)
+  if(endsWith(file, ".pdf") && !(file %in% black_list)) {
+    split_pdf(file)
+  }
+}
+
