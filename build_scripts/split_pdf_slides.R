@@ -2,7 +2,6 @@
 library(pdftools)
 library(stringr)
 
-
 split_pdf <- function(pdf_path) {
   # Extract text from each page
   text_pages <- pdf_text(pdf_path)
@@ -19,7 +18,7 @@ split_pdf <- function(pdf_path) {
     markers <- str_extract_all(text_pages[i], "(?<=%!).*?(?=%!)")[[1]]
     if (length(markers) > 0) {
       # Extract filename and add to list with the page number
-      filenames <- str_replace_all(markers, "%!|%!", "")
+      filenames <- markers
       split_points <- c(split_points, setNames(list(i), filenames))
     }
   }
@@ -27,17 +26,24 @@ split_pdf <- function(pdf_path) {
   print(split_points)
   
   # Now, split the PDF based on found markers
-  start_page <- 1
-  for (filename in names(split_points)) {
-    end_page <- split_points[[filename]] - 1
-    if (start_page <= end_page) {
-      output_folder <- dirname(pdf_path)
-      new_filename <- paste0(base_filename, " - ", filename, ".pdf")
-      pdf_subset(pdf_path, pages = start_page:end_page, output = file.path(output_folder, paste0(new_filename)))
-    }
-    start_page <- split_points[[filename]] + 1
+  if (length(split_points) == 0) return() # No markers found, nothing to do.
+  
+  start_page <- split_points[[1]] # Start with the first marker page
+  for (j in 2:length(split_points)) {
+    filename <- names(split_points)[j-1]
+    end_page <- split_points[[j]] - 1
+    output_folder <- dirname(pdf_path)
+    new_filename <- paste0(base_filename, " - ", filename, ".pdf")
+    pdf_subset(pdf_path, pages = start_page:end_page, output = file.path(output_folder, new_filename))
+    start_page <- split_points[[j]] # Next section starts from the current marker page
   }
   
+  # Handle last section if applicable
+  if (start_page <= length(text_pages)) {
+    filename <- names(split_points)[length(split_points)]
+    new_filename <- paste0(base_filename, " - ", filename, ".pdf")
+    pdf_subset(pdf_path, pages = start_page:length(text_pages), output = file.path(output_folder, new_filename))
+  }
 }
 
 # Example usage
