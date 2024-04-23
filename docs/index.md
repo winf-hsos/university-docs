@@ -21,7 +21,11 @@
 - [Data Transformation with R and dplyr.pdf](google_slides/applied_analytics/Data Transformation with R and dplyr.pdf)
 - [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/applied_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf)
 - [Joining data sets with R and SQL.pdf](google_slides/applied_analytics/Joining data sets with R and SQL.pdf)
+- [ML-Based NLP with spaCy and Python.pdf](google_slides/applied_analytics/ML-Based NLP with spaCy and Python.pdf)
+- [Rule-Based Text Classification with R.pdf](google_slides/applied_analytics/Rule-Based Text Classification with R.pdf)
+- [Searching Text with R and stringr.pdf](google_slides/applied_analytics/Searching Text with R and stringr.pdf)
 - [The R Murder Mystery.pdf](google_slides/applied_analytics/The R Murder Mystery.pdf)
+- [Tokenizing Text with R, stringr and tidyr.pdf](google_slides/applied_analytics/Tokenizing Text with R, stringr and tidyr.pdf)
 
 ### Digital Lab
 
@@ -110,6 +114,7 @@
 - [problem_word_count_distributed_4.png](images/problem_word_count_distributed_4.png)
 - [problem_word_count_linear_sequential.png](images/problem_word_count_linear_sequential.png)
 - [problem_word_count_parallelized.png](images/problem_word_count_parallelized.png)
+- [stringr_simple_searches_in_text.png](images/stringr_simple_searches_in_text.png)
 - [variables_as_containers.png](images/variables_as_containers.png)
 
 ## Quarto Documents
@@ -142,6 +147,7 @@
 - [exercises_problem_solving.pdf](quarto/digitization_and_programming/exercises_problem_solving.pdf)
 - [exercises_programming_first_program.pdf](quarto/digitization_and_programming/exercises_programming_first_program.pdf)
 - [exercises_programming_functions.pdf](quarto/digitization_and_programming/exercises_programming_functions.pdf)
+- [exercises_programming_loops_conditionals.pdf](quarto/digitization_and_programming/exercises_programming_loops_conditionals.pdf)
 
 ### Information Management
 

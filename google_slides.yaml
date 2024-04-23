@@ -97,6 +97,19 @@ slides:
     # The 'R' Murder Mystery
     - 1-AXlXNnt3WBZpXhXAeFs6xzWL2qPKe08j4k5qy-KqnQ
     
+    # Searching Text with R and stringr
+    - 1cbjPeLKjuXMJvAcaPi7HmhuT6KjZyGSj09HEs0Kxxf8
+    
+    # Tokenizing Text with R, stringr and tidyr
+    - 1BMDav7GK2iMo4nDYFy6Vw6lXggtU7G7rBzONTzCxpAk
+    
+    # Rule-Based Text Classification with R
+    - 1_7-syGiPKOKysEY-lAA04prhCQekydCGe6DuBMMugok
+    
+    # ML-based NLP with spaCy and Python
+    - 1ftAOhRYSN2D5RrczAK7bLjWwTJIGXTLfVb8I8dxKjrQ
+    
+    
   digital_lab:
     
     - 1LA0uPQn-fv3vi0nXkFiMk5jH6ET8vtmgE7TbmemoAVE
