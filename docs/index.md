@@ -22,6 +22,7 @@
 - [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/applied_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf)
 - [Joining data sets with R and SQL.pdf](google_slides/applied_analytics/Joining data sets with R and SQL.pdf)
 - [ML-Based NLP with spaCy and Python.pdf](google_slides/applied_analytics/ML-Based NLP with spaCy and Python.pdf)
+- [NLP - Text Representation.pdf](google_slides/applied_analytics/NLP - Text Representation.pdf)
 - [Rule-Based Text Classification with R.pdf](google_slides/applied_analytics/Rule-Based Text Classification with R.pdf)
 - [Searching Text with R and stringr.pdf](google_slides/applied_analytics/Searching Text with R and stringr.pdf)
 - [The R Murder Mystery.pdf](google_slides/applied_analytics/The R Murder Mystery.pdf)

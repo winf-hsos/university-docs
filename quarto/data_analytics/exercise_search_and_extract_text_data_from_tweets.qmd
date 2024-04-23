@@ -6,11 +6,6 @@ title: "Search and Extract Text Data From Tweets"
 
 Intuitive first steps to text analysis are simple **keyword and pattern searches**, **extractions**, or **replacements** of certain elements from text data. Learning how to do this will improve your understanding of the challenges involved in NLP.
 
-Here are the relevant lessons from the online script. Make sure you study them carefully, including the provided literature, in order to solve this exercise:
-
--   [7 - Searching Text](https://wordlens.datalit.de/part-1-transform-and-visualize-data/working-environment)
--   [8 - Imposing Structure](https://wordlens.datalit.de/part-2-rule-based-nlp/8-imposing-structure)
-
 Good Luck!
 
 ### Task 1: Search, Extract and Transform Tweets
