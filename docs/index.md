@@ -20,11 +20,12 @@
 - [Applied Analytics - Course Logistics.pdf](google_slides/applied_analytics/Applied Analytics - Course Logistics.pdf)
 - [Data Transformation with R and dplyr.pdf](google_slides/applied_analytics/Data Transformation with R and dplyr.pdf)
 - [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/applied_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf)
+- [Group Work - Text with R - TED Data.pdf](google_slides/applied_analytics/Group Work - Text with R - TED Data.pdf)
 - [Joining data sets with R and SQL.pdf](google_slides/applied_analytics/Joining data sets with R and SQL.pdf)
 - [ML-Based NLP with spaCy and Python.pdf](google_slides/applied_analytics/ML-Based NLP with spaCy and Python.pdf)
 - [NLP - Text Representation.pdf](google_slides/applied_analytics/NLP - Text Representation.pdf)
 - [Rule-Based Text Classification with R.pdf](google_slides/applied_analytics/Rule-Based Text Classification with R.pdf)
-- [Searching Text with R and stringr.pdf](google_slides/applied_analytics/Searching Text with R and stringr.pdf)
+- [Searching and Transforming Text with R and stringr.pdf](google_slides/applied_analytics/Searching and Transforming Text with R and stringr.pdf)
 - [The R Murder Mystery.pdf](google_slides/applied_analytics/The R Murder Mystery.pdf)
 - [Tokenizing Text with R, stringr and tidyr.pdf](google_slides/applied_analytics/Tokenizing Text with R, stringr and tidyr.pdf)
 
