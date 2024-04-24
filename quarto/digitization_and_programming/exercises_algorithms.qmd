@@ -1,0 +1,11 @@
+---
+title: "Übungen zu: 7. Algorithmen"
+subtitle: "Digitalisierung und Programmierung"
+lang: de
+---
+
+### Übungen
+
+1.  Woher stammt der Begriff "Algorithmus"?
+
+2.  Erläutere, was mit der Komplexität eines Algorithmus gemeint ist. Warum ist die Komplexität eines Algorithmus wichtig? Wie wird sie angegeben?

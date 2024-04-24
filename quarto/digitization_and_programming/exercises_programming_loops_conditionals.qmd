@@ -6,7 +6,7 @@ lang: de
 
 ### Übungen
 
-1.  Schreibe ein Programm, das die Summe aller Zahlen von 1 bis 100 berechnet und ausgibt. Verwende dazu eine Schleife.
+1.  Schreibe ein Programm, das die Summe aller Zahlen von 1 bis 100 berechnet und ausgibt. Verwende dazu eine Schleife!
 
 2.  Du hast in der Vorlesung im Zusammenhang mit dem **Traveling Salesman Problem** den Brute Force-Algorithmus kennengerlent. Nutze deine Pythonkenntnisse, um folgende Probleme zu lösen:
 
@@ -22,4 +22,4 @@ lang: de
 
     b.  Schreibe ein Programm, das die Kreiszahl $\pi$ mit Hilfe einer Monte Carlo-Simulation annähert. Die Formel zur Berechnung der Kreiszahl lautet: $\pi = 4 \cdot \frac{N_{C}}{N_{Q}}$, wobei $N_{C}$ die Anzahl der Punkte im Kreis und $N_{Q}$ die Anzahl der Punkte im Quadrat ist. Verwende dazu eine Schleife, die 1000 Punkte zufällig im Quadrat verteilt und zähle, wie viele Punkte innerhalb des Kreises liegen. Gib die Annäherung von $\pi$ nach 1000 Schritten aus.\
         \
-        **Hinweis**: Du kannst feststellen, ob ein Punkt innerhalb des Kreises liegt, indem du die Entfernung des Punktes zum Kreismittelpunkt berechnest.
+        **Hinweis**: Du kannst feststellen, ob ein Punkt innerhalb des Kreises liegt, indem du die Entfernung des Punktes zum Kreismittelpunkt berechnest. Nutze dazu die Kreisformel $x^2 + y^2 = r^2$, die bei einem Kreis mit $r = 1$ entsprechend einfach zu überprüfen ist.

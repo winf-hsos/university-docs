@@ -69,6 +69,7 @@
 - [SS 24 - Digitization - Information Representation and Processing - 4 - Bits.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 4 - Bits.pdf)
 - [SS 24 - Digitization - Information Representation and Processing - 5 - Codes.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 5 - Codes.pdf)
 - [SS 24 - Digitization - Information Representation and Processing - 6 - Analog vs Digital.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 6 - Analog vs Digital.pdf)
+- [SS 24 - Digitization - Information Representation and Processing - 7 - Algorithms.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 7 - Algorithms.pdf)
 - [SS 24 - Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing.pdf)
 - [SS 24 - Programming with Python.pdf](google_slides/wirtschaftsinformatik/SS 24 - Programming with Python.pdf)
 
@@ -143,6 +144,7 @@
 
 ### Digitization and Programming
 
+- [exercises_algorithms.pdf](quarto/digitization_and_programming/exercises_algorithms.pdf)
 - [exercises_codes.pdf](quarto/digitization_and_programming/exercises_codes.pdf)
 - [exercises_counting.pdf](quarto/digitization_and_programming/exercises_counting.pdf)
 - [exercises_information.pdf](quarto/digitization_and_programming/exercises_information.pdf)
