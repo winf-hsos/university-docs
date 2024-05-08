@@ -12,7 +12,7 @@ lang: de
 
     a.  Schreibe ein Programm zur Berechnung der Laufzeit des Brute-Force-Ansatzes beim Traveling Salesman Problem (TSP). Das Programm soll die Anzahl der Städte als Benutzereingabe entgegennehmen und die Anzahl möglicher Routen zusammen mit der Laufzeit in Sekunden und Jahren ausgeben. Die Laufzeit des Brute-Force-Ansatzes beträgt $O(n!)$, wobei $n$ die Anzahl der Städte ist. Schreibe dazu deine eigene Funktion `factorial()` und verwende darin eine Schleife, um die Fakultät der Anzahl der Städte zu berechnen. Nimm an, dass ein Schritt eine halbe Nanosekunde dauert. Das entspricht einer Prozessortaktung von 2 GHz.
 
-    b.  Lass Dir von deinem Programm die Laufzeiten für 10, 15 und 20 Jahre ausgeben. Wie viele Jahre würde es jeweils dauern, um alle Routen für die jeweilige Anzahl Städte zu berechnen?
+    b.  Lass Dir von deinem Programm die Laufzeiten für 10, 15 und 20 Städte ausgeben. Wie viele Jahre würde es jeweils dauern, um alle Routen für die jeweilige Anzahl Städte zu berechnen?
 
     c.  Untersuche welchen Einfluss die Prozessortaktung oder die benötigte Zeit in Nanosekunden für einen Schritt auf die Laufzeit hat. Was passiert, wenn die Prozessortaktung auf 3 GHz erhöht wird?
 
