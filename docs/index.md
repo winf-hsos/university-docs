@@ -28,6 +28,7 @@
 - [Searching and Transforming Text with R and stringr.pdf](google_slides/applied_analytics/Searching and Transforming Text with R and stringr.pdf)
 - [The R Murder Mystery.pdf](google_slides/applied_analytics/The R Murder Mystery.pdf)
 - [Tokenizing Text with R, stringr and tidyr.pdf](google_slides/applied_analytics/Tokenizing Text with R, stringr and tidyr.pdf)
+- [Working with the HPC Cluster.pdf](google_slides/applied_analytics/Working with the HPC Cluster.pdf)
 
 ### Digital Lab
 

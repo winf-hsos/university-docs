@@ -9,3 +9,5 @@ lang: de
 1.  Woher stammt der Begriff "Algorithmus"?
 
 2.  Erläutere, was mit der Komplexität eines Algorithmus gemeint ist. Warum ist die Komplexität eines Algorithmus wichtig? Wie wird sie angegeben?
+
+3. Welche Komplexitätsklassen kennst du? Bringe sie in eine Reihenfolge von der geringsten zur höchsten Komplexität.
