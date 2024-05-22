@@ -153,6 +153,7 @@
 - [exercises_codes.pdf](quarto/digitization_and_programming/exercises_codes.pdf)
 - [exercises_counting.pdf](quarto/digitization_and_programming/exercises_counting.pdf)
 - [exercises_information.pdf](quarto/digitization_and_programming/exercises_information.pdf)
+- [exercises_logic_and_arithmetic.pdf](quarto/digitization_and_programming/exercises_logic_and_arithmetic.pdf)
 - [exercises_problem_solving.pdf](quarto/digitization_and_programming/exercises_problem_solving.pdf)
 - [exercises_programming_first_program.pdf](quarto/digitization_and_programming/exercises_programming_first_program.pdf)
 - [exercises_programming_functions.pdf](quarto/digitization_and_programming/exercises_programming_functions.pdf)
