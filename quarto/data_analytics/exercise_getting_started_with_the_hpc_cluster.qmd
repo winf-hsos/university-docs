@@ -9,9 +9,9 @@ This exercise aims to get you started and familiarize you with working on the un
 
 ## Step 1: Access the HPC cluster
 
-Firstly, ensure access to the HPC cluster via the dedicated web frontend. This cluster is accessible solely within the university network. If off-campus, establish connection via VPN. Refer to [this wiki for VPN client setup](https://wiki.hs-osnabrueck.de/x/ZOdU).
+Firstly, ensure access to the HPC cluster via the dedicated web frontend. The cluster is accessible only from within the university network. If off-campus, you need to establish a connection via a VPN. Refer to [this wiki for VPN client setup](https://wiki.hs-osnabrueck.de/x/ZOdU).
 
-Once within the university network (on-campus or via VPN), access the HPC cluster's web frontend at <https://web.hpc.hs-osnabrueck.de>. Log in using your university credentials.
+Once within the university network (on-campus or via VPN), you can access the HPC cluster's web frontend at <https://web.hpc.hs-osnabrueck.de>. Log in using your university credentials.
 
 You successfully completed the first step when you see the HPC cluster's web frontend as shown in the image below.
 
@@ -19,9 +19,9 @@ You successfully completed the first step when you see the HPC cluster's web fro
 
 ## Step 2: Open a SSH shell
 
-There are various ways to interact with the HPC cluster. For executing code, we'll use Jupyter notebooks. However, before we can do that, we must ensure a functional Python environment accessible from our user account. To establish this, we'll opt for another method to interact with the cluster by opening an SSH terminal.
+There are various ways to interact with the HPC cluster. For executing code, we'll use Jupyter notebooks. However, before we can do that, we must ensure a functional Python environment accessible from our user account. To establish this, we'll opt for another method to interact with the cluster by opening an SSH shell or terminal.
 
-To open an SSH shell, navigate to "Interactive Apps" in the cluster's web frontend's top menu. Then, select "HiPer4All Shell Access". A new browser tab will open with a fresh shell ready. It will appear as a black screen, which is normal.
+To open an SSH shell, navigate to "Interactive Apps" in the cluster's web front end's top menu. Then, select "HiPer4All Shell Access". A new browser tab will open with a fresh shell ready. It will appear as a black screen, which is normal.
 
 ![The SSH shell opens in a new tab.](images/hpc_ssh_shell.png)
 
@@ -31,7 +31,7 @@ The SSH shell allows you to issue commands to the cluster's operating system. Yo
 
 -   What is the difference between `ls` and `ls -a`?
 
--   See if you can navigate within folder using cd `cd` command
+-   See if you can navigate within folders using cd `cd` command
 
 -   What does the command `pwd` do?
 
