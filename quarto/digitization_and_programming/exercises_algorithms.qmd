@@ -8,6 +8,18 @@ lang: de
 
 1.  Woher stammt der Begriff "Algorithmus"?
 
-2.  Erläutere, was mit der Komplexität eines Algorithmus gemeint ist. Warum ist die Komplexität eines Algorithmus wichtig? Wie wird sie angegeben?
+2.  Definiere, was ein Algorithmus ist, und gib drei verschiedene Beispiele aus dem Alltag, die keinen direkten Bezug zu Computern haben..
 
-3. Welche Komplexitätsklassen kennst du? Bringe sie in eine Reihenfolge von der geringsten zur höchsten Komplexität.
+3.  Erläutere, was mit der Komplexität eines Algorithmus gemeint ist. Warum ist die Komplexität eines Algorithmus wichtig? Wie wird sie angegeben?
+
+4.  Welche Komplexitätsklassen kennst du? Bringe sie in eine Reihenfolge von der geringsten zur höchsten Komplexität.
+
+5.  Berechne den GGT von 56 und 98 mithilfe des euklidischen Algorithmus und dokumentiere jeden Schritt!
+
+6.  Berechne die Quadratwurzel von 25 mit der babylonischen Methode und dokumentiere jeden Schritt!
+
+7.  Vergleiche die Ergebnisse der babylonischen Methode nach 3, 5 und 7 Iterationen mit dem exakten Wert der Quadratwurzel.
+
+8.  Erkläre die Monte Carlo Methode zur Schätzung von $\pi$ und beschreibe, wie Zufallszahlen zur Annäherung von π verwendet werden können.
+
+9. Du hast kennengelernt, wie unterschiedliche Informationen in einem Computer repräsentiert werden. Das ist wichtig, um die Eingabe und die Ausagbe von Algorithmen zu beschreiben. Überlege, wie die Ein- und Ausgabe des Dijkstra-Algorithmus repräsentiert werden könnte. Was braucht der Algorithmus als Eingabe und was gibt er als Ausgabe zurück?
