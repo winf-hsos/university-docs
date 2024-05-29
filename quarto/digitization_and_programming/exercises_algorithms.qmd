@@ -25,3 +25,38 @@ lang: de
 9.  Erkläre die Monte Carlo Methode zur Schätzung von $\pi$ und beschreibe, wie Zufallszahlen zur Annäherung von π verwendet werden können.
 
 10. Du hast kennengelernt, wie unterschiedliche Informationen in einem Computer repräsentiert werden. Das ist wichtig, um die Eingabe und die Ausagbe von Algorithmen zu beschreiben. Überlege, wie die Ein- und Ausgabe des Dijkstra-Algorithmus repräsentiert werden könnte. Was benötigt der Algorithmus als Eingabe und was gibt er als Ausgabe zurück?
+
+#### Pseudocode
+
+Betrachte den Pseudocode in der Abbildung unten und beantworte die folgenden Fragen!
+
+![](images/flow_chart_algorithm_a.png)
+
+1.  Beschreibe die Ein- und Ausgabeinformationen für den gezeigten Algorithmus. Verwende dazu das visuelle Problemlösungsschema aus der Vorlesung!
+
+2.  Wie werden die Ein- und Ausgabeinformation für diesen Algorithmus im Computer repräsentiert? Wie viele Bits benötigen sie?
+
+3.  Welches Problem löst der Algorithmus? Beschreibe den Ablauf des Algorithmus in eigenen Worten! Gehe dazu den Pseudocoe Schritt für Schritt für verschiedene Beispiele durch!
+
+4.  Wie würdest du die Komplexität des Algorithmus beschreiben? In welche Komplexitätsklasse ordnest du ihn ein?
+
+5.  Implementiere den Algorithmus in Python. Schreibe eine Funktion, die die Eingabe als Parameter entgegennimmt und die korrekte Ausgabe mit `return` zurückgibt. Teste die Funktion mit verschiedenen Eingaben!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
