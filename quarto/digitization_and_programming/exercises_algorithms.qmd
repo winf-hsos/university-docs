@@ -8,7 +8,7 @@ lang: de
 
 1.  Woher stammt der Begriff "Algorithmus"?
 
-2.  Definiere, was ein Algorithmus ist, und gib drei verschiedene Beispiele aus dem Alltag, die keinen direkten Bezug zu Computern haben..
+2.  Definiere, was ein Algorithmus ist, und gib drei verschiedene Beispiele aus dem Alltag, die keinen direkten Bezug zu Computern haben.
 
 3.  Erläutere, was mit der Komplexität eines Algorithmus gemeint ist. Warum ist die Komplexität eines Algorithmus wichtig? Wie wird sie angegeben?
 
@@ -18,8 +18,10 @@ lang: de
 
 6.  Berechne die Quadratwurzel von 25 mit der babylonischen Methode und dokumentiere jeden Schritt!
 
-7.  Vergleiche die Ergebnisse der babylonischen Methode nach 3, 5 und 7 Iterationen mit dem exakten Wert der Quadratwurzel.
+7.  Erkläre die Funktionsweise des babylonischen Algorithmus zur Berechnung der Quadratwurzel. Verwende dazu visuelle Hilfsmittel. Warum konvergiert der Algorithmus gegen den exakten Wert der Quadratwurzel?
 
-8.  Erkläre die Monte Carlo Methode zur Schätzung von $\pi$ und beschreibe, wie Zufallszahlen zur Annäherung von π verwendet werden können.
+8.  Vergleiche die Ergebnisse der babylonischen Methode nach 3, 5 und 7 Iterationen mit dem exakten Wert der Quadratwurzel.
 
-9. Du hast kennengelernt, wie unterschiedliche Informationen in einem Computer repräsentiert werden. Das ist wichtig, um die Eingabe und die Ausagbe von Algorithmen zu beschreiben. Überlege, wie die Ein- und Ausgabe des Dijkstra-Algorithmus repräsentiert werden könnte. Was braucht der Algorithmus als Eingabe und was gibt er als Ausgabe zurück?
+9.  Erkläre die Monte Carlo Methode zur Schätzung von $\pi$ und beschreibe, wie Zufallszahlen zur Annäherung von π verwendet werden können.
+
+10. Du hast kennengelernt, wie unterschiedliche Informationen in einem Computer repräsentiert werden. Das ist wichtig, um die Eingabe und die Ausagbe von Algorithmen zu beschreiben. Überlege, wie die Ein- und Ausgabe des Dijkstra-Algorithmus repräsentiert werden könnte. Was benötigt der Algorithmus als Eingabe und was gibt er als Ausgabe zurück?
