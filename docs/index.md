@@ -100,6 +100,7 @@
 - [large_complex_problem.png](images/large_complex_problem.png)
 - [large_complex_problem_4_smaller_problems.png](images/large_complex_problem_4_smaller_problems.png)
 - [large_complex_problem_5_smaller_problems.png](images/large_complex_problem_5_smaller_problems.png)
+- [number_guessing_game.png](images/number_guessing_game.png)
 - [permutations_a_no_information.png](images/permutations_a_no_information.png)
 - [permutations_abc_n2.png](images/permutations_abc_n2.png)
 - [permutations_abcd_n2.png](images/permutations_abcd_n2.png)
