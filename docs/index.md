@@ -141,6 +141,8 @@
 
 ### Data Analytics
 
+- [case_study_focus_spiegel_stern.pdf](quarto/data_analytics/case_study_focus_spiegel_stern.pdf)
+- [case_study_youtube_ss_24.pdf](quarto/data_analytics/case_study_youtube_ss_24.pdf)
 - [exercise_data_transformation_and_visualization_with_tweets.pdf](quarto/data_analytics/exercise_data_transformation_and_visualization_with_tweets.pdf)
 - [exercise_data_transformation_campusbier.pdf](quarto/data_analytics/exercise_data_transformation_campusbier.pdf)
 - [exercise_data_transformation_tweets.pdf](quarto/data_analytics/exercise_data_transformation_tweets.pdf)
