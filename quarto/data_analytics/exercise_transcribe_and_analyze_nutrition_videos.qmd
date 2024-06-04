@@ -1,0 +1,34 @@
+---
+title: "Transkription und Analyse von Videos über Ernährung"
+lang: de
+---
+
+## Einführung
+
+In dieser Übung werdet ihr euch weiter mit der Transkription von Videos sowie der Anwendung von Open-Source-Sprachmodellen auf dem HPC-Cluster der Hochschule vertraut machen. Ziel ist es, den Verarbeitungsprozess kennenzulernen und verschiedene Analysen auf Basis der extrahierten Daten durchzuführen.
+
+## Aufgabe 1: Suche von YouTube-Videos zum Thema "Ernährung"
+
+Verwendet die YouTube API, um nach dem Begriff "Ernährung" zu suchen. Beschränkt euch dabei auf die ersten 50 Suchergebnisse. Speichert die Ergebnisse in einer CSV-Datei mit allen relevanten Metadaten (z.B. Titel, Beschreibung, Dauer, Veröffentlichungsdatum). Ladet die CSV-Datei auf euren Rechner herunter und exploriert die Metadaten mit R und dem Tidyverse.
+
+## Aufgabe 2: Transkription der Videos
+
+Verwendet das Whisper v3 Speech-to-Text-Modell, um die Videos zu transkribieren. Speichert die Transkriptionen in einer CSV-Datei, in der jede Zeile die ID des YouTube-Videos sowie die zugehörige Transkription enthält. Ladet die CSV-Datei auf euren Rechner herunter und führt erste Textsuchen mit R und dem Tidyverse durch. Überlegt euch dabei bereits interessante Fragestellungen.
+
+## Aufgabe 3: Extraktion weiterer Informationen mit Sprachmodellen
+
+### Kernbotschaften ermitteln
+
+Verwendet ein Open-Source-Sprachmodell wie Phi-3, um die Kernbotschaft jedes Videos zu ermitteln. Entwickelt entsprechende Prompts und testet diese an einer kleinen Anzahl von Videotranskripten. Sobald ihr einen zufriedenstellenden Prompt gefunden habt, wendet ihn auf alle 50 Videos an. Speichert die Ergebnisse in einer CSV-Datei, in der jede Zeile die ID des YouTube-Videos sowie die Kernbotschaft des Videos enthält.
+
+### Sentimentanalyse
+
+Entwickelt einen Prompt, um zu bestimmen, ob in den Videos positiv oder negativ über Fleischkonsum gesprochen wird. Wiederholt den Prozess für vegetarische und vegane Ernährung. Speichert die Ergebnisse jeweils in einer separaten CSV-Datei.
+
+### Ratschläge und Empfehlungen
+
+Entwickelt einen Prompt, um zu erkennen, ob in den Videos Ernährungsempfehlungen gegeben werden und welche das sind. Speichert die Ergebnisse in einer CSV-Datei.
+
+## Aufgabe 4: Explorative Analysen
+
+Überlegt euch auf Basis der Metainformationen (z.B. Titel, Beschreibung, Länge), der Transkripte sowie der mit dem Sprachmodell extrahierten Informationen interessante Fragen, die ihr mit R und dem Tidyverse beantworten könnt. Stellt Hypothesen auf und führt explorative Analysen durch. Nutzt Visualisierungen, um eure Ergebnisse klar und ansprechend zu präsentieren.
