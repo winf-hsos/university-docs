@@ -14,7 +14,7 @@ Fast alle deutschen Hochschulen nutzen YouTube als Plattform zur Kommunikation i
 
 In eurer Analyse sollt ihr die Videos der größten niedersächsischen Hochschulen mit denen der erfolgreichsten deutschen privaten Hochschulen vergleichen. Als Filterkriterium soll eine Mindestanzahl Studierende von 10.000 oder mehr verwendet werden.
 
-Erstellt dazu eine Liste der YouTube-Videos für jede der insgesamt 10 Hochschulen, auf die das Kriterium zutrifft. Speichert die Daten in separaten CSV-Dateien und überführt sie anschließend in eine gemeinsame Datei. 
+Erstellt dazu eine Liste der YouTube-Videos für jede der insgesamt 10 Hochschulen, auf die das Kriterium zutrifft. Speichert die Daten in separaten CSV-Dateien und überführt sie anschließend in eine gemeinsame Datei.
 
 Laut [Wikipedia](https://de.wikipedia.org/wiki/Liste_der_Hochschulen_in_Deutschland) sind die in der Tabelle aufgeführten Hochschulen die größten in Niedersachsen, gemessen an der Studierendenzahl. Die Hochschule Braunschweig wurde trotz mehr als 10.000 Studierenden nicht berücksichtigt.
 
@@ -52,6 +52,12 @@ Ladet jetzt die Tonspur der Videos basierend auf der in Aufgabe 1 erstellten Lis
 Das Transkribieren einer Vielzahl von Videos kann einige Zeit dauern. Beginnt auch hier möglichst früh und teilt die Rechenlast im Team auf. Nutzt für diesen Aufgabenteil eine Jupyter-Umgebung mit 20 GB GPU-Speicher. Mehr benötigt ihr für die Transkription mit dem Whisper-Modell nicht.
 :::
 
+::: callout-important
+## Wichtig
+
+Leider funktioniert der Download der YouTube-Videos auf dem Cluster momentan nicht. Ihr müsst deshalb die Transkription in dieser Fallstudie nicht selbst durchführen. Stattdessen bekommt ihr von mir die Transkripte der Videos zeitnah nach Veröffentlichung der Fallstudie zur Verfügung gestellt. Bis es soweit ist könnt ihr mit dem ersten Teil der Aufgabe 3 fortfahren, bei der ihr nur die Metadaten benötigt.
+:::
+
 ## Aufgabe 3: Datenverarbeitung mit Sprachmodellen {#sec-data-prep}
 
 Im zweiten Schritt sollt ihr die Transkripte mit den im Seminar kennengelernten Methoden weiterverarbeiten und zusätzliche Metainformationen extrahieren. In dieser Fallstudie sollt ihr insbesondere mit den Sprachmodellen experimentieren, die ihr im Seminar kennengelernt habt. Findet geeignete Prompts, um nützliche Informationen aus den Transkripten **in Bezug auf die in Aufgabe 4 gestellten Fragen** zu extrahieren. Geht dabei iterativ vor und testet eure Ideen für Prompts zunächst an einer überschaubaren Anzahl von Texten, bevor ihr den gesamten Korpus verarbeitet. So könnt ihr Zeit sparen und euren Prompt zügig optimieren. Ein guter Prompt braucht einige (Fehl-)Versuche, um die gewünschten Informationen zuverlässig zu extrahieren.
@@ -84,24 +90,24 @@ Die folgenden Fragen beziehen sich auf die Metadaten der YouTube-Videos. Für di
 
 9.  Was sind die häufigsten Begriffe, die in den Titeln der Videos verwendet werden? Wie unterscheiden sich die Hochschulen hier?
 
-10.  An welchen Wochentagen und zu welchen Uhrzeiten veröffentlichen die Hochschulen ihre Videos bevorzugt?
+10. An welchen Wochentagen und zu welchen Uhrzeiten veröffentlichen die Hochschulen ihre Videos bevorzugt?
 
 ### Explorative Analysen unter Hinzunahme der Transkripte
 
-11.  Welche Themen werden in den Videos der Hochschulen adressiert? 
+11. Welche Themen werden in den Videos der Hochschulen adressiert?
 
     a.  Findet geeignete Prompts, um Themen aus den Transkripten der Videos zu extrahieren! Überprüft die Ergebnisse der Prompts bevor ihr sie auf die gesamten Videos anwendet.
-    
+
     b.  Prüft, inwieweit ihr das Ergebnis der Sprachmodelle anschließend weiter verfeinern müsst, sei es mit einem weiteren Prompt oder mit den Möglichkeiten der Texttransformation in R, um es in eurer Analyse zu verwenden.
-    
+
     c.  Formuliert mindestens drei Fragen an die neu gewonnen Daten und führt geeignete Analysen zur Beantwortung durch. Bezieht dabei auch die Metadaten der Videos mit ein.
 
+**Tipp**: Neben dem Transkript könnt ihr dem Sprachmodell mit dem Prompt auch noch andere Informationen zu einem Video mitgeben.\
 
-    **Tipp**: Neben dem Transkript könnt ihr dem Sprachmodell mit dem Prompt auch noch andere Informationen zu einem Video mitgeben.\
 
 12. Überlegt euch eine eigene Fragestellung, die ihr anhand der vorliegenden Transkripte und unter Zuhilfenahme eines Sprachmodells bearbeiten könnt. Formuliert Hypothesen für eure Fragestellung. Entwerft geeignete Prompts und wendet sie auf alle Transkripte an. Führt anschließend für eure Fragestellung und Hypothesen eine explorative Datenanalyse unter Einbezug der neu gewonnen Informationen durch!
 
-## Hinweise
+## Hinweise zur Fallstudie
 
 Beachtet bitte unbedingt die folgenden Hinweise zur Fallstudie.
 
@@ -138,24 +144,13 @@ Beachtet bitte unbedingt die folgenden Hinweise zur Fallstudie.
 -   Erzeugt für die Abgabe eurer Fallstudienergebnisse ein ZIP-Archive eures Projektordners. Die Abgabe erfolgt durch *ein* Teammitglied über den bereitgestellten Abgabeordner in ILIAS.
 
 Hier ein *Beispiel* für die abzugebende Projektstruktur (die Dateien im Ordner `data/` können selbstverständlich variieren):
-
-```         
-case_study/
---- data/
------- transcripts.csv
------- youtube_videos.csv
------- ...
---- python/
------- whisper.ipynb
------- phi3.ipynb
------- ...
---- analysis.R
---- case_study.RProj
 ```
+
+case_study/ --- data/ ------ transcripts.csv ------ youtube_videos.csv ------ ... --- python/ ------ whisper.ipynb ------ phi3.ipynb ------ ... --- analysis.R --- case_study.RProj \`\`\`
 
 ### Kurzvorstellung der Ergebnisse
 
--   Im Prüfungsgespräch sollt ihr eure Ergebnisse für die eigene Fragestellung aus Aufgabe 4 (Punkt 12) vorstellen. 
+-   Im Prüfungsgespräch sollt ihr eure Ergebnisse für die eigene Fragestellung aus Aufgabe 4 (Punkt 12) vorstellen.
 
 -   Bereitet für die Vorstellung eine kurze Präsentation vor. Die Präsentation muss folgende Folien beinhalten:
 
@@ -166,7 +161,7 @@ case_study/
     -   **Prompt Design (1-2 Folien)**: Die Prompts, mit denen ihr gearbeitet habt. Beschreibt auch verbal, wie ihr zu den Prompts gelangt seid.
 
     -   **Ergebnisse (max. 3 Folien)**: Eure wichtigsten Analyseergebnisse in visueller Form sowie jeweils einem kurzen Satz zur Interpretation.
-    
+
 -   Darüber hinaus sind keine weiteren Folien erlaubt.
 
 -   Der Zeitrahmen für die Präsentation darf 20 Minuten nicht überschreiten, anschließend sind 10 Minuten für Fragen vorgesehen.
@@ -174,6 +169,5 @@ case_study/
 -   Jedes Gruppenmitglied sollte ungefähr den gleichen Sprechanteil haben.
 
 -   Gebt eure Präsentation im PDF-Format zusammen mit eurer ZIP-Datei über ILIAS ab.
-
 
 Viel Spaß und Erfolg bei der Bearbeitung der Fallstudie!
