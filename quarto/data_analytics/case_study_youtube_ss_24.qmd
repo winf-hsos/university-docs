@@ -10,11 +10,11 @@ toc-depth: 2
 
 Fast alle deutschen Hochschulen nutzen YouTube als Plattform zur Kommunikation ihrer Inhalte. Die Ziele sind dabei vielfältig und reichen von Wissenschaftskommunikation bis hin zu Studierendenmarketing. In dieser Fallstudie untersucht ihr die YouTube-Videos von deutschen Hochschulen hinsichtlich ihres Inhalts und adressiert in einer explorativen Datenanalyse eine Reihe spannender Fragen. Ziel der Analyse ist es, die Nutzung von YouTube durch Hochschulen besser zu verstehen, Muster zu erkennen und mögliche Unterschiede zwischen den Hochschulen zu identifizieren.
 
-## Aufgabe 1: Datensammlung
+## Aufgabe 1: Datensammlung {#sec-data-collection}
 
 In eurer Analyse sollt ihr die Videos der größten niedersächsischen Hochschulen mit denen der erfolgreichsten deutschen privaten Hochschulen vergleichen. Als Filterkriterium soll eine Mindestanzahl Studierende von 10.000 oder mehr verwendet werden.
 
-Erstellt dazu zunächst eine Liste der YouTube-Videos für jede der insgesamt 10 Hochschulen, auf die das Kriterium zutrifft. Ladet anschließend die Tonspur der Videos basierend auf dieser Liste herunter und transkribiert sie mithilfe des Whisper-Modells auf dem HPC-Cluster der Hochschule Osnabrück. Speichert die Transkripte in separaten Textdateien. Überführt anschließend alle Transkripte in eine große CSV-Datei mit den beiden Spalten `yt_id` und `transcript`.
+Erstellt dazu eine Liste der YouTube-Videos für jede der insgesamt 10 Hochschulen, auf die das Kriterium zutrifft. Speichert die Daten in separaten CSV-Dateien und überführt sie anschließend in eine gemeinsame Datei. 
 
 Laut [Wikipedia](https://de.wikipedia.org/wiki/Liste_der_Hochschulen_in_Deutschland) sind die in der Tabelle aufgeführten Hochschulen die größten in Niedersachsen, gemessen an der Studierendenzahl. Die Hochschule Braunschweig wurde trotz mehr als 10.000 Studierenden nicht berücksichtigt.
 
@@ -37,24 +37,28 @@ Die erfolgreichsten privaten Hochschulen in ganz Deutschland mit mehr als 10.000
 | [Hamburger Fern-Hochschule](https://www.hfh-fernstudium.de/) | 13.629             | [UCSoSuBd4s-xJWHxJfqQCuvQ](https://www.youtube.com/@HFHFernhochschule) |
 
 ::: callout-note
-## Startet bald!
+## Seid schnell!
 
-Beginnt frühzeitig mit diesem Aufgabenteil. Wie ihr wisst, kann es bei der YouTube API zu Engpässen kommen. Gleichzeitig dauert das Transkribieren einer Vielzahl von Videos einige Zeit.
+Beginnt frühzeitig mit diesem Aufgabenteil. Wie ihr wisst, kann es bei der YouTube API zu Engpässen kommen. Sollte es an einem Tag nicht klappen, probiert es am besteh früh am nächsten Tag erneut.
 :::
+
+## Aufgabe 2: Videotranskription {#sec-transcription}
+
+Ladet jetzt die Tonspur der Videos basierend auf der in Aufgabe 1 erstellten Liste herunter und transkribiert sie mithilfe des Whisper-Modells auf dem HPC-Cluster der Hochschule Osnabrück. Speichert die Transkripte zuerst in separaten Textdateien. Überführt anschließend alle Transkripte in eine gemeinsame CSV-Datei mit den beiden Spalten `yt_id` und `transcript`.
 
 ::: callout-note
-## Seid fair und schont Ressourcen
+## Plant Zeit ein und seid fair!
 
-Nutzt für diesen Aufgabenteil eine Jupyter-Umgebung mit 20 GB GPU-Speicher. Mehr benötigt ihr für die Transkription mit dem Whisper-Modell nicht.
+Das Transkribieren einer Vielzahl von Videos kann einige Zeit dauern. Beginnt auch hier möglichst früh und teilt die Rechenlast im Team auf. Nutzt für diesen Aufgabenteil eine Jupyter-Umgebung mit 20 GB GPU-Speicher. Mehr benötigt ihr für die Transkription mit dem Whisper-Modell nicht.
 :::
 
-## Aufgabe 2: Datenvorbereitung
+## Aufgabe 3: Datenverarbeitung mit Sprachmodellen {#sec-data-prep}
 
-Im zweiten Schritt sollt ihr die Transkripte mit den im Seminar kennengelernten Methoden weiterverarbeiten und zusätzliche Metainformationen extrahieren. In dieser Fallstudie sollt ihr insbesondere mit den Sprachmodellen experimentieren, die ihr im Seminar kennengelernt habt. Findet geeignete Prompts, um nützliche Informationen aus den Transkripten **in Bezug auf die in Aufgabe 3 gestellten Fragen** zu extrahieren. Geht dabei iterativ vor und testet eure Ideen für Prompts zunächst an einer überschaubaren Anzahl von Texten, bevor ihr den gesamten Korpus verarbeitet. So könnt ihr Zeit sparen und euren Prompt zügig optimieren. Ein guter Prompt braucht einige (Fehl-)Versuche, um die gewünschten Informationen zuverlässig zu extrahieren.
+Im zweiten Schritt sollt ihr die Transkripte mit den im Seminar kennengelernten Methoden weiterverarbeiten und zusätzliche Metainformationen extrahieren. In dieser Fallstudie sollt ihr insbesondere mit den Sprachmodellen experimentieren, die ihr im Seminar kennengelernt habt. Findet geeignete Prompts, um nützliche Informationen aus den Transkripten **in Bezug auf die in Aufgabe 4 gestellten Fragen** zu extrahieren. Geht dabei iterativ vor und testet eure Ideen für Prompts zunächst an einer überschaubaren Anzahl von Texten, bevor ihr den gesamten Korpus verarbeitet. So könnt ihr Zeit sparen und euren Prompt zügig optimieren. Ein guter Prompt braucht einige (Fehl-)Versuche, um die gewünschten Informationen zuverlässig zu extrahieren.
 
 Wenn ihr glaubt, einen passenden Prompt gefunden zu haben, wendet diesen auf alle Transkripte an und speichert die Ergebnisse in einer CSV-Datei. Die CSV-Datei soll neben dem Ergebnis des Sprachmodells auch die Spalte `yt_id` enthalten, um die gewonnenen Daten später einfach in R zusammenführen zu können.
 
-## Aufgabe 3: Explorative Datenanalyse
+## Aufgabe 4: Explorative Datenanalyse {#sec-data-analysis}
 
 Im letzten Teil der Fallstudie sollt ihr auf Grundlage der YouTube-Metadaten aus der API sowie den transkribierten Texten aus den Videos die unten stehenden Fragen explorativ bearbeiten. Wie in Aufgabe 2 beschrieben, könnt ihr die Sprachmodelle verwenden, die ihr im Seminar kennengelernt habt, um weitere Informationen aus den Texten zu extrahieren. Die folgenden Fragen sollt ihr beleuchten:
 
@@ -74,13 +78,17 @@ Die folgenden Fragen beziehen sich auf die Metadaten der YouTube-Videos. Für di
 
 6.  Werden kürzere Videos häufiger angesehen als längere?
 
-7.  In welcher Sprache veröffentlichen die Hochschulen ihre Videos? Wie sehen die Hochschulen im Vergleich aus?
+7.  Untersucht Zusammenhänge zwischen der Anzahl der Aufrufe und anderen Merkmalen der Videos? Schaut euch auch die Titel und Beschreibungen der Videos an.
 
-8.  Was sind die häufigsten Begriffe, die in den Titeln der Videos verwendet werden? Unterscheiden sich die Hochschulen hier?
+8.  In welcher Sprache veröffentlichen die Hochschulen ihre Videos? Wie sieht der Vergleich unter den Hochschulen aus?
+
+9.  Was sind die häufigsten Begriffe, die in den Titeln der Videos verwendet werden? Wie unterscheiden sich die Hochschulen hier?
+
+10.  An welchen Wochentagen und zu welchen Uhrzeiten veröffentlichen die Hochschulen ihre Videos bevorzugt?
 
 ### Explorative Analysen unter Hinzunahme der Transkripte
 
-9.  Welche Themen werden in den Videos der Hochschulen adressiert? 
+11.  Welche Themen werden in den Videos der Hochschulen adressiert? 
 
     a.  Findet geeignete Prompts, um Themen aus den Transkripten der Videos zu extrahieren! Überprüft die Ergebnisse der Prompts bevor ihr sie auf die gesamten Videos anwendet.
     
@@ -91,7 +99,7 @@ Die folgenden Fragen beziehen sich auf die Metadaten der YouTube-Videos. Für di
 
     **Tipp**: Neben dem Transkript könnt ihr dem Sprachmodell mit dem Prompt auch noch andere Informationen zu einem Video mitgeben.\
 
-10. Überlegt euch eine eigene Fragestellung, die ihr anhand der vorliegenden Transkripte und unter Zuhilfenahme eines Sprachmodells bearbeiten könnt. Formuliert Hypothesen für eure Fragestellung. Entwerft geeignete Prompts und wendet sie auf alle Transkripte an. Führt anschließend für eure Fragestellung und Hypothesen eine explorative Datenanalyse unter Einbezug der neu gewonnen Informationen durch!
+12. Überlegt euch eine eigene Fragestellung, die ihr anhand der vorliegenden Transkripte und unter Zuhilfenahme eines Sprachmodells bearbeiten könnt. Formuliert Hypothesen für eure Fragestellung. Entwerft geeignete Prompts und wendet sie auf alle Transkripte an. Führt anschließend für eure Fragestellung und Hypothesen eine explorative Datenanalyse unter Einbezug der neu gewonnen Informationen durch!
 
 ## Hinweise
 
@@ -101,7 +109,9 @@ Beachtet bitte unbedingt die folgenden Hinweise zur Fallstudie.
 
 -   Ihr sollt jede Frage unter Zuhilfenahme von mindestens einer geeigneten Visualisierung beantworten. Eure Aufgabe ist es, eine geeignete Visualisierungsform für die jeweilige Frage und Antwort zu finden.
 
--   Die explorative Datenanalyse soll mit R und dem RStudio durchgeführt werden. Für sämtliche Datentransformationen und Visualisuerungen sollt ihr Funktionen aus dem Tidyverse verwenden.
+-   Die explorative Datenanalyse soll mit R und dem RStudio durchgeführt werden. Für sämtliche Datentransformationen und Visualisuerungen sollt ihr Funktionen aus dem Tidyverse verwenden
+
+-   Für Funktionen, die nicht im Tidyverse enthalten sind, dürft ihr auch andere Pakete verwenden. Achtet darauf, dass ihr die Pakete *zu Beginn* eures Skripts mit `library()` einbindet.
 
 -   Notwendige Vorverarbeitungsschritte der Daten finden auf dem HPC-Cluster statt und werden mit Python durchgeführt. Das betrifft insbesondere die Transkription der Videos mit dem Whisper-Modell sowie die Anwendung der Open Source Sprachmodelle.
 
@@ -145,7 +155,8 @@ case_study/
 
 ### Kurzvorstellung der Ergebnisse
 
--   Im Prüfungsgespräch sollt ihr eure Ergebnisse für die eigene Fragestellung aus Aufgabe 3 (Punkt 10) vorstellen. 
+-   Im Prüfungsgespräch sollt ihr eure Ergebnisse für die eigene Fragestellung aus Aufgabe 4 (Punkt 12) vorstellen. 
+
 -   Bereitet für die Vorstellung eine kurze Präsentation vor. Die Präsentation muss folgende Folien beinhalten:
 
     -   **Fragestellung (1 Folie)**: Darstellung und Erläuterung eurer Fragestellung inklusive Begründung, warum ihr diese gewählt habt.
