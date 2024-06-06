@@ -55,7 +55,7 @@ Das Transkribieren einer Vielzahl von Videos kann einige Zeit dauern. Beginnt au
 ::: callout-important
 ## Wichtig
 
-Leider funktioniert der Download der YouTube-Videos auf dem Cluster momentan nicht. Ihr müsst deshalb die Transkription in dieser Fallstudie nicht selbst durchführen. Stattdessen bekommt ihr von mir die Transkripte der Videos zeitnah nach Veröffentlichung der Fallstudie zur Verfügung gestellt. Bis es soweit ist könnt ihr mit dem ersten Teil der Aufgabe 3 fortfahren, bei der ihr nur die Metadaten benötigt.
+Leider funktioniert der Download der YouTube-Videos auf dem Cluster momentan nicht. Ihr müsst deshalb die Transkription in dieser Fallstudie nicht selbst durchführen. Stattdessen bekommt ihr von mir die Transkripte der Videos zeitnah nach Veröffentlichung der Fallstudie zur Verfügung gestellt. Bis es soweit ist könnt ihr mit dem ersten Teil der Aufgabe 4 fortfahren, bei der ihr nur die Metadaten benötigt.
 :::
 
 ## Aufgabe 3: Datenverarbeitung mit Sprachmodellen {#sec-data-prep}
