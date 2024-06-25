@@ -1,6 +1,5 @@
 ---
 title: "Übung: Campusbier-Bestellungen transformieren"
-lang: de
 ---
 
 ### Vorbereitung
