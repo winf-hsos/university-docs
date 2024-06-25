@@ -1,0 +1,603 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{fancyhdr}
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+  \fancyhead[C]{\includegraphics[width=2in]{logo.png}}
+  \renewcommand{\headrulewidth}{0pt}
+}
+\AtBeginDocument{\thispagestyle{firstpage}}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Inhaltsverzeichnis}
+\else
+  \newcommand\contentsname{Inhaltsverzeichnis}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Abbildungsverzeichnis}
+\else
+  \newcommand\listfigurename{Abbildungsverzeichnis}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Tabellenverzeichnis}
+\else
+  \newcommand\listtablename{Tabellenverzeichnis}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Abbildung}
+\else
+  \newcommand\figurename{Abbildung}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabelle}
+\else
+  \newcommand\tablename{Tabelle}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{Listingverzeichnis}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{ngerman}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdflang={de},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{Content}\label{content}
+
+\subsection{Google Documents}\label{google-documents}
+
+\subsubsection{modern\_data\_analytics\_with\_r}\label{modern_data_analytics_with_r}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{google_documents/modern_data_analytics_with_r/Syllabus\%20-\%20Modern\%20Data\%20Analytics\%20with\%20R.pdf}{Syllabus
+  - Modern Data Analytics with R.pdf}
+\end{itemize}
+
+\subsubsection{Projekt
+Agrar/Lebensmittel}\label{projekt-agrarlebensmittel}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{google_documents/projekt_agrar_lebensmittel/Infoblatt\%20Projekt\%20Agrar\%20Lebensmittel.pdf}{Infoblatt
+  Projekt Agrar Lebensmittel.pdf}
+\end{itemize}
+
+\subsection{Google Slides}\label{google-slides}
+
+\subsubsection{Applied Analytics}\label{applied-analytics}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{google_slides/applied_analytics/Applied\%20Analytics\%20-\%20Course\%20Logistics.pdf}{Applied
+  Analytics - Course Logistics.pdf}
+\item
+  \href{google_slides/applied_analytics/Data\%20Transformation\%20with\%20R\%20and\%20dplyr.pdf}{Data
+  Transformation with R and dplyr.pdf}
+\item
+  \href{google_slides/applied_analytics/Data\%20Visualization\%20with\%20ggplot2\%20and\%20the\%20Grammar\%20of\%20Graphics.pdf}{Data
+  Visualization with ggplot2 and the Grammar of Graphics.pdf}
+\item
+  \href{google_slides/applied_analytics/Group\%20Work\%20-\%20Text\%20with\%20R\%20-\%20TED\%20Data.pdf}{Group
+  Work - Text with R - TED Data.pdf}
+\item
+  \href{google_slides/applied_analytics/Joining\%20data\%20sets\%20with\%20R\%20and\%20SQL.pdf}{Joining
+  data sets with R and SQL.pdf}
+\item
+  \href{google_slides/applied_analytics/ML-Based\%20NLP\%20with\%20spaCy\%20and\%20Python.pdf}{ML-Based
+  NLP with spaCy and Python.pdf}
+\item
+  \href{google_slides/applied_analytics/NLP\%20-\%20Text\%20Representation.pdf}{NLP
+  - Text Representation.pdf}
+\item
+  \href{google_slides/applied_analytics/Rule-Based\%20Text\%20Classification\%20with\%20R.pdf}{Rule-Based
+  Text Classification with R.pdf}
+\item
+  \href{google_slides/applied_analytics/Searching\%20and\%20Transforming\%20Text\%20with\%20R\%20and\%20stringr.pdf}{Searching
+  and Transforming Text with R and stringr.pdf}
+\item
+  \href{google_slides/applied_analytics/The\%20R\%20Murder\%20Mystery.pdf}{The
+  R Murder Mystery.pdf}
+\item
+  \href{google_slides/applied_analytics/Tokenizing\%20Text\%20with\%20R,\%20stringr\%20and\%20tidyr.pdf}{Tokenizing
+  Text with R, stringr and tidyr.pdf}
+\item
+  \href{google_slides/applied_analytics/Working\%20with\%20the\%20HPC\%20Cluster.pdf}{Working
+  with the HPC Cluster.pdf}
+\end{itemize}
+
+\subsubsection{Digital Lab}\label{digital-lab}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{google_slides/digital_lab/SS\%2024\%20-\%20Digital\%20Lab.pdf}{SS
+  24 - Digital Lab.pdf}
+\end{itemize}
+
+\subsubsection{Information Management}\label{information-management}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{google_slides/information_management/Basic\%20SQL.pdf}{Basic
+  SQL.pdf}
+\item
+  \href{google_slides/information_management/Information\%20Management\%20-\%20Course\%20Logistics.pdf}{Information
+  Management - Course Logistics.pdf}
+\item
+  \href{google_slides/information_management/Information\%20Management\%20-\%20Entity\%20Relationship\%20Model.pdf}{Information
+  Management - Entity Relationship Model.pdf}
+\item
+  \href{google_slides/information_management/Information\%20Management\%20-\%20Relational\%20Databases.pdf}{Information
+  Management - Relational Databases.pdf}
+\item
+  \href{google_slides/information_management/Information\%20Management\%20-\%20What\%20is\%20a\%20Database.pdf}{Information
+  Management - What is a Database.pdf}
+\item
+  \href{google_slides/information_management/Joining\%20data\%20sets\%20with\%20R\%20and\%20SQL.pdf}{Joining
+  data sets with R and SQL.pdf}
+\item
+  \href{google_slides/information_management/Manage\%20Tables\%20with\%20SQL.pdf}{Manage
+  Tables with SQL.pdf}
+\item
+  \href{google_slides/information_management/SQL\%20-\%20Cheat\%20Sheet.pdf}{SQL
+  - Cheat Sheet.pdf}
+\end{itemize}
+
+\subsubsection{Web Engineering}\label{web-engineering}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{google_slides/web_engineering/Introduction\%20to\%20CSS.pdf}{Introduction
+  to CSS.pdf}
+\item
+  \href{google_slides/web_engineering/Introduction\%20to\%20HTML.pdf}{Introduction
+  to HTML.pdf}
+\item
+  \href{google_slides/web_engineering/Introduction\%20to\%20JavaScript\%20for\%20the\%20Web.pdf}{Introduction
+  to JavaScript for the Web.pdf}
+\item
+  \href{google_slides/web_engineering/Web\%20Engineering\%20-\%20Course\%20Logistics.pdf}{Web
+  Engineering - Course Logistics.pdf}
+\item
+  \href{google_slides/web_engineering/Web\%20Engineering\%20-\%20Das\%20JSON\%20Format.pdf}{Web
+  Engineering - Das JSON Format.pdf}
+\item
+  \href{google_slides/web_engineering/Web\%20Engineering\%20-\%20Einfuehrung\%20Bootstrap.pdf}{Web
+  Engineering - Einfuehrung Bootstrap.pdf}
+\item
+  \href{google_slides/web_engineering/Web\%20Engineering\%20-\%20Layout\%20mit\%20Bootstrap.pdf}{Web
+  Engineering - Layout mit Bootstrap.pdf}
+\item
+  \href{google_slides/web_engineering/Web\%20Engineering\%20-\%20Local\%20Storage.pdf}{Web
+  Engineering - Local Storage.pdf}
+\end{itemize}
+
+\subsubsection{Wirtschaftsinformatik}\label{wirtschaftsinformatik}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{google_slides/wirtschaftsinformatik/Digitization\%20-\%20Information\%20Representation\%20and\%20Processing.pdf}{Digitization
+  - Information Representation and Processing.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/Exploratory\%20Data\%20Analysis\%20with\%20R\%20and\%20Python.pdf}{Exploratory
+  Data Analysis with R and Python.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/LiFi-Project\%20-\%20Kick-Off.pdf}{LiFi-Project
+  - Kick-Off.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/LiFi-Project\%20-\%20Program's\%20Anatomy.pdf}{LiFi-Project
+  - Program's Anatomy.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/Programming\%20with\%20Python.pdf}{Programming
+  with Python.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Digitization\%20-\%20Information\%20Representation\%20and\%20Processing\%20-\%200\%20-\%20Motivation.pdf}{SS
+  24 - Digitization - Information Representation and Processing - 0 -
+  Motivation.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Digitization\%20-\%20Information\%20Representation\%20and\%20Processing\%20-\%201\%20-\%20Problem\%20Solving.pdf}{SS
+  24 - Digitization - Information Representation and Processing - 1 -
+  Problem Solving.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Digitization\%20-\%20Information\%20Representation\%20and\%20Processing\%20-\%202\%20-\%20Information.pdf}{SS
+  24 - Digitization - Information Representation and Processing - 2 -
+  Information.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Digitization\%20-\%20Information\%20Representation\%20and\%20Processing\%20-\%203\%20-\%20Counting.pdf}{SS
+  24 - Digitization - Information Representation and Processing - 3 -
+  Counting.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Digitization\%20-\%20Information\%20Representation\%20and\%20Processing\%20-\%204\%20-\%20Bits.pdf}{SS
+  24 - Digitization - Information Representation and Processing - 4 -
+  Bits.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Digitization\%20-\%20Information\%20Representation\%20and\%20Processing\%20-\%205\%20-\%20Codes.pdf}{SS
+  24 - Digitization - Information Representation and Processing - 5 -
+  Codes.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Digitization\%20-\%20Information\%20Representation\%20and\%20Processing\%20-\%206\%20-\%20Analog\%20vs\%20Digital.pdf}{SS
+  24 - Digitization - Information Representation and Processing - 6 -
+  Analog vs Digital.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Digitization\%20-\%20Information\%20Representation\%20and\%20Processing\%20-\%207\%20-\%20Algorithms.pdf}{SS
+  24 - Digitization - Information Representation and Processing - 7 -
+  Algorithms.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Digitization\%20-\%20Information\%20Representation\%20and\%20Processing\%20-\%209\%20-\%20Logic\%20and\%20Arithmetic.pdf}{SS
+  24 - Digitization - Information Representation and Processing - 9 -
+  Logic and Arithmetic.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Digitization\%20-\%20Information\%20Representation\%20and\%20Processing.pdf}{SS
+  24 - Digitization - Information Representation and Processing.pdf}
+\item
+  \href{google_slides/wirtschaftsinformatik/SS\%2024\%20-\%20Programming\%20with\%20Python.pdf}{SS
+  24 - Programming with Python.pdf}
+\end{itemize}
+
+\subsection{Images}\label{images}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{images/algorithms_size_runtime.png}{algorithms\_size\_runtime.png}
+\item
+  \href{images/chess_1.png}{chess\_1.png}
+\item
+  \href{images/chess_2.png}{chess\_2.png}
+\item
+  \href{images/chess_3.png}{chess\_3.png}
+\item
+  \href{images/chess_move.png}{chess\_move.png}
+\item
+  \href{images/codes_ascii_character_a_pixel_bits.png}{codes\_ascii\_character\_a\_pixel\_bits.png}
+\item
+  \href{images/codes_ascii_characters_abc_pixel.png}{codes\_ascii\_characters\_abc\_pixel.png}
+\item
+  \href{images/codes_heart_pixel.png}{codes\_heart\_pixel.png}
+\item
+  \href{images/computational_schema_blackbox.png}{computational\_schema\_blackbox.png}
+\item
+  \href{images/computational_schema_chatgpt.png}{computational\_schema\_chatgpt.png}
+\item
+  \href{images/computational_schema_chess.png}{computational\_schema\_chess.png}
+\item
+  \href{images/computational_schema_computation.png}{computational\_schema\_computation.png}
+\item
+  \href{images/computational_schema_function.png}{computational\_schema\_function.png}
+\item
+  \href{images/computational_schema_input_output_function.png}{computational\_schema\_input\_output\_function.png}
+\item
+  \href{images/computational_schema_processing_representation.png}{computational\_schema\_processing\_representation.png}
+\item
+  \href{images/database_system_architecture.png}{database\_system\_architecture.png}
+\item
+  \href{images/digital_competence_society_smooth.png}{digital\_competence\_society\_smooth.png}
+\item
+  \href{images/digital_competence_society_split.png}{digital\_competence\_society\_split.png}
+\item
+  \href{images/digital_literacy_skills_with_languages.png}{digital\_literacy\_skills\_with\_languages.png}
+\item
+  \href{images/eda_process.png}{eda\_process.png}
+\item
+  \href{images/large_complex_problem.png}{large\_complex\_problem.png}
+\item
+  \href{images/large_complex_problem_4_smaller_problems.png}{large\_complex\_problem\_4\_smaller\_problems.png}
+\item
+  \href{images/large_complex_problem_5_smaller_problems.png}{large\_complex\_problem\_5\_smaller\_problems.png}
+\item
+  \href{images/number_guessing_game_1.png}{number\_guessing\_game\_1.png}
+\item
+  \href{images/number_guessing_game_2.png}{number\_guessing\_game\_2.png}
+\item
+  \href{images/number_guessing_game_3.png}{number\_guessing\_game\_3.png}
+\item
+  \href{images/number_guessing_game_4.png}{number\_guessing\_game\_4.png}
+\item
+  \href{images/number_guessing_game_5.png}{number\_guessing\_game\_5.png}
+\item
+  \href{images/number_guessing_game_6.png}{number\_guessing\_game\_6.png}
+\item
+  \href{images/permutations_a_no_information.png}{permutations\_a\_no\_information.png}
+\item
+  \href{images/permutations_abc_n2.png}{permutations\_abc\_n2.png}
+\item
+  \href{images/permutations_abcd_n2.png}{permutations\_abcd\_n2.png}
+\item
+  \href{images/permutations_abcde_n2.png}{permutations\_abcde\_n2.png}
+\item
+  \href{images/problem_example_addition.png}{problem\_example\_addition.png}
+\item
+  \href{images/problem_model_input_solution_output.png}{problem\_model\_input\_solution\_output.png}
+\item
+  \href{images/problem_search_in_list.png}{problem\_search\_in\_list.png}
+\item
+  \href{images/problem_search_prime_number_67.png}{problem\_search\_prime\_number\_67.png}
+\item
+  \href{images/problem_search_prime_number_67_binary_step_1.png}{problem\_search\_prime\_number\_67\_binary\_step\_1.png}
+\item
+  \href{images/problem_search_prime_number_67_binary_step_2.png}{problem\_search\_prime\_number\_67\_binary\_step\_2.png}
+\item
+  \href{images/problem_search_prime_number_67_binary_step_3.png}{problem\_search\_prime\_number\_67\_binary\_step\_3.png}
+\item
+  \href{images/problem_search_prime_number_67_binary_step_4.png}{problem\_search\_prime\_number\_67\_binary\_step\_4.png}
+\item
+  \href{images/problem_search_prime_number_67_binary_step_5.png}{problem\_search\_prime\_number\_67\_binary\_step\_5.png}
+\item
+  \href{images/problem_search_prime_number_67_linear.png}{problem\_search\_prime\_number\_67\_linear.png}
+\item
+  \href{images/problem_word_count.png}{problem\_word\_count.png}
+\item
+  \href{images/problem_word_count_distributed_2.png}{problem\_word\_count\_distributed\_2.png}
+\item
+  \href{images/problem_word_count_distributed_4.png}{problem\_word\_count\_distributed\_4.png}
+\item
+  \href{images/problem_word_count_linear_sequential.png}{problem\_word\_count\_linear\_sequential.png}
+\item
+  \href{images/problem_word_count_parallelized.png}{problem\_word\_count\_parallelized.png}
+\item
+  \href{images/stringr_simple_searches_in_text.png}{stringr\_simple\_searches\_in\_text.png}
+\item
+  \href{images/variables_as_containers.png}{variables\_as\_containers.png}
+\end{itemize}
+
+\subsection{Quarto Documents}\label{quarto-documents}
+
+\subsubsection{Applied Analytics}\label{applied-analytics-1}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{quarto/applied_analytics/exercise_campusbier_datentransformation.pdf}{exercise\_campusbier\_datentransformation.pdf}
+\item
+  \href{quarto/applied_analytics/exercise_campusbier_erkundung.pdf}{exercise\_campusbier\_erkundung.pdf}
+\item
+  \href{quarto/applied_analytics/exercise_campusbier_find_and_build_the_plot.pdf}{exercise\_campusbier\_find\_and\_build\_the\_plot.pdf}
+\item
+  \href{quarto/applied_analytics/exercise_experts_in_data_transformation.pdf}{exercise\_experts\_in\_data\_transformation.pdf}
+\item
+  \href{quarto/applied_analytics/exercise_titanic_exploration.pdf}{exercise\_titanic\_exploration.pdf}
+\end{itemize}
+
+\subsubsection{Data Analytics}\label{data-analytics}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{quarto/data_analytics/case_study_focus_spiegel_stern.pdf}{case\_study\_focus\_spiegel\_stern.pdf}
+\item
+  \href{quarto/data_analytics/case_study_youtube_ss_24.pdf}{case\_study\_youtube\_ss\_24.pdf}
+\item
+  \href{quarto/data_analytics/exercise_data_transformation_and_visualization_with_tweets.pdf}{exercise\_data\_transformation\_and\_visualization\_with\_tweets.pdf}
+\item
+  \href{quarto/data_analytics/exercise_data_transformation_campusbier.pdf}{exercise\_data\_transformation\_campusbier.pdf}
+\item
+  \href{quarto/data_analytics/exercise_data_transformation_tweets.pdf}{exercise\_data\_transformation\_tweets.pdf}
+\item
+  \href{quarto/data_analytics/exercise_data_visualization_tweets.pdf}{exercise\_data\_visualization\_tweets.pdf}
+\item
+  \href{quarto/data_analytics/exercise_explore_campusbier.pdf}{exercise\_explore\_campusbier.pdf}
+\item
+  \href{quarto/data_analytics/exercise_explore_transform_rewe_products.pdf}{exercise\_explore\_transform\_rewe\_products.pdf}
+\item
+  \href{quarto/data_analytics/exercise_generate_youtube_video_list.pdf}{exercise\_generate\_youtube\_video\_list.pdf}
+\item
+  \href{quarto/data_analytics/exercise_getting_started_with_the_hpc_cluster.pdf}{exercise\_getting\_started\_with\_the\_hpc\_cluster.pdf}
+\item
+  \href{quarto/data_analytics/exercise_rule_based_text_classification_newspaper_articles.pdf}{exercise\_rule\_based\_text\_classification\_newspaper\_articles.pdf}
+\item
+  \href{quarto/data_analytics/exercise_search_and_extract_text_data_from_tweets.pdf}{exercise\_search\_and\_extract\_text\_data\_from\_tweets.pdf}
+\item
+  \href{quarto/data_analytics/exercise_transcribe_and_analyze_nutrition_videos.pdf}{exercise\_transcribe\_and\_analyze\_nutrition\_videos.pdf}
+\item
+  \href{quarto/data_analytics/exercise_transcribe_youtube_videos.pdf}{exercise\_transcribe\_youtube\_videos.pdf}
+\end{itemize}
+
+\subsubsection{Digitization and
+Programming}\label{digitization-and-programming}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{quarto/digitization_and_programming/exercises_algorithms.pdf}{exercises\_algorithms.pdf}
+\item
+  \href{quarto/digitization_and_programming/exercises_codes.pdf}{exercises\_codes.pdf}
+\item
+  \href{quarto/digitization_and_programming/exercises_counting.pdf}{exercises\_counting.pdf}
+\item
+  \href{quarto/digitization_and_programming/exercises_information.pdf}{exercises\_information.pdf}
+\item
+  \href{quarto/digitization_and_programming/exercises_logic_and_arithmetic.pdf}{exercises\_logic\_and\_arithmetic.pdf}
+\item
+  \href{quarto/digitization_and_programming/exercises_problem_solving.pdf}{exercises\_problem\_solving.pdf}
+\item
+  \href{quarto/digitization_and_programming/exercises_programming_first_program.pdf}{exercises\_programming\_first\_program.pdf}
+\item
+  \href{quarto/digitization_and_programming/exercises_programming_functions.pdf}{exercises\_programming\_functions.pdf}
+\item
+  \href{quarto/digitization_and_programming/exercises_programming_loops_conditionals.pdf}{exercises\_programming\_loops\_conditionals.pdf}
+\end{itemize}
+
+\subsubsection{Information Management}\label{information-management-1}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{quarto/information_management/exercise_campusbier_sql_queries.pdf}{exercise\_campusbier\_sql\_queries.pdf}
+\item
+  \href{quarto/information_management/exercise_data_layer_with_python.pdf}{exercise\_data\_layer\_with\_python.pdf}
+\item
+  \href{quarto/information_management/exercise_erm_exam_planning.pdf}{exercise\_erm\_exam\_planning.pdf}
+\item
+  \href{quarto/information_management/exercise_erm_products.pdf}{exercise\_erm\_products.pdf}
+\item
+  \href{quarto/information_management/exercise_frontend_with_python_and_streamlit.pdf}{exercise\_frontend\_with\_python\_and\_streamlit.pdf}
+\item
+  \href{quarto/information_management/exercise_information_modeling.pdf}{exercise\_information\_modeling.pdf}
+\item
+  \href{quarto/information_management/exercise_information_modeling_products.pdf}{exercise\_information\_modeling\_products.pdf}
+\item
+  \href{quarto/information_management/exercise_recruiting.pdf}{exercise\_recruiting.pdf}
+\end{itemize}
+
+\subsubsection{Web Engineering}\label{web-engineering-1}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{quarto/web_engineering/exercise-personal-website-css.pdf}{exercise-personal-website-css.pdf}
+\item
+  \href{quarto/web_engineering/exercise-personal-website-html.pdf}{exercise-personal-website-html.pdf}
+\item
+  \href{quarto/web_engineering/exercise-tic-tac-toe.pdf}{exercise-tic-tac-toe.pdf}
+\item
+  \href{quarto/web_engineering/exercise-todo-app-part-1-html-css-js.pdf}{exercise-todo-app-part-1-html-css-js.pdf}
+\item
+  \href{quarto/web_engineering/exercise-todo-app-part-2-data.pdf}{exercise-todo-app-part-2-data.pdf}
+\item
+  \href{quarto/web_engineering/exercise-todo-app-part-3-bootstrap.pdf}{exercise-todo-app-part-3-bootstrap.pdf}
+\end{itemize}
+
+\subsection{Static Files}\label{static-files}
+
+\subsubsection{Empirisches Arbeiten}\label{empirisches-arbeiten}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{static/empirisches_arbeiten/klausur_ea_ss_23.pdf}{klausur\_ea\_ss\_23.pdf}
+\item
+  \href{static/empirisches_arbeiten/klausur_ea_ss_24.pdf}{klausur\_ea\_ss\_24.pdf}
+\item
+  \href{static/empirisches_arbeiten/klausur_ea_ws_21_22.pdf}{klausur\_ea\_ws\_21\_22.pdf}
+\item
+  \href{static/empirisches_arbeiten/klausur_ea_ws_22_23.pdf}{klausur\_ea\_ws\_22\_23.pdf}
+\item
+  \href{static/empirisches_arbeiten/klausur_ea_ws_23_24.pdf}{klausur\_ea\_ws\_23\_24.pdf}
+\item
+  \href{static/empirisches_arbeiten/klausur_ea_ws_23_24_mit_loesungen.pdf}{klausur\_ea\_ws\_23\_24\_mit\_loesungen.pdf}
+\end{itemize}
+
+
+
+\end{document}
