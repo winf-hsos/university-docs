@@ -20,7 +20,7 @@
 - [Applied Analytics - Course Logistics.pdf](google_slides/applied_analytics/Applied Analytics - Course Logistics.pdf)
 - [Data Transformation with R and dplyr.pdf](google_slides/applied_analytics/Data Transformation with R and dplyr.pdf)
 - [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/applied_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf)
-- [Empirisches Arbeiten - Kick Off - Methodenübersicht.pdf](google_slides/applied_analytics/Empirisches Arbeiten - Kick Off - Methodenübersicht.pdf)
+- [Empirisches Arbeiten - Kick Off - MethodenÃ¼bersicht.pdf](google_slides/applied_analytics/Empirisches Arbeiten - Kick Off - Methoden?bersicht.pdf)
 - [Group Work - Text with R - TED Data.pdf](google_slides/applied_analytics/Group Work - Text with R - TED Data.pdf)
 - [Joining data sets with R and SQL.pdf](google_slides/applied_analytics/Joining data sets with R and SQL.pdf)
 - [ML-Based NLP with spaCy and Python.pdf](google_slides/applied_analytics/ML-Based NLP with spaCy and Python.pdf)
