@@ -6,6 +6,13 @@ title: "Exercise: Representing Data with R"
 
 ### Install R and RStudio
 
+Download and install R and RStudio on your computer.
+
+- [Download R](https://cran.r-project.org/bin/windows/base/)
+- [Download RStudio](https://posit.co/download/rstudio-desktop/)
+
+Create a new project in RStudio and add a new R-script file.
+
 ### Watch the videos
 
 For this exercise, first watch the following videos from Harvard's course *CS50's Introduction to Programming with R*:
