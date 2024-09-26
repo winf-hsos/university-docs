@@ -6,11 +6,11 @@
 
 ### Modern Data Analytics with R
 
-- [Syllabus - Modern Data Analytics with R.pdf](google_documents/modern_data_analytics_with_r/Syllabus - Modern Data Analytics with R.pdf)
+- [Syllabus - Modern Data Analytics with R.pdf](google_documents/modern_data_analytics_with_r/Syllabus - Modern Data Analytics with R.pdf) [[Edit](https://docs.google.com/document/d/19mEKdITUxUD6WXI8dk3u8YlMSnu0bg84d7j2rpJkgXY/edit)]
 
 ### Projekt Agrar/Lebensmittel
 
-- [Infoblatt Projekt Agrar Lebensmittel.pdf](google_documents/projekt_agrar_lebensmittel/Infoblatt Projekt Agrar Lebensmittel.pdf)
+- [Infoblatt Projekt Agrar Lebensmittel.pdf](google_documents/projekt_agrar_lebensmittel/Infoblatt Projekt Agrar Lebensmittel.pdf) [[Edit](https://docs.google.com/document/d/10KB_2dGifsKNzgPSsK86RDYaDtyS83I4AXCU4ffh9Ts/edit)]
 
 ## Google Slides
 
@@ -20,7 +20,6 @@
 - [Applied Analytics - Course Logistics.pdf](google_slides/applied_analytics/Applied Analytics - Course Logistics.pdf) [[Edit](https://docs.google.com/presentation/d/1rLTsGoA1IUYDFfX1kkPrS103XZyVC1KlYqDg_7m2NC8/edit)]
 - [Data Transformation with R and dplyr.pdf](google_slides/applied_analytics/Data Transformation with R and dplyr.pdf) [[Edit](https://docs.google.com/presentation/d/1HLRd41yePsS4DDA1bHMLoqv3fdHkOH4lIG2SpPFH1ME/edit)]
 - [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/applied_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf) [[Edit](https://docs.google.com/presentation/d/176XeVUA2xsyZTnrYWMlGMRfl2i274daiyjVQt0syptw/edit)]
-- [Empirisches Arbeiten - Kick Off - Methodenuebersicht.pdf](google_slides/applied_analytics/Empirisches Arbeiten - Kick Off - Methodenuebersicht.pdf) [[Edit](https://docs.google.com/presentation/d/1beuXY3AU1DxwCYTcognnikkqIdjxf0qCPiKl1952FSE/edit)]
 - [Group Work - Text with R - TED Data.pdf](google_slides/applied_analytics/Group Work - Text with R - TED Data.pdf) [[Edit](https://docs.google.com/presentation/d/1GLjCsINBULuK0CfWN68QBR8ZP43cywN9rZjWrH-e6gs/edit)]
 - [Joining data sets with R and SQL.pdf](google_slides/applied_analytics/Joining data sets with R and SQL.pdf) [[Edit](https://docs.google.com/presentation/d/1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4/edit)]
 - [ML-Based NLP with spaCy and Python.pdf](google_slides/applied_analytics/ML-Based NLP with spaCy and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1ftAOhRYSN2D5RrczAK7bLjWwTJIGXTLfVb8I8dxKjrQ/edit)]
@@ -34,6 +33,10 @@
 ### Digital Lab
 
 - [SS 24 - Digital Lab.pdf](google_slides/digital_lab/SS 24 - Digital Lab.pdf) [[Edit](https://docs.google.com/presentation/d/1LA0uPQn-fv3vi0nXkFiMk5jH6ET8vtmgE7TbmemoAVE/edit)]
+
+### Empirisches Arbeiten
+
+- [Empirisches Arbeiten - Kick Off - Methodenuebersicht.pdf](google_slides/empirisches_arbeiten/Empirisches Arbeiten - Kick Off - Methodenuebersicht.pdf) [[Edit](https://docs.google.com/presentation/d/1beuXY3AU1DxwCYTcognnikkqIdjxf0qCPiKl1952FSE/edit)]
 
 ### Information Management
 
