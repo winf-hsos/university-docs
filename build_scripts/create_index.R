@@ -23,18 +23,21 @@ headings_dict <- c(
   empirisches_arbeiten = "Empirisches Arbeiten",
   data_analytics= "Data Analytics",
   digitization_and_programming = "Digitization and Programming",
-  digital_lab = "Digital Lab"
+  digital_lab = "Digital Lab",
+  modern_data_analytics_with_r = "Modern Data Analytics with R"
 )
 
 category = ""
 subcategory = ""
 for (file in files) {
   
+  # The parts from the filename
   parts <- unlist(strsplit(file, "/"))
   
   current_category = parts[2]
   current_subcategory = parts[3]
   
+  # Check if we arrived at a new category
   if(current_category != category) {
     category = current_category
     heading_text = headings_dict[category]
@@ -45,6 +48,7 @@ for (file in files) {
     output <- c(output, paste0("\n## ", heading_text, "\n"))
   }
   
+  # Check if we arrived at a new subcategory
   if(current_subcategory != subcategory) {
     subcategory = current_subcategory
     heading_text = headings_dict[subcategory]
@@ -58,11 +62,31 @@ for (file in files) {
     }
   }
   
+  # Should be PDF of PNG image
   if(endsWith(file, ".pdf") | endsWith(file, ".png")) {
-    file_name <- basename(file)
-    file <- gsub("docs/", "", file)
     
+    file_name <- basename(file)
+    
+    #print(file_name)
+    
+    # See if there is ID in the file name ("%%ID%%)
+    id <- sub(".*%%(.*)%%.*", "\\1", file_name)
+    
+    #print(id)
+  
+    file <- gsub("docs/", "", file)
     file_link <- paste0("- [", file_name, "](", file, ")")
+    
+    # If an ID is present in the filename
+    if(id != file_name) {
+      # Remove the ID suffix from the file name
+      file_name <- sub("_(\\d+)\\.pdf", ".pdf", file_name)
+      
+      # Create link to Google Slide
+      url_google = paste0("https://docs.google.com/presentation/d/", id, "/edit")
+      file_link <- paste0(file_link, " {[Edit](", url_google, ")}")
+    }
+    
     output <- c(output, file_link)
   }
   

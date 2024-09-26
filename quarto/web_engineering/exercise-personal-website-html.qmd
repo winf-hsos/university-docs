@@ -7,7 +7,7 @@ Eine persönliche Webseite ist ein gutes Übungsbeispiel für die Einführung vo
 
 ### Aufgabe 1: Das Webseiten-Projekt aufsetzen
 
-Für die persönliche Webseite wollen wir ein eigenes Webseiten-Projekt anlegen. Initialisiert ein neues Projekt und erstellt eine Datei `index.html` mit dem HTML-Basisgerüst:
+Für die persönliche Webseite wollen wir ein eigenes Webseiten-Projekt anlegen. Initialisiert ein neues Projekt und erstellt eine Datei `index.html` mit dem HTML-Basisgerüst. Lest euch dazu den Abschnitt [Getting Started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started) der MDN-Dokumentationsseite durch:
 
 ```html
 <!DOCTYPE html>

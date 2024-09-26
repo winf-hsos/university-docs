@@ -29,7 +29,9 @@ for (module_name in names(docs_yaml$slides)) {
     
     # Rename
     doc_infos <- pdf_info(paste0(output_path, "tmp.pdf"))
-    doc_title <- doc_infos$keys$Title
+    
+    # Add the ID in the file name (remove later when creating the index)
+    doc_title <- paste0(doc_infos$keys$Title, "%%", id, "%%")
     
     new_file_name = paste0(module_path, "/", doc_title, ".pdf")
     file.rename(paste0(output_path, "tmp.pdf"), new_file_name)
