@@ -65,9 +65,15 @@ for (file in files) {
   # Should be PDF of PNG image
   if(endsWith(file, ".pdf") | endsWith(file, ".png")) {
     
-    # See if there is ID in the file name ("%%ID%%)
-    id <- sub(".*%%(.*)%%.*", "\\1", file)
-    
+    # Check if the filename contains the %% pattern
+    if (grepl("%%.*%%", file)) {
+      # Extract the ID if the pattern exists
+      id <- sub(".*%%(.*)%%.*", "\\1", file)
+    } else {
+      # Set id to an empty string if no pattern is found
+      id <- ""
+    }
+   
     # Remove the ID suffix from the file name
     file_renamed <- sub("%%.*%%", "", file)
     
@@ -83,12 +89,10 @@ for (file in files) {
     file_link <- paste0("- [", file_name, "](", file_renamed, ")")
     
     # If an ID is present in the filename
-    if(id != file_name) {
-  
+    if(id != "") {
       # Create link to Google Slide
       url_google = paste0("https://docs.google.com/presentation/d/", id, "/edit")
-      file_link <- paste0(file_link, " {[Edit](", url_google, ")}")
-      
+      file_link <- paste0(file_link, " [[Edit](", url_google, ")]")
     }
     
     output <- c(output, file_link)
