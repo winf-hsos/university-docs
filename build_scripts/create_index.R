@@ -86,12 +86,20 @@ for (file in files) {
     #print(id)
 
     file <- gsub("docs/", "", file_renamed)
-    file_link <- paste0("- [", file_name, "](", file_renamed, ")")
+    file_link <- paste0("- [", file_name, "](", file, ")")
     
     # If an ID is present in the filename
     if(id != "") {
       # Create link to Google Slide
-      url_google = paste0("https://docs.google.com/presentation/d/", id, "/edit")
+      #print(category)
+      
+      if(category == "google_slides") {
+        placeholder = "presentation"
+      }
+      else {
+        placeholder = "document"
+      }
+      url_google = paste0("https://docs.google.com/", placeholder, "/d/", id, "/edit")
       file_link <- paste0(file_link, " [[Edit](", url_google, ")]")
     }
     
