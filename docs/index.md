@@ -171,6 +171,7 @@
 - [exercise_search_and_extract_text_data_from_tweets.pdf](quarto/data_analytics/exercise_search_and_extract_text_data_from_tweets.pdf)
 - [exercise_transcribe_and_analyze_nutrition_videos.pdf](quarto/data_analytics/exercise_transcribe_and_analyze_nutrition_videos.pdf)
 - [exercise_transcribe_youtube_videos.pdf](quarto/data_analytics/exercise_transcribe_youtube_videos.pdf)
+- [exercise_vectors_monty_hall.pdf](quarto/data_analytics/exercise_vectors_monty_hall.pdf)
 
 ### Digitization and Programming
 
