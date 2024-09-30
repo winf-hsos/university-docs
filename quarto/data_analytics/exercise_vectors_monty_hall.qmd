@@ -42,8 +42,11 @@ To gain a more comprehensive understanding, let's examine a dataset you've obtai
 1. Load the data from their respective files into vectors in R.
 
 2. Perform the same calculations as before:
+
     a. Calculate the winning percentage for cases where the contestant stayed
+
     b. Calculate the winning percentage for cases where the contestant switched
+
     c. Determine the percentage of staying versus switching decisions
 
 

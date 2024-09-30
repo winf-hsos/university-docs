@@ -23,8 +23,7 @@ headings_dict <- c(
   empirisches_arbeiten = "Empirisches Arbeiten",
   data_analytics= "Data Analytics",
   digitization_and_programming = "Digitization and Programming",
-  digital_lab = "Digital Lab",
-  modern_data_analytics_with_r = "Modern Data Analytics with R"
+  digital_lab = "Digital Lab"
 )
 
 category = ""

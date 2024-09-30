@@ -4,9 +4,9 @@
 ## Google Documents
 
 
-### Modern Data Analytics with R
+### data_anaytics
 
-- [Syllabus - Modern Data Analytics with R.pdf](google_documents/modern_data_analytics_with_r/Syllabus - Modern Data Analytics with R.pdf) [[Edit](https://docs.google.com/document/d/19mEKdITUxUD6WXI8dk3u8YlMSnu0bg84d7j2rpJkgXY/edit)]
+- [Syllabus - Data Analytics with R.pdf](google_documents/data_anaytics/Syllabus - Data Analytics with R.pdf) [[Edit](https://docs.google.com/document/d/19mEKdITUxUD6WXI8dk3u8YlMSnu0bg84d7j2rpJkgXY/edit)]
 
 ### Projekt Agrar/Lebensmittel
 
@@ -18,17 +18,21 @@
 ### Applied Analytics
 
 - [Applied Analytics - Course Logistics.pdf](google_slides/applied_analytics/Applied Analytics - Course Logistics.pdf) [[Edit](https://docs.google.com/presentation/d/1rLTsGoA1IUYDFfX1kkPrS103XZyVC1KlYqDg_7m2NC8/edit)]
-- [Data Transformation with R and dplyr.pdf](google_slides/applied_analytics/Data Transformation with R and dplyr.pdf) [[Edit](https://docs.google.com/presentation/d/1HLRd41yePsS4DDA1bHMLoqv3fdHkOH4lIG2SpPFH1ME/edit)]
-- [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/applied_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf) [[Edit](https://docs.google.com/presentation/d/176XeVUA2xsyZTnrYWMlGMRfl2i274daiyjVQt0syptw/edit)]
-- [Group Work - Text with R - TED Data.pdf](google_slides/applied_analytics/Group Work - Text with R - TED Data.pdf) [[Edit](https://docs.google.com/presentation/d/1GLjCsINBULuK0CfWN68QBR8ZP43cywN9rZjWrH-e6gs/edit)]
-- [Joining data sets with R and SQL.pdf](google_slides/applied_analytics/Joining data sets with R and SQL.pdf) [[Edit](https://docs.google.com/presentation/d/1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4/edit)]
-- [ML-Based NLP with spaCy and Python.pdf](google_slides/applied_analytics/ML-Based NLP with spaCy and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1ftAOhRYSN2D5RrczAK7bLjWwTJIGXTLfVb8I8dxKjrQ/edit)]
-- [NLP - Text Representation.pdf](google_slides/applied_analytics/NLP - Text Representation.pdf) [[Edit](https://docs.google.com/presentation/d/1GYyf6ev0Qbq71XELfm2Aa2JrfbKRwkJK30XT43qoSnI/edit)]
-- [Rule-Based Text Classification with R.pdf](google_slides/applied_analytics/Rule-Based Text Classification with R.pdf) [[Edit](https://docs.google.com/presentation/d/1_7-syGiPKOKysEY-lAA04prhCQekydCGe6DuBMMugok/edit)]
-- [Searching and Transforming Text with R and stringr.pdf](google_slides/applied_analytics/Searching and Transforming Text with R and stringr.pdf) [[Edit](https://docs.google.com/presentation/d/1cbjPeLKjuXMJvAcaPi7HmhuT6KjZyGSj09HEs0Kxxf8/edit)]
-- [The R Murder Mystery.pdf](google_slides/applied_analytics/The R Murder Mystery.pdf) [[Edit](https://docs.google.com/presentation/d/1-AXlXNnt3WBZpXhXAeFs6xzWL2qPKe08j4k5qy-KqnQ/edit)]
-- [Tokenizing Text with R, stringr and tidyr.pdf](google_slides/applied_analytics/Tokenizing Text with R, stringr and tidyr.pdf) [[Edit](https://docs.google.com/presentation/d/1BMDav7GK2iMo4nDYFy6Vw6lXggtU7G7rBzONTzCxpAk/edit)]
-- [Working with the HPC Cluster.pdf](google_slides/applied_analytics/Working with the HPC Cluster.pdf) [[Edit](https://docs.google.com/presentation/d/1y1r3nTxFBBGUtAsiRzTncCmnyCBLcwSYb3NFpFqz194/edit)]
+
+### Data Analytics
+
+- [Data Transformation with R and dplyr.pdf](google_slides/data_analytics/Data Transformation with R and dplyr.pdf) [[Edit](https://docs.google.com/presentation/d/1HLRd41yePsS4DDA1bHMLoqv3fdHkOH4lIG2SpPFH1ME/edit)]
+- [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/data_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf) [[Edit](https://docs.google.com/presentation/d/176XeVUA2xsyZTnrYWMlGMRfl2i274daiyjVQt0syptw/edit)]
+- [Exploratory Data Analysis with R and Python.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Group Work - Text with R - TED Data.pdf](google_slides/data_analytics/Group Work - Text with R - TED Data.pdf) [[Edit](https://docs.google.com/presentation/d/1GLjCsINBULuK0CfWN68QBR8ZP43cywN9rZjWrH-e6gs/edit)]
+- [Joining data sets with R and SQL.pdf](google_slides/data_analytics/Joining data sets with R and SQL.pdf) [[Edit](https://docs.google.com/presentation/d/1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4/edit)]
+- [ML-Based NLP with spaCy and Python.pdf](google_slides/data_analytics/ML-Based NLP with spaCy and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1ftAOhRYSN2D5RrczAK7bLjWwTJIGXTLfVb8I8dxKjrQ/edit)]
+- [NLP - Text Representation.pdf](google_slides/data_analytics/NLP - Text Representation.pdf) [[Edit](https://docs.google.com/presentation/d/1GYyf6ev0Qbq71XELfm2Aa2JrfbKRwkJK30XT43qoSnI/edit)]
+- [Rule-Based Text Classification with R.pdf](google_slides/data_analytics/Rule-Based Text Classification with R.pdf) [[Edit](https://docs.google.com/presentation/d/1_7-syGiPKOKysEY-lAA04prhCQekydCGe6DuBMMugok/edit)]
+- [Searching and Transforming Text with R and stringr.pdf](google_slides/data_analytics/Searching and Transforming Text with R and stringr.pdf) [[Edit](https://docs.google.com/presentation/d/1cbjPeLKjuXMJvAcaPi7HmhuT6KjZyGSj09HEs0Kxxf8/edit)]
+- [The R Murder Mystery.pdf](google_slides/data_analytics/The R Murder Mystery.pdf) [[Edit](https://docs.google.com/presentation/d/1-AXlXNnt3WBZpXhXAeFs6xzWL2qPKe08j4k5qy-KqnQ/edit)]
+- [Tokenizing Text with R, stringr and tidyr.pdf](google_slides/data_analytics/Tokenizing Text with R, stringr and tidyr.pdf) [[Edit](https://docs.google.com/presentation/d/1BMDav7GK2iMo4nDYFy6Vw6lXggtU7G7rBzONTzCxpAk/edit)]
+- [Working with the HPC Cluster.pdf](google_slides/data_analytics/Working with the HPC Cluster.pdf) [[Edit](https://docs.google.com/presentation/d/1y1r3nTxFBBGUtAsiRzTncCmnyCBLcwSYb3NFpFqz194/edit)]
 
 ### Digital Lab
 
@@ -74,7 +78,6 @@
 - [Digitization - Information Representation and Processing - 8 - Computers.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - 8 - Computers.pdf) [[Edit](https://docs.google.com/presentation/d/1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A/edit)]
 - [Digitization - Information Representation and Processing - 9 - Logic and Arithmetic.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing - 9 - Logic and Arithmetic.pdf) [[Edit](https://docs.google.com/presentation/d/1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A/edit)]
 - [Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing.pdf) [[Edit](https://docs.google.com/presentation/d/1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A/edit)]
-- [Exploratory Data Analysis with R and Python.pdf](google_slides/wirtschaftsinformatik/Exploratory Data Analysis with R and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
 - [LiFi-Project - Kick-Off.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf) [[Edit](https://docs.google.com/presentation/d/1lRCrl_BbCE6KLBV0Y-Vj1IKzU-AlUotFVPyBg9e79xE/edit)]
 - [LiFi-Project - Program's Anatomy.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Program's Anatomy.pdf) [[Edit](https://docs.google.com/presentation/d/1hdT157l8ks8t49ktot5N15vDoLCoIIynNgNBydQwWm8/edit)]
 - [Programming with Python.pdf](google_slides/wirtschaftsinformatik/Programming with Python.pdf) [[Edit](https://docs.google.com/presentation/d/1N-HoYfpsdk4yOKgU7V3hjdLgl7vWHbQZl_6fJ8PEYno/edit)]

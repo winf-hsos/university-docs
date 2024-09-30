@@ -87,6 +87,9 @@ You are tasked with analyzing a set of weight data for five individuals, both be
 ### Data Frames
 
 1.  Using the `data.frame` function, create a data frame called `foods` with two columns: `item` and `calories`. The `item` column should contain the values: "Apple", "Banana", "Carrot", "Donut". The `calories` column should contain the respective values: 95, 105, 25, 250. Then, using both the `$` notation and bracket notation, access and print the `calories` column.
+
 2.  Using the `foods` data frame from the previous exercise, retrieve the second row (Banana) using bracket notation. Additionally, retrieve the number of calories for the "Carrot" (third row, second column) using bracket notation, and print it.
+
 3.  Add a new column to the `foods` data frame called `type`, where the values are set as follows: "Fruit" for Apple and Banana, "Vegetable" for Carrot, and "Snack" for Donut. Then, modify the row names of the data frame to be the food items. Finally, access the row corresponding to "Donut" using its row name and print the entire row.
+
 4.  Using the `foods` data frame from the previous exercises, add a new column called `low_calorie`. This column should contain `TRUE` if the food item has fewer than 100 calories and `FALSE` otherwise. Use a boolean expression to determine the values for this column. Finally, print the updated data frame.

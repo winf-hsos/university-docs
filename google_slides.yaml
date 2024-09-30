@@ -1,6 +1,43 @@
 ---
 slides:
 
+  data_analytics:
+    # Exploratory Data Analysis with R and Python
+    - 1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ
+
+    # Data Transformation with R & dplyr
+    - 1HLRd41yePsS4DDA1bHMLoqv3fdHkOH4lIG2SpPFH1ME
+    
+    # Data Visualization with ggplot2 and the Grammar of Graphics
+    - 176XeVUA2xsyZTnrYWMlGMRfl2i274daiyjVQt0syptw
+    
+    # Joining Data Sets with R and SQL
+    - 1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4
+    
+    # The 'R' Murder Mystery
+    - 1-AXlXNnt3WBZpXhXAeFs6xzWL2qPKe08j4k5qy-KqnQ
+    
+    # Searching and Transforming Text with R and stringr
+    - 1cbjPeLKjuXMJvAcaPi7HmhuT6KjZyGSj09HEs0Kxxf8
+    
+    # Tokenizing Text with R, stringr and tidyr
+    - 1BMDav7GK2iMo4nDYFy6Vw6lXggtU7G7rBzONTzCxpAk
+    
+    # Rule-Based Text Classification with R
+    - 1_7-syGiPKOKysEY-lAA04prhCQekydCGe6DuBMMugok
+    
+    # ML-based NLP with spaCy and Python
+    - 1ftAOhRYSN2D5RrczAK7bLjWwTJIGXTLfVb8I8dxKjrQ
+    
+    # NLP - Text Representation
+    - 1GYyf6ev0Qbq71XELfm2Aa2JrfbKRwkJK30XT43qoSnI
+    
+    # Group Work - Text with R - TED Talks
+    - 1GLjCsINBULuK0CfWN68QBR8ZP43cywN9rZjWrH-e6gs
+    
+    # Working with the HPC Cluster
+    - 1y1r3nTxFBBGUtAsiRzTncCmnyCBLcwSYb3NFpFqz194
+
   wirtschaftsinformatik:
     # LiFi Project
     # Kick-Off
@@ -20,9 +57,6 @@ slides:
     
     # SS24 - Programming with Python
     - 1YQGgTCClB41fIFI6oUQVgbCrwFCd7iIiesHqnAQp4KU
-    
-    # Exploratory Data Analysis with R and Python
-    - 1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ
     
   web_engineering:  
   
@@ -80,51 +114,17 @@ slides:
     - 1jgeZ3RKLmgDgiES1UpvQwUKYGGBWEmpNpYXFVEQIh6s
   
   applied_analytics:  
-    
-    # Applied Analytics
+  
     # Course Logistics
     - 1rLTsGoA1IUYDFfX1kkPrS103XZyVC1KlYqDg_7m2NC8
-    
-    # Data Transformation with R & dplyr
-    - 1HLRd41yePsS4DDA1bHMLoqv3fdHkOH4lIG2SpPFH1ME
-    
-    # Data Visualization with ggplot2 and the Grammar of Graphics
-    - 176XeVUA2xsyZTnrYWMlGMRfl2i274daiyjVQt0syptw
-    
-    # Joining Data Sets with R and SQL
-    - 1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4
-    
-    # The 'R' Murder Mystery
-    - 1-AXlXNnt3WBZpXhXAeFs6xzWL2qPKe08j4k5qy-KqnQ
-    
-    # Searching and Transforming Text with R and stringr
-    - 1cbjPeLKjuXMJvAcaPi7HmhuT6KjZyGSj09HEs0Kxxf8
-    
-    # Tokenizing Text with R, stringr and tidyr
-    - 1BMDav7GK2iMo4nDYFy6Vw6lXggtU7G7rBzONTzCxpAk
-    
-    # Rule-Based Text Classification with R
-    - 1_7-syGiPKOKysEY-lAA04prhCQekydCGe6DuBMMugok
-    
-    # ML-based NLP with spaCy and Python
-    - 1ftAOhRYSN2D5RrczAK7bLjWwTJIGXTLfVb8I8dxKjrQ
-    
-    # NLP - Text Representation
-    - 1GYyf6ev0Qbq71XELfm2Aa2JrfbKRwkJK30XT43qoSnI
-    
-    # Group Work - Text with R - TED Talks
-    - 1GLjCsINBULuK0CfWN68QBR8ZP43cywN9rZjWrH-e6gs
-    
-    # Working with the HPC Cluster
-    - 1y1r3nTxFBBGUtAsiRzTncCmnyCBLcwSYb3NFpFqz194
-    
+
   empirisches_arbeiten:
     
     # Empirisches Arbeiten - Kick Off - Methodenübersicht
     - 1beuXY3AU1DxwCYTcognnikkqIdjxf0qCPiKl1952FSE
     
-    
   digital_lab:
-    
+  
+    # Slides
     - 1LA0uPQn-fv3vi0nXkFiMk5jH6ET8vtmgE7TbmemoAVE
 ---
