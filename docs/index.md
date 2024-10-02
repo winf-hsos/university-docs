@@ -143,6 +143,7 @@
 - [problem_word_count_distributed_4.png](images/problem_word_count_distributed_4.png)
 - [problem_word_count_linear_sequential.png](images/problem_word_count_linear_sequential.png)
 - [problem_word_count_parallelized.png](images/problem_word_count_parallelized.png)
+- [scalar_vector_data_frame.png](images/scalar_vector_data_frame.png)
 - [stringr_simple_searches_in_text.png](images/stringr_simple_searches_in_text.png)
 - [variables_as_containers.png](images/variables_as_containers.png)
 
