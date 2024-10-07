@@ -64,7 +64,7 @@ Data frames represent data in a tabular format, similar to a spreadsheet. Each r
 
     -   How does the result align with your initial intuition about the problem?
 
-## Exercise 2: Create Data Frames from Scratch
+###  Exercise 2: Create Data Frames from Scratch
 
 In this exercise, you will conduct your own experiments with the Monty Hall Problem and create a data frame to store your results. Follow the steps below:
 
@@ -93,3 +93,28 @@ In this exercise, you will conduct your own experiments with the Monty Hall Prob
     -   Did you notice a trend in your results? Which strategy seems to be more successful?
 
     -   How do your experimental results compare to the historical data from Exercise 1?
+
+## Exercise 3: Simulation Results as Data Frame
+
+In this exercise, you will modify a simulation of the Monty Hall Problem that we introduced in class so that the results of each simulation run are stored as a row in a data frame. Follow the steps below:
+
+1.  Modify the Monty Hall simulation code to collect the following information as vectors for each run:
+
+    -   `prize_door`: the door with the prize (1, 2, or 3)
+
+    -   `contestant_choice`: the door chosen by the contestant initially (1, 2, or 3)
+
+    -   `decision`: whether the contestant decided to "stay" or "switch"
+
+    -   `won`: whether the contestant won the prize (TRUE or FALSE)
+
+2.  Once the simulation finishes, create a data frame from the vectors to store the results of the simulation. Each row should represent a single run of the simulation.
+
+3.  Save the data frame to a CSV file using the `write.csv()` function. Be sure to specify the file name and set `row.names` to FALSE.
+
+4.  Run the simulation multiple times (e.g., 1000 times) and reflect on the results:
+
+    -   What trends do you observe when comparing the results of switching versus staying?
+
+    -   How do your simulation results compare with the theoretical probabilities discussed in class?
+
