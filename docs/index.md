@@ -110,6 +110,7 @@
 - [computational_schema_function.png](images/computational_schema_function.png)
 - [computational_schema_input_output_function.png](images/computational_schema_input_output_function.png)
 - [computational_schema_processing_representation.png](images/computational_schema_processing_representation.png)
+- [data_frame_concept.png](images/data_frame_concept.png)
 - [database_system_architecture.png](images/database_system_architecture.png)
 - [digital_competence_society_smooth.png](images/digital_competence_society_smooth.png)
 - [digital_competence_society_split.png](images/digital_competence_society_split.png)
@@ -145,6 +146,10 @@
 - [problem_word_count_parallelized.png](images/problem_word_count_parallelized.png)
 - [scalar_vector_data_frame.png](images/scalar_vector_data_frame.png)
 - [stringr_simple_searches_in_text.png](images/stringr_simple_searches_in_text.png)
+- [tidy_data_tidy.png](images/tidy_data_tidy.png)
+- [tiydy_data_observations.png](images/tiydy_data_observations.png)
+- [tiydy_data_values.png](images/tiydy_data_values.png)
+- [tiydy_data_variables.png](images/tiydy_data_variables.png)
 - [types_of_questions.png](images/types_of_questions.png)
 - [variables_as_containers.png](images/variables_as_containers.png)
 
