@@ -32,6 +32,7 @@
 - [Searching and Transforming Text with R and stringr.pdf](google_slides/data_analytics/Searching and Transforming Text with R and stringr.pdf) [[Edit](https://docs.google.com/presentation/d/1cbjPeLKjuXMJvAcaPi7HmhuT6KjZyGSj09HEs0Kxxf8/edit)]
 - [The R Murder Mystery.pdf](google_slides/data_analytics/The R Murder Mystery.pdf) [[Edit](https://docs.google.com/presentation/d/1-AXlXNnt3WBZpXhXAeFs6xzWL2qPKe08j4k5qy-KqnQ/edit)]
 - [Tokenizing Text with R, stringr and tidyr.pdf](google_slides/data_analytics/Tokenizing Text with R, stringr and tidyr.pdf) [[Edit](https://docs.google.com/presentation/d/1BMDav7GK2iMo4nDYFy6Vw6lXggtU7G7rBzONTzCxpAk/edit)]
+- [Visualizing Tweets.pdf](google_slides/data_analytics/Visualizing Tweets.pdf) [[Edit](https://docs.google.com/presentation/d/1qX_eh8vdLFo1e5-O99mmzrL_72-pcIjytOrpxoRytkM/edit)]
 - [Working with the HPC Cluster.pdf](google_slides/data_analytics/Working with the HPC Cluster.pdf) [[Edit](https://docs.google.com/presentation/d/1y1r3nTxFBBGUtAsiRzTncCmnyCBLcwSYb3NFpFqz194/edit)]
 
 ### Digital Lab
