@@ -25,14 +25,14 @@
 - [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/data_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf) [[Edit](https://docs.google.com/presentation/d/176XeVUA2xsyZTnrYWMlGMRfl2i274daiyjVQt0syptw/edit)]
 - [Exploratory Data Analysis with R and Python.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
 - [Group Work - Text with R - TED Data.pdf](google_slides/data_analytics/Group Work - Text with R - TED Data.pdf) [[Edit](https://docs.google.com/presentation/d/1GLjCsINBULuK0CfWN68QBR8ZP43cywN9rZjWrH-e6gs/edit)]
+- [Group Work - The R Murder Mystery.pdf](google_slides/data_analytics/Group Work - The R Murder Mystery.pdf) [[Edit](https://docs.google.com/presentation/d/1-AXlXNnt3WBZpXhXAeFs6xzWL2qPKe08j4k5qy-KqnQ/edit)]
+- [Group Work - Tweets Visualization Challenge.pdf](google_slides/data_analytics/Group Work - Tweets Visualization Challenge.pdf) [[Edit](https://docs.google.com/presentation/d/1qX_eh8vdLFo1e5-O99mmzrL_72-pcIjytOrpxoRytkM/edit)]
 - [Joining data sets with R and SQL.pdf](google_slides/data_analytics/Joining data sets with R and SQL.pdf) [[Edit](https://docs.google.com/presentation/d/1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4/edit)]
 - [ML-Based NLP with spaCy and Python.pdf](google_slides/data_analytics/ML-Based NLP with spaCy and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1ftAOhRYSN2D5RrczAK7bLjWwTJIGXTLfVb8I8dxKjrQ/edit)]
 - [NLP - Text Representation.pdf](google_slides/data_analytics/NLP - Text Representation.pdf) [[Edit](https://docs.google.com/presentation/d/1GYyf6ev0Qbq71XELfm2Aa2JrfbKRwkJK30XT43qoSnI/edit)]
 - [Rule-Based Text Classification with R.pdf](google_slides/data_analytics/Rule-Based Text Classification with R.pdf) [[Edit](https://docs.google.com/presentation/d/1_7-syGiPKOKysEY-lAA04prhCQekydCGe6DuBMMugok/edit)]
 - [Searching and Transforming Text with R and stringr.pdf](google_slides/data_analytics/Searching and Transforming Text with R and stringr.pdf) [[Edit](https://docs.google.com/presentation/d/1cbjPeLKjuXMJvAcaPi7HmhuT6KjZyGSj09HEs0Kxxf8/edit)]
-- [The R Murder Mystery.pdf](google_slides/data_analytics/The R Murder Mystery.pdf) [[Edit](https://docs.google.com/presentation/d/1-AXlXNnt3WBZpXhXAeFs6xzWL2qPKe08j4k5qy-KqnQ/edit)]
 - [Tokenizing Text with R, stringr and tidyr.pdf](google_slides/data_analytics/Tokenizing Text with R, stringr and tidyr.pdf) [[Edit](https://docs.google.com/presentation/d/1BMDav7GK2iMo4nDYFy6Vw6lXggtU7G7rBzONTzCxpAk/edit)]
-- [Visualizing Tweets.pdf](google_slides/data_analytics/Visualizing Tweets.pdf) [[Edit](https://docs.google.com/presentation/d/1qX_eh8vdLFo1e5-O99mmzrL_72-pcIjytOrpxoRytkM/edit)]
 - [Working with the HPC Cluster.pdf](google_slides/data_analytics/Working with the HPC Cluster.pdf) [[Edit](https://docs.google.com/presentation/d/1y1r3nTxFBBGUtAsiRzTncCmnyCBLcwSYb3NFpFqz194/edit)]
 
 ### Digital Lab
