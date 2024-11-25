@@ -59,9 +59,11 @@
 - [Introduction to CSS.pdf](google_slides/web_engineering/Introduction to CSS.pdf) [[Edit](https://docs.google.com/presentation/d/1QZj_FTUeBuIWhP5lk11xIDqOA0gGWPv6IfIdiEygZAA/edit)]
 - [Introduction to HTML.pdf](google_slides/web_engineering/Introduction to HTML.pdf) [[Edit](https://docs.google.com/presentation/d/1N5fJwgkVglszE4oxu1zvrBRWI9kEF2LuDqYEEXEYIlk/edit)]
 - [Introduction to JavaScript for the Web.pdf](google_slides/web_engineering/Introduction to JavaScript for the Web.pdf) [[Edit](https://docs.google.com/presentation/d/1gBtIKnXM6ayCophn6M76ljtbvqQwHjv8z6BDYImOiwU/edit)]
+- [Web Engineering - Benutzerauthentifizierung.pdf](google_slides/web_engineering/Web Engineering - Benutzerauthentifizierung.pdf) [[Edit](https://docs.google.com/presentation/d/19VKvkmlnM3Asdk8yWlM2Na1pJn8nOWudc5UIaTxyTc4/edit)]
 - [Web Engineering - Course Logistics.pdf](google_slides/web_engineering/Web Engineering - Course Logistics.pdf) [[Edit](https://docs.google.com/presentation/d/1xG8rBdHbc308U5ryFhGmFGJnPtjM6-E9Zq_W7vGbJ-A/edit)]
 - [Web Engineering - Das JSON Format.pdf](google_slides/web_engineering/Web Engineering - Das JSON Format.pdf) [[Edit](https://docs.google.com/presentation/d/1wdkjrpVEw9EIfDXSE4LLZ2pbcsO-OQvWAupYoOXPlyk/edit)]
 - [Web Engineering - Einfuehrung Bootstrap.pdf](google_slides/web_engineering/Web Engineering - Einfuehrung Bootstrap.pdf) [[Edit](https://docs.google.com/presentation/d/1TD9dAvbVUMdmKiH0ldTY1Ytl9NnyjfjYE-9eadcEkxA/edit)]
+- [Web Engineering - Firestore Datenbank.pdf](google_slides/web_engineering/Web Engineering - Firestore Datenbank.pdf) [[Edit](https://docs.google.com/presentation/d/1mP7tJ2KAT94sVmS6i2uMbwS8UlbVKhkHedaJmlix744/edit)]
 - [Web Engineering - Layout mit Bootstrap.pdf](google_slides/web_engineering/Web Engineering - Layout mit Bootstrap.pdf) [[Edit](https://docs.google.com/presentation/d/1tw9gmm46wpGOwjLsbRvTJwFvnaUbVKNb-shrOBknw_Q/edit)]
 - [Web Engineering - Local Storage.pdf](google_slides/web_engineering/Web Engineering - Local Storage.pdf) [[Edit](https://docs.google.com/presentation/d/1kTqnOFXlTSmNPeC82iUzK7iQNB_1jcoEff-C8Fcz-aM/edit)]
 
