@@ -170,6 +170,7 @@
 ### Data Analytics
 
 - [case_study_focus_spiegel_stern.pdf](quarto/data_analytics/case_study_focus_spiegel_stern.pdf)
+- [case_study_youtube_metadata.pdf](quarto/data_analytics/case_study_youtube_metadata.pdf)
 - [case_study_youtube_ss_24.pdf](quarto/data_analytics/case_study_youtube_ss_24.pdf)
 - [exercise_cs50r_representing_data.pdf](quarto/data_analytics/exercise_cs50r_representing_data.pdf)
 - [exercise_data_frames_monty_hall.pdf](quarto/data_analytics/exercise_data_frames_monty_hall.pdf)
@@ -201,6 +202,7 @@
 
 ### Information Management
 
+- [case_study_water_kefir.pdf](quarto/information_management/case_study_water_kefir.pdf)
 - [exercise_campusbier_sql_queries.pdf](quarto/information_management/exercise_campusbier_sql_queries.pdf)
 - [exercise_data_layer_with_python.pdf](quarto/information_management/exercise_data_layer_with_python.pdf)
 - [exercise_erm_exam_planning.pdf](quarto/information_management/exercise_erm_exam_planning.pdf)
@@ -218,6 +220,7 @@
 - [exercise-todo-app-part-1-html-css-js.pdf](quarto/web_engineering/exercise-todo-app-part-1-html-css-js.pdf)
 - [exercise-todo-app-part-2-data.pdf](quarto/web_engineering/exercise-todo-app-part-2-data.pdf)
 - [exercise-todo-app-part-3-bootstrap.pdf](quarto/web_engineering/exercise-todo-app-part-3-bootstrap.pdf)
+- [project_water_kefir_research.pdf](quarto/web_engineering/project_water_kefir_research.pdf)
 
 ## Static Files
 

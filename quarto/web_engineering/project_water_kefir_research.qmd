@@ -1,0 +1,62 @@
+---
+title: "Entwicklung einer Webanwendung für die Forschung an Wasserkefir"
+subtitle: "Projekt im Wintersemester 2024/2025"
+lang: de
+format: pdf
+---
+
+## Vorbereitung
+
+Erstellt für diese Übungsaufgabe ein neues Projekt in Glitch. Löscht alle Dateien und behaltet zunächst nur die `index.html`, `style.css` sowie die `script.js`. Entscheidet im Verlauf des Projekts selbst, ob ihr weitere Dateien hinzufügen möchtet.
+
+## Projektbeschreibung
+
+In diesem Projekt geht es um die Entwicklung einer Webanwendung zur Unterstützung eines Forschungsprojekts, das sich mit der Optimierung des Fermentationsprozesses und des Rezepts für Wasserkefir befasst. Ziel ist es, vorteilhafte Prozessparameter und Zutatenkombinationen durch verschiedene Experimente zu ermitteln. Dazu werden Parameter wie Umgebungstemperatur, Fermentationsdauer, Lichtverhältnisse und Sauerstoffzufuhr sowie Zutaten wie Wasser, Wasserkefir-Kristalle, Zitronensäure, Zucker und Trockenfrüchte untersucht. Die Ergebnisse der Experimente werden dokumentiert und im Chemielabor analysiert, um den optimalen Fermentationsprozess zu finden. Jedes Experiment findet in einem von 16 Fermentationstanks der Hochschule Osnabrück statt.
+
+## Ziel des Projekts
+
+Ziel dieses Projekts ist es, eine Webanwendung zu entwickeln, die den Forschungsprozess bei der Optimierung des Fermentationsprozesses und des Wasserkefir-Rezepts unterstützt. Ihr sollt eine entsprechende Webanwendung mit HTML, CSS und JavaScript entwickeln. Für das Design und die UI-Elemente verwendet ihr Bootstrap. Überlegt euch für jede der unten aufgeführten Ansichten, welches Layout dafür sinnvoll ist, und zeichnet zunächst eine Skizze davon. Setzt es anschließend als responsives Grid-Layout um. Überlegt euch, wie die verschiedenen Ansichten auf einem mobilen Endgerät im Vergleich zu einem großen Monitor verändert werden sollen.
+
+Sämtliche Daten werden in der Firestore-Datenbank von Google Firebase gespeichert. Die Authentifizierung der Forschenden erfolgt ebenfalls über Firebase. In diesem Projekt darf jeder angemeldete Forschende sämtliche Informationen verwalten, sodass eine zusätzliche Autorisierung nicht notwendig ist.
+
+Die Webanwendung soll den Forschenden eine einfache Möglichkeit bieten, ihre Experimente zu dokumentieren und die Laborergebnisse zu speichern. Achtet bei der Gestaltung auf eine intuitive Benutzerführung und ein ansprechendes Design.
+
+## Eure Aufgaben
+
+Die folgenden Ansichten sollt ihr umsetzen. Überlegt selbst, ob ihr mehrere Ansichten auf einer Seite kombinieren, Ansichten mithilfe von JavaScript ein- und ausblenden oder eigene Unterseiten dafür anlegen möchtet:
+
+### 1. Login und Registrierung
+
+-   Entwickelt eine Anmeldeseite, auf der sich die Forschenden mit ihrer E-Mail-Adresse und ihrem Passwort authentifizieren können. Sollten ein Forschender noch keinen Account besitzen, muss er oder sie sich zuerst registrieren. Auch dafür erstellt ihr eine entsprechende Maske.
+
+-   Verwendet die Authentifizierungsfunktion von Google Firebase mittels E-Mail und Passwort, um eine sichere Anmeldung zu gewährleisten.
+
+### 2. Übersicht der Experimente
+
+-   Nach erfolgreicher Anmeldung sollen die Forscheenden eine Übersichtsseite sehen, die alle bisherigen Experimente in Form einer Liste darstellt.
+
+-   Jedes Experiment soll grundlegende Informationen wie eine fortlaufende Nummer, den Status (offen, laufend, abgeschlossen), Startdatum, Enddatum sowie die verwendete Tanknummer anzeigen.
+
+-   Bei einem Klick auf ein Experiment soll eine Detailansicht geöffnet werden, in der auch die Prozessparameter, Zutaten und Laborwerte (s. unten) angezeigt werden. Hier kann auch die Bearbeitung (s. unten) erfolgen.
+
+### 3. Neues Experiment anlegen
+
+-   Entwickelt eine Ansicht, in der ein neues Experiment angelegt werden kann. Die Maske soll folgende Felder enthalten. Wählt jeweils geeignete Eingabeelemente für jedes Feld aus:
+
+    -   Startdatum und Enddatum des Experiments
+
+    -   Auswahl der Fermentationsparameter (Temperatur, Dauer, Lichtbedingungen, Sauerstoffzufuhr)
+
+    -   Zutatenliste mit Mengenangaben (Wasser, Wasserkefir-Kristalle, Zitronensäure, Zucker, Trockenfrüchte)
+
+    -   Auswahl eines von 16 Fermentationstanks
+
+### 4. Laborauswertung
+
+-   Entwickelt eine Maske, in der die Laborergebnisse eines Experiments eingetragen werden können. Der Benutzer soll dazu in der Experimentübersicht auf ein Experiment klicken können und gelangt dann zu einer Maske mit entsprechender Eingabemöglichkeit (s. Detailansicht oben).
+
+-   Zu den Analyseergebnissen, die eingetragen werden sollen, gehören Alkoholgehalt, Restglukose und Essigsäuregehalt.
+
+-   Die Ergebnisse sollen neben den Basisdaten des Experiments gespeichert und angezeigt werden.
+
+Viel Erfolg!
