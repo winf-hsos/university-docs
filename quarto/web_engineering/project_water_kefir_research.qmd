@@ -7,7 +7,7 @@ format: pdf
 
 ## Vorbereitung
 
-Erstellt für diese Übungsaufgabe ein neues Projekt in Glitch. Löscht alle Dateien und behaltet zunächst nur die `index.html`, `style.css` sowie die `script.js`. Entscheidet im Verlauf des Projekts selbst, ob ihr weitere Dateien hinzufügen möchtet.
+Erstellt für diese Webanwendung ein neues Projekt in Glitch. Löscht alle Dateien bis auf die `index.html`, `style.css` sowie die `script.js`. Entscheidet im Verlauf des Projekts selbst, ob ihr weitere Dateien hinzufügen möchtet.
 
 ## Projektbeschreibung
 

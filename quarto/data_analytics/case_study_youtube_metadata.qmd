@@ -30,7 +30,7 @@ Anschließend verfasst ihr eine zusammenhängende schriftliche Abhandlung in For
 Der Datensatz beinhaltet Metadaten zu YouTube-Videos der größten niedersächsischen Hochschulen sowie der vier größten privaten Hochschulen deutschlandweit. Die Daten wurden am 29.11.2024 abgerufen. Laut [Wikipedia](https://de.wikipedia.org/wiki/Liste_der_Hochschulen_in_Deutschland) sind die in der Tabelle aufgeführten Hochschulen die größten in Niedersachsen, gemessen an der Studierendenzahl. Die Hochschule Braunschweig wurde trotz mehr als 10.000 Studierenden nicht berücksichtigt.
 
 | Hochschule | Anzahl Studierende | YouTube Channel ID |
-|-------------------------|------------------|-----------------------------|
+|----|----|----|
 | [Universität Hannover](https://www.uni-hannover.de/de/) | 28.925 | [UCC0Eg0d1gGkpChelGo4-b4g](https://www.youtube.com/@LeibnizUniHannover) |
 | [Universität Göttingen](https://uni-goettingen.de/) | 28.614 | [UCzg-z2TL0Ks4Efz5o0z7AxQ](https://www.youtube.com/@UnigoettingenDeVideos) |
 | [TU Braunschweig](https://www.tu-braunschweig.de/) | 17.709 | [UC8X4NAyIUr9Q12hVUOoqyhQ](https://www.youtube.com/@tubraunschweig) |
@@ -41,7 +41,7 @@ Der Datensatz beinhaltet Metadaten zu YouTube-Videos der größten niedersächsi
 Die erfolgreichsten privaten Hochschulen in ganz Deutschland mit mehr als 10.000 Studierenden sind laut [Wikipedia](https://de.wikipedia.org/wiki/Liste_der_Hochschulen_in_Deutschland):
 
 | Hochschule | Anzahl Studierende | YouTube Channel ID |
-|-------------------------|------------------|-----------------------------|
+|----|----|----|
 | [International University](https://www.iu.de/) | 85.483 | [UCR4ZvrahpeSe1TBrmObSkSw](https://www.youtube.com/user/IUBHGermany) |
 | [FOM](https://www.fom.de/) | 58.836 | [UCdxxZI5F0u0l_wY8Bimsnow](https://www.youtube.com/@FomDe) |
 | [Hochschule Fresenius](https://www.hs-fresenius.de/) | 17.045 | [UCq9E5LlsAWjzK5RkvhWUZKQ](https://www.youtube.com/@hsfresenius) |
@@ -50,7 +50,7 @@ Die erfolgreichsten privaten Hochschulen in ganz Deutschland mit mehr als 10.000
 Folgende Variablen sind im Datensatz enthalten:
 
 | Variablenname | Beschreibung |
-|--------------------------|----------------------------------------------|
+|----|----|
 | `yt_id` | Eindeutige ID eines Videos |
 | `channel_id` | Eindeutige ID des YouTube-Channels |
 | `channel_title` | Name des YoutTube-Channels |
