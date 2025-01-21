@@ -1,11 +1,10 @@
 ---
 title: "Codesysteme"
-subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 author: "Prof. Dr. Nicolas Meseth"
-date: 21.01.2025
 format: pdf
 toc: false
 number-sections: false
+subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
 
 # Einführung
@@ -26,5 +25,5 @@ $$
 
 Übrigens geht es auch mit Bildern gut:
 
-![Image](https://winf-hsos.github.io/university-docs/images/large_complex_problem.png)
+![](https://winf-hsos.github.io/university-docs/images/large_complex_problem.png)
 

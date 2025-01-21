@@ -1,11 +1,12 @@
 ---
 title: "Informationen messen"
-subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 author: "Prof. Dr. Nicolas Meseth"
-date: 21.01.2025
 format: pdf
-toc: true
-number-sections: true
+toc: false
+number-sections: false
+date: today
+date-format: long
+subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
 
 # Übersicht
@@ -26,7 +27,9 @@ $$
 
 Übrigens geht es auch mit Bildern gut:
 
-![Image](https://winf-hsos.github.io/university-docs/images/large_complex_problem.png)
+![Kugeln in einer Urne sind ein beliebtes Beispiel der Wahrscheinlichkeitsrechnung.](https://winf-hsos.github.io/university-docs/images/information_balls_urn_1.png)
 
 # Teil 2
+
+Text…
 
