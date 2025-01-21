@@ -119,6 +119,7 @@
 - [digital_competence_society_split.png](images/digital_competence_society_split.png)
 - [digital_literacy_skills_with_languages.png](images/digital_literacy_skills_with_languages.png)
 - [eda_process.png](images/eda_process.png)
+- [information_balls_urn_1.png](images/information_balls_urn_1.png)
 - [information_definition_adami.png](images/information_definition_adami.png)
 - [large_complex_problem.png](images/large_complex_problem.png)
 - [large_complex_problem_4_smaller_problems.png](images/large_complex_problem_4_smaller_problems.png)

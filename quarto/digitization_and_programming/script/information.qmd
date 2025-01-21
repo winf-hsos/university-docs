@@ -1,0 +1,32 @@
+---
+title: "Informationen messen"
+subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
+author: "Prof. Dr. Nicolas Meseth"
+date: 21.01.2025
+format: pdf
+toc: true
+number-sections: true
+---
+
+# Übersicht
+
+## Weiter gehts
+
+Dies ist *ein* Test.
+
+- Test 1
+
+- Test 2
+
+Mit einem **schönen **[Link](https://chatgpt.com/). Aber es gilt $$n = 0$$ weiterhin ohne Einschränkungen.
+
+$$
+\sum_{i=0}^{n}x_n^2
+$$
+
+Übrigens geht es auch mit Bildern gut:
+
+![Image](https://winf-hsos.github.io/university-docs/images/large_complex_problem.png)
+
+# Teil 2
+
