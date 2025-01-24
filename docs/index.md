@@ -239,3 +239,5 @@
 - [klausur_ea_ws_22_23.pdf](static/empirisches_arbeiten/klausur_ea_ws_22_23.pdf)
 - [klausur_ea_ws_23_24.pdf](static/empirisches_arbeiten/klausur_ea_ws_23_24.pdf)
 - [klausur_ea_ws_23_24_mit_loesungen.pdf](static/empirisches_arbeiten/klausur_ea_ws_23_24_mit_loesungen.pdf)
+- [klausur_ea_ws_24_25.pdf](static/empirisches_arbeiten/klausur_ea_ws_24_25.pdf)
+- [uebungsklausur_ea_ws_24_25.pdf](static/empirisches_arbeiten/uebungsklausur_ea_ws_24_25.pdf)
