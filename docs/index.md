@@ -202,9 +202,11 @@
 - [exercises_programming_first_program.pdf](quarto/digitization_and_programming/exercises_programming_first_program.pdf)
 - [exercises_programming_functions.pdf](quarto/digitization_and_programming/exercises_programming_functions.pdf)
 - [exercises_programming_loops_conditionals.pdf](quarto/digitization_and_programming/exercises_programming_loops_conditionals.pdf)
-- [code_systems.pdf](quarto/digitization_and_programming/script/code_systems.pdf)
+- [algorithms.pdf](quarto/digitization_and_programming/script/algorithms.pdf)
+- [code-systems.pdf](quarto/digitization_and_programming/script/code-systems.pdf)
 - [information.pdf](quarto/digitization_and_programming/script/information.pdf)
-- [script.pdf](quarto/digitization_and_programming/script/script.pdf)
+- [number-systems.pdf](quarto/digitization_and_programming/script/number-systems.pdf)
+- [problem-solving.pdf](quarto/digitization_and_programming/script/problem-solving.pdf)
 
 ### Information Management
 

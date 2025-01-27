@@ -1,0 +1,29 @@
+---
+title: "Problemlösung"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: true
+number-sections: false
+subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
+---
+
+## Eingabe-Verarbeitung-Ausgabe
+
+-   Input-Processing-Output Modell
+
+
+## Strategien
+
+### Teile und Herrsche
+
+### Verteile und Parallelisiere
+
+Manche Probleme lassen sich effizienter lösen, wenn mehrere Personen gleichzeitig daran arbeiten. Anstatt eine einzelne Person mit der gesamten Aufgabe zu betrauen, verteilen wir die Arbeit auf mehrere Schultern und arbeiten parallel an der Lösung. Allerdings eignet sich nicht jedes Problem für diesen Ansatz.
+
+Ein gutes Beispiel ist das Aufräumen eines Zimmers: Eine einzelne Person müsste nacheinander verschiedene Bereiche aufräumen, während mehrere Personen gleichzeitig unterschiedliche Ecken des Raums in Angriff nehmen können. Je größer das Zimmer, desto mehr Personen werden benötigt, um es in der gleichen Zeit aufzuräumen. Ein Gegenbeispiel, bei dem diese Strategie nicht funktioniert, ist das Lösen einer mathematischen Gleichung. Hier müssen die einzelnen Rechenschritte aufeinander aufbauen, weshalb das Problem nicht gleichzeitig an mehrere Personen übergeben werden kann, die unabhängig daran arbeiten.
+
+Etwas technischer lässt sich die Strategie des Verteilens und Parallelisierens, die wir im Englischen *Distribute and Parallelize* nennen, wie folgt beschreiben: Wir zerteilen ein großes Problem in unabhängig voneinander lösbare Teile und weisen jeder Ressource (etwa einer Person oder einem Computer) einen Teil zur Bearbeitung zu. Jede Ressource erzeugt ein Ergebnis für ihr Teilproblem, und die Prämisse ist, dass sich am Ende alle Teile zur Gesamtlösung des ursprünglichen Problems zusammenfügen lassen.
+
+-   Beispiel Wörter zählen in einem Buch
+
+
