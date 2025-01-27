@@ -7,3 +7,13 @@ number-sections: false
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
 
+## Listen
+
+## Mengen
+
+## Graphen
+
+## Bäume
+
+## Warteschlangen
+

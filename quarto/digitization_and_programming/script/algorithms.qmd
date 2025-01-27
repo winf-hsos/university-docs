@@ -7,7 +7,7 @@ number-sections: false
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
 
-# Was ist ein Algorithmus?
+## Was ist ein Algorithmus?
 
 Der Begriff "**Algorithmus**" [stammt vom Namen des persischen Mathematikers Muhammad al-Khwarizmi](https://www.wissenschaftsjahr.de/2008/coremedia/generator/wj2008/de/02__Mathematik__alles__was__z_C3_A4hlt/05__KW50__Algorithmus.html), der um das Jahr 780 n. Chr. geboren wurde. Al-Khwarizmi war ein bedeutender Gelehrter am Hofe des Kalifen al-Mamun und verfasste dort Schriften, die den Gebrauch der indischen Zahlzeichen erklärten. Diese Schriften wurden im 12. Jahrhundert ins Lateinische übersetzt, wobei der Titel "Algoritmi de numero Indorum" verwendet wurde. Im Laufe der Zeit wurde der Name al-Khwarizmi zur Bezeichnung für die von ihm beschriebenen Rechenverfahren und entwickelte sich schließlich zum modernen Begriff "Algorithmus".
 
@@ -52,9 +52,9 @@ Algorithmen lassen sich basierend auf ihrer Funktion und Anwendung in verschiede
 
 Die oben aufgeführten Klassen sind nicht vollständig und nicht gegenseitig ausschließend. Das bedeutet, dass die Klassen Überlappungen aufweisen und sich manche Algorithmen zwei oder mehreren Klassen zuordnen lassen. So ist der Dijkstra-Algorithmus für das Finden des kürzesten Weges zwischen zwei Orten ein Graphenalgorithmus, weil er auf einer Datenstruktur arbeitet, die wir als Graphen bezeichnen. Gleichzeitig ist er ein Optimierungsalgorithmus, weil er eine optimale Lösung für ein Problem ermittelt: den kürzesten Weg aus der Menge aller möglichen Wege zu finden.
 
-# Suchen
+## Suchen
 
-# Sortieren
+## Sortieren
 
-# Optimieren
+## Optimieren
 

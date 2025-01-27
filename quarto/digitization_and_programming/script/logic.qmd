@@ -7,3 +7,11 @@ number-sections: false
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
 
+## Schalter
+
+### Relais, Vakuumröhren und Transistoren
+
+## Logikgatter
+
+
+
