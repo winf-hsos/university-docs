@@ -84,20 +84,23 @@
 - [LiFi-Project - Kick-Off.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf) [[Edit](https://docs.google.com/presentation/d/1lRCrl_BbCE6KLBV0Y-Vj1IKzU-AlUotFVPyBg9e79xE/edit)]
 - [LiFi-Project - Program's Anatomy.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Program's Anatomy.pdf) [[Edit](https://docs.google.com/presentation/d/1hdT157l8ks8t49ktot5N15vDoLCoIIynNgNBydQwWm8/edit)]
 - [Programming with Python.pdf](google_slides/wirtschaftsinformatik/Programming with Python.pdf) [[Edit](https://docs.google.com/presentation/d/1N-HoYfpsdk4yOKgU7V3hjdLgl7vWHbQZl_6fJ8PEYno/edit)]
-- [SS 24 - Digitization - Information Representation and Processing - 0 - Motivation.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 0 - Motivation.pdf) [[Edit](https://docs.google.com/presentation/d/1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg/edit)]
-- [SS 24 - Digitization - Information Representation and Processing - 1 - Problem Solving.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 1 - Problem Solving.pdf) [[Edit](https://docs.google.com/presentation/d/1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg/edit)]
-- [SS 24 - Digitization - Information Representation and Processing - 2 - Information.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 2 - Information.pdf) [[Edit](https://docs.google.com/presentation/d/1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg/edit)]
-- [SS 24 - Digitization - Information Representation and Processing - 3 - Counting.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 3 - Counting.pdf) [[Edit](https://docs.google.com/presentation/d/1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg/edit)]
-- [SS 24 - Digitization - Information Representation and Processing - 4 - Bits.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 4 - Bits.pdf) [[Edit](https://docs.google.com/presentation/d/1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg/edit)]
-- [SS 24 - Digitization - Information Representation and Processing - 5 - Codes.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 5 - Codes.pdf) [[Edit](https://docs.google.com/presentation/d/1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg/edit)]
-- [SS 24 - Digitization - Information Representation and Processing - 6 - Analog vs Digital.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 6 - Analog vs Digital.pdf) [[Edit](https://docs.google.com/presentation/d/1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg/edit)]
-- [SS 24 - Digitization - Information Representation and Processing - 7 - Algorithms.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 7 - Algorithms.pdf) [[Edit](https://docs.google.com/presentation/d/1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg/edit)]
-- [SS 24 - Digitization - Information Representation and Processing - 9 - Logic and Arithmetic.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing - 9 - Logic and Arithmetic.pdf) [[Edit](https://docs.google.com/presentation/d/1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg/edit)]
-- [SS 24 - Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/SS 24 - Digitization - Information Representation and Processing.pdf) [[Edit](https://docs.google.com/presentation/d/1UL3no98r2wny-s173uLuDbO-r9yqnwEeGGFUnqBzZOg/edit)]
 - [SS 24 - Programming with Python.pdf](google_slides/wirtschaftsinformatik/SS 24 - Programming with Python.pdf) [[Edit](https://docs.google.com/presentation/d/1YQGgTCClB41fIFI6oUQVgbCrwFCd7iIiesHqnAQp4KU/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 0 - Motivation.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 0 - Motivation.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 1 - Problem Solving.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 1 - Problem Solving.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 10 - Memory.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 10 - Memory.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 2 - Information.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 2 - Information.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 3 - Counting.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 3 - Counting.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 4 - Bits.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 4 - Bits.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 5 - Codes.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 5 - Codes.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 6 - Analog vs Digital.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 6 - Analog vs Digital.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 7 - Algorithms.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 7 - Algorithms.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 8 - Computers.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 8 - Computers.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - 9 - Logic and Arithmetic.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - 9 - Logic and Arithmetic.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
 
 ## Images
 
+- [advance_organizer_dap.png](images/advance_organizer_dap.png)
 - [algorithms_size_runtime.png](images/algorithms_size_runtime.png)
 - [chess_1.png](images/chess_1.png)
 - [chess_2.png](images/chess_2.png)
@@ -196,7 +199,19 @@
 
 #### Übungsaufgaben
 
+- [exercises-algorithms.pdf](quarto/digitization_and_programming/exercises/exercises-algorithms.pdf)
+- [exercises-arithmetic.pdf](quarto/digitization_and_programming/exercises/exercises-arithmetic.pdf)
+- [exercises-code-systems.pdf](quarto/digitization_and_programming/exercises/exercises-code-systems.pdf)
+- [exercises-compression.pdf](quarto/digitization_and_programming/exercises/exercises-compression.pdf)
+- [exercises-data-structures.pdf](quarto/digitization_and_programming/exercises/exercises-data-structures.pdf)
+- [exercises-encryption.pdf](quarto/digitization_and_programming/exercises/exercises-encryption.pdf)
 - [exercises-information.pdf](quarto/digitization_and_programming/exercises/exercises-information.pdf)
+- [exercises-logic.pdf](quarto/digitization_and_programming/exercises/exercises-logic.pdf)
+- [exercises-number-systems.pdf](quarto/digitization_and_programming/exercises/exercises-number-systems.pdf)
+- [exercises-problem-solving.pdf](quarto/digitization_and_programming/exercises/exercises-problem-solving.pdf)
+- [exercises-protocols.pdf](quarto/digitization_and_programming/exercises/exercises-protocols.pdf)
+- [exercises-signals.pdf](quarto/digitization_and_programming/exercises/exercises-signals.pdf)
+- [exercises-storage.pdf](quarto/digitization_and_programming/exercises/exercises-storage.pdf)
 - [exercises_algorithms.pdf](quarto/digitization_and_programming/exercises_algorithms.pdf)
 - [exercises_codes.pdf](quarto/digitization_and_programming/exercises_codes.pdf)
 - [exercises_counting.pdf](quarto/digitization_and_programming/exercises_counting.pdf)

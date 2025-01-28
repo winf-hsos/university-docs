@@ -1,0 +1,11 @@
+---
+title: "Übungen: Logik"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: false
+number-sections: false
+subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
+---
+
+
+

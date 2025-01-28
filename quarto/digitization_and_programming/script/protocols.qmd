@@ -13,3 +13,10 @@ subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 
 ## TCP/IP & HTTPs
 
+-   How can we communicate between two computers?
+
+     -   Protocols / Handshake
+
+     -   Netzwerk / Internet / P2P-Communication
+
+

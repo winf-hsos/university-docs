@@ -1,0 +1,34 @@
+---
+title: "Übungen: Algorithmen"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: false
+number-sections: false
+subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
+---
+
+1.  Woher stammt der Begriff "Algorithmus"?
+
+2.  Definiere, was ein Algorithmus ist, und gib drei Beispiele für Algorithmen aus dem Alltag, die keinen direkten Bezug zu Computern haben.
+
+3.  Welche grundlegenden Ansätze zur Klassifizierung von Algorithmen gibt es?
+
+4.  Erläutere, was mit der Komplexität eines Algorithmus gemeint ist. Warum ist die Komplexität eines Algorithmus wichtig? Wie wird sie angegeben?
+
+5.  Welche Komplexitätsklassen kennst du? Bringe sie in eine Reihenfolge von der geringsten zur höchsten Komplexität.
+
+6.   Berechne den größten gemeinsamen Teiler der Zaheln 56 und 98 mithilfe des euklidischen Algorithmus! Dokumentiere jeden Schritt!
+
+7.  Wir haben exemplarisch für einen Algorithmus die babylonische Methode zur Approximation einer Quadratwurzel kennengelernt. Beantworte die nachfolgenden Fragen in diesem Kontext:
+
+     a.  Berechne die Quadratwurzel von 25 mit der babylonischen Methode und dokumentiere jeden Schritt! Wähle einen sinnvollen Startwert!
+
+     b.  Vergleiche die Ergebnisse der babylonischen Methode nach 3, 5 und 7 Iterationen mit dem exakten Wert der Quadratwurzel.
+
+     c.  Erkläre die Funktionsweise des babylonischen Algorithmus zur Berechnung der Quadratwurzel. Verwende dazu visuelle Hilfsmittel. Warum konvergiert der Algorithmus gegen den exakten Wert der Quadratwurzel?
+
+8.  Erläutere die Monte-Carlo-Methode zur Schätzung von $\pi$ und erkläre, wie man mithilfe von Zufallszahlen eine Annäherung an $\pi$ erreichen kann.
+
+9.  Finde weitere Probleme, die sich durch Monte-Carlo-Simulationen lösen lassen. Weshalb sind manche dieser Probleme mit anderen Methoden nicht lösbar?
+
+

@@ -9,7 +9,18 @@ subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 
 ## Verschlüsselung
 
-Caesar Cipher
+### Symmetrisch
+
+-   Symmetric encryption with Caesar Cipher
+
+
+### Asymmetrisch
+
+-   Assymetric with RSA Toy
+
 
 ## Digitale Signaturen
+
+-   Digital signatures 
+
 
