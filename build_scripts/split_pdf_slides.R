@@ -12,18 +12,17 @@ split_pdf <- function(pdf_path) {
   # Initialize list to store split points and filenames
   split_points <- list()
   
-  # Loop over pages to find markers and extract filenames
+    # Loop over pages to find markers and extract filenames
   for (i in seq_along(text_pages)) {
     # Find markers
     markers <- str_extract_all(text_pages[i], "(?<=%!).*?(?=%!)")[[1]]
     if (length(markers) > 0) {
+      #print(markers)
       # Extract filename and add to list with the page number
       filenames <- markers
       split_points <- c(split_points, setNames(list(i), filenames))
     }
   }
-  
-  print(split_points)
   
   # Now, split the PDF based on found markers
   if (length(split_points) == 0) return() # No markers found, nothing to do.
@@ -48,9 +47,15 @@ split_pdf <- function(pdf_path) {
 
 # Split all PDFs with markers into separate files
 
-black_list = c("docs/google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing.pdf")
+black_list = c("docs/google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing%%1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A%%.pdf")
 
 files <- list.files(google_slides_output_path, full.names = TRUE, recursive = T)
+
+#files
+
+#pdf_path <- "docs/google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing%%1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4%%.pdf"
+#pdf_path <- "docs/google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing%%1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A%%.pdf"
+
 
 for (file in files) {
   print(file)
