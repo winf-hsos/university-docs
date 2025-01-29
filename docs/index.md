@@ -84,7 +84,6 @@
 - [SS 25 - Digitization - Information Representation and Processing - Encryption.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Encryption.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
 - [SS 25 - Digitization - Information Representation and Processing - Information.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Information.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
 - [SS 25 - Digitization - Information Representation and Processing - Logic and Arithmetic.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Logic and Arithmetic.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
-- [SS 25 - Digitization - Information Representation and Processing - Number Systems.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Number Systems.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
 - [SS 25 - Digitization - Information Representation and Processing - Overview.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Overview.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
 - [SS 25 - Digitization - Information Representation and Processing - Problem Solving.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Problem Solving.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
 - [SS 25 - Digitization - Information Representation and Processing - Protocols.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Protocols.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
@@ -194,14 +193,15 @@
 #### Übungsaufgaben
 
 - [exercises-algorithms.pdf](quarto/digitization_and_programming/exercises/exercises-algorithms.pdf)
+- [exercises-analog-vs-digital.pdf](quarto/digitization_and_programming/exercises/exercises-analog-vs-digital.pdf)
 - [exercises-arithmetic.pdf](quarto/digitization_and_programming/exercises/exercises-arithmetic.pdf)
+- [exercises-bits.pdf](quarto/digitization_and_programming/exercises/exercises-bits.pdf)
 - [exercises-code-systems.pdf](quarto/digitization_and_programming/exercises/exercises-code-systems.pdf)
 - [exercises-compression.pdf](quarto/digitization_and_programming/exercises/exercises-compression.pdf)
 - [exercises-data-structures.pdf](quarto/digitization_and_programming/exercises/exercises-data-structures.pdf)
 - [exercises-encryption.pdf](quarto/digitization_and_programming/exercises/exercises-encryption.pdf)
 - [exercises-information.pdf](quarto/digitization_and_programming/exercises/exercises-information.pdf)
 - [exercises-logic.pdf](quarto/digitization_and_programming/exercises/exercises-logic.pdf)
-- [exercises-number-systems.pdf](quarto/digitization_and_programming/exercises/exercises-number-systems.pdf)
 - [exercises-problem-solving.pdf](quarto/digitization_and_programming/exercises/exercises-problem-solving.pdf)
 - [exercises-protocols.pdf](quarto/digitization_and_programming/exercises/exercises-protocols.pdf)
 - [exercises-signals.pdf](quarto/digitization_and_programming/exercises/exercises-signals.pdf)
@@ -219,14 +219,14 @@
 #### Skript
 
 - [algorithms.pdf](quarto/digitization_and_programming/script/algorithms.pdf)
-- [arithmetic.pdf](quarto/digitization_and_programming/script/arithmetic.pdf)
+- [analog-vs-digital.pdf](quarto/digitization_and_programming/script/analog-vs-digital.pdf)
+- [bits.pdf](quarto/digitization_and_programming/script/bits.pdf)
 - [code-systems.pdf](quarto/digitization_and_programming/script/code-systems.pdf)
 - [compression.pdf](quarto/digitization_and_programming/script/compression.pdf)
 - [data-structures.pdf](quarto/digitization_and_programming/script/data-structures.pdf)
 - [encryption.pdf](quarto/digitization_and_programming/script/encryption.pdf)
 - [information.pdf](quarto/digitization_and_programming/script/information.pdf)
-- [logic.pdf](quarto/digitization_and_programming/script/logic.pdf)
-- [number-systems.pdf](quarto/digitization_and_programming/script/number-systems.pdf)
+- [logic-and-arithmetic.pdf](quarto/digitization_and_programming/script/logic-and-arithmetic.pdf)
 - [problem-solving.pdf](quarto/digitization_and_programming/script/problem-solving.pdf)
 - [protocols.pdf](quarto/digitization_and_programming/script/protocols.pdf)
 - [signals.pdf](quarto/digitization_and_programming/script/signals.pdf)

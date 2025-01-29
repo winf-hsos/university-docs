@@ -1,0 +1,23 @@
+---
+title: "Logik und Arithmetik"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: true
+number-sections: false
+subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
+---
+
+## Schalter
+
+### Relais, Vakuumröhren und Transistoren
+
+## Logikgatter
+
+## Binäre Addition
+
+## Binäre Subtraktion
+
+## Substratunabhängigkeit
+
+
+

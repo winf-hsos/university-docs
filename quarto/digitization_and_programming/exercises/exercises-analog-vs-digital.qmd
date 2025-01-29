@@ -1,0 +1,11 @@
+---
+title: "Übungen: Analog vs. Digital"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: false
+number-sections: false
+subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
+---
+
+
+
