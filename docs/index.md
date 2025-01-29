@@ -216,6 +216,16 @@
 - [exercises_programming_functions.pdf](quarto/digitization_and_programming/exercises_programming_functions.pdf)
 - [exercises_programming_loops_conditionals.pdf](quarto/digitization_and_programming/exercises_programming_loops_conditionals.pdf)
 
+#### programming
+
+- [collections.pdf](quarto/digitization_and_programming/programming/collections.pdf)
+- [conditionals.pdf](quarto/digitization_and_programming/programming/conditionals.pdf)
+- [debugging-and-error-handling.pdf](quarto/digitization_and_programming/programming/debugging-and-error-handling.pdf)
+- [functions.pdf](quarto/digitization_and_programming/programming/functions.pdf)
+- [loops.pdf](quarto/digitization_and_programming/programming/loops.pdf)
+- [variables-and-data-types.pdf](quarto/digitization_and_programming/programming/variables-and-data-types.pdf)
+- [welcome-to-python.pdf](quarto/digitization_and_programming/programming/welcome-to-python.pdf)
+
 #### Skript
 
 - [algorithms.pdf](quarto/digitization_and_programming/script/algorithms.pdf)

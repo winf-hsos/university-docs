@@ -1,0 +1,17 @@
+---
+title: "Willkommen in Python"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: true
+number-sections: false
+subtitle: "Tutorials zur Programmierung"
+---
+
+Unser erstes Programm könnte so aussehen:
+
+```python
+import sys
+print("Hello World")
+sys.exit(0)
+```
+
