@@ -1,8 +1,8 @@
 ---
-title: "Collections"
+title: "Übungen zur Programmierung: Willkommen in Python"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
-toc: true
+toc: false
 number-sections: false
 code-line-numbers: true
 subtitle: "Tutorials zur Programmierung"

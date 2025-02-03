@@ -4,14 +4,20 @@ author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: true
 number-sections: false
+code-line-numbers: true
 subtitle: "Tutorials zur Programmierung"
 ---
+
+## Unser erstes Programm
 
 Unser erstes Programm könnte so aussehen:
 
 ```python
-import sys
-print("Hello World")
-sys.exit(0)
+# Ask the user for their name
+name = input("What's your name? ")
+
+# Greet the user
+print(f"Hello {name}")
 ```
+
 

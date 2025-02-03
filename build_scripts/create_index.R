@@ -25,7 +25,9 @@ headings_dict <- c(
   digitization_and_programming = "Digitization and Programming",
   digital_lab = "Digital Lab",
   exercises = "Übungsaufgaben",
-  script = "Skript"
+  script = "Skript",
+  programming = "Programmierung",
+  programming_exercises = "Programmierübungen"
 )
 
 category = ""

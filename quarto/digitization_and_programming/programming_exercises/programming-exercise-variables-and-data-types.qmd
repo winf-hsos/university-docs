@@ -1,0 +1,54 @@
+---
+title: "Übungen zur Programmierung: Variablen und Datentypen"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: false
+number-sections: false
+code-line-numbers: true
+subtitle: "Tutorials zur Programmierung"
+---
+
+## Reflektionsfragen
+
+1.  Warum sind Variablen in einem Programm nützlich?
+
+2.  Wie kann man den Wert einer Variable auf der Konsole ausgeben?
+
+3.  Was ist der Unterschied zwischen einer Variablen und einer Konstante?
+
+4.  Wie kann man in Python eine Konstante definieren?
+
+5.  Welche Zeichen sind in einem Variablennamen erlaubt?
+
+6.  Was bedeutet es, dass Python *case sensitive* ist?
+
+7.  Warum ist es eine gute Praxis, Variablennamen auf Englisch zu schreiben?
+
+8.  Was sind reservierte Schlüsselwörter, und warum dürfen sie nicht als Variablennamen verwendet werden?
+
+9.  Welche primitiven Datentypen kennst du?
+
+10.  Welche numerischen Datentypen unterscheidet Python?
+
+11.  Warum muss man Anführungszeichen benutzen, um eine Zeichenkette zu definieren?
+
+12.  Wie kann man in einer Zeichenkette ein Anführungszeichen verwenden, ohne einen Fehler zu verursachen?
+
+13.  Was ist der Boolesche Datentyp, und welche Werte kann er annehmen?
+
+14.  Warum werden `True` und `False` in Python nicht in Anführungszeichen geschrieben?
+
+15.  Was passiert mit dem alten Wert einer Variable, wenn ihr ein neuer Wert zugewiesen wird?
+
+16.  Was ist eine Variable im Computer technisch gesehen?
+
+
+## Programmieraufgaben
+
+1.  Schreibe ein kleines Python-Programm, das eine Variable für die Fläche eines Kreises speichert und berechnet. Nutze eine Konstante für den Wert von `π`.
+
+2.  Definiere eine Zeichenkette mit einem Backslash und gib sie aus. Was fällt dir auf?
+
+
+
+
