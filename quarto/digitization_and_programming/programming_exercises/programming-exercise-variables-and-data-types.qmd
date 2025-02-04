@@ -45,9 +45,19 @@ subtitle: "Tutorials zur Programmierung"
 
 ## Programmieraufgaben
 
-1.  Schreibe ein kleines Python-Programm, das eine Variable für die Fläche eines Kreises speichert und berechnet. Nutze eine Konstante für den Wert von `π`.
+Erstelle für jede der folgenden Aufgaben ein separates Python-Programm in einer eigenen Datei mit der Endung `.py`!
 
-2.  Definiere eine Zeichenkette mit einem Backslash und gib sie aus. Was fällt dir auf?
+1.  Schreibe ein kleines Python-Programm, das eine Variable für die Fläche eines Kreises speichert und berechnet. Nutze für den Wert von `π` die Kostante aus dem `math` Modul.
+
+2.  Definiere eine Zeichenkette mit einem Backslash auf einer Variable und gib sie auf der Konsole aus. Was fällt dir auf?
+
+3.  Addiere zwei Zeichenketten und lass dir das Ergebnis anzeigen! Multipliziere anschließend eine Zeichenkette mit einer ganzen Zahl!
+
+4.  Frage den Benutzer nach seinem Vor- und Nachnamen und speichere das Ergebnis in einer Variable`name`. Teile diese Variable anschließend in zwei Variablen auf:`first_name`für den Vornamen und`last_name`für den Nachnamen. Nutze die `find()`-Funktion, um das Leerzeichen zwischen Vor- und Nachnamen zu finden. Speichere die gefundene Position auf einer weiteren Variable. Verwende dann die Notation mit eckigen Klammern, um die beiden Namensteile zu extrahieren und in den entsprechenden Variablen zu speichern.
+
+5.  Schreibe ein Programm, in dem du zwei boolesche Werte addierst und subtrahierst. Betrachte und interpretiere das Ergebnis. Multipliziere anschließend einen booleschen Wert mit einem numerischen Wert. Was passiert?
+
+6.  Erstelle eine beliebige Variable und gib die Speicheradresse der Variable auf der Konsole aus!
 
 
 
