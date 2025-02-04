@@ -228,6 +228,11 @@
 
 #### Programmierübungen
 
+- [programming-exercise-collections.pdf](quarto/digitization_and_programming/programming_exercises/programming-exercise-collections.pdf)
+- [programming-exercise-conditionals.pdf](quarto/digitization_and_programming/programming_exercises/programming-exercise-conditionals.pdf)
+- [programming-exercise-debugging-and-error-handling.pdf](quarto/digitization_and_programming/programming_exercises/programming-exercise-debugging-and-error-handling.pdf)
+- [programming-exercise-functions.pdf](quarto/digitization_and_programming/programming_exercises/programming-exercise-functions.pdf)
+- [programming-exercise-loops.pdf](quarto/digitization_and_programming/programming_exercises/programming-exercise-loops.pdf)
 - [programming-exercise-variables-and-data-types.pdf](quarto/digitization_and_programming/programming_exercises/programming-exercise-variables-and-data-types.pdf)
 - [programming-exercise-welcome-to-python.pdf](quarto/digitization_and_programming/programming_exercises/programming-exercise-welcome-to-python.pdf)
 
