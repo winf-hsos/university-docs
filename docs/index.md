@@ -95,6 +95,7 @@
 
 - [advance_organizer_dap.png](images/advance_organizer_dap.png)
 - [algorithms_size_runtime.png](images/algorithms_size_runtime.png)
+- [analog_vs_digital_where_can_you_stand.png](images/analog_vs_digital_where_can_you_stand.png)
 - [chess_1.png](images/chess_1.png)
 - [chess_2.png](images/chess_2.png)
 - [chess_3.png](images/chess_3.png)
