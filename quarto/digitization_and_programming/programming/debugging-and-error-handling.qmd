@@ -1,5 +1,5 @@
 ---
-title: "Fehlersuche- und behandlung"
+title: "Fehlersuche- und Behandlung"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: true

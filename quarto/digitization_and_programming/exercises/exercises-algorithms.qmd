@@ -1,9 +1,10 @@
 ---
-title: "Übungen: Algorithmen"
+title: "Übungsblatt: Algorithmen"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: false
 number-sections: false
+code-line-numbers: true
 subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
 ---
 
@@ -30,5 +31,8 @@ subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
 8.  Erläutere die Monte-Carlo-Methode zur Schätzung von $\pi$ und erkläre, wie man mithilfe von Zufallszahlen eine Annäherung an $\pi$ erreichen kann.
 
 9.  Finde weitere Probleme, die sich durch Monte-Carlo-Simulationen lösen lassen. Weshalb sind manche dieser Probleme mit anderen Methoden nicht lösbar?
+
+10.  Betrachte den Pseudocode in der Abbildung unten und beantworte die folgenden Fragen!
+
 
 

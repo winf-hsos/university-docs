@@ -8,5 +8,12 @@ code-line-numbers: true
 subtitle: "Tutorials zur Programmierung"
 ---
 
+-   Funktionen definieren
+
+-   Funktionen verwenden
+
+-   Module laden und Funktionen daraus verwenden
+
+
 
 

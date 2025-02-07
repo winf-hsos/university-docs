@@ -1,9 +1,10 @@
 ---
-title: "Übungen: Bits"
+title: "Übungsblatt: Bits"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: false
 number-sections: false
+code-line-numbers: true
 subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
 ---
 
