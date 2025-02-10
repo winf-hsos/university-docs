@@ -204,6 +204,10 @@
 - [exercise_experts_in_data_transformation.pdf](quarto/applied_analytics/exercise_experts_in_data_transformation.pdf)
 - [exercise_titanic_exploration.pdf](quarto/applied_analytics/exercise_titanic_exploration.pdf)
 
+### Big Data Analytics
+
+- [syllabus-big-data-analytics.pdf](quarto/big_data_analytics/syllabus-big-data-analytics.pdf)
+
 ### Data Analytics
 
 - [case_study_focus_spiegel_stern.pdf](quarto/data_analytics/case_study_focus_spiegel_stern.pdf)
