@@ -164,6 +164,7 @@
 - [problem_solving_example_addition.png](images/problem_solving_example_addition.png)
 - [problem_solving_example_chatgpt.png](images/problem_solving_example_chatgpt.png)
 - [problem_solving_example_chess.png](images/problem_solving_example_chess.png)
+- [problem_solving_example_chess_representation.png](images/problem_solving_example_chess_representation.png)
 - [problem_solving_example_count_plants_1.png](images/problem_solving_example_count_plants_1.png)
 - [problem_solving_example_count_plants_2.png](images/problem_solving_example_count_plants_2.png)
 - [problem_solving_example_count_plants_3.png](images/problem_solving_example_count_plants_3.png)
@@ -231,6 +232,7 @@
 
 ### Digitization and Programming
 
+- [digitization-and-programming-syllabus.pdf](quarto/digitization_and_programming/digitization-and-programming-syllabus.pdf)
 
 #### Übungsaufgaben
 

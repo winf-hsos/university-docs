@@ -1,0 +1,71 @@
+---
+title: "Digitalisierung und Programmierung | Syllabus"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: false
+number-sections: false
+code-line-numbers: true
+date: today
+date-format: long
+---
+
+## Termine
+
+### Sitzungen
+
+Die Live-Sitzungen finden im **Raum HR-1-2** statt. Die Sitzungen werden aufgezeichnet und etwa eine Woche später über ILIAS bereitgestellt.
+
+### Online-Sprechstunde
+
+Zusätzlich findet im Semester regelmäßig freitags von 09:30 - 11 Uhr eine Online-Sprechstunde ebenfalls [via Zoom](https://hs-osnabrueck.zoom.us/my/nicolasmeseth) statt. Diese Sprechstunde kann zur Klärung von Fragen zu den Modulinhalten genutzt werden. Eine Anmeldung ist nicht erforderlich. Bitte beachtet, dass durch den aktivierten Wartebereich in Zoom mit Wartezeiten zu rechnen ist – Studierende werden in der Reihenfolge ihres Eintretens eingelassen.
+
+## Lernziele
+
+Nach erfolgreicher Teilnahme an diesem Modul verfügen die Studierenden über ein fundiertes Grundverständnis digitaler Computer und wie diese dabei helfen, Probleme zu lösen:
+
+-   Die Studierenden können erklären, wie Computer verschiedene Arten von Informationen – Zahlen, Texte, Bilder sowie Audio- und Videoinhalte – als Daten darstellen und speichern.
+
+-   Die Studierenden verstehen die grundlegende Funktionsweise der Informationsverarbeitung und können erläutern, wie diese auf der Ebene der kleinsten Computerbauteile – der Logikgatter – funktioniert.
+
+-   Die Studierenden verstehen, wie Informationen zwischen analoger und digitaler Welt übertragen und ausgetauscht werden.
+
+-   Die Studierenden wissen, was ein Algorithmus ist und können anhand verschiedener Beispiele wichtige Eigenschaften von Algorithmen erklären.
+
+-   Die Studierenden können einfache Programme schreiben und Lösungen für einfache Problemstellungen mithilfe der Programmiersprache Python planen und umsetzen.
+
+
+## Didaktisches Konzept
+
+## Werkzeuge
+
+## Prüfungsleistung
+
+## Vorkenntnisse
+
+Für den Besuch dieses Moduls sind keine Vorkenntnisse notwendig.
+
+## Materialien
+
+Die folgenden Materialien sind für dieses Modul von Bedeutung. Während des Semesters können weitere Materialien hinzukommen.
+
+### Skript
+
+…
+
+### Slides
+
+…
+
+### Codebeispiele
+
+Alle Codebeispiele sind in diesem GitHub-Repository gespeichert: 
+
+[`https://github.com/winf-hsos/data-analytics-code`](https://github.com/winf-hsos/data-analytics-code)
+
+### Literaturempfehlungen
+
+-   [LITERTAUR]
+
+
+
+

@@ -96,7 +96,22 @@ Es werden keine Vorkenntnisse für den Besuch dieses Seminars vorausgesetzt. Ken
 
 ## Materialien
 
+Die folgenden Materialien sind für dieses Seminar von Bedeutung. Während des Semesters können weitere Materialien hinzukommen.
+
 ### Skript
+
+…
+
+### Slides
+
+-   [Searching and Transforming Text with R and stringr](https://winf-hsos.github.io/university-docs/google_slides/data_analytics/Searching%20and%20Transforming%20Text%20with%20R%20and%20stringr.pdf)
+
+-   [Rule-based Text Classification with R](https://winf-hsos.github.io/university-docs/google_slides/data_analytics/Rule-Based%20Text%20Classification%20with%20R.pdf)
+
+-   [NLP - Text Representation](https://winf-hsos.github.io/university-docs/google_slides/data_analytics/NLP%20-%20Text%20Representation.pdf)
+
+-   …
+
 
 ### Codebeispiele
 
