@@ -1,0 +1,8 @@
+---
+title: "Speicher"
+---
+
+## Substratunabhängigkeit
+
+
+

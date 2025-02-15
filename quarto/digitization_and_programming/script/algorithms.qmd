@@ -51,7 +51,7 @@ Algorithmen lassen sich basierend auf ihrer Funktion und Anwendung in verschiede
 -   Maschinelle Lernalgorithmen
 
 
-Die oben aufgeführten Klassen sind nicht vollständig und nicht gegenseitig ausschließend. Das bedeutet, dass die Klassen Überlappungen aufweisen und sich manche Algorithmen zwei oder mehreren Klassen zuordnen lassen. So ist der Dijkstra-Algorithmus für das Finden des kürzesten Weges zwischen zwei Orten ein Graphenalgorithmus, weil er auf einer Datenstruktur arbeitet, die wir als Graphen bezeichnen. Gleichzeitig ist er ein Optimierungsalgorithmus, weil er eine optimale Lösung für ein Problem ermittelt: den kürzesten Weg aus der Menge aller möglichen Wege zu finden.
+Die oben aufgeführten Klassen sind nicht vollständig und schließen sich nicht gegenseitig aus. Das bedeutet, dass die Klassen Überlappungen aufweisen und sich manche Algorithmen zwei oder mehreren Klassen zuordnen lassen. So ist der **Dijkstra-Algorithmus**\index{Dijkstra-Algorithmus} für das Finden des kürzesten Weges zwischen zwei Orten ein Graphenalgorithmus, weil er auf einer Datenstruktur arbeitet, die wir als Graphen bezeichnen. Gleichzeitig ist er ein Optimierungsalgorithmus, weil er eine optimale Lösung für ein Problem ermittelt: den kürzesten Weg aus der Menge aller möglichen Wege zu finden.
 
 ## Suchen
 

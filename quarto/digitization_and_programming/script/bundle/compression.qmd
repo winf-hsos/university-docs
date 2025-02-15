@@ -1,0 +1,14 @@
+---
+title: "Kompression"
+---
+
+## Verlustfreie Kompression
+
+-   Huffman
+
+
+## Verlustbehaftete Kompression
+
+-   JPEG
+
+

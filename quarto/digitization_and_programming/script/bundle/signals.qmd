@@ -1,0 +1,13 @@
+---
+title: "Signale"
+---
+
+-   How can we create and receive signals?
+
+     -   Analog vs. digital
+
+     -   LED / Color Sensor
+
+-   How can we give signals meaning? How can we transfer text, images, sound and other file formats?
+
+

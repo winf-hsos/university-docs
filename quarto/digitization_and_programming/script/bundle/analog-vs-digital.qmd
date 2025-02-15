@@ -1,0 +1,6 @@
+---
+title: "Analog vs. Digital"
+---
+
+## Diskrete und kontinuierliche Werte
+

@@ -1,0 +1,14 @@
+---
+title: "Datenstrukturen"
+---
+
+## Listen
+
+## Mengen
+
+## Graphen
+
+## Bäume
+
+## Warteschlangen
+

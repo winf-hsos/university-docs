@@ -1,5 +1,5 @@
 ---
-title: "Big Data Analytics | Sommer 2025"
+title: "Big Data Analytics | Syllabus"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: false
@@ -61,7 +61,7 @@ Nach erfolgreicher Teilnahme am Seminar sind die Studierenden in der Lage, selbs
 
 In diesem Seminar steht die **eigenständige Auseinandersetzung** der Studierenden mit den Methoden der explorativen Datenanalyse im Vordergrund. Die Studierenden lernen verschiedene Methoden kennen, die sie überwiegend durch Selbstlernmaterial anwenden und vertiefen. Das Lernmaterial umfasst Skripte mit Code-Beispielen, kurze Erklärvideos, schriftliche Anleitungen (Tutorials) und Übungsaufgaben – teilweise mit Musterlösungen. 
 
-Die Studierenden nutzen das bereitgestellte Material außerhalb der gemeinsamen virtuellen Sitzungen zur Vor- und Nachbereitung. In den Sitzungen stellen die die Studierenden ihre Ergebnisse zu den Übungsaufgaben vor und diskutieren offene Fragen. Zusätzlich hält der Dozent in ausgewählten Sitzungen kurze Impulsvorträge und demonstriert neue Methoden auf dem Bildschirm.
+Die Studierenden nutzen das bereitgestellte Material außerhalb der gemeinsamen hybriden Sitzungen zur Vor- und Nachbereitung. In den Sitzungen stellen die die Studierenden ihre Ergebnisse zu den Übungsaufgaben vor und diskutieren offene Fragen. Zusätzlich hält der Dozent in ausgewählten Sitzungen kurze Impulsvorträge und demonstriert neue Methoden auf dem Bildschirm.
 
 ## Werkzeuge
 
@@ -90,6 +90,8 @@ Der Abgabemodus wird im Laufe des Semester bekanntgegeben.
 
 ### Bewertung
 
+Folgt bald.
+
 ## Notwendige Vorkenntnisse
 
 Es werden keine Vorkenntnisse für den Besuch dieses Seminars vorausgesetzt. Kenntnisse im Umgang mit R und dem Tidyverse sind hilfreich, ebenso wie Python-Kenntnisse. Grundsätzlich fällt das Seminar Studierenden mit Programmiererfahrung leichter.
@@ -100,9 +102,11 @@ Die folgenden Materialien sind für dieses Seminar von Bedeutung. Während des S
 
 ### Skript
 
-…
+Der Link zum Skript folgt bald.
 
 ### Slides
+
+-   [Exploratory Data Analysis with R and Python](https://winf-hsos.github.io/university-docs/google_slides/data_analytics/Exploratory%20Data%20Analysis%20with%20R%20and%20Python.pdf)
 
 -   [Searching and Transforming Text with R and stringr](https://winf-hsos.github.io/university-docs/google_slides/data_analytics/Searching%20and%20Transforming%20Text%20with%20R%20and%20stringr.pdf)
 
@@ -110,8 +114,8 @@ Die folgenden Materialien sind für dieses Seminar von Bedeutung. Während des S
 
 -   [NLP - Text Representation](https://winf-hsos.github.io/university-docs/google_slides/data_analytics/NLP%20-%20Text%20Representation.pdf)
 
--   …
 
+Weitere Slides folgen.
 
 ### Codebeispiele
 

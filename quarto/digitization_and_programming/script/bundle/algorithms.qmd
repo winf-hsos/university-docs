@@ -1,0 +1,55 @@
+---
+title: "Algorithmen"
+---
+
+## Was ist ein Algorithmus?
+
+Der Begriff "**Algorithmus**" [stammt vom Namen des persischen Mathematikers Muhammad al-Khwarizmi](https://www.wissenschaftsjahr.de/2008/coremedia/generator/wj2008/de/02__Mathematik__alles__was__z_C3_A4hlt/05__KW50__Algorithmus.html), der um das Jahr 780 n. Chr. geboren wurde. Al-Khwarizmi war ein bedeutender Gelehrter am Hofe des Kalifen al-Mamun und verfasste dort Schriften, die den Gebrauch der indischen Zahlzeichen erklärten. Diese Schriften wurden im 12. Jahrhundert ins Lateinische übersetzt, wobei der Titel "Algoritmi de numero Indorum" verwendet wurde. Im Laufe der Zeit wurde der Name al-Khwarizmi zur Bezeichnung für die von ihm beschriebenen Rechenverfahren und entwickelte sich schließlich zum modernen Begriff "Algorithmus".
+
+Heute bezeichnet ein **Algorithmus** eine präzise Abfolge von Anweisungen, die ein bestimmtes Problem lösen oder eine Aufgabe erfüllen sollen. Im Alltag begegnen uns Algorithmen ständig, oft, ohne dass wir es merken: beim Kochen, bei der Wegbeschreibung oder beim Aufbau eines IKEA-Regals.
+
+Um besser zu verstehen, was ein Algorithmus ist, grenzen wir die Begriffe Algorithmus, Programm und Prozess voneinander ab:
+
+-   **Algorithmus**: Ein allgemeiner Plan oder eine Methode zur Problemlösung, bestehend aus einer endlichen Sequenz von Anweisungen.
+
+-   **Programm**: Die konkrete Umsetzung eines oder mehrerer Algorithmen in einer Programmiersprache, die ein Computer ausführen kann.
+
+-   **Prozess**: Die Ausführung eines Programms durch einen Computer.
+
+
+Algorithmen haben also nicht zwangsläufig etwas mit Computern zu tun. Sie beschreiben lediglich, wie man ein Problem lösen kann. Ob das ein Computer macht oder ein Mensch ist dabei offen. Überlege etwa, wie du eine IKEA-Aufbauanleitung befolgst oder wie du ein Rezept in der Küche kochst. Diese alltäglichen Abläufe folgen alle Algorithmen, ohne dass ein Computer beteiligt ist:
+
+-   Kochen: Ein Rezept ist ein Algorithmus für die Zubereitung eines Gerichts.
+
+Comment
+
+-   Wegbeschreibung: Eine Schritt-für-Schritt-Anleitung, um von Punkt A nach Punkt B zu gelangen.
+
+-   Bastelanleitung: Die Anweisungen, um ein Modellflugzeug zusammenzubauen.
+
+
+Manche Algorithmen können wir einem Computer beibringen und ihn diesen ausführen lassen. Dazu müssen wir eine präzise Übersetzung des Algorithmus in eine Programmiersprache erstellen, die der Computer versteht und ausführen kann. Wir sprechen dann vom Programmieren und das Ergebnis ist ein Programm.
+
+Algorithmen lassen sich basierend auf ihrer Funktion und Anwendung in verschiedene Kategorien einteilen. Hier sind einige wichtige Klassen von Algorithmen:
+
+-   Suchalgorithmen
+
+-   Sortieralgorithmen
+
+-   Optimierungsalgorithmen
+
+-   Graphenalgorithmen
+
+-   Verschlüsselungsalgorithmen
+
+-   Maschinelle Lernalgorithmen
+
+
+Die oben aufgeführten Klassen sind nicht vollständig und schließen sich nicht gegenseitig aus. Das bedeutet, dass die Klassen Überlappungen aufweisen und sich manche Algorithmen zwei oder mehreren Klassen zuordnen lassen. So ist der **Dijkstra-Algorithmus**\index{Dijkstra-Algorithmus} für das Finden des kürzesten Weges zwischen zwei Orten ein Graphenalgorithmus, weil er auf einer Datenstruktur arbeitet, die wir als Graphen bezeichnen. Gleichzeitig ist er ein Optimierungsalgorithmus, weil er eine optimale Lösung für ein Problem ermittelt: den kürzesten Weg aus der Menge aller möglichen Wege zu finden.
+
+## Suchen
+
+## Sortieren
+
+## Optimieren
+

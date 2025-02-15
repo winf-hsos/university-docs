@@ -8,5 +8,5 @@ code-line-numbers: true
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
 
-## 
+## Diskrete und kontinuierliche Werte
 

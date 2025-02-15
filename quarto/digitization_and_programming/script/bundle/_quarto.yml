@@ -1,0 +1,44 @@
+project:
+  type: book
+  
+lang: de
+
+  
+book:
+  title: "Digitalisierung und Programmierung"
+  subtitle: "Vorlesungsskript"
+  author: "Prof. Dr. Nicolas Meseth"
+  date: today
+  date-format: long
+
+
+  chapters:
+    - index.qmd
+    - problem-solving.qmd
+    - algorithms.qmd
+    - information.qmd
+    - bits.qmd
+    - code-systems.qmd
+    - data-structures.qmd
+    - analog-vs-digital.qmd
+    - storage.qmd
+    - logic-and-arithmetic.qmd
+    - computer.qmd
+    - signals.qmd
+    - protocols.qmd
+    - encryption.qmd
+    - compression.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  pdf:
+    documentclass: scrreprt
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
