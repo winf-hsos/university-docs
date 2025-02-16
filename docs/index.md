@@ -285,6 +285,7 @@
 - [algorithms.pdf](quarto/digitization_and_programming/script/algorithms.pdf)
 - [analog-vs-digital.pdf](quarto/digitization_and_programming/script/analog-vs-digital.pdf)
 - [bits.pdf](quarto/digitization_and_programming/script/bits.pdf)
+- [book_digitalisierung_und_programmierung.pdf](quarto/digitization_and_programming/script/bundle/book/book_digitalisierung_und_programmierung.pdf)
 - [code-systems.pdf](quarto/digitization_and_programming/script/code-systems.pdf)
 - [compression.pdf](quarto/digitization_and_programming/script/compression.pdf)
 - [computer.pdf](quarto/digitization_and_programming/script/computer.pdf)

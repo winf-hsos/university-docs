@@ -1,5 +1,7 @@
 project:
   type: book
+  output-dir: book
+  
   
 lang: de
 
@@ -10,6 +12,7 @@ book:
   author: "Prof. Dr. Nicolas Meseth"
   date: today
   date-format: long
+  output-file: "book_digitalisierung_und_programmierung"
 
 
   chapters:

@@ -10,7 +10,7 @@ subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 
 ## Warum nutzen wir Computer?
 
-Der wichtigste Grund für die Nutzung von Computern ist das Lösen von Problemen. Warum? Weil Computer zwei Eigenschaften besitzen, die für viele Probleme und deren Lösung vorteilhaft sind:
+Der wichtigste Grund für die Nutzung von Computern ist das Lösen von Problemen. Ob wir eine Route mit Google Maps planen, Online-Bestellungen bei DHL verfolgen oder eine KI wie ChatGPT um eine Empfehlung bitten – überall lösen Computer Probleme. Warum? Weil Computer zwei Eigenschaften besitzen, die für viele Probleme und deren Lösung vorteilhaft sind:
 
 1.  Computer machen keine Fehler. Wenn wir einem Computer einen Lösungsweg beibringen, wendet er ihn fehlerfrei auf neue Probleme an.
 
@@ -19,23 +19,25 @@ Der wichtigste Grund für die Nutzung von Computern ist das Lösen von Problemen
 
 Diese beiden Eigenschaften ermöglichen es uns, mit Computern besonders solche Probleme effizient zu lösen, die wiederkehrend und in großer Zahl auftreten. Wir sprechen dann von **Automatisierung**.
 
-Um den Begriff des Problems besser zu verstehen und seine Bedeutung im Kontext von Computern einzugrenzen, führen wir zunächst ein einfaches Modell ein.
+In diesem Kapitel lernen wir, wie Computer Probleme strukturieren und lösen. Um den Begriff des Problems besser zu verstehen und seine Bedeutung im Kontext von Computern einzugrenzen, führen wir zunächst ein einfaches Modell ein.
 
 ## Das Eingabe-Verarbeitung-Ausgabe-Modell
 
-Das Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. @fig-input-computation-output) ist ein grundlegendes Konzept der Informatik, das die Arbeitsweise von Computern vereinfacht erklärt. Es zeigt, wie Computer Probleme lösen: Sie wandeln Eingabedaten durch einen definierten Verarbeitungsprozess in gewünschte Ausgaben um. Ein Taschenrechner veranschaulicht dies gut: Die Eingabe besteht aus Zahlen und der gewünschten Operation, die Verarbeitung erfolgt durch mathematische Berechnung, und die Ausgabe ist das Ergebnis.
+Das Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. @fig-input-computation-output) ist ein grundlegendes Konzept der Informatik, das die Arbeitsweise von Computern vereinfacht erklärt. Es zeigt, wie Computer Probleme lösen: Sie wandeln Eingabedaten durch einen definierten Verarbeitungsprozess in gewünschte Ausgaben um.
 
-Verallgemeinert beschreibt das Modell ein Problem und dessen Lösung als eine Eingabe (*Input*), die dem Computer übergeben wird. Darauf folgt eine Verarbeitung (*Computation*) auf Basis dieser Eingabe, die wiederum eine Ausgabe (*Output*) erzeugt. Beim Taschenrechner lässt sich das sehr eingängig darstellen, und man kann sich bildlich vorstellen, wie ein Mensch die Eingabe tätigt und das Ergebnis abliest. Es ist aber wichtig zu verstehen, dass Eingabe und Ausgabe sehr unterschiedliche Formen annehmen können und keinesfalls nur über eine Tastatur erfolgen müssen.
+Das Modell beschreibt ein Problem und dessen Lösung als eine Eingabe (*Input*), die dem Computer übergeben wird. Darauf folgt eine Verarbeitung (*Computation*) auf Basis dieser Eingabe, die wiederum eine Ausgabe (*Output*) erzeugt. 
 
 ![Das EVA-Modell besteht aus der Eingabe, der Berechnung und der Ausgabe.](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output.png){fig-align="center" width=60% #fig-input-computation-output}
 
 ### Taschenrechner
 
-Das Beispiel des Taschenrechners wird in @fig-example-calculator anhand einer einfachen Addition zweier Zahlen verdeutlicht. Als Eingabe werden zwei Zahlen benötigt, die Berechnung erfolgt durch eine Addition, dargestellt durch das Plussymbol. Die Ausgabe ist das Ergebnis – die Summe.
+Am Beispiel eines Taschenrechner lässt sich das EVA-Modell gut darstellen. Wir können uns bildlich vorstellen, wie ein Mensch die Eingabe tätigt und danach das Ergebnis abliest. Es ist wichtig zu verstehen, dass Eingabe und Ausgabe sehr unterschiedliche Formen annehmen können und keinesfalls nur über eine Tastatur erfolgen müssen.
+
+Das Beispiel des Taschenrechners wird in @fig-example-calculator anhand einer einfachen Addition zweier Zahlen konkreter verdeutlicht. Als Eingabe werden zwei Zahlen benötigt, die Berechnung erfolgt durch eine Addition, dargestellt durch das Plussymbol. Die Ausgabe ist das Ergebnis – die Summe.
 
 ![Das EVA-Modell für die Addition zweier Zahlen.](https://winf-hsos.github.io/university-docs/images/problem_solving_example_addition.png){fig-align="center" width=60% #fig-example-calculator}
 
-Dieses einfache Beispiel verdeutlicht, dass wir verstehen müssen, wie Computer die drei Bestandteile des EVA-Modells umsetzen. Beim Taschenrechner sind Ein- und Ausgabe jeweils Zahlen. Diese Daten speichert der Computer in seinem Arbeitsspeicher. Dabei ist wichtig zu wissen, dass Computer auf der untersten Ebene ausschließlich Nullen und Einsen speichern. Wir müssen also verstehen, wie Computer Zahlen mithilfe dieser Binärzahlen darstellen können.
+Dieses einfache Beispiel zeigt, dass wir verstehen müssen, wie Computer die drei Bestandteile des EVA-Modells umsetzen. Beim Taschenrechner sind Ein- und Ausgabe jeweils Zahlen. Diese Daten speichert der Computer in seinem Arbeitsspeicher. Dabei ist wichtig zu wissen, dass Computer auf der untersten Ebene ausschließlich Nullen und Einsen speichern. Wir müssen also verstehen, wie Computer Zahlen mithilfe dieser Binärzahlen darstellen können.
 
 Was passiert bei der Berechnung in der Mitte des Modells? Eine Addition mag uns einfach erscheinen, doch auch hier müssen wir beachten, dass Computer mit Binärzahlen arbeiten. Es stellt sich also die Frage: Wie funktioniert eine Addition, wenn die Zahlen als Folge von Nullen und Einsen dargestellt sind? Auf die beiden Fragen zur **Repräsentation und der Verarbeitung von Informationen** im binären System werden wir im Laufe des Buches Antworten bekommen.
 
@@ -95,7 +97,7 @@ Nehmen wir an, dass Haushaltsroboter in Zukunft erschwinglich werden und uns bei
 
 ## Problemlösungsstrategien
 
-Die konkrete Lösung und der zugehörige Algorithmus sehen für jedes Problem unterschiedlich aus. Das Erkennen von Pflanzen folgt einer anderen Logik als die Entscheidung, welche Schachfigur als nächstes gezogen werden soll. Dennoch gibt es universelle Lösungsstrategien, die auf viele Probleme anwendbar sind, um sie möglichst effizient zu lösen.
+Die konkrete Lösung und der zugehörige Algorithmus sehen für jedes Problem unterschiedlich aus. Das Erkennen von Pflanzen folgt einer anderen Logik als die Entscheidung, welche Schachfigur als nächstes gezogen werden soll. Dennoch gibt es universelle Lösungsstrategien, die auf viele Probleme anwendbar sind, um sie möglichst effizient zu lösen. Im Folgenden betrachten wir drei dieser Strategien.
 
 ### Problemzerlegung (*Problem Decomposition*)
 
@@ -132,13 +134,21 @@ Manche Probleme lassen sich effizienter lösen, wenn mehrere Personen gleichzeit
 
 Ein gutes Beispiel ist das Aufräumen eines Zimmers: Eine einzelne Person müsste nacheinander verschiedene Bereiche aufräumen, während mehrere Personen gleichzeitig unterschiedliche Ecken des Raums in Angriff nehmen können. Je größer das Zimmer, desto mehr Personen werden benötigt, um es in der gleichen Zeit aufzuräumen. Ein Gegenbeispiel, bei dem diese Strategie nicht funktioniert, ist das Lösen einer mathematischen Gleichung. Hier müssen die einzelnen Rechenschritte aufeinander aufbauen, weshalb das Problem nicht gleichzeitig an mehrere Personen übergeben werden kann, die unabhängig daran arbeiten.
 
-Etwas technischer lässt sich die Strategie des Verteilens und Parallelisierens, die wir im Englischen *Distribute and Parallelize* nennen, wie folgt beschreiben: Wir zerteilen ein großes Problem in unabhängig voneinander lösbare Teile und weisen jeder Ressource (etwa einer Person oder einem Computer) einen Teil zur Bearbeitung zu. Jede Ressource erzeugt ein Ergebnis für ihr Teilproblem, und die Prämisse ist, dass sich am Ende alle Teile zur Gesamtlösung des ursprünglichen Problems zusammenfügen lassen.
+Die Strategie des Verteilens und Parallelisierens – im Englischen *Distribute and Parallelize* – funktioniert nach einem klaren Prinzip: Wir zerlegen ein großes Problem in Teile, die unabhängig voneinander gelöst werden können. Diese Teile weisen wir dann verschiedenen Ressourcen zu – zum Beispiel mehreren Personen oder Computern. Jede Ressource arbeitet an ihrem Teilproblem und erzeugt ein eigenes Ergebnis. Dabei gehen wir davon aus, dass sich alle Teilergebnisse am Ende zu einer Gesamtlösung zusammenfügen lassen. Ähnlich wie beim Divide and Conquer-Ansatz sind die Teilprobleme meist gleichartig.
 
-Um das Prinzip zu verdeutlichen, betrachten wir ein weiteres Beispiel, das wir zunächst mithilfe des EVA-Modells einführen: das Zählen aller Wörter in einem Buch.
+Um dieses Konzept greifbar zu machen, schauen wir uns ein konkretes Beispiel an, das wir mit dem EVA-Modell analysieren: das Zählen aller Wörter in einem Buch.
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count.png){fig-align="center" width=60%}
+![Das Wörterzählen-Problem im EVA-Modell](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count.png){fig-align="center" width=60%}
 
-Je nach Dicke des Buches kann das eine sehr mühsame Aufgabe sein, besonders für uns Menschen. Ein Computer wird mit einem einzelnen Buch keine großen Probleme haben – dank der unglaublichen Geschwindigkeit, mit der er arbeitet. Allerdings können wir das Problem beliebig vergrößern, indem wir das Buch symbolisch für alle Texte im Internet oder für Artikel in der Wikipedia-Enzyklopädie stehen lassen. Dann wird es auch für Computer mühsam oder zumindest zeitintensiv.
+Je nach Umfang des Buches kann dies eine mühsame Aufgabe sein, besonders für Menschen. Ein Computer bewältigt ein einzelnes Buch dank seiner hohen Verarbeitungsgeschwindigkeit problemlos. Allerdings lässt sich das Problem beliebig erweitern – etwa wenn wir statt eines Buches alle Texte im Internet oder sämtliche Wikipedia-Artikel analysieren möchten. In solchen Fällen wird die Aufgabe auch für Computer aufwendig und zeitintensiv. Eine Lösung besteht darin, mehrere Computer parallel einzusetzen. 
+
+In @fig-problem-solving-word-count-distributed sehen wir beispielhaft die Verteilung der Buchseiten auf vier Studenten. Jeder erhält einen gleichen Anteil, wodurch sich die Bearbeitungszeit im Optimalfall auf ein Viertel reduziert. Bei Computern können wir analog vorgehen und mehrere Rechner gleichzeitig mit Teilen der Seiten betrauen. Diese Rechner werden in einem Netzwerk verbunden und von einem zentralen Computer gesteuert, der die Teilergebnisse am Ende zusammenführt. Ein solches System nennen wir Rechencluster, bestehend aus Arbeitern – den *Worker Nodes* – sowie einer Steuereinheit, die in solchen Systemen als *Driver* oder *Name Node* bezeichnet wird.
+
+![Verteiltes Wörterzählen](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count_distribute_further.png){fig-align="center" width=60% #fig-problem-solving-word-count-distributed}
+
+Durch die Verteilung und parallele Ausführung kann das EVA-Modell wie in @fig-eva-distributed angepasst und detaillierter dargestellt werden. Statt eines einzelnen Prozesses `count_words` laufen nun $n$ parallele Prozesse, die jeweils einen Teil des Buches durchsuchen. Die Aufteilung erfolgt zu Beginn durch den `split`-Prozess, während das Zusammenführen der Teilergebnisse – in diesem Fall das Addieren der Teilsummen – durch den `merge`-Schritt erfolgt.
+
+![Das parallelisierte Wörterzählen im EVA-Modell ](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count_distribute_parallelize.png){fig-align="center" width=60% #fig-eva-distributed}
 
 
 

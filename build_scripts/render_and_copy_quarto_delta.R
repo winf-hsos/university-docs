@@ -37,9 +37,12 @@ dir.create("docs/quarto/applied_analytics")
 dir.create("docs/quarto/data_analytics")
 dir.create("docs/quarto/digitization_and_programming")
 dir.create("docs/quarto/digitization_and_programming/script")
+dir.create("docs/quarto/digitization_and_programming/script/bundle")
+dir.create("docs/quarto/digitization_and_programming/script/bundle/book")
 dir.create("docs/quarto/digitization_and_programming/exercises")
 dir.create("docs/quarto/digitization_and_programming/programming")
 dir.create("docs/quarto/digitization_and_programming/programming_exercises")
+
 dir.create("docs/quarto/big_data_analytics")
 
 # Copy PDF files
