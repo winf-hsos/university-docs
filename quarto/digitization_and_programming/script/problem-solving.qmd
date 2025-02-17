@@ -150,5 +150,14 @@ Durch die Verteilung und parallele Ausführung kann das EVA-Modell wie in @fig-e
 
 ![Das parallelisierte Wörterzählen im EVA-Modell ](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count_distribute_parallelize.png){fig-align="center" width=60% #fig-eva-distributed}
 
+In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fundamentalen Konzept für die computergestützte Problemlösung. Dieses Modell bietet uns einen strukturierten Rahmen, der aus drei wesentlichen Komponenten besteht:
 
+-   Eingabe (E): Die zu verarbeitenden Daten oder Informationen
+
+-   Verarbeitung (V): Der Kern der Problemlösung durch Algorithmen
+
+-   Ausgabe (A): Das Ergebnis der Verarbeitung in nutzbarer Form
+
+
+Die Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.
 

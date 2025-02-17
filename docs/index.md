@@ -105,6 +105,10 @@
 ## Images
 
 - [advance_organizer_dap.png](images/advance_organizer_dap.png)
+- [algorithms_computational_schema_algorithm.png](images/algorithms_computational_schema_algorithm.png)
+- [algorithms_computational_schema_blackbox.png](images/algorithms_computational_schema_blackbox.png)
+- [algorithms_euclidean_example.png](images/algorithms_euclidean_example.png)
+- [algorithms_euclidean_textual.png](images/algorithms_euclidean_textual.png)
 - [algorithms_size_runtime.png](images/algorithms_size_runtime.png)
 - [analog_vs_digital_where_can_you_stand.png](images/analog_vs_digital_where_can_you_stand.png)
 - [chess_1.png](images/chess_1.png)

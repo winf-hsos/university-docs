@@ -8,22 +8,30 @@ code-line-numbers: true
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
 
+## Zusammenfassung
+
+Willkommen zum Kapitel über Algorithmen - ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Abschnitt werden wir uns mit den grundlegenden Aspekten von Algorithmen befassen und dabei zentrale Fragen beantworten:
+
+-   Was ist ein Algorithmus und wie grenzt er sich von einem Computerprogramm ab?
+
+-   Welche verschiedenen Kategorien von Algorithmen existieren und durch welche praktischen Beispiele lassen sie sich veranschaulichen?
+
+-   Wie können wir Algorithmen systematisch und präzise formulieren?
+
+-   Nach welchen Kriterien bewerten wir die Effizienz und Eignung verschiedener Algorithmen für spezifische Problemstellungen?
+
+
 ## Was ist ein Algorithmus?
+
+### Herkunft des Begriffs
 
 Der Begriff "**Algorithmus**" [stammt vom Namen des persischen Mathematikers Muhammad al-Khwarizmi](https://www.wissenschaftsjahr.de/2008/coremedia/generator/wj2008/de/02__Mathematik__alles__was__z_C3_A4hlt/05__KW50__Algorithmus.html), der um das Jahr 780 n. Chr. geboren wurde. Al-Khwarizmi war ein bedeutender Gelehrter am Hofe des Kalifen al-Mamun und verfasste dort Schriften, die den Gebrauch der indischen Zahlzeichen erklärten. Diese Schriften wurden im 12. Jahrhundert ins Lateinische übersetzt, wobei der Titel "Algoritmi de numero Indorum" verwendet wurde. Im Laufe der Zeit wurde der Name al-Khwarizmi zur Bezeichnung für die von ihm beschriebenen Rechenverfahren und entwickelte sich schließlich zum modernen Begriff "Algorithmus".
 
 Heute bezeichnet ein **Algorithmus** eine präzise Abfolge von Anweisungen, die ein bestimmtes Problem lösen oder eine Aufgabe erfüllen sollen. Im Alltag begegnen uns Algorithmen ständig, oft, ohne dass wir es merken: beim Kochen, bei der Wegbeschreibung oder beim Aufbau eines IKEA-Regals.
 
-Um besser zu verstehen, was ein Algorithmus ist, grenzen wir die Begriffe Algorithmus, Programm und Prozess voneinander ab:
+### Algorithmen und Programme
 
--   **Algorithmus**: Ein allgemeiner Plan oder eine Methode zur Problemlösung, bestehend aus einer endlichen Sequenz von Anweisungen.
-
--   **Programm**: Die konkrete Umsetzung eines oder mehrerer Algorithmen in einer Programmiersprache, die ein Computer ausführen kann.
-
--   **Prozess**: Die Ausführung eines Programms durch einen Computer.
-
-
-Algorithmen haben also nicht zwangsläufig etwas mit Computern zu tun. Sie beschreiben lediglich, wie man ein Problem lösen kann. Ob das ein Computer macht oder ein Mensch ist dabei offen. Überlege etwa, wie du eine IKEA-Aufbauanleitung befolgst oder wie du ein Rezept in der Küche kochst. Diese alltäglichen Abläufe folgen alle Algorithmen, ohne dass ein Computer beteiligt ist:
+Ein wichtiger Aspekt von Algorithmen ist ihre Universalität: Sie sind nicht an Computer gebunden. Ein Algorithmus ist im Kern eine strukturierte Anleitung zur Problemlösung, unabhängig davon, wer oder was diese Anleitung ausführt. Diese Flexibilität zeigt sich besonders deutlich in unserem Alltag, wo wir ständig algorithmische Anleitungen befolgen - sei es beim Aufbau eines Möbelstücks oder beim Kochen nach einem Rezept. Bei diesen Tätigkeiten führen wir Menschen die algorithmischen Schritte aus, ganz ohne Beteiligung eines Computers:
 
 -   Kochen: Ein Rezept ist ein Algorithmus für die Zubereitung eines Gerichts.
 
@@ -34,28 +42,92 @@ Comment
 -   Bastelanleitung: Die Anweisungen, um ein Modellflugzeug zusammenzubauen.
 
 
-Manche Algorithmen können wir einem Computer beibringen und ihn diesen ausführen lassen. Dazu müssen wir eine präzise Übersetzung des Algorithmus in eine Programmiersprache erstellen, die der Computer versteht und ausführen kann. Wir sprechen dann vom Programmieren und das Ergebnis ist ein Programm.
+Viele Algorithmen können von Computern ausgeführt werden. Dafür ist jedoch eine Übersetzung in eine maschinenverständliche Form notwendig. Diese Übersetzung erfolgt durch das Programmieren, wobei wir den Algorithmus in einer Programmiersprache formulieren. Um die Beziehung zwischen Algorithmen und Computerprogrammen besser zu verstehen, ist es hilfreich, drei zentrale Begriffe zu unterscheiden:
 
-Algorithmen lassen sich basierend auf ihrer Funktion und Anwendung in verschiedene Kategorien einteilen. Hier sind einige wichtige Klassen von Algorithmen:
+-   **Algorithmus**: Die abstrakte Beschreibung einer Lösungsmethode in Form einer präzisen, endlichen Sequenz von individuellen Anweisungen. Ein Algorithmus ist unabhängig von der konkreten Umsetzung und kann sowohl von Menschen als auch von Maschinen ausgeführt werden.
 
--   Suchalgorithmen
+-   **Programm**: Die konkrete Implementation eines oder mehrerer Algorithmen in einer Programmiersprache. Das Programm übersetzt die abstrakten Anweisungen des Algorithmus in eine Form, die ein Computer verstehen und ausführen kann.
 
--   Sortieralgorithmen
-
--   Optimierungsalgorithmen
-
--   Graphenalgorithmen
-
--   Verschlüsselungsalgorithmen
-
--   Maschinelle Lernalgorithmen
+-   **Prozess**: Die tatsächliche Ausführung eines Programms durch einen Computer. Dabei werden die programmierten Anweisungen Schritt für Schritt abgearbeitet, um das gewünschte Ergebnis zu erzielen.
 
 
-Die oben aufgeführten Klassen sind nicht vollständig und schließen sich nicht gegenseitig aus. Das bedeutet, dass die Klassen Überlappungen aufweisen und sich manche Algorithmen zwei oder mehreren Klassen zuordnen lassen. So ist der **Dijkstra-Algorithmus**\index{Dijkstra-Algorithmus} für das Finden des kürzesten Weges zwischen zwei Orten ein Graphenalgorithmus, weil er auf einer Datenstruktur arbeitet, die wir als Graphen bezeichnen. Gleichzeitig ist er ein Optimierungsalgorithmus, weil er eine optimale Lösung für ein Problem ermittelt: den kürzesten Weg aus der Menge aller möglichen Wege zu finden.
+## Kategorien
 
-## Suchen
+Algorithmen können nach ihrer Funktion und ihrem Anwendungsbereich in verschiedene Kategorien eingeteilt werden. Jede Kategorie repräsentiert einen spezifischen Problemlösungsansatz:
 
-## Sortieren
+-   **Mathematische Algorithmen**: Berechnen oder approximieren Werte
 
-## Optimieren
+-   **Suchalgorithmen**: Finden bestimmte Elemente in einer Datenmenge
+
+-   **Sortieralgorithmen**: Ordnen Daten nach bestimmten Kriterien
+
+-   **Optimierungsalgorithmen**: Finden die bestmögliche Lösung für ein Problem
+
+-   **Graphenalgorithmen**: Arbeiten mit vernetzten Strukturen
+
+-   **Stochastische Algorithmen**: Verwenden Zufallselemente, um ein Problem zu lösen
+
+-   **Maschinelle Lernalgorithmen**: Erkennen Muster und treffen Vorhersagen
+
+
+Diese Kategorien sind weder vollständig noch strikt voneinander getrennt. Viele Algorithmen lassen sich mehreren Kategorien zuordnen. Ein anschauliches Beispiel hierfür ist der **Dijkstra-Algorithmus**\index{Dijkstra-Algorithmus}, der die kürzeste Route zwischen zwei Punkten findet. Er ist sowohl ein Graphenalgorithmus, da er auf vernetzten Strukturen arbeitet, als auch ein Optimierungsalgorithmus, da er die optimale (kürzeste) Route ermittelt.
+
+Im folgenden beleuchten wir ein oder mehr Beispiele für jeder der genannten Klassen.
+
+### Mathematische Algorithmen
+
+#### Größter gemeinsamer Teiler (GGT)
+
+Der Algorithmus zur Berechnung des größten gemeinsamen Teilers (GGT) ist ein klassisches Beispiel für einen eleganten mathematischen Algorithmus. Er wurde vom griechischen Mathematiker Euklid um 300 v. Chr. in seinem Werk "Die Elemente" beschrieben und demonstriert eindrucksvoll die zeitlose Natur algorithmischen Denkens.
+
+Das Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen. Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen. 
+
+Der Block unten zeigt die Schritte des Euklidschen Algorithmus für das obige Zahlenbeispiel.
+
+```python
+Loop 1:
+a = 18, b = 48 
+a < b → swap: a = 48, b = 18
+a = 48 - 18 = 30
+
+Loop 2: 
+a = 30, b = 18 
+a >= b → no swap
+a = 30 - 18 = 12
+
+Loop 3: 
+a = 12, b = 18 
+a < b → swap: a = 18, b = 12
+a = 18 - 12 = 6
+
+Loop 4:
+a = 6, b = 12 
+a < b → swap: a = 12, b = 6
+a = 12 - 6 = 6
+
+Loop 5:
+a = 6, b = 6 
+a >= b → no swap
+a = 6 - 6 = 0
+
+result: b = 6
+
+```
+### Suchalgorithmen
+
+#### Lineare Suche
+
+#### Binäre Suche
+
+#### Suche in Bäumen
+
+### Sortieralgorithmen
+
+### Optimierungsalgorithmen
+
+### Graphenalgorithmen
+
+### Stochastische Algorithmen
+
+### Maschinelle Lernalgorithmen
 
