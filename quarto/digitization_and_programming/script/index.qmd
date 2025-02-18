@@ -1,3 +1,13 @@
+---
+title: "Bevor es losgeht"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: true
+number-sections: false
+code-line-numbers: true
+subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
+---
+
 # Bevor es losgeht {.unnumbered} 
 
 ## Wen möchte ich wie ansprechen?

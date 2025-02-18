@@ -1,7 +1,6 @@
 ---
 title: "Computer"
 ---
-
 ## Komponenten eines Computers
 
 -   von Neumann-Architektur

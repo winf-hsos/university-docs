@@ -1,6 +1,17 @@
 ---
-title: "Informationen"
+title: "Informationen {#sec-information}"
 ---
+:::: {layout="[0.2, 0.8]"}
+
+:::{#firstcol}
+[![](qrcodes\g-QOJ6z0VFE.png){fig-align="center" width=10%}](https://youtu.be/g-QOJ6z0VFE)
+:::
+
+:::{#secondcol}
+Zu diesem Kapitel gibt es ein Video auf YouTube. Scanne einfach den QR-Code oder klicke in der digitalen Version des Buches auf den QR-Code.
+:::
+
+::::
 
 ## Information in der Informatik
 

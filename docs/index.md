@@ -295,6 +295,7 @@
 - [computer.pdf](quarto/digitization_and_programming/script/computer.pdf)
 - [data-structures.pdf](quarto/digitization_and_programming/script/data-structures.pdf)
 - [encryption.pdf](quarto/digitization_and_programming/script/encryption.pdf)
+- [index.pdf](quarto/digitization_and_programming/script/index.pdf)
 - [information.pdf](quarto/digitization_and_programming/script/information.pdf)
 - [logic-and-arithmetic.pdf](quarto/digitization_and_programming/script/logic-and-arithmetic.pdf)
 - [problem-solving.pdf](quarto/digitization_and_programming/script/problem-solving.pdf)

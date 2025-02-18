@@ -2,10 +2,8 @@ project:
   type: book
   output-dir: book
   
-  
 lang: de
 
-  
 book:
   title: "Digitalisierung und Programmierung"
   subtitle: "Vorlesungsskript"
@@ -13,7 +11,6 @@ book:
   date: today
   date-format: long
   output-file: "book_digitalisierung_und_programmierung"
-
 
   chapters:
     - index.qmd
@@ -34,6 +31,9 @@ book:
     - references.qmd
 
 bibliography: references.bib
+nocite: |
+  @*
+
 
 format:
   pdf:

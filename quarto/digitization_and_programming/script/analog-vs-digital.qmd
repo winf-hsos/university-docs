@@ -8,5 +8,19 @@ code-line-numbers: true
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
 
-## Diskrete und kontinuierliche Werte
+:::: {layout="[0.2, 0.8]"}
+
+:::{#firstcol}
+[![](qrcodes\iKHU2Uj4Lp0.png){fig-align="center" width=10%}](https://youtu.be/iKHU2Uj4Lp0)
+:::
+
+:::{#secondcol}
+Zu diesem Kapitel gibt es ein Video auf YouTube. Scanne einfach den QR-Code oder klicke in der digitalen Version des Buches auf den QR-Code.
+:::
+
+::::
+
+## Was ist der Unterschied zwischen analoger und digitaler Welt?
+
+### Diskrete und kontinuierliche Werte
 

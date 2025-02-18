@@ -1,13 +1,35 @@
 ---
 title: "Signale"
 ---
+## Was ist ein Signal?
 
--   How can we create and receive signals?
+“A signal is a function that conveys information about the behavior of a system or attributes of some phenomenon”.
 
-     -   Analog vs. digital
+Ein Signal ist eine physikalische Größe, die Informationen trägt. Stellen wir uns vor, du stehst an einer Straßenecke und winkst einem Freund auf der anderen Seite zu. Deine Handbewegung ist ein **optisches Signal**, das die Information „Komm her!“ überträgt. Signale können auch Schallwellen (wie deine Stimme), elektrische Impulse (in Kabeln) oder Licht (in Glasfasern) sein
 
-     -   LED / Color Sensor
+### Der Kern ist die Veränderung
 
--   How can we give signals meaning? How can we transfer text, images, sound and other file formats?
+Eine statische physikalische Größe kann keine Informationen übertragen. Dies haben wir bereits im Kapitel @sec-information kennengelernt. Erst die Veränderung einer physikalischen Größe über die Zeit ermöglicht es, Informationen zu kodieren und zu übertragen. Ein einfaches Beispiel ist das An- und Ausschalten einer Lampe, wobei die Veränderung der Helligkeit das Signal darstellt. Die zeitliche Abfolge dieser Veränderungen kann dann als Nachricht interpretiert werden, wie etwa beim Morsecode.
 
+### Häufig elektrisch
+
+Ein Signal muss nicht unbedingt eine elektrische Größe wie Spannung (gemessen in Volt) sein. Signale können auch mechanische Größen (Druck, Beschleunigung), optische Größen (Helligkeit, Farbe) oder akustische Größen (Schallwellen) sein. Das Entscheidende ist, dass sich das Signal als messbare Größe über die Zeit verändert und dadurch Informationen transportiert.
+
+Für die Verarbeitung mit Computern müssen wir alle Signale in elektrische Signale umwandeln. Von dort aus ist es dann ein kleiner Schritt zum digitalen Signal, das nur die Werte Null oder Eins annehmen kann. Dafür nutzen wir sogenannte **Analog-to-Digital-Converter (ADC)**.
+
+## Wie können wir Signale erzeugen?
+
+### Von digital zu analog
+
+### Die LED
+
+## Wie können wir Signale emfpangen?
+
+### Von analog zu digital
+
+### Der Farbsensor
+
+## Welche Bedeutung hat ein Signal?
+
+Ein Signal ist zunächst nur eine messbare Abfolge von Veränderungen einer physikalischen Größe über die Zeit. Die Bedeutung, die wir diesen Veränderungen – oder der Modulation – zuschreiben, bestimmen wir selbst.
 

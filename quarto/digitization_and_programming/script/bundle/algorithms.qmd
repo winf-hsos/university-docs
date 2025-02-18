@@ -1,7 +1,6 @@
 ---
 title: "Algorithmen"
 ---
-
 ## Zusammenfassung
 
 Willkommen zum Kapitel über Algorithmen - ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Abschnitt werden wir uns mit den grundlegenden Aspekten von Algorithmen befassen und dabei zentrale Fragen beantworten:
@@ -107,6 +106,8 @@ a = 6 - 6 = 0
 result: b = 6
 
 ```
+#### Babylonisches Wurzelziehen
+
 ### Suchalgorithmen
 
 #### Lineare Suche
@@ -119,9 +120,15 @@ result: b = 6
 
 ### Optimierungsalgorithmen
 
+#### Dijkstra-Algorithmus
+
 ### Graphenalgorithmen
 
 ### Stochastische Algorithmen
 
+#### 
+
 ### Maschinelle Lernalgorithmen
+
+## Iteration und Rekursion
 

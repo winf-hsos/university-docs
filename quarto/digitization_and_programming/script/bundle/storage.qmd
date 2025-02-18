@@ -1,7 +1,6 @@
 ---
 title: "Speicher"
 ---
-
 ## Substratunabhängigkeit
 
 

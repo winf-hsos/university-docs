@@ -8,7 +8,21 @@ code-line-numbers: true
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
 
-## Die kleinste mögliche Information
+:::: {layout="[0.2, 0.8]"}
 
-## Ein Byte
+:::{#firstcol}
+[![](qrcodes\c46UqfuWJOk.png){fig-align="center" width=10%}](https://www.youtube.com/watch?v=c46UqfuWJOk)
+:::
+
+:::{#secondcol}
+Zu diesem Kapitel gibt es ein Video auf YouTube. Scanne einfach den QR-Code oder klicke in der digitalen Version des Buches auf den QR-Code.
+:::
+
+::::
+
+## Ist das Bit die kleinste Informationseinheit?
+
+## Was ist ein Byte
+
+
 

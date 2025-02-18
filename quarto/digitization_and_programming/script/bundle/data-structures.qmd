@@ -1,7 +1,6 @@
 ---
 title: "Datenstrukturen"
 ---
-
 ## Listen
 
 ## Mengen
