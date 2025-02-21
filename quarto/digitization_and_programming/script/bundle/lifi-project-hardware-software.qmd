@@ -1,8 +1,77 @@
-# Setup für das LiFi-Projekt
+# Setup für das LiFi-Projekt {#sec-lifi-project-setup}
 
 ## Welche Hardware benötigen wir?
 
+Für den LiFi-Hardware-Prototyp benötigen wir folgende Komponenten:
+
+1 x [Master Brick 3.1](https://www.tinkerforge.com/en/shop/bricks/master-brick.html)
+
+1 x [RGB LED Bricklet 2.0](https://www.tinkerforge.com/en/shop/rgb-led-v2-bricklet.html)
+
+1 x [Color Bricklet 2.0](https://www.tinkerforge.com/en/shop/color-v2-bricklet.html)
+
+1 x [OLED 128x64 Bricklet 2.0](https://www.tinkerforge.com/en/shop/oled-128x64-v2-bricklet.html)
+
+4 x [Bricklet Cable 15 cm (7p-7p)](https://www.tinkerforge.com/en/shop/bricklet-cable-15cm-7p-7p.html)
+
+1 x [USB-A to USB-C Cable 100 cm](https://www.tinkerforge.com/en/shop/accessories/cable/usb-a-to-usb-c-cable-100cm.html)
+
+2 x [Mounting Plate 22x10](https://www.tinkerforge.com/en/shop/accessories/mounting/mounting-plate-22x10.html)
+
+4 x [Mounting Kit 12 mm](https://www.tinkerforge.com/en/shop/accessories/mounting/mounting-kit-12mm.html)
+
+Bitte überprüfe vor dem Fortfahren mit den folgenden Anweisungen, ob dein LiFi-Kit alle Komponenten in den angegebenen Mengen enthält.
+
+![Foto der Hardwarekomponenten des LiFi-Protoptyps.](https://winf-hsos.github.io/university-docs/static/images/lifi_hardware_overview.png){fig-align="center" width=60%}
+
+## Wie baue ich die Hardware zusammen?
+
+### 1. Schutzfolie auf den Befestigungsplatten entfernen
+
+
+
+### 2. Abstandshalter an beide Befestigungsplatten anbringen
+
+#### Befestigungsplatte 1
+
+
+
+#### Befestigungsplatte 2
+
+### 3. Master Brick befestigen
+
+
+
+### 4. Verbindungskabel einstecken
+
+
+
+### 5. Befestigungsplatten miteinander verbinden
+
+
+
+### 6. OLED-Anzeige montieren
+
+
+
+### 7. LED und Farbsensor montieren
+
+
+
+### 8. Peripheriegeräte mit Master Brick verbinden
+
 ## Welche Software müssen wir installieren?
+
+Neben der Hardware benötigen wir für die Entwicklung des LiFi-Prototyps verschiedene Software-Komponenten. Die Software ist komplett Open-Source und dadurch kostenlos nutzbar. Alle Programme sind für Windows, Mac OS und Linux verfügbar. Hier zunächst die Übersicht, bevor wir jede Software im Detail vorstellen:
+
+-   [Brick Daemon](https://www.tinkerforge.com/en/doc/Software/Brickd.html) und [Brick Viewer](https://www.tinkerforge.com/en/doc/Software/Brickv.html)
+
+-   [Visual Studio Code](https://code.visualstudio.com/download)
+
+-   [Python](https://www.python.org/downloads/)
+
+-   [Git](https://git-scm.com/downloads)
+
 
 
 

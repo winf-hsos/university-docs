@@ -1,5 +1,5 @@
 ---
-title: "Algorithmen"
+title: "Algorithmen {#sec-algorithms}"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: true

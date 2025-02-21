@@ -1,5 +1,5 @@
 ---
-title: "Problemlösung"
+title: "Problemlösung {#sec-problem-solving}"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: true
@@ -10,7 +10,16 @@ subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 
 ## Welche Schritte führen zu einer Lösung für ein Problem?
 
-[ABB. POLYA ZYKLUS]
+@UBHD-66395843 beschreibt einen weit verbreiteten Ansatz zur Problemlösung. Dieser basiert auf vier Schritten, die als wiederkehrender Kreislauf angewendet werden können und sollten. Obwohl [@UBHD-66395843] diesen Ansatz ursprünglich für mathematische Probleme entwickelte, lässt er sich auch auf andere Bereiche – insbesondere die Informatik – übertragen. Folgende Schritte beschreibt [@UBHD-66395843]:
+
+1.  Das Problem verstehen
+
+2.  Einen Plan zur Lösung erstellen
+
+3.  Den Plan umsetzen
+
+4.  Die Lösung reflektieren und verbessern
+
 
 ## Warum sind Computer beim Lösen von Problemen  nützlich?
 
@@ -57,7 +66,7 @@ Wir können die Perspektive auf eine geräteübergreifende LiFi-Sicht erweitern.
 
 ![](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output_lifi_devices.png){fig-align="center" width=60%}
 
-Vielleicht ist dir aufgefallen, dass die Struktur des gesamten Buches an den gerade identifizierten, übergeordneten Problemstellungen ausgerichtet ist. Wir befinden uns gerade im [ersten Teil](part-problems.qmd) und sprechen darüber, wie wir Probleme im Computer darstellen. Im [zweiten Teil des Buches](part-representation.qmd) lernen wir, wie Computer ganz unterschiedliche Informationen repräsentieren können, damit sie für die Lösung des Problems verwendet werden können. Im dritten Teil beschäftigen wir uns damit, wie Computer Informationen verarbeiten. Der vierte und letzte Teil führt uns in wichtige Konzepte der Kommunikation mithilfe von Computern und Netzwerken ein.
+Vielleicht ist dir aufgefallen, dass die Struktur des gesamten Buches an den gerade identifizierten, übergeordneten Problemstellungen ausgerichtet ist. Wir befinden uns gerade im [ersten Teil](part-problems.qmd) und sprechen darüber, wie wir Probleme im Computer darstellen. Im [zweiten Teil des Buches](part-representation.qmd) lernen wir, wie Computer ganz unterschiedliche Informationen repräsentieren können, damit sie für die Lösung des Problems verwendet werden können. Im [dritten Teil](part-processing.qmd) beschäftigen wir uns damit, wie Computer Informationen verarbeiten. Der [vierte und letzte Teil](part-communication.qmd) führt uns in wichtige Konzepte der Kommunikation mittels Computern und Netzwerken ein.
 
 #### Beispiel: Taschenrechner
 
@@ -182,11 +191,11 @@ Durch die Verteilung und parallele Ausführung kann das EVA-Modell wie in @fig-e
 
 In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fundamentalen Konzept für die computergestützte Problemlösung. Dieses Modell bietet uns einen strukturierten Rahmen, der aus drei wesentlichen Komponenten besteht:
 
--   Eingabe (E): Die zu verarbeitenden Daten oder Informationen
+-   **Eingabe (E)**: Die zu verarbeitenden Daten oder Informationen
 
--   Verarbeitung (V): Der Kern der Problemlösung durch Algorithmen
+-   **Verarbeitung (V)**: Der Kern der Problemlösung durch Algorithmen
 
--   Ausgabe (A): Das Ergebnis der Verarbeitung in nutzbarer Form
+-   **Ausgabe (A)**: Das Ergebnis der Verarbeitung in nutzbarer Form
 
 
 Die Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.

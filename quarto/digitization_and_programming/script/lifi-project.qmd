@@ -12,48 +12,52 @@ subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 
 [LiFi](https://en.wikipedia.org/wiki/Li-Fi) ist eine Technologie, die die Übertragung von Informationen mithilfe von Licht ermöglicht. Sie nutzt das sichtbare Lichtspektrum, um ein Signal zu erzeugen, das von einem Fotodetektor empfangen werden kann, welcher das von einer LED ausgestrahlte Licht erfasst. Durch die Veränderung der Lichteigenschaften über die Zeit, wie etwa der Wellenlänge oder der Helligkeit, können wir Daten kodieren und übertragen. LiFi bietet großes Potenzial für den Einsatz in Umgebungen, in denen Hochfrequenzsignale Mikroorganismen oder andere empfindliche elektronische Geräte stören könnten. Darüber hinaus könnte LiFi im Gegensatz zu Bluetooth oder WiFi in Robotern eingesetzt werden, die unter Wasser arbeiten.
 
-Als Teil eines interdisziplinären F&E-Teams in einem Hightech-Unternehmen, das Roboter für Lebensmittel- und Landwirtschaftsanwendungen entwickelt, besteht deine Aufgabe darin, ein LiFi-Kommunikationsgerät zu entwickeln, das in die nächste Robotergeneration des Unternehmens integriert werden kann. Das Gerät hat zwei Hauptkomponenten: [eine kleine LED](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/RGB_LED_V2.html), die in etwa 16 Millionen Farben des RGB-Farbsystems leuchten kann, und einen [Farbsensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Color_V2.html), der die Intensität der drei RGB-Farbkanäle sowie die Helligkeit des Lichts messen kann. Diese Komponenten werden von einem [Master Brick](https://www.tinkerforge.com/en/doc/Hardware/Bricks/Master_Brick.html) gesteuert, der für die reibungslose Kommunikation zwischen dem Roboter und seinen Peripheriegeräten verantwortlich ist.
+Deine Aufgabe als Teil eines interdisziplinären F&E-Teams in einem Hightech-Unternehmen ist die Entwicklung eines LiFi-Kommunikationsgeräts. Das Unternehmen entwickelt Roboter für Lebensmittel- und Landwirtschaftsanwendungen, und das Gerät soll in die nächste Robotergeneration integriert werden. Es besteht aus zwei Hauptkomponenten: [eine kleine LED](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/RGB_LED_V2.html), die mehr als 16 Millionen Farben des RGB-Farbsystems darstellen kann, und einen [Farbsensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Color_V2.html), der die Intensität der RGB-Farbkanäle und die Lichthelligkeit misst. Ein sogenannter [Master Brick](https://www.tinkerforge.com/en/doc/Hardware/Bricks/Master_Brick.html) – ein Minicomputer – steuert diese Komponenten und gewährleistet die reibungslose Kommunikation zwischen dem Roboter und seinen Peripheriegeräten.
 
 [BILD]
 
 ## Was sind die Ziele?
 
-Das LiFi-Projekt stellt ein klassisches Ingenieursproblem dar: die Kombination von Hardware und Software zur Lösung einer praktischen Aufgabe. Die zentralen inhaltlichen Fragen dieses Projekts lauten:
+Das LiFi-Projekt stellt ein typisches Ingenieursproblem dar: die Kombination von Hardware und Software zur Lösung eines Praxisproblems. Die zentralen inhaltlichen Fragen dieses Projekts lauten:
 
-### Informationen aus der Umwelt erfassen
+-   Wie können physikalische Größen wie die Temperatur oder Licht gemessen und von einer analogen in eine digitale Form überführt werden?
 
--   **Wie können physikalische Größen digital erfasst werden? ***(Informationen, Bits, Analog vs. Digital, Codesysteme)*
+-   Wie können Algorithmen Entscheidungen auf Basis der digitalen Eingabedaten treffen?
 
+-   Wie können wir mit Lichtsignalen Informationen darstellen?
 
-### Informationen für automatisierte Entscheidungen nutzen
+-   Wie können wir mithilfe einer LED und eines Farbsensors Informationen übertragen?
 
--   **Wie könenn Algorithmen Entscheidungen auf Basis von Eingabedaten treffen? ***(Algorithmen)*
+-   Welches Protokoll eignet sich am besten für die LED-basierte Datenübertragung?
 
+-   Wie verlässlich ist die Datenübertragung?
 
-### Informationen über Licht kommunizieren und empfangen
+-   Welche maximale Übertragungsdistanz ist mit Licht möglich?
 
--   **Wie kann Licht Informationen darstellen? ***(Information Representation)*
+-   Welche Umgebungsbedingungen sind für eine erfolgreiche Übertragung erforderlich?
 
--   **Wie können mithilfe einer LED und eines Farbsensors Informationen übertragen? ***(Information Communication)*
+-   Wie lässt sich die Datenübertragung sicher gestalten?
 
--   **Welches Protokoll eignet sich am besten für die LED-basierte Datenübertragung?**
+-   Welche Datenübertragungsrate können wir erreichen?
 
--   **Wie verlässlich ist die Datenübertragung? ***(Protokolle)*
-
--   **Welche maximale Übertragungsdistanz ist möglich? ***(Signale)*
-
--   **Welche Umgebungsbedingungen sind für eine erfolgreiche Übertragung erforderlich? ***(Signale)*
-
--   **Wie lässt sich die Datenübertragung sicher gestalten? ***(Algorithmen, Verschlüsselung)*
-
--   **Welche Datenübertragungsrate können wir erreichen? **(*Algorithmen, Kompression*)
+-   Wie können wir möglichst effizient kommunizieren?
 
 
-Eine wesentliche Einschränkung besteht darin, dass wir diese Fragen nur mit der verfügbaren Hardware beantworten können: einer LED und einem Farbsensor.
+Eine wichtige Einschränkung besteht darin, dass wir all diese Fragen der uns bereitgestellten Hardware beantworten müssen: einer LED und einem Farbsensor.
 
-Am Ende dieses Projekts wirst du nicht nur das Ingenieursproblem gelöst haben, sondern auch Antworten auf alle genannten Fragen gefunden haben. Als zusätzlicher Bonus erwirbst du dabei tiefere Einblicke in die digitale Welt und grundlegende Programmierkenntnisse.
+Am Ende dieses Projekts wirst du nicht nur das Ingenieursproblem gelöst, sondern auch Antworten auf die genannten Fragen gefunden haben. Als zusätzlichen Bonus erwirbst du dabei tiefere Einblicke in die digitale Welt sowie grundlegende Programmierkenntnisse.
 
 ## Wie gehen wir vor?
+
+Ein solch großes und komplexes Ingenieursproblem wie das LiFi-Projekt erfordert ein durchdachtes Vorgehen. Da es sich vornehmlich um ein Projekt zur Einführung in die digitale Welt handelt, gehen wir schrittweise vor und lernen bei jedem Schritt wichtige Grundlagen, die uns bei der Umsetzung helfen.
+
+Zuerst widmen wir uns dem Basteln: Nach Anleitung setzen wir aus den bereitgestellten Hardware-Bauteilen den LiFi-Prototypen zusammen. Dieser bildet die Grundlage für unsere praktische Arbeit im Projekt. Während die Hardware nur einmalig zu Beginn aufgebaut werden muss, entwickeln wir die Software kontinuierlich über das gesamte Projekt hinweg weiter.
+
+Um das Problem besser zu verstehen und in kleinere Teilprobleme zu zerlegen, betrachten wir in @sec-problem-solving zunächst geeignete Techniken zur Problemlösung. Parallel dazu beginnen wir mit der Programmierung in Python – der Sprache, die wir für die Entwicklung der LiFi-Software nutzen werden. Diese Kenntnisse erweitern wir in jedem Kapitel, führen wichtige Konzepte der Programmierung ein und lernen, wie wir mit Python die Hardware des LiFi-Prototypen steuern können.
+
+Das Buch ist in vier Teile gegliedert. Nach jedem Teil stellen wir eine neue Version unseres LiFi-Prototypen fertig. Die finale Version enthält dann alle notwendigen Funktionen, die zur Beantwortung der Fragestellungen erforderlich sind.
+
+
 
 
 

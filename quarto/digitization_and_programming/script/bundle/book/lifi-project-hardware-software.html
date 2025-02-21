@@ -132,7 +132,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bevor es losgeht</span></a>
+ <span class="menu-text">Vorwort</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -292,7 +292,18 @@ div.csl-indent {
    
   <ul>
   <li><a href="#welche-hardware-benötigen-wir" id="toc-welche-hardware-benötigen-wir" class="nav-link active" data-scroll-target="#welche-hardware-benötigen-wir"><span class="header-section-number">2.1</span> Welche Hardware benötigen wir?</a></li>
-  <li><a href="#welche-software-müssen-wir-installieren" id="toc-welche-software-müssen-wir-installieren" class="nav-link" data-scroll-target="#welche-software-müssen-wir-installieren"><span class="header-section-number">2.2</span> Welche Software müssen wir installieren?</a></li>
+  <li><a href="#wie-baue-ich-die-hardware-zusammen" id="toc-wie-baue-ich-die-hardware-zusammen" class="nav-link" data-scroll-target="#wie-baue-ich-die-hardware-zusammen"><span class="header-section-number">2.2</span> Wie baue ich die Hardware zusammen?</a>
+  <ul class="collapse">
+  <li><a href="#schutzfolie-auf-den-befestigungsplatten-entfernen" id="toc-schutzfolie-auf-den-befestigungsplatten-entfernen" class="nav-link" data-scroll-target="#schutzfolie-auf-den-befestigungsplatten-entfernen"><span class="header-section-number">2.2.1</span> 1. Schutzfolie auf den Befestigungsplatten entfernen</a></li>
+  <li><a href="#abstandshalter-an-beide-befestigungsplatten-anbringen" id="toc-abstandshalter-an-beide-befestigungsplatten-anbringen" class="nav-link" data-scroll-target="#abstandshalter-an-beide-befestigungsplatten-anbringen"><span class="header-section-number">2.2.2</span> 2. Abstandshalter an beide Befestigungsplatten anbringen</a></li>
+  <li><a href="#master-brick-befestigen" id="toc-master-brick-befestigen" class="nav-link" data-scroll-target="#master-brick-befestigen"><span class="header-section-number">2.2.3</span> 3. Master Brick befestigen</a></li>
+  <li><a href="#verbindungskabel-einstecken" id="toc-verbindungskabel-einstecken" class="nav-link" data-scroll-target="#verbindungskabel-einstecken"><span class="header-section-number">2.2.4</span> 4. Verbindungskabel einstecken</a></li>
+  <li><a href="#befestigungsplatten-miteinander-verbinden" id="toc-befestigungsplatten-miteinander-verbinden" class="nav-link" data-scroll-target="#befestigungsplatten-miteinander-verbinden"><span class="header-section-number">2.2.5</span> 5. Befestigungsplatten miteinander verbinden</a></li>
+  <li><a href="#oled-anzeige-montieren" id="toc-oled-anzeige-montieren" class="nav-link" data-scroll-target="#oled-anzeige-montieren"><span class="header-section-number">2.2.6</span> 6. OLED-Anzeige montieren</a></li>
+  <li><a href="#led-und-farbsensor-montieren" id="toc-led-und-farbsensor-montieren" class="nav-link" data-scroll-target="#led-und-farbsensor-montieren"><span class="header-section-number">2.2.7</span> 7. LED und Farbsensor montieren</a></li>
+  <li><a href="#peripheriegeräte-mit-master-brick-verbinden" id="toc-peripheriegeräte-mit-master-brick-verbinden" class="nav-link" data-scroll-target="#peripheriegeräte-mit-master-brick-verbinden"><span class="header-section-number">2.2.8</span> 8. Peripheriegeräte mit Master Brick verbinden</a></li>
+  </ul></li>
+  <li><a href="#welche-software-müssen-wir-installieren" id="toc-welche-software-müssen-wir-installieren" class="nav-link" data-scroll-target="#welche-software-müssen-wir-installieren"><span class="header-section-number">2.3</span> Welche Software müssen wir installieren?</a></li>
   </ul>
 </nav>
     </div>
@@ -301,7 +312,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Setup für das LiFi-Projekt</span></h1>
+<h1 class="title"><span id="sec-lifi-project-setup" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Setup für das LiFi-Projekt</span></span></h1>
 </div>
 
 
@@ -320,9 +331,65 @@ div.csl-indent {
 
 <section id="welche-hardware-benötigen-wir" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="welche-hardware-benötigen-wir"><span class="header-section-number">2.1</span> Welche Hardware benötigen wir?</h2>
+<p>Für den LiFi-Hardware-Prototyp benötigen wir folgende Komponenten:</p>
+<p>1 x <a href="https://www.tinkerforge.com/en/shop/bricks/master-brick.html">Master Brick 3.1</a></p>
+<p>1 x <a href="https://www.tinkerforge.com/en/shop/rgb-led-v2-bricklet.html">RGB LED Bricklet 2.0</a></p>
+<p>1 x <a href="https://www.tinkerforge.com/en/shop/color-v2-bricklet.html">Color Bricklet 2.0</a></p>
+<p>1 x <a href="https://www.tinkerforge.com/en/shop/oled-128x64-v2-bricklet.html">OLED 128x64 Bricklet 2.0</a></p>
+<p>4 x <a href="https://www.tinkerforge.com/en/shop/bricklet-cable-15cm-7p-7p.html">Bricklet Cable 15 cm (7p-7p)</a></p>
+<p>1 x <a href="https://www.tinkerforge.com/en/shop/accessories/cable/usb-a-to-usb-c-cable-100cm.html">USB-A to USB-C Cable 100 cm</a></p>
+<p>2 x <a href="https://www.tinkerforge.com/en/shop/accessories/mounting/mounting-plate-22x10.html">Mounting Plate 22x10</a></p>
+<p>4 x <a href="https://www.tinkerforge.com/en/shop/accessories/mounting/mounting-kit-12mm.html">Mounting Kit 12 mm</a></p>
+<p>Bitte überprüfe vor dem Fortfahren mit den folgenden Anweisungen, ob dein LiFi-Kit alle Komponenten in den angegebenen Mengen enthält.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/static/images/lifi_hardware_overview.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Foto der Hardwarekomponenten des LiFi-Protoptyps.</figcaption>
+</figure>
+</div>
 </section>
-<section id="welche-software-müssen-wir-installieren" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="welche-software-müssen-wir-installieren"><span class="header-section-number">2.2</span> Welche Software müssen wir installieren?</h2>
+<section id="wie-baue-ich-die-hardware-zusammen" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="wie-baue-ich-die-hardware-zusammen"><span class="header-section-number">2.2</span> Wie baue ich die Hardware zusammen?</h2>
+<section id="schutzfolie-auf-den-befestigungsplatten-entfernen" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="schutzfolie-auf-den-befestigungsplatten-entfernen"><span class="header-section-number">2.2.1</span> 1. Schutzfolie auf den Befestigungsplatten entfernen</h3>
+</section>
+<section id="abstandshalter-an-beide-befestigungsplatten-anbringen" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="abstandshalter-an-beide-befestigungsplatten-anbringen"><span class="header-section-number">2.2.2</span> 2. Abstandshalter an beide Befestigungsplatten anbringen</h3>
+<section id="befestigungsplatte-1" class="level4" data-number="2.2.2.1">
+<h4 data-number="2.2.2.1" class="anchored" data-anchor-id="befestigungsplatte-1"><span class="header-section-number">2.2.2.1</span> Befestigungsplatte 1</h4>
+</section>
+<section id="befestigungsplatte-2" class="level4" data-number="2.2.2.2">
+<h4 data-number="2.2.2.2" class="anchored" data-anchor-id="befestigungsplatte-2"><span class="header-section-number">2.2.2.2</span> Befestigungsplatte 2</h4>
+</section>
+</section>
+<section id="master-brick-befestigen" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="master-brick-befestigen"><span class="header-section-number">2.2.3</span> 3. Master Brick befestigen</h3>
+</section>
+<section id="verbindungskabel-einstecken" class="level3" data-number="2.2.4">
+<h3 data-number="2.2.4" class="anchored" data-anchor-id="verbindungskabel-einstecken"><span class="header-section-number">2.2.4</span> 4. Verbindungskabel einstecken</h3>
+</section>
+<section id="befestigungsplatten-miteinander-verbinden" class="level3" data-number="2.2.5">
+<h3 data-number="2.2.5" class="anchored" data-anchor-id="befestigungsplatten-miteinander-verbinden"><span class="header-section-number">2.2.5</span> 5. Befestigungsplatten miteinander verbinden</h3>
+</section>
+<section id="oled-anzeige-montieren" class="level3" data-number="2.2.6">
+<h3 data-number="2.2.6" class="anchored" data-anchor-id="oled-anzeige-montieren"><span class="header-section-number">2.2.6</span> 6. OLED-Anzeige montieren</h3>
+</section>
+<section id="led-und-farbsensor-montieren" class="level3" data-number="2.2.7">
+<h3 data-number="2.2.7" class="anchored" data-anchor-id="led-und-farbsensor-montieren"><span class="header-section-number">2.2.7</span> 7. LED und Farbsensor montieren</h3>
+</section>
+<section id="peripheriegeräte-mit-master-brick-verbinden" class="level3" data-number="2.2.8">
+<h3 data-number="2.2.8" class="anchored" data-anchor-id="peripheriegeräte-mit-master-brick-verbinden"><span class="header-section-number">2.2.8</span> 8. Peripheriegeräte mit Master Brick verbinden</h3>
+</section>
+</section>
+<section id="welche-software-müssen-wir-installieren" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="welche-software-müssen-wir-installieren"><span class="header-section-number">2.3</span> Welche Software müssen wir installieren?</h2>
+<p>Neben der Hardware benötigen wir für die Entwicklung des LiFi-Prototyps verschiedene Software-Komponenten. Die Software ist komplett Open-Source und dadurch kostenlos nutzbar. Alle Programme sind für Windows, Mac OS und Linux verfügbar. Hier zunächst die Übersicht, bevor wir jede Software im Detail vorstellen:</p>
+<ul>
+<li><p><a href="https://www.tinkerforge.com/en/doc/Software/Brickd.html">Brick Daemon</a> und <a href="https://www.tinkerforge.com/en/doc/Software/Brickv.html">Brick Viewer</a></p></li>
+<li><p><a href="https://code.visualstudio.com/download">Visual Studio Code</a></p></li>
+<li><p><a href="https://www.python.org/downloads/">Python</a></p></li>
+<li><p><a href="https://git-scm.com/downloads">Git</a></p></li>
+</ul>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -334,6 +401,9 @@ Brookshear, J. Glenn, und Dennis Brylow. 2020. <em>Computer science: an overview
 </div>
 <div id="ref-petzold_code_2022" class="csl-entry" role="listitem">
 Petzold, Charles. 2022. <em>Code: the hidden language of computer hardware and software</em>. 2. Aufl. Hoboken: Microsoft Press.
+</div>
+<div id="ref-UBHD-66395843" class="csl-entry" role="listitem">
+Pólya, George, und John Horton Conway. 2004. <em>How to solve it: a new aspect of mathematical method</em>. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.
 </div>
 <div id="ref-scott_but_2009" class="csl-entry" role="listitem">
 Scott, John C. 2009. <em>But how do it know?: the basic principles of computers for everyone</em>. Oldsmar, FL: John C. Scott.

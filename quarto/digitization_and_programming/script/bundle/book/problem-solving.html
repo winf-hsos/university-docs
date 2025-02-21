@@ -161,7 +161,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bevor es losgeht</span></a>
+ <span class="menu-text">Vorwort</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -341,7 +341,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part-problems.html">Probleme</a></li><li class="breadcrumb-item"><a href="./problem-solving.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Problemlösung</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Problemlösung</span></h1>
+<h1 class="title"><span id="sec-problem-solving" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Problemlösung</span></span></h1>
 </div>
 
 
@@ -360,7 +360,13 @@ window.Quarto = {
 
 <section id="welche-schritte-führen-zu-einer-lösung-für-ein-problem" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="welche-schritte-führen-zu-einer-lösung-für-ein-problem"><span class="header-section-number">3.1</span> Welche Schritte führen zu einer Lösung für ein Problem?</h2>
-<p>[ABB. POLYA ZYKLUS]</p>
+<p><span class="citation" data-cites="UBHD-66395843">Pólya und Conway (<a href="references.html#ref-UBHD-66395843" role="doc-biblioref">2004</a>)</span> beschreibt einen weit verbreiteten Ansatz zur Problemlösung. Dieser basiert auf vier Schritten, die als wiederkehrender Kreislauf angewendet werden können und sollten. Obwohl <span class="citation" data-cites="UBHD-66395843">(<a href="references.html#ref-UBHD-66395843" role="doc-biblioref">Pólya und Conway 2004</a>)</span> diesen Ansatz ursprünglich für mathematische Probleme entwickelte, lässt er sich auch auf andere Bereiche – insbesondere die Informatik – übertragen. Folgende Schritte beschreibt <span class="citation" data-cites="UBHD-66395843">(<a href="references.html#ref-UBHD-66395843" role="doc-biblioref">Pólya und Conway 2004</a>)</span>:</p>
+<ol type="1">
+<li><p>Das Problem verstehen</p></li>
+<li><p>Einen Plan zur Lösung erstellen</p></li>
+<li><p>Den Plan umsetzen</p></li>
+<li><p>Die Lösung reflektieren und verbessern</p></li>
+</ol>
 </section>
 <section id="warum-sind-computer-beim-lösen-von-problemen-nützlich" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="warum-sind-computer-beim-lösen-von-problemen-nützlich"><span class="header-section-number">3.2</span> Warum sind Computer beim Lösen von Problemen nützlich?</h2>
@@ -407,7 +413,7 @@ Abbildung&nbsp;3.1: Das EVA-Modell besteht aus der Eingabe, der Berechnung und d
 <p><img src="https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output_lifi_devices.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
 </figure>
 </div>
-<p>Vielleicht ist dir aufgefallen, dass die Struktur des gesamten Buches an den gerade identifizierten, übergeordneten Problemstellungen ausgerichtet ist. Wir befinden uns gerade im <a href="./part-problems.html">ersten Teil</a> und sprechen darüber, wie wir Probleme im Computer darstellen. Im <a href="./part-representation.html">zweiten Teil des Buches</a> lernen wir, wie Computer ganz unterschiedliche Informationen repräsentieren können, damit sie für die Lösung des Problems verwendet werden können. Im dritten Teil beschäftigen wir uns damit, wie Computer Informationen verarbeiten. Der vierte und letzte Teil führt uns in wichtige Konzepte der Kommunikation mithilfe von Computern und Netzwerken ein.</p>
+<p>Vielleicht ist dir aufgefallen, dass die Struktur des gesamten Buches an den gerade identifizierten, übergeordneten Problemstellungen ausgerichtet ist. Wir befinden uns gerade im <a href="./part-problems.html">ersten Teil</a> und sprechen darüber, wie wir Probleme im Computer darstellen. Im <a href="./part-representation.html">zweiten Teil des Buches</a> lernen wir, wie Computer ganz unterschiedliche Informationen repräsentieren können, damit sie für die Lösung des Problems verwendet werden können. Im <a href="./part-processing.html">dritten Teil</a> beschäftigen wir uns damit, wie Computer Informationen verarbeiten. Der <a href="./part-communication.html">vierte und letzte Teil</a> führt uns in wichtige Konzepte der Kommunikation mittels Computern und Netzwerken ein.</p>
 <section id="beispiel-taschenrechner" class="level4" data-number="3.3.1.1">
 <h4 data-number="3.3.1.1" class="anchored" data-anchor-id="beispiel-taschenrechner"><span class="header-section-number">3.3.1.1</span> Beispiel: Taschenrechner</h4>
 <p>Am Beispiel eines Taschenrechner lässt sich das EVA-Modell gut darstellen. Wir können uns bildlich vorstellen, wie ein Mensch die Eingabe tätigt und danach das Ergebnis abliest. Es ist wichtig zu verstehen, dass Eingabe und Ausgabe sehr unterschiedliche Formen annehmen können und keinesfalls nur über eine Tastatur erfolgen müssen.</p>
@@ -572,9 +578,9 @@ Abbildung&nbsp;3.6: Das parallelisierte Wörterzählen im EVA-Modell
 </div>
 <p>In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fundamentalen Konzept für die computergestützte Problemlösung. Dieses Modell bietet uns einen strukturierten Rahmen, der aus drei wesentlichen Komponenten besteht:</p>
 <ul>
-<li><p>Eingabe (E): Die zu verarbeitenden Daten oder Informationen</p></li>
-<li><p>Verarbeitung (V): Der Kern der Problemlösung durch Algorithmen</p></li>
-<li><p>Ausgabe (A): Das Ergebnis der Verarbeitung in nutzbarer Form</p></li>
+<li><p><strong>Eingabe (E)</strong>: Die zu verarbeitenden Daten oder Informationen</p></li>
+<li><p><strong>Verarbeitung (V)</strong>: Der Kern der Problemlösung durch Algorithmen</p></li>
+<li><p><strong>Ausgabe (A)</strong>: Das Ergebnis der Verarbeitung in nutzbarer Form</p></li>
 </ul>
 <p>Die Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.</p>
 
@@ -588,6 +594,9 @@ Brookshear, J. Glenn, und Dennis Brylow. 2020. <em>Computer science: an overview
 </div>
 <div id="ref-petzold_code_2022" class="csl-entry" role="listitem">
 Petzold, Charles. 2022. <em>Code: the hidden language of computer hardware and software</em>. 2. Aufl. Hoboken: Microsoft Press.
+</div>
+<div id="ref-UBHD-66395843" class="csl-entry" role="listitem">
+Pólya, George, und John Horton Conway. 2004. <em>How to solve it: a new aspect of mathematical method</em>. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.
 </div>
 <div id="ref-scott_but_2009" class="csl-entry" role="listitem">
 Scott, John C. 2009. <em>But how do it know?: the basic principles of computers for everyone</em>. Oldsmar, FL: John C. Scott.

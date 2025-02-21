@@ -1,4 +1,4 @@
-# Algorithmen
+# Algorithmen {#sec-algorithms}
 
 ## Zusammenfassung
 

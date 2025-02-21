@@ -132,7 +132,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bevor es losgeht</span></a>
+ <span class="menu-text">Vorwort</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -292,12 +292,7 @@ div.csl-indent {
    
   <ul>
   <li><a href="#worum-geht-es-im-lifi-projekt" id="toc-worum-geht-es-im-lifi-projekt" class="nav-link active" data-scroll-target="#worum-geht-es-im-lifi-projekt"><span class="header-section-number">1.1</span> Worum geht es im LiFi-Projekt?</a></li>
-  <li><a href="#was-sind-die-ziele" id="toc-was-sind-die-ziele" class="nav-link" data-scroll-target="#was-sind-die-ziele"><span class="header-section-number">1.2</span> Was sind die Ziele?</a>
-  <ul class="collapse">
-  <li><a href="#informationen-aus-der-umwelt-erfassen" id="toc-informationen-aus-der-umwelt-erfassen" class="nav-link" data-scroll-target="#informationen-aus-der-umwelt-erfassen"><span class="header-section-number">1.2.1</span> Informationen aus der Umwelt erfassen</a></li>
-  <li><a href="#informationen-für-automatisierte-entscheidungen-nutzen" id="toc-informationen-für-automatisierte-entscheidungen-nutzen" class="nav-link" data-scroll-target="#informationen-für-automatisierte-entscheidungen-nutzen"><span class="header-section-number">1.2.2</span> Informationen für automatisierte Entscheidungen nutzen</a></li>
-  <li><a href="#informationen-über-licht-kommunizieren-und-empfangen" id="toc-informationen-über-licht-kommunizieren-und-empfangen" class="nav-link" data-scroll-target="#informationen-über-licht-kommunizieren-und-empfangen"><span class="header-section-number">1.2.3</span> Informationen über Licht kommunizieren und empfangen</a></li>
-  </ul></li>
+  <li><a href="#was-sind-die-ziele" id="toc-was-sind-die-ziele" class="nav-link" data-scroll-target="#was-sind-die-ziele"><span class="header-section-number">1.2</span> Was sind die Ziele?</a></li>
   <li><a href="#wie-gehen-wir-vor" id="toc-wie-gehen-wir-vor" class="nav-link" data-scroll-target="#wie-gehen-wir-vor"><span class="header-section-number">1.3</span> Wie gehen wir vor?</a></li>
   </ul>
 </nav>
@@ -327,42 +322,34 @@ div.csl-indent {
 <section id="worum-geht-es-im-lifi-projekt" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="worum-geht-es-im-lifi-projekt"><span class="header-section-number">1.1</span> Worum geht es im LiFi-Projekt?</h2>
 <p><a href="https://en.wikipedia.org/wiki/Li-Fi">LiFi</a> ist eine Technologie, die die Übertragung von Informationen mithilfe von Licht ermöglicht. Sie nutzt das sichtbare Lichtspektrum, um ein Signal zu erzeugen, das von einem Fotodetektor empfangen werden kann, welcher das von einer LED ausgestrahlte Licht erfasst. Durch die Veränderung der Lichteigenschaften über die Zeit, wie etwa der Wellenlänge oder der Helligkeit, können wir Daten kodieren und übertragen. LiFi bietet großes Potenzial für den Einsatz in Umgebungen, in denen Hochfrequenzsignale Mikroorganismen oder andere empfindliche elektronische Geräte stören könnten. Darüber hinaus könnte LiFi im Gegensatz zu Bluetooth oder WiFi in Robotern eingesetzt werden, die unter Wasser arbeiten.</p>
-<p>Als Teil eines interdisziplinären F&amp;E-Teams in einem Hightech-Unternehmen, das Roboter für Lebensmittel- und Landwirtschaftsanwendungen entwickelt, besteht deine Aufgabe darin, ein LiFi-Kommunikationsgerät zu entwickeln, das in die nächste Robotergeneration des Unternehmens integriert werden kann. Das Gerät hat zwei Hauptkomponenten: <a href="https://www.tinkerforge.com/en/doc/Hardware/Bricklets/RGB_LED_V2.html">eine kleine LED</a>, die in etwa 16 Millionen Farben des RGB-Farbsystems leuchten kann, und einen <a href="https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Color_V2.html">Farbsensor</a>, der die Intensität der drei RGB-Farbkanäle sowie die Helligkeit des Lichts messen kann. Diese Komponenten werden von einem <a href="https://www.tinkerforge.com/en/doc/Hardware/Bricks/Master_Brick.html">Master Brick</a> gesteuert, der für die reibungslose Kommunikation zwischen dem Roboter und seinen Peripheriegeräten verantwortlich ist.</p>
+<p>Deine Aufgabe als Teil eines interdisziplinären F&amp;E-Teams in einem Hightech-Unternehmen ist die Entwicklung eines LiFi-Kommunikationsgeräts. Das Unternehmen entwickelt Roboter für Lebensmittel- und Landwirtschaftsanwendungen, und das Gerät soll in die nächste Robotergeneration integriert werden. Es besteht aus zwei Hauptkomponenten: <a href="https://www.tinkerforge.com/en/doc/Hardware/Bricklets/RGB_LED_V2.html">eine kleine LED</a>, die mehr als 16 Millionen Farben des RGB-Farbsystems darstellen kann, und einen <a href="https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Color_V2.html">Farbsensor</a>, der die Intensität der RGB-Farbkanäle und die Lichthelligkeit misst. Ein sogenannter <a href="https://www.tinkerforge.com/en/doc/Hardware/Bricks/Master_Brick.html">Master Brick</a> – ein Minicomputer – steuert diese Komponenten und gewährleistet die reibungslose Kommunikation zwischen dem Roboter und seinen Peripheriegeräten.</p>
 <p>[BILD]</p>
 </section>
 <section id="was-sind-die-ziele" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="was-sind-die-ziele"><span class="header-section-number">1.2</span> Was sind die Ziele?</h2>
-<p>Das LiFi-Projekt stellt ein klassisches Ingenieursproblem dar: die Kombination von Hardware und Software zur Lösung einer praktischen Aufgabe. Die zentralen inhaltlichen Fragen dieses Projekts lauten:</p>
-<section id="informationen-aus-der-umwelt-erfassen" class="level3" data-number="1.2.1">
-<h3 data-number="1.2.1" class="anchored" data-anchor-id="informationen-aus-der-umwelt-erfassen"><span class="header-section-number">1.2.1</span> Informationen aus der Umwelt erfassen</h3>
+<p>Das LiFi-Projekt stellt ein typisches Ingenieursproblem dar: die Kombination von Hardware und Software zur Lösung eines Praxisproblems. Die zentralen inhaltlichen Fragen dieses Projekts lauten:</p>
 <ul>
-<li><strong>Wie können physikalische Größen digital erfasst werden? </strong><em>(Informationen, Bits, Analog vs.&nbsp;Digital, Codesysteme)</em></li>
+<li><p>Wie können physikalische Größen wie die Temperatur oder Licht gemessen und von einer analogen in eine digitale Form überführt werden?</p></li>
+<li><p>Wie können Algorithmen Entscheidungen auf Basis der digitalen Eingabedaten treffen?</p></li>
+<li><p>Wie können wir mit Lichtsignalen Informationen darstellen?</p></li>
+<li><p>Wie können wir mithilfe einer LED und eines Farbsensors Informationen übertragen?</p></li>
+<li><p>Welches Protokoll eignet sich am besten für die LED-basierte Datenübertragung?</p></li>
+<li><p>Wie verlässlich ist die Datenübertragung?</p></li>
+<li><p>Welche maximale Übertragungsdistanz ist mit Licht möglich?</p></li>
+<li><p>Welche Umgebungsbedingungen sind für eine erfolgreiche Übertragung erforderlich?</p></li>
+<li><p>Wie lässt sich die Datenübertragung sicher gestalten?</p></li>
+<li><p>Welche Datenübertragungsrate können wir erreichen?</p></li>
+<li><p>Wie können wir möglichst effizient kommunizieren?</p></li>
 </ul>
-</section>
-<section id="informationen-für-automatisierte-entscheidungen-nutzen" class="level3" data-number="1.2.2">
-<h3 data-number="1.2.2" class="anchored" data-anchor-id="informationen-für-automatisierte-entscheidungen-nutzen"><span class="header-section-number">1.2.2</span> Informationen für automatisierte Entscheidungen nutzen</h3>
-<ul>
-<li><strong>Wie könenn Algorithmen Entscheidungen auf Basis von Eingabedaten treffen? </strong><em>(Algorithmen)</em></li>
-</ul>
-</section>
-<section id="informationen-über-licht-kommunizieren-und-empfangen" class="level3" data-number="1.2.3">
-<h3 data-number="1.2.3" class="anchored" data-anchor-id="informationen-über-licht-kommunizieren-und-empfangen"><span class="header-section-number">1.2.3</span> Informationen über Licht kommunizieren und empfangen</h3>
-<ul>
-<li><p><strong>Wie kann Licht Informationen darstellen? </strong><em>(Information Representation)</em></p></li>
-<li><p><strong>Wie können mithilfe einer LED und eines Farbsensors Informationen übertragen? </strong><em>(Information Communication)</em></p></li>
-<li><p><strong>Welches Protokoll eignet sich am besten für die LED-basierte Datenübertragung?</strong></p></li>
-<li><p><strong>Wie verlässlich ist die Datenübertragung? </strong><em>(Protokolle)</em></p></li>
-<li><p><strong>Welche maximale Übertragungsdistanz ist möglich? </strong><em>(Signale)</em></p></li>
-<li><p><strong>Welche Umgebungsbedingungen sind für eine erfolgreiche Übertragung erforderlich? </strong><em>(Signale)</em></p></li>
-<li><p><strong>Wie lässt sich die Datenübertragung sicher gestalten? </strong><em>(Algorithmen, Verschlüsselung)</em></p></li>
-<li><p><strong>Welche Datenübertragungsrate können wir erreichen? </strong>(<em>Algorithmen, Kompression</em>)</p></li>
-</ul>
-<p>Eine wesentliche Einschränkung besteht darin, dass wir diese Fragen nur mit der verfügbaren Hardware beantworten können: einer LED und einem Farbsensor.</p>
-<p>Am Ende dieses Projekts wirst du nicht nur das Ingenieursproblem gelöst haben, sondern auch Antworten auf alle genannten Fragen gefunden haben. Als zusätzlicher Bonus erwirbst du dabei tiefere Einblicke in die digitale Welt und grundlegende Programmierkenntnisse.</p>
-</section>
+<p>Eine wichtige Einschränkung besteht darin, dass wir all diese Fragen der uns bereitgestellten Hardware beantworten müssen: einer LED und einem Farbsensor.</p>
+<p>Am Ende dieses Projekts wirst du nicht nur das Ingenieursproblem gelöst, sondern auch Antworten auf die genannten Fragen gefunden haben. Als zusätzlichen Bonus erwirbst du dabei tiefere Einblicke in die digitale Welt sowie grundlegende Programmierkenntnisse.</p>
 </section>
 <section id="wie-gehen-wir-vor" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="wie-gehen-wir-vor"><span class="header-section-number">1.3</span> Wie gehen wir vor?</h2>
+<p>Ein solch großes und komplexes Ingenieursproblem wie das LiFi-Projekt erfordert ein durchdachtes Vorgehen. Da es sich vornehmlich um ein Projekt zur Einführung in die digitale Welt handelt, gehen wir schrittweise vor und lernen bei jedem Schritt wichtige Grundlagen, die uns bei der Umsetzung helfen.</p>
+<p>Zuerst widmen wir uns dem Basteln: Nach Anleitung setzen wir aus den bereitgestellten Hardware-Bauteilen den LiFi-Prototypen zusammen. Dieser bildet die Grundlage für unsere praktische Arbeit im Projekt. Während die Hardware nur einmalig zu Beginn aufgebaut werden muss, entwickeln wir die Software kontinuierlich über das gesamte Projekt hinweg weiter.</p>
+<p>Um das Problem besser zu verstehen und in kleinere Teilprobleme zu zerlegen, betrachten wir in <a href="problem-solving.html" class="quarto-xref"><span>Kapitel 3</span></a> zunächst geeignete Techniken zur Problemlösung. Parallel dazu beginnen wir mit der Programmierung in Python – der Sprache, die wir für die Entwicklung der LiFi-Software nutzen werden. Diese Kenntnisse erweitern wir in jedem Kapitel, führen wichtige Konzepte der Programmierung ein und lernen, wie wir mit Python die Hardware des LiFi-Prototypen steuern können.</p>
+<p>Das Buch ist in vier Teile gegliedert. Nach jedem Teil stellen wir eine neue Version unseres LiFi-Prototypen fertig. Die finale Version enthält dann alle notwendigen Funktionen, die zur Beantwortung der Fragestellungen erforderlich sind.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -374,6 +361,9 @@ Brookshear, J. Glenn, und Dennis Brylow. 2020. <em>Computer science: an overview
 </div>
 <div id="ref-petzold_code_2022" class="csl-entry" role="listitem">
 Petzold, Charles. 2022. <em>Code: the hidden language of computer hardware and software</em>. 2. Aufl. Hoboken: Microsoft Press.
+</div>
+<div id="ref-UBHD-66395843" class="csl-entry" role="listitem">
+Pólya, George, und John Horton Conway. 2004. <em>How to solve it: a new aspect of mathematical method</em>. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.
 </div>
 <div id="ref-scott_but_2009" class="csl-entry" role="listitem">
 Scott, John C. 2009. <em>But how do it know?: the basic principles of computers for everyone</em>. Oldsmar, FL: John C. Scott.
@@ -801,8 +791,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Bevor es losgeht">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Bevor es losgeht</span>
+      <a href="./index.html" class="pagination-link" aria-label="Vorwort">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Vorwort</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
