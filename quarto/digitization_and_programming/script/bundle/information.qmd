@@ -18,7 +18,7 @@ Hast du dich jemals gefragt, was eigentlich Information genau ist? Jeder hat ein
 
 Hier schon einmal eine Definition, die wir in diesem Kapitel anhand von einigen Beispielen genauer verstehen wollen.
 
-![Lauet dieser Definition erhöht Information unsere Treffsicherheit bei Vorhersagen.](https://winf-hsos.github.io/university-docs/images/information_definition_adami.png){fig-align="center" width=60%}
+![Lauet dieser Definition erhöht Information unsere Treffsicherheit bei Vorhersagen.](https://winf-hsos.github.io/university-docs/images/information_definition_adami.png){fig-align="center" width=60% .lightbox}
 
 ### Zahlenraten
 
@@ -28,7 +28,7 @@ Mit jeder Antwort, die du erhältst, wächst dein Wissen über meine Zahl, was b
 
 Wir halten zunächst fest, dass das Eingrenzen der verbleibenden Möglichkeiten die Unsicherheit reduziert. Wir untersuchen nun, wie diese Idee die Grundlage der Informationstheorie bildet. Durch die Reduzierung der Unsicherheit sammeln wir mit jedem Versuch mehr **Information**. Aber wie viel Information erhältst du mit jeder Antwort? Und wie können wir das messen?
 
-![Ich denke an eine Zahl zwischen 1 und 16. Deine Aufgabe ist es, die Zahl mit so wenig Fragen wie möglich zu erraten.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_1.png){fig-align="center" width=60%}
+![Ich denke an eine Zahl zwischen 1 und 16. Deine Aufgabe ist es, die Zahl mit so wenig Fragen wie möglich zu erraten.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_1.png){fig-align="center" width=60% .lightbox}
 
 ### Bit für Bit
 
@@ -42,17 +42,17 @@ Um genau ein Bit Information zu erhalten, solltest du darauf abzielen, mit jeder
 
 Indem du deine Fragen sorgfältig so wählst, dass sie die verbleibenden Optionen jedes Mal halbieren, reduzierst du deine Unsicherheit Bit für Bit und machst es dir leichter und schneller, die richtige Zahl zu finden.
 
-![Deine Fragen sollten die Anzahl der Möglichkeiten halbieren.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_2.png){fig-align="center" width=60%}
+![Deine Fragen sollten die Anzahl der Möglichkeiten halbieren.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_2.png){fig-align="center" width=60% .lightbox}
 
 Angenommen, die Antwort auf deine erste Frage "Ist deine Zahl größer als 8?" war "nein". Was sollte deine nächste Frage sein, um die Unsicherheit weiterhin effektiv zu reduzieren? Die beste Strategie ist es zu fragen: "Ist sie größer als 4?". Diese Vorgehensweise stellt sicher, dass dir immer nur vier mögliche Zahlen bleiben: entweder 1 bis 4, wenn die Antwort "nein" ist, oder 5 bis 8, wenn die Antwort "ja" ist. Erneut halbiert dies die verbleibenden Optionen und liefert genau ein Bit an Information.
 
-![Nach zwei Fragen bleiben noch 4 Möglichkeitn, wenn die Fragen gut gewählt wurden.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_3.png){fig-align="center" width=60%}
+![Nach zwei Fragen bleiben noch 4 Möglichkeitn, wenn die Fragen gut gewählt wurden.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_3.png){fig-align="center" width=60% .lightbox}
 
 Lass uns mit dieser Methode fortfahren. Angenommen, deine zweite Frage "Ist sie größer als 4?" erhält ein "nein" als Antwort. Deine neue Auswahl an Zahlen ist auf 1, 2, 3 und 4 begrenzt. Um die Unsicherheit weiter zu reduzieren, wäre die nächste logische Frage: "Ist sie größer als 2?" Dies lässt dir entweder die Zahlen 1 und 2 oder 3 und 4, abhängig von der Antwort.
 
 Indem du weiterhin Fragen stellst, die systematisch die verbleibenden Optionen halbieren, kannst du sehen, wie wir schrittweise die Unsicherheit Bit für Bit reduzieren. Schließlich wirst du nach nur vier Fragen die Zahl auf genau eine eingrenzen, da keine anderen Möglichkeiten mehr übrig sind. Das bedeutet, du hast die Unsicherheit auf null reduziert.
 
-![Wir benötigen vier Ja/Nein-Fragen, um die Optionen von 16 auf eine einzige zu reduzieren.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_6.png){fig-align="center" width=60%}
+![Wir benötigen vier Ja/Nein-Fragen, um die Optionen von 16 auf eine einzige zu reduzieren.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_6.png){fig-align="center" width=60% .lightbox}
 
 ### Unsicherheit
 

@@ -33,7 +33,7 @@ Mein Ziel ist es, sowohl die Kenntnisse als auch die Begeisterung für die Infor
 
 Dieses Buch befasst sich mit der Frage, wie wir Computer zum Lösen von Problemen einsetzen können. Das Schaubild in @fig-advance-organizer-dap visualisiert die wichtigsten Themenblöcke.
 
-![Überblick über die Themenblöcke dieses Buches.](https://winf-hsos.github.io/university-docs/images/advance_organizer_dap.png){fig-align="center" width=60% #fig-advance-organizer-dap}
+![Überblick über die Themenblöcke dieses Buches.](https://winf-hsos.github.io/university-docs/images/advance_organizer_dap.png){fig-align="center" width=60% #fig-advance-organizer-dap .lightbox}
 
 Ich orientiere mich übergeordnet an dem Thema des Problemlösens (*problem-solving*), das sich in zwei Bereiche gliedert:
 

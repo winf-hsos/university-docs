@@ -1,5 +1,5 @@
 ---
-title: "Setup für das LiFi-Projekt {#sec-lifi-project-setup}"
+title: "Setup für das LiFi-Projekt {.unnumbered #sec-lifi-project-setup}"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: true
@@ -30,7 +30,7 @@ Für den LiFi-Hardware-Prototyp benötigen wir folgende Komponenten:
 
 Bitte überprüfe vor dem Fortfahren mit den folgenden Anweisungen, ob dein LiFi-Kit alle Komponenten in den angegebenen Mengen enthält.
 
-![Foto der Hardwarekomponenten des LiFi-Protoptyps.](https://winf-hsos.github.io/university-docs/static/images/lifi_hardware_overview.png){fig-align="center" width=60%}
+![Foto der Hardwarekomponenten des LiFi-Protoptyps.](https://winf-hsos.github.io/university-docs/static/images/lifi_hardware_overview.png){fig-align="center" width=60% .lightbox}
 
 ## Wie baue ich die Hardware zusammen?
 
@@ -68,7 +68,7 @@ Bitte überprüfe vor dem Fortfahren mit den folgenden Anweisungen, ob dein LiFi
 
 ### 8. Peripheriegeräte mit Master Brick verbinden
 
-## Welche Software müssen wir installieren?
+## Welche Software brauchen wir?
 
 Neben der Hardware benötigen wir für die Entwicklung des LiFi-Prototyps verschiedene Software-Komponenten. Die Software ist komplett Open-Source und dadurch kostenlos nutzbar. Alle Programme sind für Windows, Mac OS und Linux verfügbar. Hier zunächst die Übersicht, bevor wir jede Software im Detail vorstellen:
 

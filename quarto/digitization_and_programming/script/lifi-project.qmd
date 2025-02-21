@@ -1,5 +1,5 @@
 ---
-title: "Das LiFi-Projekt {#sec-lifi-project}"
+title: "Das LiFi-Projekt {.unnumbered #sec-lifi-project}"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: true
