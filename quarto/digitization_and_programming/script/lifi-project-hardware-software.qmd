@@ -30,7 +30,7 @@ Für den LiFi-Hardware-Prototyp benötigen wir folgende Komponenten:
 
 Bitte überprüfe vor dem Fortfahren mit den folgenden Anweisungen, ob dein LiFi-Kit alle Komponenten in den angegebenen Mengen enthält.
 
-![Foto der Hardwarekomponenten des LiFi-Protoptyps.](https://winf-hsos.github.io/university-docs/static/images/lifi_hardware_overview.jpg){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/static/images/lifi_hardware_overview.jpg){fig-align="center" width=60% .lightbox}
 
 ## Wie baue ich die Hardware zusammen?
 
