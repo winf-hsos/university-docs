@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Prof.&nbsp;Dr.&nbsp;Nicolas Meseth">
+
+<title>Problemlösung</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="problem-solving_files/libs/clipboard/clipboard.min.js"></script>
+<script src="problem-solving_files/libs/quarto-html/quarto.js"></script>
+<script src="problem-solving_files/libs/quarto-html/popper.min.js"></script>
+<script src="problem-solving_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="problem-solving_files/libs/quarto-html/anchor.min.js"></script>
+<link href="problem-solving_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="problem-solving_files/libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="problem-solving_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="problem-solving_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="problem-solving_files/libs/bootstrap/bootstrap-8a79a254b8e706d3c925cde0a310d4f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#das-eingabe-verarbeitung-ausgabe-modell" id="toc-das-eingabe-verarbeitung-ausgabe-modell" class="nav-link active" data-scroll-target="#das-eingabe-verarbeitung-ausgabe-modell">Das Eingabe-Verarbeitung-Ausgabe-Modell</a>
+  <ul class="collapse">
+  <li><a href="#taschenrechner" id="toc-taschenrechner" class="nav-link" data-scroll-target="#taschenrechner">Taschenrechner</a></li>
+  <li><a href="#pflanzen-zählen" id="toc-pflanzen-zählen" class="nav-link" data-scroll-target="#pflanzen-zählen">Pflanzen zählen</a></li>
+  <li><a href="#schach-spielen" id="toc-schach-spielen" class="nav-link" data-scroll-target="#schach-spielen">Schach spielen</a></li>
+  <li><a href="#mit-computern-chatten" id="toc-mit-computern-chatten" class="nav-link" data-scroll-target="#mit-computern-chatten">Mit Computern chatten</a></li>
+  </ul></li>
+  <li><a href="#die-lösung-des-problems" id="toc-die-lösung-des-problems" class="nav-link" data-scroll-target="#die-lösung-des-problems">Die Lösung des Problems</a></li>
+  <li><a href="#problemlösungsstrategien" id="toc-problemlösungsstrategien" class="nav-link" data-scroll-target="#problemlösungsstrategien">Problemlösungsstrategien</a>
+  <ul class="collapse">
+  <li><a href="#problemzerlegung-problem-decomposition" id="toc-problemzerlegung-problem-decomposition" class="nav-link" data-scroll-target="#problemzerlegung-problem-decomposition">Problemzerlegung (<em>Problem Decomposition</em>)</a></li>
+  <li><a href="#teile-und-herrsche-divide-and-conquer" id="toc-teile-und-herrsche-divide-and-conquer" class="nav-link" data-scroll-target="#teile-und-herrsche-divide-and-conquer">Teile und Herrsche (<em>Divide and Conquer</em>)</a></li>
+  <li><a href="#verteile-und-parallelisiere-distribute-and-parallelize" id="toc-verteile-und-parallelisiere-distribute-and-parallelize" class="nav-link" data-scroll-target="#verteile-und-parallelisiere-distribute-and-parallelize">Verteile und Parallelisiere (<em>Distribute and Parallelize</em>)</a></li>
+  </ul></li>
+  <li><a href="#warum-nutzen-wir-computer" id="toc-warum-nutzen-wir-computer" class="nav-link" data-scroll-target="#warum-nutzen-wir-computer">Warum nutzen wir Computer?</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="problem-solving.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Problemlösung</h1>
+<p class="subtitle lead">Vorlesungsskript Digitalisierung und Programmierung</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-contents">
+             <p>Prof.&nbsp;Dr.&nbsp;Nicolas Meseth </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Das LiFi-Projekt stellt eine komplexe Herausforderung dar. Beim Lesen der Ziele und Fragestellungen in <strong>?@sec-lifi-project</strong> kann man sich überfordert fühlen. Die zentrale Frage lautet: Wie nähern wir uns dieser Aufgabe systematisch an?</p>
+<p>Ein bewährter Ansatz für komplexe Situationen ist die Vereinfachung. Auch wenn wir das Problem selbst nicht vereinfachen können, können wir es durch eine strukturierte Herangehensweise besser verstehen und handhabbarer machen. Die Verwendung von Modellen ist dafür ein geeigneter Weg.</p>
+<p>Modelle zielen darauf ab, die wesentlichen Aspekte der realen Welt hervorzuheben und unwichtige Details auszublenden. Da dies zunächst abstrakt klingen mag, werden wir es anhand eines Modells veranschaulichen, das uns durch das gesamte Buch begleiten wird: das Eingabe-Verarbeitung-Ausgabe-Modell, kurz EVA-Modell.</p>
+<section id="das-eingabe-verarbeitung-ausgabe-modell" class="level2">
+<h2 class="anchored" data-anchor-id="das-eingabe-verarbeitung-ausgabe-modell">Das Eingabe-Verarbeitung-Ausgabe-Modell</h2>
+<p>Das Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. <a href="#fig-input-computation-output" class="quarto-xref">Abbildung&nbsp;1</a>) ist ein wictiges Modell in der Informatik. Es erklärt die Arbeitsweise von Computern auf vereinfachte Weise und beinhaltet nur die nötigsten Elemente. Konkret zeigt das Modell, wie Computer Probleme lösen und welche drei Elemente wir dabei betrachten müssen: Computer benötigen <strong>(1) Eingabedaten</strong>, die sie durch einen definierten <strong>(2) Verarbeitungsprozess</strong> in gewünschte <strong>(3) Ausgabendaten</strong> umwandeln.</p>
+<p>Das EVA-Modell beschreibt ein Problem und dessen Lösung durch drei Komponenten: die Eingabe (<em>Input</em>), die der Computer erhält, die Verarbeitung (<em>Computation</em>), die er mit diesen Daten durchführt, und die Ausgabe (<em>Output</em>), die er als Ergebnis liefert. Wenn wir diese drei Komponenten beschreiben können, haben wir die für den Computer relevanten Aspekte des Problems erfasst – alles andere ist unwichtig.</p>
+<div id="fig-input-computation-output" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-input-computation-output-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-input-computation-output-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Das EVA-Modell besteht aus der Eingabe, der Berechnung und der Ausgabe.
+</figcaption>
+</figure>
+</div>
+<p>Wenden wir das EVA-Modell auf das LiFi-Projekt an. Das LiFi-Gerät soll verschiedene Daten erfassen: Lichtsignale von einem anderen LiFi-Gerät und die Temperatur des eigenen Sensors. Basierend auf diesen Daten trifft es eine Entscheidung. Anschließend kommuniziert es diese Entscheidung zusammen mit den erfassten Temperaturdaten über Lichtsignale an das nächste Gerät. Zwar ist jeder dieser Teilschritte für sich genommen komplex und erfordert eine eigene Lösung. Dennoch können wir das EVA-Modell nutzen, um das LiFi-Projekt als Ganzes darzustellen, indem wir von den Details der einzelnen Schritte abstrahieren:</p>
+<p>[BILD LIFI-PROJEKT IM EVA MODELL]</p>
+<p>Was haben wir nun dadurch gewonnen, dass wir das EVA-Modell angewendet haben? Wir können uns nun auf die einzelnen Elemente konzentrieren und diese getrennt voneinander betrachten. Damit zerlegen wir das große, überfordernde Problem in kleinere Teile und machen es dadurch besser beherrschbar.</p>
+<p>Bei den Eingaben müssen wir uns fragen, wie diese konkret aussehen und erfasst werden. Dabei geht es vor allem darum, in welcher Form die Eingaben dem Computer vorliegen müssen, damit er sie verarbeiten kann. Wie werden Lichtsignale im Computer dargestellt? Wie wird die physikalische Größe der Umgebungstemperatur in eine computerverständliche Form umgewandelt, und wie sieht diese aus? Es geht also um die <strong>Repräsentation von Informationen</strong>.</p>
+<p>Sobald wir die Darstellung der Eingaben geklärt haben, können wir diese als Grundlage für die Verarbeitung nutzen. Wie muss ein Programm aussehen, das auf Basis der Eingabedaten die richtige Entscheidung trifft? Welche Schritte sind notwendig? Welche Prüfungen muss das Programm durchführen? Bei diesem Schritt geht es folglich um die <strong>Verarbeitung von Informationen</strong>.</p>
+<p>Schließlich müssen wir die Form der Ausgabe festlegen. Wie soll das Verarbeitungsergebnis konkret aussehen? Da wir für die Kommunikation wieder Lichtsignale verwenden, geht es auch bei der Ausgabe um die <strong>Repräsentation von Informationen</strong>.</p>
+<p>Wir können die Perspektive auf eine LiFi-Gerät-übegreifende Sicht erweitern. Dann kommt neben der Repräsentation von Informationen ein weiterer Aspekt hinzu: Die <strong>Kommunikation von Informationen</strong>. Wie übertragen wir die Informationen, die das erste LiFi-Gerät erzeugt zum nächsten?</p>
+<p>Vielleicht ist dir aufgefallen, dass die Struktur des gesamten Buches an den gerade identifizierten, übergeordneten Problemstellungen ausgerichtet ist. Wir befinden uns gerade im ersten Teil und sprechen darüber, wie wir Probleme im Computer darstellen. Im zweiten Teil des Buches lernen wir, wie Computer ganz unterschiedliche Informationen repräsentieren können, damit sie für die Lösung des Problems verwendet werden können. Im dritten Teil beschäftigen wir uns damit, wie Computer Informationen verarbeiten. Der vierte und letzte Teil führt uns in wichtige Konzepte der Kommunikation mithilfe von Computern und Netzwerken ein.</p>
+<section id="taschenrechner" class="level3">
+<h3 class="anchored" data-anchor-id="taschenrechner">Taschenrechner</h3>
+<p>Am Beispiel eines Taschenrechner lässt sich das EVA-Modell gut darstellen. Wir können uns bildlich vorstellen, wie ein Mensch die Eingabe tätigt und danach das Ergebnis abliest. Es ist wichtig zu verstehen, dass Eingabe und Ausgabe sehr unterschiedliche Formen annehmen können und keinesfalls nur über eine Tastatur erfolgen müssen.</p>
+<p>Das Beispiel des Taschenrechners wird in <a href="#fig-example-calculator" class="quarto-xref">Abbildung&nbsp;2</a> anhand einer einfachen Addition zweier Zahlen konkreter verdeutlicht. Als Eingabe werden zwei Zahlen benötigt, die Berechnung erfolgt durch eine Addition, dargestellt durch das Plussymbol. Die Ausgabe ist das Ergebnis – die Summe.</p>
+<div id="fig-example-calculator" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-example-calculator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://winf-hsos.github.io/university-docs/images/problem_solving_example_addition.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-example-calculator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2: Das EVA-Modell für die Addition zweier Zahlen.
+</figcaption>
+</figure>
+</div>
+<p>Dieses einfache Beispiel zeigt, dass wir verstehen müssen, wie Computer die drei Bestandteile des EVA-Modells umsetzen. Beim Taschenrechner sind Ein- und Ausgabe jeweils Zahlen. Diese Daten speichert der Computer in seinem Arbeitsspeicher. Dabei ist wichtig zu wissen, dass Computer auf der untersten Ebene ausschließlich Nullen und Einsen speichern. Wir müssen also verstehen, wie Computer Zahlen mithilfe dieser Binärzahlen darstellen können.</p>
+<p>Was passiert bei der Berechnung in der Mitte des Modells? Eine Addition mag uns einfach erscheinen, doch auch hier müssen wir beachten, dass Computer mit Binärzahlen arbeiten. Es stellt sich also die Frage: Wie funktioniert eine Addition, wenn die Zahlen als Folge von Nullen und Einsen dargestellt sind? Auf die beiden Fragen zur <strong>Repräsentation und der Verarbeitung von Informationen</strong> im binären System werden wir im Laufe des Buches Antworten bekommen.</p>
+</section>
+<section id="pflanzen-zählen" class="level3">
+<h3 class="anchored" data-anchor-id="pflanzen-zählen">Pflanzen zählen</h3>
+<p>Betrachten wir ein weiteres Beispiel: Stell dir vor, du möchtest einen Computer nutzen, um Maispflanzen auf einer Drohnenaufnahme eines Ackers zu zählen. Diese Aufgabe ist für Menschen zwar einfach zu verstehen, wäre aber sehr zeitaufwändig auszuführen. Moderne Algorithmen ermöglichen es Computern, Objekte auf Bildern präzise zu lokalisieren und zu zählen. Nehmen wir an, wir haben für dieses Problem bereits eine Lösung entwickelt und ein Programm namens <code>count_plants</code> erstellt. Nun stellt sich die Frage: Wie sehen die Eingabe und die Ausgabe für dieses Problem aus? Was benötigt das Programm von uns, und was liefert es als Ergebnis?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/images/problem_solving_example_count_plants_1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+<p>Die erwartete <strong>Ausgabe</strong> lässt sich einfach beschreiben: Das Ergebnis der Zählung ist eine ganze Zahl. Die <strong>Eingabe</strong> für dieses Problem ist - anders als beim Taschenrechner - kein Tastendruck, sondern ein Bild. Damit der Computer das Bild verarbeiten kann, muss es dem Computer in digitaler Form bereitgestellt werden. Was das genau bedeutet, lernen wir in einem späteren Kapitel. Hier genügt es uns zu verstehen, <em>dass </em>wir das Bild digital abbilden müssen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/images/problem_solving_example_count_plants_3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+<p>Wie gelangt das Bild in den Computer? Dies ist im Modell nicht näher definiert und für die Problembeschreibung auch nicht wesentlich. Das Bild muss lediglich irgendwie in den Arbeitsspeicher des Programms <code>count_plants</code> gelangen. Dies kann auf verschiedene Arten geschehen: Es kann von der Festplatte gelesen werden, über eine drahtlose Verbindung wie Bluetooth direkt übertragen und verarbeitet werden, oder das Programm <code>count_plants</code> läuft direkt auf der Drohne und greift unmittelbar auf deren Kamera zu. Die technische Umsetzung ist für unser Modell zunächst irrelevant. In einem späteren Kapitel werden wir uns damit befassen, wie Informationen genau übertragen und gespeichert werden. Genauso werden wir lernen, wie die benötigten Informationen für die Ein- und Ausgabe eines Programms in digitaler Form dargestellt werden können.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/images/problem_solving_example_count_plants_4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+</section>
+<section id="schach-spielen" class="level3">
+<h3 class="anchored" data-anchor-id="schach-spielen">Schach spielen</h3>
+<p>Ein weiteres Beispiel zur Verdeutlichung des EVA-Modells ist das Schachspiel. Das Problem lässt sich einfach beschreiben: Der Computer soll auf Grundlage einer bestehenden Spielsituation den bestmöglichen nächsten Zug vorschlagen. Dieser Zug soll die Gewinnchancen maximieren.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/images/problem_solving_example_chess.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+<p>Betrachten wir zunächst die Eingabe für dieses Problem: Wir können dem Computer nicht einfach ein physisches Schachbrett zeigen, sondern müssen überlegen, wie sich ein Schachbrett und die Position der Figuren in digitaler Form darstellen lassen. Dabei kann es durchaus mehrere Möglichkeiten geben, die uns ans Ziel führen.</p>
+<p>Ein Schachbrett lässt sich etwa als Liste von 64 Feldern darstellen, die von oben links nach unten rechts durchnummeriert sind. Für jedes Feld speichern wir, ob es leer ist oder welche Figur darauf steht. Die Figuren werden durch Buchstaben dargestellt – zum Beispiel “R” für den Turm (Englisch: Rook) oder “N” für den Springer (Englisch: Knight). Für die Farben Schwarz und Weiß verwenden wir einfach 0 und 1. Diese Darstellungsform reduziert unser Problem auf Listen, Zahlen und Buchstaben in digitaler Form. Für Computer ist das eine leicht zu verarbeitende Struktur, wie wir später noch sehen werden. Ein Beispiel für eine solche Kodierung zeigt <a href="#fig-coding-chess-figures" class="quarto-xref">Abbildung&nbsp;3</a>.</p>
+<div id="fig-coding-chess-figures" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-coding-chess-figures-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://winf-hsos.github.io/university-docs/images/problem_solving_example_chess_representation.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-coding-chess-figures-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;3: Beispiel für die Darstellung von Schachfiguren als Zahlen und Buchstaben.
+</figcaption>
+</figure>
+</div>
+<p>Die Ausgabe, also der nächste Zug, lässt sich ebenfalls durch Zahlen und Buchstaben darstellen. Eine weit verbreitete Notation gibt zunächst die Koordinate des Ausgangsfelds an, von dem eine Figur gezogen werden soll, gefolgt von der Koordinate des Zielfelds. Ein Beispiel wäre der Zug von “E2 nach E4”. Statt “E2” und “E4” könnten wir ebenso die entsprechende Zahl zwischen 1 und 64 aus unserer Liste verwenden, um mit dem obigen Schema konsistent zu bleiben. Der Zug hieße dann “53 nach 37”.</p>
+</section>
+<section id="mit-computern-chatten" class="level3">
+<h3 class="anchored" data-anchor-id="mit-computern-chatten">Mit Computern chatten</h3>
+<p>Als drittes Beispiel betrachten wir die Verwendung von Chatprogrammen wie ChatGPT. Seit seiner Veröffentlichung im November 2022 hat es die Welt stark verändert und einen regelrechten KI-Hype ausgelöst. Ein großes Sprachmodell wie GPT-4, das hinter dem heutigen ChatGPT steckt, ist eine komplexe Software, die wir in diesem Buch nicht vollständig ergründen können. Das Schöne an Modellen wie dem EVA-Modell ist jedoch, dass sie komplexe Sachverhalte vereinfachen können – so auch bei Sprachmodellen. Das Problem, das Sprachmodelle lösen, lässt sich wie alle Probleme in unserem EVA-Modell einfach darstellen.</p>
+<div id="fig-eva-model-example-chatgpt" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-eva-model-example-chatgpt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://winf-hsos.github.io/university-docs/images/problem_solving_example_chatgpt.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-eva-model-example-chatgpt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;4: ChatGPT im EVA-Modell.
+</figcaption>
+</figure>
+</div>
+<p>Dabei betrachten wir das Sprachmodell – oder ChatGPT – als Blackbox, ohne die internen Prozesse genauer zu definieren. Für unser Modell genügt es zu verstehen, dass wir eine Eingabe in Form einer Nachricht an ChatGPT benötigen und als Ausgabe eine Antwort erhalten. Auch hier stellt sich die Frage, wie wir beides digital repräsentieren können, damit ChatGPT damit arbeiten kann.</p>
+<p>Klassischerweise bestehen sowohl Eingabe als auch Ausgabe einfach aus Texten – allerdings beherrschen moderne Sprachmodelle auch andere Eingabeformen wie Bilder oder gesprochene Sprache über ein Mikrofon. Wir sprechen dann von multimodalen KI-Modellen. Bei Bildern stehen wir vor demselben Repräsentationsproblem wie bei unserer Drohnenaufnahme. Bei der Sprache stellt sich neben der Repräsentation von Audioinhalten die Frage, wie wir gesprochene Worte überhaupt in eine digitale Form überführen können. Auch dazu erfahren wir im späteren Verlauf des Buches mehr.</p>
+</section>
+</section>
+<section id="die-lösung-des-problems" class="level2">
+<h2 class="anchored" data-anchor-id="die-lösung-des-problems">Die Lösung des Problems</h2>
+<p>Anhand des EVA-Modells wird deutlich, dass wir dem Computer Informationen in Form von digitalen Daten bereitstellen müssen, mit denen er arbeiten kann. Was aber genau soll er damit machen? Hier kommt der mittlere Kasten des Modells ins Spiel – die eigentliche Lösung des Problems.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/images/problem_solving_input_solution_output.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+<p>In der Informatik nennen wir die Beschreibung zur Lösung eines Problems einen <strong>Algorithmus</strong>. Ein Algorithmus ist eine Schritt-für-Schritt-Anleitung zur Problemlösung und ist zunächst unabhängig von Computern. Das bedeutet, wir können die Lösung eines Problems ohne Bezug zu einem Computer beschreiben und nennen das einen Algorithmus.</p>
+<p>Stellt euch dazu zum Beispiel eine IKEA-Aufbauanleitung vor. Sie beschreibt in sequenziellen Schritten, was zu tun ist, um das fertige Möbelstück zu bekommen. Die Eingabe besteht aus den mitgelieferten Teilen, Schrauben und dem benötigten Werkzeug für den Zusammenbau. Die Ausgabe ist das fertige Regal (oder ein anderes Möbelstück) – und das alles ganz ohne Computer.</p>
+<p>Oder nehmt das Kochrezept eure Lieblingsessens. Auch ein Kochrezept ist ein Algorithmus: Die Eingabe besteht aus den Zutaten und Küchenutensilien, die Verarbeitung erfolgt durch die Schritt-für-Schritt-Anleitung, und die Ausgabe ist das fertige Gericht. Wie bei der IKEA-Anleitung ist der Algorithmus unabhängig von einem Computer – er beschreibt lediglich die Lösung des Problems “Wie koche ich dieses Gericht?”.</p>
+<p>Zu Beginn des Kapitels haben wir festgestellt, dass Computer aufgrund ihrer Geschwindigkeit und Fehlerfreiheit besonders gut zur Problemlösung geeignet sind – insbesondere bei häufig wiederkehrenden Problemen. Die beiden genannten Beispiele, das IKEA-Regal und das Kochrezept, eignen sich allerdings nicht für eine direkte Umsetzung durch Computer. Der Grund liegt in den analogen Eingaben (Baumaterial, Kochzutaten) und Ausgaben (Möbelstück, fertige Mahlzeit). Diese kann ein Computer nicht unmittelbar verarbeiten. Dafür wären Roboter nötig, die mit der physischen Welt interagieren können. Eine solche Automatisierung lohnt sich heute nur bei Aufgaben, die sehr häufig auftreten und ansonsten mit hohen Kosten verbunden sind – wie etwa in der Automobilindustrie, wo computergesteuerte Roboter in der Produktion zum Einsatz kommen.</p>
+<p>Nehmen wir an, dass Haushaltsroboter in Zukunft erschwinglich werden und uns beim Kochen unseres Lieblingsgerichts helfen können. Wie vermitteln wir dann dem Roboter – im Grunde ein Computer mit Armen und Beinen – den Algorithmus für unser Rezept? Die Lösung liegt in der Programmierung: Wir erstellen ein <strong>Programm</strong> in einer computerverständlichen Sprache. Dieses Programm wandelt die Anweisungen aus unserem Kochbuch in Befehle um, die der Computer verstehen und ausführen kann. Genau genommen besteht ein Programm ebenfalls nur aus Informationen, und wir müssen herausfinden, wie wir diese Informationen digital darstellen können. Die Lösung besteht in der Verwendung einer <strong>Programmiersprache</strong> wie Python, die wir später kennenlernen werden.</p>
+</section>
+<section id="problemlösungsstrategien" class="level2">
+<h2 class="anchored" data-anchor-id="problemlösungsstrategien">Problemlösungsstrategien</h2>
+<p>Die konkrete Lösung und der zugehörige Algorithmus sehen für jedes Problem unterschiedlich aus. Das Erkennen von Pflanzen folgt einer anderen Logik als die Entscheidung, welche Schachfigur als nächstes gezogen werden soll. Dennoch gibt es universelle Lösungsstrategien, die auf viele Probleme anwendbar sind, um sie möglichst effizient zu lösen. Im Folgenden betrachten wir drei dieser Strategien.</p>
+<section id="problemzerlegung-problem-decomposition" class="level3">
+<h3 class="anchored" data-anchor-id="problemzerlegung-problem-decomposition">Problemzerlegung (<em>Problem Decomposition</em>)</h3>
+<p>Eine universelle Strategie zur Lösung komplexer Probleme ist die Zerlegung in kleinere Schritte oder Teilprobleme. Jedes dieser Teilprobleme ist unterschiedlich und erfordert einen spezifischen Lösungsansatz. Nehmen wir als Beispiel das Zählen von Pflanzen auf einer Drohnenaufnahme. Dieses komplexe Problem lässt sich, ausgehend von der Eingabe – dem digitalen Bild – in drei Teilprobleme zerlegen:</p>
+<ol type="1">
+<li><p>Pflanzen auf dem Bild lokalisieren</p></li>
+<li><p>Lokalisierte Pflanzen klassifizieren: Maispflanze oder nicht?</p></li>
+<li><p>Identifizierte Maispflanzen zählen</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/images/problem_solving_large_complex_problem.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+<p>Jedes dieser Teilprobleme erfordert einen eigenen Algorithmus. Dabei ist es möglich, die Teilprobleme noch weiter zu zerlegen, um sie besser bearbeiten zu können.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/images/problem_solving_even_smaller_problems.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+<p>Die Identifizierung sinnvoller Teilprobleme erfordert ein ausgeprägtes analytisches Denkvermögen. Dies ist besonders wichtig im Umgang mit Computern. Wie wir beim Erlernen der Programmierung sehen werden, ist die Zerlegung eines Problems in kleine, lösbare Schritte der Schlüssel zur Beherrschung seiner Komplexität.</p>
+</section>
+<section id="teile-und-herrsche-divide-and-conquer" class="level3">
+<h3 class="anchored" data-anchor-id="teile-und-herrsche-divide-and-conquer">Teile und Herrsche (<em>Divide and Conquer</em>)</h3>
+<p>Die “Teile und Herrsche”-Strategie ist ein Ansatz zur Lösung komplexer Probleme, bei dem wir das Hauptproblem schrittweise in immer kleinere Teilprobleme zerlegen, bis diese einfach zu lösen sind. Dabei gehen wir rekursiv vor: Wir teilen das ursprüngliche Problem in kleinere Teile, diese kleineren Probleme wiederum in noch kleinere Teile und so weiter. Die Rekursion endet, wenn die Probleme so klein sind, dass sie sich nicht weiter aufteilen lassen und die Lösung direkt ersichtlich ist.</p>
+<p>Anders als bei der Problemzerlegung sind die Teilprobleme beim Divide and Conquer-Ansatz dadurch gleichartig und stellen nur kleinere Instanzen des ursprünglichen Problems dar. Die einzelnen Lösungen für jedes Teilproblem werden dann schrittweise wieder zusammengeführt, um die Gesamtlösung zu erhalten. Ein klassisches Beispiel ist die Sortierung einer langen Liste von Zahlen: Wir teilen die Liste immer wieder in der Mitte, bis nur noch einzelne Zahlen übrig sind, und fügen diese dann in sortierter Reihenfolge wieder zusammen.</p>
+<p>Ein anderes Beispiel ist die binäre Suche in einer sortierten Liste. Hier betrachten wir das Element in der Mitte der Liste und vergleichen es mit dem gesuchten Element. Da die Liste sortiert ist, können wir entscheiden, in welchem Teil der Liste wir weitersuchen müssen. Im zweiten Schritt suchen wir nur in diesem Teil weiter und haben damit das Problem halbiert. Die Natur des Problems bleibt dabei gleich, und wir können erneut genauso verfahren – so lange, bis wir nur noch ein Element übrig haben, das entweder das gesuchte Element ist oder nicht.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/images/problem_solving_67_prime_number_binary_search_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+</section>
+<section id="verteile-und-parallelisiere-distribute-and-parallelize" class="level3">
+<h3 class="anchored" data-anchor-id="verteile-und-parallelisiere-distribute-and-parallelize">Verteile und Parallelisiere (<em>Distribute and Parallelize</em>)</h3>
+<p>Manche Probleme lassen sich effizienter lösen, wenn mehrere Personen gleichzeitig daran arbeiten. Anstatt eine einzelne Person mit der gesamten Aufgabe zu betrauen, verteilen wir die Arbeit auf mehrere Schultern und arbeiten parallel an der Lösung. Allerdings eignet sich nicht jedes Problem für diesen Ansatz.</p>
+<p>Ein gutes Beispiel ist das Aufräumen eines Zimmers: Eine einzelne Person müsste nacheinander verschiedene Bereiche aufräumen, während mehrere Personen gleichzeitig unterschiedliche Ecken des Raums in Angriff nehmen können. Je größer das Zimmer, desto mehr Personen werden benötigt, um es in der gleichen Zeit aufzuräumen. Ein Gegenbeispiel, bei dem diese Strategie nicht funktioniert, ist das Lösen einer mathematischen Gleichung. Hier müssen die einzelnen Rechenschritte aufeinander aufbauen, weshalb das Problem nicht gleichzeitig an mehrere Personen übergeben werden kann, die unabhängig daran arbeiten.</p>
+<p>Die Strategie des Verteilens und Parallelisierens – im Englischen <em>Distribute and Parallelize</em> – funktioniert nach einem klaren Prinzip: Wir zerlegen ein großes Problem in Teile, die unabhängig voneinander gelöst werden können. Diese Teile weisen wir dann verschiedenen Ressourcen zu – zum Beispiel mehreren Personen oder Computern. Jede Ressource arbeitet an ihrem Teilproblem und erzeugt ein eigenes Ergebnis. Dabei gehen wir davon aus, dass sich alle Teilergebnisse am Ende zu einer Gesamtlösung zusammenfügen lassen. Ähnlich wie beim Divide and Conquer-Ansatz sind die Teilprobleme meist gleichartig.</p>
+<p>Um dieses Konzept greifbar zu machen, schauen wir uns ein konkretes Beispiel an, das wir mit dem EVA-Modell analysieren: das Zählen aller Wörter in einem Buch.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Das Wörterzählen-Problem im EVA-Modell</figcaption>
+</figure>
+</div>
+<p>Je nach Umfang des Buches kann dies eine mühsame Aufgabe sein, besonders für Menschen. Ein Computer bewältigt ein einzelnes Buch dank seiner hohen Verarbeitungsgeschwindigkeit problemlos. Allerdings lässt sich das Problem beliebig erweitern – etwa wenn wir statt eines Buches alle Texte im Internet oder sämtliche Wikipedia-Artikel analysieren möchten. In solchen Fällen wird die Aufgabe auch für Computer aufwendig und zeitintensiv. Eine Lösung besteht darin, mehrere Computer parallel einzusetzen.</p>
+<p>In <a href="#fig-problem-solving-word-count-distributed" class="quarto-xref">Abbildung&nbsp;5</a> sehen wir beispielhaft die Verteilung der Buchseiten auf vier Studenten. Jeder erhält einen gleichen Anteil, wodurch sich die Bearbeitungszeit im Optimalfall auf ein Viertel reduziert. Bei Computern können wir analog vorgehen und mehrere Rechner gleichzeitig mit Teilen der Seiten betrauen. Diese Rechner werden in einem Netzwerk verbunden und von einem zentralen Computer gesteuert, der die Teilergebnisse am Ende zusammenführt. Ein solches System nennen wir Rechencluster, bestehend aus Arbeitern – den <em>Worker Nodes</em> – sowie einer Steuereinheit, die in solchen Systemen als <em>Driver</em> oder <em>Name Node</em> bezeichnet wird.</p>
+<div id="fig-problem-solving-word-count-distributed" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-problem-solving-word-count-distributed-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count_distribute_further.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-problem-solving-word-count-distributed-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;5: Verteiltes Wörterzählen
+</figcaption>
+</figure>
+</div>
+<p>Durch die Verteilung und parallele Ausführung kann das EVA-Modell wie in <a href="#fig-eva-distributed" class="quarto-xref">Abbildung&nbsp;6</a> angepasst und detaillierter dargestellt werden. Statt eines einzelnen Prozesses <code>count_words</code> laufen nun <span class="math inline">\(n\)</span> parallele Prozesse, die jeweils einen Teil des Buches durchsuchen. Die Aufteilung erfolgt zu Beginn durch den <code>split</code>-Prozess, während das Zusammenführen der Teilergebnisse – in diesem Fall das Addieren der Teilsummen – durch den <code>merge</code>-Schritt erfolgt.</p>
+<div id="fig-eva-distributed" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-eva-distributed-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count_distribute_parallelize.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-eva-distributed-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;6: Das parallelisierte Wörterzählen im EVA-Modell
+</figcaption>
+</figure>
+</div>
+<p>In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fundamentalen Konzept für die computergestützte Problemlösung. Dieses Modell bietet uns einen strukturierten Rahmen, der aus drei wesentlichen Komponenten besteht:</p>
+<ul>
+<li><p>Eingabe (E): Die zu verarbeitenden Daten oder Informationen</p></li>
+<li><p>Verarbeitung (V): Der Kern der Problemlösung durch Algorithmen</p></li>
+<li><p>Ausgabe (A): Das Ergebnis der Verarbeitung in nutzbarer Form</p></li>
+</ul>
+<p>Die Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.</p>
+</section>
+</section>
+<section id="warum-nutzen-wir-computer" class="level2">
+<h2 class="anchored" data-anchor-id="warum-nutzen-wir-computer">Warum nutzen wir Computer?</h2>
+<p>Der wichtigste Grund für die Nutzung von Computern ist das Lösen von Problemen. Ob wir eine Route mit Google Maps planen, Online-Bestellungen bei DHL verfolgen oder eine KI wie ChatGPT um eine Empfehlung bitten – überall lösen Computer Probleme. Warum? Weil Computer zwei Eigenschaften besitzen, die für viele Probleme und deren Lösung vorteilhaft sind:</p>
+<ol type="1">
+<li><p>Computer machen keine Fehler. Wenn wir einem Computer einen Lösungsweg beibringen, wendet er ihn fehlerfrei auf neue Probleme an.</p></li>
+<li><p>Computer sind unglaublich schnell. Ob einfache Schritte, komplexe Berechnungen oder die Verarbeitung großer Datenmengen – Computer lösen Probleme in einem Bruchteil der Zeit, die wir Menschen benötigen würden.</p></li>
+</ol>
+<p>Diese beiden Eigenschaften ermöglichen es uns, mit Computern besonders solche Probleme effizient zu lösen, die wiederkehrend und in großer Zahl auftreten. Wir sprechen dann von <strong>Automatisierung</strong>.</p>
+<p>In diesem Kapitel lernen wir, wie Computer Probleme strukturieren und lösen. Um den Begriff des Problems besser zu verstehen und seine Bedeutung im Kontext von Computern einzugrenzen, führen wir zunächst ein einfaches Modell ein.</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

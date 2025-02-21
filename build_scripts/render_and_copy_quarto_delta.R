@@ -39,8 +39,7 @@ dir.create("docs/quarto/applied_analytics")
 dir.create("docs/quarto/data_analytics")
 dir.create("docs/quarto/digitization_and_programming")
 dir.create("docs/quarto/digitization_and_programming/script")
-dir.create("docs/quarto/digitization_and_programming/script/bundle")
-dir.create("docs/quarto/digitization_and_programming/script/bundle/book")
+dir.create("docs/quarto/digitization_and_programming/script/book")
 dir.create("docs/quarto/digitization_and_programming/exercises")
 dir.create("docs/quarto/digitization_and_programming/programming")
 dir.create("docs/quarto/digitization_and_programming/programming_exercises")
@@ -58,9 +57,11 @@ setwd("quarto/digitization_and_programming/script/bundle/")
 quarto_render(output_format = "html", quiet = FALSE)
 setwd(current_wd)
 
-# Copy all files in folder book
-file.copy("quarto/digitization_and_programming/script/bundle/book", "docs/quarto/digitization_and_programming/script/bundle", overwrite = TRUE, recursive = TRUE)
-
 cat("Rendering book as PDF\n")
 quarto_render("quarto/digitization_and_programming/script/bundle/index.qmd", output_format = "pdf", quiet = FALSE)
+
+cat("Copy book files, HTML and PDF")
+# Copy all files in folder book
+file.copy("quarto/digitization_and_programming/script/bundle/book", "docs/quarto/digitization_and_programming/script", overwrite = TRUE, recursive = TRUE)
+
 

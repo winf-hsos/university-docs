@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -29,18 +29,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="case_study_water_kefir_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="case_study_water_kefir_files/libs/quarto-html/anchor.min.js"></script>
 <link href="case_study_water_kefir_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="case_study_water_kefir_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="case_study_water_kefir_files/libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="case_study_water_kefir_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="case_study_water_kefir_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="case_study_water_kefir_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="case_study_water_kefir_files/libs/bootstrap/bootstrap-8a79a254b8e706d3c925cde0a310d4f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
 
-<body class="fullcontent">
+<body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="case_study_water_kefir.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -67,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="scenario">Scenario</h2>
 <p>An information management solution is needed for a new research project. The project focuses on developing an optimal fermentation process and recipe for water kefir. The goal is to determine the best process parameters and recipe components through various experiments. These include process parameters such as ambient temperature, fermentation duration, light conditions, and oxygen exposure. The ingredients include water, water kefir crystals, citric acid, sugar, and dried fruit as a source of nitrogen. The process parameters and the amount of each ingredient is adjusted experimentally to find the best combination.</p>
 <p>Each experiment is carefully documented: This includes the start and end times as well as a logbook where observations and comments are recorded by the researchers during the experiment. Each log entry includes the name of the researcher, the date and the time. After the fermentation process is completed, the resulting water kefir is analyzed in the university’s chemical lab, focusing on alcohol content, residual glucose, and acetic acid. These results are stored alongside the experiment data. Each fermentation takes place in one of the university’s sixteen fermentation tanks, and after each experiment, the used tank is thoroughly cleaned. A total of five researchers are working on this project.</p>
-<p>For batches meeting specific outcome criteria, researchers conduct a sensory study where a panel of tasters evaluates taste and aroma on a scale from 1 to 5. The number of tasters varies depending on panelist availability. This feedback is crucial for optimizing the water kefir further. Researchers store only the gender, age, and whether the panelist is vegetarian or vegan.&nbsp;</p>
+<p>For batches meeting specific outcome criteria, researchers conduct a sensory study where a panel of tasters evaluates taste and aroma on a scale from 1 to 5. The number of tasters varies depending on panelist availability. This feedback is crucial for optimizing the water kefir further. Researchers store only the gender, age, and whether the panelist is vegetarian or vegan.</p>
 <section id="task-1-modeling-the-database" class="level3">
 <h3 class="anchored" data-anchor-id="task-1-modeling-the-database">Task 1: Modeling the database</h3>
 <p>Our first step is to get a clearer picture about the information requirements and how a database model could look like!</p>
@@ -182,8 +183,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -294,7 +293,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
