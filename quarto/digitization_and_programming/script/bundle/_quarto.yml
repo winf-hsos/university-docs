@@ -14,26 +14,35 @@ book:
 
   chapters:
     - index.qmd
-    - problem-solving.qmd
-    - algorithms.qmd
-    - information.qmd
-    - bits.qmd
-    - code-systems.qmd
-    - data-structures.qmd
-    - analog-vs-digital.qmd
-    - storage.qmd
-    - logic-and-arithmetic.qmd
-    - computer.qmd
-    - signals.qmd
-    - protocols.qmd
-    - encryption.qmd
-    - compression.qmd
+    - lifi-project.qmd
+    - lifi-project-hardware-software.qmd
+    - part: problems.qmd
+      chapters:
+        - problem-solving.qmd
+        - algorithms.qmd
+    - part: information-representation.qmd
+      chapters:
+        - information.qmd
+        - bits.qmd
+        - code-systems.qmd
+        - data-structures.qmd
+    - part: information-processing.qmd
+      chapters:
+        - analog-vs-digital.qmd
+        - storage.qmd
+        - logic-and-arithmetic.qmd
+        - computer.qmd
+    - part: information-sharing.qmd
+      chapters:
+        - signals.qmd
+        - protocols.qmd
+        - encryption.qmd
+        - compression.qmd
     - references.qmd
 
 bibliography: references.bib
 nocite: |
   @*
-
 
 format:
   pdf:
@@ -45,3 +54,8 @@ format:
     include-after-body: 
       text: |
         \printindex
+  html:
+    theme: cosmo
+    highlight: pygments
+    toc-depth: 2
+    number-sections: true

@@ -1,6 +1,5 @@
----
-title: "Signale"
----
+# Signale
+
 ## Was ist ein Signal?
 
 “A signal is a function that conveys information about the behavior of a system or attributes of some phenomenon”.

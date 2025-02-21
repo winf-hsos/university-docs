@@ -1,6 +1,5 @@
----
-title: "Analog vs. Digital"
----
+# Analog vs. Digital
+
 :::: {layout="[0.2, 0.8]"}
 
 :::{#firstcol}
@@ -13,7 +12,11 @@ Zu diesem Kapitel gibt es ein Video auf YouTube. Scanne einfach den QR-Code oder
 
 ::::
 
-## Was ist der Unterschied zwischen analoger und digitaler Welt?
+## Was ist der Unterschied zwischen der analogen und digitalen Welt?
+
+### Endlich viele Möglichkeiten vs. Unendlichkeit
 
 ### Diskrete und kontinuierliche Werte
+
+
 

@@ -1,0 +1,8 @@
+# Setup für das LiFi-Projekt
+
+## Welche Hardware benötigen wir?
+
+## Welche Software müssen wir installieren?
+
+
+

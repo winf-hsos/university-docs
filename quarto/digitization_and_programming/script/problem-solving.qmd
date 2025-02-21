@@ -8,26 +8,35 @@ code-line-numbers: true
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
 
-## Warum nutzen wir Computer?
+Das LiFi-Projekt stellt eine komplexe Herausforderung dar. Beim Lesen der Ziele und Fragestellungen in @sec-lifi-project kann man sich überfordert fühlen. Die zentrale Frage lautet: Wie nähern wir uns dieser Aufgabe systematisch an?
 
-Der wichtigste Grund für die Nutzung von Computern ist das Lösen von Problemen. Ob wir eine Route mit Google Maps planen, Online-Bestellungen bei DHL verfolgen oder eine KI wie ChatGPT um eine Empfehlung bitten – überall lösen Computer Probleme. Warum? Weil Computer zwei Eigenschaften besitzen, die für viele Probleme und deren Lösung vorteilhaft sind:
+Ein bewährter Ansatz für komplexe Situationen ist die Vereinfachung. Auch wenn wir das Problem selbst nicht vereinfachen können, können wir es durch eine strukturierte Herangehensweise besser verstehen und handhabbarer machen. Die Verwendung von Modellen ist dafür ein geeigneter Weg.
 
-1.  Computer machen keine Fehler. Wenn wir einem Computer einen Lösungsweg beibringen, wendet er ihn fehlerfrei auf neue Probleme an.
-
-2.  Computer sind unglaublich schnell. Ob einfache Schritte, komplexe Berechnungen oder die Verarbeitung großer Datenmengen – Computer lösen Probleme in einem Bruchteil der Zeit, die wir Menschen benötigen würden.
-
-
-Diese beiden Eigenschaften ermöglichen es uns, mit Computern besonders solche Probleme effizient zu lösen, die wiederkehrend und in großer Zahl auftreten. Wir sprechen dann von **Automatisierung**.
-
-In diesem Kapitel lernen wir, wie Computer Probleme strukturieren und lösen. Um den Begriff des Problems besser zu verstehen und seine Bedeutung im Kontext von Computern einzugrenzen, führen wir zunächst ein einfaches Modell ein.
+Modelle zielen darauf ab, die wesentlichen Aspekte der realen Welt hervorzuheben und unwichtige Details auszublenden. Da dies zunächst abstrakt klingen mag, werden wir es anhand eines Modells veranschaulichen, das uns durch das gesamte Buch begleiten wird: das Eingabe-Verarbeitung-Ausgabe-Modell, kurz EVA-Modell.
 
 ## Das Eingabe-Verarbeitung-Ausgabe-Modell
 
-Das Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. @fig-input-computation-output) ist ein grundlegendes Konzept der Informatik, das die Arbeitsweise von Computern vereinfacht erklärt. Es zeigt, wie Computer Probleme lösen: Sie wandeln Eingabedaten durch einen definierten Verarbeitungsprozess in gewünschte Ausgaben um.
+Das Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. @fig-input-computation-output) ist ein wictiges Modell in der Informatik. Es erklärt die Arbeitsweise von Computern auf vereinfachte Weise und beinhaltet nur die nötigsten Elemente. Konkret zeigt das Modell, wie Computer Probleme lösen und welche drei Elemente wir dabei betrachten müssen: Computer benötigen **(1) Eingabedaten**, die sie durch einen definierten **(2) Verarbeitungsprozess** in gewünschte **(3) Ausgabendaten** umwandeln.
 
-Das Modell beschreibt ein Problem und dessen Lösung als eine Eingabe (*Input*), die dem Computer übergeben wird. Darauf folgt eine Verarbeitung (*Computation*) auf Basis dieser Eingabe, die wiederum eine Ausgabe (*Output*) erzeugt. 
+Das EVA-Modell beschreibt ein Problem und dessen Lösung durch drei Komponenten: die Eingabe (*Input*), die der Computer erhält, die Verarbeitung (*Computation*), die er mit diesen Daten durchführt, und die Ausgabe (*Output*), die er als Ergebnis liefert. Wenn wir diese drei Komponenten beschreiben können, haben wir die für den Computer relevanten Aspekte des Problems erfasst – alles andere ist unwichtig.
 
 ![Das EVA-Modell besteht aus der Eingabe, der Berechnung und der Ausgabe.](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output.png){fig-align="center" width=60% #fig-input-computation-output}
+
+Wenden wir das EVA-Modell auf das LiFi-Projekt an. Das LiFi-Gerät soll verschiedene Daten erfassen: Lichtsignale von einem anderen LiFi-Gerät und die Temperatur des eigenen Sensors. Basierend auf diesen Daten trifft es eine Entscheidung. Anschließend kommuniziert es diese Entscheidung zusammen mit den erfassten Temperaturdaten über Lichtsignale an das nächste Gerät. Zwar ist jeder dieser Teilschritte für sich genommen komplex und erfordert eine eigene Lösung. Dennoch können wir das EVA-Modell nutzen, um das LiFi-Projekt als Ganzes darzustellen, indem wir von den Details der einzelnen Schritte abstrahieren:
+
+[BILD LIFI-PROJEKT IM EVA MODELL]
+
+Was haben wir nun dadurch gewonnen, dass wir das EVA-Modell angewendet haben? Wir können uns nun auf die einzelnen Elemente konzentrieren und diese getrennt voneinander betrachten. Damit zerlegen wir das große, überfordernde Problem in kleinere Teile und machen es dadurch besser beherrschbar. 
+
+Bei den Eingaben müssen wir uns fragen, wie diese konkret aussehen und erfasst werden. Dabei geht es vor allem darum, in welcher Form die Eingaben dem Computer vorliegen müssen, damit er sie verarbeiten kann. Wie werden Lichtsignale im Computer dargestellt? Wie wird die physikalische Größe der Umgebungstemperatur in eine computerverständliche Form umgewandelt, und wie sieht diese aus? Es geht also um die **Repräsentation von Informationen**.
+
+Sobald wir die Darstellung der Eingaben geklärt haben, können wir diese als Grundlage für die Verarbeitung nutzen. Wie muss ein Programm aussehen, das auf Basis der Eingabedaten die richtige Entscheidung trifft? Welche Schritte sind notwendig? Welche Prüfungen muss das Programm durchführen? Bei diesem Schritt geht es folglich um die **Verarbeitung von Informationen**.
+
+Schließlich müssen wir die Form der Ausgabe festlegen. Wie soll das Verarbeitungsergebnis konkret aussehen? Da wir für die Kommunikation wieder Lichtsignale verwenden, geht es auch bei der Ausgabe um die **Repräsentation von Informationen**.
+
+Wir können die Perspektive auf eine LiFi-Gerät-übegreifende Sicht erweitern. Dann kommt neben der Repräsentation von Informationen ein weiterer Aspekt hinzu: Die **Kommunikation von Informationen**. Wie übertragen wir die Informationen, die das erste LiFi-Gerät erzeugt zum nächsten?
+
+Vielleicht ist dir aufgefallen, dass die Struktur des gesamten Buches an den gerade identifizierten, übergeordneten Problemstellungen ausgerichtet ist. Wir befinden uns gerade im ersten Teil und sprechen darüber, wie wir Probleme im Computer darstellen. Im zweiten Teil des Buches lernen wir, wie Computer ganz unterschiedliche Informationen repräsentieren können, damit sie für die Lösung des Problems verwendet werden können. Im dritten Teil beschäftigen wir uns damit, wie Computer Informationen verarbeiten. Der vierte und letzte Teil führt uns in wichtige Konzepte der Kommunikation mithilfe von Computern und Netzwerken ein.
 
 ### Taschenrechner
 
@@ -160,4 +169,17 @@ In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fu
 
 
 Die Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.
+
+## Warum nutzen wir Computer?
+
+Der wichtigste Grund für die Nutzung von Computern ist das Lösen von Problemen. Ob wir eine Route mit Google Maps planen, Online-Bestellungen bei DHL verfolgen oder eine KI wie ChatGPT um eine Empfehlung bitten – überall lösen Computer Probleme. Warum? Weil Computer zwei Eigenschaften besitzen, die für viele Probleme und deren Lösung vorteilhaft sind:
+
+1.  Computer machen keine Fehler. Wenn wir einem Computer einen Lösungsweg beibringen, wendet er ihn fehlerfrei auf neue Probleme an.
+
+2.  Computer sind unglaublich schnell. Ob einfache Schritte, komplexe Berechnungen oder die Verarbeitung großer Datenmengen – Computer lösen Probleme in einem Bruchteil der Zeit, die wir Menschen benötigen würden.
+
+
+Diese beiden Eigenschaften ermöglichen es uns, mit Computern besonders solche Probleme effizient zu lösen, die wiederkehrend und in großer Zahl auftreten. Wir sprechen dann von **Automatisierung**.
+
+In diesem Kapitel lernen wir, wie Computer Probleme strukturieren und lösen. Um den Begriff des Problems besser zu verstehen und seine Bedeutung im Kontext von Computern einzugrenzen, führen wir zunächst ein einfaches Modell ein.
 

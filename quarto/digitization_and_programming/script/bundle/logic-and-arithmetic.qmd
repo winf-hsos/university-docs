@@ -1,6 +1,5 @@
----
-title: "Logik und Arithmetik"
----
+# Logik und Arithmetik
+
 ## Schalter
 
 ### Relais, Vakuumröhren und Transistoren

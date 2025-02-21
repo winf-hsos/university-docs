@@ -1,6 +1,5 @@
----
-title: "Algorithmen"
----
+# Algorithmen
+
 ## Zusammenfassung
 
 Willkommen zum Kapitel über Algorithmen - ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Abschnitt werden wir uns mit den grundlegenden Aspekten von Algorithmen befassen und dabei zentrale Fragen beantworten:

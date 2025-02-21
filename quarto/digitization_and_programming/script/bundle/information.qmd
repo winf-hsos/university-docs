@@ -1,6 +1,5 @@
----
-title: "Informationen {#sec-information}"
----
+# Informationen {#sec-information}
+
 :::: {layout="[0.2, 0.8]"}
 
 :::{#firstcol}

@@ -1,0 +1,16 @@
+---
+title: "Setup für das LiFi-Projekt"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: true
+number-sections: false
+code-line-numbers: true
+subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
+---
+
+## Welche Hardware benötigen wir?
+
+## Welche Software müssen wir installieren?
+
+
+

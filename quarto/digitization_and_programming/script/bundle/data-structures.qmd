@@ -1,6 +1,5 @@
----
-title: "Datenstrukturen"
----
+# Datenstrukturen
+
 ## Listen
 
 ## Mengen

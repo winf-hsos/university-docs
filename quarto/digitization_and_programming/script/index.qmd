@@ -10,6 +10,10 @@ subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 
 # Bevor es losgeht {.unnumbered} 
 
+## Warum dieses Buch?
+
+Dieses Buch entstand aus der Erkenntnis, dass viele klassische Lehrbücher der Informatik für Anfänger oft zu technisch und abstrakt sind. In meiner langjährigen Lehrtätigkeit habe ich beobachtet, dass Studierende besonders dann erfolgreich lernen, wenn sie die Konzepte der Informatik in einem praktischen Kontext erleben können. Deshalb habe ich mich entschieden, einen praxisorientierten Ansatz zu wählen, der theoretische Grundlagen mit einem konkreten Projekt verbindet.
+
 ## Wen möchte ich wie ansprechen?
 
 Ich richte dieses Buch an Menschen ohne Vorkenntnisse in den Bereichen Digitalisierung, Computertechnik oder Programmierung. Ich gehe nicht davon aus, dass die Leserinnen und Leser eine besondere Motivation mitbringen, sich mit diesen Themen zu beschäftigen. Wenn doch, umso besser. Diese beiden Annahmen – fehlende Vorkenntnisse und Motivation – treffen auf den Großteil meiner Studierenden zu, für die ich dieses Buch in erster Linie geschrieben habe.
@@ -48,7 +52,9 @@ Bei der Kommunikation stellen wir uns die Frage, wie **das Teilen von Informatio
 
 ## Wie sollte man dieses Buch lesen?
 
-Das Buch ist für eine lineare Lektüre von vorne nach hinten konzipiert. An der Hochschule Osnabrück behandeln wir in der zugehörigen Veranstaltung pro Woche ein Kapitel – gelegentlich auch zwei, abhängig von der Verteilung der Feiertage im Semester. Die Kapitel hängen zusammen und bauen teilweise aufeinander auf. 
+Das Buch ist für eine lineare Lektüre von vorne nach hinten konzipiert. An der Hochschule Osnabrück behandeln wir in der zugehörigen Veranstaltung pro Woche ein Kapitel – gelegentlich auch zwei, abhängig von der Verteilung der Feiertage im Semester. Die Kapitel hängen zusammen und bauen teilweise aufeinander auf.
+
+Wie beschrieben orientiert sich dieses Buch an der Durchführung eines Projekts – dem LiFi-Projekt. Das Projekt bildet den Ausgangspunkt jedes Kapitels, und für jedes Thema wird der praktische Bezug zum Projekt hergestellt. Was genau das LiFi-Projekt beinhaltet, schauen wir uns im nächsten Kapitel an.
 
 
 

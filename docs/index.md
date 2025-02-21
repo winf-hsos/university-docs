@@ -181,6 +181,8 @@
 - [problem_solving_example_word_count_sequentially.png](images/problem_solving_example_word_count_sequentially.png)
 - [problem_solving_input_blackbox_output.png](images/problem_solving_input_blackbox_output.png)
 - [problem_solving_input_computation_output.png](images/problem_solving_input_computation_output.png)
+- [problem_solving_input_computation_output_lifi.png](images/problem_solving_input_computation_output_lifi.png)
+- [problem_solving_input_computation_output_lifi_devices.png](images/problem_solving_input_computation_output_lifi_devices.png)
 - [problem_solving_input_solution_output.png](images/problem_solving_input_solution_output.png)
 - [problem_solving_large_complex_problem.png](images/problem_solving_large_complex_problem.png)
 - [problem_solving_smaller_problems.png](images/problem_solving_smaller_problems.png)
@@ -297,6 +299,8 @@
 - [encryption.pdf](quarto/digitization_and_programming/script/encryption.pdf)
 - [index.pdf](quarto/digitization_and_programming/script/index.pdf)
 - [information.pdf](quarto/digitization_and_programming/script/information.pdf)
+- [lifi-project-hardware-software.pdf](quarto/digitization_and_programming/script/lifi-project-hardware-software.pdf)
+- [lifi-project.pdf](quarto/digitization_and_programming/script/lifi-project.pdf)
 - [logic-and-arithmetic.pdf](quarto/digitization_and_programming/script/logic-and-arithmetic.pdf)
 - [problem-solving.pdf](quarto/digitization_and_programming/script/problem-solving.pdf)
 - [protocols.pdf](quarto/digitization_and_programming/script/protocols.pdf)
@@ -342,3 +346,4 @@
 ### Images
 
 - [algorithm_check_prime_number.png](static/images/algorithm_check_prime_number.png)
+- [lifi_project_prototype.png](static/images/lifi_project_prototype.png)
