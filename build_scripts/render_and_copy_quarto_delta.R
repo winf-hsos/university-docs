@@ -58,6 +58,9 @@ setwd("quarto/digitization_and_programming/script/bundle/")
 quarto_render(output_format = "html", quiet = FALSE)
 setwd(current_wd)
 
+# Copy all files in folder book
+file.copy("quarto/digitization_and_programming/script/bundle/book", "docs/quarto/digitization_and_programming/script/bundle", overwrite = TRUE, recursive = TRUE)
+
 cat("Rendering book as PDF\n")
 quarto_render("quarto/digitization_and_programming/script/bundle/index.qmd", output_format = "pdf", quiet = FALSE)
 
