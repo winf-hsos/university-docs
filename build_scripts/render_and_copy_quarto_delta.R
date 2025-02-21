@@ -6,6 +6,8 @@ base_directory <- "quarto"
 # List all ".qmd" files in the directory and its subdirectories
 qmd_files <- list.files(base_directory, pattern = "\\.qmd$", recursive = TRUE, full.names = TRUE)
 
+# Remove files in "bundle" directory, will be rendered manually at the end
+qmd_files <- qmd_files[!grepl("bundle", qmd_files)]
 
 # Iterate through the list of ".qmd" files
 for (qmd_file in qmd_files) {
@@ -47,4 +49,15 @@ dir.create("docs/quarto/big_data_analytics")
 
 # Copy PDF files
 file.copy(pdf_list, pdf_dest_list, overwrite = TRUE)
+
+# Render "Digitalisierung und Programmierung" Buch (TODO: Entferne manuelles Rendering)
+cat("Rendering book as HTML\n")
+
+current_wd <- getwd()
+setwd("quarto/digitization_and_programming/script/bundle/")
+quarto_render(output_format = "html", quiet = FALSE)
+setwd(current_wd)
+
+cat("Rendering book as PDF\n")
+quarto_render("quarto/digitization_and_programming/script/bundle/index.qmd", output_format = "pdf", quiet = FALSE)
 

@@ -11,6 +11,9 @@ book:
   date: today
   date-format: long
   output-file: "book_digitalisierung_und_programmierung"
+  search: true
+  downloads: [pdf]
+
 
   chapters:
     - index.qmd
