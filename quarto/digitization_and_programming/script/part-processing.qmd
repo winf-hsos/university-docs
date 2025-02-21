@@ -1,0 +1,10 @@
+---
+title: "Verarbeitung"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: true
+number-sections: false
+code-line-numbers: true
+subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
+---
+

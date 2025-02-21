@@ -4,104 +4,104 @@
     "href": "index.html",
     "title": "Digitalisierung und Programmierung",
     "section": "",
-    "text": "1 Bevor es losgeht",
+    "text": "Bevor es losgeht",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Bevor es losgeht</span>"
+      "Bevor es losgeht"
     ]
   },
   {
     "objectID": "index.html#warum-dieses-buch",
     "href": "index.html#warum-dieses-buch",
     "title": "Digitalisierung und Programmierung",
-    "section": "1.1 Warum dieses Buch?",
-    "text": "1.1 Warum dieses Buch?\nDieses Buch entstand aus der Erkenntnis, dass viele klassische Lehrbücher der Informatik für Anfänger oft zu technisch und abstrakt sind. In meiner langjährigen Lehrtätigkeit habe ich beobachtet, dass Studierende besonders dann erfolgreich lernen, wenn sie die Konzepte der Informatik in einem praktischen Kontext erleben können. Deshalb habe ich mich entschieden, einen praxisorientierten Ansatz zu wählen, der theoretische Grundlagen mit einem konkreten Projekt verbindet.",
+    "section": "Warum dieses Buch?",
+    "text": "Warum dieses Buch?\nDieses Buch entstand aus der Erkenntnis, dass viele klassische Lehrbücher der Informatik für Anfänger oft zu technisch und abstrakt sind. In meiner langjährigen Lehrtätigkeit habe ich beobachtet, dass Studierende besonders dann erfolgreich lernen, wenn sie die Konzepte der Informatik in einem praktischen Kontext erleben können. Deshalb habe ich mich entschieden, einen praxisorientierten Ansatz zu wählen, der theoretische Grundlagen mit einem konkreten Projekt verbindet.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Bevor es losgeht</span>"
+      "Bevor es losgeht"
     ]
   },
   {
     "objectID": "index.html#wen-möchte-ich-wie-ansprechen",
     "href": "index.html#wen-möchte-ich-wie-ansprechen",
     "title": "Digitalisierung und Programmierung",
-    "section": "1.2 Wen möchte ich wie ansprechen?",
-    "text": "1.2 Wen möchte ich wie ansprechen?\nIch richte dieses Buch an Menschen ohne Vorkenntnisse in den Bereichen Digitalisierung, Computertechnik oder Programmierung. Ich gehe nicht davon aus, dass die Leserinnen und Leser eine besondere Motivation mitbringen, sich mit diesen Themen zu beschäftigen. Wenn doch, umso besser. Diese beiden Annahmen – fehlende Vorkenntnisse und Motivation – treffen auf den Großteil meiner Studierenden zu, für die ich dieses Buch in erster Linie geschrieben habe.\nMein Ziel ist es, sowohl die Kenntnisse als auch die Begeisterung für die Informatik zu steigern – zumindest bei einigen, die dieses Buch zur Hand nehmen (müssen). Um dies zu erreichen, habe ich mich entschieden, einen anderen Weg einzuschlagen als klassische Informatik-Lehrbücher:\n\nIch verwende bewusst eine einfache Sprache. Das heißt nicht, dass wir keine Fachbegriffe einführen werden. Wir erklären die Sachverhalte aber zunächst in einer für alle Studierenden verständlichen Sprache und führen Fachbegriffe schrittweise ein.\nNeben der Sprache knüpfe ich bei den Beispielen gezielt an bestehendes Wissen an. Ich verwende Beispiele und Analogien aus dem Alltag, um Ideen und Konzepte der Informatik zu veranschaulichen. Das mag nicht immer perfekt gelingen – aber wenn es gelingt, hilft es meiner Erfahrung nach dabei, neue Themen besser zu verstehen.\nMein Fokus liegt auf dem Verständnis der Konzepte statt auf technischen Details. Ich verzichte bewusst auf zu viel Tiefe zugunsten eines zugänglichen Buches, das einen guten Überblick vermittelt und echtes Verständnis ermöglicht. Wer anschließend Lust auf mehr Tiefe hat, bekommt von mir in jedem Kapitel Leseempfehlungen an die Hand.\nIch bin überzeugt, dass konkrete Projekte das Interesse und Verständnis am besten fördern. Dieses Buch verbindet das LiFi-Projekt mit den theoretischen Grundlagen der Informatik und führt Schritt für Schritt an algorithmisches Denken und Programmierung heran. Das Ergebnis ist ein fertiges Produkt, für das die Leserinnen und Leser alle erlernten Kenntnisse praktisch anwenden mussten – ganz nach dem Prinzip „Learning by Doing”.\nMir ist bewusst, dass viele der jüngeren Generation das Lesen eines Buches als Herausforderung empfinden. Dennoch halte ich Bücher für unverzichtbar, um komplexe Themengebiete zu erschließen. Um den Leseprozess zu erleichtern, stelle ich ergänzende Videos und Audioaufnahmen bereit, die in den Kapiteln verlinkt und über QR-Codes zugänglich sind.",
+    "section": "Wen möchte ich wie ansprechen?",
+    "text": "Wen möchte ich wie ansprechen?\nIch richte dieses Buch an Menschen ohne Vorkenntnisse in den Bereichen Digitalisierung, Computertechnik oder Programmierung. Ich gehe nicht davon aus, dass die Leserinnen und Leser eine besondere Motivation mitbringen, sich mit diesen Themen zu beschäftigen. Wenn doch, umso besser. Diese beiden Annahmen – fehlende Vorkenntnisse und Motivation – treffen auf den Großteil meiner Studierenden zu, für die ich dieses Buch in erster Linie geschrieben habe.\nMein Ziel ist es, sowohl die Kenntnisse als auch die Begeisterung für die Informatik zu steigern – zumindest bei einigen, die dieses Buch zur Hand nehmen (müssen). Um dies zu erreichen, habe ich mich entschieden, einen anderen Weg einzuschlagen als klassische Informatik-Lehrbücher:\n\nIch verwende bewusst eine einfache Sprache. Das heißt nicht, dass wir keine Fachbegriffe einführen werden. Wir erklären die Sachverhalte aber zunächst in einer für alle Studierenden verständlichen Sprache und führen Fachbegriffe schrittweise ein.\nNeben der Sprache knüpfe ich bei den Beispielen gezielt an bestehendes Wissen an. Ich verwende Beispiele und Analogien aus dem Alltag, um Ideen und Konzepte der Informatik zu veranschaulichen. Das mag nicht immer perfekt gelingen – aber wenn es gelingt, hilft es meiner Erfahrung nach dabei, neue Themen besser zu verstehen.\nMein Fokus liegt auf dem Verständnis der Konzepte statt auf technischen Details. Ich verzichte bewusst auf zu viel Tiefe zugunsten eines zugänglichen Buches, das einen guten Überblick vermittelt und echtes Verständnis ermöglicht. Wer anschließend Lust auf mehr Tiefe hat, bekommt von mir in jedem Kapitel Leseempfehlungen an die Hand.\nIch bin überzeugt, dass konkrete Projekte das Interesse und Verständnis am besten fördern. Dieses Buch verbindet das LiFi-Projekt mit den theoretischen Grundlagen der Informatik und führt Schritt für Schritt an algorithmisches Denken und Programmierung heran. Das Ergebnis ist ein fertiges Produkt, für das die Leserinnen und Leser alle erlernten Kenntnisse praktisch anwenden mussten – ganz nach dem Prinzip „Learning by Doing”.\nMir ist bewusst, dass viele der jüngeren Generation das Lesen eines Buches als Herausforderung empfinden. Dennoch halte ich Bücher für unverzichtbar, um komplexe Themengebiete zu erschließen. Um den Leseprozess zu erleichtern, stelle ich ergänzende Videos und Audioaufnahmen bereit, die in den Kapiteln verlinkt und über QR-Codes zugänglich sind.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Bevor es losgeht</span>"
+      "Bevor es losgeht"
     ]
   },
   {
     "objectID": "index.html#wie-ist-das-buch-aufgebaut",
     "href": "index.html#wie-ist-das-buch-aufgebaut",
     "title": "Digitalisierung und Programmierung",
-    "section": "1.3 Wie ist das Buch aufgebaut?",
-    "text": "1.3 Wie ist das Buch aufgebaut?\nDieses Buch befasst sich mit der Frage, wie wir Computer zum Lösen von Problemen einsetzen können. Das Schaubild in Abbildung 1.1 visualisiert die wichtigsten Themenblöcke.\n\n\n\n\n\n\nAbbildung 1.1: Überblick über die Themenblöcke dieses Buches.\n\n\n\nIch orientiere mich übergeordnet an dem Thema des Problemlösens (problem-solving), das sich in zwei Bereiche gliedert:\n\nAlgorithmen (algorithms) bilden den Kern des Problemlösens und der Informatik. Sie beschreiben die notwendigen Schritte zur Lösung eines Problems.\nKommunikation (communication) umfasst das Teilen von Informationen in Computernetzwerken. Mit der weiten Verbreitung des Internets ist dieser Aspekt zentral für die moderne Computernutzung geworden. Lösungen, die ein Computer erzeugt, können heute unmittelbar über Netzwerke weltweit geteilt werden.\n\nIm Bereich der Algorithmen beschäftigen wir uns zunächst damit, wie wir Probleme für Computer verständlich und lösbar beschreiben können. Eine zentrale Rolle spielt dabei die Informationsrepräsentation (information representation): Wie können wir Zahlen, Texte, Bilder, Videos, Audioaufnahmen und andere wichtige Inhalte so darstellen, dass ein Computer damit arbeiten kann?\nNachdem wir das verstanden haben, widmen wir uns der Informationsverarbeitung (information processing) – also der Frage, wie Eingabeinformationen so verarbeitet werden können, dass eine Lösung entsteht. Dies ist die Kernaufgabe der Algorithmen, und wir untersuchen, wie ein Algorithmus sowohl für Menschen als auch für Computer verständlich dargestellt werden kann. Dabei lernen wir die Programmiersprache Python kennen, die als moderne Programmiersprache Algorithmen in ausführbare Programme (programs) übersetzt. Anhand einfacher Beispiele wie der Addition zweier Zahlen verstehen wir zudem, wie die Ausführung von Programmierbefehlen im Rechner auf der Ebene der Bits funktioniert.\nBei der Kommunikation stellen wir uns die Frage, wie das Teilen von Informationen (information sharing) über unterschiedliche Medien wie Kabel, Luft oder Licht funktioniert. Wir lernen dabei etwas über das Senden und Empfangen von Signalen, über Protokolle – also Vereinbarungen zur Informationsübermittlung – sowie über die Frage, wie wir unsere Kommunikation effizient und gleichzeitig sicher gestalten können.",
+    "section": "Wie ist das Buch aufgebaut?",
+    "text": "Wie ist das Buch aufgebaut?\nDieses Buch befasst sich mit der Frage, wie wir Computer zum Lösen von Problemen einsetzen können. Das Schaubild in Abbildung 1 visualisiert die wichtigsten Themenblöcke.\n\n\n\n\n\n\nAbbildung 1: Überblick über die Themenblöcke dieses Buches.\n\n\n\nIch orientiere mich übergeordnet an dem Thema des Problemlösens (problem-solving), das sich in zwei Bereiche gliedert:\n\nAlgorithmen (algorithms) bilden den Kern des Problemlösens und der Informatik. Sie beschreiben die notwendigen Schritte zur Lösung eines Problems.\nKommunikation (communication) umfasst das Teilen von Informationen in Computernetzwerken. Mit der weiten Verbreitung des Internets ist dieser Aspekt zentral für die moderne Computernutzung geworden. Lösungen, die ein Computer erzeugt, können heute unmittelbar über Netzwerke weltweit geteilt werden.\n\nIm Bereich der Algorithmen beschäftigen wir uns zunächst damit, wie wir Probleme für Computer verständlich und lösbar beschreiben können. Eine zentrale Rolle spielt dabei die Informationsrepräsentation (information representation): Wie können wir Zahlen, Texte, Bilder, Videos, Audioaufnahmen und andere wichtige Inhalte so darstellen, dass ein Computer damit arbeiten kann?\nNachdem wir das verstanden haben, widmen wir uns der Informationsverarbeitung (information processing) – also der Frage, wie Eingabeinformationen so verarbeitet werden können, dass eine Lösung entsteht. Dies ist die Kernaufgabe der Algorithmen, und wir untersuchen, wie ein Algorithmus sowohl für Menschen als auch für Computer verständlich dargestellt werden kann. Dabei lernen wir die Programmiersprache Python kennen, die als moderne Programmiersprache Algorithmen in ausführbare Programme (programs) übersetzt. Anhand einfacher Beispiele wie der Addition zweier Zahlen verstehen wir zudem, wie die Ausführung von Programmierbefehlen im Rechner auf der Ebene der Bits funktioniert.\nBei der Kommunikation stellen wir uns die Frage, wie das Teilen von Informationen (information sharing) über unterschiedliche Medien wie Kabel, Luft oder Licht funktioniert. Wir lernen dabei etwas über das Senden und Empfangen von Signalen, über Protokolle – also Vereinbarungen zur Informationsübermittlung – sowie über die Frage, wie wir unsere Kommunikation effizient und gleichzeitig sicher gestalten können.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Bevor es losgeht</span>"
+      "Bevor es losgeht"
     ]
   },
   {
     "objectID": "index.html#wie-sollte-man-dieses-buch-lesen",
     "href": "index.html#wie-sollte-man-dieses-buch-lesen",
     "title": "Digitalisierung und Programmierung",
-    "section": "1.4 Wie sollte man dieses Buch lesen?",
-    "text": "1.4 Wie sollte man dieses Buch lesen?\nDas Buch ist für eine lineare Lektüre von vorne nach hinten konzipiert. An der Hochschule Osnabrück behandeln wir in der zugehörigen Veranstaltung pro Woche ein Kapitel – gelegentlich auch zwei, abhängig von der Verteilung der Feiertage im Semester. Die Kapitel hängen zusammen und bauen teilweise aufeinander auf.\nWie beschrieben orientiert sich dieses Buch an der Durchführung eines Projekts – dem LiFi-Projekt. Das Projekt bildet den Ausgangspunkt jedes Kapitels, und für jedes Thema wird der praktische Bezug zum Projekt hergestellt. Was genau das LiFi-Projekt beinhaltet, schauen wir uns im nächsten Kapitel an.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "section": "Wie sollte man dieses Buch lesen?",
+    "text": "Wie sollte man dieses Buch lesen?\nDas Buch ist für eine lineare Lektüre von vorne nach hinten konzipiert. An der Hochschule Osnabrück behandeln wir in der zugehörigen Veranstaltung pro Woche ein Kapitel – gelegentlich auch zwei, abhängig von der Verteilung der Feiertage im Semester. Die Kapitel hängen zusammen und bauen teilweise aufeinander auf.\nWie beschrieben orientiert sich dieses Buch an der Durchführung eines Projekts – dem LiFi-Projekt. Das Projekt bildet den Ausgangspunkt jedes Kapitels, und für jedes Thema wird der praktische Bezug zum Projekt hergestellt. Was genau das LiFi-Projekt beinhaltet, schauen wir uns im nächsten Kapitel an.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Bevor es losgeht</span>"
+      "Bevor es losgeht"
     ]
   },
   {
     "objectID": "lifi-project.html",
     "href": "lifi-project.html",
-    "title": "2  Das LiFi-Projekt",
+    "title": "1  Das LiFi-Projekt",
     "section": "",
-    "text": "2.1 Worum geht es im LiFi-Projekt?\nLiFi ist eine Technologie, die die Übertragung von Informationen mithilfe von Licht ermöglicht. Sie nutzt das sichtbare Lichtspektrum, um ein Signal zu erzeugen, das von einem Fotodetektor empfangen werden kann, welcher das von einer LED ausgestrahlte Licht erfasst. Durch die Veränderung der Lichteigenschaften über die Zeit, wie etwa der Wellenlänge oder der Helligkeit, können wir Daten kodieren und übertragen. LiFi bietet großes Potenzial für den Einsatz in Umgebungen, in denen Hochfrequenzsignale Mikroorganismen oder andere empfindliche elektronische Geräte stören könnten. Darüber hinaus könnte LiFi im Gegensatz zu Bluetooth oder WiFi in Robotern eingesetzt werden, die unter Wasser arbeiten.\nAls Teil eines interdisziplinären F&E-Teams in einem Hightech-Unternehmen, das Roboter für Lebensmittel- und Landwirtschaftsanwendungen entwickelt, besteht deine Aufgabe darin, ein LiFi-Kommunikationsgerät zu entwickeln, das in die nächste Robotergeneration des Unternehmens integriert werden kann. Das Gerät hat zwei Hauptkomponenten: eine kleine LED, die in etwa 16 Millionen Farben des RGB-Farbsystems leuchten kann, und einen Farbsensor, der die Intensität der drei RGB-Farbkanäle sowie die Helligkeit des Lichts messen kann. Diese Komponenten werden von einem Master Brick gesteuert, der für die reibungslose Kommunikation zwischen dem Roboter und seinen Peripheriegeräten verantwortlich ist.\n[BILD]",
+    "text": "1.1 Worum geht es im LiFi-Projekt?\nLiFi ist eine Technologie, die die Übertragung von Informationen mithilfe von Licht ermöglicht. Sie nutzt das sichtbare Lichtspektrum, um ein Signal zu erzeugen, das von einem Fotodetektor empfangen werden kann, welcher das von einer LED ausgestrahlte Licht erfasst. Durch die Veränderung der Lichteigenschaften über die Zeit, wie etwa der Wellenlänge oder der Helligkeit, können wir Daten kodieren und übertragen. LiFi bietet großes Potenzial für den Einsatz in Umgebungen, in denen Hochfrequenzsignale Mikroorganismen oder andere empfindliche elektronische Geräte stören könnten. Darüber hinaus könnte LiFi im Gegensatz zu Bluetooth oder WiFi in Robotern eingesetzt werden, die unter Wasser arbeiten.\nAls Teil eines interdisziplinären F&E-Teams in einem Hightech-Unternehmen, das Roboter für Lebensmittel- und Landwirtschaftsanwendungen entwickelt, besteht deine Aufgabe darin, ein LiFi-Kommunikationsgerät zu entwickeln, das in die nächste Robotergeneration des Unternehmens integriert werden kann. Das Gerät hat zwei Hauptkomponenten: eine kleine LED, die in etwa 16 Millionen Farben des RGB-Farbsystems leuchten kann, und einen Farbsensor, der die Intensität der drei RGB-Farbkanäle sowie die Helligkeit des Lichts messen kann. Diese Komponenten werden von einem Master Brick gesteuert, der für die reibungslose Kommunikation zwischen dem Roboter und seinen Peripheriegeräten verantwortlich ist.\n[BILD]",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Das LiFi-Projekt</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Das LiFi-Projekt</span>"
     ]
   },
   {
     "objectID": "lifi-project.html#was-sind-die-ziele",
     "href": "lifi-project.html#was-sind-die-ziele",
-    "title": "2  Das LiFi-Projekt",
-    "section": "2.2 Was sind die Ziele?",
-    "text": "2.2 Was sind die Ziele?\nDas LiFi-Projekt stellt ein klassisches Ingenieursproblem dar: die Kombination von Hardware und Software zur Lösung einer praktischen Aufgabe. Die zentralen inhaltlichen Fragen dieses Projekts lauten:\n\n2.2.1 Informationen aus der Umwelt erfassen\n\nWie können physikalische Größen digital erfasst werden? (Informationen, Bits, Analog vs. Digital, Codesysteme)\n\n\n\n2.2.2 Informationen für automatisierte Entscheidungen nutzen\n\nWie könenn Algorithmen Entscheidungen auf Basis von Eingabedaten treffen? (Algorithmen)\n\n\n\n2.2.3 Informationen über Licht kommunizieren und empfangen\n\nWie kann Licht Informationen darstellen? (Information Representation)\nWie können mithilfe einer LED und eines Farbsensors Informationen übertragen? (Information Communication)\nWelches Protokoll eignet sich am besten für die LED-basierte Datenübertragung?\nWie verlässlich ist die Datenübertragung? (Protokolle)\nWelche maximale Übertragungsdistanz ist möglich? (Signale)\nWelche Umgebungsbedingungen sind für eine erfolgreiche Übertragung erforderlich? (Signale)\nWie lässt sich die Datenübertragung sicher gestalten? (Algorithmen, Verschlüsselung)\nWelche Datenübertragungsrate können wir erreichen? (Algorithmen, Kompression)\n\nEine wesentliche Einschränkung besteht darin, dass wir diese Fragen nur mit der verfügbaren Hardware beantworten können: einer LED und einem Farbsensor.\nAm Ende dieses Projekts wirst du nicht nur das Ingenieursproblem gelöst haben, sondern auch Antworten auf alle genannten Fragen gefunden haben. Als zusätzlicher Bonus erwirbst du dabei tiefere Einblicke in die digitale Welt und grundlegende Programmierkenntnisse.",
+    "title": "1  Das LiFi-Projekt",
+    "section": "1.2 Was sind die Ziele?",
+    "text": "1.2 Was sind die Ziele?\nDas LiFi-Projekt stellt ein klassisches Ingenieursproblem dar: die Kombination von Hardware und Software zur Lösung einer praktischen Aufgabe. Die zentralen inhaltlichen Fragen dieses Projekts lauten:\n\n1.2.1 Informationen aus der Umwelt erfassen\n\nWie können physikalische Größen digital erfasst werden? (Informationen, Bits, Analog vs. Digital, Codesysteme)\n\n\n\n1.2.2 Informationen für automatisierte Entscheidungen nutzen\n\nWie könenn Algorithmen Entscheidungen auf Basis von Eingabedaten treffen? (Algorithmen)\n\n\n\n1.2.3 Informationen über Licht kommunizieren und empfangen\n\nWie kann Licht Informationen darstellen? (Information Representation)\nWie können mithilfe einer LED und eines Farbsensors Informationen übertragen? (Information Communication)\nWelches Protokoll eignet sich am besten für die LED-basierte Datenübertragung?\nWie verlässlich ist die Datenübertragung? (Protokolle)\nWelche maximale Übertragungsdistanz ist möglich? (Signale)\nWelche Umgebungsbedingungen sind für eine erfolgreiche Übertragung erforderlich? (Signale)\nWie lässt sich die Datenübertragung sicher gestalten? (Algorithmen, Verschlüsselung)\nWelche Datenübertragungsrate können wir erreichen? (Algorithmen, Kompression)\n\nEine wesentliche Einschränkung besteht darin, dass wir diese Fragen nur mit der verfügbaren Hardware beantworten können: einer LED und einem Farbsensor.\nAm Ende dieses Projekts wirst du nicht nur das Ingenieursproblem gelöst haben, sondern auch Antworten auf alle genannten Fragen gefunden haben. Als zusätzlicher Bonus erwirbst du dabei tiefere Einblicke in die digitale Welt und grundlegende Programmierkenntnisse.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Das LiFi-Projekt</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Das LiFi-Projekt</span>"
     ]
   },
   {
     "objectID": "lifi-project.html#wie-gehen-wir-vor",
     "href": "lifi-project.html#wie-gehen-wir-vor",
-    "title": "2  Das LiFi-Projekt",
-    "section": "2.3 Wie gehen wir vor?",
-    "text": "2.3 Wie gehen wir vor?\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "1  Das LiFi-Projekt",
+    "section": "1.3 Wie gehen wir vor?",
+    "text": "1.3 Wie gehen wir vor?\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Das LiFi-Projekt</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Das LiFi-Projekt</span>"
     ]
   },
   {
     "objectID": "lifi-project-hardware-software.html",
     "href": "lifi-project-hardware-software.html",
-    "title": "3  Setup für das LiFi-Projekt",
+    "title": "2  Setup für das LiFi-Projekt",
     "section": "",
-    "text": "3.1 Welche Hardware benötigen wir?",
+    "text": "2.1 Welche Hardware benötigen wir?",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Setup für das LiFi-Projekt</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup für das LiFi-Projekt</span>"
     ]
   },
   {
     "objectID": "lifi-project-hardware-software.html#welche-software-müssen-wir-installieren",
     "href": "lifi-project-hardware-software.html#welche-software-müssen-wir-installieren",
-    "title": "3  Setup für das LiFi-Projekt",
-    "section": "3.2 Welche Software müssen wir installieren?",
-    "text": "3.2 Welche Software müssen wir installieren?\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "2  Setup für das LiFi-Projekt",
+    "section": "2.2 Welche Software müssen wir installieren?",
+    "text": "2.2 Welche Software müssen wir installieren?\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Setup für das LiFi-Projekt</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup für das LiFi-Projekt</span>"
     ]
   },
   {
-    "objectID": "problems.html",
-    "href": "problems.html",
+    "objectID": "part-problems.html",
+    "href": "part-problems.html",
     "title": "Probleme",
     "section": "",
     "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
@@ -112,116 +112,105 @@
   {
     "objectID": "problem-solving.html",
     "href": "problem-solving.html",
-    "title": "4  Problemlösung",
+    "title": "3  Problemlösung",
     "section": "",
-    "text": "4.1 Das Eingabe-Verarbeitung-Ausgabe-Modell\nDas LiFi-Projekt stellt eine komplexe Herausforderung dar. Beim Lesen der Ziele und Fragestellungen in Kapitel 2 kann man sich überfordert fühlen. Die zentrale Frage lautet: Wie nähern wir uns dieser Aufgabe systematisch an?\nEin bewährter Ansatz für komplexe Situationen ist die Vereinfachung. Auch wenn wir das Problem selbst nicht vereinfachen können, können wir es durch eine strukturierte Herangehensweise besser verstehen und handhabbarer machen. Die Verwendung von Modellen ist dafür ein geeigneter Weg.\nModelle zielen darauf ab, die wesentlichen Aspekte der realen Welt hervorzuheben und unwichtige Details auszublenden. Da dies zunächst abstrakt klingen mag, werden wir es anhand eines Modells veranschaulichen, das uns durch das gesamte Buch begleiten wird: das Eingabe-Verarbeitung-Ausgabe-Modell, kurz EVA-Modell.\nDas Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. Abbildung 4.1) ist ein wictiges Modell in der Informatik. Es erklärt die Arbeitsweise von Computern auf vereinfachte Weise und beinhaltet nur die nötigsten Elemente. Konkret zeigt das Modell, wie Computer Probleme lösen und welche drei Elemente wir dabei betrachten müssen: Computer benötigen (1) Eingabedaten, die sie durch einen definierten (2) Verarbeitungsprozess in gewünschte (3) Ausgabendaten umwandeln.\nDas EVA-Modell beschreibt ein Problem und dessen Lösung durch drei Komponenten: die Eingabe (Input), die der Computer erhält, die Verarbeitung (Computation), die er mit diesen Daten durchführt, und die Ausgabe (Output), die er als Ergebnis liefert. Wenn wir diese drei Komponenten beschreiben können, haben wir die für den Computer relevanten Aspekte des Problems erfasst – alles andere ist unwichtig.\nWenden wir das EVA-Modell auf das LiFi-Projekt an. Das LiFi-Gerät soll verschiedene Daten erfassen: Lichtsignale von einem anderen LiFi-Gerät und die Temperatur des eigenen Sensors. Basierend auf diesen Daten trifft es eine Entscheidung. Anschließend kommuniziert es diese Entscheidung zusammen mit den erfassten Temperaturdaten über Lichtsignale an das nächste Gerät. Zwar ist jeder dieser Teilschritte für sich genommen komplex und erfordert eine eigene Lösung. Dennoch können wir das EVA-Modell nutzen, um das LiFi-Projekt als Ganzes darzustellen, indem wir von den Details der einzelnen Schritte abstrahieren:\n[BILD LIFI-PROJEKT IM EVA MODELL]\nWas haben wir nun dadurch gewonnen, dass wir das EVA-Modell angewendet haben? Wir können uns nun auf die einzelnen Elemente konzentrieren und diese getrennt voneinander betrachten. Damit zerlegen wir das große, überfordernde Problem in kleinere Teile und machen es dadurch besser beherrschbar.\nBei den Eingaben müssen wir uns fragen, wie diese konkret aussehen und erfasst werden. Dabei geht es vor allem darum, in welcher Form die Eingaben dem Computer vorliegen müssen, damit er sie verarbeiten kann. Wie werden Lichtsignale im Computer dargestellt? Wie wird die physikalische Größe der Umgebungstemperatur in eine computerverständliche Form umgewandelt, und wie sieht diese aus? Es geht also um die Repräsentation von Informationen.\nSobald wir die Darstellung der Eingaben geklärt haben, können wir diese als Grundlage für die Verarbeitung nutzen. Wie muss ein Programm aussehen, das auf Basis der Eingabedaten die richtige Entscheidung trifft? Welche Schritte sind notwendig? Welche Prüfungen muss das Programm durchführen? Bei diesem Schritt geht es folglich um die Verarbeitung von Informationen.\nSchließlich müssen wir die Form der Ausgabe festlegen. Wie soll das Verarbeitungsergebnis konkret aussehen? Da wir für die Kommunikation wieder Lichtsignale verwenden, geht es auch bei der Ausgabe um die Repräsentation von Informationen.\nWir können die Perspektive auf eine LiFi-Gerät-übegreifende Sicht erweitern. Dann kommt neben der Repräsentation von Informationen ein weiterer Aspekt hinzu: Die Kommunikation von Informationen. Wie übertragen wir die Informationen, die das erste LiFi-Gerät erzeugt zum nächsten?\nVielleicht ist dir aufgefallen, dass die Struktur des gesamten Buches an den gerade identifizierten, übergeordneten Problemstellungen ausgerichtet ist. Wir befinden uns gerade im ersten Teil und sprechen darüber, wie wir Probleme im Computer darstellen. Im zweiten Teil des Buches lernen wir, wie Computer ganz unterschiedliche Informationen repräsentieren können, damit sie für die Lösung des Problems verwendet werden können. Im dritten Teil beschäftigen wir uns damit, wie Computer Informationen verarbeiten. Der vierte und letzte Teil führt uns in wichtige Konzepte der Kommunikation mithilfe von Computern und Netzwerken ein.",
+    "text": "3.1 Welche Schritte führen zu einer Lösung für ein Problem?\n[ABB. POLYA ZYKLUS]",
     "crumbs": [
       "Probleme",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Problemlösung</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Problemlösung</span>"
     ]
   },
   {
-    "objectID": "problem-solving.html#das-eingabe-verarbeitung-ausgabe-modell",
-    "href": "problem-solving.html#das-eingabe-verarbeitung-ausgabe-modell",
-    "title": "4  Problemlösung",
-    "section": "",
-    "text": "Abbildung 4.1: Das EVA-Modell besteht aus der Eingabe, der Berechnung und der Ausgabe.\n\n\n\n\n\n\n\n\n\n\n\n\n4.1.1 Taschenrechner\nAm Beispiel eines Taschenrechner lässt sich das EVA-Modell gut darstellen. Wir können uns bildlich vorstellen, wie ein Mensch die Eingabe tätigt und danach das Ergebnis abliest. Es ist wichtig zu verstehen, dass Eingabe und Ausgabe sehr unterschiedliche Formen annehmen können und keinesfalls nur über eine Tastatur erfolgen müssen.\nDas Beispiel des Taschenrechners wird in Abbildung 4.2 anhand einer einfachen Addition zweier Zahlen konkreter verdeutlicht. Als Eingabe werden zwei Zahlen benötigt, die Berechnung erfolgt durch eine Addition, dargestellt durch das Plussymbol. Die Ausgabe ist das Ergebnis – die Summe.\n\n\n\n\n\n\nAbbildung 4.2: Das EVA-Modell für die Addition zweier Zahlen.\n\n\n\nDieses einfache Beispiel zeigt, dass wir verstehen müssen, wie Computer die drei Bestandteile des EVA-Modells umsetzen. Beim Taschenrechner sind Ein- und Ausgabe jeweils Zahlen. Diese Daten speichert der Computer in seinem Arbeitsspeicher. Dabei ist wichtig zu wissen, dass Computer auf der untersten Ebene ausschließlich Nullen und Einsen speichern. Wir müssen also verstehen, wie Computer Zahlen mithilfe dieser Binärzahlen darstellen können.\nWas passiert bei der Berechnung in der Mitte des Modells? Eine Addition mag uns einfach erscheinen, doch auch hier müssen wir beachten, dass Computer mit Binärzahlen arbeiten. Es stellt sich also die Frage: Wie funktioniert eine Addition, wenn die Zahlen als Folge von Nullen und Einsen dargestellt sind? Auf die beiden Fragen zur Repräsentation und der Verarbeitung von Informationen im binären System werden wir im Laufe des Buches Antworten bekommen.\n\n\n4.1.2 Pflanzen zählen\nBetrachten wir ein weiteres Beispiel: Stell dir vor, du möchtest einen Computer nutzen, um Maispflanzen auf einer Drohnenaufnahme eines Ackers zu zählen. Diese Aufgabe ist für Menschen zwar einfach zu verstehen, wäre aber sehr zeitaufwändig auszuführen. Moderne Algorithmen ermöglichen es Computern, Objekte auf Bildern präzise zu lokalisieren und zu zählen. Nehmen wir an, wir haben für dieses Problem bereits eine Lösung entwickelt und ein Programm namens count_plants erstellt. Nun stellt sich die Frage: Wie sehen die Eingabe und die Ausgabe für dieses Problem aus? Was benötigt das Programm von uns, und was liefert es als Ergebnis?\n\n\n\n\n\nDie erwartete Ausgabe lässt sich einfach beschreiben: Das Ergebnis der Zählung ist eine ganze Zahl. Die Eingabe für dieses Problem ist - anders als beim Taschenrechner - kein Tastendruck, sondern ein Bild. Damit der Computer das Bild verarbeiten kann, muss es dem Computer in digitaler Form bereitgestellt werden. Was das genau bedeutet, lernen wir in einem späteren Kapitel. Hier genügt es uns zu verstehen, dass wir das Bild digital abbilden müssen.\n\n\n\n\n\nWie gelangt das Bild in den Computer? Dies ist im Modell nicht näher definiert und für die Problembeschreibung auch nicht wesentlich. Das Bild muss lediglich irgendwie in den Arbeitsspeicher des Programms count_plants gelangen. Dies kann auf verschiedene Arten geschehen: Es kann von der Festplatte gelesen werden, über eine drahtlose Verbindung wie Bluetooth direkt übertragen und verarbeitet werden, oder das Programm count_plants läuft direkt auf der Drohne und greift unmittelbar auf deren Kamera zu. Die technische Umsetzung ist für unser Modell zunächst irrelevant. In einem späteren Kapitel werden wir uns damit befassen, wie Informationen genau übertragen und gespeichert werden. Genauso werden wir lernen, wie die benötigten Informationen für die Ein- und Ausgabe eines Programms in digitaler Form dargestellt werden können.\n\n\n\n\n\n\n\n4.1.3 Schach spielen\nEin weiteres Beispiel zur Verdeutlichung des EVA-Modells ist das Schachspiel. Das Problem lässt sich einfach beschreiben: Der Computer soll auf Grundlage einer bestehenden Spielsituation den bestmöglichen nächsten Zug vorschlagen. Dieser Zug soll die Gewinnchancen maximieren.\n\n\n\n\n\nBetrachten wir zunächst die Eingabe für dieses Problem: Wir können dem Computer nicht einfach ein physisches Schachbrett zeigen, sondern müssen überlegen, wie sich ein Schachbrett und die Position der Figuren in digitaler Form darstellen lassen. Dabei kann es durchaus mehrere Möglichkeiten geben, die uns ans Ziel führen.\nEin Schachbrett lässt sich etwa als Liste von 64 Feldern darstellen, die von oben links nach unten rechts durchnummeriert sind. Für jedes Feld speichern wir, ob es leer ist oder welche Figur darauf steht. Die Figuren werden durch Buchstaben dargestellt – zum Beispiel “R” für den Turm (Englisch: Rook) oder “N” für den Springer (Englisch: Knight). Für die Farben Schwarz und Weiß verwenden wir einfach 0 und 1. Diese Darstellungsform reduziert unser Problem auf Listen, Zahlen und Buchstaben in digitaler Form. Für Computer ist das eine leicht zu verarbeitende Struktur, wie wir später noch sehen werden. Ein Beispiel für eine solche Kodierung zeigt Abbildung 4.3.\n\n\n\n\n\n\nAbbildung 4.3: Beispiel für die Darstellung von Schachfiguren als Zahlen und Buchstaben.\n\n\n\nDie Ausgabe, also der nächste Zug, lässt sich ebenfalls durch Zahlen und Buchstaben darstellen. Eine weit verbreitete Notation gibt zunächst die Koordinate des Ausgangsfelds an, von dem eine Figur gezogen werden soll, gefolgt von der Koordinate des Zielfelds. Ein Beispiel wäre der Zug von “E2 nach E4”. Statt “E2” und “E4” könnten wir ebenso die entsprechende Zahl zwischen 1 und 64 aus unserer Liste verwenden, um mit dem obigen Schema konsistent zu bleiben. Der Zug hieße dann “53 nach 37”.\n\n\n4.1.4 Mit Computern chatten\nAls drittes Beispiel betrachten wir die Verwendung von Chatprogrammen wie ChatGPT. Seit seiner Veröffentlichung im November 2022 hat es die Welt stark verändert und einen regelrechten KI-Hype ausgelöst. Ein großes Sprachmodell wie GPT-4, das hinter dem heutigen ChatGPT steckt, ist eine komplexe Software, die wir in diesem Buch nicht vollständig ergründen können. Das Schöne an Modellen wie dem EVA-Modell ist jedoch, dass sie komplexe Sachverhalte vereinfachen können – so auch bei Sprachmodellen. Das Problem, das Sprachmodelle lösen, lässt sich wie alle Probleme in unserem EVA-Modell einfach darstellen.\n\n\n\n\n\n\nAbbildung 4.4: ChatGPT im EVA-Modell.\n\n\n\nDabei betrachten wir das Sprachmodell – oder ChatGPT – als Blackbox, ohne die internen Prozesse genauer zu definieren. Für unser Modell genügt es zu verstehen, dass wir eine Eingabe in Form einer Nachricht an ChatGPT benötigen und als Ausgabe eine Antwort erhalten. Auch hier stellt sich die Frage, wie wir beides digital repräsentieren können, damit ChatGPT damit arbeiten kann.\nKlassischerweise bestehen sowohl Eingabe als auch Ausgabe einfach aus Texten – allerdings beherrschen moderne Sprachmodelle auch andere Eingabeformen wie Bilder oder gesprochene Sprache über ein Mikrofon. Wir sprechen dann von multimodalen KI-Modellen. Bei Bildern stehen wir vor demselben Repräsentationsproblem wie bei unserer Drohnenaufnahme. Bei der Sprache stellt sich neben der Repräsentation von Audioinhalten die Frage, wie wir gesprochene Worte überhaupt in eine digitale Form überführen können. Auch dazu erfahren wir im späteren Verlauf des Buches mehr.",
+    "objectID": "problem-solving.html#warum-sind-computer-beim-lösen-von-problemen-nützlich",
+    "href": "problem-solving.html#warum-sind-computer-beim-lösen-von-problemen-nützlich",
+    "title": "3  Problemlösung",
+    "section": "3.2 Warum sind Computer beim Lösen von Problemen nützlich?",
+    "text": "3.2 Warum sind Computer beim Lösen von Problemen nützlich?\nDer wichtigste Grund für die Nutzung von Computern ist das Lösen von Problemen. Ob wir eine Route mit Google Maps planen, Online-Bestellungen bei DHL verfolgen oder eine KI wie ChatGPT um eine Empfehlung bitten – überall lösen Computer Probleme. Warum? Weil Computer zwei Eigenschaften besitzen, die für viele Probleme und deren Lösung vorteilhaft sind:\n\nComputer machen keine Fehler. Wenn wir einem Computer einen Lösungsweg beibringen, wendet er ihn fehlerfrei auf neue Probleme an.\nComputer sind unglaublich schnell. Ob einfache Schritte, komplexe Berechnungen oder die Verarbeitung großer Datenmengen – Computer lösen Probleme in einem Bruchteil der Zeit, die wir Menschen benötigen würden.\n\nDiese beiden Eigenschaften ermöglichen es uns, mit Computern besonders solche Probleme effizient zu lösen, die wiederkehrend und in großer Zahl auftreten. Wir sprechen dann von Automatisierung.\nIn diesem Kapitel lernen wir, wie Computer Probleme strukturieren und lösen. Um den Begriff des Problems besser zu verstehen und seine Bedeutung im Kontext von Computern einzugrenzen, führen wir zunächst ein einfaches Modell ein.",
     "crumbs": [
       "Probleme",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Problemlösung</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Problemlösung</span>"
     ]
   },
   {
-    "objectID": "problem-solving.html#die-lösung-des-problems",
-    "href": "problem-solving.html#die-lösung-des-problems",
-    "title": "4  Problemlösung",
-    "section": "4.2 Die Lösung des Problems",
-    "text": "4.2 Die Lösung des Problems\nAnhand des EVA-Modells wird deutlich, dass wir dem Computer Informationen in Form von digitalen Daten bereitstellen müssen, mit denen er arbeiten kann. Was aber genau soll er damit machen? Hier kommt der mittlere Kasten des Modells ins Spiel – die eigentliche Lösung des Problems.\n\n\n\n\n\nIn der Informatik nennen wir die Beschreibung zur Lösung eines Problems einen Algorithmus. Ein Algorithmus ist eine Schritt-für-Schritt-Anleitung zur Problemlösung und ist zunächst unabhängig von Computern. Das bedeutet, wir können die Lösung eines Problems ohne Bezug zu einem Computer beschreiben und nennen das einen Algorithmus.\nStellt euch dazu zum Beispiel eine IKEA-Aufbauanleitung vor. Sie beschreibt in sequenziellen Schritten, was zu tun ist, um das fertige Möbelstück zu bekommen. Die Eingabe besteht aus den mitgelieferten Teilen, Schrauben und dem benötigten Werkzeug für den Zusammenbau. Die Ausgabe ist das fertige Regal (oder ein anderes Möbelstück) – und das alles ganz ohne Computer.\nOder nehmt das Kochrezept eure Lieblingsessens. Auch ein Kochrezept ist ein Algorithmus: Die Eingabe besteht aus den Zutaten und Küchenutensilien, die Verarbeitung erfolgt durch die Schritt-für-Schritt-Anleitung, und die Ausgabe ist das fertige Gericht. Wie bei der IKEA-Anleitung ist der Algorithmus unabhängig von einem Computer – er beschreibt lediglich die Lösung des Problems “Wie koche ich dieses Gericht?”.\nZu Beginn des Kapitels haben wir festgestellt, dass Computer aufgrund ihrer Geschwindigkeit und Fehlerfreiheit besonders gut zur Problemlösung geeignet sind – insbesondere bei häufig wiederkehrenden Problemen. Die beiden genannten Beispiele, das IKEA-Regal und das Kochrezept, eignen sich allerdings nicht für eine direkte Umsetzung durch Computer. Der Grund liegt in den analogen Eingaben (Baumaterial, Kochzutaten) und Ausgaben (Möbelstück, fertige Mahlzeit). Diese kann ein Computer nicht unmittelbar verarbeiten. Dafür wären Roboter nötig, die mit der physischen Welt interagieren können. Eine solche Automatisierung lohnt sich heute nur bei Aufgaben, die sehr häufig auftreten und ansonsten mit hohen Kosten verbunden sind – wie etwa in der Automobilindustrie, wo computergesteuerte Roboter in der Produktion zum Einsatz kommen.\nNehmen wir an, dass Haushaltsroboter in Zukunft erschwinglich werden und uns beim Kochen unseres Lieblingsgerichts helfen können. Wie vermitteln wir dann dem Roboter – im Grunde ein Computer mit Armen und Beinen – den Algorithmus für unser Rezept? Die Lösung liegt in der Programmierung: Wir erstellen ein Programm in einer computerverständlichen Sprache. Dieses Programm wandelt die Anweisungen aus unserem Kochbuch in Befehle um, die der Computer verstehen und ausführen kann. Genau genommen besteht ein Programm ebenfalls nur aus Informationen, und wir müssen herausfinden, wie wir diese Informationen digital darstellen können. Die Lösung besteht in der Verwendung einer Programmiersprache wie Python, die wir später kennenlernen werden.",
+    "objectID": "problem-solving.html#wie-stellen-wir-probleme-im-computer-dar",
+    "href": "problem-solving.html#wie-stellen-wir-probleme-im-computer-dar",
+    "title": "3  Problemlösung",
+    "section": "3.3 Wie stellen wir Probleme im Computer dar?",
+    "text": "3.3 Wie stellen wir Probleme im Computer dar?\nDas LiFi-Projekt stellt eine komplexe Herausforderung dar. Beim Lesen der Ziele und Fragestellungen in Kapitel 1 kann man sich überfordert fühlen. Die zentrale Frage lautet: Wie nähern wir uns dieser Aufgabe systematisch an?\nEin bewährter Ansatz für komplexe Situationen ist die Vereinfachung. Auch wenn wir das Problem selbst nicht vereinfachen können, können wir es durch eine strukturierte Herangehensweise besser verstehen und handhabbarer machen. Die Verwendung von Modellen ist dafür ein geeigneter Weg.\nModelle zielen darauf ab, die wesentlichen Aspekte der realen Welt hervorzuheben und unwichtige Details auszublenden. Da dies zunächst abstrakt klingen mag, werden wir es anhand eines Modells veranschaulichen, das uns durch das gesamte Buch begleiten wird: das Eingabe-Verarbeitung-Ausgabe-Modell, kurz EVA-Modell.\n\n3.3.1 Das Eingabe-Verarbeitung-Ausgabe-Modell\nDas Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. Abbildung 3.1) ist ein wictiges Modell in der Informatik. Es erklärt die Arbeitsweise von Computern auf vereinfachte Weise und beinhaltet nur die nötigsten Elemente. Konkret zeigt das Modell, wie Computer Probleme lösen und welche drei Elemente wir dabei betrachten müssen: Computer benötigen (1) Eingabedaten, die sie durch einen definierten (2) Verarbeitungsprozess in gewünschte (3) Ausgabendaten umwandeln.\nDas EVA-Modell beschreibt ein Problem und dessen Lösung durch drei Komponenten: die Eingabe (Input), die der Computer erhält, die Verarbeitung (Computation), die er mit diesen Daten durchführt, und die Ausgabe (Output), die er als Ergebnis liefert. Wenn wir diese drei Komponenten beschreiben können, haben wir die für den Computer relevanten Aspekte des Problems erfasst – alles andere ist unwichtig.\n\n\n\n\n\n\nAbbildung 3.1: Das EVA-Modell besteht aus der Eingabe, der Berechnung und der Ausgabe.\n\n\n\nWenden wir das EVA-Modell auf das LiFi-Projekt an. Das LiFi-Gerät soll verschiedene Daten erfassen: Lichtsignale von einem anderen LiFi-Gerät und die Temperatur des eigenen Sensors. Basierend auf diesen Daten trifft es eine Entscheidung. Anschließend kommuniziert es diese Entscheidung zusammen mit den erfassten Temperaturdaten über Lichtsignale an das nächste Gerät. Zwar ist jeder dieser Teilschritte für sich genommen komplex und erfordert eine eigene Lösung. Dennoch können wir das EVA-Modell nutzen, um das LiFi-Projekt als Ganzes darzustellen, indem wir von den Details der einzelnen Schritte abstrahieren:\n\n\n\n\n\nWas haben wir nun dadurch gewonnen, dass wir das EVA-Modell angewendet haben? Wir können uns nun auf die einzelnen Elemente konzentrieren und diese getrennt voneinander betrachten. Damit zerlegen wir das große, überfordernde Problem in kleinere Teile und machen es dadurch besser beherrschbar.\nBei den Eingaben müssen wir uns fragen, wie diese konkret aussehen und erfasst werden. Dabei geht es vor allem darum, in welcher Form die Eingaben dem Computer vorliegen müssen, damit er sie verarbeiten kann. Wie werden Lichtsignale im Computer dargestellt? Wie wird die physikalische Größe der Umgebungstemperatur in eine computerverständliche Form umgewandelt, und wie sieht diese aus? Es geht also um die Repräsentation von Informationen.\nSobald wir die Darstellung der Eingaben geklärt haben, können wir diese als Grundlage für die Verarbeitung nutzen. Wie muss ein Programm aussehen, das auf Basis der Eingabedaten die richtige Entscheidung trifft? Welche Schritte sind notwendig? Welche Prüfungen muss das Programm durchführen? Bei diesem Schritt geht es folglich um die Verarbeitung von Informationen.\nSchließlich müssen wir die Form der Ausgabe festlegen. Wie soll das Verarbeitungsergebnis konkret aussehen? Da wir für die Kommunikation wieder Lichtsignale verwenden, geht es auch bei der Ausgabe um die Repräsentation von Informationen.\nWir können die Perspektive auf eine geräteübergreifende LiFi-Sicht erweitern. Dann kommt neben der Repräsentation von Informationen ein weiterer Aspekt hinzu: Die Kommunikation von Informationen. Wie übertragen wir die Informationen vom ersten LiFi-Gerät zum nächsten?\n\n\n\n\n\nVielleicht ist dir aufgefallen, dass die Struktur des gesamten Buches an den gerade identifizierten, übergeordneten Problemstellungen ausgerichtet ist. Wir befinden uns gerade im ersten Teil und sprechen darüber, wie wir Probleme im Computer darstellen. Im zweiten Teil des Buches lernen wir, wie Computer ganz unterschiedliche Informationen repräsentieren können, damit sie für die Lösung des Problems verwendet werden können. Im dritten Teil beschäftigen wir uns damit, wie Computer Informationen verarbeiten. Der vierte und letzte Teil führt uns in wichtige Konzepte der Kommunikation mithilfe von Computern und Netzwerken ein.\n\n3.3.1.1 Beispiel: Taschenrechner\nAm Beispiel eines Taschenrechner lässt sich das EVA-Modell gut darstellen. Wir können uns bildlich vorstellen, wie ein Mensch die Eingabe tätigt und danach das Ergebnis abliest. Es ist wichtig zu verstehen, dass Eingabe und Ausgabe sehr unterschiedliche Formen annehmen können und keinesfalls nur über eine Tastatur erfolgen müssen.\nDas Beispiel des Taschenrechners wird in Abbildung 3.2 anhand einer einfachen Addition zweier Zahlen konkreter verdeutlicht. Als Eingabe werden zwei Zahlen benötigt, die Berechnung erfolgt durch eine Addition, dargestellt durch das Plussymbol. Die Ausgabe ist das Ergebnis – die Summe.\n\n\n\n\n\n\nAbbildung 3.2: Das EVA-Modell für die Addition zweier Zahlen.\n\n\n\nDieses einfache Beispiel zeigt, dass wir verstehen müssen, wie Computer die drei Bestandteile des EVA-Modells umsetzen. Beim Taschenrechner sind Ein- und Ausgabe jeweils Zahlen. Diese Daten speichert der Computer in seinem Arbeitsspeicher. Dabei ist wichtig zu wissen, dass Computer auf der untersten Ebene ausschließlich Nullen und Einsen speichern. Wir müssen also verstehen, wie Computer Zahlen mithilfe dieser Binärzahlen darstellen können.\nWas passiert bei der Berechnung in der Mitte des Modells? Eine Addition mag uns einfach erscheinen, doch auch hier müssen wir beachten, dass Computer mit Binärzahlen arbeiten. Es stellt sich also die Frage: Wie funktioniert eine Addition, wenn die Zahlen als Folge von Nullen und Einsen dargestellt sind? Auf die beiden Fragen zur Repräsentation und der Verarbeitung von Informationen im binären System werden wir im Laufe des Buches Antworten bekommen.\n\n\n3.3.1.2 Beispiel: Pflanzen zählen\nBetrachten wir ein weiteres Beispiel: Stell dir vor, du möchtest einen Computer nutzen, um Maispflanzen auf einer Drohnenaufnahme eines Ackers zu zählen. Diese Aufgabe ist für Menschen zwar einfach zu verstehen, wäre aber sehr zeitaufwändig auszuführen. Moderne Algorithmen ermöglichen es Computern, Objekte auf Bildern präzise zu lokalisieren und zu zählen. Nehmen wir an, wir haben für dieses Problem bereits eine Lösung entwickelt und ein Programm namens count_plants erstellt. Nun stellt sich die Frage: Wie sehen die Eingabe und die Ausgabe für dieses Problem aus? Was benötigt das Programm von uns, und was liefert es als Ergebnis?\n\n\n\n\n\nDie erwartete Ausgabe lässt sich einfach beschreiben: Das Ergebnis der Zählung ist eine ganze Zahl. Die Eingabe für dieses Problem ist - anders als beim Taschenrechner - kein Tastendruck, sondern ein Bild. Damit der Computer das Bild verarbeiten kann, muss es dem Computer in digitaler Form bereitgestellt werden. Was das genau bedeutet, lernen wir in einem späteren Kapitel. Hier genügt es uns zu verstehen, dass wir das Bild digital abbilden müssen.\n\n\n\n\n\nWie gelangt das Bild in den Computer? Dies ist im Modell nicht näher definiert und für die Problembeschreibung auch nicht wesentlich. Das Bild muss lediglich irgendwie in den Arbeitsspeicher des Programms count_plants gelangen. Dies kann auf verschiedene Arten geschehen: Es kann von der Festplatte gelesen werden, über eine drahtlose Verbindung wie Bluetooth direkt übertragen und verarbeitet werden, oder das Programm count_plants läuft direkt auf der Drohne und greift unmittelbar auf deren Kamera zu. Die technische Umsetzung ist für unser Modell zunächst irrelevant. In einem späteren Kapitel werden wir uns damit befassen, wie Informationen genau übertragen und gespeichert werden. Genauso werden wir lernen, wie die benötigten Informationen für die Ein- und Ausgabe eines Programms in digitaler Form dargestellt werden können.\n\n\n\n\n\n\n\n3.3.1.3 Beispiel: Schach spielen\nEin weiteres Beispiel zur Verdeutlichung des EVA-Modells ist das Schachspiel. Das Problem lässt sich einfach beschreiben: Der Computer soll auf Grundlage einer bestehenden Spielsituation den bestmöglichen nächsten Zug vorschlagen. Dieser Zug soll die Gewinnchancen maximieren.\n\n\n\n\n\nBetrachten wir zunächst die Eingabe für dieses Problem: Wir können dem Computer nicht einfach ein physisches Schachbrett zeigen, sondern müssen überlegen, wie sich ein Schachbrett und die Position der Figuren in digitaler Form darstellen lassen. Dabei kann es durchaus mehrere Möglichkeiten geben, die uns ans Ziel führen.\nEin Schachbrett lässt sich etwa als Liste von 64 Feldern darstellen, die von oben links nach unten rechts durchnummeriert sind. Für jedes Feld speichern wir, ob es leer ist oder welche Figur darauf steht. Die Figuren werden durch Buchstaben dargestellt – zum Beispiel “R” für den Turm (Englisch: Rook) oder “N” für den Springer (Englisch: Knight). Für die Farben Schwarz und Weiß verwenden wir einfach 0 und 1. Diese Darstellungsform reduziert unser Problem auf Listen, Zahlen und Buchstaben in digitaler Form. Für Computer ist das eine leicht zu verarbeitende Struktur, wie wir später noch sehen werden. Ein Beispiel für eine solche Kodierung zeigt Abbildung 3.3.\n\n\n\n\n\n\nAbbildung 3.3: Beispiel für die Darstellung von Schachfiguren als Zahlen und Buchstaben.\n\n\n\nDie Ausgabe, also der nächste Zug, lässt sich ebenfalls durch Zahlen und Buchstaben darstellen. Eine weit verbreitete Notation gibt zunächst die Koordinate des Ausgangsfelds an, von dem eine Figur gezogen werden soll, gefolgt von der Koordinate des Zielfelds. Ein Beispiel wäre der Zug von “E2 nach E4”. Statt “E2” und “E4” könnten wir ebenso die entsprechende Zahl zwischen 1 und 64 aus unserer Liste verwenden, um mit dem obigen Schema konsistent zu bleiben. Der Zug hieße dann “53 nach 37”.\n\n\n3.3.1.4 Beispiel: Mit Computern chatten\nAls drittes Beispiel betrachten wir die Verwendung von Chatprogrammen wie ChatGPT. Seit seiner Veröffentlichung im November 2022 hat es die Welt stark verändert und einen regelrechten KI-Hype ausgelöst. Ein großes Sprachmodell wie GPT-4, das hinter dem heutigen ChatGPT steckt, ist eine komplexe Software, die wir in diesem Buch nicht vollständig ergründen können. Das Schöne an Modellen wie dem EVA-Modell ist jedoch, dass sie komplexe Sachverhalte vereinfachen können – so auch bei Sprachmodellen. Das Problem, das Sprachmodelle lösen, lässt sich wie alle Probleme in unserem EVA-Modell einfach darstellen.\n\n\n\n\n\n\nAbbildung 3.4: ChatGPT im EVA-Modell.\n\n\n\nDabei betrachten wir das Sprachmodell – oder ChatGPT – als Blackbox, ohne die internen Prozesse genauer zu definieren. Für unser Modell genügt es zu verstehen, dass wir eine Eingabe in Form einer Nachricht an ChatGPT benötigen und als Ausgabe eine Antwort erhalten. Auch hier stellt sich die Frage, wie wir beides digital repräsentieren können, damit ChatGPT damit arbeiten kann.\nKlassischerweise bestehen sowohl Eingabe als auch Ausgabe einfach aus Texten – allerdings beherrschen moderne Sprachmodelle auch andere Eingabeformen wie Bilder oder gesprochene Sprache über ein Mikrofon. Wir sprechen dann von multimodalen KI-Modellen. Bei Bildern stehen wir vor demselben Repräsentationsproblem wie bei unserer Drohnenaufnahme. Bei der Sprache stellt sich neben der Repräsentation von Audioinhalten die Frage, wie wir gesprochene Worte überhaupt in eine digitale Form überführen können. Auch dazu erfahren wir im späteren Verlauf des Buches mehr.\n\n\n\n3.3.2 Die Lösung des Problems\nAnhand des EVA-Modells wird deutlich, dass wir dem Computer Informationen in Form von digitalen Daten bereitstellen müssen, mit denen er arbeiten kann. Was aber genau soll er damit machen? Hier kommt der mittlere Kasten des Modells ins Spiel – die eigentliche Lösung des Problems.\n\n\n\n\n\nIn der Informatik nennen wir die Beschreibung zur Lösung eines Problems einen Algorithmus. Ein Algorithmus ist eine Schritt-für-Schritt-Anleitung zur Problemlösung und ist zunächst unabhängig von Computern. Das bedeutet, wir können die Lösung eines Problems ohne Bezug zu einem Computer beschreiben und nennen das einen Algorithmus.\nStellt euch dazu zum Beispiel eine IKEA-Aufbauanleitung vor. Sie beschreibt in sequenziellen Schritten, was zu tun ist, um das fertige Möbelstück zu bekommen. Die Eingabe besteht aus den mitgelieferten Teilen, Schrauben und dem benötigten Werkzeug für den Zusammenbau. Die Ausgabe ist das fertige Regal (oder ein anderes Möbelstück) – und das alles ganz ohne Computer.\nOder nehmt das Kochrezept eure Lieblingsessens. Auch ein Kochrezept ist ein Algorithmus: Die Eingabe besteht aus den Zutaten und Küchenutensilien, die Verarbeitung erfolgt durch die Schritt-für-Schritt-Anleitung, und die Ausgabe ist das fertige Gericht. Wie bei der IKEA-Anleitung ist der Algorithmus unabhängig von einem Computer – er beschreibt lediglich die Lösung des Problems “Wie koche ich dieses Gericht?”.\nZu Beginn des Kapitels haben wir festgestellt, dass Computer aufgrund ihrer Geschwindigkeit und Fehlerfreiheit besonders gut zur Problemlösung geeignet sind – insbesondere bei häufig wiederkehrenden Problemen. Die beiden genannten Beispiele, das IKEA-Regal und das Kochrezept, eignen sich allerdings nicht für eine direkte Umsetzung durch Computer. Der Grund liegt in den analogen Eingaben (Baumaterial, Kochzutaten) und Ausgaben (Möbelstück, fertige Mahlzeit). Diese kann ein Computer nicht unmittelbar verarbeiten. Dafür wären Roboter nötig, die mit der physischen Welt interagieren können. Eine solche Automatisierung lohnt sich heute nur bei Aufgaben, die sehr häufig auftreten und ansonsten mit hohen Kosten verbunden sind – wie etwa in der Automobilindustrie, wo computergesteuerte Roboter in der Produktion zum Einsatz kommen.\nNehmen wir an, dass Haushaltsroboter in Zukunft erschwinglich werden und uns beim Kochen unseres Lieblingsgerichts helfen können. Wie vermitteln wir dann dem Roboter – im Grunde ein Computer mit Armen und Beinen – den Algorithmus für unser Rezept? Die Lösung liegt in der Programmierung: Wir erstellen ein Programm in einer computerverständlichen Sprache. Dieses Programm wandelt die Anweisungen aus unserem Kochbuch in Befehle um, die der Computer verstehen und ausführen kann. Genau genommen besteht ein Programm ebenfalls nur aus Informationen, und wir müssen herausfinden, wie wir diese Informationen digital darstellen können. Die Lösung besteht in der Verwendung einer Programmiersprache wie Python, die wir später kennenlernen werden.",
     "crumbs": [
       "Probleme",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Problemlösung</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Problemlösung</span>"
     ]
   },
   {
-    "objectID": "problem-solving.html#problemlösungsstrategien",
-    "href": "problem-solving.html#problemlösungsstrategien",
-    "title": "4  Problemlösung",
-    "section": "4.3 Problemlösungsstrategien",
-    "text": "4.3 Problemlösungsstrategien\nDie konkrete Lösung und der zugehörige Algorithmus sehen für jedes Problem unterschiedlich aus. Das Erkennen von Pflanzen folgt einer anderen Logik als die Entscheidung, welche Schachfigur als nächstes gezogen werden soll. Dennoch gibt es universelle Lösungsstrategien, die auf viele Probleme anwendbar sind, um sie möglichst effizient zu lösen. Im Folgenden betrachten wir drei dieser Strategien.\n\n4.3.1 Problemzerlegung (Problem Decomposition)\nEine universelle Strategie zur Lösung komplexer Probleme ist die Zerlegung in kleinere Schritte oder Teilprobleme. Jedes dieser Teilprobleme ist unterschiedlich und erfordert einen spezifischen Lösungsansatz. Nehmen wir als Beispiel das Zählen von Pflanzen auf einer Drohnenaufnahme. Dieses komplexe Problem lässt sich, ausgehend von der Eingabe – dem digitalen Bild – in drei Teilprobleme zerlegen:\n\nPflanzen auf dem Bild lokalisieren\nLokalisierte Pflanzen klassifizieren: Maispflanze oder nicht?\nIdentifizierte Maispflanzen zählen\n\n\n\n\n\n\nJedes dieser Teilprobleme erfordert einen eigenen Algorithmus. Dabei ist es möglich, die Teilprobleme noch weiter zu zerlegen, um sie besser bearbeiten zu können.\n\n\n\n\n\nDie Identifizierung sinnvoller Teilprobleme erfordert ein ausgeprägtes analytisches Denkvermögen. Dies ist besonders wichtig im Umgang mit Computern. Wie wir beim Erlernen der Programmierung sehen werden, ist die Zerlegung eines Problems in kleine, lösbare Schritte der Schlüssel zur Beherrschung seiner Komplexität.\n\n\n4.3.2 Teile und Herrsche (Divide and Conquer)\nDie “Teile und Herrsche”-Strategie ist ein Ansatz zur Lösung komplexer Probleme, bei dem wir das Hauptproblem schrittweise in immer kleinere Teilprobleme zerlegen, bis diese einfach zu lösen sind. Dabei gehen wir rekursiv vor: Wir teilen das ursprüngliche Problem in kleinere Teile, diese kleineren Probleme wiederum in noch kleinere Teile und so weiter. Die Rekursion endet, wenn die Probleme so klein sind, dass sie sich nicht weiter aufteilen lassen und die Lösung direkt ersichtlich ist.\nAnders als bei der Problemzerlegung sind die Teilprobleme beim Divide and Conquer-Ansatz dadurch gleichartig und stellen nur kleinere Instanzen des ursprünglichen Problems dar. Die einzelnen Lösungen für jedes Teilproblem werden dann schrittweise wieder zusammengeführt, um die Gesamtlösung zu erhalten. Ein klassisches Beispiel ist die Sortierung einer langen Liste von Zahlen: Wir teilen die Liste immer wieder in der Mitte, bis nur noch einzelne Zahlen übrig sind, und fügen diese dann in sortierter Reihenfolge wieder zusammen.\nEin anderes Beispiel ist die binäre Suche in einer sortierten Liste. Hier betrachten wir das Element in der Mitte der Liste und vergleichen es mit dem gesuchten Element. Da die Liste sortiert ist, können wir entscheiden, in welchem Teil der Liste wir weitersuchen müssen. Im zweiten Schritt suchen wir nur in diesem Teil weiter und haben damit das Problem halbiert. Die Natur des Problems bleibt dabei gleich, und wir können erneut genauso verfahren – so lange, bis wir nur noch ein Element übrig haben, das entweder das gesuchte Element ist oder nicht.\n\n\n\n\n\n\n\n4.3.3 Verteile und Parallelisiere (Distribute and Parallelize)\nManche Probleme lassen sich effizienter lösen, wenn mehrere Personen gleichzeitig daran arbeiten. Anstatt eine einzelne Person mit der gesamten Aufgabe zu betrauen, verteilen wir die Arbeit auf mehrere Schultern und arbeiten parallel an der Lösung. Allerdings eignet sich nicht jedes Problem für diesen Ansatz.\nEin gutes Beispiel ist das Aufräumen eines Zimmers: Eine einzelne Person müsste nacheinander verschiedene Bereiche aufräumen, während mehrere Personen gleichzeitig unterschiedliche Ecken des Raums in Angriff nehmen können. Je größer das Zimmer, desto mehr Personen werden benötigt, um es in der gleichen Zeit aufzuräumen. Ein Gegenbeispiel, bei dem diese Strategie nicht funktioniert, ist das Lösen einer mathematischen Gleichung. Hier müssen die einzelnen Rechenschritte aufeinander aufbauen, weshalb das Problem nicht gleichzeitig an mehrere Personen übergeben werden kann, die unabhängig daran arbeiten.\nDie Strategie des Verteilens und Parallelisierens – im Englischen Distribute and Parallelize – funktioniert nach einem klaren Prinzip: Wir zerlegen ein großes Problem in Teile, die unabhängig voneinander gelöst werden können. Diese Teile weisen wir dann verschiedenen Ressourcen zu – zum Beispiel mehreren Personen oder Computern. Jede Ressource arbeitet an ihrem Teilproblem und erzeugt ein eigenes Ergebnis. Dabei gehen wir davon aus, dass sich alle Teilergebnisse am Ende zu einer Gesamtlösung zusammenfügen lassen. Ähnlich wie beim Divide and Conquer-Ansatz sind die Teilprobleme meist gleichartig.\nUm dieses Konzept greifbar zu machen, schauen wir uns ein konkretes Beispiel an, das wir mit dem EVA-Modell analysieren: das Zählen aller Wörter in einem Buch.\n\n\n\nDas Wörterzählen-Problem im EVA-Modell\n\n\nJe nach Umfang des Buches kann dies eine mühsame Aufgabe sein, besonders für Menschen. Ein Computer bewältigt ein einzelnes Buch dank seiner hohen Verarbeitungsgeschwindigkeit problemlos. Allerdings lässt sich das Problem beliebig erweitern – etwa wenn wir statt eines Buches alle Texte im Internet oder sämtliche Wikipedia-Artikel analysieren möchten. In solchen Fällen wird die Aufgabe auch für Computer aufwendig und zeitintensiv. Eine Lösung besteht darin, mehrere Computer parallel einzusetzen.\nIn Abbildung 4.5 sehen wir beispielhaft die Verteilung der Buchseiten auf vier Studenten. Jeder erhält einen gleichen Anteil, wodurch sich die Bearbeitungszeit im Optimalfall auf ein Viertel reduziert. Bei Computern können wir analog vorgehen und mehrere Rechner gleichzeitig mit Teilen der Seiten betrauen. Diese Rechner werden in einem Netzwerk verbunden und von einem zentralen Computer gesteuert, der die Teilergebnisse am Ende zusammenführt. Ein solches System nennen wir Rechencluster, bestehend aus Arbeitern – den Worker Nodes – sowie einer Steuereinheit, die in solchen Systemen als Driver oder Name Node bezeichnet wird.\n\n\n\n\n\n\nAbbildung 4.5: Verteiltes Wörterzählen\n\n\n\nDurch die Verteilung und parallele Ausführung kann das EVA-Modell wie in Abbildung 4.6 angepasst und detaillierter dargestellt werden. Statt eines einzelnen Prozesses count_words laufen nun \\(n\\) parallele Prozesse, die jeweils einen Teil des Buches durchsuchen. Die Aufteilung erfolgt zu Beginn durch den split-Prozess, während das Zusammenführen der Teilergebnisse – in diesem Fall das Addieren der Teilsummen – durch den merge-Schritt erfolgt.\n\n\n\n\n\n\nAbbildung 4.6: Das parallelisierte Wörterzählen im EVA-Modell\n\n\n\nIn diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fundamentalen Konzept für die computergestützte Problemlösung. Dieses Modell bietet uns einen strukturierten Rahmen, der aus drei wesentlichen Komponenten besteht:\n\nEingabe (E): Die zu verarbeitenden Daten oder Informationen\nVerarbeitung (V): Der Kern der Problemlösung durch Algorithmen\nAusgabe (A): Das Ergebnis der Verarbeitung in nutzbarer Form\n\nDie Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.",
+    "objectID": "problem-solving.html#welche-strategien-gibt-es-für-die-lösung-von-problemen",
+    "href": "problem-solving.html#welche-strategien-gibt-es-für-die-lösung-von-problemen",
+    "title": "3  Problemlösung",
+    "section": "3.4 Welche Strategien gibt es für die Lösung von Problemen?",
+    "text": "3.4 Welche Strategien gibt es für die Lösung von Problemen?\nDie konkrete Lösung und der zugehörige Algorithmus sehen für jedes Problem unterschiedlich aus. Das Erkennen von Pflanzen folgt einer anderen Logik als die Entscheidung, welche Schachfigur als nächstes gezogen werden soll. Dennoch gibt es universelle Lösungsstrategien, die auf viele Probleme anwendbar sind, um sie möglichst effizient zu lösen. Im Folgenden betrachten wir drei dieser Strategien.\n\n3.4.1 Problemzerlegung (Problem Decomposition)\nEine universelle Strategie zur Lösung komplexer Probleme ist die Zerlegung in kleinere Schritte oder Teilprobleme. Jedes dieser Teilprobleme ist unterschiedlich und erfordert einen spezifischen Lösungsansatz. Nehmen wir als Beispiel das Zählen von Pflanzen auf einer Drohnenaufnahme. Dieses komplexe Problem lässt sich, ausgehend von der Eingabe – dem digitalen Bild – in drei Teilprobleme zerlegen:\n\nPflanzen auf dem Bild lokalisieren\nLokalisierte Pflanzen klassifizieren: Maispflanze oder nicht?\nIdentifizierte Maispflanzen zählen\n\n\n\n\n\n\nJedes dieser Teilprobleme erfordert einen eigenen Algorithmus. Dabei ist es möglich, die Teilprobleme noch weiter zu zerlegen, um sie besser bearbeiten zu können.\n\n\n\n\n\nDie Identifizierung sinnvoller Teilprobleme erfordert ein ausgeprägtes analytisches Denkvermögen. Dies ist besonders wichtig im Umgang mit Computern. Wie wir beim Erlernen der Programmierung sehen werden, ist die Zerlegung eines Problems in kleine, lösbare Schritte der Schlüssel zur Beherrschung seiner Komplexität.\n\n\n3.4.2 Teile und Herrsche (Divide and Conquer)\nDie “Teile und Herrsche”-Strategie ist ein Ansatz zur Lösung komplexer Probleme, bei dem wir das Hauptproblem schrittweise in immer kleinere Teilprobleme zerlegen, bis diese einfach zu lösen sind. Dabei gehen wir rekursiv vor: Wir teilen das ursprüngliche Problem in kleinere Teile, diese kleineren Probleme wiederum in noch kleinere Teile und so weiter. Die Rekursion endet, wenn die Probleme so klein sind, dass sie sich nicht weiter aufteilen lassen und die Lösung direkt ersichtlich ist.\nAnders als bei der Problemzerlegung sind die Teilprobleme beim Divide and Conquer-Ansatz dadurch gleichartig und stellen nur kleinere Instanzen des ursprünglichen Problems dar. Die einzelnen Lösungen für jedes Teilproblem werden dann schrittweise wieder zusammengeführt, um die Gesamtlösung zu erhalten. Ein klassisches Beispiel ist die Sortierung einer langen Liste von Zahlen: Wir teilen die Liste immer wieder in der Mitte, bis nur noch einzelne Zahlen übrig sind, und fügen diese dann in sortierter Reihenfolge wieder zusammen.\nEin anderes Beispiel ist die binäre Suche in einer sortierten Liste. Hier betrachten wir das Element in der Mitte der Liste und vergleichen es mit dem gesuchten Element. Da die Liste sortiert ist, können wir entscheiden, in welchem Teil der Liste wir weitersuchen müssen. Im zweiten Schritt suchen wir nur in diesem Teil weiter und haben damit das Problem halbiert. Die Natur des Problems bleibt dabei gleich, und wir können erneut genauso verfahren – so lange, bis wir nur noch ein Element übrig haben, das entweder das gesuchte Element ist oder nicht.\n\n\n\n\n\n\n\n3.4.3 Verteile und Parallelisiere (Distribute and Parallelize)\nManche Probleme lassen sich effizienter lösen, wenn mehrere Personen gleichzeitig daran arbeiten. Anstatt eine einzelne Person mit der gesamten Aufgabe zu betrauen, verteilen wir die Arbeit auf mehrere Schultern und arbeiten parallel an der Lösung. Allerdings eignet sich nicht jedes Problem für diesen Ansatz.\nEin gutes Beispiel ist das Aufräumen eines Zimmers: Eine einzelne Person müsste nacheinander verschiedene Bereiche aufräumen, während mehrere Personen gleichzeitig unterschiedliche Ecken des Raums in Angriff nehmen können. Je größer das Zimmer, desto mehr Personen werden benötigt, um es in der gleichen Zeit aufzuräumen. Ein Gegenbeispiel, bei dem diese Strategie nicht funktioniert, ist das Lösen einer mathematischen Gleichung. Hier müssen die einzelnen Rechenschritte aufeinander aufbauen, weshalb das Problem nicht gleichzeitig an mehrere Personen übergeben werden kann, die unabhängig daran arbeiten.\nDie Strategie des Verteilens und Parallelisierens – im Englischen Distribute and Parallelize – funktioniert nach einem klaren Prinzip: Wir zerlegen ein großes Problem in Teile, die unabhängig voneinander gelöst werden können. Diese Teile weisen wir dann verschiedenen Ressourcen zu – zum Beispiel mehreren Personen oder Computern. Jede Ressource arbeitet an ihrem Teilproblem und erzeugt ein eigenes Ergebnis. Dabei gehen wir davon aus, dass sich alle Teilergebnisse am Ende zu einer Gesamtlösung zusammenfügen lassen. Ähnlich wie beim Divide and Conquer-Ansatz sind die Teilprobleme meist gleichartig.\nUm dieses Konzept greifbar zu machen, schauen wir uns ein konkretes Beispiel an, das wir mit dem EVA-Modell analysieren: das Zählen aller Wörter in einem Buch.\n\n\n\nDas Wörterzählen-Problem im EVA-Modell\n\n\nJe nach Umfang des Buches kann dies eine mühsame Aufgabe sein, besonders für Menschen. Ein Computer bewältigt ein einzelnes Buch dank seiner hohen Verarbeitungsgeschwindigkeit problemlos. Allerdings lässt sich das Problem beliebig erweitern – etwa wenn wir statt eines Buches alle Texte im Internet oder sämtliche Wikipedia-Artikel analysieren möchten. In solchen Fällen wird die Aufgabe auch für Computer aufwendig und zeitintensiv. Eine Lösung besteht darin, mehrere Computer parallel einzusetzen.\nIn Abbildung 3.5 sehen wir beispielhaft die Verteilung der Buchseiten auf vier Studenten. Jeder erhält einen gleichen Anteil, wodurch sich die Bearbeitungszeit im Optimalfall auf ein Viertel reduziert. Bei Computern können wir analog vorgehen und mehrere Rechner gleichzeitig mit Teilen der Seiten betrauen. Diese Rechner werden in einem Netzwerk verbunden und von einem zentralen Computer gesteuert, der die Teilergebnisse am Ende zusammenführt. Ein solches System nennen wir Rechencluster, bestehend aus Arbeitern – den Worker Nodes – sowie einer Steuereinheit, die in solchen Systemen als Driver oder Name Node bezeichnet wird.\n\n\n\n\n\n\nAbbildung 3.5: Verteiltes Wörterzählen\n\n\n\nDurch die Verteilung und parallele Ausführung kann das EVA-Modell wie in Abbildung 3.6 angepasst und detaillierter dargestellt werden. Statt eines einzelnen Prozesses count_words laufen nun \\(n\\) parallele Prozesse, die jeweils einen Teil des Buches durchsuchen. Die Aufteilung erfolgt zu Beginn durch den split-Prozess, während das Zusammenführen der Teilergebnisse – in diesem Fall das Addieren der Teilsummen – durch den merge-Schritt erfolgt.\n\n\n\n\n\n\nAbbildung 3.6: Das parallelisierte Wörterzählen im EVA-Modell\n\n\n\nIn diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fundamentalen Konzept für die computergestützte Problemlösung. Dieses Modell bietet uns einen strukturierten Rahmen, der aus drei wesentlichen Komponenten besteht:\n\nEingabe (E): Die zu verarbeitenden Daten oder Informationen\nVerarbeitung (V): Der Kern der Problemlösung durch Algorithmen\nAusgabe (A): Das Ergebnis der Verarbeitung in nutzbarer Form\n\nDie Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Probleme",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Problemlösung</span>"
-    ]
-  },
-  {
-    "objectID": "problem-solving.html#warum-nutzen-wir-computer",
-    "href": "problem-solving.html#warum-nutzen-wir-computer",
-    "title": "4  Problemlösung",
-    "section": "4.4 Warum nutzen wir Computer?",
-    "text": "4.4 Warum nutzen wir Computer?\nDer wichtigste Grund für die Nutzung von Computern ist das Lösen von Problemen. Ob wir eine Route mit Google Maps planen, Online-Bestellungen bei DHL verfolgen oder eine KI wie ChatGPT um eine Empfehlung bitten – überall lösen Computer Probleme. Warum? Weil Computer zwei Eigenschaften besitzen, die für viele Probleme und deren Lösung vorteilhaft sind:\n\nComputer machen keine Fehler. Wenn wir einem Computer einen Lösungsweg beibringen, wendet er ihn fehlerfrei auf neue Probleme an.\nComputer sind unglaublich schnell. Ob einfache Schritte, komplexe Berechnungen oder die Verarbeitung großer Datenmengen – Computer lösen Probleme in einem Bruchteil der Zeit, die wir Menschen benötigen würden.\n\nDiese beiden Eigenschaften ermöglichen es uns, mit Computern besonders solche Probleme effizient zu lösen, die wiederkehrend und in großer Zahl auftreten. Wir sprechen dann von Automatisierung.\nIn diesem Kapitel lernen wir, wie Computer Probleme strukturieren und lösen. Um den Begriff des Problems besser zu verstehen und seine Bedeutung im Kontext von Computern einzugrenzen, führen wir zunächst ein einfaches Modell ein.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Probleme",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Problemlösung</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Problemlösung</span>"
     ]
   },
   {
     "objectID": "algorithms.html",
     "href": "algorithms.html",
-    "title": "5  Algorithmen",
+    "title": "4  Algorithmen",
     "section": "",
-    "text": "5.1 Zusammenfassung\nWillkommen zum Kapitel über Algorithmen - ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Abschnitt werden wir uns mit den grundlegenden Aspekten von Algorithmen befassen und dabei zentrale Fragen beantworten:",
+    "text": "4.1 Zusammenfassung\nWillkommen zum Kapitel über Algorithmen - ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Abschnitt werden wir uns mit den grundlegenden Aspekten von Algorithmen befassen und dabei zentrale Fragen beantworten:",
     "crumbs": [
       "Probleme",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Algorithmen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Algorithmen</span>"
     ]
   },
   {
     "objectID": "algorithms.html#zusammenfassung",
     "href": "algorithms.html#zusammenfassung",
-    "title": "5  Algorithmen",
+    "title": "4  Algorithmen",
     "section": "",
     "text": "Was ist ein Algorithmus und wie grenzt er sich von einem Computerprogramm ab?\nWelche verschiedenen Kategorien von Algorithmen existieren und durch welche praktischen Beispiele lassen sie sich veranschaulichen?\nWie können wir Algorithmen systematisch und präzise formulieren?\nNach welchen Kriterien bewerten wir die Effizienz und Eignung verschiedener Algorithmen für spezifische Problemstellungen?",
     "crumbs": [
       "Probleme",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Algorithmen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Algorithmen</span>"
     ]
   },
   {
     "objectID": "algorithms.html#was-ist-ein-algorithmus",
     "href": "algorithms.html#was-ist-ein-algorithmus",
-    "title": "5  Algorithmen",
-    "section": "5.2 Was ist ein Algorithmus?",
-    "text": "5.2 Was ist ein Algorithmus?\n\n5.2.1 Herkunft des Begriffs\nDer Begriff “Algorithmus” stammt vom Namen des persischen Mathematikers Muhammad al-Khwarizmi, der um das Jahr 780 n. Chr. geboren wurde. Al-Khwarizmi war ein bedeutender Gelehrter am Hofe des Kalifen al-Mamun und verfasste dort Schriften, die den Gebrauch der indischen Zahlzeichen erklärten. Diese Schriften wurden im 12. Jahrhundert ins Lateinische übersetzt, wobei der Titel “Algoritmi de numero Indorum” verwendet wurde. Im Laufe der Zeit wurde der Name al-Khwarizmi zur Bezeichnung für die von ihm beschriebenen Rechenverfahren und entwickelte sich schließlich zum modernen Begriff “Algorithmus”.\nHeute bezeichnet ein Algorithmus eine präzise Abfolge von Anweisungen, die ein bestimmtes Problem lösen oder eine Aufgabe erfüllen sollen. Im Alltag begegnen uns Algorithmen ständig, oft, ohne dass wir es merken: beim Kochen, bei der Wegbeschreibung oder beim Aufbau eines IKEA-Regals.\n\n\n5.2.2 Algorithmen und Programme\nEin wichtiger Aspekt von Algorithmen ist ihre Universalität: Sie sind nicht an Computer gebunden. Ein Algorithmus ist im Kern eine strukturierte Anleitung zur Problemlösung, unabhängig davon, wer oder was diese Anleitung ausführt. Diese Flexibilität zeigt sich besonders deutlich in unserem Alltag, wo wir ständig algorithmische Anleitungen befolgen - sei es beim Aufbau eines Möbelstücks oder beim Kochen nach einem Rezept. Bei diesen Tätigkeiten führen wir Menschen die algorithmischen Schritte aus, ganz ohne Beteiligung eines Computers:\n\nKochen: Ein Rezept ist ein Algorithmus für die Zubereitung eines Gerichts.\n\nComment\n\nWegbeschreibung: Eine Schritt-für-Schritt-Anleitung, um von Punkt A nach Punkt B zu gelangen.\nBastelanleitung: Die Anweisungen, um ein Modellflugzeug zusammenzubauen.\n\nViele Algorithmen können von Computern ausgeführt werden. Dafür ist jedoch eine Übersetzung in eine maschinenverständliche Form notwendig. Diese Übersetzung erfolgt durch das Programmieren, wobei wir den Algorithmus in einer Programmiersprache formulieren. Um die Beziehung zwischen Algorithmen und Computerprogrammen besser zu verstehen, ist es hilfreich, drei zentrale Begriffe zu unterscheiden:\n\nAlgorithmus: Die abstrakte Beschreibung einer Lösungsmethode in Form einer präzisen, endlichen Sequenz von individuellen Anweisungen. Ein Algorithmus ist unabhängig von der konkreten Umsetzung und kann sowohl von Menschen als auch von Maschinen ausgeführt werden.\nProgramm: Die konkrete Implementation eines oder mehrerer Algorithmen in einer Programmiersprache. Das Programm übersetzt die abstrakten Anweisungen des Algorithmus in eine Form, die ein Computer verstehen und ausführen kann.\nProzess: Die tatsächliche Ausführung eines Programms durch einen Computer. Dabei werden die programmierten Anweisungen Schritt für Schritt abgearbeitet, um das gewünschte Ergebnis zu erzielen.",
+    "title": "4  Algorithmen",
+    "section": "4.2 Was ist ein Algorithmus?",
+    "text": "4.2 Was ist ein Algorithmus?\n\n4.2.1 Herkunft des Begriffs\nDer Begriff “Algorithmus” stammt vom Namen des persischen Mathematikers Muhammad al-Khwarizmi, der um das Jahr 780 n. Chr. geboren wurde. Al-Khwarizmi war ein bedeutender Gelehrter am Hofe des Kalifen al-Mamun und verfasste dort Schriften, die den Gebrauch der indischen Zahlzeichen erklärten. Diese Schriften wurden im 12. Jahrhundert ins Lateinische übersetzt, wobei der Titel “Algoritmi de numero Indorum” verwendet wurde. Im Laufe der Zeit wurde der Name al-Khwarizmi zur Bezeichnung für die von ihm beschriebenen Rechenverfahren und entwickelte sich schließlich zum modernen Begriff “Algorithmus”.\nHeute bezeichnet ein Algorithmus eine präzise Abfolge von Anweisungen, die ein bestimmtes Problem lösen oder eine Aufgabe erfüllen sollen. Im Alltag begegnen uns Algorithmen ständig, oft, ohne dass wir es merken: beim Kochen, bei der Wegbeschreibung oder beim Aufbau eines IKEA-Regals.\n\n\n4.2.2 Algorithmen und Programme\nEin wichtiger Aspekt von Algorithmen ist ihre Universalität: Sie sind nicht an Computer gebunden. Ein Algorithmus ist im Kern eine strukturierte Anleitung zur Problemlösung, unabhängig davon, wer oder was diese Anleitung ausführt. Diese Flexibilität zeigt sich besonders deutlich in unserem Alltag, wo wir ständig algorithmische Anleitungen befolgen - sei es beim Aufbau eines Möbelstücks oder beim Kochen nach einem Rezept. Bei diesen Tätigkeiten führen wir Menschen die algorithmischen Schritte aus, ganz ohne Beteiligung eines Computers:\n\nKochen: Ein Rezept ist ein Algorithmus für die Zubereitung eines Gerichts.\n\nComment\n\nWegbeschreibung: Eine Schritt-für-Schritt-Anleitung, um von Punkt A nach Punkt B zu gelangen.\nBastelanleitung: Die Anweisungen, um ein Modellflugzeug zusammenzubauen.\n\nViele Algorithmen können von Computern ausgeführt werden. Dafür ist jedoch eine Übersetzung in eine maschinenverständliche Form notwendig. Diese Übersetzung erfolgt durch das Programmieren, wobei wir den Algorithmus in einer Programmiersprache formulieren. Um die Beziehung zwischen Algorithmen und Computerprogrammen besser zu verstehen, ist es hilfreich, drei zentrale Begriffe zu unterscheiden:\n\nAlgorithmus: Die abstrakte Beschreibung einer Lösungsmethode in Form einer präzisen, endlichen Sequenz von individuellen Anweisungen. Ein Algorithmus ist unabhängig von der konkreten Umsetzung und kann sowohl von Menschen als auch von Maschinen ausgeführt werden.\nProgramm: Die konkrete Implementation eines oder mehrerer Algorithmen in einer Programmiersprache. Das Programm übersetzt die abstrakten Anweisungen des Algorithmus in eine Form, die ein Computer verstehen und ausführen kann.\nProzess: Die tatsächliche Ausführung eines Programms durch einen Computer. Dabei werden die programmierten Anweisungen Schritt für Schritt abgearbeitet, um das gewünschte Ergebnis zu erzielen.",
     "crumbs": [
       "Probleme",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Algorithmen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Algorithmen</span>"
     ]
   },
   {
     "objectID": "algorithms.html#kategorien",
     "href": "algorithms.html#kategorien",
-    "title": "5  Algorithmen",
-    "section": "5.3 Kategorien",
-    "text": "5.3 Kategorien\nAlgorithmen können nach ihrer Funktion und ihrem Anwendungsbereich in verschiedene Kategorien eingeteilt werden. Jede Kategorie repräsentiert einen spezifischen Problemlösungsansatz:\n\nMathematische Algorithmen: Berechnen oder approximieren Werte\nSuchalgorithmen: Finden bestimmte Elemente in einer Datenmenge\nSortieralgorithmen: Ordnen Daten nach bestimmten Kriterien\nOptimierungsalgorithmen: Finden die bestmögliche Lösung für ein Problem\nGraphenalgorithmen: Arbeiten mit vernetzten Strukturen\nStochastische Algorithmen: Verwenden Zufallselemente, um ein Problem zu lösen\nMaschinelle Lernalgorithmen: Erkennen Muster und treffen Vorhersagen\n\nDiese Kategorien sind weder vollständig noch strikt voneinander getrennt. Viele Algorithmen lassen sich mehreren Kategorien zuordnen. Ein anschauliches Beispiel hierfür ist der Dijkstra-Algorithmus, der die kürzeste Route zwischen zwei Punkten findet. Er ist sowohl ein Graphenalgorithmus, da er auf vernetzten Strukturen arbeitet, als auch ein Optimierungsalgorithmus, da er die optimale (kürzeste) Route ermittelt.\nIm folgenden beleuchten wir ein oder mehr Beispiele für jeder der genannten Klassen.\n\n5.3.1 Mathematische Algorithmen\n\n5.3.1.1 Größter gemeinsamer Teiler (GGT)\nDer Algorithmus zur Berechnung des größten gemeinsamen Teilers (GGT) ist ein klassisches Beispiel für einen eleganten mathematischen Algorithmus. Er wurde vom griechischen Mathematiker Euklid um 300 v. Chr. in seinem Werk “Die Elemente” beschrieben und demonstriert eindrucksvoll die zeitlose Natur algorithmischen Denkens.\nDas Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen. Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen.\nDer Block unten zeigt die Schritte des Euklidschen Algorithmus für das obige Zahlenbeispiel.\nLoop 1:\na = 18, b = 48 \na &lt; b → swap: a = 48, b = 18\na = 48 - 18 = 30\n\nLoop 2: \na = 30, b = 18 \na &gt;= b → no swap\na = 30 - 18 = 12\n\nLoop 3: \na = 12, b = 18 \na &lt; b → swap: a = 18, b = 12\na = 18 - 12 = 6\n\nLoop 4:\na = 6, b = 12 \na &lt; b → swap: a = 12, b = 6\na = 12 - 6 = 6\n\nLoop 5:\na = 6, b = 6 \na &gt;= b → no swap\na = 6 - 6 = 0\n\nresult: b = 6\n\n\n5.3.1.2 Babylonisches Wurzelziehen\n\n\n\n5.3.2 Suchalgorithmen\n\n5.3.2.1 Lineare Suche\n\n\n5.3.2.2 Binäre Suche\n\n\n5.3.2.3 Suche in Bäumen\n\n\n\n5.3.3 Sortieralgorithmen\n\n\n5.3.4 Optimierungsalgorithmen\n\n5.3.4.1 Dijkstra-Algorithmus\n\n\n\n5.3.5 Graphenalgorithmen\n\n\n5.3.6 Stochastische Algorithmen\n\n5.3.6.1 \n\n\n\n5.3.7 Maschinelle Lernalgorithmen",
+    "title": "4  Algorithmen",
+    "section": "4.3 Kategorien",
+    "text": "4.3 Kategorien\nAlgorithmen können nach ihrer Funktion und ihrem Anwendungsbereich in verschiedene Kategorien eingeteilt werden. Jede Kategorie repräsentiert einen spezifischen Problemlösungsansatz:\n\nMathematische Algorithmen: Berechnen oder approximieren Werte\nSuchalgorithmen: Finden bestimmte Elemente in einer Datenmenge\nSortieralgorithmen: Ordnen Daten nach bestimmten Kriterien\nOptimierungsalgorithmen: Finden die bestmögliche Lösung für ein Problem\nGraphenalgorithmen: Arbeiten mit vernetzten Strukturen\nStochastische Algorithmen: Verwenden Zufallselemente, um ein Problem zu lösen\nMaschinelle Lernalgorithmen: Erkennen Muster und treffen Vorhersagen\n\nDiese Kategorien sind weder vollständig noch strikt voneinander getrennt. Viele Algorithmen lassen sich mehreren Kategorien zuordnen. Ein anschauliches Beispiel hierfür ist der Dijkstra-Algorithmus, der die kürzeste Route zwischen zwei Punkten findet. Er ist sowohl ein Graphenalgorithmus, da er auf vernetzten Strukturen arbeitet, als auch ein Optimierungsalgorithmus, da er die optimale (kürzeste) Route ermittelt.\nIm folgenden beleuchten wir ein oder mehr Beispiele für jeder der genannten Klassen.\n\n4.3.1 Mathematische Algorithmen\n\n4.3.1.1 Größter gemeinsamer Teiler (GGT)\nDer Algorithmus zur Berechnung des größten gemeinsamen Teilers (GGT) ist ein klassisches Beispiel für einen eleganten mathematischen Algorithmus. Er wurde vom griechischen Mathematiker Euklid um 300 v. Chr. in seinem Werk “Die Elemente” beschrieben und demonstriert eindrucksvoll die zeitlose Natur algorithmischen Denkens.\nDas Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen. Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen.\nDer Block unten zeigt die Schritte des Euklidschen Algorithmus für das obige Zahlenbeispiel.\nLoop 1:\na = 18, b = 48 \na &lt; b → swap: a = 48, b = 18\na = 48 - 18 = 30\n\nLoop 2: \na = 30, b = 18 \na &gt;= b → no swap\na = 30 - 18 = 12\n\nLoop 3: \na = 12, b = 18 \na &lt; b → swap: a = 18, b = 12\na = 18 - 12 = 6\n\nLoop 4:\na = 6, b = 12 \na &lt; b → swap: a = 12, b = 6\na = 12 - 6 = 6\n\nLoop 5:\na = 6, b = 6 \na &gt;= b → no swap\na = 6 - 6 = 0\n\nresult: b = 6\n\n\n4.3.1.2 Babylonisches Wurzelziehen\n\n\n\n4.3.2 Suchalgorithmen\n\n4.3.2.1 Lineare Suche\n\n\n4.3.2.2 Binäre Suche\n\n\n4.3.2.3 Suche in Bäumen\n\n\n\n4.3.3 Sortieralgorithmen\n\n\n4.3.4 Optimierungsalgorithmen\n\n4.3.4.1 Dijkstra-Algorithmus\n\n\n\n4.3.5 Graphenalgorithmen\n\n\n4.3.6 Stochastische Algorithmen\n\n4.3.6.1 \n\n\n\n4.3.7 Maschinelle Lernalgorithmen",
     "crumbs": [
       "Probleme",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Algorithmen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Algorithmen</span>"
     ]
   },
   {
     "objectID": "algorithms.html#iteration-und-rekursion",
     "href": "algorithms.html#iteration-und-rekursion",
-    "title": "5  Algorithmen",
-    "section": "5.4 Iteration und Rekursion",
-    "text": "5.4 Iteration und Rekursion\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "4  Algorithmen",
+    "section": "4.4 Iteration und Rekursion",
+    "text": "4.4 Iteration und Rekursion\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Probleme",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Algorithmen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Algorithmen</span>"
     ]
   },
   {
-    "objectID": "information-representation.html",
-    "href": "information-representation.html",
+    "objectID": "part-representation.html",
+    "href": "part-representation.html",
     "title": "Repräsentation",
     "section": "",
     "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
@@ -232,171 +221,171 @@
   {
     "objectID": "information.html",
     "href": "information.html",
-    "title": "6  Informationen",
+    "title": "5  Informationen",
     "section": "",
-    "text": "6.1 Information in der Informatik\nHast du dich jemals gefragt, was eigentlich Information genau ist? Jeder hat eine intuitive Vorstellung davon, was wir mit Information meinen. Aber was ist die genaue Definition? Und wie ist der Begriff Information im Zusammenhang mit digtialen Computern gemeint?\nHier schon einmal eine Definition, die wir in diesem Kapitel anhand von einigen Beispielen genauer verstehen wollen.",
+    "text": "5.1 Information in der Informatik\nHast du dich jemals gefragt, was eigentlich Information genau ist? Jeder hat eine intuitive Vorstellung davon, was wir mit Information meinen. Aber was ist die genaue Definition? Und wie ist der Begriff Information im Zusammenhang mit digtialen Computern gemeint?\nHier schon einmal eine Definition, die wir in diesem Kapitel anhand von einigen Beispielen genauer verstehen wollen.",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Informationen</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Informationen</span>"
     ]
   },
   {
     "objectID": "information.html#information-in-der-informatik",
     "href": "information.html#information-in-der-informatik",
-    "title": "6  Informationen",
+    "title": "5  Informationen",
     "section": "",
-    "text": "Lauet dieser Definition erhöht Information unsere Treffsicherheit bei Vorhersagen.\n\n\n\n6.1.1 Zahlenraten\nUm der Information auf die Spur zu kommen beginnen wir mit einem Gedankenexperiment. Stell dir vor, wir spielen ein Zahlenratespiel. Ich denke an eine Zahl zwischen 1 und 16, und dein Ziel ist es, sie zu erraten. Der Haken ist, dass du nur einen Versuch hast, die richtige Zahl zu erraten, aber du kannst die Möglichkeiten vorher durch Fragen der Form “Ist die Zahl größer als X?” eingrenzen. Für jede Frage werde ich dir mit “ja” oder “nein” antworten und damit die verbleibenden Optionen reduzieren.\nMit jeder Antwort, die du erhältst, wächst dein Wissen über meine Zahl, was bedeutet, dass deine Unsicherheit bezüglich der gesuchten Zahl abnimmt. Du kannst einige mögliche Zahlen ausschließen, wenn du eine neue Antwort erhältst.\nWir halten zunächst fest, dass das Eingrenzen der verbleibenden Möglichkeiten die Unsicherheit reduziert. Wir untersuchen nun, wie diese Idee die Grundlage der Informationstheorie bildet. Durch die Reduzierung der Unsicherheit sammeln wir mit jedem Versuch mehr Information. Aber wie viel Information erhältst du mit jeder Antwort? Und wie können wir das messen?\n\n\n\nIch denke an eine Zahl zwischen 1 und 16. Deine Aufgabe ist es, die Zahl mit so wenig Fragen wie möglich zu erraten.\n\n\n\n\n6.1.2 Bit für Bit\nIn der Informatik kann Information definiert werden als “das, was es ermöglicht, eine korrekte Vorhersage mit besserer Genauigkeit als der Zufall zu treffen” [CITE]. Einfacher ausgedrückt bedeutet dies, die Unsicherheit durch Eingrenzung der möglichen Optionen zu reduzieren.\nVor diesem Hintergrund wollen wir unser Zahlenratespiel noch einmal genauer betrachten. Wie oben beschrieben, versuchst du meine Zahl zu erraten, und jede Antwort, die du von mir erhältst, grenzt den Bereich der möglichen Zahlen ein. Diese Reduzierung der Unsicherheit kann mit einer Einheit namens Bit gemessen werden. Ein Bit, was für binary digit (Binärziffer) steht, ist die grundlegende Einheit der Information. Es zeigt eine Halbierung der Unsicherheit an. Einfacher ausgedrückt: Wenn eine neue Antwort nur noch halb so viele Optionen wie zuvor übrig lässt, liefert sie uns genau ein Bit an Information.\nAllerdings werden nicht alle Fragen und deren Antworten genau ein Bit Information liefern. Wenn zum Beispiel deine erste Frage im Ratespiel lautet: “Ist deine Zahl größer als 12?” und die Antwort “nein” ist, bleiben die Zahlen 1 bis 12 übrig. Das bedeutet, du hast noch 12 Optionen von ursprünglich 16, was die Unsicherheit nicht halbiert. Es werden nur 4 statt der nötigen 8 Möglichkeiten entfernt. Lautet die Antwort dagegen “ja”, so kannst du insgesamt 12 Möglichkeiten streichen, was mehr als der Hälfte entspricht und der Informationsgehalt der Antwort wäre größer als ein Bit.\nUm genau ein Bit Information zu erhalten, solltest du darauf abzielen, mit jeder Frage genau die Hälfte der möglichen Zahlen auszuschließen. Wenn du zum Beispiel fragst “Ist deine Zahl größer als 8?”, stellst du sicher, dass du - egal ob die Antwort “ja” oder “nein” ist - in beiden Fällen 8 mögliche Zahlen übrig behältst. Ist die Antwort “ja”, bleiben die Zahlen 9 bis 16 übrig. Ist die Antwort “nein”, bleiben die Zahlen 1 bis 8. In beiden Szenarien wird deine Unsicherheit um die Hälfte reduziert, also um ein Bit.\nIndem du deine Fragen sorgfältig so wählst, dass sie die verbleibenden Optionen jedes Mal halbieren, reduzierst du deine Unsicherheit Bit für Bit und machst es dir leichter und schneller, die richtige Zahl zu finden.\n\n\n\nDeine Fragen sollten die Anzahl der Möglichkeiten halbieren.\n\n\nAngenommen, die Antwort auf deine erste Frage “Ist deine Zahl größer als 8?” war “nein”. Was sollte deine nächste Frage sein, um die Unsicherheit weiterhin effektiv zu reduzieren? Die beste Strategie ist es zu fragen: “Ist sie größer als 4?”. Diese Vorgehensweise stellt sicher, dass dir immer nur vier mögliche Zahlen bleiben: entweder 1 bis 4, wenn die Antwort “nein” ist, oder 5 bis 8, wenn die Antwort “ja” ist. Erneut halbiert dies die verbleibenden Optionen und liefert genau ein Bit an Information.\n\n\n\nNach zwei Fragen bleiben noch 4 Möglichkeitn, wenn die Fragen gut gewählt wurden.\n\n\nLass uns mit dieser Methode fortfahren. Angenommen, deine zweite Frage “Ist sie größer als 4?” erhält ein “nein” als Antwort. Deine neue Auswahl an Zahlen ist auf 1, 2, 3 und 4 begrenzt. Um die Unsicherheit weiter zu reduzieren, wäre die nächste logische Frage: “Ist sie größer als 2?” Dies lässt dir entweder die Zahlen 1 und 2 oder 3 und 4, abhängig von der Antwort.\nIndem du weiterhin Fragen stellst, die systematisch die verbleibenden Optionen halbieren, kannst du sehen, wie wir schrittweise die Unsicherheit Bit für Bit reduzieren. Schließlich wirst du nach nur vier Fragen die Zahl auf genau eine eingrenzen, da keine anderen Möglichkeiten mehr übrig sind. Das bedeutet, du hast die Unsicherheit auf null reduziert.\n\n\n\nWir benötigen vier Ja/Nein-Fragen, um die Optionen von 16 auf eine einzige zu reduzieren.\n\n\n\n\n6.1.3 Unsicherheit\nWir haben gerade gelernt, dass wir mit jeder Ja/Nein-Frage, die die Hälfte der Möglichkeiten eliminiert, ein Bit an Information gewinnen. Aber wie können wir dieses Konzept der Reduktion von Unsicherheit mathematisch quantifizieren? Wir gehen das Schritt für Schritt durch.\nStell dir vor, du bist am Anfang unseres Zahlenratespiels. Es gibt 16 mögliche Zahlen, an die ich denken könnte, daher ist deine Wahrscheinlichkeit, beim ersten Versuch die richtige Zahl zu erraten, ziemlich gering:\n\\[\nP_{correct} = \\frac{1}{16}\n\\]\nDas entspricht einer Wahrscheinlichkeit von nur 0,0625 - definitiv nicht zu deinen Gunsten. Angenommen, du stellst eine Frage, die die Möglichkeiten auf die Hälfte reduziert. Jetzt verbessert sich deine Chance, richtig zu raten:\n\\[\nP_{correct} = \\frac{1}{8}\n\\]\nMit jeder weiteren Frage verdoppelt sich diese Wahrscheinlichkeit, während sich deine Unsicherheit halbiert. Ist Wahrscheinlichkeit die beste Methode, um Unsicherheit zu messen? Wenn wir möchten, dass unser Maß für Unsicherheit abnimmt, während wir mehr Informationen sammeln, ist es es sinnvoll, den Kehrwert der Wahrscheinlichkeit zu verwenden. Das entspräche der Anzahl an Möglichkeiten, die noch im Rennen sind.\nZu Beginn gibt es 16 Möglichkeiten, also begänne die Unsicherheit bei 16. Nach der ersten Frage fiele sie auf 8, dann auf 4, 2 und schließlich 1. Allerdings würde dieses Maß uns selbst dann, wenn nur noch eine Option übrig ist, eine gewisse Unsicherheit, nämlich 1, anzeigen, was nicht ganz unserem intuitiven Verständnis entspricht. Wenn wir sicher sind, dann sollte die Unsicherheit 0 sein.\nClaude Shannon, der Vater der Informationstheorie, schlug einen anderen Ansatz vor. Er empfahl, die Unsicherheit mithilfe des Logarithmus zur Basis 2 der Anzahl der Möglichkeiten zu messen:\n\\[\nH = log_2(N)\n\\]\nDiese Methode hat mehrere Vorteile. Erstens ist die Unsicherheit gleich null, wenn es nur eine mögliche Antwort gibt (N=1), was mit unserer Intuition übereinstimmt:\n\\[\nlog_2(1) = 0\n\\]\nEin weiterer Vorteil ist die Einfachheit der Berechnungen, besonders wenn es um mehrere unabhängige Unsicherheiten geht. Nehmen wir an, das Spiel ändert sich: Jetzt denke ich an zwei unabhängige Zahlen zwischen 1 und 16. Bevor du irgendwelche Fragen stellst, beträgt deine Unsicherheit für jede Zahl:\n\\[\nlog_2(16)= 4~bits\n\\]\nDie Gesamtunsicherheit für beide Zahlen ist einfach die Summe ihrer individuellen Unsicherheiten:\n\\[\nlog_2(16)+log_2(16)=8~bits\n\\]\nWenn wir stattdessen Wahrscheinlichkeiten verwenden, müssten wir die Chancen multiplizieren, um die Wahrscheinlichkeit zu finden, beide Zahlen korrekt zu erraten:\n\\[\nP_{correct,correct}=\\frac{1}{16}\\times\\frac{1}{16}=\\frac{1}{256}\n\\]\nMit beiden Zahlen gibt es 256 Möglichkeiten. Mit Shannons Methode erhalten wir das gleiche Ergebnis:\n\\[\nlog_2(256)=8~bits\n\\]\nWie du siehst, vereinfacht die Verwendung von Logarithmen unsere Berechnungen, besonders wenn es um mehrere Quellen der Unsicherheit geht. Diese Klarheit und Einfachheit sind der Grund, warum Shannons Ansatz fundamental für die Informationstheorie geworden ist.\n\n\n6.1.4 Information\nUm den Begriff Information aus dem Begriff der Unsicherheit herzuleiten, betrachten wir zwei Zustände: Die ursprüngliche Unsicherheit vor einer Frage, die wir als \\(H_0\\) bezeichnen, und die reduzierte Unsicherheit nach der Antwort, die wir \\(H_1\\) nennen. Die Menge an Information \\(I\\), die wir durch die Antwort gewinnen, entspricht der Differenz dieser beiden Unsicherheiten:\n\\[\nI = H_0 - H_1\n\\]\nInformation ist also die Reduzierung von Unsicherheit. Mit der obigen Formel können wir die Information \\(I\\) präzise quantifizieren. Dies ermöglicht uns zu berechnen, wie viel Information wir durch jede Frage gewinnen. Betrachten wir ein konkretes Beispiel aus unserem Zahlenratespiel: Angenommen, deine erste Frage ist “Ist deine Zahl größer als 12?” und die Antwort lautet “nein”. Dann bleiben die Zahlen 1 bis 12 als Möglichkeiten übrig. Die gewonnene Information berechnet sich wie folgt:\n\\[\nI = log_2(16) - log_2(12) \\approx 4 - 3.585 \\approx 0.415~bits\n\\]\nIn diesem Fall lieferte die Antwort etwa 0,415 Bits an Information – also weniger als ein Bit. Das ist folgerichtig, da die Antwort weniger als die Hälfte der Möglichkeiten eliminiert hat.\nWie sähe es aus, wenn die Antwort “ja” gewesen wäre? In diesem Fall blieben nur die Zahlen 13, 14, 15 und 16 übrig, also vier mögliche Optionen:\n\\[\nI = log_2(16) - log_2(4) = 4-2= 2~bits\n\\]\nDiese Antwort lieferte mehr als ein Bit, nämlich 2 Bits. Wie lässt sich dieser Unterschied erklären?\n\n\n6.1.5 Unwahrscheinliche Antworten\nDie Menge an Information hängt von der Wahrscheinlichkeit der jeweiligen Antwort ab. Bei einer Frage, die die Möglichkeiten halbiert, hat jede Antwort “Ja” oder “Nein” auf die Frage “Ist die Zahl größer als X?” eine Wahrscheinlichkeit von genau 50%. Diese gleichmäßige Verteilung vereinfacht die Berechnung und liefert genau ein Bit an Information.\nBei der Frage “Ist deine Zahl größer als 12?” sind die beiden Antworten “Ja” und “Nein” allerdings nicht gleich wahrscheinlich. Es gibt zwölf mögliche Zahlen, die ein “Nein” ergeben und nur vier, die ein “Ja” ergeben, was Wahrscheinlichkeiten von 75% für “Nein” und 25% für “Ja” bedeutet. Da die “Ja”-Antwort weniger wahrscheinlich ist, ist sie überraschender – und liefert deshalb mehr Information. Wie wir berechnet haben, gibt uns ein “Ja” 2 Bits an Information, während ein “Nein” nur 0,415 Bits liefert.\nDieser Zusammenhang ist ein Kernprinzip der Informationstheorie: Je unwahrscheinlicher ein Ereignis ist, desto mehr Information enthält sein Auftreten. Umgekehrt liefert eine sehr wahrscheinliche Antwort, wie das “Nein” im obigen Beispiel, weniger Information, da sie weniger überraschend ist.\nWarum zielen wir darauf ab, Fragen zu stellen, die die Möglichkeiten gleichmäßig halbieren? Man könnte auch wild raten in der Hoffnung, durch eine unwahrscheinlichere Antwort mehr Informationen zu bekommen – auch wenn man seltener richtig liegt. Die Antwort ist einfach: Eine Frage, die den Raum der Möglichkeiten halbiert, maximiert unseren erwarteten Informationsgewinn. Zwar können wir mit einer riskanten Frage wie “Ist die Zahl größer 15?” unser Glück herausfordern und im Erfolgsfall die Unsicherheit stark verringern. Dies ist jedoch keine nachhaltige Strategie. Wenn wir das Spiel nicht nur einmal, sondern 10, 100 oder 1000 Mal spielen, nähern wir uns im Mittel dem Erwartungswert für die gewonnene Information \\(E[I]\\). Und dieser Erwartungswert favorisiert eindeutig Fragen, die die Hälfte der Möglichkeiten eliminieren.\nUm dies zu verdeutlichen, berechnen wir zunächst den Erwartungswert für die extreme Frage “Ist die Zahl größer 15?”:\n\\[\nE[I] = \\left( \\frac{1}{16}\\times 4 \\right)+ \\left(\\frac{15}{16}\\times 0.09311 \\right)= 0.3373\n\\]\nDer Erwartungswert berechnet sich durch den mit der Wahrscheinlichkeit gewichteten Informationsgewinn für jede mögliche Antwort. Bei der Frage “Ist die Zahl größer als 15?” gibt es ein “Ja” nur dann, wenn die Zahl 16 ist. Von den sechzehn möglichen Zahlen erzeugt also nur eine diese Antwort. Die Wahrscheinlichkeit beträgt somit \\(\\frac{1}{16}\\). In diesem Fall reduziert sich unsere Unsicherheit sofort auf Null, da nur noch eine einzige Möglichkeit übrig bleibt. Die ursprüngliche Unsicherheit betrug 4 Bits:\n\\[\nH_0 = log_2(16) = 4~bits\n\\]\nUnd wenn die Unsicherheit nach der Antwort “Ja” auf Null reduziert wird:\n\\[\nH_1 = log_2(1) = 0~bits\n\\]\nDaraus ergibt sich ein Informationsgehalt von 4 Bits:\n\\[\nI = H_0 - H_1 = 4 - 0 = 4~bits\n\\]\nDies erklärt den ersten Teil der Erwartungswertgleichung. Der zweite Teil folgt demselben Prinzip, allerdings mit einem wichtigen Unterschied: Die Wahrscheinlichkeit für die Antwort “Nein” ist mit \\(\\frac{15}{16}\\) deutlich höher. Gleichzeitig verbleibt eine große Restunsicherheit \\(H_1\\), da wir lediglich eine einzige Zahl ausschließen konnten:\n\\[\nH_1 = log_2(15) \\approx 3.9069~bits\n\\]\nDie gewonnene Information ist somit sehr klein:\n\\[\nI = 4 - 3.9069 \\approx 0.0931~bits\n\\]\nAnhand der Erwartungswertformel konnten wir zeigen, dass eine extreme Frage, die mit viel Glück direkt zum Ziel führt, in unserem Ratespiel einen erwarteten Informationsgehalt von etwa einem Drittel Bit (0,3373) hat. Prüfen wir nun, ob der Erwartungswert für Fragen, die die Hälfte der Möglichkeiten eliminieren, tatsächlich höher ist:\n\\[\nE[I] = \\left(0.5 \\times 1 \\right) + \\left(0.5 \\times 1 \\right) = 0.5 + 0.5 = 1~bit\n\\]\nWie erwartet beträgt der Erwartungswert genau 1 Bit, da bei jeder Antwort – ob “Ja” oder “Nein” – jeweils die Hälfte der Optionen eliminiert wird.\n\n\n6.1.6 Mehr als zwei Antworten\nBisher haben wir in unserem Zahlenratespiel nur Fragen mit zwei Antwortmöglichkeiten betrachtet. Informationen, also Antworten auf Fragen, können jedoch vielfältiger sein. Wie berechnen wir die Information, wenn es mehr als zwei Antwortmöglichkeiten gibt?\nAls Beispiel betrachten wir eine Urne mit farbigen Kugeln in drei Farben: Rot, Grün und Blau. Aus dieser Urne ziehen wir zwei Kugeln, wobei wir nach jedem Zug die gezogene Kugel zurück in die Urne legen. Dieses statistische Experiment bezeichnet man als “Ziehen mit Zurücklegen”.",
+    "text": "Lauet dieser Definition erhöht Information unsere Treffsicherheit bei Vorhersagen.\n\n\n\n5.1.1 Zahlenraten\nUm der Information auf die Spur zu kommen beginnen wir mit einem Gedankenexperiment. Stell dir vor, wir spielen ein Zahlenratespiel. Ich denke an eine Zahl zwischen 1 und 16, und dein Ziel ist es, sie zu erraten. Der Haken ist, dass du nur einen Versuch hast, die richtige Zahl zu erraten, aber du kannst die Möglichkeiten vorher durch Fragen der Form “Ist die Zahl größer als X?” eingrenzen. Für jede Frage werde ich dir mit “ja” oder “nein” antworten und damit die verbleibenden Optionen reduzieren.\nMit jeder Antwort, die du erhältst, wächst dein Wissen über meine Zahl, was bedeutet, dass deine Unsicherheit bezüglich der gesuchten Zahl abnimmt. Du kannst einige mögliche Zahlen ausschließen, wenn du eine neue Antwort erhältst.\nWir halten zunächst fest, dass das Eingrenzen der verbleibenden Möglichkeiten die Unsicherheit reduziert. Wir untersuchen nun, wie diese Idee die Grundlage der Informationstheorie bildet. Durch die Reduzierung der Unsicherheit sammeln wir mit jedem Versuch mehr Information. Aber wie viel Information erhältst du mit jeder Antwort? Und wie können wir das messen?\n\n\n\nIch denke an eine Zahl zwischen 1 und 16. Deine Aufgabe ist es, die Zahl mit so wenig Fragen wie möglich zu erraten.\n\n\n\n\n5.1.2 Bit für Bit\nIn der Informatik kann Information definiert werden als “das, was es ermöglicht, eine korrekte Vorhersage mit besserer Genauigkeit als der Zufall zu treffen” [CITE]. Einfacher ausgedrückt bedeutet dies, die Unsicherheit durch Eingrenzung der möglichen Optionen zu reduzieren.\nVor diesem Hintergrund wollen wir unser Zahlenratespiel noch einmal genauer betrachten. Wie oben beschrieben, versuchst du meine Zahl zu erraten, und jede Antwort, die du von mir erhältst, grenzt den Bereich der möglichen Zahlen ein. Diese Reduzierung der Unsicherheit kann mit einer Einheit namens Bit gemessen werden. Ein Bit, was für binary digit (Binärziffer) steht, ist die grundlegende Einheit der Information. Es zeigt eine Halbierung der Unsicherheit an. Einfacher ausgedrückt: Wenn eine neue Antwort nur noch halb so viele Optionen wie zuvor übrig lässt, liefert sie uns genau ein Bit an Information.\nAllerdings werden nicht alle Fragen und deren Antworten genau ein Bit Information liefern. Wenn zum Beispiel deine erste Frage im Ratespiel lautet: “Ist deine Zahl größer als 12?” und die Antwort “nein” ist, bleiben die Zahlen 1 bis 12 übrig. Das bedeutet, du hast noch 12 Optionen von ursprünglich 16, was die Unsicherheit nicht halbiert. Es werden nur 4 statt der nötigen 8 Möglichkeiten entfernt. Lautet die Antwort dagegen “ja”, so kannst du insgesamt 12 Möglichkeiten streichen, was mehr als der Hälfte entspricht und der Informationsgehalt der Antwort wäre größer als ein Bit.\nUm genau ein Bit Information zu erhalten, solltest du darauf abzielen, mit jeder Frage genau die Hälfte der möglichen Zahlen auszuschließen. Wenn du zum Beispiel fragst “Ist deine Zahl größer als 8?”, stellst du sicher, dass du - egal ob die Antwort “ja” oder “nein” ist - in beiden Fällen 8 mögliche Zahlen übrig behältst. Ist die Antwort “ja”, bleiben die Zahlen 9 bis 16 übrig. Ist die Antwort “nein”, bleiben die Zahlen 1 bis 8. In beiden Szenarien wird deine Unsicherheit um die Hälfte reduziert, also um ein Bit.\nIndem du deine Fragen sorgfältig so wählst, dass sie die verbleibenden Optionen jedes Mal halbieren, reduzierst du deine Unsicherheit Bit für Bit und machst es dir leichter und schneller, die richtige Zahl zu finden.\n\n\n\nDeine Fragen sollten die Anzahl der Möglichkeiten halbieren.\n\n\nAngenommen, die Antwort auf deine erste Frage “Ist deine Zahl größer als 8?” war “nein”. Was sollte deine nächste Frage sein, um die Unsicherheit weiterhin effektiv zu reduzieren? Die beste Strategie ist es zu fragen: “Ist sie größer als 4?”. Diese Vorgehensweise stellt sicher, dass dir immer nur vier mögliche Zahlen bleiben: entweder 1 bis 4, wenn die Antwort “nein” ist, oder 5 bis 8, wenn die Antwort “ja” ist. Erneut halbiert dies die verbleibenden Optionen und liefert genau ein Bit an Information.\n\n\n\nNach zwei Fragen bleiben noch 4 Möglichkeitn, wenn die Fragen gut gewählt wurden.\n\n\nLass uns mit dieser Methode fortfahren. Angenommen, deine zweite Frage “Ist sie größer als 4?” erhält ein “nein” als Antwort. Deine neue Auswahl an Zahlen ist auf 1, 2, 3 und 4 begrenzt. Um die Unsicherheit weiter zu reduzieren, wäre die nächste logische Frage: “Ist sie größer als 2?” Dies lässt dir entweder die Zahlen 1 und 2 oder 3 und 4, abhängig von der Antwort.\nIndem du weiterhin Fragen stellst, die systematisch die verbleibenden Optionen halbieren, kannst du sehen, wie wir schrittweise die Unsicherheit Bit für Bit reduzieren. Schließlich wirst du nach nur vier Fragen die Zahl auf genau eine eingrenzen, da keine anderen Möglichkeiten mehr übrig sind. Das bedeutet, du hast die Unsicherheit auf null reduziert.\n\n\n\nWir benötigen vier Ja/Nein-Fragen, um die Optionen von 16 auf eine einzige zu reduzieren.\n\n\n\n\n5.1.3 Unsicherheit\nWir haben gerade gelernt, dass wir mit jeder Ja/Nein-Frage, die die Hälfte der Möglichkeiten eliminiert, ein Bit an Information gewinnen. Aber wie können wir dieses Konzept der Reduktion von Unsicherheit mathematisch quantifizieren? Wir gehen das Schritt für Schritt durch.\nStell dir vor, du bist am Anfang unseres Zahlenratespiels. Es gibt 16 mögliche Zahlen, an die ich denken könnte, daher ist deine Wahrscheinlichkeit, beim ersten Versuch die richtige Zahl zu erraten, ziemlich gering:\n\\[\nP_{correct} = \\frac{1}{16}\n\\]\nDas entspricht einer Wahrscheinlichkeit von nur 0,0625 - definitiv nicht zu deinen Gunsten. Angenommen, du stellst eine Frage, die die Möglichkeiten auf die Hälfte reduziert. Jetzt verbessert sich deine Chance, richtig zu raten:\n\\[\nP_{correct} = \\frac{1}{8}\n\\]\nMit jeder weiteren Frage verdoppelt sich diese Wahrscheinlichkeit, während sich deine Unsicherheit halbiert. Ist Wahrscheinlichkeit die beste Methode, um Unsicherheit zu messen? Wenn wir möchten, dass unser Maß für Unsicherheit abnimmt, während wir mehr Informationen sammeln, ist es es sinnvoll, den Kehrwert der Wahrscheinlichkeit zu verwenden. Das entspräche der Anzahl an Möglichkeiten, die noch im Rennen sind.\nZu Beginn gibt es 16 Möglichkeiten, also begänne die Unsicherheit bei 16. Nach der ersten Frage fiele sie auf 8, dann auf 4, 2 und schließlich 1. Allerdings würde dieses Maß uns selbst dann, wenn nur noch eine Option übrig ist, eine gewisse Unsicherheit, nämlich 1, anzeigen, was nicht ganz unserem intuitiven Verständnis entspricht. Wenn wir sicher sind, dann sollte die Unsicherheit 0 sein.\nClaude Shannon, der Vater der Informationstheorie, schlug einen anderen Ansatz vor. Er empfahl, die Unsicherheit mithilfe des Logarithmus zur Basis 2 der Anzahl der Möglichkeiten zu messen:\n\\[\nH = log_2(N)\n\\]\nDiese Methode hat mehrere Vorteile. Erstens ist die Unsicherheit gleich null, wenn es nur eine mögliche Antwort gibt (N=1), was mit unserer Intuition übereinstimmt:\n\\[\nlog_2(1) = 0\n\\]\nEin weiterer Vorteil ist die Einfachheit der Berechnungen, besonders wenn es um mehrere unabhängige Unsicherheiten geht. Nehmen wir an, das Spiel ändert sich: Jetzt denke ich an zwei unabhängige Zahlen zwischen 1 und 16. Bevor du irgendwelche Fragen stellst, beträgt deine Unsicherheit für jede Zahl:\n\\[\nlog_2(16)= 4~bits\n\\]\nDie Gesamtunsicherheit für beide Zahlen ist einfach die Summe ihrer individuellen Unsicherheiten:\n\\[\nlog_2(16)+log_2(16)=8~bits\n\\]\nWenn wir stattdessen Wahrscheinlichkeiten verwenden, müssten wir die Chancen multiplizieren, um die Wahrscheinlichkeit zu finden, beide Zahlen korrekt zu erraten:\n\\[\nP_{correct,correct}=\\frac{1}{16}\\times\\frac{1}{16}=\\frac{1}{256}\n\\]\nMit beiden Zahlen gibt es 256 Möglichkeiten. Mit Shannons Methode erhalten wir das gleiche Ergebnis:\n\\[\nlog_2(256)=8~bits\n\\]\nWie du siehst, vereinfacht die Verwendung von Logarithmen unsere Berechnungen, besonders wenn es um mehrere Quellen der Unsicherheit geht. Diese Klarheit und Einfachheit sind der Grund, warum Shannons Ansatz fundamental für die Informationstheorie geworden ist.\n\n\n5.1.4 Information\nUm den Begriff Information aus dem Begriff der Unsicherheit herzuleiten, betrachten wir zwei Zustände: Die ursprüngliche Unsicherheit vor einer Frage, die wir als \\(H_0\\) bezeichnen, und die reduzierte Unsicherheit nach der Antwort, die wir \\(H_1\\) nennen. Die Menge an Information \\(I\\), die wir durch die Antwort gewinnen, entspricht der Differenz dieser beiden Unsicherheiten:\n\\[\nI = H_0 - H_1\n\\]\nInformation ist also die Reduzierung von Unsicherheit. Mit der obigen Formel können wir die Information \\(I\\) präzise quantifizieren. Dies ermöglicht uns zu berechnen, wie viel Information wir durch jede Frage gewinnen. Betrachten wir ein konkretes Beispiel aus unserem Zahlenratespiel: Angenommen, deine erste Frage ist “Ist deine Zahl größer als 12?” und die Antwort lautet “nein”. Dann bleiben die Zahlen 1 bis 12 als Möglichkeiten übrig. Die gewonnene Information berechnet sich wie folgt:\n\\[\nI = log_2(16) - log_2(12) \\approx 4 - 3.585 \\approx 0.415~bits\n\\]\nIn diesem Fall lieferte die Antwort etwa 0,415 Bits an Information – also weniger als ein Bit. Das ist folgerichtig, da die Antwort weniger als die Hälfte der Möglichkeiten eliminiert hat.\nWie sähe es aus, wenn die Antwort “ja” gewesen wäre? In diesem Fall blieben nur die Zahlen 13, 14, 15 und 16 übrig, also vier mögliche Optionen:\n\\[\nI = log_2(16) - log_2(4) = 4-2= 2~bits\n\\]\nDiese Antwort lieferte mehr als ein Bit, nämlich 2 Bits. Wie lässt sich dieser Unterschied erklären?\n\n\n5.1.5 Unwahrscheinliche Antworten\nDie Menge an Information hängt von der Wahrscheinlichkeit der jeweiligen Antwort ab. Bei einer Frage, die die Möglichkeiten halbiert, hat jede Antwort “Ja” oder “Nein” auf die Frage “Ist die Zahl größer als X?” eine Wahrscheinlichkeit von genau 50%. Diese gleichmäßige Verteilung vereinfacht die Berechnung und liefert genau ein Bit an Information.\nBei der Frage “Ist deine Zahl größer als 12?” sind die beiden Antworten “Ja” und “Nein” allerdings nicht gleich wahrscheinlich. Es gibt zwölf mögliche Zahlen, die ein “Nein” ergeben und nur vier, die ein “Ja” ergeben, was Wahrscheinlichkeiten von 75% für “Nein” und 25% für “Ja” bedeutet. Da die “Ja”-Antwort weniger wahrscheinlich ist, ist sie überraschender – und liefert deshalb mehr Information. Wie wir berechnet haben, gibt uns ein “Ja” 2 Bits an Information, während ein “Nein” nur 0,415 Bits liefert.\nDieser Zusammenhang ist ein Kernprinzip der Informationstheorie: Je unwahrscheinlicher ein Ereignis ist, desto mehr Information enthält sein Auftreten. Umgekehrt liefert eine sehr wahrscheinliche Antwort, wie das “Nein” im obigen Beispiel, weniger Information, da sie weniger überraschend ist.\nWarum zielen wir darauf ab, Fragen zu stellen, die die Möglichkeiten gleichmäßig halbieren? Man könnte auch wild raten in der Hoffnung, durch eine unwahrscheinlichere Antwort mehr Informationen zu bekommen – auch wenn man seltener richtig liegt. Die Antwort ist einfach: Eine Frage, die den Raum der Möglichkeiten halbiert, maximiert unseren erwarteten Informationsgewinn. Zwar können wir mit einer riskanten Frage wie “Ist die Zahl größer 15?” unser Glück herausfordern und im Erfolgsfall die Unsicherheit stark verringern. Dies ist jedoch keine nachhaltige Strategie. Wenn wir das Spiel nicht nur einmal, sondern 10, 100 oder 1000 Mal spielen, nähern wir uns im Mittel dem Erwartungswert für die gewonnene Information \\(E[I]\\). Und dieser Erwartungswert favorisiert eindeutig Fragen, die die Hälfte der Möglichkeiten eliminieren.\nUm dies zu verdeutlichen, berechnen wir zunächst den Erwartungswert für die extreme Frage “Ist die Zahl größer 15?”:\n\\[\nE[I] = \\left( \\frac{1}{16}\\times 4 \\right)+ \\left(\\frac{15}{16}\\times 0.09311 \\right)= 0.3373\n\\]\nDer Erwartungswert berechnet sich durch den mit der Wahrscheinlichkeit gewichteten Informationsgewinn für jede mögliche Antwort. Bei der Frage “Ist die Zahl größer als 15?” gibt es ein “Ja” nur dann, wenn die Zahl 16 ist. Von den sechzehn möglichen Zahlen erzeugt also nur eine diese Antwort. Die Wahrscheinlichkeit beträgt somit \\(\\frac{1}{16}\\). In diesem Fall reduziert sich unsere Unsicherheit sofort auf Null, da nur noch eine einzige Möglichkeit übrig bleibt. Die ursprüngliche Unsicherheit betrug 4 Bits:\n\\[\nH_0 = log_2(16) = 4~bits\n\\]\nUnd wenn die Unsicherheit nach der Antwort “Ja” auf Null reduziert wird:\n\\[\nH_1 = log_2(1) = 0~bits\n\\]\nDaraus ergibt sich ein Informationsgehalt von 4 Bits:\n\\[\nI = H_0 - H_1 = 4 - 0 = 4~bits\n\\]\nDies erklärt den ersten Teil der Erwartungswertgleichung. Der zweite Teil folgt demselben Prinzip, allerdings mit einem wichtigen Unterschied: Die Wahrscheinlichkeit für die Antwort “Nein” ist mit \\(\\frac{15}{16}\\) deutlich höher. Gleichzeitig verbleibt eine große Restunsicherheit \\(H_1\\), da wir lediglich eine einzige Zahl ausschließen konnten:\n\\[\nH_1 = log_2(15) \\approx 3.9069~bits\n\\]\nDie gewonnene Information ist somit sehr klein:\n\\[\nI = 4 - 3.9069 \\approx 0.0931~bits\n\\]\nAnhand der Erwartungswertformel konnten wir zeigen, dass eine extreme Frage, die mit viel Glück direkt zum Ziel führt, in unserem Ratespiel einen erwarteten Informationsgehalt von etwa einem Drittel Bit (0,3373) hat. Prüfen wir nun, ob der Erwartungswert für Fragen, die die Hälfte der Möglichkeiten eliminieren, tatsächlich höher ist:\n\\[\nE[I] = \\left(0.5 \\times 1 \\right) + \\left(0.5 \\times 1 \\right) = 0.5 + 0.5 = 1~bit\n\\]\nWie erwartet beträgt der Erwartungswert genau 1 Bit, da bei jeder Antwort – ob “Ja” oder “Nein” – jeweils die Hälfte der Optionen eliminiert wird.\n\n\n5.1.6 Mehr als zwei Antworten\nBisher haben wir in unserem Zahlenratespiel nur Fragen mit zwei Antwortmöglichkeiten betrachtet. Informationen, also Antworten auf Fragen, können jedoch vielfältiger sein. Wie berechnen wir die Information, wenn es mehr als zwei Antwortmöglichkeiten gibt?\nAls Beispiel betrachten wir eine Urne mit farbigen Kugeln in drei Farben: Rot, Grün und Blau. Aus dieser Urne ziehen wir zwei Kugeln, wobei wir nach jedem Zug die gezogene Kugel zurück in die Urne legen. Dieses statistische Experiment bezeichnet man als “Ziehen mit Zurücklegen”.",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Informationen</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Informationen</span>"
     ]
   },
   {
     "objectID": "information.html#daten-repräsentieren-information",
     "href": "information.html#daten-repräsentieren-information",
-    "title": "6  Informationen",
-    "section": "6.2 Daten repräsentieren Information",
-    "text": "6.2 Daten repräsentieren Information\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "5  Informationen",
+    "section": "5.2 Daten repräsentieren Information",
+    "text": "5.2 Daten repräsentieren Information\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Informationen</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Informationen</span>"
     ]
   },
   {
     "objectID": "bits.html",
     "href": "bits.html",
-    "title": "7  Bits",
+    "title": "6  Bits",
     "section": "",
-    "text": "7.1 Ist das Bit die kleinste Informationseinheit?",
+    "text": "6.1 Ist das Bit die kleinste Informationseinheit?",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Bits</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bits</span>"
     ]
   },
   {
     "objectID": "bits.html#was-ist-ein-byte",
     "href": "bits.html#was-ist-ein-byte",
-    "title": "7  Bits",
-    "section": "7.2 Was ist ein Byte",
-    "text": "7.2 Was ist ein Byte\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "6  Bits",
+    "section": "6.2 Was ist ein Byte",
+    "text": "6.2 Was ist ein Byte\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Bits</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bits</span>"
     ]
   },
   {
     "objectID": "code-systems.html",
     "href": "code-systems.html",
-    "title": "8  Codesysteme",
+    "title": "7  Codesysteme",
     "section": "",
-    "text": "8.1 ASCII-Code",
+    "text": "7.1 ASCII-Code",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Codesysteme</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Codesysteme</span>"
     ]
   },
   {
     "objectID": "code-systems.html#verallgemeinerung-von-codesystemen",
     "href": "code-systems.html#verallgemeinerung-von-codesystemen",
-    "title": "8  Codesysteme",
-    "section": "8.2 Verallgemeinerung von Codesystemen",
-    "text": "8.2 Verallgemeinerung von Codesystemen",
+    "title": "7  Codesysteme",
+    "section": "7.2 Verallgemeinerung von Codesystemen",
+    "text": "7.2 Verallgemeinerung von Codesystemen",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Codesysteme</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Codesysteme</span>"
     ]
   },
   {
     "objectID": "code-systems.html#unicode",
     "href": "code-systems.html#unicode",
-    "title": "8  Codesysteme",
-    "section": "8.3 Unicode",
-    "text": "8.3 Unicode",
+    "title": "7  Codesysteme",
+    "section": "7.3 Unicode",
+    "text": "7.3 Unicode",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Codesysteme</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Codesysteme</span>"
     ]
   },
   {
     "objectID": "code-systems.html#rgb-code",
     "href": "code-systems.html#rgb-code",
-    "title": "8  Codesysteme",
-    "section": "8.4 RGB-Code",
-    "text": "8.4 RGB-Code",
+    "title": "7  Codesysteme",
+    "section": "7.4 RGB-Code",
+    "text": "7.4 RGB-Code",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Codesysteme</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Codesysteme</span>"
     ]
   },
   {
     "objectID": "code-systems.html#code-vs-codec",
     "href": "code-systems.html#code-vs-codec",
-    "title": "8  Codesysteme",
-    "section": "8.5 Code vs Codec",
-    "text": "8.5 Code vs Codec\nDer Begriff Codec leitet sich von den zwei Wörtern encoder und decoder ab. Die beiden Begriffe werden zwar ähnlich geschrieben, unterscheiden sich aber in ihrer Bedeutung. Ein Codec beschreibt ein Vorgehen oder einen Algorithmus, um Daten vor dem Senden nach einem definierten Verfahren zu kodieren und nach dem Empfang wieder zu dekodieren. Dies ist besonders sinnvoll, um Informationen effizienter zu übertragen und weniger Bandbreite zu beanspruchen. Zudem können Daten verschlüsselt und die Kommunikation dadurch sicherer gemacht werden. Wir lernen einige Methoden für beide Anwendungsfälle in einem späteren Kapitel kennen. Im Gegensatz dazu beschreibt ein Code ein System, das einer Reihe von Symbolen eine bestimmte Bedeutung zuordnet, wie wir in diesem Abschnitt gesehen haben.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "7  Codesysteme",
+    "section": "7.5 Code vs Codec",
+    "text": "7.5 Code vs Codec\nDer Begriff Codec leitet sich von den zwei Wörtern encoder und decoder ab. Die beiden Begriffe werden zwar ähnlich geschrieben, unterscheiden sich aber in ihrer Bedeutung. Ein Codec beschreibt ein Vorgehen oder einen Algorithmus, um Daten vor dem Senden nach einem definierten Verfahren zu kodieren und nach dem Empfang wieder zu dekodieren. Dies ist besonders sinnvoll, um Informationen effizienter zu übertragen und weniger Bandbreite zu beanspruchen. Zudem können Daten verschlüsselt und die Kommunikation dadurch sicherer gemacht werden. Wir lernen einige Methoden für beide Anwendungsfälle in einem späteren Kapitel kennen. Im Gegensatz dazu beschreibt ein Code ein System, das einer Reihe von Symbolen eine bestimmte Bedeutung zuordnet, wie wir in diesem Abschnitt gesehen haben.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Codesysteme</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Codesysteme</span>"
     ]
   },
   {
     "objectID": "data-structures.html",
     "href": "data-structures.html",
-    "title": "9  Datenstrukturen",
+    "title": "8  Datenstrukturen",
     "section": "",
-    "text": "9.1 Listen",
+    "text": "8.1 Listen",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Datenstrukturen</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Datenstrukturen</span>"
     ]
   },
   {
     "objectID": "data-structures.html#mengen",
     "href": "data-structures.html#mengen",
-    "title": "9  Datenstrukturen",
-    "section": "9.2 Mengen",
-    "text": "9.2 Mengen",
+    "title": "8  Datenstrukturen",
+    "section": "8.2 Mengen",
+    "text": "8.2 Mengen",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Datenstrukturen</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Datenstrukturen</span>"
     ]
   },
   {
     "objectID": "data-structures.html#graphen",
     "href": "data-structures.html#graphen",
-    "title": "9  Datenstrukturen",
-    "section": "9.3 Graphen",
-    "text": "9.3 Graphen",
+    "title": "8  Datenstrukturen",
+    "section": "8.3 Graphen",
+    "text": "8.3 Graphen",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Datenstrukturen</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Datenstrukturen</span>"
     ]
   },
   {
     "objectID": "data-structures.html#bäume",
     "href": "data-structures.html#bäume",
-    "title": "9  Datenstrukturen",
-    "section": "9.4 Bäume",
-    "text": "9.4 Bäume",
+    "title": "8  Datenstrukturen",
+    "section": "8.4 Bäume",
+    "text": "8.4 Bäume",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Datenstrukturen</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Datenstrukturen</span>"
     ]
   },
   {
     "objectID": "data-structures.html#warteschlangen",
     "href": "data-structures.html#warteschlangen",
-    "title": "9  Datenstrukturen",
-    "section": "9.5 Warteschlangen",
-    "text": "9.5 Warteschlangen\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "8  Datenstrukturen",
+    "section": "8.5 Warteschlangen",
+    "text": "8.5 Warteschlangen\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Repräsentation",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Datenstrukturen</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Datenstrukturen</span>"
     ]
   },
   {
-    "objectID": "information-processing.html",
-    "href": "information-processing.html",
+    "objectID": "part-processing.html",
+    "href": "part-processing.html",
     "title": "Verarbeitung",
     "section": "",
     "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
@@ -407,138 +396,138 @@
   {
     "objectID": "analog-vs-digital.html",
     "href": "analog-vs-digital.html",
-    "title": "10  Analog vs. Digital",
+    "title": "9  Analog vs. Digital",
     "section": "",
-    "text": "10.1 Was ist der Unterschied zwischen der analogen und digitalen Welt?",
+    "text": "9.1 Was ist der Unterschied zwischen der analogen und digitalen Welt?",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Analog vs. Digital</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Analog vs. Digital</span>"
     ]
   },
   {
     "objectID": "analog-vs-digital.html#was-ist-der-unterschied-zwischen-der-analogen-und-digitalen-welt",
     "href": "analog-vs-digital.html#was-ist-der-unterschied-zwischen-der-analogen-und-digitalen-welt",
-    "title": "10  Analog vs. Digital",
+    "title": "9  Analog vs. Digital",
     "section": "",
-    "text": "10.1.1 Endlich viele Möglichkeiten vs. Unendlichkeit\n\n\n10.1.2 Diskrete und kontinuierliche Werte\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "text": "9.1.1 Endlich viele Möglichkeiten vs. Unendlichkeit\n\n\n9.1.2 Diskrete und kontinuierliche Werte\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Analog vs. Digital</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Analog vs. Digital</span>"
     ]
   },
   {
     "objectID": "storage.html",
     "href": "storage.html",
-    "title": "11  Speicher",
+    "title": "10  Speicher",
     "section": "",
-    "text": "11.1 Substratunabhängigkeit",
+    "text": "10.1 Substratunabhängigkeit",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Speicher</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Speicher</span>"
     ]
   },
   {
     "objectID": "storage.html#substratunabhängigkeit",
     "href": "storage.html#substratunabhängigkeit",
-    "title": "11  Speicher",
+    "title": "10  Speicher",
     "section": "",
     "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Speicher</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Speicher</span>"
     ]
   },
   {
     "objectID": "logic-and-arithmetic.html",
     "href": "logic-and-arithmetic.html",
-    "title": "12  Logik und Arithmetik",
+    "title": "11  Logik und Arithmetik",
     "section": "",
-    "text": "12.1 Schalter",
+    "text": "11.1 Schalter",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
     ]
   },
   {
     "objectID": "logic-and-arithmetic.html#schalter",
     "href": "logic-and-arithmetic.html#schalter",
-    "title": "12  Logik und Arithmetik",
+    "title": "11  Logik und Arithmetik",
     "section": "",
-    "text": "12.1.1 Relais, Vakuumröhren und Transistoren",
+    "text": "11.1.1 Relais, Vakuumröhren und Transistoren",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
     ]
   },
   {
     "objectID": "logic-and-arithmetic.html#logikgatter",
     "href": "logic-and-arithmetic.html#logikgatter",
-    "title": "12  Logik und Arithmetik",
-    "section": "12.2 Logikgatter",
-    "text": "12.2 Logikgatter",
+    "title": "11  Logik und Arithmetik",
+    "section": "11.2 Logikgatter",
+    "text": "11.2 Logikgatter",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
     ]
   },
   {
     "objectID": "logic-and-arithmetic.html#binäre-addition",
     "href": "logic-and-arithmetic.html#binäre-addition",
-    "title": "12  Logik und Arithmetik",
-    "section": "12.3 Binäre Addition",
-    "text": "12.3 Binäre Addition",
+    "title": "11  Logik und Arithmetik",
+    "section": "11.3 Binäre Addition",
+    "text": "11.3 Binäre Addition",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
     ]
   },
   {
     "objectID": "logic-and-arithmetic.html#binäre-subtraktion",
     "href": "logic-and-arithmetic.html#binäre-subtraktion",
-    "title": "12  Logik und Arithmetik",
-    "section": "12.4 Binäre Subtraktion",
-    "text": "12.4 Binäre Subtraktion",
+    "title": "11  Logik und Arithmetik",
+    "section": "11.4 Binäre Subtraktion",
+    "text": "11.4 Binäre Subtraktion",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
     ]
   },
   {
     "objectID": "logic-and-arithmetic.html#substratunabhängigkeit",
     "href": "logic-and-arithmetic.html#substratunabhängigkeit",
-    "title": "12  Logik und Arithmetik",
-    "section": "12.5 Substratunabhängigkeit",
-    "text": "12.5 Substratunabhängigkeit\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "11  Logik und Arithmetik",
+    "section": "11.5 Substratunabhängigkeit",
+    "text": "11.5 Substratunabhängigkeit\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
     ]
   },
   {
     "objectID": "computer.html",
     "href": "computer.html",
-    "title": "13  Computer",
+    "title": "12  Computer",
     "section": "",
-    "text": "13.1 Komponenten eines Computers",
+    "text": "12.1 Komponenten eines Computers",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Computer</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Computer</span>"
     ]
   },
   {
     "objectID": "computer.html#komponenten-eines-computers",
     "href": "computer.html#komponenten-eines-computers",
-    "title": "13  Computer",
+    "title": "12  Computer",
     "section": "",
     "text": "von Neumann-Architektur\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Verarbeitung",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Computer</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Computer</span>"
     ]
   },
   {
-    "objectID": "information-sharing.html",
-    "href": "information-sharing.html",
+    "objectID": "part-communication.html",
+    "href": "part-communication.html",
     "title": "Kommunikation",
     "section": "",
     "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
@@ -549,155 +538,155 @@
   {
     "objectID": "signals.html",
     "href": "signals.html",
-    "title": "14  Signale",
+    "title": "13  Signale",
     "section": "",
-    "text": "14.1 Was ist ein Signal?\n“A signal is a function that conveys information about the behavior of a system or attributes of some phenomenon”.\nEin Signal ist eine physikalische Größe, die Informationen trägt. Stellen wir uns vor, du stehst an einer Straßenecke und winkst einem Freund auf der anderen Seite zu. Deine Handbewegung ist ein optisches Signal, das die Information „Komm her!“ überträgt. Signale können auch Schallwellen (wie deine Stimme), elektrische Impulse (in Kabeln) oder Licht (in Glasfasern) sein",
+    "text": "13.1 Was ist ein Signal?\n“A signal is a function that conveys information about the behavior of a system or attributes of some phenomenon”.\nEin Signal ist eine physikalische Größe, die Informationen trägt. Stellen wir uns vor, du stehst an einer Straßenecke und winkst einem Freund auf der anderen Seite zu. Deine Handbewegung ist ein optisches Signal, das die Information „Komm her!“ überträgt. Signale können auch Schallwellen (wie deine Stimme), elektrische Impulse (in Kabeln) oder Licht (in Glasfasern) sein",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Signale</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Signale</span>"
     ]
   },
   {
     "objectID": "signals.html#was-ist-ein-signal",
     "href": "signals.html#was-ist-ein-signal",
-    "title": "14  Signale",
+    "title": "13  Signale",
     "section": "",
-    "text": "14.1.1 Der Kern ist die Veränderung\nEine statische physikalische Größe kann keine Informationen übertragen. Dies haben wir bereits im Kapitel Kapitel 6 kennengelernt. Erst die Veränderung einer physikalischen Größe über die Zeit ermöglicht es, Informationen zu kodieren und zu übertragen. Ein einfaches Beispiel ist das An- und Ausschalten einer Lampe, wobei die Veränderung der Helligkeit das Signal darstellt. Die zeitliche Abfolge dieser Veränderungen kann dann als Nachricht interpretiert werden, wie etwa beim Morsecode.\n\n\n14.1.2 Häufig elektrisch\nEin Signal muss nicht unbedingt eine elektrische Größe wie Spannung (gemessen in Volt) sein. Signale können auch mechanische Größen (Druck, Beschleunigung), optische Größen (Helligkeit, Farbe) oder akustische Größen (Schallwellen) sein. Das Entscheidende ist, dass sich das Signal als messbare Größe über die Zeit verändert und dadurch Informationen transportiert.\nFür die Verarbeitung mit Computern müssen wir alle Signale in elektrische Signale umwandeln. Von dort aus ist es dann ein kleiner Schritt zum digitalen Signal, das nur die Werte Null oder Eins annehmen kann. Dafür nutzen wir sogenannte Analog-to-Digital-Converter (ADC).",
+    "text": "13.1.1 Der Kern ist die Veränderung\nEine statische physikalische Größe kann keine Informationen übertragen. Dies haben wir bereits im Kapitel Kapitel 5 kennengelernt. Erst die Veränderung einer physikalischen Größe über die Zeit ermöglicht es, Informationen zu kodieren und zu übertragen. Ein einfaches Beispiel ist das An- und Ausschalten einer Lampe, wobei die Veränderung der Helligkeit das Signal darstellt. Die zeitliche Abfolge dieser Veränderungen kann dann als Nachricht interpretiert werden, wie etwa beim Morsecode.\n\n\n13.1.2 Häufig elektrisch\nEin Signal muss nicht unbedingt eine elektrische Größe wie Spannung (gemessen in Volt) sein. Signale können auch mechanische Größen (Druck, Beschleunigung), optische Größen (Helligkeit, Farbe) oder akustische Größen (Schallwellen) sein. Das Entscheidende ist, dass sich das Signal als messbare Größe über die Zeit verändert und dadurch Informationen transportiert.\nFür die Verarbeitung mit Computern müssen wir alle Signale in elektrische Signale umwandeln. Von dort aus ist es dann ein kleiner Schritt zum digitalen Signal, das nur die Werte Null oder Eins annehmen kann. Dafür nutzen wir sogenannte Analog-to-Digital-Converter (ADC).",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Signale</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Signale</span>"
     ]
   },
   {
     "objectID": "signals.html#wie-können-wir-signale-erzeugen",
     "href": "signals.html#wie-können-wir-signale-erzeugen",
-    "title": "14  Signale",
-    "section": "14.2 Wie können wir Signale erzeugen?",
-    "text": "14.2 Wie können wir Signale erzeugen?\n\n14.2.1 Von digital zu analog\n\n\n14.2.2 Die LED",
+    "title": "13  Signale",
+    "section": "13.2 Wie können wir Signale erzeugen?",
+    "text": "13.2 Wie können wir Signale erzeugen?\n\n13.2.1 Von digital zu analog\n\n\n13.2.2 Die LED",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Signale</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Signale</span>"
     ]
   },
   {
     "objectID": "signals.html#wie-können-wir-signale-emfpangen",
     "href": "signals.html#wie-können-wir-signale-emfpangen",
-    "title": "14  Signale",
-    "section": "14.3 Wie können wir Signale emfpangen?",
-    "text": "14.3 Wie können wir Signale emfpangen?\n\n14.3.1 Von analog zu digital\n\n\n14.3.2 Der Farbsensor",
+    "title": "13  Signale",
+    "section": "13.3 Wie können wir Signale emfpangen?",
+    "text": "13.3 Wie können wir Signale emfpangen?\n\n13.3.1 Von analog zu digital\n\n\n13.3.2 Der Farbsensor",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Signale</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Signale</span>"
     ]
   },
   {
     "objectID": "signals.html#welche-bedeutung-hat-ein-signal",
     "href": "signals.html#welche-bedeutung-hat-ein-signal",
-    "title": "14  Signale",
-    "section": "14.4 Welche Bedeutung hat ein Signal?",
-    "text": "14.4 Welche Bedeutung hat ein Signal?\nEin Signal ist zunächst nur eine messbare Abfolge von Veränderungen einer physikalischen Größe über die Zeit. Die Bedeutung, die wir diesen Veränderungen – oder der Modulation – zuschreiben, bestimmen wir selbst.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "13  Signale",
+    "section": "13.4 Welche Bedeutung hat ein Signal?",
+    "text": "13.4 Welche Bedeutung hat ein Signal?\nEin Signal ist zunächst nur eine messbare Abfolge von Veränderungen einer physikalischen Größe über die Zeit. Die Bedeutung, die wir diesen Veränderungen – oder der Modulation – zuschreiben, bestimmen wir selbst.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Signale</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Signale</span>"
     ]
   },
   {
     "objectID": "protocols.html",
     "href": "protocols.html",
-    "title": "15  Protokolle",
+    "title": "14  Protokolle",
     "section": "",
-    "text": "15.1 Peer-To-Peer",
+    "text": "14.1 Peer-To-Peer",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Protokolle</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Protokolle</span>"
     ]
   },
   {
     "objectID": "protocols.html#handshake",
     "href": "protocols.html#handshake",
-    "title": "15  Protokolle",
-    "section": "15.2 Handshake",
-    "text": "15.2 Handshake",
+    "title": "14  Protokolle",
+    "section": "14.2 Handshake",
+    "text": "14.2 Handshake",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Protokolle</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Protokolle</span>"
     ]
   },
   {
     "objectID": "protocols.html#tcpip-https",
     "href": "protocols.html#tcpip-https",
-    "title": "15  Protokolle",
-    "section": "15.3 TCP/IP & HTTPs",
-    "text": "15.3 TCP/IP & HTTPs\n\nHow can we communicate between two computers?\n\nProtocols / Handshake\nNetzwerk / Internet / P2P-Communication\n\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "14  Protokolle",
+    "section": "14.3 TCP/IP & HTTPs",
+    "text": "14.3 TCP/IP & HTTPs\n\nHow can we communicate between two computers?\n\nProtocols / Handshake\nNetzwerk / Internet / P2P-Communication\n\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Protokolle</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Protokolle</span>"
     ]
   },
   {
     "objectID": "encryption.html",
     "href": "encryption.html",
-    "title": "16  Verschlüsselung",
+    "title": "15  Verschlüsselung",
     "section": "",
-    "text": "16.1 Verschlüsselung",
+    "text": "15.1 Verschlüsselung",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Verschlüsselung</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Verschlüsselung</span>"
     ]
   },
   {
     "objectID": "encryption.html#verschlüsselung",
     "href": "encryption.html#verschlüsselung",
-    "title": "16  Verschlüsselung",
+    "title": "15  Verschlüsselung",
     "section": "",
-    "text": "16.1.1 Symmetrisch\n\nSymmetric encryption with Caesar Cipher\n\n\n\n16.1.2 Asymmetrisch\n\nAssymetric with RSA Toy",
+    "text": "15.1.1 Symmetrisch\n\nSymmetric encryption with Caesar Cipher\n\n\n\n15.1.2 Asymmetrisch\n\nAssymetric with RSA Toy",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Verschlüsselung</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Verschlüsselung</span>"
     ]
   },
   {
     "objectID": "encryption.html#digitale-signaturen",
     "href": "encryption.html#digitale-signaturen",
-    "title": "16  Verschlüsselung",
-    "section": "16.2 Digitale Signaturen",
-    "text": "16.2 Digitale Signaturen\n\nDigital signatures\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "15  Verschlüsselung",
+    "section": "15.2 Digitale Signaturen",
+    "text": "15.2 Digitale Signaturen\n\nDigital signatures\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Verschlüsselung</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Verschlüsselung</span>"
     ]
   },
   {
     "objectID": "compression.html",
     "href": "compression.html",
-    "title": "17  Kompression",
+    "title": "16  Kompression",
     "section": "",
-    "text": "17.1 Verlustfreie Kompression",
+    "text": "16.1 Verlustfreie Kompression",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Kompression</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Kompression</span>"
     ]
   },
   {
     "objectID": "compression.html#verlustfreie-kompression",
     "href": "compression.html#verlustfreie-kompression",
-    "title": "17  Kompression",
+    "title": "16  Kompression",
     "section": "",
     "text": "Huffman",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Kompression</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Kompression</span>"
     ]
   },
   {
     "objectID": "compression.html#verlustbehaftete-kompression",
     "href": "compression.html#verlustbehaftete-kompression",
-    "title": "17  Kompression",
-    "section": "17.2 Verlustbehaftete Kompression",
-    "text": "17.2 Verlustbehaftete Kompression\n\nJPEG\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "16  Kompression",
+    "section": "16.2 Verlustbehaftete Kompression",
+    "text": "16.2 Verlustbehaftete Kompression\n\nJPEG\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Kommunikation",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Kompression</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Kompression</span>"
     ]
   },
   {

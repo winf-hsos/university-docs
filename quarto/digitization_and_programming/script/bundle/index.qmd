@@ -1,6 +1,4 @@
-# Bevor es losgeht
-
-# Bevor es losgeht {.unnumbered} 
+# Bevor es losgeht {.unnumbered}
 
 ## Warum dieses Buch?
 

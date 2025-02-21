@@ -1,5 +1,5 @@
 ---
-title: "Bevor es losgeht"
+title: "Bevor es losgeht {.unnumbered} "
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: true
@@ -7,8 +7,6 @@ number-sections: false
 code-line-numbers: true
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
-
-# Bevor es losgeht {.unnumbered} 
 
 ## Warum dieses Buch?
 
