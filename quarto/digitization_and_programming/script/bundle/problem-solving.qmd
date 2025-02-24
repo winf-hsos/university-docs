@@ -11,7 +11,7 @@
 
 Während alle wichtig sind, konzentrieren wir uns in diesem Kapitel auf den ersten Schritt: das Problem zu verstehen. Bei der Lösung eines Problems mithilfe eines Computers müssen wir diesen Schritt in zwei Stufen unterteilen. Die erste Stufe beinhaltet eine gründliche Auseinandersetzung mit dem Problem in der realen Welt, um dessen Kern zu erfassen. Diese Grundvoraussetzung wird oft vernachlässigt. Erst wenn ein klares Verständnis des Problems vorhanden ist, können wir zur zweiten Stufe übergehen: der Übersetzung des Problems in ein Modell, das die computerrelevanten Aspekte des Problems erfasst und beschreibt. Wir führen dafür gleich das EVA-Modell ein [@sec-eva-model].
 
-Der zweite Schritt im Ansatz von @polya ist die Erstellung eines Plans für die Lösung des Problems. In der Informatik besteht dieser Plan aus einer Reihe von Anweisungen, die in einer bestimmten Reihenfolge ausgeführt werden müssen. Dies lässt sich gut mit einer Wegbeschreibung vergleichen: "Fahre 500 Meter geradeaus, biege an der Kreuzung links ab, fahre bis zum zweiten Kreisverkehr und nimm dort die zweite Ausfahrt. Nach 200 Metern findest du dein Ziel auf der linken Seite." Eine solche schrittweise Anleitung nennen wir in der Informatik Algorithmus – wir lernen dazu mehr in @sec-algortihms.
+Der zweite Schritt im Ansatz von @polya ist die Erstellung eines Plans für die Lösung des Problems. In der Informatik besteht dieser Plan aus einer Reihe von Anweisungen, die in einer bestimmten Reihenfolge ausgeführt werden müssen. Dies lässt sich gut mit einer Wegbeschreibung vergleichen: "Fahre 500 Meter geradeaus, biege an der Kreuzung links ab, fahre bis zum zweiten Kreisverkehr und nimm dort die zweite Ausfahrt. Nach 200 Metern findest du dein Ziel auf der linken Seite." Eine solche schrittweise Anleitung nennen wir in der Informatik Algorithmus – wir lernen dazu mehr in @sec-algorithms.
 
 Nachdem wir einen Plan zur Lösung des Problems erarbeitet und in geeigneter Form aufgeschrieben haben, müssen wir ihn im dritten Schritt umsetzen. In der Informatik bedeutet dies, den Lösungsweg einem Computer beizubringen. Dies erreichen wir durch das Schreiben eines Programms in einer Programmiersprache wie etwa Python\index{Python}. Das Programmieren zu erlernen ist eines der Ziele dieses Buches, und wir kommen darauf in vielen Kapiteln zurück.
 
@@ -191,6 +191,8 @@ In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fu
 -   **Ausgabe (A)**: Das Ergebnis der Verarbeitung in nutzbarer Form
 
 Die Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.
+
+\newpage
 
 ## Übungsaufgaben {.unnumbered}
 

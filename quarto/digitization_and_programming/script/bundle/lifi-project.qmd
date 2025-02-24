@@ -6,8 +6,6 @@
 
 Deine Aufgabe als Teil eines interdisziplinären F&E-Teams in einem Hightech-Unternehmen ist die Entwicklung eines LiFi-Kommunikationsgeräts. Das Unternehmen entwickelt Roboter für Lebensmittel- und Landwirtschaftsanwendungen, und das Gerät soll in die nächste Robotergeneration integriert werden. Es besteht aus zwei Hauptkomponenten: [eine kleine LED](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/RGB_LED_V2.html), die mehr als 16 Millionen Farben des RGB-Farbsystems darstellen kann, und einen [Farbsensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Color_V2.html), der die Intensität der RGB-Farbkanäle und die Lichthelligkeit misst. Ein sogenannter [Master Brick](https://www.tinkerforge.com/en/doc/Hardware/Bricks/Master_Brick.html) – ein Minicomputer – steuert diese Komponenten und gewährleistet die reibungslose Kommunikation zwischen dem Roboter und seinen Peripheriegeräten.
 
-[BILD]
-
 ## Was sind die Ziele?
 
 Das LiFi-Projekt stellt ein typisches Ingenieursproblem dar: die Kombination von Hardware und Software zur Lösung eines Praxisproblems. Die zentralen inhaltlichen Fragen dieses Projekts lauten:

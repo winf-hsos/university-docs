@@ -4,7 +4,9 @@ Die Programmierung ist der Schlüssel zur Entfaltung des vollen Potenzials von C
 
 Die CPU verarbeitet Befehle in einer komplexen Maschinensprache - einer Sprache, die für Menschen schwer verständlich und unpraktisch für die direkte Problemlösung ist. Deshalb nutzen wir höhere Programmiersprachen wie Python. Diese Sprachen sind mit ihrer verständlichen Syntax und ihrem natürlicheren Vokabular wesentlich besser für Menschen geeignet.
 
-In diesem vierten Teil des Buches lernen wir die fundamentalen Konzepte und Werkzeuge kennen, mit denen wir Computer effektiv programmieren können. Wir verstehen, wie wir komplexe Probleme in klare Anweisungen übersetzen, die der Computer ausführen kann.
+In diesem vierten Teil des Buches lernen wir die fundamentalen Konzepte und Werkzeuge kennen, mit denen wir Computer effektiv programmieren können. Wir verstehen, wie wir komplexe Probleme in klare Anweisungen übersetzen, die der Computer ausführen kann. 
+
+Diese Fähigkeit ist auch für das LiFi-Projekt unverzichtbar, um die Algorithmen für das Senden und Empfangen von Nachrichten sowie fü die 
 
 
 
