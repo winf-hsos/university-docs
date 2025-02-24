@@ -1,24 +1,17 @@
-# Setup für das LiFi-Projekt {.unnumbered #sec-lifi-project-setup}
+# Hard- und Software {.unnumbered}
 
 ## Welche Hardware benötigen wir?
 
 Für den LiFi-Hardware-Prototyp benötigen wir folgende Komponenten:
 
-1 x [Master Brick 3.1](https://www.tinkerforge.com/en/shop/bricks/master-brick.html)
-
-1 x [RGB LED Bricklet 2.0](https://www.tinkerforge.com/en/shop/rgb-led-v2-bricklet.html)
-
-1 x [Color Bricklet 2.0](https://www.tinkerforge.com/en/shop/color-v2-bricklet.html)
-
-1 x [OLED 128x64 Bricklet 2.0](https://www.tinkerforge.com/en/shop/oled-128x64-v2-bricklet.html)
-
-4 x [Bricklet Cable 15 cm (7p-7p)](https://www.tinkerforge.com/en/shop/bricklet-cable-15cm-7p-7p.html)
-
-1 x [USB-A to USB-C Cable 100 cm](https://www.tinkerforge.com/en/shop/accessories/cable/usb-a-to-usb-c-cable-100cm.html)
-
-2 x [Mounting Plate 22x10](https://www.tinkerforge.com/en/shop/accessories/mounting/mounting-plate-22x10.html)
-
-4 x [Mounting Kit 12 mm](https://www.tinkerforge.com/en/shop/accessories/mounting/mounting-kit-12mm.html)
+-   1 x [Master Brick 3.1](https://www.tinkerforge.com/en/shop/bricks/master-brick.html)
+-   1 x [RGB LED Bricklet 2.0](https://www.tinkerforge.com/en/shop/rgb-led-v2-bricklet.html)
+-   1 x [Color Bricklet 2.0](https://www.tinkerforge.com/en/shop/color-v2-bricklet.html)
+-   1 x [OLED 128x64 Bricklet 2.0](https://www.tinkerforge.com/en/shop/oled-128x64-v2-bricklet.html)
+-   4 x [Bricklet Cable 15 cm (7p-7p)](https://www.tinkerforge.com/en/shop/bricklet-cable-15cm-7p-7p.html)
+-   1 x [USB-A to USB-C Cable 100 cm](https://www.tinkerforge.com/en/shop/accessories/cable/usb-a-to-usb-c-cable-100cm.html)
+-   2 x [Mounting Plate 22x10](https://www.tinkerforge.com/en/shop/accessories/mounting/mounting-plate-22x10.html)
+-   4 x [Mounting Kit 12 mm](https://www.tinkerforge.com/en/shop/accessories/mounting/mounting-kit-12mm.html)
 
 Bitte überprüfe vor dem Fortfahren mit den folgenden Anweisungen, ob dein LiFi-Kit alle Komponenten in den angegebenen Mengen enthält.
 
@@ -68,6 +61,40 @@ Neben der Hardware benötigen wir für die Entwicklung des LiFi-Prototyps versch
 -   [Visual Studio Code](https://code.visualstudio.com/download)
 -   [Python](https://www.python.org/downloads/)
 -   [Git](https://git-scm.com/downloads)
+
+### Brick Daemon
+
+### Brick Viewer
+
+### Visual Studio Code
+
+#### Erweiterungen
+
+#### Die Kommandozeile
+
+### Python
+
+#### Virtuelle Python-Umgebungen
+
+#### Externe Module installieren
+
+### Git
+
+#### GitHub
+
+#### Ein Repository klonen
+
+#### Den lokalen Code aktualisieren
+
+## Übungsaufgaben {.unnumbered}
+
+1.  Verwendet den Brick Viewer und verbindet euch mit eurem Master Brick. Stellt sicher, dass die Verbindung funktioniert:
+     a.  Öffnet den Tab für die RGB LED und erkundet die verfügbaren Funktionen.
+     b.  Testet den Farbsensor, indem ihr seine Reaktionen unter verschiedenen Lichtverhältnissen beobachtet.
+     c.  Ermittelt die eindeutige Identifikationsnummer (UID) für jeden eurer Sensoren im Brick Viewer.
+2.  Startet das Visual Studio Code und öffnet dort ein neues Terminalfenster:
+     a.  Wechselt über die Kommandozeile in ein Verzeichnis eurer Wahl und klont das GitHub-Repository mit dem Beispielcode für dieses Buch mittels des `git`-Befehls.
+     b.  Erstellt eine neue virtuelle Python-Umgebung im Ordner `. env` und aktiviert diese. Installiert die für den Beispielcode benötigen Python-Module `tinkerforge` und `pyyaml` .
 
 
 

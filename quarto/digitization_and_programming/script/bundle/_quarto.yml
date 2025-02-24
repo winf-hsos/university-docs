@@ -40,6 +40,16 @@ book:
         - protocols.qmd
         - encryption.qmd
         - compression.qmd
+    - part: part-programming.qmd
+      chapters:
+        - welcome-to-python.qmd
+        - variables-and-data-types.qmd
+        - functions.qmd
+        - collections.qmd
+        - conditionals.qmd
+        - loops.qmd
+        - debugging-and-error-handling.qmd
+      
     - references.qmd
 
 bibliography: references.bib

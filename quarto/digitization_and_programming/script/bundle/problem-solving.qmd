@@ -1,13 +1,25 @@
 # Problemlösung {#sec-problem-solving}
 
-## Welche Schritte führen zu einer Lösung für ein Problem?
+## Welche Schritte führen zu einer Lösung ?
 
-@UBHD-66395843 beschreiben einen weit verbreiteten Ansatz zur Problemlösung. Dieser basiert auf vier Schritten, die als wiederkehrender Kreislauf angewendet werden können und sollten. Obwohl @UBHD-66395843 diesen Ansatz ursprünglich für mathematische Probleme entwickelten, lässt er sich auch auf andere Bereiche – insbesondere die Informatik – übertragen. Folgende Schritte beschreiben beide in ihrem Aufsatz:
+@polya beschreiben in ihrem Aufsatz *How to Solve It* einen weit verbreiteten Ansatz zur Problemlösung. Dieser basiert auf vier Schritten, die als wiederkehrender Kreislauf angewendet werden können und sollten. Obwohl @polya diesen Ansatz ursprünglich für mathematische Probleme entwickelten, lässt er sich auch auf andere Bereiche – insbesondere die Informatik – übertragen. Folgende Schritte beschreiben beide in ihrem Aufsatz:
 
 1.  Das Problem verstehen
 2.  Einen Plan zur Lösung erstellen
 3.  Den Plan umsetzen
 4.  Die Lösung reflektieren und verbessern
+
+Während alle wichtig sind, konzentrieren wir uns in diesem Kapitel auf den ersten Schritt: das Problem zu verstehen. Bei der Lösung eines Problems mithilfe eines Computers müssen wir diesen Schritt in zwei Stufen unterteilen. Die erste Stufe beinhaltet eine gründliche Auseinandersetzung mit dem Problem in der realen Welt, um dessen Kern zu erfassen. Diese Grundvoraussetzung wird oft vernachlässigt. Erst wenn ein klares Verständnis des Problems vorhanden ist, können wir zur zweiten Stufe übergehen: der Übersetzung des Problems in ein Modell, das die computerrelevanten Aspekte des Problems erfasst und beschreibt. Wir führen dafür gleich das EVA-Modell ein [@sec-eva-model].
+
+Der zweite Schritt im Ansatz von @polya ist die Erstellung eines Plans für die Lösung des Problems. In der Informatik besteht dieser Plan aus einer Reihe von Anweisungen, die in einer bestimmten Reihenfolge ausgeführt werden müssen. Dies lässt sich gut mit einer Wegbeschreibung vergleichen: "Fahre 500 Meter geradeaus, biege an der Kreuzung links ab, fahre bis zum zweiten Kreisverkehr und nimm dort die zweite Ausfahrt. Nach 200 Metern findest du dein Ziel auf der linken Seite." Eine solche schrittweise Anleitung nennen wir in der Informatik Algorithmus – wir lernen dazu mehr in @sec-algortihms.
+
+Nachdem wir einen Plan zur Lösung des Problems erarbeitet und in geeigneter Form aufgeschrieben haben, müssen wir ihn im dritten Schritt umsetzen. In der Informatik bedeutet dies, den Lösungsweg einem Computer beizubringen. Dies erreichen wir durch das Schreiben eines Programms in einer Programmiersprache wie etwa Python\index{Python}. Das Programmieren zu erlernen ist eines der Ziele dieses Buches, und wir kommen darauf in vielen Kapiteln zurück.
+
+Es wäre überraschend, wenn wir an unserer Lösung keine Verbesserungsmöglichkeiten finden würden. Dies gilt besonders für die Informatik und unsere entwickelten Programme. Häufig entdecken wir Fehler, die wir beheben müssen, oder stoßen auf Sonderfälle des Problems, die wir im ersten Entwurf nicht bedacht haben. Da Informatiker meist Programme für andere Menschen entwickeln, erhalten wir von den Nutzern wertvolles Feedback mit konkreten Verbesserungsvorschlägen. Die Reflexion und Verbesserung unserer Lösung ist der letzte Schritt im Ansatz von @polya. Wie die Pfeile in @fig-polya zeigen, führt dieser letzte Schritt uns oft zurück zum ersten Schritt. Dadurch gewinnen wir ein tieferes Verständnis des Problems, was wiederum Änderungen am Plan und der Umsetzung erfordert. Gerade in der Softwareentwicklung ist man eigentlich nie wirklich fertig.
+
+![Der Ansatz von Polya zum Lösen von Problemen.](https://winf-hsos.github.io/university-docs/images/problem_solving_polya.png){fig-align="center" width=100% #fig-polya .lightbox}
+
+Bevor wir uns mit dem oben genannten EVA-Modell beschäftigen, das uns hilft, Probleme adäquat für Computer zu beschreiben, wollen wir einen kurzen Blick auf eine andere Frage werfen: Warum überhaupt Computer zur Problemlösung? 
 
 ## Warum sind Computer beim Lösen von Problemen  nützlich?
 
@@ -20,9 +32,9 @@ Diese beiden Eigenschaften ermöglichen es uns, mit Computern besonders solche P
 
 In diesem Kapitel lernen wir, wie Computer Probleme strukturieren und lösen. Um den Begriff des Problems besser zu verstehen und seine Bedeutung im Kontext von Computern einzugrenzen, führen wir zunächst ein einfaches Modell ein.
 
-## Wie stellen wir Probleme im Computer dar?
+## Wie stellen wir Probleme für Computer dar? {#sec-eva-model}
 
-Das LiFi-Projekt stellt eine komplexe Herausforderung dar. Beim Lesen der Ziele und Fragestellungen in @sec-lifi-project kann man sich überfordert fühlen. Die zentrale Frage lautet: Wie nähern wir uns dieser Aufgabe systematisch an?
+Das LiFi-Projekt stellt eine komplexe Herausforderung dar. Beim Lesen der Ziele und Fragestellungen des [LiFi-Projekts](lifi-project.qmd) kann man sich überfordert fühlen. Die zentrale Frage lautet: Wie nähern wir uns dieser Aufgabe systematisch an?
 
 Ein bewährter Ansatz für komplexe Situationen ist die Vereinfachung. Auch wenn wir das Problem selbst nicht vereinfachen können, können wir es durch eine strukturierte Herangehensweise besser verstehen und handhabbarer machen. Die Verwendung von Modellen ist dafür ein geeigneter Weg.
 
@@ -30,7 +42,7 @@ Modelle zielen darauf ab, die wesentlichen Aspekte der realen Welt hervorzuheben
 
 ### Das Eingabe-Verarbeitung-Ausgabe-Modell
 
-Das Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. @fig-input-computation-output) ist ein wictiges Modell in der Informatik. Es erklärt die Arbeitsweise von Computern auf vereinfachte Weise und beinhaltet nur die nötigsten Elemente. Konkret zeigt das Modell, wie Computer Probleme lösen und welche drei Elemente wir dabei betrachten müssen: Computer benötigen **(1) Eingabedaten**, die sie durch einen definierten **(2) Verarbeitungsprozess** in gewünschte **(3) Ausgabendaten** umwandeln.
+Das Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. @fig-input-computation-output) ist ein wichtiges Modell in der Informatik. Es erklärt die Arbeitsweise von Computern auf vereinfachte Weise und beinhaltet nur die nötigsten Elemente. Konkret zeigt das Modell, wie Computer Probleme lösen und welche drei Elemente wir dabei betrachten müssen: Computer benötigen **(1) Eingabedaten**, die sie durch einen definierten **(2) Verarbeitungsprozess** in gewünschte **(3) Ausgabendaten** umwandeln.
 
 Das EVA-Modell beschreibt ein Problem und dessen Lösung durch drei Komponenten: die Eingabe (*Input*), die der Computer erhält, die Verarbeitung (*Computation*), die er mit diesen Daten durchführt, und die Ausgabe (*Output*), die er als Ergebnis liefert. Wenn wir diese drei Komponenten beschreiben können, haben wir die für den Computer relevanten Aspekte des Problems erfasst – alles andere ist unwichtig.
 
@@ -120,7 +132,7 @@ Zu Beginn des Kapitels haben wir festgestellt, dass Computer aufgrund ihrer Gesc
 
 Nehmen wir an, dass Haushaltsroboter in Zukunft erschwinglich werden und uns beim Kochen unseres Lieblingsgerichts helfen können. Wie vermitteln wir dann dem Roboter – im Grunde ein Computer mit Armen und Beinen – den Algorithmus für unser Rezept? Die Lösung liegt in der Programmierung: Wir erstellen ein **Programm** in einer computerverständlichen Sprache. Dieses Programm wandelt die Anweisungen aus unserem Kochbuch in Befehle um, die der Computer verstehen und ausführen kann. Genau genommen besteht ein Programm ebenfalls nur aus Informationen, und wir müssen herausfinden, wie wir diese Informationen digital darstellen können. Die Lösung besteht in der Verwendung einer **Programmiersprache** wie Python, die wir später kennenlernen werden.
 
-## Welche Strategien gibt es für die Lösung von Problemen?
+## Welche Strategien helfen bei der Lösung von Problemen?
 
 Die konkrete Lösung und der zugehörige Algorithmus sehen für jedes Problem unterschiedlich aus. Das Erkennen von Pflanzen folgt einer anderen Logik als die Entscheidung, welche Schachfigur als nächstes gezogen werden soll. Dennoch gibt es universelle Lösungsstrategien, die auf viele Probleme anwendbar sind, um sie möglichst effizient zu lösen. Im Folgenden betrachten wir drei dieser Strategien.
 
@@ -179,4 +191,28 @@ In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fu
 -   **Ausgabe (A)**: Das Ergebnis der Verarbeitung in nutzbarer Form
 
 Die Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.
+
+## Übungsaufgaben {.unnumbered}
+
+1.  Formuliert drei weitere Probleme nach dem vorgestellten EVA-Modell zur Problemlösung mit digitalen Computern. Beschreibt für jedes Problem die Eingabe, die Lösung und die Ausgabe.
+
+2.  Welche Herausforderungen entstehen, wenn wir ein Problem aus der analogen Welt mit einem Computer lösen möchten?
+
+3.  Überlegt für jedes der folgenden Probleme, wie ihr es in sinnvolle Teilprobleme im Sinne der Problemzerlegungsstrategie aufteilen könntet:
+     a.  Die Prüfung im Fach Wirtschaftsinformatik erfolgreich bestehen
+     b.  Ein Haus bauen
+     c.  Einen Marathon laufen
+     d.  Eine Weltreise planen
+     e.  Eine Party organisieren
+
+4.  Analysiert die folgenden Probleme und untersucht, welche sich davon in Teilprobleme zerlegen lassen, die parallel gelöst werden können:
+     a.  Literaturrecherche für eure Abschlussarbeit
+     b.  Repräsentative Befragung zur Bundestagswahl
+     c.  Ein Haus bauen
+     d.  Mais ernten
+     e.  Eine Hochzeit planen
+
+5.  Erläutere die Vor- und Nachteile der linearen Suche in einer beliebigen Liste. Wie schätzt du die Effizienz dieser Methode ein?
+
+6.  Erkläre den *Divide and Conquer*-Ansatz mit deinen eigenen Worten! Welche Voraussetzung muss ein Problem erfüllen, damit es mit diesem Ansatz lösbar ist?
 

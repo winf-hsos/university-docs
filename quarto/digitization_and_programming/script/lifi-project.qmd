@@ -1,12 +1,12 @@
 ---
-title: "Das LiFi-Projekt {.unnumbered #sec-lifi-project}"
+title: "Das LiFi-Projekt {.unnumbered}"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: true
 number-sections: false
 code-line-numbers: true
 bibliography: "bundle/references.bib"
-subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
+subtitle: "Digitalisierung und Programmierung"
 ---
 ## Worum geht es im LiFi-Projekt?
 

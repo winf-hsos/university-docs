@@ -1,4 +1,4 @@
-# Das LiFi-Projekt {.unnumbered #sec-lifi-project}
+# Das LiFi-Projekt {.unnumbered}
 
 ## Worum geht es im LiFi-Projekt?
 

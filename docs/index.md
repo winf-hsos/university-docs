@@ -267,16 +267,6 @@
 - [exercises_programming_functions.pdf](quarto/digitization_and_programming/exercises_programming_functions.pdf)
 - [exercises_programming_loops_conditionals.pdf](quarto/digitization_and_programming/exercises_programming_loops_conditionals.pdf)
 
-#### Programmierung
-
-- [collections.pdf](quarto/digitization_and_programming/programming/collections.pdf)
-- [conditionals.pdf](quarto/digitization_and_programming/programming/conditionals.pdf)
-- [debugging-and-error-handling.pdf](quarto/digitization_and_programming/programming/debugging-and-error-handling.pdf)
-- [functions.pdf](quarto/digitization_and_programming/programming/functions.pdf)
-- [loops.pdf](quarto/digitization_and_programming/programming/loops.pdf)
-- [variables-and-data-types.pdf](quarto/digitization_and_programming/programming/variables-and-data-types.pdf)
-- [welcome-to-python.pdf](quarto/digitization_and_programming/programming/welcome-to-python.pdf)
-
 #### Programmierübungen
 
 - [programming-exercise-collections.pdf](quarto/digitization_and_programming/programming_exercises/programming-exercise-collections.pdf)
@@ -294,25 +284,33 @@
 - [bits.pdf](quarto/digitization_and_programming/script/bits.pdf)
 - [book_digitalisierung_und_programmierung.pdf](quarto/digitization_and_programming/script/book/book_digitalisierung_und_programmierung.pdf)
 - [code-systems.pdf](quarto/digitization_and_programming/script/code-systems.pdf)
+- [collections.pdf](quarto/digitization_and_programming/script/collections.pdf)
 - [compression.pdf](quarto/digitization_and_programming/script/compression.pdf)
 - [computer.pdf](quarto/digitization_and_programming/script/computer.pdf)
+- [conditionals.pdf](quarto/digitization_and_programming/script/conditionals.pdf)
 - [data-structures.pdf](quarto/digitization_and_programming/script/data-structures.pdf)
+- [debugging-and-error-handling.pdf](quarto/digitization_and_programming/script/debugging-and-error-handling.pdf)
 - [encryption.pdf](quarto/digitization_and_programming/script/encryption.pdf)
+- [functions.pdf](quarto/digitization_and_programming/script/functions.pdf)
 - [index.pdf](quarto/digitization_and_programming/script/index.pdf)
 - [information.pdf](quarto/digitization_and_programming/script/information.pdf)
 - [lifi-project-hardware-software.pdf](quarto/digitization_and_programming/script/lifi-project-hardware-software.pdf)
 - [lifi-project.pdf](quarto/digitization_and_programming/script/lifi-project.pdf)
 - [logic-and-arithmetic.pdf](quarto/digitization_and_programming/script/logic-and-arithmetic.pdf)
+- [loops.pdf](quarto/digitization_and_programming/script/loops.pdf)
 - [part-commnication.pdf](quarto/digitization_and_programming/script/part-commnication.pdf)
 - [part-communication.pdf](quarto/digitization_and_programming/script/part-communication.pdf)
 - [part-problems.pdf](quarto/digitization_and_programming/script/part-problems.pdf)
 - [part-processing.pdf](quarto/digitization_and_programming/script/part-processing.pdf)
+- [part-programming.pdf](quarto/digitization_and_programming/script/part-programming.pdf)
 - [part-representation.pdf](quarto/digitization_and_programming/script/part-representation.pdf)
 - [part_problems.pdf](quarto/digitization_and_programming/script/part_problems.pdf)
 - [problem-solving.pdf](quarto/digitization_and_programming/script/problem-solving.pdf)
 - [protocols.pdf](quarto/digitization_and_programming/script/protocols.pdf)
 - [signals.pdf](quarto/digitization_and_programming/script/signals.pdf)
 - [storage.pdf](quarto/digitization_and_programming/script/storage.pdf)
+- [variables-and-data-types.pdf](quarto/digitization_and_programming/script/variables-and-data-types.pdf)
+- [welcome-to-python.pdf](quarto/digitization_and_programming/script/welcome-to-python.pdf)
 
 ### Information Management
 

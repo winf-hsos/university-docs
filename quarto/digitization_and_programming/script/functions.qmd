@@ -1,0 +1,16 @@
+---
+title: "Funktionen"
+author: "Prof. Dr. Nicolas Meseth"
+format: pdf
+toc: true
+number-sections: false
+code-line-numbers: true
+bibliography: "bundle/references.bib"
+subtitle: "Digitalisierung und Programmierung"
+---
+-   Funktionen definieren
+-   Funktionen verwenden
+-   Module laden und Funktionen daraus verwenden
+
+
+
