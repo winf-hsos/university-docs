@@ -122,3 +122,39 @@ result: b = 6
 
 ## Iteration und Rekursion
 
+\newpage
+
+## Übungsaufgaben {.unnumbered}
+
+1.  Woher stammt der Begriff *Algorithmus*?
+
+2.  Definiere, was ein Algorithmus ist, und gib drei Beispiele für Algorithmen aus dem Alltag, die keinen direkten Bezug zu Computern haben.
+
+3.  Welche grundlegenden Ansätze zur Klassifizierung von Algorithmen gibt es?
+
+4.  Erläutere, was mit der Komplexität eines Algorithmus gemeint ist. Warum ist die Komplexität eines Algorithmus wichtig? Wie wird sie angegeben?
+
+5.  Welche Komplexitätsklassen kennst du? Bringe sie in eine Reihenfolge von der geringsten zur höchsten Komplexität.
+
+6.   Berechne den größten gemeinsamen Teiler der Zaheln 56 und 98 mithilfe des euklidischen Algorithmus! Dokumentiere jeden Schritt!
+
+7.  Wir haben exemplarisch für einen Algorithmus die babylonische Methode zur Approximation einer Quadratwurzel kennengelernt. Beantworte die nachfolgenden Fragen in diesem Kontext:
+     a.  Berechne die Quadratwurzel von 25 mit der babylonischen Methode und dokumentiere jeden Schritt! Wähle einen sinnvollen Startwert!
+     b.  Vergleiche die Ergebnisse der babylonischen Methode nach 3, 5 und 7 Iterationen mit dem exakten Wert der Quadratwurzel.
+     c.  Erkläre die Funktionsweise des babylonischen Algorithmus zur Berechnung der Quadratwurzel. Verwende dazu visuelle Hilfsmittel. Warum konvergiert der Algorithmus gegen den exakten Wert der Quadratwurzel?
+
+8.  Erläutere die Monte-Carlo-Methode zur Schätzung von $\pi$ und erkläre, wie man mithilfe von Zufallszahlen eine Annäherung an $\pi$ erreichen kann.
+
+9.  Finde weitere Probleme, die sich durch Monte-Carlo-Simulationen lösen lassen. Weshalb sind manche dieser Probleme mit anderen Methoden nicht lösbar?
+
+10.  Betrachte den Pseudocode in der Abbildung unten und beantworte die folgenden Fragen!
+     a.  Beschreibe die Ein- und Ausgabeinformationen für den gezeigten Algorithmus. Verwende dazu das EVA-Modell!
+     b.  Wie werden die Ein- und Ausgabeinformationen für diesen Algorithmus im Computer dargestellt? Wie viele Bits werden dafür benötigt?
+     c.  Welches Problem löst der Algorithmus? Beschreibe den Ablauf des Algorithmus in eigenen Worten und demonstriere sein Verhalten anhand verschiedener konkreter Beispiele!
+     d.  Wie würdest du die Komplexität des Algorithmus einschätzen und in welche Komplexitätsklasse lässt er sich einordnen?
+     e.  Implementiere den Algorithmus in Python. Schreibe eine Funktion, die die Eingabe als Parameter entgegennimmt und das Ergebnis mit `return` zurückgibt. Teste die Funktion mit verschiedenen Eingabewerten!
+
+![](https://winf-hsos.github.io/university-docs/static/images/algorithm_check_prime_number.png){fig-align="center" width=100% .lightbox}
+
+
+

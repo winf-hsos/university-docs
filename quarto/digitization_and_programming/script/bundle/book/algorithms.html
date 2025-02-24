@@ -95,6 +95,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-8da5b4427184b79ecddefad3d342027e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -123,6 +126,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -395,6 +427,7 @@ div.csl-indent {
   <li><a href="#maschinelle-lernalgorithmen" id="toc-maschinelle-lernalgorithmen" class="nav-link" data-scroll-target="#maschinelle-lernalgorithmen"><span class="header-section-number">2.3.7</span> Maschinelle Lernalgorithmen</a></li>
   </ul></li>
   <li><a href="#iteration-und-rekursion" id="toc-iteration-und-rekursion" class="nav-link" data-scroll-target="#iteration-und-rekursion"><span class="header-section-number">2.4</span> Iteration und Rekursion</a></li>
+  <li><a href="#übungsaufgaben" id="toc-übungsaufgaben" class="nav-link" data-scroll-target="#übungsaufgaben">Übungsaufgaben</a></li>
   </ul>
 </nav>
     </div>
@@ -541,6 +574,39 @@ div.csl-indent {
 </section>
 <section id="iteration-und-rekursion" class="level2" data-number="2.4">
 <h2 data-number="2.4" class="anchored" data-anchor-id="iteration-und-rekursion"><span class="header-section-number">2.4</span> Iteration und Rekursion</h2>
+
+</section>
+<section id="übungsaufgaben" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="übungsaufgaben">Übungsaufgaben</h2>
+<ol type="1">
+<li><p>Woher stammt der Begriff <em>Algorithmus</em>?</p></li>
+<li><p>Definiere, was ein Algorithmus ist, und gib drei Beispiele für Algorithmen aus dem Alltag, die keinen direkten Bezug zu Computern haben.</p></li>
+<li><p>Welche grundlegenden Ansätze zur Klassifizierung von Algorithmen gibt es?</p></li>
+<li><p>Erläutere, was mit der Komplexität eines Algorithmus gemeint ist. Warum ist die Komplexität eines Algorithmus wichtig? Wie wird sie angegeben?</p></li>
+<li><p>Welche Komplexitätsklassen kennst du? Bringe sie in eine Reihenfolge von der geringsten zur höchsten Komplexität.</p></li>
+<li><p>Berechne den größten gemeinsamen Teiler der Zaheln 56 und 98 mithilfe des euklidischen Algorithmus! Dokumentiere jeden Schritt!</p></li>
+<li><p>Wir haben exemplarisch für einen Algorithmus die babylonische Methode zur Approximation einer Quadratwurzel kennengelernt. Beantworte die nachfolgenden Fragen in diesem Kontext:</p>
+<ol type="a">
+<li>Berechne die Quadratwurzel von 25 mit der babylonischen Methode und dokumentiere jeden Schritt! Wähle einen sinnvollen Startwert!</li>
+<li>Vergleiche die Ergebnisse der babylonischen Methode nach 3, 5 und 7 Iterationen mit dem exakten Wert der Quadratwurzel.</li>
+<li>Erkläre die Funktionsweise des babylonischen Algorithmus zur Berechnung der Quadratwurzel. Verwende dazu visuelle Hilfsmittel. Warum konvergiert der Algorithmus gegen den exakten Wert der Quadratwurzel?</li>
+</ol></li>
+<li><p>Erläutere die Monte-Carlo-Methode zur Schätzung von <span class="math inline">\(\pi\)</span> und erkläre, wie man mithilfe von Zufallszahlen eine Annäherung an <span class="math inline">\(\pi\)</span> erreichen kann.</p></li>
+<li><p>Finde weitere Probleme, die sich durch Monte-Carlo-Simulationen lösen lassen. Weshalb sind manche dieser Probleme mit anderen Methoden nicht lösbar?</p></li>
+<li><p>Betrachte den Pseudocode in der Abbildung unten und beantworte die folgenden Fragen!</p>
+<ol type="a">
+<li>Beschreibe die Ein- und Ausgabeinformationen für den gezeigten Algorithmus. Verwende dazu das EVA-Modell!</li>
+<li>Wie werden die Ein- und Ausgabeinformationen für diesen Algorithmus im Computer dargestellt? Wie viele Bits werden dafür benötigt?</li>
+<li>Welches Problem löst der Algorithmus? Beschreibe den Ablauf des Algorithmus in eigenen Worten und demonstriere sein Verhalten anhand verschiedener konkreter Beispiele!</li>
+<li>Wie würdest du die Komplexität des Algorithmus einschätzen und in welche Komplexitätsklasse lässt er sich einordnen?</li>
+<li>Implementiere den Algorithmus in Python. Schreibe eine Funktion, die die Eingabe als Parameter entgegennimmt und das Ergebnis mit <code>return</code> zurückgibt. Teste die Funktion mit verschiedenen Eingabewerten!</li>
+</ol></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://winf-hsos.github.io/university-docs/static/images/algorithm_check_prime_number.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://winf-hsos.github.io/university-docs/static/images/algorithm_check_prime_number.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
+</figure>
+</div>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -993,6 +1059,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
