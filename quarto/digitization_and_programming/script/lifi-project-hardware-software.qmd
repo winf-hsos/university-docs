@@ -5,9 +5,9 @@ format: pdf
 toc: true
 number-sections: false
 code-line-numbers: true
+bibliography: "bundle/references.bib"
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
-
 ## Welche Hardware benötigen wir?
 
 Für den LiFi-Hardware-Prototyp benötigen wir folgende Komponenten:

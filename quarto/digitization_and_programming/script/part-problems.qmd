@@ -5,6 +5,6 @@ format: pdf
 toc: true
 number-sections: false
 code-line-numbers: true
+bibliography: "bundle/references.bib"
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
-

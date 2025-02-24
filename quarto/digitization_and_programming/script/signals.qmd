@@ -5,9 +5,9 @@ format: pdf
 toc: true
 number-sections: false
 code-line-numbers: true
+bibliography: "bundle/references.bib"
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
-
 ## Was ist ein Signal?
 
 “A signal is a function that conveys information about the behavior of a system or attributes of some phenomenon”.

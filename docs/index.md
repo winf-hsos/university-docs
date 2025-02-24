@@ -6,101 +6,101 @@
 
 ### data_anaytics
 
-- [Syllabus - Data Analytics with R.pdf](google_documents/data_anaytics/Syllabus - Data Analytics with R.pdf)
+- [Syllabus - Data Analytics with R.pdf](google_documents/data_anaytics/Syllabus - Data Analytics with R.pdf) [[Edit](https://docs.google.com/document/d/19mEKdITUxUD6WXI8dk3u8YlMSnu0bg84d7j2rpJkgXY/edit)]
 
 ### Projekt Agrar/Lebensmittel
 
-- [Infoblatt Projekt Agrar Lebensmittel.pdf](google_documents/projekt_agrar_lebensmittel/Infoblatt Projekt Agrar Lebensmittel.pdf)
+- [Infoblatt Projekt Agrar Lebensmittel.pdf](google_documents/projekt_agrar_lebensmittel/Infoblatt Projekt Agrar Lebensmittel.pdf) [[Edit](https://docs.google.com/document/d/10KB_2dGifsKNzgPSsK86RDYaDtyS83I4AXCU4ffh9Ts/edit)]
 
 ## Google Slides
 
 
 ### Applied Analytics
 
-- [Applied Analytics - Course Logistics.pdf](google_slides/applied_analytics/Applied Analytics - Course Logistics.pdf)
+- [Applied Analytics - Course Logistics.pdf](google_slides/applied_analytics/Applied Analytics - Course Logistics.pdf) [[Edit](https://docs.google.com/presentation/d/1rLTsGoA1IUYDFfX1kkPrS103XZyVC1KlYqDg_7m2NC8/edit)]
 
 ### Data Analytics
 
-- [Data Transformation with R and dplyr.pdf](google_slides/data_analytics/Data Transformation with R and dplyr.pdf)
-- [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/data_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf)
-- [Exploratory Data Analysis with R and Python - Analytic Questions.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Analytic Questions.pdf)
-- [Exploratory Data Analysis with R and Python - Communicate Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Communicate Data.pdf)
-- [Exploratory Data Analysis with R and Python - Data Representation.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Data Representation.pdf)
-- [Exploratory Data Analysis with R and Python - Exploratory Data Analysis.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Exploratory Data Analysis.pdf)
-- [Exploratory Data Analysis with R and Python - Load Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Load Data.pdf)
-- [Exploratory Data Analysis with R and Python - Machine Learning.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Machine Learning.pdf)
-- [Exploratory Data Analysis with R and Python - Programming with R.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Programming with R.pdf)
-- [Exploratory Data Analysis with R and Python - Tidy Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Tidy Data.pdf)
-- [Exploratory Data Analysis with R and Python - Transform Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Transform Data.pdf)
-- [Exploratory Data Analysis with R and Python - Unstructured Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Unstructured Data.pdf)
-- [Exploratory Data Analysis with R and Python - Visualize Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Visualize Data.pdf)
-- [Exploratory Data Analysis with R and Python.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python.pdf)
-- [Group Work - Text with R - TED Data.pdf](google_slides/data_analytics/Group Work - Text with R - TED Data.pdf)
-- [Group Work - The R Murder Mystery.pdf](google_slides/data_analytics/Group Work - The R Murder Mystery.pdf)
-- [Group Work - Tweets Visualization Challenge.pdf](google_slides/data_analytics/Group Work - Tweets Visualization Challenge.pdf)
-- [Joining data sets with R and SQL.pdf](google_slides/data_analytics/Joining data sets with R and SQL.pdf)
-- [ML-Based NLP with spaCy and Python.pdf](google_slides/data_analytics/ML-Based NLP with spaCy and Python.pdf)
-- [NLP - Text Representation.pdf](google_slides/data_analytics/NLP - Text Representation.pdf)
-- [Rule-Based Text Classification with R.pdf](google_slides/data_analytics/Rule-Based Text Classification with R.pdf)
-- [Searching and Transforming Text with R and stringr.pdf](google_slides/data_analytics/Searching and Transforming Text with R and stringr.pdf)
-- [Tokenizing Text with R, stringr and tidyr.pdf](google_slides/data_analytics/Tokenizing Text with R, stringr and tidyr.pdf)
-- [Working with the HPC Cluster.pdf](google_slides/data_analytics/Working with the HPC Cluster.pdf)
+- [Data Transformation with R and dplyr.pdf](google_slides/data_analytics/Data Transformation with R and dplyr.pdf) [[Edit](https://docs.google.com/presentation/d/1HLRd41yePsS4DDA1bHMLoqv3fdHkOH4lIG2SpPFH1ME/edit)]
+- [Data Visualization with ggplot2 and the Grammar of Graphics.pdf](google_slides/data_analytics/Data Visualization with ggplot2 and the Grammar of Graphics.pdf) [[Edit](https://docs.google.com/presentation/d/176XeVUA2xsyZTnrYWMlGMRfl2i274daiyjVQt0syptw/edit)]
+- [Exploratory Data Analysis with R and Python - Analytic Questions.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Analytic Questions.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python - Communicate Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Communicate Data.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python - Data Representation.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Data Representation.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python - Exploratory Data Analysis.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Exploratory Data Analysis.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python - Load Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Load Data.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python - Machine Learning.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Machine Learning.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python - Programming with R.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Programming with R.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python - Tidy Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Tidy Data.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python - Transform Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Transform Data.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python - Unstructured Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Unstructured Data.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python - Visualize Data.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python - Visualize Data.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Exploratory Data Analysis with R and Python.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
+- [Group Work - Text with R - TED Data.pdf](google_slides/data_analytics/Group Work - Text with R - TED Data.pdf) [[Edit](https://docs.google.com/presentation/d/1GLjCsINBULuK0CfWN68QBR8ZP43cywN9rZjWrH-e6gs/edit)]
+- [Group Work - The R Murder Mystery.pdf](google_slides/data_analytics/Group Work - The R Murder Mystery.pdf) [[Edit](https://docs.google.com/presentation/d/1-AXlXNnt3WBZpXhXAeFs6xzWL2qPKe08j4k5qy-KqnQ/edit)]
+- [Group Work - Tweets Visualization Challenge.pdf](google_slides/data_analytics/Group Work - Tweets Visualization Challenge.pdf) [[Edit](https://docs.google.com/presentation/d/1qX_eh8vdLFo1e5-O99mmzrL_72-pcIjytOrpxoRytkM/edit)]
+- [Joining data sets with R and SQL.pdf](google_slides/data_analytics/Joining data sets with R and SQL.pdf) [[Edit](https://docs.google.com/presentation/d/1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4/edit)]
+- [ML-Based NLP with spaCy and Python.pdf](google_slides/data_analytics/ML-Based NLP with spaCy and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1ftAOhRYSN2D5RrczAK7bLjWwTJIGXTLfVb8I8dxKjrQ/edit)]
+- [NLP - Text Representation.pdf](google_slides/data_analytics/NLP - Text Representation.pdf) [[Edit](https://docs.google.com/presentation/d/1GYyf6ev0Qbq71XELfm2Aa2JrfbKRwkJK30XT43qoSnI/edit)]
+- [Rule-Based Text Classification with R.pdf](google_slides/data_analytics/Rule-Based Text Classification with R.pdf) [[Edit](https://docs.google.com/presentation/d/1_7-syGiPKOKysEY-lAA04prhCQekydCGe6DuBMMugok/edit)]
+- [Searching and Transforming Text with R and stringr.pdf](google_slides/data_analytics/Searching and Transforming Text with R and stringr.pdf) [[Edit](https://docs.google.com/presentation/d/1cbjPeLKjuXMJvAcaPi7HmhuT6KjZyGSj09HEs0Kxxf8/edit)]
+- [Tokenizing Text with R, stringr and tidyr.pdf](google_slides/data_analytics/Tokenizing Text with R, stringr and tidyr.pdf) [[Edit](https://docs.google.com/presentation/d/1BMDav7GK2iMo4nDYFy6Vw6lXggtU7G7rBzONTzCxpAk/edit)]
+- [Working with the HPC Cluster.pdf](google_slides/data_analytics/Working with the HPC Cluster.pdf) [[Edit](https://docs.google.com/presentation/d/1y1r3nTxFBBGUtAsiRzTncCmnyCBLcwSYb3NFpFqz194/edit)]
 
 ### Digital Lab
 
-- [SS 24 - Digital Lab.pdf](google_slides/digital_lab/SS 24 - Digital Lab.pdf)
+- [SS 24 - Digital Lab.pdf](google_slides/digital_lab/SS 24 - Digital Lab.pdf) [[Edit](https://docs.google.com/presentation/d/1LA0uPQn-fv3vi0nXkFiMk5jH6ET8vtmgE7TbmemoAVE/edit)]
 
 ### Empirisches Arbeiten
 
-- [Empirisches Arbeiten - Kick Off - Methodenuebersicht.pdf](google_slides/empirisches_arbeiten/Empirisches Arbeiten - Kick Off - Methodenuebersicht.pdf)
+- [Empirisches Arbeiten - Kick Off - Methodenuebersicht.pdf](google_slides/empirisches_arbeiten/Empirisches Arbeiten - Kick Off - Methodenuebersicht.pdf) [[Edit](https://docs.google.com/presentation/d/1beuXY3AU1DxwCYTcognnikkqIdjxf0qCPiKl1952FSE/edit)]
 
 ### Information Management
 
-- [Basic SQL.pdf](google_slides/information_management/Basic SQL.pdf)
-- [Information Management - Course Logistics.pdf](google_slides/information_management/Information Management - Course Logistics.pdf)
-- [Information Management - Entity Relationship Model.pdf](google_slides/information_management/Information Management - Entity Relationship Model.pdf)
-- [Information Management - Relational Databases.pdf](google_slides/information_management/Information Management - Relational Databases.pdf)
-- [Information Management - What is a Database.pdf](google_slides/information_management/Information Management - What is a Database.pdf)
-- [Joining data sets with R and SQL.pdf](google_slides/information_management/Joining data sets with R and SQL.pdf)
-- [Manage Tables with SQL.pdf](google_slides/information_management/Manage Tables with SQL.pdf)
-- [SQL - Cheat Sheet.pdf](google_slides/information_management/SQL - Cheat Sheet.pdf)
+- [Basic SQL.pdf](google_slides/information_management/Basic SQL.pdf) [[Edit](https://docs.google.com/presentation/d/1WuXDfByfEEiDi_ifCfU1Qqpq_vHfz36p7Qs3eZ1Lsoo/edit)]
+- [Information Management - Course Logistics.pdf](google_slides/information_management/Information Management - Course Logistics.pdf) [[Edit](https://docs.google.com/presentation/d/1tiqBi4mK0d5HvXXR7d-MAPTZv5PoAr3RYGIVGOngXvg/edit)]
+- [Information Management - Entity Relationship Model.pdf](google_slides/information_management/Information Management - Entity Relationship Model.pdf) [[Edit](https://docs.google.com/presentation/d/1JW1AW9AZB8ONJH-kSKNDrE70xvpoaOh8i3qMmHnvFns/edit)]
+- [Information Management - Relational Databases.pdf](google_slides/information_management/Information Management - Relational Databases.pdf) [[Edit](https://docs.google.com/presentation/d/1JNgNrq583kt7wF1Mew6JCw7_huIFltguWsoq3L-ppKQ/edit)]
+- [Information Management - What is a Database.pdf](google_slides/information_management/Information Management - What is a Database.pdf) [[Edit](https://docs.google.com/presentation/d/1I2fAiSCkrlCss0AtTx5gF7YFcKytpcpRmVxWptXerfk/edit)]
+- [Joining data sets with R and SQL.pdf](google_slides/information_management/Joining data sets with R and SQL.pdf) [[Edit](https://docs.google.com/presentation/d/1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4/edit)]
+- [Manage Tables with SQL.pdf](google_slides/information_management/Manage Tables with SQL.pdf) [[Edit](https://docs.google.com/presentation/d/1Ze-mszwSnqrJOwPQdmh2XchZ0JltoNgADmTrseqnqhY/edit)]
+- [SQL - Cheat Sheet.pdf](google_slides/information_management/SQL - Cheat Sheet.pdf) [[Edit](https://docs.google.com/presentation/d/1jgeZ3RKLmgDgiES1UpvQwUKYGGBWEmpNpYXFVEQIh6s/edit)]
 
 ### Web Engineering
 
-- [Introduction to CSS.pdf](google_slides/web_engineering/Introduction to CSS.pdf)
-- [Introduction to HTML.pdf](google_slides/web_engineering/Introduction to HTML.pdf)
-- [Introduction to JavaScript for the Web.pdf](google_slides/web_engineering/Introduction to JavaScript for the Web.pdf)
-- [Web Engineering - Benutzerauthentifizierung.pdf](google_slides/web_engineering/Web Engineering - Benutzerauthentifizierung.pdf)
-- [Web Engineering - Course Logistics.pdf](google_slides/web_engineering/Web Engineering - Course Logistics.pdf)
-- [Web Engineering - Das JSON Format.pdf](google_slides/web_engineering/Web Engineering - Das JSON Format.pdf)
-- [Web Engineering - Einfuehrung Bootstrap.pdf](google_slides/web_engineering/Web Engineering - Einfuehrung Bootstrap.pdf)
-- [Web Engineering - Firestore Datenbank.pdf](google_slides/web_engineering/Web Engineering - Firestore Datenbank.pdf)
-- [Web Engineering - Layout mit Bootstrap.pdf](google_slides/web_engineering/Web Engineering - Layout mit Bootstrap.pdf)
-- [Web Engineering - Local Storage.pdf](google_slides/web_engineering/Web Engineering - Local Storage.pdf)
+- [Introduction to CSS.pdf](google_slides/web_engineering/Introduction to CSS.pdf) [[Edit](https://docs.google.com/presentation/d/1QZj_FTUeBuIWhP5lk11xIDqOA0gGWPv6IfIdiEygZAA/edit)]
+- [Introduction to HTML.pdf](google_slides/web_engineering/Introduction to HTML.pdf) [[Edit](https://docs.google.com/presentation/d/1N5fJwgkVglszE4oxu1zvrBRWI9kEF2LuDqYEEXEYIlk/edit)]
+- [Introduction to JavaScript for the Web.pdf](google_slides/web_engineering/Introduction to JavaScript for the Web.pdf) [[Edit](https://docs.google.com/presentation/d/1gBtIKnXM6ayCophn6M76ljtbvqQwHjv8z6BDYImOiwU/edit)]
+- [Web Engineering - Benutzerauthentifizierung.pdf](google_slides/web_engineering/Web Engineering - Benutzerauthentifizierung.pdf) [[Edit](https://docs.google.com/presentation/d/19VKvkmlnM3Asdk8yWlM2Na1pJn8nOWudc5UIaTxyTc4/edit)]
+- [Web Engineering - Course Logistics.pdf](google_slides/web_engineering/Web Engineering - Course Logistics.pdf) [[Edit](https://docs.google.com/presentation/d/1xG8rBdHbc308U5ryFhGmFGJnPtjM6-E9Zq_W7vGbJ-A/edit)]
+- [Web Engineering - Das JSON Format.pdf](google_slides/web_engineering/Web Engineering - Das JSON Format.pdf) [[Edit](https://docs.google.com/presentation/d/1wdkjrpVEw9EIfDXSE4LLZ2pbcsO-OQvWAupYoOXPlyk/edit)]
+- [Web Engineering - Einfuehrung Bootstrap.pdf](google_slides/web_engineering/Web Engineering - Einfuehrung Bootstrap.pdf) [[Edit](https://docs.google.com/presentation/d/1TD9dAvbVUMdmKiH0ldTY1Ytl9NnyjfjYE-9eadcEkxA/edit)]
+- [Web Engineering - Firestore Datenbank.pdf](google_slides/web_engineering/Web Engineering - Firestore Datenbank.pdf) [[Edit](https://docs.google.com/presentation/d/1mP7tJ2KAT94sVmS6i2uMbwS8UlbVKhkHedaJmlix744/edit)]
+- [Web Engineering - Layout mit Bootstrap.pdf](google_slides/web_engineering/Web Engineering - Layout mit Bootstrap.pdf) [[Edit](https://docs.google.com/presentation/d/1tw9gmm46wpGOwjLsbRvTJwFvnaUbVKNb-shrOBknw_Q/edit)]
+- [Web Engineering - Local Storage.pdf](google_slides/web_engineering/Web Engineering - Local Storage.pdf) [[Edit](https://docs.google.com/presentation/d/1kTqnOFXlTSmNPeC82iUzK7iQNB_1jcoEff-C8Fcz-aM/edit)]
 
 ### Wirtschaftsinformatik
 
-- [Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing.pdf)
-- [LiFi-Project - Kick-Off.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf)
-- [LiFi-Project - Program's Anatomy.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Program's Anatomy.pdf)
-- [Programming with Python.pdf](google_slides/wirtschaftsinformatik/Programming with Python.pdf)
-- [SS 24 - Programming with Python.pdf](google_slides/wirtschaftsinformatik/SS 24 - Programming with Python.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Algorithms.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Algorithms.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Analog vs Digital.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Analog vs Digital.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Bits.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Bits.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Code Systems.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Code Systems.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Compression.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Compression.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Computers.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Computers.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Data Structures.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Data Structures.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Encryption.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Encryption.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Information.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Information.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Logic and Arithmetic.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Logic and Arithmetic.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Overview.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Overview.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Problem Solving.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Problem Solving.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Protocols.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Protocols.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Signals.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Signals.pdf)
-- [SS 25 - Digitization - Information Representation and Processing - Storage.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Storage.pdf)
-- [SS 25 - Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing.pdf)
+- [Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/Digitization - Information Representation and Processing.pdf) [[Edit](https://docs.google.com/presentation/d/1uxnlvUs4Ik6eqZOXSicL0H2OwoqFmDLiwREq3sD1C9A/edit)]
+- [LiFi-Project - Kick-Off.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Kick-Off.pdf) [[Edit](https://docs.google.com/presentation/d/1lRCrl_BbCE6KLBV0Y-Vj1IKzU-AlUotFVPyBg9e79xE/edit)]
+- [LiFi-Project - Program's Anatomy.pdf](google_slides/wirtschaftsinformatik/LiFi-Project - Program's Anatomy.pdf) [[Edit](https://docs.google.com/presentation/d/1hdT157l8ks8t49ktot5N15vDoLCoIIynNgNBydQwWm8/edit)]
+- [Programming with Python.pdf](google_slides/wirtschaftsinformatik/Programming with Python.pdf) [[Edit](https://docs.google.com/presentation/d/1N-HoYfpsdk4yOKgU7V3hjdLgl7vWHbQZl_6fJ8PEYno/edit)]
+- [SS 24 - Programming with Python.pdf](google_slides/wirtschaftsinformatik/SS 24 - Programming with Python.pdf) [[Edit](https://docs.google.com/presentation/d/1YQGgTCClB41fIFI6oUQVgbCrwFCd7iIiesHqnAQp4KU/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Algorithms.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Algorithms.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Analog vs Digital.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Analog vs Digital.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Bits.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Bits.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Code Systems.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Code Systems.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Compression.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Compression.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Computers.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Computers.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Data Structures.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Data Structures.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Encryption.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Encryption.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Information.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Information.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Logic and Arithmetic.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Logic and Arithmetic.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Overview.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Overview.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Problem Solving.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Problem Solving.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Protocols.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Protocols.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Signals.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Signals.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing - Storage.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing - Storage.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
+- [SS 25 - Digitization - Information Representation and Processing.pdf](google_slides/wirtschaftsinformatik/SS 25 - Digitization - Information Representation and Processing.pdf) [[Edit](https://docs.google.com/presentation/d/1W6LaBFpf5N8dJDiye4yCopZzAonZj-LPMflk92uGzm4/edit)]
 
 ## Images
 
@@ -293,9 +293,6 @@
 - [analog-vs-digital.pdf](quarto/digitization_and_programming/script/analog-vs-digital.pdf)
 - [bits.pdf](quarto/digitization_and_programming/script/bits.pdf)
 - [book_digitalisierung_und_programmierung.pdf](quarto/digitization_and_programming/script/book/book_digitalisierung_und_programmierung.pdf)
-- [c46UqfuWJOk.png](quarto/digitization_and_programming/script/book/qrcodes/c46UqfuWJOk.png)
-- [g-QOJ6z0VFE.png](quarto/digitization_and_programming/script/book/qrcodes/g-QOJ6z0VFE.png)
-- [iKHU2Uj4Lp0.png](quarto/digitization_and_programming/script/book/qrcodes/iKHU2Uj4Lp0.png)
 - [code-systems.pdf](quarto/digitization_and_programming/script/code-systems.pdf)
 - [compression.pdf](quarto/digitization_and_programming/script/compression.pdf)
 - [computer.pdf](quarto/digitization_and_programming/script/computer.pdf)

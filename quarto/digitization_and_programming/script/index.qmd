@@ -5,9 +5,9 @@ format: pdf
 toc: true
 number-sections: false
 code-line-numbers: true
+bibliography: "bundle/references.bib"
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
-
 ## Warum dieses Buch?
 
 Dieses Buch entstand aus der Erkenntnis, dass viele klassische Lehrbücher der Informatik für Anfänger oft zu technisch und abstrakt sind. In meiner langjährigen Lehrtätigkeit habe ich beobachtet, dass Studierende besonders dann erfolgreich lernen, wenn sie die Konzepte der Informatik in einem praktischen Kontext erleben können. Deshalb habe ich mich entschieden, einen praxisorientierten Ansatz zu wählen, der theoretische Grundlagen mit einem konkreten Projekt verbindet.

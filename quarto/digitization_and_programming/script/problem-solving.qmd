@@ -1,16 +1,16 @@
 ---
-title: "Problemlösung {#sec-problem-solving}"
+title: "Problemlösung"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: true
 number-sections: false
 code-line-numbers: true
+bibliography: "bundle/references.bib"
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
-
 ## Welche Schritte führen zu einer Lösung für ein Problem?
 
-@UBHD-66395843 beschreibt einen weit verbreiteten Ansatz zur Problemlösung. Dieser basiert auf vier Schritten, die als wiederkehrender Kreislauf angewendet werden können und sollten. Obwohl [@UBHD-66395843] diesen Ansatz ursprünglich für mathematische Probleme entwickelte, lässt er sich auch auf andere Bereiche – insbesondere die Informatik – übertragen. Folgende Schritte beschreibt [@UBHD-66395843]:
+@UBHD-66395843 beschreiben einen weit verbreiteten Ansatz zur Problemlösung. Dieser basiert auf vier Schritten, die als wiederkehrender Kreislauf angewendet werden können und sollten. Obwohl @UBHD-66395843 diesen Ansatz ursprünglich für mathematische Probleme entwickelten, lässt er sich auch auf andere Bereiche – insbesondere die Informatik – übertragen. Folgende Schritte beschreiben beide in ihrem Aufsatz:
 
 1.  Das Problem verstehen
 

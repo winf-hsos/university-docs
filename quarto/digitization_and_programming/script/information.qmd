@@ -1,13 +1,13 @@
 ---
-title: "Informationen {#sec-information}"
+title: "Informationen"
 author: "Prof. Dr. Nicolas Meseth"
 format: pdf
 toc: true
 number-sections: false
 code-line-numbers: true
+bibliography: "bundle/references.bib"
 subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 ---
-
 :::: {layout="[0.2, 0.8]" .content-visible when-format="pdf"}
 
 :::{#firstcol}
