@@ -41,7 +41,6 @@ dir.create("docs/quarto/digitization_and_programming")
 dir.create("docs/quarto/digitization_and_programming/script")
 dir.create("docs/quarto/digitization_and_programming/script/book")
 dir.create("docs/quarto/digitization_and_programming/exercises")
-dir.create("docs/quarto/digitization_and_programming/programming")
 dir.create("docs/quarto/digitization_and_programming/programming_exercises")
 
 dir.create("docs/quarto/big_data_analytics")
@@ -50,18 +49,12 @@ dir.create("docs/quarto/big_data_analytics")
 file.copy(pdf_list, pdf_dest_list, overwrite = TRUE)
 
 # Render "Digitalisierung und Programmierung" Buch (TODO: Entferne manuelles Rendering)
-cat("Rendering book as HTML\n")
+cat("Rendering book as HTML and PDF\n")
 
 current_wd <- getwd()
 setwd("quarto/digitization_and_programming/script/bundle/")
-quarto_render(output_format = "html", quiet = FALSE)
+quarto_render(quiet = FALSE, as_job = FALSE)
 setwd(current_wd)
 
-cat("Rendering book as PDF\n")
-quarto_render("quarto/digitization_and_programming/script/bundle/index.qmd", output_format = "pdf", quiet = FALSE)
-
 cat("Copy book files, HTML and PDF")
-# Copy all files in folder book
 file.copy("quarto/digitization_and_programming/script/bundle/book", "docs/quarto/digitization_and_programming/script", overwrite = TRUE, recursive = TRUE)
-
-
