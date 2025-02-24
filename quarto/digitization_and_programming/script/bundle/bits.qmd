@@ -1,6 +1,6 @@
 # Bits
 
-:::: {layout="[0.2, 0.8]"}
+:::: {layout="[0.2, 0.8]" .content-visible when-format="pdf"}
 
 :::{#firstcol}
 [![](qrcodes\c46UqfuWJOk.png){fig-align="center" width=10%}](https://www.youtube.com/watch?v=c46UqfuWJOk)
@@ -11,6 +11,14 @@ Zu diesem Kapitel gibt es ein Video auf YouTube. Scanne einfach den QR-Code oder
 :::
 
 ::::
+
+::: {.content-visible when-format="html"}
+
+Zu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.
+
+{{< video https://www.youtube.com/watch?v=c46UqfuWJOk >}}
+
+:::
 
 ## Ist das Bit die kleinste Informationseinheit?
 

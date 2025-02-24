@@ -1,6 +1,6 @@
 # Analog vs. Digital
 
-:::: {layout="[0.2, 0.8]"}
+:::: {layout="[0.2, 0.8]" .content-visible when-format="pdf"}
 
 :::{#firstcol}
 [![](qrcodes\iKHU2Uj4Lp0.png){fig-align="center" width=10%}](https://youtu.be/iKHU2Uj4Lp0)
@@ -11,6 +11,14 @@ Zu diesem Kapitel gibt es ein Video auf YouTube. Scanne einfach den QR-Code oder
 :::
 
 ::::
+
+::: {.content-visible when-format="html"}
+
+Zu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.
+
+{{< video https://youtu.be/iKHU2Uj4Lp0 >}}
+
+:::
 
 ## Was ist der Unterschied zwischen der analogen und digitalen Welt?
 

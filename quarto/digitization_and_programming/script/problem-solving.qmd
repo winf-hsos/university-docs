@@ -48,11 +48,11 @@ Das Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. @fig-input-computation-o
 
 Das EVA-Modell beschreibt ein Problem und dessen Lösung durch drei Komponenten: die Eingabe (*Input*), die der Computer erhält, die Verarbeitung (*Computation*), die er mit diesen Daten durchführt, und die Ausgabe (*Output*), die er als Ergebnis liefert. Wenn wir diese drei Komponenten beschreiben können, haben wir die für den Computer relevanten Aspekte des Problems erfasst – alles andere ist unwichtig.
 
-![Das EVA-Modell besteht aus der Eingabe, der Berechnung und der Ausgabe.](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output.png){fig-align="center" width=60% #fig-input-computation-output .lightbox}
+![Das EVA-Modell besteht aus der Eingabe, der Berechnung und der Ausgabe.](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output.png){fig-align="center" width=100% #fig-input-computation-output .lightbox}
 
 Wenden wir das EVA-Modell auf das LiFi-Projekt an. Das LiFi-Gerät soll verschiedene Daten erfassen: Lichtsignale von einem anderen LiFi-Gerät und die Temperatur des eigenen Sensors. Basierend auf diesen Daten trifft es eine Entscheidung. Anschließend kommuniziert es diese Entscheidung zusammen mit den erfassten Temperaturdaten über Lichtsignale an das nächste Gerät. Zwar ist jeder dieser Teilschritte für sich genommen komplex und erfordert eine eigene Lösung. Dennoch können wir das EVA-Modell nutzen, um das LiFi-Projekt als Ganzes darzustellen, indem wir von den Details der einzelnen Schritte abstrahieren:
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output_lifi.png){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output_lifi.png){fig-align="center" width=100% .lightbox}
 
 Was haben wir nun dadurch gewonnen, dass wir das EVA-Modell angewendet haben? Wir können uns nun auf die einzelnen Elemente konzentrieren und diese getrennt voneinander betrachten. Damit zerlegen wir das große, überfordernde Problem in kleinere Teile und machen es dadurch besser beherrschbar. 
 
@@ -64,7 +64,7 @@ Schließlich müssen wir die Form der Ausgabe festlegen. Wie soll das Verarbeitu
 
 Wir können die Perspektive auf eine geräteübergreifende LiFi-Sicht erweitern. Dann kommt neben der Repräsentation von Informationen ein weiterer Aspekt hinzu: Die **Kommunikation von Informationen**. Wie übertragen wir die Informationen vom ersten LiFi-Gerät zum nächsten?
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output_lifi_devices.png){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output_lifi_devices.png){fig-align="center" width=100% .lightbox}
 
 Vielleicht ist dir aufgefallen, dass die Struktur des gesamten Buches an den gerade identifizierten, übergeordneten Problemstellungen ausgerichtet ist. Wir befinden uns gerade im [ersten Teil](part-problems.qmd) und sprechen darüber, wie wir Probleme im Computer darstellen. Im [zweiten Teil des Buches](part-representation.qmd) lernen wir, wie Computer ganz unterschiedliche Informationen repräsentieren können, damit sie für die Lösung des Problems verwendet werden können. Im [dritten Teil](part-processing.qmd) beschäftigen wir uns damit, wie Computer Informationen verarbeiten. Der [vierte und letzte Teil](part-communication.qmd) führt uns in wichtige Konzepte der Kommunikation mittels Computern und Netzwerken ein.
 
@@ -74,7 +74,7 @@ Am Beispiel eines Taschenrechner lässt sich das EVA-Modell gut darstellen. Wir 
 
 Das Beispiel des Taschenrechners wird in @fig-example-calculator anhand einer einfachen Addition zweier Zahlen konkreter verdeutlicht. Als Eingabe werden zwei Zahlen benötigt, die Berechnung erfolgt durch eine Addition, dargestellt durch das Plussymbol. Die Ausgabe ist das Ergebnis – die Summe.
 
-![Das EVA-Modell für die Addition zweier Zahlen.](https://winf-hsos.github.io/university-docs/images/problem_solving_example_addition.png){fig-align="center" width=60% #fig-example-calculator .lightbox}
+![Das EVA-Modell für die Addition zweier Zahlen.](https://winf-hsos.github.io/university-docs/images/problem_solving_example_addition.png){fig-align="center" width=100% #fig-example-calculator .lightbox}
 
 Dieses einfache Beispiel zeigt, dass wir verstehen müssen, wie Computer die drei Bestandteile des EVA-Modells umsetzen. Beim Taschenrechner sind Ein- und Ausgabe jeweils Zahlen. Diese Daten speichert der Computer in seinem Arbeitsspeicher. Dabei ist wichtig zu wissen, dass Computer auf der untersten Ebene ausschließlich Nullen und Einsen speichern. Wir müssen also verstehen, wie Computer Zahlen mithilfe dieser Binärzahlen darstellen können.
 
@@ -84,27 +84,27 @@ Was passiert bei der Berechnung in der Mitte des Modells? Eine Addition mag uns 
 
 Betrachten wir ein weiteres Beispiel: Stell dir vor, du möchtest einen Computer nutzen, um Maispflanzen auf einer Drohnenaufnahme eines Ackers zu zählen. Diese Aufgabe ist für Menschen zwar einfach zu verstehen, wäre aber sehr zeitaufwändig auszuführen. Moderne Algorithmen ermöglichen es Computern, Objekte auf Bildern präzise zu lokalisieren und zu zählen. Nehmen wir an, wir haben für dieses Problem bereits eine Lösung entwickelt und ein Programm namens `count_plants` erstellt. Nun stellt sich die Frage: Wie sehen die Eingabe und die Ausgabe für dieses Problem aus? Was benötigt das Programm von uns, und was liefert es als Ergebnis?
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_example_count_plants_1.png){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/images/problem_solving_example_count_plants_1.png){fig-align="center" width=100% .lightbox}
 
 Die erwartete **Ausgabe** lässt sich einfach beschreiben: Das Ergebnis der Zählung ist eine ganze Zahl. Die **Eingabe** für dieses Problem ist - anders als beim Taschenrechner - kein Tastendruck, sondern ein Bild. Damit der Computer das Bild verarbeiten kann, muss es dem Computer in digitaler Form bereitgestellt werden. Was das genau bedeutet, lernen wir in einem späteren Kapitel. Hier genügt es uns zu verstehen, *dass *wir das Bild digital abbilden müssen. 
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_example_count_plants_3.png){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/images/problem_solving_example_count_plants_3.png){fig-align="center" width=100% .lightbox}
 
 Wie gelangt das Bild in den Computer? Dies ist im Modell nicht näher definiert und für die Problembeschreibung auch nicht wesentlich. Das Bild muss lediglich irgendwie in den Arbeitsspeicher des Programms `count_plants` gelangen. Dies kann auf verschiedene Arten geschehen: Es kann von der Festplatte gelesen werden, über eine drahtlose Verbindung wie Bluetooth direkt übertragen und verarbeitet werden, oder das Programm `count_plants` läuft direkt auf der Drohne und greift unmittelbar auf deren Kamera zu. Die technische Umsetzung ist für unser Modell zunächst irrelevant. In einem späteren Kapitel werden wir uns damit befassen, wie Informationen genau übertragen und gespeichert werden. Genauso werden wir lernen, wie die benötigten Informationen für die Ein- und Ausgabe eines Programms in digitaler Form dargestellt werden können.
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_example_count_plants_4.png){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/images/problem_solving_example_count_plants_4.png){fig-align="center" width=100% .lightbox}
 
 #### Beispiel: Schach spielen
 
 Ein weiteres Beispiel zur Verdeutlichung des EVA-Modells ist das Schachspiel. Das Problem lässt sich einfach beschreiben: Der Computer soll auf Grundlage einer bestehenden Spielsituation den bestmöglichen nächsten Zug vorschlagen. Dieser Zug soll die Gewinnchancen maximieren.
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_example_chess.png){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/images/problem_solving_example_chess.png){fig-align="center" width=100% .lightbox}
 
 Betrachten wir zunächst die Eingabe für dieses Problem: Wir können dem Computer nicht einfach ein physisches Schachbrett zeigen, sondern müssen überlegen, wie sich ein Schachbrett und die Position der Figuren in digitaler Form darstellen lassen. Dabei kann es durchaus mehrere Möglichkeiten geben, die uns ans Ziel führen.
 
 Ein Schachbrett lässt sich etwa als Liste von 64 Feldern darstellen, die von oben links nach unten rechts durchnummeriert sind. Für jedes Feld speichern wir, ob es leer ist oder welche Figur darauf steht. Die Figuren werden durch Buchstaben dargestellt – zum Beispiel "R" für den Turm (Englisch: Rook) oder "N" für den Springer (Englisch: Knight). Für die Farben Schwarz und Weiß verwenden wir einfach 0 und 1. Diese Darstellungsform reduziert unser Problem auf Listen, Zahlen und Buchstaben in digitaler Form. Für Computer ist das eine leicht zu verarbeitende Struktur, wie wir später noch sehen werden. Ein Beispiel für eine solche Kodierung zeigt @fig-coding-chess-figures.
 
-![Beispiel für die Darstellung von Schachfiguren als Zahlen und  Buchstaben.](https://winf-hsos.github.io/university-docs/images/problem_solving_example_chess_representation.png){fig-align="center" width=60% #fig-coding-chess-figures .lightbox}
+![Beispiel für die Darstellung von Schachfiguren als Zahlen und  Buchstaben.](https://winf-hsos.github.io/university-docs/images/problem_solving_example_chess_representation.png){fig-align="center" width=100% #fig-coding-chess-figures .lightbox}
 
 Die Ausgabe, also der nächste Zug, lässt sich ebenfalls durch Zahlen und Buchstaben darstellen. Eine weit verbreitete Notation gibt zunächst die Koordinate des Ausgangsfelds an, von dem eine Figur gezogen werden soll, gefolgt von der Koordinate des Zielfelds. Ein Beispiel wäre der Zug von "E2 nach E4". Statt “E2” und “E4” könnten wir ebenso die entsprechende Zahl zwischen 1 und 64 aus unserer Liste verwenden, um mit dem obigen Schema konsistent zu bleiben. Der Zug hieße dann “53 nach 37”.
 
@@ -112,7 +112,7 @@ Die Ausgabe, also der nächste Zug, lässt sich ebenfalls durch Zahlen und Buchs
 
 Als drittes Beispiel betrachten wir die Verwendung von Chatprogrammen wie ChatGPT. Seit seiner Veröffentlichung im November 2022 hat es die Welt stark verändert und einen regelrechten KI-Hype ausgelöst. Ein großes Sprachmodell wie GPT-4, das hinter dem heutigen ChatGPT steckt, ist eine komplexe Software, die wir in diesem Buch nicht vollständig ergründen können. Das Schöne an Modellen wie dem EVA-Modell ist jedoch, dass sie komplexe Sachverhalte vereinfachen können – so auch bei Sprachmodellen. Das Problem, das Sprachmodelle lösen, lässt sich wie alle Probleme in unserem EVA-Modell einfach darstellen. 
 
-![ChatGPT im EVA-Modell.](https://winf-hsos.github.io/university-docs/images/problem_solving_example_chatgpt.png){fig-align="center" width=60% #fig-eva-model-example-chatgpt .lightbox}
+![ChatGPT im EVA-Modell.](https://winf-hsos.github.io/university-docs/images/problem_solving_example_chatgpt.png){fig-align="center" width=100% #fig-eva-model-example-chatgpt .lightbox}
 
 Dabei betrachten wir das Sprachmodell – oder ChatGPT – als Blackbox, ohne die internen Prozesse genauer zu definieren. Für unser Modell genügt es zu verstehen, dass wir eine Eingabe in Form einer Nachricht an ChatGPT benötigen und als Ausgabe eine Antwort erhalten. Auch hier stellt sich die Frage, wie wir beides digital repräsentieren können, damit ChatGPT damit arbeiten kann. 
 
@@ -122,7 +122,7 @@ Klassischerweise bestehen sowohl Eingabe als auch Ausgabe einfach aus Texten –
 
 Anhand des EVA-Modells wird deutlich, dass wir dem Computer Informationen in Form von digitalen Daten bereitstellen müssen, mit denen er arbeiten kann. Was aber genau soll er damit machen? Hier kommt der mittlere Kasten des Modells ins Spiel – die eigentliche Lösung des Problems.
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_input_solution_output.png){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/images/problem_solving_input_solution_output.png){fig-align="center" width=100% .lightbox}
 
 In der Informatik nennen wir die Beschreibung zur Lösung eines Problems einen **Algorithmus**. Ein Algorithmus ist eine Schritt-für-Schritt-Anleitung zur Problemlösung und ist zunächst unabhängig von Computern. Das bedeutet, wir können die Lösung eines Problems ohne Bezug zu einem Computer beschreiben und nennen das einen Algorithmus. 
 
@@ -149,11 +149,11 @@ Eine universelle Strategie zur Lösung komplexer Probleme ist die Zerlegung in k
 3.  Identifizierte Maispflanzen zählen
 
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_large_complex_problem.png){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/images/problem_solving_large_complex_problem.png){fig-align="center" width=100% .lightbox}
 
 Jedes dieser Teilprobleme erfordert einen eigenen Algorithmus. Dabei ist es möglich, die Teilprobleme noch weiter zu zerlegen, um sie besser bearbeiten zu können.
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_even_smaller_problems.png){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/images/problem_solving_even_smaller_problems.png){fig-align="center" width=100% .lightbox}
 
 Die Identifizierung sinnvoller Teilprobleme erfordert ein ausgeprägtes analytisches Denkvermögen. Dies ist besonders wichtig im Umgang mit Computern. Wie wir beim Erlernen der Programmierung sehen werden, ist die Zerlegung eines Problems in kleine, lösbare Schritte der Schlüssel zur Beherrschung seiner Komplexität.
 
@@ -165,7 +165,7 @@ Anders als bei der Problemzerlegung sind die Teilprobleme beim Divide and Conque
 
 Ein anderes Beispiel ist die binäre Suche in einer sortierten Liste. Hier betrachten wir das Element in der Mitte der Liste und vergleichen es mit dem gesuchten Element. Da die Liste sortiert ist, können wir entscheiden, in welchem Teil der Liste wir weitersuchen müssen. Im zweiten Schritt suchen wir nur in diesem Teil weiter und haben damit das Problem halbiert. Die Natur des Problems bleibt dabei gleich, und wir können erneut genauso verfahren – so lange, bis wir nur noch ein Element übrig haben, das entweder das gesuchte Element ist oder nicht.
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_67_prime_number_binary_search_2.png){fig-align="center" width=60% .lightbox}
+![](https://winf-hsos.github.io/university-docs/images/problem_solving_67_prime_number_binary_search_2.png){fig-align="center" width=100% .lightbox}
 
 ### Verteile und Parallelisiere (*Distribute and Parallelize*)
 
@@ -177,17 +177,17 @@ Die Strategie des Verteilens und Parallelisierens – im Englischen *Distribute 
 
 Um dieses Konzept greifbar zu machen, schauen wir uns ein konkretes Beispiel an, das wir mit dem EVA-Modell analysieren: das Zählen aller Wörter in einem Buch.
 
-![Das Wörterzählen-Problem im EVA-Modell](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count.png){fig-align="center" width=60% .lightbox}
+![Das Wörterzählen-Problem im EVA-Modell](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count.png){fig-align="center" width=100% .lightbox}
 
 Je nach Umfang des Buches kann dies eine mühsame Aufgabe sein, besonders für Menschen. Ein Computer bewältigt ein einzelnes Buch dank seiner hohen Verarbeitungsgeschwindigkeit problemlos. Allerdings lässt sich das Problem beliebig erweitern – etwa wenn wir statt eines Buches alle Texte im Internet oder sämtliche Wikipedia-Artikel analysieren möchten. In solchen Fällen wird die Aufgabe auch für Computer aufwendig und zeitintensiv. Eine Lösung besteht darin, mehrere Computer parallel einzusetzen. 
 
 In @fig-problem-solving-word-count-distributed sehen wir beispielhaft die Verteilung der Buchseiten auf vier Studenten. Jeder erhält einen gleichen Anteil, wodurch sich die Bearbeitungszeit im Optimalfall auf ein Viertel reduziert. Bei Computern können wir analog vorgehen und mehrere Rechner gleichzeitig mit Teilen der Seiten betrauen. Diese Rechner werden in einem Netzwerk verbunden und von einem zentralen Computer gesteuert, der die Teilergebnisse am Ende zusammenführt. Ein solches System nennen wir Rechencluster, bestehend aus Arbeitern – den *Worker Nodes* – sowie einer Steuereinheit, die in solchen Systemen als *Driver* oder *Name Node* bezeichnet wird.
 
-![Verteiltes Wörterzählen](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count_distribute_further.png){fig-align="center" width=60% #fig-problem-solving-word-count-distributed .lightbox}
+![Verteiltes Wörterzählen](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count_distribute_further.png){fig-align="center" width=100% #fig-problem-solving-word-count-distributed .lightbox}
 
 Durch die Verteilung und parallele Ausführung kann das EVA-Modell wie in @fig-eva-distributed angepasst und detaillierter dargestellt werden. Statt eines einzelnen Prozesses `count_words` laufen nun $n$ parallele Prozesse, die jeweils einen Teil des Buches durchsuchen. Die Aufteilung erfolgt zu Beginn durch den `split`-Prozess, während das Zusammenführen der Teilergebnisse – in diesem Fall das Addieren der Teilsummen – durch den `merge`-Schritt erfolgt.
 
-![Das parallelisierte Wörterzählen im EVA-Modell ](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count_distribute_parallelize.png){fig-align="center" width=60% #fig-eva-distributed .lightbox}
+![Das parallelisierte Wörterzählen im EVA-Modell ](https://winf-hsos.github.io/university-docs/images/problem_solving_example_word_count_distribute_parallelize.png){fig-align="center" width=100% #fig-eva-distributed .lightbox}
 
 In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fundamentalen Konzept für die computergestützte Problemlösung. Dieses Modell bietet uns einen strukturierten Rahmen, der aus drei wesentlichen Komponenten besteht:
 
