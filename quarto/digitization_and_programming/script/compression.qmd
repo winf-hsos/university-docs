@@ -12,9 +12,7 @@ subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 
 -   Huffman
 
-
 ## Verlustbehaftete Kompression
 
 -   JPEG
-
 

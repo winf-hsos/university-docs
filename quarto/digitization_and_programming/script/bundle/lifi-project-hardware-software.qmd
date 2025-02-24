@@ -65,13 +65,9 @@ Bitte überprüfe vor dem Fortfahren mit den folgenden Anweisungen, ob dein LiFi
 Neben der Hardware benötigen wir für die Entwicklung des LiFi-Prototyps verschiedene Software-Komponenten. Die Software ist komplett Open-Source und dadurch kostenlos nutzbar. Alle Programme sind für Windows, Mac OS und Linux verfügbar. Hier zunächst die Übersicht, bevor wir jede Software im Detail vorstellen:
 
 -   [Brick Daemon](https://www.tinkerforge.com/en/doc/Software/Brickd.html) und [Brick Viewer](https://www.tinkerforge.com/en/doc/Software/Brickv.html)
-
 -   [Visual Studio Code](https://code.visualstudio.com/download)
-
 -   [Python](https://www.python.org/downloads/)
-
 -   [Git](https://git-scm.com/downloads)
-
 
 
 

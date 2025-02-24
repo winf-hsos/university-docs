@@ -12,4 +12,3 @@ subtitle: "Vorlesungsskript Digitalisierung und Programmierung"
 
 -   von Neumann-Architektur
 
-

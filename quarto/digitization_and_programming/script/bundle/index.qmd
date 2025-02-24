@@ -11,15 +11,10 @@ Ich richte dieses Buch an Menschen ohne Vorkenntnisse in den Bereichen Digitalis
 Mein Ziel ist es, sowohl die Kenntnisse als auch die Begeisterung für die Informatik zu steigern – zumindest bei einigen, die dieses Buch zur Hand nehmen (müssen). Um dies zu erreichen, habe ich mich entschieden, einen anderen Weg einzuschlagen als klassische Informatik-Lehrbücher:
 
 -   Ich verwende bewusst eine **einfache Sprache**. Das heißt nicht, dass wir keine Fachbegriffe einführen werden. Wir erklären die Sachverhalte aber zunächst in einer für alle Studierenden verständlichen Sprache und führen Fachbegriffe schrittweise ein.
-
 -   Neben der Sprache knüpfe ich bei den Beispielen gezielt an bestehendes Wissen an. Ich verwende **Beispiele und Analogien aus dem Alltag**, um Ideen und Konzepte der Informatik zu veranschaulichen. Das mag nicht immer perfekt gelingen – aber wenn es gelingt, hilft es meiner Erfahrung nach dabei, neue Themen besser zu verstehen.
-
 -   Mein Fokus liegt auf dem **Verständnis** der Konzepte statt auf technischen Details. Ich verzichte bewusst auf zu viel Tiefe zugunsten eines zugänglichen Buches, das einen guten Überblick vermittelt und echtes Verständnis ermöglicht. Wer anschließend Lust auf mehr Tiefe hat, bekommt von mir in jedem Kapitel Leseempfehlungen an die Hand.
-
 -   Ich bin überzeugt, dass konkrete Projekte das Interesse und Verständnis am besten fördern. Dieses Buch verbindet das **LiFi-Projekt** mit den theoretischen Grundlagen der Informatik und führt Schritt für Schritt an algorithmisches Denken und Programmierung heran. Das Ergebnis ist ein fertiges Produkt, für das die Leserinnen und Leser alle erlernten Kenntnisse praktisch anwenden mussten – ganz nach dem Prinzip „Learning by Doing".
-
 -   Mir ist bewusst, dass viele der jüngeren Generation das Lesen eines Buches als Herausforderung empfinden. Dennoch halte ich Bücher für unverzichtbar, um komplexe Themengebiete zu erschließen. Um den Leseprozess zu erleichtern, stelle ich ergänzende **Videos und Audioaufnahmen** bereit, die in den Kapiteln verlinkt und über QR-Codes zugänglich sind.
-
 
 ## Wie ist das Buch aufgebaut?
 
@@ -30,9 +25,7 @@ Dieses Buch befasst sich mit der Frage, wie wir Computer zum Lösen von Probleme
 Ich orientiere mich übergeordnet an dem Thema des Problemlösens (*problem-solving*), das sich in zwei Bereiche gliedert:
 
 1.  **Algorithmen** (*algorithms*) bilden den Kern des Problemlösens und der Informatik. Sie beschreiben die notwendigen Schritte zur Lösung eines Problems.
-
 2.  **Kommunikation** (*communication*) umfasst das Teilen von Informationen in Computernetzwerken. Mit der weiten Verbreitung des Internets ist dieser Aspekt zentral für die moderne Computernutzung geworden. Lösungen, die ein Computer erzeugt, können heute unmittelbar über Netzwerke weltweit geteilt werden.
-
 
 Im Bereich der Algorithmen beschäftigen wir uns zunächst damit, wie wir Probleme für Computer verständlich und lösbar beschreiben können. Eine zentrale Rolle spielt dabei die **Informationsrepräsentation **(*information representation*): Wie können wir Zahlen, Texte, Bilder, Videos, Audioaufnahmen und andere wichtige Inhalte so darstellen, dass ein Computer damit arbeiten kann? 
 

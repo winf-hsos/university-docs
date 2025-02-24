@@ -32,9 +32,9 @@ Zu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.
 
 Hast du dich jemals gefragt, was eigentlich Information genau ist? Jeder hat eine intuitive Vorstellung davon, was wir mit Information meinen. Aber was ist die genaue Definition? Und wie ist der Begriff *Information* im Zusammenhang mit digtialen Computern gemeint?
 
-Hier schon einmal eine Definition, die wir in diesem Kapitel anhand von einigen Beispielen genauer verstehen wollen.
+Hier schon einmal eine Definition aus @adami_what_2016, die wir in diesem Kapitel anhand von einigen Beispielen genauer verstehen wollen.
 
-![Lauet dieser Definition erhöht Information unsere Treffsicherheit bei Vorhersagen.](https://winf-hsos.github.io/university-docs/images/information_definition_adami.png){fig-align="center" width=100% .lightbox}
+![Definition des Informationsbegriffs laut @adami_what_2016.](https://winf-hsos.github.io/university-docs/images/information_definition_adami.png){fig-align="center" width=100% .lightbox}
 
 ### Zahlenraten
 

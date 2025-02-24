@@ -4,4 +4,3 @@
 
 -   von Neumann-Architektur
 
-

@@ -5,13 +5,9 @@
 Willkommen zum Kapitel über Algorithmen - ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Abschnitt werden wir uns mit den grundlegenden Aspekten von Algorithmen befassen und dabei zentrale Fragen beantworten:
 
 -   Was ist ein Algorithmus und wie grenzt er sich von einem Computerprogramm ab?
-
 -   Welche verschiedenen Kategorien von Algorithmen existieren und durch welche praktischen Beispiele lassen sie sich veranschaulichen?
-
 -   Wie können wir Algorithmen systematisch und präzise formulieren?
-
 -   Nach welchen Kriterien bewerten wir die Effizienz und Eignung verschiedener Algorithmen für spezifische Problemstellungen?
-
 
 ## Was ist ein Algorithmus?
 
@@ -26,41 +22,28 @@ Heute bezeichnet ein **Algorithmus** eine präzise Abfolge von Anweisungen, die 
 Ein wichtiger Aspekt von Algorithmen ist ihre Universalität: Sie sind nicht an Computer gebunden. Ein Algorithmus ist im Kern eine strukturierte Anleitung zur Problemlösung, unabhängig davon, wer oder was diese Anleitung ausführt. Diese Flexibilität zeigt sich besonders deutlich in unserem Alltag, wo wir ständig algorithmische Anleitungen befolgen - sei es beim Aufbau eines Möbelstücks oder beim Kochen nach einem Rezept. Bei diesen Tätigkeiten führen wir Menschen die algorithmischen Schritte aus, ganz ohne Beteiligung eines Computers:
 
 -   Kochen: Ein Rezept ist ein Algorithmus für die Zubereitung eines Gerichts.
-
 Comment
 
 -   Wegbeschreibung: Eine Schritt-für-Schritt-Anleitung, um von Punkt A nach Punkt B zu gelangen.
-
 -   Bastelanleitung: Die Anweisungen, um ein Modellflugzeug zusammenzubauen.
-
 
 Viele Algorithmen können von Computern ausgeführt werden. Dafür ist jedoch eine Übersetzung in eine maschinenverständliche Form notwendig. Diese Übersetzung erfolgt durch das Programmieren, wobei wir den Algorithmus in einer Programmiersprache formulieren. Um die Beziehung zwischen Algorithmen und Computerprogrammen besser zu verstehen, ist es hilfreich, drei zentrale Begriffe zu unterscheiden:
 
 -   **Algorithmus**: Die abstrakte Beschreibung einer Lösungsmethode in Form einer präzisen, endlichen Sequenz von individuellen Anweisungen. Ein Algorithmus ist unabhängig von der konkreten Umsetzung und kann sowohl von Menschen als auch von Maschinen ausgeführt werden.
-
 -   **Programm**: Die konkrete Implementation eines oder mehrerer Algorithmen in einer Programmiersprache. Das Programm übersetzt die abstrakten Anweisungen des Algorithmus in eine Form, die ein Computer verstehen und ausführen kann.
-
 -   **Prozess**: Die tatsächliche Ausführung eines Programms durch einen Computer. Dabei werden die programmierten Anweisungen Schritt für Schritt abgearbeitet, um das gewünschte Ergebnis zu erzielen.
-
 
 ## Kategorien
 
 Algorithmen können nach ihrer Funktion und ihrem Anwendungsbereich in verschiedene Kategorien eingeteilt werden. Jede Kategorie repräsentiert einen spezifischen Problemlösungsansatz:
 
 -   **Mathematische Algorithmen**: Berechnen oder approximieren Werte
-
 -   **Suchalgorithmen**: Finden bestimmte Elemente in einer Datenmenge
-
 -   **Sortieralgorithmen**: Ordnen Daten nach bestimmten Kriterien
-
 -   **Optimierungsalgorithmen**: Finden die bestmögliche Lösung für ein Problem
-
 -   **Graphenalgorithmen**: Arbeiten mit vernetzten Strukturen
-
 -   **Stochastische Algorithmen**: Verwenden Zufallselemente, um ein Problem zu lösen
-
 -   **Maschinelle Lernalgorithmen**: Erkennen Muster und treffen Vorhersagen
-
 
 Diese Kategorien sind weder vollständig noch strikt voneinander getrennt. Viele Algorithmen lassen sich mehreren Kategorien zuordnen. Ein anschauliches Beispiel hierfür ist der **Dijkstra-Algorithmus**\index{Dijkstra-Algorithmus}, der die kürzeste Route zwischen zwei Punkten findet. Er ist sowohl ein Graphenalgorithmus, da er auf vernetzten Strukturen arbeitet, als auch ein Optimierungsalgorithmus, da er die optimale (kürzeste) Route ermittelt.
 

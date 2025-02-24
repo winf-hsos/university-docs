@@ -4,9 +4,7 @@
 
 -   Huffman
 
-
 ## Verlustbehaftete Kompression
 
 -   JPEG
-
 

@@ -21,27 +21,16 @@ Deine Aufgabe als Teil eines interdisziplinären F&E-Teams in einem Hightech-Unt
 Das LiFi-Projekt stellt ein typisches Ingenieursproblem dar: die Kombination von Hardware und Software zur Lösung eines Praxisproblems. Die zentralen inhaltlichen Fragen dieses Projekts lauten:
 
 -   Wie können physikalische Größen wie die Temperatur oder Licht gemessen und von einer analogen in eine digitale Form überführt werden?
-
 -   Wie können Algorithmen Entscheidungen auf Basis der digitalen Eingabedaten treffen?
-
 -   Wie können wir mit Lichtsignalen Informationen darstellen?
-
 -   Wie können wir mithilfe einer LED und eines Farbsensors Informationen übertragen?
-
 -   Welches Protokoll eignet sich am besten für die LED-basierte Datenübertragung?
-
 -   Wie verlässlich ist die Datenübertragung?
-
 -   Welche maximale Übertragungsdistanz ist mit Licht möglich?
-
 -   Welche Umgebungsbedingungen sind für eine erfolgreiche Übertragung erforderlich?
-
 -   Wie lässt sich die Datenübertragung sicher gestalten?
-
 -   Welche Datenübertragungsrate können wir erreichen?
-
 -   Wie können wir möglichst effizient kommunizieren?
-
 
 Eine wichtige Einschränkung besteht darin, dass wir all diese Fragen der uns bereitgestellten Hardware beantworten müssen: einer LED und einem Farbsensor.
 

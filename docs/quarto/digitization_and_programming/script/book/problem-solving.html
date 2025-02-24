@@ -363,32 +363,32 @@ window.Quarto = {
 
 <section id="welche-schritte-führen-zu-einer-lösung-für-ein-problem" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="welche-schritte-führen-zu-einer-lösung-für-ein-problem"><span class="header-section-number">1.1</span> Welche Schritte führen zu einer Lösung für ein Problem?</h2>
-<p><span class="citation" data-cites="UBHD-66395843">Pólya und Conway (<a href="references.html#ref-UBHD-66395843" role="doc-biblioref">2004</a>)</span> beschreiben einen weit verbreiteten Ansatz zur Problemlösung. Dieser basiert auf vier Schritten, die als wiederkehrender Kreislauf angewendet werden können und sollten. Obwohl <span class="citation" data-cites="UBHD-66395843">Pólya und Conway (<a href="references.html#ref-UBHD-66395843" role="doc-biblioref">2004</a>)</span> diesen Ansatz ursprünglich für mathematische Probleme entwickelten, lässt er sich auch auf andere Bereiche – insbesondere die Informatik – übertragen. Folgende Schritte beschreiben beide in ihrem Aufsatz:</p>
+<p><span class="citation" data-cites="UBHD-66395843">Pólya und Conway (<a href="#ref-UBHD-66395843" role="doc-biblioref">2004</a>)</span> beschreiben einen weit verbreiteten Ansatz zur Problemlösung. Dieser basiert auf vier Schritten, die als wiederkehrender Kreislauf angewendet werden können und sollten. Obwohl <span class="citation" data-cites="UBHD-66395843">Pólya und Conway (<a href="#ref-UBHD-66395843" role="doc-biblioref">2004</a>)</span> diesen Ansatz ursprünglich für mathematische Probleme entwickelten, lässt er sich auch auf andere Bereiche – insbesondere die Informatik – übertragen. Folgende Schritte beschreiben beide in ihrem Aufsatz:</p>
 <ol type="1">
-<li><p>Das Problem verstehen</p></li>
-<li><p>Einen Plan zur Lösung erstellen</p></li>
-<li><p>Den Plan umsetzen</p></li>
-<li><p>Die Lösung reflektieren und verbessern</p></li>
+<li>Das Problem verstehen</li>
+<li>Einen Plan zur Lösung erstellen</li>
+<li>Den Plan umsetzen</li>
+<li>Die Lösung reflektieren und verbessern</li>
 </ol>
 </section>
 <section id="warum-sind-computer-beim-lösen-von-problemen-nützlich" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="warum-sind-computer-beim-lösen-von-problemen-nützlich"><span class="header-section-number">1.2</span> Warum sind Computer beim Lösen von Problemen nützlich?</h2>
 <p>Der wichtigste Grund für die Nutzung von Computern ist das Lösen von Problemen. Ob wir eine Route mit Google Maps planen, Online-Bestellungen bei DHL verfolgen oder eine KI wie ChatGPT um eine Empfehlung bitten – überall lösen Computer Probleme. Warum? Weil Computer zwei Eigenschaften besitzen, die für viele Probleme und deren Lösung vorteilhaft sind:</p>
 <ol type="1">
-<li><p>Computer machen keine Fehler. Wenn wir einem Computer einen Lösungsweg beibringen, wendet er ihn fehlerfrei auf neue Probleme an.</p></li>
-<li><p>Computer sind unglaublich schnell. Ob einfache Schritte, komplexe Berechnungen oder die Verarbeitung großer Datenmengen – Computer lösen Probleme in einem Bruchteil der Zeit, die wir Menschen benötigen würden.</p></li>
+<li>Computer machen keine Fehler. Wenn wir einem Computer einen Lösungsweg beibringen, wendet er ihn fehlerfrei auf neue Probleme an.</li>
+<li>Computer sind unglaublich schnell. Ob einfache Schritte, komplexe Berechnungen oder die Verarbeitung großer Datenmengen – Computer lösen Probleme in einem Bruchteil der Zeit, die wir Menschen benötigen würden.</li>
 </ol>
 <p>Diese beiden Eigenschaften ermöglichen es uns, mit Computern besonders solche Probleme effizient zu lösen, die wiederkehrend und in großer Zahl auftreten. Wir sprechen dann von <strong>Automatisierung</strong>.</p>
 <p>In diesem Kapitel lernen wir, wie Computer Probleme strukturieren und lösen. Um den Begriff des Problems besser zu verstehen und seine Bedeutung im Kontext von Computern einzugrenzen, führen wir zunächst ein einfaches Modell ein.</p>
 </section>
 <section id="wie-stellen-wir-probleme-im-computer-dar" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="wie-stellen-wir-probleme-im-computer-dar"><span class="header-section-number">1.3</span> Wie stellen wir Probleme im Computer dar?</h2>
-<p>Das LiFi-Projekt stellt eine komplexe Herausforderung dar. Beim Lesen der Ziele und Fragestellungen in <span class="quarto-unresolved-ref">?sec-lifi-project</span> kann man sich überfordert fühlen. Die zentrale Frage lautet: Wie nähern wir uns dieser Aufgabe systematisch an?</p>
+<p>Das LiFi-Projekt stellt eine komplexe Herausforderung dar. Beim Lesen der Ziele und Fragestellungen in <a href="#sec-lifi-project" class="quarto-xref"><span class="quarto-unresolved-ref">sec-lifi-project</span></a> kann man sich überfordert fühlen. Die zentrale Frage lautet: Wie nähern wir uns dieser Aufgabe systematisch an?</p>
 <p>Ein bewährter Ansatz für komplexe Situationen ist die Vereinfachung. Auch wenn wir das Problem selbst nicht vereinfachen können, können wir es durch eine strukturierte Herangehensweise besser verstehen und handhabbarer machen. Die Verwendung von Modellen ist dafür ein geeigneter Weg.</p>
 <p>Modelle zielen darauf ab, die wesentlichen Aspekte der realen Welt hervorzuheben und unwichtige Details auszublenden. Da dies zunächst abstrakt klingen mag, werden wir es anhand eines Modells veranschaulichen, das uns durch das gesamte Buch begleiten wird: das Eingabe-Verarbeitung-Ausgabe-Modell, kurz EVA-Modell.</p>
 <section id="das-eingabe-verarbeitung-ausgabe-modell" class="level3" data-number="1.3.1">
 <h3 data-number="1.3.1" class="anchored" data-anchor-id="das-eingabe-verarbeitung-ausgabe-modell"><span class="header-section-number">1.3.1</span> Das Eingabe-Verarbeitung-Ausgabe-Modell</h3>
-<p>Das Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. <a href="#fig-input-computation-output" class="quarto-xref">Abbildung&nbsp;<span>1.1</span></a>) ist ein wictiges Modell in der Informatik. Es erklärt die Arbeitsweise von Computern auf vereinfachte Weise und beinhaltet nur die nötigsten Elemente. Konkret zeigt das Modell, wie Computer Probleme lösen und welche drei Elemente wir dabei betrachten müssen: Computer benötigen <strong>(1) Eingabedaten</strong>, die sie durch einen definierten <strong>(2) Verarbeitungsprozess</strong> in gewünschte <strong>(3) Ausgabendaten</strong> umwandeln.</p>
+<p>Das Eingabe-Verarbeitung-Ausgabe-Modell (EVA-Modell, s. <a href="#fig-input-computation-output" class="quarto-xref">Abbildung&nbsp;<span class="quarto-unresolved-ref">fig-input-computation-output</span></a>) ist ein wictiges Modell in der Informatik. Es erklärt die Arbeitsweise von Computern auf vereinfachte Weise und beinhaltet nur die nötigsten Elemente. Konkret zeigt das Modell, wie Computer Probleme lösen und welche drei Elemente wir dabei betrachten müssen: Computer benötigen <strong>(1) Eingabedaten</strong>, die sie durch einen definierten <strong>(2) Verarbeitungsprozess</strong> in gewünschte <strong>(3) Ausgabendaten</strong> umwandeln.</p>
 <p>Das EVA-Modell beschreibt ein Problem und dessen Lösung durch drei Komponenten: die Eingabe (<em>Input</em>), die der Computer erhält, die Verarbeitung (<em>Computation</em>), die er mit diesen Daten durchführt, und die Ausgabe (<em>Output</em>), die er als Ergebnis liefert. Wenn wir diese drei Komponenten beschreiben können, haben wir die für den Computer relevanten Aspekte des Problems erfasst – alles andere ist unwichtig.</p>
 <div id="fig-input-computation-output" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
@@ -420,7 +420,7 @@ Abbildung&nbsp;1.1: Das EVA-Modell besteht aus der Eingabe, der Berechnung und d
 <section id="beispiel-taschenrechner" class="level4" data-number="1.3.1.1">
 <h4 data-number="1.3.1.1" class="anchored" data-anchor-id="beispiel-taschenrechner"><span class="header-section-number">1.3.1.1</span> Beispiel: Taschenrechner</h4>
 <p>Am Beispiel eines Taschenrechner lässt sich das EVA-Modell gut darstellen. Wir können uns bildlich vorstellen, wie ein Mensch die Eingabe tätigt und danach das Ergebnis abliest. Es ist wichtig zu verstehen, dass Eingabe und Ausgabe sehr unterschiedliche Formen annehmen können und keinesfalls nur über eine Tastatur erfolgen müssen.</p>
-<p>Das Beispiel des Taschenrechners wird in <a href="#fig-example-calculator" class="quarto-xref">Abbildung&nbsp;<span>1.2</span></a> anhand einer einfachen Addition zweier Zahlen konkreter verdeutlicht. Als Eingabe werden zwei Zahlen benötigt, die Berechnung erfolgt durch eine Addition, dargestellt durch das Plussymbol. Die Ausgabe ist das Ergebnis – die Summe.</p>
+<p>Das Beispiel des Taschenrechners wird in <a href="#fig-example-calculator" class="quarto-xref">Abbildung&nbsp;<span class="quarto-unresolved-ref">fig-example-calculator</span></a> anhand einer einfachen Addition zweier Zahlen konkreter verdeutlicht. Als Eingabe werden zwei Zahlen benötigt, die Berechnung erfolgt durch eine Addition, dargestellt durch das Plussymbol. Die Ausgabe ist das Ergebnis – die Summe.</p>
 <div id="fig-example-calculator" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-example-calculator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -464,7 +464,7 @@ Abbildung&nbsp;1.2: Das EVA-Modell für die Addition zweier Zahlen.
 </figure>
 </div>
 <p>Betrachten wir zunächst die Eingabe für dieses Problem: Wir können dem Computer nicht einfach ein physisches Schachbrett zeigen, sondern müssen überlegen, wie sich ein Schachbrett und die Position der Figuren in digitaler Form darstellen lassen. Dabei kann es durchaus mehrere Möglichkeiten geben, die uns ans Ziel führen.</p>
-<p>Ein Schachbrett lässt sich etwa als Liste von 64 Feldern darstellen, die von oben links nach unten rechts durchnummeriert sind. Für jedes Feld speichern wir, ob es leer ist oder welche Figur darauf steht. Die Figuren werden durch Buchstaben dargestellt – zum Beispiel “R” für den Turm (Englisch: Rook) oder “N” für den Springer (Englisch: Knight). Für die Farben Schwarz und Weiß verwenden wir einfach 0 und 1. Diese Darstellungsform reduziert unser Problem auf Listen, Zahlen und Buchstaben in digitaler Form. Für Computer ist das eine leicht zu verarbeitende Struktur, wie wir später noch sehen werden. Ein Beispiel für eine solche Kodierung zeigt <a href="#fig-coding-chess-figures" class="quarto-xref">Abbildung&nbsp;<span>1.3</span></a>.</p>
+<p>Ein Schachbrett lässt sich etwa als Liste von 64 Feldern darstellen, die von oben links nach unten rechts durchnummeriert sind. Für jedes Feld speichern wir, ob es leer ist oder welche Figur darauf steht. Die Figuren werden durch Buchstaben dargestellt – zum Beispiel “R” für den Turm (Englisch: Rook) oder “N” für den Springer (Englisch: Knight). Für die Farben Schwarz und Weiß verwenden wir einfach 0 und 1. Diese Darstellungsform reduziert unser Problem auf Listen, Zahlen und Buchstaben in digitaler Form. Für Computer ist das eine leicht zu verarbeitende Struktur, wie wir später noch sehen werden. Ein Beispiel für eine solche Kodierung zeigt <a href="#fig-coding-chess-figures" class="quarto-xref">Abbildung&nbsp;<span class="quarto-unresolved-ref">fig-coding-chess-figures</span></a>.</p>
 <div id="fig-coding-chess-figures" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-coding-chess-figures-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -516,9 +516,9 @@ Abbildung&nbsp;1.4: ChatGPT im EVA-Modell.
 <h3 data-number="1.4.1" class="anchored" data-anchor-id="problemzerlegung-problem-decomposition"><span class="header-section-number">1.4.1</span> Problemzerlegung (<em>Problem Decomposition</em>)</h3>
 <p>Eine universelle Strategie zur Lösung komplexer Probleme ist die Zerlegung in kleinere Schritte oder Teilprobleme. Jedes dieser Teilprobleme ist unterschiedlich und erfordert einen spezifischen Lösungsansatz. Nehmen wir als Beispiel das Zählen von Pflanzen auf einer Drohnenaufnahme. Dieses komplexe Problem lässt sich, ausgehend von der Eingabe – dem digitalen Bild – in drei Teilprobleme zerlegen:</p>
 <ol type="1">
-<li><p>Pflanzen auf dem Bild lokalisieren</p></li>
-<li><p>Lokalisierte Pflanzen klassifizieren: Maispflanze oder nicht?</p></li>
-<li><p>Identifizierte Maispflanzen zählen</p></li>
+<li>Pflanzen auf dem Bild lokalisieren</li>
+<li>Lokalisierte Pflanzen klassifizieren: Maispflanze oder nicht?</li>
+<li>Identifizierte Maispflanzen zählen</li>
 </ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -561,7 +561,7 @@ Abbildung&nbsp;1.4: ChatGPT im EVA-Modell.
 </figure>
 </div>
 <p>Je nach Umfang des Buches kann dies eine mühsame Aufgabe sein, besonders für Menschen. Ein Computer bewältigt ein einzelnes Buch dank seiner hohen Verarbeitungsgeschwindigkeit problemlos. Allerdings lässt sich das Problem beliebig erweitern – etwa wenn wir statt eines Buches alle Texte im Internet oder sämtliche Wikipedia-Artikel analysieren möchten. In solchen Fällen wird die Aufgabe auch für Computer aufwendig und zeitintensiv. Eine Lösung besteht darin, mehrere Computer parallel einzusetzen.</p>
-<p>In <a href="#fig-problem-solving-word-count-distributed" class="quarto-xref">Abbildung&nbsp;<span>1.5</span></a> sehen wir beispielhaft die Verteilung der Buchseiten auf vier Studenten. Jeder erhält einen gleichen Anteil, wodurch sich die Bearbeitungszeit im Optimalfall auf ein Viertel reduziert. Bei Computern können wir analog vorgehen und mehrere Rechner gleichzeitig mit Teilen der Seiten betrauen. Diese Rechner werden in einem Netzwerk verbunden und von einem zentralen Computer gesteuert, der die Teilergebnisse am Ende zusammenführt. Ein solches System nennen wir Rechencluster, bestehend aus Arbeitern – den <em>Worker Nodes</em> – sowie einer Steuereinheit, die in solchen Systemen als <em>Driver</em> oder <em>Name Node</em> bezeichnet wird.</p>
+<p>In <a href="#fig-problem-solving-word-count-distributed" class="quarto-xref">Abbildung&nbsp;<span class="quarto-unresolved-ref">fig-problem-solving-word-count-distributed</span></a> sehen wir beispielhaft die Verteilung der Buchseiten auf vier Studenten. Jeder erhält einen gleichen Anteil, wodurch sich die Bearbeitungszeit im Optimalfall auf ein Viertel reduziert. Bei Computern können wir analog vorgehen und mehrere Rechner gleichzeitig mit Teilen der Seiten betrauen. Diese Rechner werden in einem Netzwerk verbunden und von einem zentralen Computer gesteuert, der die Teilergebnisse am Ende zusammenführt. Ein solches System nennen wir Rechencluster, bestehend aus Arbeitern – den <em>Worker Nodes</em> – sowie einer Steuereinheit, die in solchen Systemen als <em>Driver</em> oder <em>Name Node</em> bezeichnet wird.</p>
 <div id="fig-problem-solving-word-count-distributed" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-problem-solving-word-count-distributed-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -572,7 +572,7 @@ Abbildung&nbsp;1.5: Verteiltes Wörterzählen
 </figcaption>
 </figure>
 </div>
-<p>Durch die Verteilung und parallele Ausführung kann das EVA-Modell wie in <a href="#fig-eva-distributed" class="quarto-xref">Abbildung&nbsp;<span>1.6</span></a> angepasst und detaillierter dargestellt werden. Statt eines einzelnen Prozesses <code>count_words</code> laufen nun <span class="math inline">\(n\)</span> parallele Prozesse, die jeweils einen Teil des Buches durchsuchen. Die Aufteilung erfolgt zu Beginn durch den <code>split</code>-Prozess, während das Zusammenführen der Teilergebnisse – in diesem Fall das Addieren der Teilsummen – durch den <code>merge</code>-Schritt erfolgt.</p>
+<p>Durch die Verteilung und parallele Ausführung kann das EVA-Modell wie in <a href="#fig-eva-distributed" class="quarto-xref">Abbildung&nbsp;<span class="quarto-unresolved-ref">fig-eva-distributed</span></a> angepasst und detaillierter dargestellt werden. Statt eines einzelnen Prozesses <code>count_words</code> laufen nun <span class="math inline">\(n\)</span> parallele Prozesse, die jeweils einen Teil des Buches durchsuchen. Die Aufteilung erfolgt zu Beginn durch den <code>split</code>-Prozess, während das Zusammenführen der Teilergebnisse – in diesem Fall das Addieren der Teilsummen – durch den <code>merge</code>-Schritt erfolgt.</p>
 <div id="fig-eva-distributed" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-eva-distributed-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -585,14 +585,14 @@ Abbildung&nbsp;1.6: Das parallelisierte Wörterzählen im EVA-Modell
 </div>
 <p>In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fundamentalen Konzept für die computergestützte Problemlösung. Dieses Modell bietet uns einen strukturierten Rahmen, der aus drei wesentlichen Komponenten besteht:</p>
 <ul>
-<li><p><strong>Eingabe (E)</strong>: Die zu verarbeitenden Daten oder Informationen</p></li>
-<li><p><strong>Verarbeitung (V)</strong>: Der Kern der Problemlösung durch Algorithmen</p></li>
-<li><p><strong>Ausgabe (A)</strong>: Das Ergebnis der Verarbeitung in nutzbarer Form</p></li>
+<li><strong>Eingabe (E)</strong>: Die zu verarbeitenden Daten oder Informationen</li>
+<li><strong>Verarbeitung (V)</strong>: Der Kern der Problemlösung durch Algorithmen</li>
+<li><strong>Ausgabe (A)</strong>: Das Ergebnis der Verarbeitung in nutzbarer Form</li>
 </ul>
 <p>Die Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-adami_what_2016" class="csl-entry" role="listitem">
 Adami, Christoph. 2016. <span>„What is <span>Information</span>?“</span> <em>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</em> 374 (2063): 20150230. <a href="https://doi.org/10.1098/rsta.2015.0230">https://doi.org/10.1098/rsta.2015.0230</a>.
 </div>

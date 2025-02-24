@@ -5,22 +5,16 @@
 @UBHD-66395843 beschreiben einen weit verbreiteten Ansatz zur Problemlösung. Dieser basiert auf vier Schritten, die als wiederkehrender Kreislauf angewendet werden können und sollten. Obwohl @UBHD-66395843 diesen Ansatz ursprünglich für mathematische Probleme entwickelten, lässt er sich auch auf andere Bereiche – insbesondere die Informatik – übertragen. Folgende Schritte beschreiben beide in ihrem Aufsatz:
 
 1.  Das Problem verstehen
-
 2.  Einen Plan zur Lösung erstellen
-
 3.  Den Plan umsetzen
-
 4.  Die Lösung reflektieren und verbessern
-
 
 ## Warum sind Computer beim Lösen von Problemen  nützlich?
 
 Der wichtigste Grund für die Nutzung von Computern ist das Lösen von Problemen. Ob wir eine Route mit Google Maps planen, Online-Bestellungen bei DHL verfolgen oder eine KI wie ChatGPT um eine Empfehlung bitten – überall lösen Computer Probleme. Warum? Weil Computer zwei Eigenschaften besitzen, die für viele Probleme und deren Lösung vorteilhaft sind:
 
 1.  Computer machen keine Fehler. Wenn wir einem Computer einen Lösungsweg beibringen, wendet er ihn fehlerfrei auf neue Probleme an.
-
 2.  Computer sind unglaublich schnell. Ob einfache Schritte, komplexe Berechnungen oder die Verarbeitung großer Datenmengen – Computer lösen Probleme in einem Bruchteil der Zeit, die wir Menschen benötigen würden.
-
 
 Diese beiden Eigenschaften ermöglichen es uns, mit Computern besonders solche Probleme effizient zu lösen, die wiederkehrend und in großer Zahl auftreten. Wir sprechen dann von **Automatisierung**.
 
@@ -135,11 +129,8 @@ Die konkrete Lösung und der zugehörige Algorithmus sehen für jedes Problem un
 Eine universelle Strategie zur Lösung komplexer Probleme ist die Zerlegung in kleinere Schritte oder Teilprobleme. Jedes dieser Teilprobleme ist unterschiedlich und erfordert einen spezifischen Lösungsansatz. Nehmen wir als Beispiel das Zählen von Pflanzen auf einer Drohnenaufnahme. Dieses komplexe Problem lässt sich, ausgehend von der Eingabe – dem digitalen Bild – in drei Teilprobleme zerlegen:
 
 1.  Pflanzen auf dem Bild lokalisieren
-
 2.  Lokalisierte Pflanzen klassifizieren: Maispflanze oder nicht?
-
 3.  Identifizierte Maispflanzen zählen
-
 
 ![](https://winf-hsos.github.io/university-docs/images/problem_solving_large_complex_problem.png){fig-align="center" width=100% .lightbox}
 
@@ -184,11 +175,8 @@ Durch die Verteilung und parallele Ausführung kann das EVA-Modell wie in @fig-e
 In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fundamentalen Konzept für die computergestützte Problemlösung. Dieses Modell bietet uns einen strukturierten Rahmen, der aus drei wesentlichen Komponenten besteht:
 
 -   **Eingabe (E)**: Die zu verarbeitenden Daten oder Informationen
-
 -   **Verarbeitung (V)**: Der Kern der Problemlösung durch Algorithmen
-
 -   **Ausgabe (A)**: Das Ergebnis der Verarbeitung in nutzbarer Form
-
 
 Die Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir im nächsten Kapitel detailliert betrachten.
 
