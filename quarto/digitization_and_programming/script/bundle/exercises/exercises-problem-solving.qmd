@@ -1,5 +1,3 @@
-## Übungsblatt: Problemlösung
-
 1.  Formuliert drei weitere Probleme nach dem vorgestellten EVA-Modell zur Problemlösung mit digitalen Computern. Beschreibt für jedes Problem die Eingabe, die Lösung und die Ausgabe.
 2.  Welche Herausforderungen entstehen, wenn wir ein Problem aus der analogen Welt mit einem Computer lösen möchten?
 3.  Überlegt für jedes der folgenden Probleme, wie ihr es in sinnvolle Teilprobleme im Sinne der Problemzerlegungsstrategie aufteilen könntet:

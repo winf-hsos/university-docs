@@ -1,5 +1,3 @@
-## Übungsblatt: Algorithmen
-
 1.  Woher stammt der Begriff "Algorithmus"?
 
 2.  Definiere, was ein Algorithmus ist, und gib drei Beispiele für Algorithmen aus dem Alltag, die keinen direkten Bezug zu Computern haben.

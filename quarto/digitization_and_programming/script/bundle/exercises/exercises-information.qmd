@@ -1,5 +1,3 @@
-## Übungsblatt: Informationen
-
 1.  Wie heißt die kleinste mögliche Informationseinheit?
 2.  Erkläre in deinen eigenen Worten, warum es keine kleinere Informationseinheit als das Bit geben kann!
 3.  Was ist ein Trit? Und wie hängt es mit dem Bit zusammen?
