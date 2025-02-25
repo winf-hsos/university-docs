@@ -2,10 +2,10 @@
 
 ## Zusammenfassung {.unnumbered}
 
-Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Abschnitt befassen wir uns mit den grundlegenden Aspekten von Algorithmen und beantworten dabei zentrale Fragen:
+Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Kapitel befassen wir uns mit den grundlegenden Aspekten von Algorithmen und beantworten dabei zentrale Fragen:
 
 -   Was ist ein Algorithmus und wie grenzt er sich von einem Computerprogramm ab?
--   Welche verschiedenen Kategorien von Algorithmen existieren und durch welche praktischen Beispiele lassen sie sich veranschaulichen?
+-   Welche verschiedenen Arten von Algorithmen existieren und durch welche Beispiele lassen sie sich veranschaulichen?
 -   Wie können wir Algorithmen systematisch und präzise formulieren?
 -   Nach welchen Kriterien bewerten wir die Effizienz und Eignung verschiedener Algorithmen für spezifische Problemstellungen?
 
@@ -22,8 +22,6 @@ Heute bezeichnet ein **Algorithmus**\index{Algorithmus} eine präzise Abfolge vo
 Ein wichtiger Aspekt von Algorithmen ist ihre Universalität: Sie sind nicht an Computer gebunden. Ein Algorithmus ist im Kern eine strukturierte Anleitung zur Problemlösung, unabhängig davon, wer oder was diese Anleitung ausführt. Diese Flexibilität zeigt sich besonders deutlich in unserem Alltag, wo wir ständig algorithmische Anleitungen befolgen - sei es beim Aufbau eines Möbelstücks oder beim Kochen nach einem Rezept. Bei diesen Tätigkeiten führen wir Menschen die algorithmischen Schritte aus, ganz ohne Beteiligung eines Computers:
 
 -   Kochen: Ein Rezept ist ein Algorithmus für die Zubereitung eines Gerichts.
-Comment
-
 -   Wegbeschreibung: Eine Schritt-für-Schritt-Anleitung, um von Punkt A nach Punkt B zu gelangen.
 -   Bastelanleitung: Die Anweisungen, um ein Modellflugzeug zusammenzubauen.
 
@@ -33,7 +31,29 @@ Viele Algorithmen können von Computern ausgeführt werden. Dafür ist jedoch ei
 -   **Programm**\index{Programm}: Die konkrete Implementation eines oder mehrerer Algorithmen in einer Programmiersprache. Das Programm übersetzt die abstrakten Anweisungen des Algorithmus in eine Form, die ein Computer verstehen und ausführen kann.
 -   **Prozess**\index{Prozess}: Die tatsächliche Ausführung eines Programms durch einen Computer. Dabei werden die programmierten Anweisungen Schritt für Schritt abgearbeitet, um das gewünschte Ergebnis zu erzielen.
 
-## Kategorien
+Im Folgenden konzentrieren wir uns zunächst auf das Konzept des Algorithmus an sich. Die praktische Implementierung in Form von Programmen werden wir später am Beispiel der Programmiersprache Python kennenlernen. Um Algorithmen jedoch bereits jetzt systematisch beschreiben und analysieren zu können, benötigen wir geeignete Darstellungsformen und Notationen. 
+
+## Wie stellen wir Algorithmen dar?
+
+### Natürliche Sprache
+
+Die natürliche Sprache bietet eine intuitive Möglichkeit, Algorithmen zu beschreiben. Ein klassisches Beispiel hierfür sind Kochrezepte, die als informelle algorithmische Beschreibungen verstanden werden können. Diese Art der Darstellung folgt keinen festgelegten Regeln - jeder Autor kann die Anweisungen nach eigenem Ermessen formulieren. Entscheidend ist dabei nur, dass andere Menschen die Beschreibung *lesen* und *verstehen* können.
+
+Für die professionelle Informatik ist diese informelle Darstellungsform jedoch nur bedingt geeignet. Während handschriftliche oder natürlichsprachliche Notizen für erste Entwürfe und Skizzen durchaus nützlich sein können, erfordern die präzise Dokumentation und der fachliche Austausch über Algorithmen eine formellere Notation.
+
+Die natürliche Sprache weist für die präzise Beschreibung von Algorithmen zwei wesentliche Nachteile auf. Erstens ist sie mehrdeutig: Wörter und Sätze können je nach Kontext und Formulierung unterschiedlich interpretiert werden. Zweitens ist sie oft unnötig ausführlich, was die klare und effiziente Kommunikation von Algorithmen erschwert. Um diese Herausforderungen zu bewältigen, haben sich in der Informatik zwei formellere und präzisere Darstellungsformen durchgesetzt: Pseudocode und Flussdiagramme.
+
+### Pseudocode
+
+Pseudocode ist eine strukturierte, programmiersprachenähnliche Notation zur Beschreibung von Algorithmen. Er kombiniert Elemente der natürlichen Sprache mit grundlegenden Programmierkonzepten wie Schleifen, Bedingungen und Funktionen. Der Vorteil des Pseudocodes liegt in seiner Präzision und Klarheit, ohne dabei an die strengen syntaktischen Regeln einer echten Programmiersprache gebunden zu sein.
+
+Ein wichtiges Merkmal des Pseudocodes ist seine Flexibilität: Er kann je nach Bedarf formeller oder informeller gestaltet werden, solange die grundlegende Logik und Struktur des Algorithmus klar erkennbar bleiben. Dabei werden häufig standardisierte Schlüsselwörter wie "IF", "THEN", "WHILE" oder "REPEAT" verwendet, die die algorithmische Struktur verdeutlichen.
+
+### Flussdiagramme
+
+Flussdiagramme bieten eine visuelle Darstellung von Algorithmen durch standardisierte grafische Symbole und Verbindungslinien. Diese Notation ist besonders hilfreich, um den Ablauf eines Algorithmus und die logischen Verzweigungen auf einen Blick zu erfassen. Die wichtigsten Elemente eines Flussdiagramms sind Start- und Endpunkte, Prozessschritte (dargestellt durch Rechtecke), Entscheidungen (dargestellt durch Rauten) und Verbindungspfeile, die den Kontrollfluss anzeigen.
+
+## Welche Arten von Algorithmen gibt es?
 
 Algorithmen können nach ihrer Funktion und ihrem Anwendungsbereich in verschiedene Kategorien eingeteilt werden. Jede Kategorie repräsentiert einen spezifischen Problemlösungsansatz:
 
@@ -55,40 +75,17 @@ Im folgenden beleuchten wir ein oder mehr Beispiele für jeder der genannten Kla
 
 Der Algorithmus zur Berechnung des größten gemeinsamen Teilers (GGT) ist ein klassisches Beispiel für einen eleganten mathematischen Algorithmus. Er wurde vom griechischen Mathematiker Euklid um 300 v. Chr. in seinem Werk "Die Elemente" beschrieben und demonstriert eindrucksvoll die zeitlose Natur algorithmischen Denkens.
 
-Das Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen. Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen. 
+![Vorgehen des Algorithmus nach Euklid.](https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_textual.png){fig-align="center" width=100% #fig-euclid-algo .lightbox}
 
-Der Block unten zeigt die Schritte des Euklidschen Algorithmus für das obige Zahlenbeispiel.
+Das Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen (@fig-euclid-algo). Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen. 
 
-```python
-Loop 1:
-a = 18, b = 48 
-a < b → swap: a = 48, b = 18
-a = 48 - 18 = 30
+@fig-euclidean-example zeigt die Schritte des Euklidschen Algorithmus für das obige Zahlenbeispiel.
 
-Loop 2: 
-a = 30, b = 18 
-a >= b → no swap
-a = 30 - 18 = 12
+![Beispiel für die Anwendung des Algorithmus nach Euklid.](https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_example.png){fig-align="center" width=100% #fig-euclidean-example .lightbox}
 
-Loop 3: 
-a = 12, b = 18 
-a < b → swap: a = 18, b = 12
-a = 18 - 12 = 6
-
-Loop 4:
-a = 6, b = 12 
-a < b → swap: a = 12, b = 6
-a = 12 - 6 = 6
-
-Loop 5:
-a = 6, b = 6 
-a >= b → no swap
-a = 6 - 6 = 0
-
-result: b = 6
-
-```
 #### Babylonisches Wurzelziehen
+
+Das Babylonische Verfahren zur Berechnung der Quadratwurzel ist ein weiteres Beispiel für einen mathematischen Algorithmus. Während der Euklid'sche Algorithmus exakte Ergebnisse liefert, zeigt das Babylonische Verfahren eine andere wichtige Eigenschaft mathematischer Algorithmen: die schrittweise Annäherung an einen Zielwert. Der Algorithmus *approximiert* die Quadratwurzel durch wiederholte Verfeinerung der Schätzung und *konvergiert* dabei gegen den tatsächlichen Wert. Diese Methode demonstriert, wie auch ohne exakte Berechnung präzise Ergebnisse erzielt werden können.
 
 ### Suchalgorithmen
 
@@ -108,11 +105,29 @@ result: b = 6
 
 ### Stochastische Algorithmen
 
-#### 
+#### Annäherung der Kreiszahl $\pi$
 
 ### Maschinelle Lernalgorithmen
 
-## Iteration und Rekursion
+Maschinelles Lernen hat sich in den letzten Jahren zu einem der wichtigsten Bereiche der Algorithmenentwicklung entwickelt. Diese Algorithmenklasse bildet die technische Grundlage für viele praktische Anwendungen der Künstlichen Intelligenz (KI). Maschinelle Lernalgorithmen zeichnen sich dadurch aus, dass sie aus vorhandenen Daten Muster erkennen und auf dieser Basis Vorhersagen oder Entscheidungen treffen können.
+
+## Welche wichtigen algorithmischen Denkmuster gibt es?
+
+### Sequenzen
+
+Die Sequenz ist das grundlegendste Muster in der Algorithmik. Sie beschreibt eine geordnete Abfolge von Anweisungen, die nacheinander ausgeführt werden. Wie bei einer Wegbeschreibung folgt dabei ein Schritt dem anderen in einer festgelegten Reihenfolge. Die korrekte und vollständige Ausführung aller Schritte ist entscheidend - das Auslassen oder Vertauschen von Anweisungen führt in der Regel nicht zum gewünschten Ergebnis.
+
+Sowohl Menschen als auch Computer verarbeiten Anweisungen standardmäßig sequentiell - also Schritt für Schritt von oben nach unten. Diese intuitive Vorgehensweise bildet die Grundlage für das Verständnis von Algorithmen. Allerdings können Algorithmen auch komplexere Strukturen enthalten, die von diesem linearen Ablaufmuster abweichen und alternative Ausführungspfade ermöglichen.
+
+### Verzweigungen
+
+Verzweigungen stellen eine grundlegende Form der nicht-linearen Ausführung eines Algorithmus dar. Sie ermöglichen es, dass der Algorithmus basierend auf bestimmten Bedingungen unterschiedliche Ausführungspfade einschlägt. Eine Verzweigung führt also je nach erfüllter oder nicht erfüllter Bedingung zu verschiedenen Anweisungsfolgen. Ein alltägliches Beispiel findet sich in Kochrezepten: "Wenn der Teig zu flüssig ist, füge mehr Mehl hinzu". Die Anweisung, mehr Mehl hinzuzufügen, wird nur dann ausgeführt, wenn die Bedingung "Teig ist zu flüssig" zutrifft. Ist der Teig bereits von idealer Konsistenz, wird diese Anweisung übersprungen.
+
+### Iterationen
+
+### Kapselung
+
+### Rekursion
 
 \newpage
 

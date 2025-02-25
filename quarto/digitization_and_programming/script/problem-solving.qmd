@@ -10,7 +10,7 @@ bibliography: bundle/references.bib
 ---
 ## Zusammenfassung {.unnumbered}
 
-Wir beginnen das Buch im ersten Kapitel indem wir den wichtigsten Apsekt für die Nutzung von Computern genauer beleuchten -das Lösen von Problemen. Konkret suchen wir Antworten auf die folgenden Fragen:
+Wir beginnen das Buch im ersten Kapitel, indem wir den wichtigsten Aspekt für die Nutzung von Computern genauer beleuchten – das Lösen von Problemen. Konkret suchen wir Antworten auf die folgenden Fragen:
 
 -   Welches Vorgehen eignet sich für die systematische Lösung von Problemen?
 -   Warum sind Computer besonders gut geeignet, um bestimmte Probleme zu lösen?

@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -95,6 +61,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-8da5b4427184b79ecddefad3d342027e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -413,17 +382,30 @@ window.Quarto = {
   <li><a href="#herkunft-des-begriffs" id="toc-herkunft-des-begriffs" class="nav-link" data-scroll-target="#herkunft-des-begriffs"><span class="header-section-number">2.1.1</span> Herkunft des Begriffs</a></li>
   <li><a href="#algorithmen-und-programme" id="toc-algorithmen-und-programme" class="nav-link" data-scroll-target="#algorithmen-und-programme"><span class="header-section-number">2.1.2</span> Algorithmen und Programme</a></li>
   </ul></li>
-  <li><a href="#kategorien" id="toc-kategorien" class="nav-link" data-scroll-target="#kategorien"><span class="header-section-number">2.2</span> Kategorien</a>
+  <li><a href="#wie-stellen-wir-algorithmen-dar" id="toc-wie-stellen-wir-algorithmen-dar" class="nav-link" data-scroll-target="#wie-stellen-wir-algorithmen-dar"><span class="header-section-number">2.2</span> Wie stellen wir Algorithmen dar?</a>
   <ul class="collapse">
-  <li><a href="#mathematische-algorithmen" id="toc-mathematische-algorithmen" class="nav-link" data-scroll-target="#mathematische-algorithmen"><span class="header-section-number">2.2.1</span> Mathematische Algorithmen</a></li>
-  <li><a href="#suchalgorithmen" id="toc-suchalgorithmen" class="nav-link" data-scroll-target="#suchalgorithmen"><span class="header-section-number">2.2.2</span> Suchalgorithmen</a></li>
-  <li><a href="#sortieralgorithmen" id="toc-sortieralgorithmen" class="nav-link" data-scroll-target="#sortieralgorithmen"><span class="header-section-number">2.2.3</span> Sortieralgorithmen</a></li>
-  <li><a href="#optimierungsalgorithmen" id="toc-optimierungsalgorithmen" class="nav-link" data-scroll-target="#optimierungsalgorithmen"><span class="header-section-number">2.2.4</span> Optimierungsalgorithmen</a></li>
-  <li><a href="#graphenalgorithmen" id="toc-graphenalgorithmen" class="nav-link" data-scroll-target="#graphenalgorithmen"><span class="header-section-number">2.2.5</span> Graphenalgorithmen</a></li>
-  <li><a href="#stochastische-algorithmen" id="toc-stochastische-algorithmen" class="nav-link" data-scroll-target="#stochastische-algorithmen"><span class="header-section-number">2.2.6</span> Stochastische Algorithmen</a></li>
-  <li><a href="#maschinelle-lernalgorithmen" id="toc-maschinelle-lernalgorithmen" class="nav-link" data-scroll-target="#maschinelle-lernalgorithmen"><span class="header-section-number">2.2.7</span> Maschinelle Lernalgorithmen</a></li>
+  <li><a href="#natürliche-sprache" id="toc-natürliche-sprache" class="nav-link" data-scroll-target="#natürliche-sprache"><span class="header-section-number">2.2.1</span> Natürliche Sprache</a></li>
+  <li><a href="#pseudocode" id="toc-pseudocode" class="nav-link" data-scroll-target="#pseudocode"><span class="header-section-number">2.2.2</span> Pseudocode</a></li>
+  <li><a href="#flussdiagramme" id="toc-flussdiagramme" class="nav-link" data-scroll-target="#flussdiagramme"><span class="header-section-number">2.2.3</span> Flussdiagramme</a></li>
   </ul></li>
-  <li><a href="#iteration-und-rekursion" id="toc-iteration-und-rekursion" class="nav-link" data-scroll-target="#iteration-und-rekursion"><span class="header-section-number">2.3</span> Iteration und Rekursion</a></li>
+  <li><a href="#welche-arten-von-algorithmen-gibt-es" id="toc-welche-arten-von-algorithmen-gibt-es" class="nav-link" data-scroll-target="#welche-arten-von-algorithmen-gibt-es"><span class="header-section-number">2.3</span> Welche Arten von Algorithmen gibt es?</a>
+  <ul class="collapse">
+  <li><a href="#mathematische-algorithmen" id="toc-mathematische-algorithmen" class="nav-link" data-scroll-target="#mathematische-algorithmen"><span class="header-section-number">2.3.1</span> Mathematische Algorithmen</a></li>
+  <li><a href="#suchalgorithmen" id="toc-suchalgorithmen" class="nav-link" data-scroll-target="#suchalgorithmen"><span class="header-section-number">2.3.2</span> Suchalgorithmen</a></li>
+  <li><a href="#sortieralgorithmen" id="toc-sortieralgorithmen" class="nav-link" data-scroll-target="#sortieralgorithmen"><span class="header-section-number">2.3.3</span> Sortieralgorithmen</a></li>
+  <li><a href="#optimierungsalgorithmen" id="toc-optimierungsalgorithmen" class="nav-link" data-scroll-target="#optimierungsalgorithmen"><span class="header-section-number">2.3.4</span> Optimierungsalgorithmen</a></li>
+  <li><a href="#graphenalgorithmen" id="toc-graphenalgorithmen" class="nav-link" data-scroll-target="#graphenalgorithmen"><span class="header-section-number">2.3.5</span> Graphenalgorithmen</a></li>
+  <li><a href="#stochastische-algorithmen" id="toc-stochastische-algorithmen" class="nav-link" data-scroll-target="#stochastische-algorithmen"><span class="header-section-number">2.3.6</span> Stochastische Algorithmen</a></li>
+  <li><a href="#maschinelle-lernalgorithmen" id="toc-maschinelle-lernalgorithmen" class="nav-link" data-scroll-target="#maschinelle-lernalgorithmen"><span class="header-section-number">2.3.7</span> Maschinelle Lernalgorithmen</a></li>
+  </ul></li>
+  <li><a href="#welche-wichtigen-algorithmischen-denkmuster-gibt-es" id="toc-welche-wichtigen-algorithmischen-denkmuster-gibt-es" class="nav-link" data-scroll-target="#welche-wichtigen-algorithmischen-denkmuster-gibt-es"><span class="header-section-number">2.4</span> Welche wichtigen algorithmischen Denkmuster gibt es?</a>
+  <ul class="collapse">
+  <li><a href="#sequenzen" id="toc-sequenzen" class="nav-link" data-scroll-target="#sequenzen"><span class="header-section-number">2.4.1</span> Sequenzen</a></li>
+  <li><a href="#verzweigungen" id="toc-verzweigungen" class="nav-link" data-scroll-target="#verzweigungen"><span class="header-section-number">2.4.2</span> Verzweigungen</a></li>
+  <li><a href="#iterationen" id="toc-iterationen" class="nav-link" data-scroll-target="#iterationen"><span class="header-section-number">2.4.3</span> Iterationen</a></li>
+  <li><a href="#kapselung" id="toc-kapselung" class="nav-link" data-scroll-target="#kapselung"><span class="header-section-number">2.4.4</span> Kapselung</a></li>
+  <li><a href="#rekursion" id="toc-rekursion" class="nav-link" data-scroll-target="#rekursion"><span class="header-section-number">2.4.5</span> Rekursion</a></li>
+  </ul></li>
   <li><a href="#übungsaufgaben" id="toc-übungsaufgaben" class="nav-link" data-scroll-target="#übungsaufgaben">Übungsaufgaben</a></li>
   </ul>
 </nav>
@@ -452,10 +434,10 @@ window.Quarto = {
 
 <section id="zusammenfassung" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="zusammenfassung">Zusammenfassung</h2>
-<p>Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Abschnitt befassen wir uns mit den grundlegenden Aspekten von Algorithmen und beantworten dabei zentrale Fragen:</p>
+<p>Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Kapitel befassen wir uns mit den grundlegenden Aspekten von Algorithmen und beantworten dabei zentrale Fragen:</p>
 <ul>
 <li>Was ist ein Algorithmus und wie grenzt er sich von einem Computerprogramm ab?</li>
-<li>Welche verschiedenen Kategorien von Algorithmen existieren und durch welche praktischen Beispiele lassen sie sich veranschaulichen?</li>
+<li>Welche verschiedenen Arten von Algorithmen existieren und durch welche Beispiele lassen sie sich veranschaulichen?</li>
 <li>Wie können wir Algorithmen systematisch und präzise formulieren?</li>
 <li>Nach welchen Kriterien bewerten wir die Effizienz und Eignung verschiedener Algorithmen für spezifische Problemstellungen?</li>
 </ul>
@@ -471,9 +453,9 @@ window.Quarto = {
 <h3 data-number="2.1.2" class="anchored" data-anchor-id="algorithmen-und-programme"><span class="header-section-number">2.1.2</span> Algorithmen und Programme</h3>
 <p>Ein wichtiger Aspekt von Algorithmen ist ihre Universalität: Sie sind nicht an Computer gebunden. Ein Algorithmus ist im Kern eine strukturierte Anleitung zur Problemlösung, unabhängig davon, wer oder was diese Anleitung ausführt. Diese Flexibilität zeigt sich besonders deutlich in unserem Alltag, wo wir ständig algorithmische Anleitungen befolgen - sei es beim Aufbau eines Möbelstücks oder beim Kochen nach einem Rezept. Bei diesen Tätigkeiten führen wir Menschen die algorithmischen Schritte aus, ganz ohne Beteiligung eines Computers:</p>
 <ul>
-<li><p>Kochen: Ein Rezept ist ein Algorithmus für die Zubereitung eines Gerichts. Comment</p></li>
-<li><p>Wegbeschreibung: Eine Schritt-für-Schritt-Anleitung, um von Punkt A nach Punkt B zu gelangen.</p></li>
-<li><p>Bastelanleitung: Die Anweisungen, um ein Modellflugzeug zusammenzubauen.</p></li>
+<li>Kochen: Ein Rezept ist ein Algorithmus für die Zubereitung eines Gerichts.</li>
+<li>Wegbeschreibung: Eine Schritt-für-Schritt-Anleitung, um von Punkt A nach Punkt B zu gelangen.</li>
+<li>Bastelanleitung: Die Anweisungen, um ein Modellflugzeug zusammenzubauen.</li>
 </ul>
 <p>Viele Algorithmen können von Computern ausgeführt werden. Dafür ist jedoch eine Übersetzung in eine maschinenverständliche Form notwendig. Diese Übersetzung erfolgt durch das Programmieren, wobei wir den Algorithmus in einer Programmiersprache formulieren. Um die Beziehung zwischen Algorithmen und Computerprogrammen besser zu verstehen, ist es hilfreich, drei zentrale Begriffe zu unterscheiden:</p>
 <ul>
@@ -481,10 +463,29 @@ window.Quarto = {
 <li><strong>Programm</strong>: Die konkrete Implementation eines oder mehrerer Algorithmen in einer Programmiersprache. Das Programm übersetzt die abstrakten Anweisungen des Algorithmus in eine Form, die ein Computer verstehen und ausführen kann.</li>
 <li><strong>Prozess</strong>: Die tatsächliche Ausführung eines Programms durch einen Computer. Dabei werden die programmierten Anweisungen Schritt für Schritt abgearbeitet, um das gewünschte Ergebnis zu erzielen.</li>
 </ul>
+<p>Im Folgenden konzentrieren wir uns zunächst auf das Konzept des Algorithmus an sich. Die praktische Implementierung in Form von Programmen werden wir später am Beispiel der Programmiersprache Python kennenlernen. Um Algorithmen jedoch bereits jetzt systematisch beschreiben und analysieren zu können, benötigen wir geeignete Darstellungsformen und Notationen.</p>
 </section>
 </section>
-<section id="kategorien" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="kategorien"><span class="header-section-number">2.2</span> Kategorien</h2>
+<section id="wie-stellen-wir-algorithmen-dar" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="wie-stellen-wir-algorithmen-dar"><span class="header-section-number">2.2</span> Wie stellen wir Algorithmen dar?</h2>
+<section id="natürliche-sprache" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="natürliche-sprache"><span class="header-section-number">2.2.1</span> Natürliche Sprache</h3>
+<p>Die natürliche Sprache bietet eine intuitive Möglichkeit, Algorithmen zu beschreiben. Ein klassisches Beispiel hierfür sind Kochrezepte, die als informelle algorithmische Beschreibungen verstanden werden können. Diese Art der Darstellung folgt keinen festgelegten Regeln - jeder Autor kann die Anweisungen nach eigenem Ermessen formulieren. Entscheidend ist dabei nur, dass andere Menschen die Beschreibung <em>lesen</em> und <em>verstehen</em> können.</p>
+<p>Für die professionelle Informatik ist diese informelle Darstellungsform jedoch nur bedingt geeignet. Während handschriftliche oder natürlichsprachliche Notizen für erste Entwürfe und Skizzen durchaus nützlich sein können, erfordern die präzise Dokumentation und der fachliche Austausch über Algorithmen eine formellere Notation.</p>
+<p>Die natürliche Sprache weist für die präzise Beschreibung von Algorithmen zwei wesentliche Nachteile auf. Erstens ist sie mehrdeutig: Wörter und Sätze können je nach Kontext und Formulierung unterschiedlich interpretiert werden. Zweitens ist sie oft unnötig ausführlich, was die klare und effiziente Kommunikation von Algorithmen erschwert. Um diese Herausforderungen zu bewältigen, haben sich in der Informatik zwei formellere und präzisere Darstellungsformen durchgesetzt: Pseudocode und Flussdiagramme.</p>
+</section>
+<section id="pseudocode" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="pseudocode"><span class="header-section-number">2.2.2</span> Pseudocode</h3>
+<p>Pseudocode ist eine strukturierte, programmiersprachenähnliche Notation zur Beschreibung von Algorithmen. Er kombiniert Elemente der natürlichen Sprache mit grundlegenden Programmierkonzepten wie Schleifen, Bedingungen und Funktionen. Der Vorteil des Pseudocodes liegt in seiner Präzision und Klarheit, ohne dabei an die strengen syntaktischen Regeln einer echten Programmiersprache gebunden zu sein.</p>
+<p>Ein wichtiges Merkmal des Pseudocodes ist seine Flexibilität: Er kann je nach Bedarf formeller oder informeller gestaltet werden, solange die grundlegende Logik und Struktur des Algorithmus klar erkennbar bleiben. Dabei werden häufig standardisierte Schlüsselwörter wie “IF”, “THEN”, “WHILE” oder “REPEAT” verwendet, die die algorithmische Struktur verdeutlichen.</p>
+</section>
+<section id="flussdiagramme" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="flussdiagramme"><span class="header-section-number">2.2.3</span> Flussdiagramme</h3>
+<p>Flussdiagramme bieten eine visuelle Darstellung von Algorithmen durch standardisierte grafische Symbole und Verbindungslinien. Diese Notation ist besonders hilfreich, um den Ablauf eines Algorithmus und die logischen Verzweigungen auf einen Blick zu erfassen. Die wichtigsten Elemente eines Flussdiagramms sind Start- und Endpunkte, Prozessschritte (dargestellt durch Rechtecke), Entscheidungen (dargestellt durch Rauten) und Verbindungspfeile, die den Kontrollfluss anzeigen.</p>
+</section>
+</section>
+<section id="welche-arten-von-algorithmen-gibt-es" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="welche-arten-von-algorithmen-gibt-es"><span class="header-section-number">2.3</span> Welche Arten von Algorithmen gibt es?</h2>
 <p>Algorithmen können nach ihrer Funktion und ihrem Anwendungsbereich in verschiedene Kategorien eingeteilt werden. Jede Kategorie repräsentiert einen spezifischen Problemlösungsansatz:</p>
 <ul>
 <li><strong>Mathematische Algorithmen</strong>: Berechnen oder approximieren Werte</li>
@@ -497,81 +498,95 @@ window.Quarto = {
 </ul>
 <p>Diese Kategorien sind weder vollständig noch strikt voneinander getrennt. Viele Algorithmen lassen sich mehreren Kategorien zuordnen. Ein anschauliches Beispiel hierfür ist der <strong>Dijkstra-Algorithmus</strong>, der die kürzeste Route zwischen zwei Punkten findet. Er ist sowohl ein Graphenalgorithmus, da er auf vernetzten Strukturen arbeitet, als auch ein Optimierungsalgorithmus, da er die optimale (kürzeste) Route ermittelt.</p>
 <p>Im folgenden beleuchten wir ein oder mehr Beispiele für jeder der genannten Klassen.</p>
-<section id="mathematische-algorithmen" class="level3" data-number="2.2.1">
-<h3 data-number="2.2.1" class="anchored" data-anchor-id="mathematische-algorithmen"><span class="header-section-number">2.2.1</span> Mathematische Algorithmen</h3>
-<section id="größter-gemeinsamer-teiler-ggt" class="level4" data-number="2.2.1.1">
-<h4 data-number="2.2.1.1" class="anchored" data-anchor-id="größter-gemeinsamer-teiler-ggt"><span class="header-section-number">2.2.1.1</span> Größter gemeinsamer Teiler (GGT)</h4>
+<section id="mathematische-algorithmen" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="mathematische-algorithmen"><span class="header-section-number">2.3.1</span> Mathematische Algorithmen</h3>
+<section id="größter-gemeinsamer-teiler-ggt" class="level4" data-number="2.3.1.1">
+<h4 data-number="2.3.1.1" class="anchored" data-anchor-id="größter-gemeinsamer-teiler-ggt"><span class="header-section-number">2.3.1.1</span> Größter gemeinsamer Teiler (GGT)</h4>
 <p>Der Algorithmus zur Berechnung des größten gemeinsamen Teilers (GGT) ist ein klassisches Beispiel für einen eleganten mathematischen Algorithmus. Er wurde vom griechischen Mathematiker Euklid um 300 v. Chr. in seinem Werk “Die Elemente” beschrieben und demonstriert eindrucksvoll die zeitlose Natur algorithmischen Denkens.</p>
-<p>Das Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen. Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen.</p>
-<p>Der Block unten zeigt die Schritte des Euklidschen Algorithmus für das obige Zahlenbeispiel.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Loop <span class="dv">1</span>:</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">18</span>, b <span class="op">=</span> <span class="dv">48</span> </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>a <span class="op">&lt;</span> b → swap: a <span class="op">=</span> <span class="dv">48</span>, b <span class="op">=</span> <span class="dv">18</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">48</span> <span class="op">-</span> <span class="dv">18</span> <span class="op">=</span> <span class="dv">30</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Loop <span class="dv">2</span>: </span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">30</span>, b <span class="op">=</span> <span class="dv">18</span> </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>a <span class="op">&gt;=</span> b → no swap</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">30</span> <span class="op">-</span> <span class="dv">18</span> <span class="op">=</span> <span class="dv">12</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>Loop <span class="dv">3</span>: </span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">12</span>, b <span class="op">=</span> <span class="dv">18</span> </span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>a <span class="op">&lt;</span> b → swap: a <span class="op">=</span> <span class="dv">18</span>, b <span class="op">=</span> <span class="dv">12</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">18</span> <span class="op">-</span> <span class="dv">12</span> <span class="op">=</span> <span class="dv">6</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>Loop <span class="dv">4</span>:</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">6</span>, b <span class="op">=</span> <span class="dv">12</span> </span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>a <span class="op">&lt;</span> b → swap: a <span class="op">=</span> <span class="dv">12</span>, b <span class="op">=</span> <span class="dv">6</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">12</span> <span class="op">-</span> <span class="dv">6</span> <span class="op">=</span> <span class="dv">6</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>Loop <span class="dv">5</span>:</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">6</span>, b <span class="op">=</span> <span class="dv">6</span> </span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>a <span class="op">&gt;=</span> b → no swap</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>a <span class="op">=</span> <span class="dv">6</span> <span class="op">-</span> <span class="dv">6</span> <span class="op">=</span> <span class="dv">0</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>result: b <span class="op">=</span> <span class="dv">6</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="fig-euclid-algo" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-euclid-algo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_textual.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;2.1: Vorgehen des Algorithmus nach Euklid."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_textual.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-euclid-algo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.1: Vorgehen des Algorithmus nach Euklid.
+</figcaption>
+</figure>
+</div>
+<p>Das Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen (<a href="#fig-euclid-algo" class="quarto-xref">Abbildung&nbsp;<span>2.1</span></a>). Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen.</p>
+<p><a href="#fig-euclidean-example" class="quarto-xref">Abbildung&nbsp;<span>2.2</span></a> zeigt die Schritte des Euklidschen Algorithmus für das obige Zahlenbeispiel.</p>
+<div id="fig-euclidean-example" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-euclidean-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_example.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Abbildung&nbsp;2.2: Beispiel für die Anwendung des Algorithmus nach Euklid."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_example.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-euclidean-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.2: Beispiel für die Anwendung des Algorithmus nach Euklid.
+</figcaption>
+</figure>
+</div>
 </section>
-<section id="babylonisches-wurzelziehen" class="level4" data-number="2.2.1.2">
-<h4 data-number="2.2.1.2" class="anchored" data-anchor-id="babylonisches-wurzelziehen"><span class="header-section-number">2.2.1.2</span> Babylonisches Wurzelziehen</h4>
+<section id="babylonisches-wurzelziehen" class="level4" data-number="2.3.1.2">
+<h4 data-number="2.3.1.2" class="anchored" data-anchor-id="babylonisches-wurzelziehen"><span class="header-section-number">2.3.1.2</span> Babylonisches Wurzelziehen</h4>
+<p>Das Babylonische Verfahren zur Berechnung der Quadratwurzel ist ein weiteres Beispiel für einen mathematischen Algorithmus. Während der Euklid’sche Algorithmus exakte Ergebnisse liefert, zeigt das Babylonische Verfahren eine andere wichtige Eigenschaft mathematischer Algorithmen: die schrittweise Annäherung an einen Zielwert. Der Algorithmus <em>approximiert</em> die Quadratwurzel durch wiederholte Verfeinerung der Schätzung und <em>konvergiert</em> dabei gegen den tatsächlichen Wert. Diese Methode demonstriert, wie auch ohne exakte Berechnung präzise Ergebnisse erzielt werden können.</p>
 </section>
 </section>
-<section id="suchalgorithmen" class="level3" data-number="2.2.2">
-<h3 data-number="2.2.2" class="anchored" data-anchor-id="suchalgorithmen"><span class="header-section-number">2.2.2</span> Suchalgorithmen</h3>
-<section id="lineare-suche" class="level4" data-number="2.2.2.1">
-<h4 data-number="2.2.2.1" class="anchored" data-anchor-id="lineare-suche"><span class="header-section-number">2.2.2.1</span> Lineare Suche</h4>
+<section id="suchalgorithmen" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="suchalgorithmen"><span class="header-section-number">2.3.2</span> Suchalgorithmen</h3>
+<section id="lineare-suche" class="level4" data-number="2.3.2.1">
+<h4 data-number="2.3.2.1" class="anchored" data-anchor-id="lineare-suche"><span class="header-section-number">2.3.2.1</span> Lineare Suche</h4>
 </section>
-<section id="binäre-suche" class="level4" data-number="2.2.2.2">
-<h4 data-number="2.2.2.2" class="anchored" data-anchor-id="binäre-suche"><span class="header-section-number">2.2.2.2</span> Binäre Suche</h4>
+<section id="binäre-suche" class="level4" data-number="2.3.2.2">
+<h4 data-number="2.3.2.2" class="anchored" data-anchor-id="binäre-suche"><span class="header-section-number">2.3.2.2</span> Binäre Suche</h4>
 </section>
-<section id="suche-in-bäumen" class="level4" data-number="2.2.2.3">
-<h4 data-number="2.2.2.3" class="anchored" data-anchor-id="suche-in-bäumen"><span class="header-section-number">2.2.2.3</span> Suche in Bäumen</h4>
-</section>
-</section>
-<section id="sortieralgorithmen" class="level3" data-number="2.2.3">
-<h3 data-number="2.2.3" class="anchored" data-anchor-id="sortieralgorithmen"><span class="header-section-number">2.2.3</span> Sortieralgorithmen</h3>
-</section>
-<section id="optimierungsalgorithmen" class="level3" data-number="2.2.4">
-<h3 data-number="2.2.4" class="anchored" data-anchor-id="optimierungsalgorithmen"><span class="header-section-number">2.2.4</span> Optimierungsalgorithmen</h3>
-<section id="dijkstra-algorithmus" class="level4" data-number="2.2.4.1">
-<h4 data-number="2.2.4.1" class="anchored" data-anchor-id="dijkstra-algorithmus"><span class="header-section-number">2.2.4.1</span> Dijkstra-Algorithmus</h4>
+<section id="suche-in-bäumen" class="level4" data-number="2.3.2.3">
+<h4 data-number="2.3.2.3" class="anchored" data-anchor-id="suche-in-bäumen"><span class="header-section-number">2.3.2.3</span> Suche in Bäumen</h4>
 </section>
 </section>
-<section id="graphenalgorithmen" class="level3" data-number="2.2.5">
-<h3 data-number="2.2.5" class="anchored" data-anchor-id="graphenalgorithmen"><span class="header-section-number">2.2.5</span> Graphenalgorithmen</h3>
+<section id="sortieralgorithmen" class="level3" data-number="2.3.3">
+<h3 data-number="2.3.3" class="anchored" data-anchor-id="sortieralgorithmen"><span class="header-section-number">2.3.3</span> Sortieralgorithmen</h3>
 </section>
-<section id="stochastische-algorithmen" class="level3" data-number="2.2.6">
-<h3 data-number="2.2.6" class="anchored" data-anchor-id="stochastische-algorithmen"><span class="header-section-number">2.2.6</span> Stochastische Algorithmen</h3>
-<section id="section" class="level4" data-number="2.2.6.1">
-<h4 data-number="2.2.6.1" class="anchored" data-anchor-id="section"><span class="header-section-number">2.2.6.1</span> </h4>
-</section>
-</section>
-<section id="maschinelle-lernalgorithmen" class="level3" data-number="2.2.7">
-<h3 data-number="2.2.7" class="anchored" data-anchor-id="maschinelle-lernalgorithmen"><span class="header-section-number">2.2.7</span> Maschinelle Lernalgorithmen</h3>
+<section id="optimierungsalgorithmen" class="level3" data-number="2.3.4">
+<h3 data-number="2.3.4" class="anchored" data-anchor-id="optimierungsalgorithmen"><span class="header-section-number">2.3.4</span> Optimierungsalgorithmen</h3>
+<section id="dijkstra-algorithmus" class="level4" data-number="2.3.4.1">
+<h4 data-number="2.3.4.1" class="anchored" data-anchor-id="dijkstra-algorithmus"><span class="header-section-number">2.3.4.1</span> Dijkstra-Algorithmus</h4>
 </section>
 </section>
-<section id="iteration-und-rekursion" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="iteration-und-rekursion"><span class="header-section-number">2.3</span> Iteration und Rekursion</h2>
+<section id="graphenalgorithmen" class="level3" data-number="2.3.5">
+<h3 data-number="2.3.5" class="anchored" data-anchor-id="graphenalgorithmen"><span class="header-section-number">2.3.5</span> Graphenalgorithmen</h3>
+</section>
+<section id="stochastische-algorithmen" class="level3" data-number="2.3.6">
+<h3 data-number="2.3.6" class="anchored" data-anchor-id="stochastische-algorithmen"><span class="header-section-number">2.3.6</span> Stochastische Algorithmen</h3>
+<section id="annäherung-der-kreiszahl-pi" class="level4" data-number="2.3.6.1">
+<h4 data-number="2.3.6.1" class="anchored" data-anchor-id="annäherung-der-kreiszahl-pi"><span class="header-section-number">2.3.6.1</span> Annäherung der Kreiszahl <span class="math inline">\(\pi\)</span></h4>
+</section>
+</section>
+<section id="maschinelle-lernalgorithmen" class="level3" data-number="2.3.7">
+<h3 data-number="2.3.7" class="anchored" data-anchor-id="maschinelle-lernalgorithmen"><span class="header-section-number">2.3.7</span> Maschinelle Lernalgorithmen</h3>
+<p>Maschinelles Lernen hat sich in den letzten Jahren zu einem der wichtigsten Bereiche der Algorithmenentwicklung entwickelt. Diese Algorithmenklasse bildet die technische Grundlage für viele praktische Anwendungen der Künstlichen Intelligenz (KI). Maschinelle Lernalgorithmen zeichnen sich dadurch aus, dass sie aus vorhandenen Daten Muster erkennen und auf dieser Basis Vorhersagen oder Entscheidungen treffen können.</p>
+</section>
+</section>
+<section id="welche-wichtigen-algorithmischen-denkmuster-gibt-es" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="welche-wichtigen-algorithmischen-denkmuster-gibt-es"><span class="header-section-number">2.4</span> Welche wichtigen algorithmischen Denkmuster gibt es?</h2>
+<section id="sequenzen" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="sequenzen"><span class="header-section-number">2.4.1</span> Sequenzen</h3>
+<p>Die Sequenz ist das grundlegendste Muster in der Algorithmik. Sie beschreibt eine geordnete Abfolge von Anweisungen, die nacheinander ausgeführt werden. Wie bei einer Wegbeschreibung folgt dabei ein Schritt dem anderen in einer festgelegten Reihenfolge. Die korrekte und vollständige Ausführung aller Schritte ist entscheidend - das Auslassen oder Vertauschen von Anweisungen führt in der Regel nicht zum gewünschten Ergebnis.</p>
+<p>Sowohl Menschen als auch Computer verarbeiten Anweisungen standardmäßig sequentiell - also Schritt für Schritt von oben nach unten. Diese intuitive Vorgehensweise bildet die Grundlage für das Verständnis von Algorithmen. Allerdings können Algorithmen auch komplexere Strukturen enthalten, die von diesem linearen Ablaufmuster abweichen und alternative Ausführungspfade ermöglichen.</p>
+</section>
+<section id="verzweigungen" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="verzweigungen"><span class="header-section-number">2.4.2</span> Verzweigungen</h3>
+<p>Verzweigungen stellen eine grundlegende Form der nicht-linearen Ausführung eines Algorithmus dar. Sie ermöglichen es, dass der Algorithmus basierend auf bestimmten Bedingungen unterschiedliche Ausführungspfade einschlägt. Eine Verzweigung führt also je nach erfüllter oder nicht erfüllter Bedingung zu verschiedenen Anweisungsfolgen. Ein alltägliches Beispiel findet sich in Kochrezepten: “Wenn der Teig zu flüssig ist, füge mehr Mehl hinzu”. Die Anweisung, mehr Mehl hinzuzufügen, wird nur dann ausgeführt, wenn die Bedingung “Teig ist zu flüssig” zutrifft. Ist der Teig bereits von idealer Konsistenz, wird diese Anweisung übersprungen.</p>
+</section>
+<section id="iterationen" class="level3" data-number="2.4.3">
+<h3 data-number="2.4.3" class="anchored" data-anchor-id="iterationen"><span class="header-section-number">2.4.3</span> Iterationen</h3>
+</section>
+<section id="kapselung" class="level3" data-number="2.4.4">
+<h3 data-number="2.4.4" class="anchored" data-anchor-id="kapselung"><span class="header-section-number">2.4.4</span> Kapselung</h3>
+</section>
+<section id="rekursion" class="level3" data-number="2.4.5">
+<h3 data-number="2.4.5" class="anchored" data-anchor-id="rekursion"><span class="header-section-number">2.4.5</span> Rekursion</h3>
 
+</section>
 </section>
 <section id="übungsaufgaben" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="übungsaufgaben">Übungsaufgaben</h2>
@@ -1044,6 +1059,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
