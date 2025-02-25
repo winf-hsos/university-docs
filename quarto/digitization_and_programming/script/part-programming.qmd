@@ -5,8 +5,8 @@ format: pdf
 toc: true
 number-sections: false
 code-line-numbers: true
-bibliography: "bundle/references.bib"
 subtitle: "Digitalisierung und Programmierung"
+bibliography: bundle/references.bib
 ---
 Die Programmierung ist der Schlüssel zur Entfaltung des vollen Potenzials von Computern. Computer führen auf Hardware-Ebene mithilfe winziger Bauteile blitzschnelle Berechnungen und Datenverarbeitungen durch. Das Herzstück dieser Operationen ist der Hauptprozessor (CPU).
 

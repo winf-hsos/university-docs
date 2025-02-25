@@ -5,12 +5,12 @@ format: pdf
 toc: true
 number-sections: false
 code-line-numbers: true
-bibliography: "bundle/references.bib"
 subtitle: "Digitalisierung und Programmierung"
+bibliography: bundle/references.bib
 ---
-## Zusammenfassung
+## Zusammenfassung {.unnumbered}
 
-Willkommen zum Kapitel über Algorithmen - ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Abschnitt werden wir uns mit den grundlegenden Aspekten von Algorithmen befassen und dabei zentrale Fragen beantworten:
+Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Abschnitt befassen wir uns mit den grundlegenden Aspekten von Algorithmen und beantworten dabei zentrale Fragen:
 
 -   Was ist ein Algorithmus und wie grenzt er sich von einem Computerprogramm ab?
 -   Welche verschiedenen Kategorien von Algorithmen existieren und durch welche praktischen Beispiele lassen sie sich veranschaulichen?
@@ -23,7 +23,7 @@ Willkommen zum Kapitel über Algorithmen - ein fundamentales Konzept der Informa
 
 Der Begriff "**Algorithmus**" [stammt vom Namen des persischen Mathematikers Muhammad al-Khwarizmi](https://www.wissenschaftsjahr.de/2008/coremedia/generator/wj2008/de/02__Mathematik__alles__was__z_C3_A4hlt/05__KW50__Algorithmus.html), der um das Jahr 780 n. Chr. geboren wurde. Al-Khwarizmi war ein bedeutender Gelehrter am Hofe des Kalifen al-Mamun und verfasste dort Schriften, die den Gebrauch der indischen Zahlzeichen erklärten. Diese Schriften wurden im 12. Jahrhundert ins Lateinische übersetzt, wobei der Titel "Algoritmi de numero Indorum" verwendet wurde. Im Laufe der Zeit wurde der Name al-Khwarizmi zur Bezeichnung für die von ihm beschriebenen Rechenverfahren und entwickelte sich schließlich zum modernen Begriff "Algorithmus".
 
-Heute bezeichnet ein **Algorithmus** eine präzise Abfolge von Anweisungen, die ein bestimmtes Problem lösen oder eine Aufgabe erfüllen sollen. Im Alltag begegnen uns Algorithmen ständig, oft, ohne dass wir es merken: beim Kochen, bei der Wegbeschreibung oder beim Aufbau eines IKEA-Regals.
+Heute bezeichnet ein **Algorithmus**\index{Algorithmus} eine präzise Abfolge von Anweisungen, die ein bestimmtes Problem lösen oder eine Aufgabe erfüllen sollen. Im Alltag begegnen uns Algorithmen ständig, oft, ohne dass wir es merken: beim Kochen, bei der Wegbeschreibung oder beim Aufbau eines IKEA-Regals.
 
 ### Algorithmen und Programme
 
@@ -38,8 +38,8 @@ Comment
 Viele Algorithmen können von Computern ausgeführt werden. Dafür ist jedoch eine Übersetzung in eine maschinenverständliche Form notwendig. Diese Übersetzung erfolgt durch das Programmieren, wobei wir den Algorithmus in einer Programmiersprache formulieren. Um die Beziehung zwischen Algorithmen und Computerprogrammen besser zu verstehen, ist es hilfreich, drei zentrale Begriffe zu unterscheiden:
 
 -   **Algorithmus**: Die abstrakte Beschreibung einer Lösungsmethode in Form einer präzisen, endlichen Sequenz von individuellen Anweisungen. Ein Algorithmus ist unabhängig von der konkreten Umsetzung und kann sowohl von Menschen als auch von Maschinen ausgeführt werden.
--   **Programm**: Die konkrete Implementation eines oder mehrerer Algorithmen in einer Programmiersprache. Das Programm übersetzt die abstrakten Anweisungen des Algorithmus in eine Form, die ein Computer verstehen und ausführen kann.
--   **Prozess**: Die tatsächliche Ausführung eines Programms durch einen Computer. Dabei werden die programmierten Anweisungen Schritt für Schritt abgearbeitet, um das gewünschte Ergebnis zu erzielen.
+-   **Programm**\index{Programm}: Die konkrete Implementation eines oder mehrerer Algorithmen in einer Programmiersprache. Das Programm übersetzt die abstrakten Anweisungen des Algorithmus in eine Form, die ein Computer verstehen und ausführen kann.
+-   **Prozess**\index{Prozess}: Die tatsächliche Ausführung eines Programms durch einen Computer. Dabei werden die programmierten Anweisungen Schritt für Schritt abgearbeitet, um das gewünschte Ergebnis zu erzielen.
 
 ## Kategorien
 
@@ -126,35 +126,7 @@ result: b = 6
 
 ## Übungsaufgaben {.unnumbered}
 
-1.  Woher stammt der Begriff *Algorithmus*?
-
-2.  Definiere, was ein Algorithmus ist, und gib drei Beispiele für Algorithmen aus dem Alltag, die keinen direkten Bezug zu Computern haben.
-
-3.  Welche grundlegenden Ansätze zur Klassifizierung von Algorithmen gibt es?
-
-4.  Erläutere, was mit der Komplexität eines Algorithmus gemeint ist. Warum ist die Komplexität eines Algorithmus wichtig? Wie wird sie angegeben?
-
-5.  Welche Komplexitätsklassen kennst du? Bringe sie in eine Reihenfolge von der geringsten zur höchsten Komplexität.
-
-6.   Berechne den größten gemeinsamen Teiler der Zaheln 56 und 98 mithilfe des euklidischen Algorithmus! Dokumentiere jeden Schritt!
-
-7.  Wir haben exemplarisch für einen Algorithmus die babylonische Methode zur Approximation einer Quadratwurzel kennengelernt. Beantworte die nachfolgenden Fragen in diesem Kontext:
-     a.  Berechne die Quadratwurzel von 25 mit der babylonischen Methode und dokumentiere jeden Schritt! Wähle einen sinnvollen Startwert!
-     b.  Vergleiche die Ergebnisse der babylonischen Methode nach 3, 5 und 7 Iterationen mit dem exakten Wert der Quadratwurzel.
-     c.  Erkläre die Funktionsweise des babylonischen Algorithmus zur Berechnung der Quadratwurzel. Verwende dazu visuelle Hilfsmittel. Warum konvergiert der Algorithmus gegen den exakten Wert der Quadratwurzel?
-
-8.  Erläutere die Monte-Carlo-Methode zur Schätzung von $\pi$ und erkläre, wie man mithilfe von Zufallszahlen eine Annäherung an $\pi$ erreichen kann.
-
-9.  Finde weitere Probleme, die sich durch Monte-Carlo-Simulationen lösen lassen. Weshalb sind manche dieser Probleme mit anderen Methoden nicht lösbar?
-
-10.  Betrachte den Pseudocode in der Abbildung unten und beantworte die folgenden Fragen!
-     a.  Beschreibe die Ein- und Ausgabeinformationen für den gezeigten Algorithmus. Verwende dazu das EVA-Modell!
-     b.  Wie werden die Ein- und Ausgabeinformationen für diesen Algorithmus im Computer dargestellt? Wie viele Bits werden dafür benötigt?
-     c.  Welches Problem löst der Algorithmus? Beschreibe den Ablauf des Algorithmus in eigenen Worten und demonstriere sein Verhalten anhand verschiedener konkreter Beispiele!
-     d.  Wie würdest du die Komplexität des Algorithmus einschätzen und in welche Komplexitätsklasse lässt er sich einordnen?
-     e.  Implementiere den Algorithmus in Python. Schreibe eine Funktion, die die Eingabe als Parameter entgegennimmt und das Ergebnis mit `return` zurückgibt. Teste die Funktion mit verschiedenen Eingabewerten!
-
-![](https://winf-hsos.github.io/university-docs/static/images/algorithm_check_prime_number.png){fig-align="center" width=100% .lightbox}
+{{< include exercises/exercises-algorithms.qmd >}}
 
 
 

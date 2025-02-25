@@ -5,8 +5,8 @@ format: pdf
 toc: true
 number-sections: false
 code-line-numbers: true
-bibliography: "bundle/references.bib"
 subtitle: "Digitalisierung und Programmierung"
+bibliography: bundle/references.bib
 ---
 :::: {layout="[0.2, 0.8]" .content-visible when-format="pdf"}
 
