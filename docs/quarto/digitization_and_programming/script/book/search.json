@@ -74,59 +74,29 @@
     "href": "lifi-project.html#wie-gehen-wir-vor",
     "title": "Das LiFi-Projekt",
     "section": "Wie gehen wir vor?",
-    "text": "Wie gehen wir vor?\nEin solch großes und komplexes Ingenieursproblem wie das LiFi-Projekt erfordert ein durchdachtes Vorgehen. Da es sich vornehmlich um ein Projekt zur Einführung in die digitale Welt handelt, gehen wir schrittweise vor und lernen bei jedem Schritt wichtige Grundlagen, die uns bei der Umsetzung helfen.\nZuerst widmen wir uns dem Basteln: Nach Anleitung setzen wir aus den bereitgestellten Hardware-Bauteilen den LiFi-Prototypen zusammen. Dieser bildet die Grundlage für unsere praktische Arbeit im Projekt. Während die Hardware nur einmalig zu Beginn aufgebaut werden muss, entwickeln wir die Software kontinuierlich über das gesamte Projekt hinweg weiter.\nUm das Problem besser zu verstehen und in kleinere Teilprobleme zu zerlegen, betrachten wir in 1  Problemlösung zunächst geeignete Techniken zur Problemlösung. Parallel dazu beginnen wir mit der Programmierung in Python – der Sprache, die wir für die Entwicklung der LiFi-Software nutzen werden. Diese Kenntnisse erweitern wir in jedem Kapitel, führen wichtige Konzepte der Programmierung ein und lernen, wie wir mit Python die Hardware des LiFi-Prototypen steuern können.\nDas Buch ist in vier Teile gegliedert. Nach jedem Teil stellen wir eine neue Version unseres LiFi-Prototypen fertig. Die finale Version enthält dann alle notwendigen Funktionen, die zur Beantwortung der Fragestellungen erforderlich sind.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "text": "Wie gehen wir vor?\nEin solch großes und komplexes Ingenieursproblem wie das LiFi-Projekt erfordert ein durchdachtes Vorgehen. Da es sich vornehmlich um ein Projekt zur Einführung in die digitale Welt handelt, gehen wir schrittweise vor und lernen bei jedem Schritt wichtige Grundlagen, die uns bei der Umsetzung helfen.\nZuerst widmen wir uns dem Basteln: Nach Anleitung setzen wir aus den bereitgestellten Hardware-Bauteilen den LiFi-Prototypen zusammen. Dieser bildet die Grundlage für unsere praktische Arbeit im Projekt. Während die Hardware nur einmalig zu Beginn aufgebaut werden muss, entwickeln wir die Software kontinuierlich über das gesamte Projekt hinweg weiter.\nUm das Problem besser zu verstehen und in kleinere Teilprobleme zu zerlegen, betrachten wir in 1  Problemlösung zunächst geeignete Techniken zur Problemlösung. Parallel dazu beginnen wir mit der Programmierung in Python – der Sprache, die wir für die Entwicklung der LiFi-Software nutzen werden. Diese Kenntnisse erweitern wir in jedem Kapitel, führen wichtige Konzepte der Programmierung ein und lernen, wie wir mit Python die Hardware des LiFi-Prototypen steuern können.\nDas Buch ist in vier Teile gegliedert. Nach jedem Teil stellen wir eine neue Version unseres LiFi-Prototypen fertig. Die finale Version enthält dann alle notwendigen Funktionen, die zur Beantwortung der Fragestellungen erforderlich sind.",
     "crumbs": [
       "Das LiFi-Projekt"
     ]
   },
   {
-    "objectID": "lifi-project-hardware-software.html",
-    "href": "lifi-project-hardware-software.html",
-    "title": "Hard- und Software",
-    "section": "",
-    "text": "Welche Hardware benötigen wir?\nFür den LiFi-Hardware-Prototyp benötigen wir folgende Komponenten:\nBitte überprüfe vor dem Fortfahren mit den folgenden Anweisungen, ob dein LiFi-Kit alle Komponenten in den angegebenen Mengen enthält.",
+    "objectID": "lifi-project.html#was-benötigen-wir-für-das-lifi-projekt",
+    "href": "lifi-project.html#was-benötigen-wir-für-das-lifi-projekt",
+    "title": "Das LiFi-Projekt",
+    "section": "Was benötigen wir für das LiFi-Projekt?",
+    "text": "Was benötigen wir für das LiFi-Projekt?\n\nHardware\n\nKomponenten\nFür den LiFi-Hardware-Prototyp benötigen wir folgende Komponenten:\n\n1 x Master Brick 3.1\n1 x RGB LED Bricklet 2.0\n1 x Color Bricklet 2.0\n1 x OLED 128x64 Bricklet 2.0\n4 x Bricklet Cable 15 cm (7p-7p)\n1 x USB-A to USB-C Cable 100 cm\n2 x Mounting Plate 22x10\n4 x Mounting Kit 12 mm\n\nBitte überprüfe vor dem Fortfahren mit den folgenden Anweisungen, ob dein LiFi-Kit alle Komponenten in den angegebenen Mengen enthält.\n\n\n\n\n\n\n\nAufbauanleitung\n1. Schutzfolie auf den Befestigungsplatten entfernen\n2. Abstandshalter an beide Befestigungsplatten anbringen\nBefestigungsplatte 1\nBefestigungsplatte 2\n3. Master Brick befestigen\n4. Verbindungskabel einstecken\n5. Befestigungsplatten miteinander verbinden\n6. OLED-Anzeige montieren\n7. LED und Farbsensor montieren\n8. Peripheriegeräte mit Master Brick verbinden\n\n\n\nSoftware\nNeben der Hardware benötigen wir für die Entwicklung des LiFi-Prototyps verschiedene Software-Komponenten. Die Software ist komplett Open-Source und dadurch kostenlos nutzbar. Alle Programme sind für Windows, Mac OS und Linux verfügbar. Hier zunächst die Übersicht, bevor wir jede Software im Detail vorstellen:\n\nBrick Daemon und Brick Viewer\nVisual Studio Code\nPython\nGit\n\n\nBrick Daemon\n\n\nBrick Viewer\n\n\nVisual Studio Code\n\n\nPython\n\nVirtuelle Python-Umgebungen\nExterne Module installieren\n\n\n\nGit\n\nGitHub\nEin Repository klonen\nDen lokalen Code aktualisieren",
     "crumbs": [
-      "Hard- und Software"
+      "Das LiFi-Projekt"
     ]
   },
   {
-    "objectID": "lifi-project-hardware-software.html#welche-hardware-benötigen-wir",
-    "href": "lifi-project-hardware-software.html#welche-hardware-benötigen-wir",
-    "title": "Hard- und Software",
-    "section": "",
-    "text": "1 x Master Brick 3.1\n1 x RGB LED Bricklet 2.0\n1 x Color Bricklet 2.0\n1 x OLED 128x64 Bricklet 2.0\n4 x Bricklet Cable 15 cm (7p-7p)\n1 x USB-A to USB-C Cable 100 cm\n2 x Mounting Plate 22x10\n4 x Mounting Kit 12 mm",
-    "crumbs": [
-      "Hard- und Software"
-    ]
-  },
-  {
-    "objectID": "lifi-project-hardware-software.html#wie-baue-ich-die-hardware-zusammen",
-    "href": "lifi-project-hardware-software.html#wie-baue-ich-die-hardware-zusammen",
-    "title": "Hard- und Software",
-    "section": "Wie baue ich die Hardware zusammen?",
-    "text": "Wie baue ich die Hardware zusammen?\n\n1. Schutzfolie auf den Befestigungsplatten entfernen\n\n\n2. Abstandshalter an beide Befestigungsplatten anbringen\n\nBefestigungsplatte 1\n\n\nBefestigungsplatte 2\n\n\n\n3. Master Brick befestigen\n\n\n4. Verbindungskabel einstecken\n\n\n5. Befestigungsplatten miteinander verbinden\n\n\n6. OLED-Anzeige montieren\n\n\n7. LED und Farbsensor montieren\n\n\n8. Peripheriegeräte mit Master Brick verbinden",
-    "crumbs": [
-      "Hard- und Software"
-    ]
-  },
-  {
-    "objectID": "lifi-project-hardware-software.html#welche-software-brauchen-wir",
-    "href": "lifi-project-hardware-software.html#welche-software-brauchen-wir",
-    "title": "Hard- und Software",
-    "section": "Welche Software brauchen wir?",
-    "text": "Welche Software brauchen wir?\nNeben der Hardware benötigen wir für die Entwicklung des LiFi-Prototyps verschiedene Software-Komponenten. Die Software ist komplett Open-Source und dadurch kostenlos nutzbar. Alle Programme sind für Windows, Mac OS und Linux verfügbar. Hier zunächst die Übersicht, bevor wir jede Software im Detail vorstellen:\n\nBrick Daemon und Brick Viewer\nVisual Studio Code\nPython\nGit\n\n\nBrick Daemon\n\n\nBrick Viewer\n\n\nVisual Studio Code\n\nErweiterungen\n\n\nDie Kommandozeile\n\n\n\nPython\n\nVirtuelle Python-Umgebungen\n\n\nExterne Module installieren\n\n\n\nGit\n\nGitHub\n\n\nEin Repository klonen\n\n\nDen lokalen Code aktualisieren",
-    "crumbs": [
-      "Hard- und Software"
-    ]
-  },
-  {
-    "objectID": "lifi-project-hardware-software.html#übungsaufgaben",
-    "href": "lifi-project-hardware-software.html#übungsaufgaben",
-    "title": "Hard- und Software",
+    "objectID": "lifi-project.html#übungsaufgaben",
+    "href": "lifi-project.html#übungsaufgaben",
+    "title": "Das LiFi-Projekt",
     "section": "Übungsaufgaben",
     "text": "Übungsaufgaben\n\nVerwendet den Brick Viewer und verbindet euch mit eurem Master Brick. Stellt sicher, dass die Verbindung funktioniert:\n\nÖffnet den Tab für die RGB LED und erkundet die verfügbaren Funktionen.\nTestet den Farbsensor, indem ihr seine Reaktionen unter verschiedenen Lichtverhältnissen beobachtet.\nErmittelt die eindeutige Identifikationsnummer (UID) für jeden eurer Sensoren im Brick Viewer.\n\nStartet das Visual Studio Code und öffnet dort ein neues Terminalfenster:\n\nWechselt über die Kommandozeile in ein Verzeichnis eurer Wahl und klont das GitHub-Repository mit dem Beispielcode für dieses Buch mittels des git-Befehls.\nErstellt eine neue virtuelle Python-Umgebung im Ordner . env und aktiviert diese. Installiert die für den Beispielcode benötigen Python-Module tinkerforge und pyyaml .\n\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
-      "Hard- und Software"
+      "Das LiFi-Projekt"
     ]
   },
   {

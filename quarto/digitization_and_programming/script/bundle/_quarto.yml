@@ -17,7 +17,7 @@ book:
   chapters:
     - index.qmd
     - lifi-project.qmd
-    - lifi-project-hardware-software.qmd
+    
     - part: part-problems.qmd
       chapters:
         - problem-solving.qmd

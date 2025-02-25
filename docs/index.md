@@ -170,6 +170,7 @@
 - [problem_solving_67_prime_number.png](images/problem_solving_67_prime_number.png)
 - [problem_solving_67_prime_number_binary_search_1.png](images/problem_solving_67_prime_number_binary_search_1.png)
 - [problem_solving_67_prime_number_binary_search_2.png](images/problem_solving_67_prime_number_binary_search_2.png)
+- [problem_solving_67_prime_number_binary_search_3.png](images/problem_solving_67_prime_number_binary_search_3.png)
 - [problem_solving_67_prime_number_binary_search_4.png](images/problem_solving_67_prime_number_binary_search_4.png)
 - [problem_solving_67_prime_number_binary_search_5.png](images/problem_solving_67_prime_number_binary_search_5.png)
 - [problem_solving_67_prime_number_binary_search_6.png](images/problem_solving_67_prime_number_binary_search_6.png)

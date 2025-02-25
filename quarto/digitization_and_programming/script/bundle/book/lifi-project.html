@@ -50,7 +50,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./lifi-project-hardware-software.html" rel="next">
+<link href="./part-problems.html" rel="next">
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -61,6 +61,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-8da5b4427184b79ecddefad3d342027e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -139,12 +142,6 @@ div.csl-indent {
   <div class="sidebar-item-container"> 
   <a href="./lifi-project.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Das LiFi-Projekt</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./lifi-project-hardware-software.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hard- und Software</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -347,6 +344,12 @@ div.csl-indent {
   <li><a href="#worum-geht-es-im-lifi-projekt" id="toc-worum-geht-es-im-lifi-projekt" class="nav-link active" data-scroll-target="#worum-geht-es-im-lifi-projekt">Worum geht es im LiFi-Projekt?</a></li>
   <li><a href="#was-sind-die-ziele" id="toc-was-sind-die-ziele" class="nav-link" data-scroll-target="#was-sind-die-ziele">Was sind die Ziele?</a></li>
   <li><a href="#wie-gehen-wir-vor" id="toc-wie-gehen-wir-vor" class="nav-link" data-scroll-target="#wie-gehen-wir-vor">Wie gehen wir vor?</a></li>
+  <li><a href="#was-benötigen-wir-für-das-lifi-projekt" id="toc-was-benötigen-wir-für-das-lifi-projekt" class="nav-link" data-scroll-target="#was-benötigen-wir-für-das-lifi-projekt">Was benötigen wir für das LiFi-Projekt?</a>
+  <ul class="collapse">
+  <li><a href="#hardware" id="toc-hardware" class="nav-link" data-scroll-target="#hardware">Hardware</a></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
+  </ul></li>
+  <li><a href="#übungsaufgaben" id="toc-übungsaufgaben" class="nav-link" data-scroll-target="#übungsaufgaben">Übungsaufgaben</a></li>
   </ul>
 </nav>
     </div>
@@ -402,6 +405,95 @@ div.csl-indent {
 <p>Zuerst widmen wir uns dem Basteln: Nach Anleitung setzen wir aus den bereitgestellten Hardware-Bauteilen den LiFi-Prototypen zusammen. Dieser bildet die Grundlage für unsere praktische Arbeit im Projekt. Während die Hardware nur einmalig zu Beginn aufgebaut werden muss, entwickeln wir die Software kontinuierlich über das gesamte Projekt hinweg weiter.</p>
 <p>Um das Problem besser zu verstehen und in kleinere Teilprobleme zu zerlegen, betrachten wir in <a href="problem-solving.html" class="quarto-xref"><span>1&nbsp; Problemlösung</span></a> zunächst geeignete Techniken zur Problemlösung. Parallel dazu beginnen wir mit der Programmierung in Python – der Sprache, die wir für die Entwicklung der LiFi-Software nutzen werden. Diese Kenntnisse erweitern wir in jedem Kapitel, führen wichtige Konzepte der Programmierung ein und lernen, wie wir mit Python die Hardware des LiFi-Prototypen steuern können.</p>
 <p>Das Buch ist in vier Teile gegliedert. Nach jedem Teil stellen wir eine neue Version unseres LiFi-Prototypen fertig. Die finale Version enthält dann alle notwendigen Funktionen, die zur Beantwortung der Fragestellungen erforderlich sind.</p>
+</section>
+<section id="was-benötigen-wir-für-das-lifi-projekt" class="level2">
+<h2 class="anchored" data-anchor-id="was-benötigen-wir-für-das-lifi-projekt">Was benötigen wir für das LiFi-Projekt?</h2>
+<section id="hardware" class="level3">
+<h3 class="anchored" data-anchor-id="hardware">Hardware</h3>
+<section id="komponenten" class="level4">
+<h4 class="anchored" data-anchor-id="komponenten">Komponenten</h4>
+<p>Für den LiFi-Hardware-Prototyp benötigen wir folgende Komponenten:</p>
+<ul>
+<li>1 x <a href="https://www.tinkerforge.com/en/shop/bricks/master-brick.html">Master Brick 3.1</a></li>
+<li>1 x <a href="https://www.tinkerforge.com/en/shop/rgb-led-v2-bricklet.html">RGB LED Bricklet 2.0</a></li>
+<li>1 x <a href="https://www.tinkerforge.com/en/shop/color-v2-bricklet.html">Color Bricklet 2.0</a></li>
+<li>1 x <a href="https://www.tinkerforge.com/en/shop/oled-128x64-v2-bricklet.html">OLED 128x64 Bricklet 2.0</a></li>
+<li>4 x <a href="https://www.tinkerforge.com/en/shop/bricklet-cable-15cm-7p-7p.html">Bricklet Cable 15 cm (7p-7p)</a></li>
+<li>1 x <a href="https://www.tinkerforge.com/en/shop/accessories/cable/usb-a-to-usb-c-cable-100cm.html">USB-A to USB-C Cable 100 cm</a></li>
+<li>2 x <a href="https://www.tinkerforge.com/en/shop/accessories/mounting/mounting-plate-22x10.html">Mounting Plate 22x10</a></li>
+<li>4 x <a href="https://www.tinkerforge.com/en/shop/accessories/mounting/mounting-kit-12mm.html">Mounting Kit 12 mm</a></li>
+</ul>
+<p>Bitte überprüfe vor dem Fortfahren mit den folgenden Anweisungen, ob dein LiFi-Kit alle Komponenten in den angegebenen Mengen enthält.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://winf-hsos.github.io/university-docs/static/images/lifi_hardware_overview.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://winf-hsos.github.io/university-docs/static/images/lifi_hardware_overview.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
+</figure>
+</div>
+</section>
+<section id="aufbauanleitung" class="level4">
+<h4 class="anchored" data-anchor-id="aufbauanleitung">Aufbauanleitung</h4>
+<p><strong>1. Schutzfolie auf den Befestigungsplatten entfernen</strong></p>
+<p><strong>2. Abstandshalter an beide Befestigungsplatten anbringen</strong></p>
+<p><strong>Befestigungsplatte 1</strong></p>
+<p><strong>Befestigungsplatte 2</strong></p>
+<p><strong>3. Master Brick befestigen</strong></p>
+<p><strong>4. Verbindungskabel einstecken</strong></p>
+<p><strong>5. Befestigungsplatten miteinander verbinden</strong></p>
+<p><strong>6. OLED-Anzeige montieren</strong></p>
+<p><strong>7. LED und Farbsensor montieren</strong></p>
+<p><strong>8. Peripheriegeräte mit Master Brick verbinden</strong></p>
+</section>
+</section>
+<section id="software" class="level3">
+<h3 class="anchored" data-anchor-id="software">Software</h3>
+<p>Neben der Hardware benötigen wir für die Entwicklung des LiFi-Prototyps verschiedene Software-Komponenten. Die Software ist komplett Open-Source und dadurch kostenlos nutzbar. Alle Programme sind für Windows, Mac OS und Linux verfügbar. Hier zunächst die Übersicht, bevor wir jede Software im Detail vorstellen:</p>
+<ul>
+<li><a href="https://www.tinkerforge.com/en/doc/Software/Brickd.html">Brick Daemon</a> und <a href="https://www.tinkerforge.com/en/doc/Software/Brickv.html">Brick Viewer</a></li>
+<li><a href="https://code.visualstudio.com/download">Visual Studio Code</a></li>
+<li><a href="https://www.python.org/downloads/">Python</a></li>
+<li><a href="https://git-scm.com/downloads">Git</a></li>
+</ul>
+<section id="brick-daemon" class="level4">
+<h4 class="anchored" data-anchor-id="brick-daemon">Brick Daemon</h4>
+</section>
+<section id="brick-viewer" class="level4">
+<h4 class="anchored" data-anchor-id="brick-viewer">Brick Viewer</h4>
+</section>
+<section id="visual-studio-code" class="level4">
+<h4 class="anchored" data-anchor-id="visual-studio-code">Visual Studio Code</h4>
+</section>
+<section id="python" class="level4">
+<h4 class="anchored" data-anchor-id="python">Python</h4>
+<ul>
+<li>Virtuelle Python-Umgebungen</li>
+<li>Externe Module installieren</li>
+</ul>
+</section>
+<section id="git" class="level4">
+<h4 class="anchored" data-anchor-id="git">Git</h4>
+<ul>
+<li>GitHub</li>
+<li>Ein Repository klonen</li>
+<li>Den lokalen Code aktualisieren</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="übungsaufgaben" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="übungsaufgaben">Übungsaufgaben</h2>
+<ol type="1">
+<li>Verwendet den Brick Viewer und verbindet euch mit eurem Master Brick. Stellt sicher, dass die Verbindung funktioniert:
+<ol type="a">
+<li>Öffnet den Tab für die RGB LED und erkundet die verfügbaren Funktionen.</li>
+<li>Testet den Farbsensor, indem ihr seine Reaktionen unter verschiedenen Lichtverhältnissen beobachtet.</li>
+<li>Ermittelt die eindeutige Identifikationsnummer (UID) für jeden eurer Sensoren im Brick Viewer.</li>
+</ol></li>
+<li>Startet das Visual Studio Code und öffnet dort ein neues Terminalfenster:
+<ol type="a">
+<li>Wechselt über die Kommandozeile in ein Verzeichnis eurer Wahl und klont das GitHub-Repository mit dem Beispielcode für dieses Buch mittels des <code>git</code>-Befehls.</li>
+<li>Erstellt eine neue virtuelle Python-Umgebung im Ordner <code>. env</code> und aktiviert diese. Installiert die für den Beispielcode benötigen Python-Module <code>tinkerforge</code> und <code>pyyaml</code> .</li>
+</ol></li>
+</ol>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -848,12 +940,44 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./lifi-project-hardware-software.html" class="pagination-link" aria-label="Hard- und Software">
-        <span class="nav-page-text">Hard- und Software</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./part-problems.html" class="pagination-link" aria-label="Probleme">
+        <span class="nav-page-text">Probleme</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
