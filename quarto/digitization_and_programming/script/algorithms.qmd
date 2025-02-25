@@ -53,13 +53,21 @@ Die natürliche Sprache weist für die präzise Beschreibung von Algorithmen zwe
 
 ### Pseudocode
 
-Pseudocode ist eine strukturierte, programmiersprachenähnliche Notation zur Beschreibung von Algorithmen. Er kombiniert Elemente der natürlichen Sprache mit grundlegenden Programmierkonzepten wie Schleifen, Bedingungen und Funktionen. Der Vorteil des Pseudocodes liegt in seiner Präzision und Klarheit, ohne dabei an die strengen syntaktischen Regeln einer echten Programmiersprache gebunden zu sein.
+Pseudocode\index{Pseudocode} ist eine strukturierte, programmiersprachenähnliche Notation zur Beschreibung von Algorithmen. Er kombiniert Elemente der natürlichen Sprache mit grundlegenden Programmierkonzepten wie Schleifen, Bedingungen und Funktionen. Der Vorteil des Pseudocodes liegt in seiner Präzision und Klarheit, ohne dabei an die strengen syntaktischen Regeln einer echten Programmiersprache gebunden zu sein.
 
 Ein wichtiges Merkmal des Pseudocodes ist seine Flexibilität: Er kann je nach Bedarf formeller oder informeller gestaltet werden, solange die grundlegende Logik und Struktur des Algorithmus klar erkennbar bleiben. Dabei werden häufig standardisierte Schlüsselwörter wie "IF", "THEN", "WHILE" oder "REPEAT" verwendet, die die algorithmische Struktur verdeutlichen.
 
+![Der Euklid’sche Algorithmus als Pseudocode.](https://winf-hsos.github.io/university-docs/images/algorithms_pseudocode_example.png){fig-align="center" width=100% #fig-pseudocode-gcd .lightbox}
+
 ### Flussdiagramme
 
-Flussdiagramme bieten eine visuelle Darstellung von Algorithmen durch standardisierte grafische Symbole und Verbindungslinien. Diese Notation ist besonders hilfreich, um den Ablauf eines Algorithmus und die logischen Verzweigungen auf einen Blick zu erfassen. Die wichtigsten Elemente eines Flussdiagramms sind Start- und Endpunkte, Prozessschritte (dargestellt durch Rechtecke), Entscheidungen (dargestellt durch Rauten) und Verbindungspfeile, die den Kontrollfluss anzeigen.
+Flussdiagramme\index{Flussdiagramm} bieten eine visuelle Darstellung von Algorithmen durch standardisierte grafische Symbole und Verbindungslinien. Diese Notation ist besonders hilfreich, um den Ablauf eines Algorithmus und die logischen Verzweigungen auf einen Blick zu erfassen. @fig-flow-diagram-notation zeigt die wichtigsten Elemente eines Flussdiagramms: Start- und Endpunkte, Ein- und Ausgaben (Parallelogramm), Anweisungen (Rechteck), Entscheidungen (Rauten), Wiederholungen (Sechseck).
+
+![Die Notationselemente des Flussdiagramms.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_notation.png){fig-align="center" width=100% #fig-flow-diagram-notation .lightbox}
+
+ Dazu kommen Verbindungspfeile, die den Kontrollfluss anzeigen, diese sind im Beispiel in @fig-euclid-flow zu sehen.
+
+![Der Euklid’sche Algorithmus als Flussdiagramm.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_gcd.png){fig-align="center" width=100% #fig-euclid-flow .lightbox}
 
 ## Welche Arten von Algorithmen gibt es?
 
@@ -91,33 +99,156 @@ Das Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier
 
 ![Beispiel für die Anwendung des Algorithmus nach Euklid.](https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_example.png){fig-align="center" width=100% #fig-euclidean-example .lightbox}
 
-#### Babylonisches Wurzelziehen
+#### Babylonisches Wurzelziehen {#sec-babylonian}
 
-Das Babylonische Verfahren zur Berechnung der Quadratwurzel ist ein weiteres Beispiel für einen mathematischen Algorithmus. Während der Euklid'sche Algorithmus exakte Ergebnisse liefert, zeigt das Babylonische Verfahren eine andere wichtige Eigenschaft mathematischer Algorithmen: die schrittweise Annäherung an einen Zielwert. Der Algorithmus *approximiert* die Quadratwurzel durch wiederholte Verfeinerung der Schätzung und *konvergiert* dabei gegen den tatsächlichen Wert. Diese Methode demonstriert, wie auch ohne exakte Berechnung präzise Ergebnisse erzielt werden können.
+Das Babylonische Verfahren zur Berechnung der Quadratwurzel ist ein weiteres Beispiel für einen mathematischen Algorithmus. Während der Euklid'sche Algorithmus exakte Ergebnisse liefert, zeigt das Babylonische Verfahren eine andere wichtige Eigenschaft mathematischer Algorithmen: **die schrittweise Annäherung an einen Zielwert**. Der Algorithmus *approximiert* die Quadratwurzel durch wiederholte Verfeinerung der Schätzung und *konvergiert* dabei gegen den tatsächlichen Wert. Diese Methode demonstriert, wie auch ohne exakte Berechnung präzise Ergebnisse erzielt werden können.
+
+Ein anschauliches Beispiel für das Babylonische Verfahren ist in @fig-babylonian-1 dargestellt. Der Algorithmus berechnet die Quadratwurzel einer Eingabezahl durch geometrische Annäherung: Wenn wir die Eingabezahl $x$ als Flächeninhalt eines Rechtecks interpretieren, suchen wir die Seitenlängen eines Quadrats mit der gleichen Fläche.
+
+Das Verfahren nähert sich diesem Wert schrittweise an, indem es die Seitenlängen $A$ und $B$ eines Rechtecks iterativ anpasst. Nehmen wir an, wir wollen die Quadratwurzel aus $x = 16$ ziehen. Zu Beginn setzen wir $A = 1$ und berechnen $B$ so, dass das Produkt der Seitenlängen die gesuchte Fläche ergibt: $B = \frac{x}{A} = 16$. Dieser Ausgangszustand ist in @fig-babylonian-1 dargestellt.
+
+![Ausgangszustand im Babylonischen Wurzelziehen.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_1.png){fig-align="center" width=100% #fig-babylonian-1 .lightbox}
+
+Nach der Festlegung der Startwerte beginnt der eigentliche iterative Prozess der Annäherung. In jedem Durchlauf werden die Werte für $A$ und $B$ nach spezifischen Formeln neu berechnet, wodurch sie sich schrittweise einander annähern:
+
+$$
+A = \frac{A+B}{2}
+$$
+
+Und damit die Gesamtfläche der gesuchten Zahl $x$ entspricht, setzen wir $B$ wie folgt:
+
+$$
+B= \frac{x}{A}
+$$
+
+Wenden wir diese Formeln auf unsere Ausgangswerte an, ergibt sich für den zweiten Iterationsschritt das in @fig-babylonian-2 visualisierte Rechteck. Hier berechnen wir zunächst die neue Länge A:
+
+$$
+A = \frac{1 + 16}{2} = 8.5
+$$
+
+Und daraus folgt für B:
+
+$$
+B = \frac{16}{8.5} \approx 1.88
+$$
+
+![Zustand des Babylonischen Verfahrens nach dem ersten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_2.png){fig-align="center" width=100% #fig-babylonian-2 .lightbox}
+
+Verglichen mit dem Ausgangszustand haben sich die Werte $A$ und $B$ bereits angenähert, aber sie weichen noch deutlich voneinander ab. Um eine bessere Approximation zu erreichen, führen wir eine weitere Iteration durch und berechnen die neuen Werte für $A$ und $B$ nach dem etablierten Schema:
+
+$$
+A = \frac{8.5 + 1.88}{2} \approx 5.19 
+$$
+
+Und für die andere Kante:
+
+$$
+B = \frac{16}{5.19} \approx 3.08
+$$
+
+![Zustand des Babylonischen Verfahrens nach dem zweiten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_3.png){fig-align="center" width=100% #fig-babylonian-3 .lightbox}
+
+Die Werte haben sich weiter angenähert. Da wir wissen, dass beide Kanten am Ende die Länge 4 haben sollen, ist eine weitere Iteration erforderlich. Nach der dritten Berechnung, wie in @fig-babyolonian-4 dargestellt, nähern sich beide Kanten bereits sehr präzise dem Zielwert von 4 an.
+
+![Zustand des Babylonischen Verfahrens nach dem dritten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_4.png){fig-align="center" width=100% #fig-babylonian-4 .lightbox}
+
+Nach einer weiteren Iteration konvergiert der Algorithmus zum gesuchten Wert: Beide Seiten $A$ und $B$ erreichen durch Rundung den Wert 4. Damit haben wir das gesuchte Quadrat erfolgreich konstruiert, und der Algorithmus kann beendet werden.
+
+![](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_5.png){fig-align="center" width=100% .lightbox}
+
+In diesem Beispiel konvergiert der Algorithmus bereits nach wenigen Iterationen zum korrekten Ergebnis. Die Geschwindigkeit der Konvergenz hängt jedoch von zwei wesentlichen Faktoren ab:
+
+1.  Der Eingabezahl, aus der die Wurzel gezogen werden soll
+2.  Der Wahl der Startwerte für $A$ und $B$
+
+Je nach Konstellation dieser Faktoren kann die Annäherung deutlich mehr Iterationen benötigen. Zudem erreichen die beiden Seiten in vielen Fällen keine exakte Gleichheit, sondern nähern sich lediglich bis auf eine beliebig kleine Differenz an. Dies wirft eine wichtige praktische Frage auf: Wann ist die Approximation der Quadratwurzel präzise genug, um den Algorithmus zu beenden? Dazu später in @sec-algo-halt mehr.
+
+Ein pragmatisches Abbruchkriterium für das Babylonische Verfahren ist das Erreichen einer vordefinierten Genauigkeit. Nach jedem Iterationsschritt wird die Differenz zwischen den Werten $A$ und $B$ berechnet. Ist diese Differenz kleiner als ein festgelegter Schwellenwert, wird der Algorithmus beendet. Der vollständige Ablauf des Verfahrens ist in @fig-babylonian-flow dargestellt.
+
+![Das Babylonische Verfahren als Flussdiagramm.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_babylonian.png){fig-align="center" width=100% #fig-babylonian-flow .lightbox}
+
+Das Flussdiagramm beginnt auf der linken Seite mit einer Eingabeprüfung: Die Zahl $x$ wird eingelesen und auf Positivität getestet, da die Quadratwurzel aus negativen Zahlen nicht definiert ist. Eine Verzweigung überprüft die Bedingung $x > 0$ und leitet den Algorithmus entsprechend weiter. Bei positiver Eingabe werden die Startwerte für $A$ und $B$ initialisiert. Anschließend beginnt eine WHILE-Schleife, die solange durchlaufen wird, bis die Differenz zwischen $A$ und $B$ einen definierten Schwellenwert unterschreitet. Nach erfolgreicher Konvergenz wird der finale Wert von $A$ als Ergebnis ausgegeben.
+
+Eine weitere wichtige Frage bei der Entwicklung von Algorithmen betrifft deren Terminierung: Wir müssen nicht nur festlegen, wann ein Algorithmus beendet werden soll, sondern auch sicherstellen, dass er überhaupt ein Ende erreicht. Am Beispiel des Babylonischen Verfahrens lässt sich dies gut veranschaulichen: Die entscheidende Frage ist, ob die Werte $A$ und $B$ tatsächlich konvergieren, also sich einander systematisch annähern.
+
+In diesem Fall können wir die Frage positiv beantworten. Die Berechnungsformel, die in jedem Schritt den neuen Wert für $A$ als Durchschnitt aus $A$ und $B$ bestimmt, garantiert eine stetige Annäherung der beiden Werte. Diese mathematische Eigenschaft sichert die Terminierung des Algorithmus. Bei anderen Algorithmen muss die Terminierung jedoch sorgfältig analysiert werden, um unendliche Ausführungen zu vermeiden. Mehr dazu in @sec-algo-infinity.
 
 ### Suchalgorithmen
 
+Nach der Betrachtung mathematischer Algorithmen wenden wir uns nun den Suchalgorithmen zu - einer fundamentalen Kategorie von Algorithmen, die ein essentielles Element der Informatikausbildung darstellt. Diese Algorithmen bilden die Grundlage für effiziente Datenzugriffe und sind damit von großer praktischer Bedeutung.
+
 #### Lineare Suche
+
+Die lineare Suche ist der einfachste Suchalgorithmus und folgt einem intuitiven Ansatz: Sie durchläuft eine Liste sequentiell von Anfang bis Ende, bis das gesuchte Element gefunden wird. Obwohl dieser Algorithmus konzeptionell sehr einfach ist, hat er den Nachteil einer relativ hohen Laufzeit, da im schlechtesten Fall die gesamte Liste durchsucht werden muss. Dennoch ist die lineare Suche für unsortierte Listen oder kleine Datenmengen eine praktikable Lösung.
 
 #### Binäre Suche
 
+Die binäre Suche ist ein hocheffizienter Algorithmus, der auf dem "Teile und Herrsche"-Prinzip (Divide & Conquer) basiert. Eine wichtige Voraussetzung für ihre Anwendung ist, dass die zu durchsuchende Liste sortiert vorliegt. Der Algorithmus arbeitet systematisch, indem er in jedem Schritt die Liste in der Mitte teilt und anhand eines Vergleichs entscheidet, ob sich das gesuchte Element im linken oder rechten Teilbereich befindet. Durch diese Halbierung des Suchbereichs in jedem Schritt erreicht die binäre Suche eine bemerkenswerte Effizienz.
+
+Diese Strategie, die wir bereits im vorigen Kapitel unter @sec-divide-and-conquer als *Divide-and- Conquer*-Ansatz\index{Divide-and-Conquer-Ansatz} kennengelernt haben, ermöglicht es der binären Suche, selbst in großen Datensätzen ein gesuchtes Element mit minimaler Anzahl von Vergleichsoperationen zu finden.
+
 #### Suche in Bäumen
+
+Die Suche in Baumstrukturen stellt eine weitere wichtige Variante der Suchalgorithmen dar. Binäre Suchbäume ermöglichen durch ihre hierarchische Struktur eine besonders effiziente Suche, da in jedem Knoten eine binäre Entscheidung getroffen wird, die den Suchbereich systematisch einschränkt. Diese Baumstrukturen kombinieren die Vorteile der binären Suche mit einer dynamischen Datenorganisation, die Einfüge- und Löschoperationen effizient unterstützt.
 
 ### Sortieralgorithmen
 
+Sortieralgorithmen bilden eine weitere fundamentale Kategorie von Algorithmen, die sich mit der systematischen Anordnung von Datenelementen in einer bestimmten Reihenfolge befassen. Die Bedeutung dieser Algorithmen liegt nicht nur in ihrer direkten Anwendung zur Sortierung von Daten, sondern auch in ihrer Rolle als Grundlage für effizientere Such- und Analyseverfahren. Im Folgenden betrachten wir drei klassische Sortieralgorithmen, die sich in ihrer Herangehensweise und Effizienz deutlich unterscheiden.
+
+#### Bubblesort
+
+Bubblesort ist ein einfacher Sortieralgorithmus, der paarweise benachbarte Elemente vergleicht und bei Bedarf vertauscht. Dieser Prozess wird solange wiederholt, bis keine Vertauschungen mehr notwendig sind und die Liste sortiert ist. Obwohl Bubblesort aufgrund seiner einfachen Implementierung und Verständlichkeit oft zu Lehrzwecken verwendet wird, ist er für große Datenmengen wegen seiner quadratischen Laufzeitkomplexität wenig effizient.
+
+#### Selctionsort
+
+Selectionsort ist ein weiterer elementarer Sortieralgorithmus, der die Liste schrittweise sortiert, indem er wiederholt das kleinste Element im unsortierten Teil der Liste findet und es an die korrekte Position im sortierten Teil verschiebt. Ähnlich wie Bubblesort ist auch dieser Algorithmus konzeptionell einfach zu verstehen, weist jedoch ebenfalls eine quadratische Laufzeitkomplexität auf. Der Vorteil gegenüber Bubblesort liegt in der geringeren Anzahl tatsächlicher Vertauschungsoperationen, da Elemente nur dann verschoben werden, wenn sie tatsächlich an ihre finale Position gebracht werden.
+
+#### Mergesort
+
+Mergesort ist ein effizienter Sortieralgorithmus, der auf dem Divide-and-Conquer-Prinzip basiert. Er teilt die zu sortierende Liste rekursiv in kleinere Teilsequenzen, bis diese nur noch ein Element enthalten, und führt diese dann schrittweise in sortierter Reihenfolge wieder zusammen. Im Gegensatz zu Bubblesort und Selectionsort erreicht Mergesort durch seine rekursive Strategie eine deutlich bessere Laufzeitkomplexität, was ihn besonders für große Datenmengen attraktiv macht.
+
 ### Optimierungsalgorithmen
+
+Optimierungsalgorithmen sind eine wichtige Klasse von Algorithmen, die darauf abzielen, die bestmögliche Lösung für ein gegebenes Problem zu finden. Diese Algorithmen sind besonders relevant in praktischen Anwendungen, wo optimale oder nahezu optimale Lösungen für komplexe Probleme gefunden werden müssen. Typische Beispiele finden sich in der Logistik, der Produktionsplanung oder der Ressourcenallokation. Die verschiedenen Ansätze zur Optimierung unterscheiden sich dabei hauptsächlich in ihrer Herangehensweise und Effizienz.
+
+#### Brute-Force
+
+Der Brute-Force-Ansatz ist die einfachste, aber auch rechenintensivste Methode der Optimierung. Dabei werden systematisch alle möglichen Lösungen durchprobiert, um die beste zu finden. Obwohl dieser Ansatz für kleine Probleme praktikabel sein kann, wird er bei wachsender Problemgröße schnell ineffizient, da die Anzahl der zu prüfenden Kombinationen exponentiell steigt.
+
+#### Random-Sampling
+
+Random-Sampling ist ein stochastischer Optimierungsansatz, der zufällig ausgewählte Lösungen aus dem Suchraum evaluiert. Im Gegensatz zur erschöpfenden Suche des Brute-Force-Verfahrens werden hier nur Stichproben untersucht, was den Rechenaufwand deutlich reduziert. Dieser Ansatz eignet sich besonders für große Suchräume, in denen eine vollständige Enumeration nicht praktikabel ist, kann aber nicht garantieren, das globale Optimum zu finden.
+
+#### Evolutionäre Algorithmen
+
+Evolutionäre Algorithmen\index{Evolutionäre Algorithmen} sind Optimierungsverfahren, die auf den Prinzipien der biologischen Evolution basieren. Sie operieren mit einer Population von Lösungskandidaten und verbessern diese durch drei zentrale Mechanismen: Mutation (zufällige Veränderungen), Rekombination (Kombination erfolgreicher Lösungen) und Selektion (Auswahl der besten Varianten). Der iterative Prozess aus Variation und Auswahl führt schrittweise zu besseren Lösungen.
+
+Diese Algorithmen sind besonders effektiv bei komplexen Optimierungsproblemen, für die keine exakten Lösungsmethoden existieren oder diese zu rechenintensiv wären. Da die Mutation der Lösungskandidaten auf Zufallsprozessen basiert, gehören evolutionäre Algorithmen zur Klasse der stochastischen Verfahren.
+
+#### Bayes’sche Optimierung
+
+Die Bayes'sche Optimierung\index{Bayes’sche Optimierung} ist ein effizienter Ansatz zur Optimierung von komplexen Funktionen, der auf dem Bayes'schen Theorem basiert. Anders als klassische Optimierungsverfahren nutzt dieser Algorithmus probabilistische Modelle, um die Zielfunktion zu approximieren und vielversprechende Bereiche des Suchraums zu identifizieren. Besonders nützlich ist dieser Ansatz bei rechenintensiven Problemen, bei denen jede Auswertung der Zielfunktion zeit- oder kostenaufwendig ist.
+
+### Graphenalgorithmen
 
 #### Dijkstra-Algorithmus
 
-### Graphenalgorithmen
+Der Dijkstra-Algorithmus\index{Dijskstra-Algorithmus}, entwickelt 1956 von Edsger W. Dijkstra, ist ein fundamentaler Algorithmus zur Berechnung kürzester Pfade in gewichteten Graphen. Seine Funktionsweise basiert auf dem Prinzip der schrittweisen Optimierung: Ausgehend von einem Startknoten berechnet er systematisch die kürzesten Wege zu allen anderen Knoten im Graphen. Aufgrund seiner Effizienz und Zuverlässigkeit findet der Algorithmus heute breite praktische Anwendung, insbesondere in der Routenplanung, Netzwerkanalyse und Logistik.
+
+#### Das Traveling Salesman-Problem
+
+Das Traveling Salesman-Problem (TSP)\index{Traveling Salesman-Problem} gehört zu den bekanntesten Optimierungsproblemen der Graphentheorie. Die Aufgabenstellung ist dabei einfach zu verstehen: Ein Handelsreisender muss eine Route planen, die alle vorgegebenen Städte genau einmal besucht und am Ende zum Ausgangspunkt zurückführt. Das Ziel ist es, die kürzeste mögliche Route zu finden. Trotz dieser scheinbar einfachen Formulierung ist das TSP ein NP-schweres Problem - das bedeutet, dass bisher kein Algorithmus gefunden wurde, der für große Städtemengen in angemessener Zeit die optimale Lösung garantiert berechnen kann.
 
 ### Stochastische Algorithmen
 
 #### Annäherung der Kreiszahl $\pi$
 
+Die Monte-Carlo-Methode\index{Monte-Carlo-Methode} ist ein anschauliches Beispiel für stochastische Algorithmen. Sie nutzt Zufallszahlen zur Annäherung mathematischer Werte, wie etwa der Kreiszahl π. Das Verfahren platziert dabei zufällig Punkte in einem Quadrat mit einbeschriebenem Kreis. Das Verhältnis der Punkte innerhalb des Kreises zur Gesamtanzahl der Punkte ermöglicht eine Approximation von π. Ein wichtiges Merkmal dieser stochastischen Methode ist, dass die Genauigkeit der Berechnung mit der Anzahl der generierten Punkte steigt.
+
 ### Maschinelle Lernalgorithmen
 
-Maschinelles Lernen hat sich in den letzten Jahren zu einem der wichtigsten Bereiche der Algorithmenentwicklung entwickelt. Diese Algorithmenklasse bildet die technische Grundlage für viele praktische Anwendungen der Künstlichen Intelligenz (KI). Maschinelle Lernalgorithmen zeichnen sich dadurch aus, dass sie aus vorhandenen Daten Muster erkennen und auf dieser Basis Vorhersagen oder Entscheidungen treffen können.
+Maschinelles Lernen\index{Maschinelles Lernen} hat sich in den letzten Jahren zu einem der wichtigsten Bereiche der Algorithmenentwicklung entwickelt. Diese Algorithmenklasse bildet die technische Grundlage für viele praktische Anwendungen der Künstlichen Intelligenz (KI). Maschinelle Lernalgorithmen zeichnen sich dadurch aus, dass sie aus vorhandenen Daten Muster erkennen und auf dieser Basis Vorhersagen oder Entscheidungen treffen können.
 
 ## Welche wichtigen algorithmischen Denkmuster gibt es?
 
@@ -133,9 +264,45 @@ Verzweigungen stellen eine grundlegende Form der nicht-linearen Ausführung eine
 
 ### Iterationen
 
+Ein Beispiel für ein iteratives, schrittweise Vorgehen ist das Babylonische Wurzelziehen aus @#sec-babylonian.
+
 ### Kapselung
 
+Kapselung beschreibt das Prinzip, komplexe Algorithmen in kleinere, überschaubare Einheiten zu zerlegen. Diese Modularisierung erhöht nicht nur die Lesbarkeit und Wartbarkeit des Algorithmus, sondern ermöglicht auch die Wiederverwendung von Teilfunktionen in anderen Kontexten. Ein klassisches Beispiel ist die Auslagerung häufig benötigter Berechnungen in separate Funktionen, die dann an verschiedenen Stellen aufgerufen werden können.
+
 ### Rekursion
+
+Rekursion ist ein mächtiges algorithmisches Konzept, bei dem sich ein Algorithmus selbst aufruft, um ein Problem zu lösen. Dieses Prinzip eignet sich besonders gut für Probleme, die sich in kleinere, gleichartige Teilprobleme zerlegen lassen. Ein klassisches Beispiel ist die Berechnung der Fakultät einer Zahl, bei der sich die Lösung aus der Multiplikation mit der Fakultät der nächstkleineren Zahl ergibt. Aber auch die binäre Suche kann rekursiv implementiert werden, indem der Algorithmus den zu durchsuchenden Bereich in der Mitte teilt und sich selbst mit der relevanten Hälfte aufruft. Diese rekursive Struktur macht den Algorithmus nicht nur elegant, sondern auch besonders effizient.
+
+## Was sind Herausforderungen bei der Fomulierung von Algorithmen?
+
+### Haltekriterium {#sec-algo-halt}
+
+Ein wichtiges Kriterium bei der Formulierung von Algorithmen ist die Bestimmung eines geeigneten Haltekriteriums. Das Haltekriterium definiert die Bedingung, unter der ein Algorithmus seine Ausführung beendet und ein Ergebnis zurückliefert. Beim Babylonischen Wurzelziehen beispielsweise ist das Haltekriterium erreicht, wenn die Differenz zwischen zwei aufeinanderfolgenden Näherungswerten einen bestimmten Schwellenwert unterschreitet.
+
+Die Bestimmung eines geeigneten Haltekriteriums stellt für manche Algorithmen eine besondere Herausforderung dar. Dies zeigt sich besonders deutlich bei Optimierungsalgorithmen, wo die Frage nach dem optimalen Zeitpunkt für die Beendigung des Algorithmus nicht trivial ist. Da das theoretische Optimum in der Regel unbekannt ist, lässt sich schwer einschätzen, wie nah die aktuelle Lösung bereits am bestmöglichen Ergebnis liegt. Eine pragmatische Lösung für dieses Problem besteht in der Festlegung eines Optimierungsbudgets, das die maximale Anzahl der Durchläufe definiert, die der Algorithmus ausführen darf.
+
+### Endlosschleifen {#sec-algo-infinity}
+
+Endlosschleifen stellen eine kritische Herausforderung bei der Entwicklung von Algorithmen dar. Sie entstehen, wenn ein Algorithmus das definierte Haltekriterium nie erreicht und stattdessen kontinuierlich dieselben Anweisungen wiederholt. Ein typisches Beispiel ist eine While-Schleife, deren Bedingung permanent wahr bleibt - der Algorithmus verbleibt dann in einem unendlichen Ausführungszyklus. Ohne geeignete Fehlerbehandlung führt dies meist zu einem Programmabsturz, da Systemressourcen wie Arbeitsspeicher oder Prozessorzeit erschöpft werden.
+
+### Beurteilung des Ergebnisses
+
+Die Beurteilung der Qualität eines algorithmischen Ergebnisses ist nicht immer eindeutig und hängt stark vom jeweiligen Anwendungsfall ab. Bei numerischen Berechnungen lässt sich die Genauigkeit oft durch den Vergleich mit bekannten Referenzwerten oder theoretischen Grenzen bestimmen. Bei Optimierungsproblemen hingegen ist die Bewertung komplexer, da das theoretische Optimum häufig unbekannt ist und die Qualität der Lösung von verschiedenen, teils konkurrierenden Kriterien abhängt.
+
+### Erklärbarkeit des Ergebnisses
+
+Die Erklärbarkeit algorithmischer Entscheidungen spielt eine zentrale Rolle in der modernen Informatik, besonders in kritischen Bereichen wie der Medizin oder Rechtsprechung. Dabei stellt die mangelnde Transparenz komplexer Algorithmen eine fundamentale Herausforderung dar: Der Prozess von der Eingabe bis zur Entscheidungsfindung ist oft nicht direkt nachvollziehbar. Dieses Problem manifestiert sich besonders deutlich bei Deep Learning Modellen, deren mehrschichtige Strukturen und komplexe Berechnungen eine intuitive Interpretation der Entscheidungswege erschweren. Die Entwicklung von Methoden zur besseren Erklärbarkeit dieser "Black Box"-Systeme ist daher ein aktives Forschungsfeld, das darauf abzielt, die Akzeptanz und Vertrauenswürdigkeit algorithmischer Entscheidungen zu erhöhen.
+
+## Gibt es bessere und schlechtere Algorithmen?
+
+### Komplexität
+
+Die Komplexität eines Algorithmus beschreibt, wie sich sein Ressourcenbedarf (meist Zeit und Speicher) in Abhängigkeit von der Eingabegröße entwickelt. Diese mathematische Charakterisierung ermöglicht einen objektiven Vergleich verschiedener algorithmischer Lösungen für dasselbe Problem. Besonders wichtig ist dabei die asymptotische Komplexität, die das Verhalten des Algorithmus für große Eingabemengen beschreibt.
+
+### Verständlichkeit
+
+Die Verständlichkeit eines Algorithmus ist ein weiteres wichtiges Qualitätsmerkmal. Ein gut strukturierter und dokumentierter Algorithmus erleichtert nicht nur die Wartung und Weiterentwicklung, sondern reduziert auch die Wahrscheinlichkeit von Fehlern bei der Implementierung. Dabei spielt die Wahl aussagekräftiger Bezeichner und eine klare Dokumentation der einzelnen Schritte eine zentrale Rolle.
 
 \newpage
 

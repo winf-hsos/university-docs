@@ -406,6 +406,18 @@ window.Quarto = {
   <li><a href="#kapselung" id="toc-kapselung" class="nav-link" data-scroll-target="#kapselung"><span class="header-section-number">2.4.4</span> Kapselung</a></li>
   <li><a href="#rekursion" id="toc-rekursion" class="nav-link" data-scroll-target="#rekursion"><span class="header-section-number">2.4.5</span> Rekursion</a></li>
   </ul></li>
+  <li><a href="#was-sind-herausforderungen-bei-der-fomulierung-von-algorithmen" id="toc-was-sind-herausforderungen-bei-der-fomulierung-von-algorithmen" class="nav-link" data-scroll-target="#was-sind-herausforderungen-bei-der-fomulierung-von-algorithmen"><span class="header-section-number">2.5</span> Was sind Herausforderungen bei der Fomulierung von Algorithmen?</a>
+  <ul class="collapse">
+  <li><a href="#sec-algo-halt" id="toc-sec-algo-halt" class="nav-link" data-scroll-target="#sec-algo-halt"><span class="header-section-number">2.5.1</span> Haltekriterium</a></li>
+  <li><a href="#sec-algo-infinity" id="toc-sec-algo-infinity" class="nav-link" data-scroll-target="#sec-algo-infinity"><span class="header-section-number">2.5.2</span> Endlosschleifen</a></li>
+  <li><a href="#beurteilung-des-ergebnisses" id="toc-beurteilung-des-ergebnisses" class="nav-link" data-scroll-target="#beurteilung-des-ergebnisses"><span class="header-section-number">2.5.3</span> Beurteilung des Ergebnisses</a></li>
+  <li><a href="#erklärbarkeit-des-ergebnisses" id="toc-erklärbarkeit-des-ergebnisses" class="nav-link" data-scroll-target="#erklärbarkeit-des-ergebnisses"><span class="header-section-number">2.5.4</span> Erklärbarkeit des Ergebnisses</a></li>
+  </ul></li>
+  <li><a href="#gibt-es-bessere-und-schlechtere-algorithmen" id="toc-gibt-es-bessere-und-schlechtere-algorithmen" class="nav-link" data-scroll-target="#gibt-es-bessere-und-schlechtere-algorithmen"><span class="header-section-number">2.6</span> Gibt es bessere und schlechtere Algorithmen?</a>
+  <ul class="collapse">
+  <li><a href="#komplexität" id="toc-komplexität" class="nav-link" data-scroll-target="#komplexität"><span class="header-section-number">2.6.1</span> Komplexität</a></li>
+  <li><a href="#verständlichkeit" id="toc-verständlichkeit" class="nav-link" data-scroll-target="#verständlichkeit"><span class="header-section-number">2.6.2</span> Verständlichkeit</a></li>
+  </ul></li>
   <li><a href="#übungsaufgaben" id="toc-übungsaufgaben" class="nav-link" data-scroll-target="#übungsaufgaben">Übungsaufgaben</a></li>
   </ul>
 </nav>
@@ -478,10 +490,41 @@ window.Quarto = {
 <h3 data-number="2.2.2" class="anchored" data-anchor-id="pseudocode"><span class="header-section-number">2.2.2</span> Pseudocode</h3>
 <p>Pseudocode ist eine strukturierte, programmiersprachenähnliche Notation zur Beschreibung von Algorithmen. Er kombiniert Elemente der natürlichen Sprache mit grundlegenden Programmierkonzepten wie Schleifen, Bedingungen und Funktionen. Der Vorteil des Pseudocodes liegt in seiner Präzision und Klarheit, ohne dabei an die strengen syntaktischen Regeln einer echten Programmiersprache gebunden zu sein.</p>
 <p>Ein wichtiges Merkmal des Pseudocodes ist seine Flexibilität: Er kann je nach Bedarf formeller oder informeller gestaltet werden, solange die grundlegende Logik und Struktur des Algorithmus klar erkennbar bleiben. Dabei werden häufig standardisierte Schlüsselwörter wie “IF”, “THEN”, “WHILE” oder “REPEAT” verwendet, die die algorithmische Struktur verdeutlichen.</p>
+<div id="fig-pseudocode-gcd" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pseudocode-gcd-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_pseudocode_example.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;2.1: Der Euklid’sche Algorithmus als Pseudocode."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_pseudocode_example.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pseudocode-gcd-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.1: Der Euklid’sche Algorithmus als Pseudocode.
+</figcaption>
+</figure>
+</div>
 </section>
 <section id="flussdiagramme" class="level3" data-number="2.2.3">
 <h3 data-number="2.2.3" class="anchored" data-anchor-id="flussdiagramme"><span class="header-section-number">2.2.3</span> Flussdiagramme</h3>
-<p>Flussdiagramme bieten eine visuelle Darstellung von Algorithmen durch standardisierte grafische Symbole und Verbindungslinien. Diese Notation ist besonders hilfreich, um den Ablauf eines Algorithmus und die logischen Verzweigungen auf einen Blick zu erfassen. Die wichtigsten Elemente eines Flussdiagramms sind Start- und Endpunkte, Prozessschritte (dargestellt durch Rechtecke), Entscheidungen (dargestellt durch Rauten) und Verbindungspfeile, die den Kontrollfluss anzeigen.</p>
+<p>Flussdiagramme bieten eine visuelle Darstellung von Algorithmen durch standardisierte grafische Symbole und Verbindungslinien. Diese Notation ist besonders hilfreich, um den Ablauf eines Algorithmus und die logischen Verzweigungen auf einen Blick zu erfassen. <a href="#fig-flow-diagram-notation" class="quarto-xref">Abbildung&nbsp;<span>2.2</span></a> zeigt die wichtigsten Elemente eines Flussdiagramms: Start- und Endpunkte, Ein- und Ausgaben (Parallelogramm), Anweisungen (Rechteck), Entscheidungen (Rauten), Wiederholungen (Sechseck).</p>
+<div id="fig-flow-diagram-notation" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-flow-diagram-notation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_notation.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Abbildung&nbsp;2.2: Die Notationselemente des Flussdiagramms."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_notation.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-flow-diagram-notation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.2: Die Notationselemente des Flussdiagramms.
+</figcaption>
+</figure>
+</div>
+<p>Dazu kommen Verbindungspfeile, die den Kontrollfluss anzeigen, diese sind im Beispiel in <a href="#fig-euclid-flow" class="quarto-xref">Abbildung&nbsp;<span>2.3</span></a> zu sehen.</p>
+<div id="fig-euclid-flow" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-euclid-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_gcd.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Abbildung&nbsp;2.3: Der Euklid’sche Algorithmus als Flussdiagramm."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_gcd.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-euclid-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.3: Der Euklid’sche Algorithmus als Flussdiagramm.
+</figcaption>
+</figure>
+</div>
 </section>
 </section>
 <section id="welche-arten-von-algorithmen-gibt-es" class="level2" data-number="2.3">
@@ -506,59 +549,194 @@ window.Quarto = {
 <div id="fig-euclid-algo" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-euclid-algo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_textual.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;2.1: Vorgehen des Algorithmus nach Euklid."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_textual.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_textual.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Abbildung&nbsp;2.4: Vorgehen des Algorithmus nach Euklid."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_textual.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-euclid-algo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;2.1: Vorgehen des Algorithmus nach Euklid.
+Abbildung&nbsp;2.4: Vorgehen des Algorithmus nach Euklid.
 </figcaption>
 </figure>
 </div>
-<p>Das Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen (<a href="#fig-euclid-algo" class="quarto-xref">Abbildung&nbsp;<span>2.1</span></a>). Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen.</p>
-<p><a href="#fig-euclidean-example" class="quarto-xref">Abbildung&nbsp;<span>2.2</span></a> zeigt die Schritte des Euklidschen Algorithmus für das obige Zahlenbeispiel.</p>
+<p>Das Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen (<a href="#fig-euclid-algo" class="quarto-xref">Abbildung&nbsp;<span>2.4</span></a>). Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen.</p>
+<p><a href="#fig-euclidean-example" class="quarto-xref">Abbildung&nbsp;<span>2.5</span></a> zeigt die Schritte des Euklidschen Algorithmus für das obige Zahlenbeispiel.</p>
 <div id="fig-euclidean-example" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-euclidean-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_example.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Abbildung&nbsp;2.2: Beispiel für die Anwendung des Algorithmus nach Euklid."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_example.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_example.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Abbildung&nbsp;2.5: Beispiel für die Anwendung des Algorithmus nach Euklid."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_example.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-euclidean-example-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;2.2: Beispiel für die Anwendung des Algorithmus nach Euklid.
+Abbildung&nbsp;2.5: Beispiel für die Anwendung des Algorithmus nach Euklid.
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="babylonisches-wurzelziehen" class="level4" data-number="2.3.1.2">
-<h4 data-number="2.3.1.2" class="anchored" data-anchor-id="babylonisches-wurzelziehen"><span class="header-section-number">2.3.1.2</span> Babylonisches Wurzelziehen</h4>
-<p>Das Babylonische Verfahren zur Berechnung der Quadratwurzel ist ein weiteres Beispiel für einen mathematischen Algorithmus. Während der Euklid’sche Algorithmus exakte Ergebnisse liefert, zeigt das Babylonische Verfahren eine andere wichtige Eigenschaft mathematischer Algorithmen: die schrittweise Annäherung an einen Zielwert. Der Algorithmus <em>approximiert</em> die Quadratwurzel durch wiederholte Verfeinerung der Schätzung und <em>konvergiert</em> dabei gegen den tatsächlichen Wert. Diese Methode demonstriert, wie auch ohne exakte Berechnung präzise Ergebnisse erzielt werden können.</p>
+<section id="sec-babylonian" class="level4" data-number="2.3.1.2">
+<h4 data-number="2.3.1.2" class="anchored" data-anchor-id="sec-babylonian"><span class="header-section-number">2.3.1.2</span> Babylonisches Wurzelziehen</h4>
+<p>Das Babylonische Verfahren zur Berechnung der Quadratwurzel ist ein weiteres Beispiel für einen mathematischen Algorithmus. Während der Euklid’sche Algorithmus exakte Ergebnisse liefert, zeigt das Babylonische Verfahren eine andere wichtige Eigenschaft mathematischer Algorithmen: <strong>die schrittweise Annäherung an einen Zielwert</strong>. Der Algorithmus <em>approximiert</em> die Quadratwurzel durch wiederholte Verfeinerung der Schätzung und <em>konvergiert</em> dabei gegen den tatsächlichen Wert. Diese Methode demonstriert, wie auch ohne exakte Berechnung präzise Ergebnisse erzielt werden können.</p>
+<p>Ein anschauliches Beispiel für das Babylonische Verfahren ist in <a href="#fig-babylonian-1" class="quarto-xref">Abbildung&nbsp;<span>2.6</span></a> dargestellt. Der Algorithmus berechnet die Quadratwurzel einer Eingabezahl durch geometrische Annäherung: Wenn wir die Eingabezahl <span class="math inline">\(x\)</span> als Flächeninhalt eines Rechtecks interpretieren, suchen wir die Seitenlängen eines Quadrats mit der gleichen Fläche.</p>
+<p>Das Verfahren nähert sich diesem Wert schrittweise an, indem es die Seitenlängen <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> eines Rechtecks iterativ anpasst. Nehmen wir an, wir wollen die Quadratwurzel aus <span class="math inline">\(x = 16\)</span> ziehen. Zu Beginn setzen wir <span class="math inline">\(A = 1\)</span> und berechnen <span class="math inline">\(B\)</span> so, dass das Produkt der Seitenlängen die gesuchte Fläche ergibt: <span class="math inline">\(B = \frac{x}{A} = 16\)</span>. Dieser Ausgangszustand ist in <a href="#fig-babylonian-1" class="quarto-xref">Abbildung&nbsp;<span>2.6</span></a> dargestellt.</p>
+<div id="fig-babylonian-1" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-babylonian-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Abbildung&nbsp;2.6: Ausgangszustand im Babylonischen Wurzelziehen."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-babylonian-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.6: Ausgangszustand im Babylonischen Wurzelziehen.
+</figcaption>
+</figure>
+</div>
+<p>Nach der Festlegung der Startwerte beginnt der eigentliche iterative Prozess der Annäherung. In jedem Durchlauf werden die Werte für <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> nach spezifischen Formeln neu berechnet, wodurch sie sich schrittweise einander annähern:</p>
+<p><span class="math display">\[
+A = \frac{A+B}{2}
+\]</span></p>
+<p>Und damit die Gesamtfläche der gesuchten Zahl <span class="math inline">\(x\)</span> entspricht, setzen wir <span class="math inline">\(B\)</span> wie folgt:</p>
+<p><span class="math display">\[
+B= \frac{x}{A}
+\]</span></p>
+<p>Wenden wir diese Formeln auf unsere Ausgangswerte an, ergibt sich für den zweiten Iterationsschritt das in <a href="#fig-babylonian-2" class="quarto-xref">Abbildung&nbsp;<span>2.7</span></a> visualisierte Rechteck. Hier berechnen wir zunächst die neue Länge A:</p>
+<p><span class="math display">\[
+A = \frac{1 + 16}{2} = 8.5
+\]</span></p>
+<p>Und daraus folgt für B:</p>
+<p><span class="math display">\[
+B = \frac{16}{8.5} \approx 1.88
+\]</span></p>
+<div id="fig-babylonian-2" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-babylonian-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Abbildung&nbsp;2.7: Zustand des Babylonischen Verfahrens nach dem ersten Schritt."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-babylonian-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.7: Zustand des Babylonischen Verfahrens nach dem ersten Schritt.
+</figcaption>
+</figure>
+</div>
+<p>Verglichen mit dem Ausgangszustand haben sich die Werte <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> bereits angenähert, aber sie weichen noch deutlich voneinander ab. Um eine bessere Approximation zu erreichen, führen wir eine weitere Iteration durch und berechnen die neuen Werte für <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> nach dem etablierten Schema:</p>
+<p><span class="math display">\[
+A = \frac{8.5 + 1.88}{2} \approx 5.19
+\]</span></p>
+<p>Und für die andere Kante:</p>
+<p><span class="math display">\[
+B = \frac{16}{5.19} \approx 3.08
+\]</span></p>
+<div id="fig-babylonian-3" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-babylonian-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Abbildung&nbsp;2.8: Zustand des Babylonischen Verfahrens nach dem zweiten Schritt."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-babylonian-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.8: Zustand des Babylonischen Verfahrens nach dem zweiten Schritt.
+</figcaption>
+</figure>
+</div>
+<p>Die Werte haben sich weiter angenähert. Da wir wissen, dass beide Kanten am Ende die Länge 4 haben sollen, ist eine weitere Iteration erforderlich. Nach der dritten Berechnung, wie in <span class="quarto-unresolved-ref">?fig-babyolonian-4</span> dargestellt, nähern sich beide Kanten bereits sehr präzise dem Zielwert von 4 an.</p>
+<div id="fig-babylonian-4" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-babylonian-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Abbildung&nbsp;2.9: Zustand des Babylonischen Verfahrens nach dem dritten Schritt."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_4.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-babylonian-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.9: Zustand des Babylonischen Verfahrens nach dem dritten Schritt.
+</figcaption>
+</figure>
+</div>
+<p>Nach einer weiteren Iteration konvergiert der Algorithmus zum gesuchten Wert: Beide Seiten <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> erreichen durch Rundung den Wert 4. Damit haben wir das gesuchte Quadrat erfolgreich konstruiert, und der Algorithmus kann beendet werden.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_5.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a></p>
+</figure>
+</div>
+<p>In diesem Beispiel konvergiert der Algorithmus bereits nach wenigen Iterationen zum korrekten Ergebnis. Die Geschwindigkeit der Konvergenz hängt jedoch von zwei wesentlichen Faktoren ab:</p>
+<ol type="1">
+<li>Der Eingabezahl, aus der die Wurzel gezogen werden soll</li>
+<li>Der Wahl der Startwerte für <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span></li>
+</ol>
+<p>Je nach Konstellation dieser Faktoren kann die Annäherung deutlich mehr Iterationen benötigen. Zudem erreichen die beiden Seiten in vielen Fällen keine exakte Gleichheit, sondern nähern sich lediglich bis auf eine beliebig kleine Differenz an. Dies wirft eine wichtige praktische Frage auf: Wann ist die Approximation der Quadratwurzel präzise genug, um den Algorithmus zu beenden? Dazu später in <a href="#sec-algo-halt" class="quarto-xref"><span>Kapitel 2.5.1</span></a> mehr.</p>
+<p>Ein pragmatisches Abbruchkriterium für das Babylonische Verfahren ist das Erreichen einer vordefinierten Genauigkeit. Nach jedem Iterationsschritt wird die Differenz zwischen den Werten <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> berechnet. Ist diese Differenz kleiner als ein festgelegter Schwellenwert, wird der Algorithmus beendet. Der vollständige Ablauf des Verfahrens ist in <a href="#fig-babylonian-flow" class="quarto-xref">Abbildung&nbsp;<span>2.10</span></a> dargestellt.</p>
+<div id="fig-babylonian-flow" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-babylonian-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_babylonian.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Abbildung&nbsp;2.10: Das Babylonische Verfahren als Flussdiagramm."><img src="https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_babylonian.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-babylonian-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.10: Das Babylonische Verfahren als Flussdiagramm.
+</figcaption>
+</figure>
+</div>
+<p>Das Flussdiagramm beginnt auf der linken Seite mit einer Eingabeprüfung: Die Zahl <span class="math inline">\(x\)</span> wird eingelesen und auf Positivität getestet, da die Quadratwurzel aus negativen Zahlen nicht definiert ist. Eine Verzweigung überprüft die Bedingung <span class="math inline">\(x &gt; 0\)</span> und leitet den Algorithmus entsprechend weiter. Bei positiver Eingabe werden die Startwerte für <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> initialisiert. Anschließend beginnt eine WHILE-Schleife, die solange durchlaufen wird, bis die Differenz zwischen <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> einen definierten Schwellenwert unterschreitet. Nach erfolgreicher Konvergenz wird der finale Wert von <span class="math inline">\(A\)</span> als Ergebnis ausgegeben.</p>
+<p>Eine weitere wichtige Frage bei der Entwicklung von Algorithmen betrifft deren Terminierung: Wir müssen nicht nur festlegen, wann ein Algorithmus beendet werden soll, sondern auch sicherstellen, dass er überhaupt ein Ende erreicht. Am Beispiel des Babylonischen Verfahrens lässt sich dies gut veranschaulichen: Die entscheidende Frage ist, ob die Werte <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> tatsächlich konvergieren, also sich einander systematisch annähern.</p>
+<p>In diesem Fall können wir die Frage positiv beantworten. Die Berechnungsformel, die in jedem Schritt den neuen Wert für <span class="math inline">\(A\)</span> als Durchschnitt aus <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> bestimmt, garantiert eine stetige Annäherung der beiden Werte. Diese mathematische Eigenschaft sichert die Terminierung des Algorithmus. Bei anderen Algorithmen muss die Terminierung jedoch sorgfältig analysiert werden, um unendliche Ausführungen zu vermeiden. Mehr dazu in <a href="#sec-algo-infinity" class="quarto-xref"><span>Kapitel 2.5.2</span></a>.</p>
 </section>
 </section>
 <section id="suchalgorithmen" class="level3" data-number="2.3.2">
 <h3 data-number="2.3.2" class="anchored" data-anchor-id="suchalgorithmen"><span class="header-section-number">2.3.2</span> Suchalgorithmen</h3>
+<p>Nach der Betrachtung mathematischer Algorithmen wenden wir uns nun den Suchalgorithmen zu - einer fundamentalen Kategorie von Algorithmen, die ein essentielles Element der Informatikausbildung darstellt. Diese Algorithmen bilden die Grundlage für effiziente Datenzugriffe und sind damit von großer praktischer Bedeutung.</p>
 <section id="lineare-suche" class="level4" data-number="2.3.2.1">
 <h4 data-number="2.3.2.1" class="anchored" data-anchor-id="lineare-suche"><span class="header-section-number">2.3.2.1</span> Lineare Suche</h4>
+<p>Die lineare Suche ist der einfachste Suchalgorithmus und folgt einem intuitiven Ansatz: Sie durchläuft eine Liste sequentiell von Anfang bis Ende, bis das gesuchte Element gefunden wird. Obwohl dieser Algorithmus konzeptionell sehr einfach ist, hat er den Nachteil einer relativ hohen Laufzeit, da im schlechtesten Fall die gesamte Liste durchsucht werden muss. Dennoch ist die lineare Suche für unsortierte Listen oder kleine Datenmengen eine praktikable Lösung.</p>
 </section>
 <section id="binäre-suche" class="level4" data-number="2.3.2.2">
 <h4 data-number="2.3.2.2" class="anchored" data-anchor-id="binäre-suche"><span class="header-section-number">2.3.2.2</span> Binäre Suche</h4>
+<p>Die binäre Suche ist ein hocheffizienter Algorithmus, der auf dem “Teile und Herrsche”-Prinzip (Divide &amp; Conquer) basiert. Eine wichtige Voraussetzung für ihre Anwendung ist, dass die zu durchsuchende Liste sortiert vorliegt. Der Algorithmus arbeitet systematisch, indem er in jedem Schritt die Liste in der Mitte teilt und anhand eines Vergleichs entscheidet, ob sich das gesuchte Element im linken oder rechten Teilbereich befindet. Durch diese Halbierung des Suchbereichs in jedem Schritt erreicht die binäre Suche eine bemerkenswerte Effizienz.</p>
+<p>Diese Strategie, die wir bereits im vorigen Kapitel unter <a href="problem-solving.html#sec-divide-and-conquer" class="quarto-xref"><span>Kapitel 1.4.2</span></a> als <em>Divide-and- Conquer</em>-Ansatz kennengelernt haben, ermöglicht es der binären Suche, selbst in großen Datensätzen ein gesuchtes Element mit minimaler Anzahl von Vergleichsoperationen zu finden.</p>
 </section>
 <section id="suche-in-bäumen" class="level4" data-number="2.3.2.3">
 <h4 data-number="2.3.2.3" class="anchored" data-anchor-id="suche-in-bäumen"><span class="header-section-number">2.3.2.3</span> Suche in Bäumen</h4>
+<p>Die Suche in Baumstrukturen stellt eine weitere wichtige Variante der Suchalgorithmen dar. Binäre Suchbäume ermöglichen durch ihre hierarchische Struktur eine besonders effiziente Suche, da in jedem Knoten eine binäre Entscheidung getroffen wird, die den Suchbereich systematisch einschränkt. Diese Baumstrukturen kombinieren die Vorteile der binären Suche mit einer dynamischen Datenorganisation, die Einfüge- und Löschoperationen effizient unterstützt.</p>
 </section>
 </section>
 <section id="sortieralgorithmen" class="level3" data-number="2.3.3">
 <h3 data-number="2.3.3" class="anchored" data-anchor-id="sortieralgorithmen"><span class="header-section-number">2.3.3</span> Sortieralgorithmen</h3>
+<p>Sortieralgorithmen bilden eine weitere fundamentale Kategorie von Algorithmen, die sich mit der systematischen Anordnung von Datenelementen in einer bestimmten Reihenfolge befassen. Die Bedeutung dieser Algorithmen liegt nicht nur in ihrer direkten Anwendung zur Sortierung von Daten, sondern auch in ihrer Rolle als Grundlage für effizientere Such- und Analyseverfahren. Im Folgenden betrachten wir drei klassische Sortieralgorithmen, die sich in ihrer Herangehensweise und Effizienz deutlich unterscheiden.</p>
+<section id="bubblesort" class="level4" data-number="2.3.3.1">
+<h4 data-number="2.3.3.1" class="anchored" data-anchor-id="bubblesort"><span class="header-section-number">2.3.3.1</span> Bubblesort</h4>
+<p>Bubblesort ist ein einfacher Sortieralgorithmus, der paarweise benachbarte Elemente vergleicht und bei Bedarf vertauscht. Dieser Prozess wird solange wiederholt, bis keine Vertauschungen mehr notwendig sind und die Liste sortiert ist. Obwohl Bubblesort aufgrund seiner einfachen Implementierung und Verständlichkeit oft zu Lehrzwecken verwendet wird, ist er für große Datenmengen wegen seiner quadratischen Laufzeitkomplexität wenig effizient.</p>
+</section>
+<section id="selctionsort" class="level4" data-number="2.3.3.2">
+<h4 data-number="2.3.3.2" class="anchored" data-anchor-id="selctionsort"><span class="header-section-number">2.3.3.2</span> Selctionsort</h4>
+<p>Selectionsort ist ein weiterer elementarer Sortieralgorithmus, der die Liste schrittweise sortiert, indem er wiederholt das kleinste Element im unsortierten Teil der Liste findet und es an die korrekte Position im sortierten Teil verschiebt. Ähnlich wie Bubblesort ist auch dieser Algorithmus konzeptionell einfach zu verstehen, weist jedoch ebenfalls eine quadratische Laufzeitkomplexität auf. Der Vorteil gegenüber Bubblesort liegt in der geringeren Anzahl tatsächlicher Vertauschungsoperationen, da Elemente nur dann verschoben werden, wenn sie tatsächlich an ihre finale Position gebracht werden.</p>
+</section>
+<section id="mergesort" class="level4" data-number="2.3.3.3">
+<h4 data-number="2.3.3.3" class="anchored" data-anchor-id="mergesort"><span class="header-section-number">2.3.3.3</span> Mergesort</h4>
+<p>Mergesort ist ein effizienter Sortieralgorithmus, der auf dem Divide-and-Conquer-Prinzip basiert. Er teilt die zu sortierende Liste rekursiv in kleinere Teilsequenzen, bis diese nur noch ein Element enthalten, und führt diese dann schrittweise in sortierter Reihenfolge wieder zusammen. Im Gegensatz zu Bubblesort und Selectionsort erreicht Mergesort durch seine rekursive Strategie eine deutlich bessere Laufzeitkomplexität, was ihn besonders für große Datenmengen attraktiv macht.</p>
+</section>
 </section>
 <section id="optimierungsalgorithmen" class="level3" data-number="2.3.4">
 <h3 data-number="2.3.4" class="anchored" data-anchor-id="optimierungsalgorithmen"><span class="header-section-number">2.3.4</span> Optimierungsalgorithmen</h3>
-<section id="dijkstra-algorithmus" class="level4" data-number="2.3.4.1">
-<h4 data-number="2.3.4.1" class="anchored" data-anchor-id="dijkstra-algorithmus"><span class="header-section-number">2.3.4.1</span> Dijkstra-Algorithmus</h4>
+<p>Optimierungsalgorithmen sind eine wichtige Klasse von Algorithmen, die darauf abzielen, die bestmögliche Lösung für ein gegebenes Problem zu finden. Diese Algorithmen sind besonders relevant in praktischen Anwendungen, wo optimale oder nahezu optimale Lösungen für komplexe Probleme gefunden werden müssen. Typische Beispiele finden sich in der Logistik, der Produktionsplanung oder der Ressourcenallokation. Die verschiedenen Ansätze zur Optimierung unterscheiden sich dabei hauptsächlich in ihrer Herangehensweise und Effizienz.</p>
+<section id="brute-force" class="level4" data-number="2.3.4.1">
+<h4 data-number="2.3.4.1" class="anchored" data-anchor-id="brute-force"><span class="header-section-number">2.3.4.1</span> Brute-Force</h4>
+<p>Der Brute-Force-Ansatz ist die einfachste, aber auch rechenintensivste Methode der Optimierung. Dabei werden systematisch alle möglichen Lösungen durchprobiert, um die beste zu finden. Obwohl dieser Ansatz für kleine Probleme praktikabel sein kann, wird er bei wachsender Problemgröße schnell ineffizient, da die Anzahl der zu prüfenden Kombinationen exponentiell steigt.</p>
+</section>
+<section id="random-sampling" class="level4" data-number="2.3.4.2">
+<h4 data-number="2.3.4.2" class="anchored" data-anchor-id="random-sampling"><span class="header-section-number">2.3.4.2</span> Random-Sampling</h4>
+<p>Random-Sampling ist ein stochastischer Optimierungsansatz, der zufällig ausgewählte Lösungen aus dem Suchraum evaluiert. Im Gegensatz zur erschöpfenden Suche des Brute-Force-Verfahrens werden hier nur Stichproben untersucht, was den Rechenaufwand deutlich reduziert. Dieser Ansatz eignet sich besonders für große Suchräume, in denen eine vollständige Enumeration nicht praktikabel ist, kann aber nicht garantieren, das globale Optimum zu finden.</p>
+</section>
+<section id="evolutionäre-algorithmen" class="level4" data-number="2.3.4.3">
+<h4 data-number="2.3.4.3" class="anchored" data-anchor-id="evolutionäre-algorithmen"><span class="header-section-number">2.3.4.3</span> Evolutionäre Algorithmen</h4>
+<p>Evolutionäre Algorithmen sind Optimierungsverfahren, die auf den Prinzipien der biologischen Evolution basieren. Sie operieren mit einer Population von Lösungskandidaten und verbessern diese durch drei zentrale Mechanismen: Mutation (zufällige Veränderungen), Rekombination (Kombination erfolgreicher Lösungen) und Selektion (Auswahl der besten Varianten). Der iterative Prozess aus Variation und Auswahl führt schrittweise zu besseren Lösungen.</p>
+<p>Diese Algorithmen sind besonders effektiv bei komplexen Optimierungsproblemen, für die keine exakten Lösungsmethoden existieren oder diese zu rechenintensiv wären. Da die Mutation der Lösungskandidaten auf Zufallsprozessen basiert, gehören evolutionäre Algorithmen zur Klasse der stochastischen Verfahren.</p>
+</section>
+<section id="bayessche-optimierung" class="level4" data-number="2.3.4.4">
+<h4 data-number="2.3.4.4" class="anchored" data-anchor-id="bayessche-optimierung"><span class="header-section-number">2.3.4.4</span> Bayes’sche Optimierung</h4>
+<p>Die Bayes’sche Optimierung ist ein effizienter Ansatz zur Optimierung von komplexen Funktionen, der auf dem Bayes’schen Theorem basiert. Anders als klassische Optimierungsverfahren nutzt dieser Algorithmus probabilistische Modelle, um die Zielfunktion zu approximieren und vielversprechende Bereiche des Suchraums zu identifizieren. Besonders nützlich ist dieser Ansatz bei rechenintensiven Problemen, bei denen jede Auswertung der Zielfunktion zeit- oder kostenaufwendig ist.</p>
 </section>
 </section>
 <section id="graphenalgorithmen" class="level3" data-number="2.3.5">
 <h3 data-number="2.3.5" class="anchored" data-anchor-id="graphenalgorithmen"><span class="header-section-number">2.3.5</span> Graphenalgorithmen</h3>
+<section id="dijkstra-algorithmus" class="level4" data-number="2.3.5.1">
+<h4 data-number="2.3.5.1" class="anchored" data-anchor-id="dijkstra-algorithmus"><span class="header-section-number">2.3.5.1</span> Dijkstra-Algorithmus</h4>
+<p>Der Dijkstra-Algorithmus, entwickelt 1956 von Edsger W. Dijkstra, ist ein fundamentaler Algorithmus zur Berechnung kürzester Pfade in gewichteten Graphen. Seine Funktionsweise basiert auf dem Prinzip der schrittweisen Optimierung: Ausgehend von einem Startknoten berechnet er systematisch die kürzesten Wege zu allen anderen Knoten im Graphen. Aufgrund seiner Effizienz und Zuverlässigkeit findet der Algorithmus heute breite praktische Anwendung, insbesondere in der Routenplanung, Netzwerkanalyse und Logistik.</p>
+</section>
+<section id="das-traveling-salesman-problem" class="level4" data-number="2.3.5.2">
+<h4 data-number="2.3.5.2" class="anchored" data-anchor-id="das-traveling-salesman-problem"><span class="header-section-number">2.3.5.2</span> Das Traveling Salesman-Problem</h4>
+<p>Das Traveling Salesman-Problem (TSP) gehört zu den bekanntesten Optimierungsproblemen der Graphentheorie. Die Aufgabenstellung ist dabei einfach zu verstehen: Ein Handelsreisender muss eine Route planen, die alle vorgegebenen Städte genau einmal besucht und am Ende zum Ausgangspunkt zurückführt. Das Ziel ist es, die kürzeste mögliche Route zu finden. Trotz dieser scheinbar einfachen Formulierung ist das TSP ein NP-schweres Problem - das bedeutet, dass bisher kein Algorithmus gefunden wurde, der für große Städtemengen in angemessener Zeit die optimale Lösung garantiert berechnen kann.</p>
+</section>
 </section>
 <section id="stochastische-algorithmen" class="level3" data-number="2.3.6">
 <h3 data-number="2.3.6" class="anchored" data-anchor-id="stochastische-algorithmen"><span class="header-section-number">2.3.6</span> Stochastische Algorithmen</h3>
 <section id="annäherung-der-kreiszahl-pi" class="level4" data-number="2.3.6.1">
 <h4 data-number="2.3.6.1" class="anchored" data-anchor-id="annäherung-der-kreiszahl-pi"><span class="header-section-number">2.3.6.1</span> Annäherung der Kreiszahl <span class="math inline">\(\pi\)</span></h4>
+<p>Die Monte-Carlo-Methode ist ein anschauliches Beispiel für stochastische Algorithmen. Sie nutzt Zufallszahlen zur Annäherung mathematischer Werte, wie etwa der Kreiszahl π. Das Verfahren platziert dabei zufällig Punkte in einem Quadrat mit einbeschriebenem Kreis. Das Verhältnis der Punkte innerhalb des Kreises zur Gesamtanzahl der Punkte ermöglicht eine Approximation von π. Ein wichtiges Merkmal dieser stochastischen Methode ist, dass die Genauigkeit der Berechnung mit der Anzahl der generierten Punkte steigt.</p>
 </section>
 </section>
 <section id="maschinelle-lernalgorithmen" class="level3" data-number="2.3.7">
@@ -579,13 +757,46 @@ Abbildung&nbsp;2.2: Beispiel für die Anwendung des Algorithmus nach Euklid.
 </section>
 <section id="iterationen" class="level3" data-number="2.4.3">
 <h3 data-number="2.4.3" class="anchored" data-anchor-id="iterationen"><span class="header-section-number">2.4.3</span> Iterationen</h3>
+<p>Ein Beispiel für ein iteratives, schrittweise Vorgehen ist das Babylonische Wurzelziehen aus @#sec-babylonian.</p>
 </section>
 <section id="kapselung" class="level3" data-number="2.4.4">
 <h3 data-number="2.4.4" class="anchored" data-anchor-id="kapselung"><span class="header-section-number">2.4.4</span> Kapselung</h3>
+<p>Kapselung beschreibt das Prinzip, komplexe Algorithmen in kleinere, überschaubare Einheiten zu zerlegen. Diese Modularisierung erhöht nicht nur die Lesbarkeit und Wartbarkeit des Algorithmus, sondern ermöglicht auch die Wiederverwendung von Teilfunktionen in anderen Kontexten. Ein klassisches Beispiel ist die Auslagerung häufig benötigter Berechnungen in separate Funktionen, die dann an verschiedenen Stellen aufgerufen werden können.</p>
 </section>
 <section id="rekursion" class="level3" data-number="2.4.5">
 <h3 data-number="2.4.5" class="anchored" data-anchor-id="rekursion"><span class="header-section-number">2.4.5</span> Rekursion</h3>
-
+<p>Rekursion ist ein mächtiges algorithmisches Konzept, bei dem sich ein Algorithmus selbst aufruft, um ein Problem zu lösen. Dieses Prinzip eignet sich besonders gut für Probleme, die sich in kleinere, gleichartige Teilprobleme zerlegen lassen. Ein klassisches Beispiel ist die Berechnung der Fakultät einer Zahl, bei der sich die Lösung aus der Multiplikation mit der Fakultät der nächstkleineren Zahl ergibt. Aber auch die binäre Suche kann rekursiv implementiert werden, indem der Algorithmus den zu durchsuchenden Bereich in der Mitte teilt und sich selbst mit der relevanten Hälfte aufruft. Diese rekursive Struktur macht den Algorithmus nicht nur elegant, sondern auch besonders effizient.</p>
+</section>
+</section>
+<section id="was-sind-herausforderungen-bei-der-fomulierung-von-algorithmen" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="was-sind-herausforderungen-bei-der-fomulierung-von-algorithmen"><span class="header-section-number">2.5</span> Was sind Herausforderungen bei der Fomulierung von Algorithmen?</h2>
+<section id="sec-algo-halt" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="sec-algo-halt"><span class="header-section-number">2.5.1</span> Haltekriterium</h3>
+<p>Ein wichtiges Kriterium bei der Formulierung von Algorithmen ist die Bestimmung eines geeigneten Haltekriteriums. Das Haltekriterium definiert die Bedingung, unter der ein Algorithmus seine Ausführung beendet und ein Ergebnis zurückliefert. Beim Babylonischen Wurzelziehen beispielsweise ist das Haltekriterium erreicht, wenn die Differenz zwischen zwei aufeinanderfolgenden Näherungswerten einen bestimmten Schwellenwert unterschreitet.</p>
+<p>Die Bestimmung eines geeigneten Haltekriteriums stellt für manche Algorithmen eine besondere Herausforderung dar. Dies zeigt sich besonders deutlich bei Optimierungsalgorithmen, wo die Frage nach dem optimalen Zeitpunkt für die Beendigung des Algorithmus nicht trivial ist. Da das theoretische Optimum in der Regel unbekannt ist, lässt sich schwer einschätzen, wie nah die aktuelle Lösung bereits am bestmöglichen Ergebnis liegt. Eine pragmatische Lösung für dieses Problem besteht in der Festlegung eines Optimierungsbudgets, das die maximale Anzahl der Durchläufe definiert, die der Algorithmus ausführen darf.</p>
+</section>
+<section id="sec-algo-infinity" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="sec-algo-infinity"><span class="header-section-number">2.5.2</span> Endlosschleifen</h3>
+<p>Endlosschleifen stellen eine kritische Herausforderung bei der Entwicklung von Algorithmen dar. Sie entstehen, wenn ein Algorithmus das definierte Haltekriterium nie erreicht und stattdessen kontinuierlich dieselben Anweisungen wiederholt. Ein typisches Beispiel ist eine While-Schleife, deren Bedingung permanent wahr bleibt - der Algorithmus verbleibt dann in einem unendlichen Ausführungszyklus. Ohne geeignete Fehlerbehandlung führt dies meist zu einem Programmabsturz, da Systemressourcen wie Arbeitsspeicher oder Prozessorzeit erschöpft werden.</p>
+</section>
+<section id="beurteilung-des-ergebnisses" class="level3" data-number="2.5.3">
+<h3 data-number="2.5.3" class="anchored" data-anchor-id="beurteilung-des-ergebnisses"><span class="header-section-number">2.5.3</span> Beurteilung des Ergebnisses</h3>
+<p>Die Beurteilung der Qualität eines algorithmischen Ergebnisses ist nicht immer eindeutig und hängt stark vom jeweiligen Anwendungsfall ab. Bei numerischen Berechnungen lässt sich die Genauigkeit oft durch den Vergleich mit bekannten Referenzwerten oder theoretischen Grenzen bestimmen. Bei Optimierungsproblemen hingegen ist die Bewertung komplexer, da das theoretische Optimum häufig unbekannt ist und die Qualität der Lösung von verschiedenen, teils konkurrierenden Kriterien abhängt.</p>
+</section>
+<section id="erklärbarkeit-des-ergebnisses" class="level3" data-number="2.5.4">
+<h3 data-number="2.5.4" class="anchored" data-anchor-id="erklärbarkeit-des-ergebnisses"><span class="header-section-number">2.5.4</span> Erklärbarkeit des Ergebnisses</h3>
+<p>Die Erklärbarkeit algorithmischer Entscheidungen spielt eine zentrale Rolle in der modernen Informatik, besonders in kritischen Bereichen wie der Medizin oder Rechtsprechung. Dabei stellt die mangelnde Transparenz komplexer Algorithmen eine fundamentale Herausforderung dar: Der Prozess von der Eingabe bis zur Entscheidungsfindung ist oft nicht direkt nachvollziehbar. Dieses Problem manifestiert sich besonders deutlich bei Deep Learning Modellen, deren mehrschichtige Strukturen und komplexe Berechnungen eine intuitive Interpretation der Entscheidungswege erschweren. Die Entwicklung von Methoden zur besseren Erklärbarkeit dieser “Black Box”-Systeme ist daher ein aktives Forschungsfeld, das darauf abzielt, die Akzeptanz und Vertrauenswürdigkeit algorithmischer Entscheidungen zu erhöhen.</p>
+</section>
+</section>
+<section id="gibt-es-bessere-und-schlechtere-algorithmen" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="gibt-es-bessere-und-schlechtere-algorithmen"><span class="header-section-number">2.6</span> Gibt es bessere und schlechtere Algorithmen?</h2>
+<section id="komplexität" class="level3" data-number="2.6.1">
+<h3 data-number="2.6.1" class="anchored" data-anchor-id="komplexität"><span class="header-section-number">2.6.1</span> Komplexität</h3>
+<p>Die Komplexität eines Algorithmus beschreibt, wie sich sein Ressourcenbedarf (meist Zeit und Speicher) in Abhängigkeit von der Eingabegröße entwickelt. Diese mathematische Charakterisierung ermöglicht einen objektiven Vergleich verschiedener algorithmischer Lösungen für dasselbe Problem. Besonders wichtig ist dabei die asymptotische Komplexität, die das Verhalten des Algorithmus für große Eingabemengen beschreibt.</p>
+</section>
+<section id="verständlichkeit" class="level3" data-number="2.6.2">
+<h3 data-number="2.6.2" class="anchored" data-anchor-id="verständlichkeit"><span class="header-section-number">2.6.2</span> Verständlichkeit</h3>
+<p>Die Verständlichkeit eines Algorithmus ist ein weiteres wichtiges Qualitätsmerkmal. Ein gut strukturierter und dokumentierter Algorithmus erleichtert nicht nur die Wartung und Weiterentwicklung, sondern reduziert auch die Wahrscheinlichkeit von Fehlern bei der Implementierung. Dabei spielt die Wahl aussagekräftiger Bezeichner und eine klare Dokumentation der einzelnen Schritte eine zentrale Rolle.</p>
 </section>
 </section>
 <section id="übungsaufgaben" class="level2 unnumbered">
