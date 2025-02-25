@@ -5,8 +5,10 @@
 Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Kapitel befassen wir uns mit den grundlegenden Aspekten von Algorithmen und beantworten dabei zentrale Fragen:
 
 -   Was ist ein Algorithmus und wie grenzt er sich von einem Computerprogramm ab?
+-   Wie könne wir Algorithmen darstellen?
 -   Welche verschiedenen Arten von Algorithmen existieren und durch welche Beispiele lassen sie sich veranschaulichen?
 -   Wie können wir Algorithmen systematisch und präzise formulieren?
+-   Welche Herausforderungen begegnen uns beim Entwurf von Algorithmen?
 -   Nach welchen Kriterien bewerten wir die Effizienz und Eignung verschiedener Algorithmen für spezifische Problemstellungen?
 
 ## Was ist ein Algorithmus?
@@ -57,7 +59,7 @@ Flussdiagramme\index{Flussdiagramm} bieten eine visuelle Darstellung von Algorit
 
 ![Die Notationselemente des Flussdiagramms.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_notation.png){fig-align="center" width=100% #fig-flow-diagram-notation .lightbox}
 
- Dazu kommen Verbindungspfeile, die den Kontrollfluss anzeigen, diese sind im Beispiel in @fig-euclid-flow zu sehen.
+ Dazu kommen Verbindungspfeile, die den Kontrollfluss anzeigen. Diese sind im Beispiel in @fig-euclid-flow zu sehen.
 
 ![Der Euklid’sche Algorithmus als Flussdiagramm.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_gcd.png){fig-align="center" width=100% #fig-euclid-flow .lightbox}
 
@@ -141,7 +143,7 @@ $$
 
 ![Zustand des Babylonischen Verfahrens nach dem zweiten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_3.png){fig-align="center" width=100% #fig-babylonian-3 .lightbox}
 
-Die Werte haben sich weiter angenähert. Da wir wissen, dass beide Kanten am Ende die Länge 4 haben sollen, ist eine weitere Iteration erforderlich. Nach der dritten Berechnung, wie in @fig-babyolonian-4 dargestellt, nähern sich beide Kanten bereits sehr präzise dem Zielwert von 4 an.
+Die Werte haben sich weiter angenähert. Da wir wissen, dass beide Kanten am Ende die Länge 4 haben sollen, ist eine weitere Iteration erforderlich. Nach der dritten Berechnung, wie in @fig-babylonian-4 dargestellt, nähern sich beide Kanten bereits sehr präzise dem Zielwert von 4 an.
 
 ![Zustand des Babylonischen Verfahrens nach dem dritten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_4.png){fig-align="center" width=100% #fig-babylonian-4 .lightbox}
 
@@ -178,7 +180,7 @@ Die lineare Suche ist der einfachste Suchalgorithmus und folgt einem intuitiven 
 
 Die binäre Suche ist ein hocheffizienter Algorithmus, der auf dem "Teile und Herrsche"-Prinzip (Divide & Conquer) basiert. Eine wichtige Voraussetzung für ihre Anwendung ist, dass die zu durchsuchende Liste sortiert vorliegt. Der Algorithmus arbeitet systematisch, indem er in jedem Schritt die Liste in der Mitte teilt und anhand eines Vergleichs entscheidet, ob sich das gesuchte Element im linken oder rechten Teilbereich befindet. Durch diese Halbierung des Suchbereichs in jedem Schritt erreicht die binäre Suche eine bemerkenswerte Effizienz.
 
-Diese Strategie, die wir bereits im vorigen Kapitel unter @sec-divide-and-conquer als *Divide-and- Conquer*-Ansatz\index{Divide-and-Conquer-Ansatz} kennengelernt haben, ermöglicht es der binären Suche, selbst in großen Datensätzen ein gesuchtes Element mit minimaler Anzahl von Vergleichsoperationen zu finden.
+Diese Strategie, die wir bereits im vorigen @sec-divide-and-conquer als *Divide-and- Conquer*-Ansatz\index{Divide-and-Conquer-Ansatz} kennengelernt haben, ermöglicht es der binären Suche, selbst in großen Datensätzen ein gesuchtes Element mit minimaler Anzahl von Vergleichsoperationen zu finden.
 
 #### Suche in Bäumen
 
@@ -226,7 +228,7 @@ Die Bayes'sche Optimierung\index{Bayes’sche Optimierung} ist ein effizienter A
 
 #### Dijkstra-Algorithmus
 
-Der Dijkstra-Algorithmus\index{Dijskstra-Algorithmus}, entwickelt 1956 von Edsger W. Dijkstra, ist ein fundamentaler Algorithmus zur Berechnung kürzester Pfade in gewichteten Graphen. Seine Funktionsweise basiert auf dem Prinzip der schrittweisen Optimierung: Ausgehend von einem Startknoten berechnet er systematisch die kürzesten Wege zu allen anderen Knoten im Graphen. Aufgrund seiner Effizienz und Zuverlässigkeit findet der Algorithmus heute breite praktische Anwendung, insbesondere in der Routenplanung, Netzwerkanalyse und Logistik.
+Der Dijkstra-Algorithmus\index{Dijkstra-Algorithmus}, entwickelt 1956 von Edsger W. Dijkstra, ist ein fundamentaler Algorithmus zur Berechnung kürzester Pfade in gewichteten Graphen. Seine Funktionsweise basiert auf dem Prinzip der schrittweisen Optimierung: Ausgehend von einem Startknoten berechnet er systematisch die kürzesten Wege zu allen anderen Knoten im Graphen. Aufgrund seiner Effizienz und Zuverlässigkeit findet der Algorithmus heute breite praktische Anwendung, insbesondere in der Routenplanung, Netzwerkanalyse und Logistik.
 
 #### Das Traveling Salesman-Problem
 
@@ -256,7 +258,7 @@ Verzweigungen stellen eine grundlegende Form der nicht-linearen Ausführung eine
 
 ### Iterationen
 
-Ein Beispiel für ein iteratives, schrittweise Vorgehen ist das Babylonische Wurzelziehen aus @#sec-babylonian.
+Ein Beispiel für ein iteratives, schrittweise Vorgehen ist das Babylonische Wurzelziehen aus @sec-babylonian.
 
 ### Kapselung
 
@@ -301,6 +303,4 @@ Die Verständlichkeit eines Algorithmus ist ein weiteres wichtiges Qualitätsmer
 ## Übungsaufgaben {.unnumbered}
 
 {{< include exercises/exercises-algorithms.qmd >}}
-
-
 

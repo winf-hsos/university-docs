@@ -449,8 +449,10 @@ window.Quarto = {
 <p>Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Kapitel befassen wir uns mit den grundlegenden Aspekten von Algorithmen und beantworten dabei zentrale Fragen:</p>
 <ul>
 <li>Was ist ein Algorithmus und wie grenzt er sich von einem Computerprogramm ab?</li>
+<li>Wie könne wir Algorithmen darstellen?</li>
 <li>Welche verschiedenen Arten von Algorithmen existieren und durch welche Beispiele lassen sie sich veranschaulichen?</li>
 <li>Wie können wir Algorithmen systematisch und präzise formulieren?</li>
+<li>Welche Herausforderungen begegnen uns beim Entwurf von Algorithmen?</li>
 <li>Nach welchen Kriterien bewerten wir die Effizienz und Eignung verschiedener Algorithmen für spezifische Problemstellungen?</li>
 </ul>
 </section>
@@ -514,7 +516,7 @@ Abbildung&nbsp;2.2: Die Notationselemente des Flussdiagramms.
 </figcaption>
 </figure>
 </div>
-<p>Dazu kommen Verbindungspfeile, die den Kontrollfluss anzeigen, diese sind im Beispiel in <a href="#fig-euclid-flow" class="quarto-xref">Abbildung&nbsp;<span>2.3</span></a> zu sehen.</p>
+<p>Dazu kommen Verbindungspfeile, die den Kontrollfluss anzeigen. Diese sind im Beispiel in <a href="#fig-euclid-flow" class="quarto-xref">Abbildung&nbsp;<span>2.3</span></a> zu sehen.</p>
 <div id="fig-euclid-flow" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-euclid-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -628,7 +630,7 @@ Abbildung&nbsp;2.8: Zustand des Babylonischen Verfahrens nach dem zweiten Schrit
 </figcaption>
 </figure>
 </div>
-<p>Die Werte haben sich weiter angenähert. Da wir wissen, dass beide Kanten am Ende die Länge 4 haben sollen, ist eine weitere Iteration erforderlich. Nach der dritten Berechnung, wie in <span class="quarto-unresolved-ref">?fig-babyolonian-4</span> dargestellt, nähern sich beide Kanten bereits sehr präzise dem Zielwert von 4 an.</p>
+<p>Die Werte haben sich weiter angenähert. Da wir wissen, dass beide Kanten am Ende die Länge 4 haben sollen, ist eine weitere Iteration erforderlich. Nach der dritten Berechnung, wie in <a href="#fig-babylonian-4" class="quarto-xref">Abbildung&nbsp;<span>2.9</span></a> dargestellt, nähern sich beide Kanten bereits sehr präzise dem Zielwert von 4 an.</p>
 <div id="fig-babylonian-4" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-babylonian-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -677,7 +679,7 @@ Abbildung&nbsp;2.10: Das Babylonische Verfahren als Flussdiagramm.
 <section id="binäre-suche" class="level4" data-number="2.3.2.2">
 <h4 data-number="2.3.2.2" class="anchored" data-anchor-id="binäre-suche"><span class="header-section-number">2.3.2.2</span> Binäre Suche</h4>
 <p>Die binäre Suche ist ein hocheffizienter Algorithmus, der auf dem “Teile und Herrsche”-Prinzip (Divide &amp; Conquer) basiert. Eine wichtige Voraussetzung für ihre Anwendung ist, dass die zu durchsuchende Liste sortiert vorliegt. Der Algorithmus arbeitet systematisch, indem er in jedem Schritt die Liste in der Mitte teilt und anhand eines Vergleichs entscheidet, ob sich das gesuchte Element im linken oder rechten Teilbereich befindet. Durch diese Halbierung des Suchbereichs in jedem Schritt erreicht die binäre Suche eine bemerkenswerte Effizienz.</p>
-<p>Diese Strategie, die wir bereits im vorigen Kapitel unter <a href="problem-solving.html#sec-divide-and-conquer" class="quarto-xref"><span>Kapitel 1.4.2</span></a> als <em>Divide-and- Conquer</em>-Ansatz kennengelernt haben, ermöglicht es der binären Suche, selbst in großen Datensätzen ein gesuchtes Element mit minimaler Anzahl von Vergleichsoperationen zu finden.</p>
+<p>Diese Strategie, die wir bereits im vorigen <a href="problem-solving.html#sec-divide-and-conquer" class="quarto-xref"><span>Kapitel 1.4.2</span></a> als <em>Divide-and- Conquer</em>-Ansatz kennengelernt haben, ermöglicht es der binären Suche, selbst in großen Datensätzen ein gesuchtes Element mit minimaler Anzahl von Vergleichsoperationen zu finden.</p>
 </section>
 <section id="suche-in-bäumen" class="level4" data-number="2.3.2.3">
 <h4 data-number="2.3.2.3" class="anchored" data-anchor-id="suche-in-bäumen"><span class="header-section-number">2.3.2.3</span> Suche in Bäumen</h4>
@@ -757,7 +759,7 @@ Abbildung&nbsp;2.10: Das Babylonische Verfahren als Flussdiagramm.
 </section>
 <section id="iterationen" class="level3" data-number="2.4.3">
 <h3 data-number="2.4.3" class="anchored" data-anchor-id="iterationen"><span class="header-section-number">2.4.3</span> Iterationen</h3>
-<p>Ein Beispiel für ein iteratives, schrittweise Vorgehen ist das Babylonische Wurzelziehen aus @#sec-babylonian.</p>
+<p>Ein Beispiel für ein iteratives, schrittweise Vorgehen ist das Babylonische Wurzelziehen aus <a href="#sec-babylonian" class="quarto-xref"><span>Kapitel 2.3.1.2</span></a>.</p>
 </section>
 <section id="kapselung" class="level3" data-number="2.4.4">
 <h3 data-number="2.4.4" class="anchored" data-anchor-id="kapselung"><span class="header-section-number">2.4.4</span> Kapselung</h3>
@@ -804,9 +806,11 @@ Abbildung&nbsp;2.10: Das Babylonische Verfahren als Flussdiagramm.
 <ol type="1">
 <li><p>Woher stammt der Begriff “Algorithmus”?</p></li>
 <li><p>Definiere, was ein Algorithmus ist, und gib drei Beispiele für Algorithmen aus dem Alltag, die keinen direkten Bezug zu Computern haben.</p></li>
+<li><p>Beobachte eine Woche lang Algorithmen in deinem Alltag (z.B. Navigationssysteme, Empfehlungssysteme, Suchmaschinen). Dokumentiere deren Eingaben, Verarbeitung und Ausgaben.</p></li>
 <li><p>Welche grundlegenden Ansätze zur Klassifizierung von Algorithmen gibt es?</p></li>
 <li><p>Erläutere, was mit der Komplexität eines Algorithmus gemeint ist. Warum ist die Komplexität eines Algorithmus wichtig? Wie wird sie angegeben?</p></li>
 <li><p>Welche Komplexitätsklassen kennst du? Bringe sie in eine Reihenfolge von der geringsten zur höchsten Komplexität.</p></li>
+<li><p>Vergleiche die Laufzeitkomplexität von linearer und binärer Suche anhand eines konkreten Beispiels mit einer Million sortierten Zahlen!</p></li>
 <li><p>Berechne den größten gemeinsamen Teiler der Zaheln 56 und 98 mithilfe des euklidischen Algorithmus! Dokumentiere jeden Schritt!</p></li>
 <li><p>Wir haben exemplarisch für einen Algorithmus die babylonische Methode zur Approximation einer Quadratwurzel kennengelernt. Beantworte die nachfolgenden Fragen in diesem Kontext:</p>
 <ol type="a">
@@ -815,8 +819,13 @@ Abbildung&nbsp;2.10: Das Babylonische Verfahren als Flussdiagramm.
 <li>Erkläre die Funktionsweise des babylonischen Algorithmus zur Berechnung der Quadratwurzel. Verwende dazu visuelle Hilfsmittel. Warum konvergiert der Algorithmus gegen den exakten Wert der Quadratwurzel?</li>
 </ol></li>
 <li><p>Erläutere die Monte-Carlo-Methode zur Schätzung von <span class="math inline">\(\pi\)</span> und erkläre, wie man mithilfe von Zufallszahlen eine Annäherung an <span class="math inline">\(\pi\)</span> erreichen kann.</p></li>
+<li><p>Erkläre den Unterschied zwischen einem stochastischen und einem deterministischen Algorithmus anhand eines selbst gewählten Beispiels.</p></li>
 <li><p>Finde weitere Probleme, die sich durch Monte-Carlo-Simulationen lösen lassen. Weshalb sind manche dieser Probleme mit anderen Methoden nicht lösbar?</p></li>
-<li><p>Betrachte den Pseudocode in der Abbildung unten und beantworte die folgenden Fragen!</p></li>
+<li><p>Du hast zwei Sanduhren: Eine läuft 4 Minuten, die andere 7 Minuten. Wie kannst du damit genau 9 Minuten messen? Entwickle einen präzisen Algorithmus für das Problem!</p></li>
+<li><p>Du hast drei Gefäße mit 3, 5 und 8 Litern Fassungsvermögen. Das 8-Liter-Gefäß ist voll, die anderen sind leer. Entwickle einen Algorithmus, um genau 4 Liter abzumessen!</p></li>
+<li><p>Entwickle einen Algorithmus, der prüft ob eine eingegebene Zahl eine Primzahl ist. Stelle den Algorithmus als Flussdiagramm dar!</p></li>
+<li><p>Recherchiere einen Fall, bei dem ein algorithmisches System zu problematischen Entscheidungen geführt hat. Analysiere die Ursachen und schlage Möglichkeiten zur Verbesserung!</p></li>
+<li><p>Diskutiert die ethischen Implikationen von nicht-erklärbaren algorithmischen Entscheidungen in kritischen Bereichen wie Medizin oder Rechtsprechung! In welchen Bereichen könnte eine fehlende Erklärbarkeit noch kritisch sein?</p></li>
 </ol>
 
 
