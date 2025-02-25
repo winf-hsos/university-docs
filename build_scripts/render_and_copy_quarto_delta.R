@@ -40,7 +40,7 @@ dir.create("docs/quarto/data_analytics")
 dir.create("docs/quarto/digitization_and_programming")
 dir.create("docs/quarto/digitization_and_programming/script")
 dir.create("docs/quarto/digitization_and_programming/script/book")
-dir.create("docs/quarto/digitization_and_programming/exercises")
+dir.create("docs/quarto/digitization_and_programming/script/exercises")
 dir.create("docs/quarto/digitization_and_programming/programming_exercises")
 
 dir.create("docs/quarto/big_data_analytics")
