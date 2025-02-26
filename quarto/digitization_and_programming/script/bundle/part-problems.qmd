@@ -1,2 +1,24 @@
 # Probleme
 
+Da das LiFi-Projekt eine komplexe Herausforderung darstellt, verschaffen wir uns im ersten Teil des Buches einen Überblick darüber, wie wir computerbasierte Probleme strukturiert angehen und lösen können. 
+
+In @sec-problem-solving klären wir zunächst wichtige Fragen zum Thema **Problemlösung**:
+
+-   Wie lösen wir Probleme systematisch?
+-   Warum sind Computer beim Lösen von Problemen nützlich?
+-   Wie stellen wir Probleme für Computer dar?
+-   Welche Strategien helfen bei der Lösung von Problemen?
+
+Wir werden sehen, dass das LiFi-Projekt kein einzelnes Problem darstellt, sondern sich in viele kleinere Teilprobleme zerlegen lässt, die sich leichter lösen lassen. Die gefundenen Lösungen formulieren wir als Algorithmen, die wir später mithilfe einer Programmiersprache in ausführbare Computerbefehle umsetzen. In @sec-algorithms klären wir wichtige Fragen rund um **Algorithmen**:
+
+-   Was ist ein Algorithmus?
+-   Wie stellen wir Algorithmen dar?
+-   Welche Arten von Algorithmen gibt es?
+-   Welche wichtigen algorithmischen Denkmuster gibt es?
+-   Was sind Herausforderungen bei der Formulierung von Algorithmen?
+-   Gibt es bessere und schlechtere Algorithmen?
+
+Nach Abschluss dieses ersten Buchteils werden wir nicht nur ein fundiertes Verständnis der verschiedenen Teilprobleme des LiFi-Projekts entwickelt haben, sondern auch konkrete Ansatzpunkte identifiziert haben, wo und wie algorithmische Lösungen entwickelt werden müssen. Diese systematische Herangehensweise bildet die Grundlage für die praktische Umsetzung in den folgenden Kapiteln des Buches.
+
+
+

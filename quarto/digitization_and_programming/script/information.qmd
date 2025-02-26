@@ -28,35 +28,39 @@ Zu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.
 
 :::
 
-## Information in der Informatik
+Im digitalen Zeitalter sind wir von **Information** umgeben - ein ständiger Strom von Nachrichten, Daten und Fakten prägt unseren Alltag. Doch was versteht die Informatik unter dem Begriff "Information"? Eine erste Annäherung bietet unsere alltägliche Erfahrung: Information entsteht, wenn wir etwas Neues erfahren, das uns hilft, bessere Entscheidungen zu treffen. Nehmen wir eine Wettervorhersage als Beispiel: Die Aussage "es wird morgen regnen" stellt für jemanden, der das Wetter noch nicht kennt, eine wichtige Information dar - sie reduziert die Unsicherheit über das morgige Wetter. Die Informatik und Informationstheorie greifen genau dieses Konzept auf und definieren **Information** präzise als die Abnahme von Unsicherheit. 
 
-Hast du dich jemals gefragt, was eigentlich Information genau ist? Jeder hat eine intuitive Vorstellung davon, was wir mit Information meinen. Aber was ist die genaue Definition? Und wie ist der Begriff *Information* im Zusammenhang mit digtialen Computern gemeint?
+Dieses Kapitel führt systematisch in den Informationsbegriff ein und legt damit das theoretische Fundament für die nachfolgenden Themen: vom Binärsystem als Grundlage der digitalen Informationsverarbeitung über verschiedene Methoden der Informationskodierung bis hin zu praktischen Anwendungen wie Datenkompression und Verschlüsselung.
 
-Hier schon einmal eine Definition aus @adami_what_2016, die wir in diesem Kapitel anhand von einigen Beispielen genauer verstehen wollen.
+## Wie definieren wir Information?
+
+Information begegnet uns im Alltag in vielen Formen – als Nachricht, Erkenntnis oder Mitteilung. Die Informatik verwendet jedoch einen präziseren Informationsbegriff, der sich von diesem alltäglichen Verständnis unterscheidet. Basierend auf @adami_what_2016 werden wir in diesem Kapitel eine formale Definition von Information entwickeln und anhand konkreter Beispiele veranschaulichen.
 
 ![Definition des Informationsbegriffs laut @adami_what_2016.](https://winf-hsos.github.io/university-docs/images/information_definition_adami.png){fig-align="center" width=100% .lightbox}
 
-### Zahlenraten
+Um das Konzept der Information greifbar zu machen, betrachten wir ein praktisches Gedankenexperiment: ein Zahlenratespiel. Angenommen, ich denke an eine Zahl zwischen 1 und 16 (@fig-information-guess-num). Deine Aufgabe ist es, diese Zahl zu erraten. Du hast zwar nur einen finalen Rateversuch, darfst aber zuvor Fragen stellen, die ich mit "ja" oder "nein" beantworte. Diese Fragen haben die Form "Ist die Zahl größer als X?" und helfen dir, die möglichen Zahlen systematisch einzugrenzen.
 
-Um der Information auf die Spur zu kommen beginnen wir mit einem Gedankenexperiment. Stell dir vor, wir spielen ein Zahlenratespiel. Ich denke an eine Zahl zwischen 1 und 16, und dein Ziel ist es, sie zu erraten. Der Haken ist, dass du nur einen Versuch hast, die richtige Zahl zu erraten, aber du kannst die Möglichkeiten vorher durch Fragen der Form "Ist die Zahl größer als X?" eingrenzen. Für jede Frage werde ich dir mit "ja" oder "nein" antworten und damit die verbleibenden Optionen reduzieren.
+Bei jeder Antwort reduziert sich deine **Unsicherheit** über die gesuchte Zahl. Durch den Ausschluss bestimmter Zahlen wird der Bereich möglicher Lösungen kleiner, und dein Wissen über die gesuchte Zahl wächst entsprechend.
 
-Mit jeder Antwort, die du erhältst, wächst dein Wissen über meine Zahl, was bedeutet, dass deine **Unsicherheit** bezüglich der gesuchten Zahl abnimmt. Du kannst einige mögliche Zahlen ausschließen, wenn du eine neue Antwort erhältst.
+**Wichtig:** Der informationstheoretische Begriff der Information unterscheidet sich vom alltäglichen Verständnis. In der Informatik geht es nicht primär um die *inhaltliche Bedeutung* (Semantik) einer Nachricht, sondern um die *quantitative Reduktion von Unsicherheit*. Die Frage ist also nicht, was eine Information inhaltlich - oder semantisch - bedeutet, sondern wie stark sie die vorhandene Ungewissheit verringert.
 
-Wir halten zunächst fest, dass das Eingrenzen der verbleibenden Möglichkeiten die Unsicherheit reduziert. Wir untersuchen nun, wie diese Idee die Grundlage der Informationstheorie bildet. Durch die Reduzierung der Unsicherheit sammeln wir mit jedem Versuch mehr **Information**. Aber wie viel Information erhältst du mit jeder Antwort? Und wie können wir das messen?
+Dieses Prinzip der Unsicherheitsreduktion bildet das Fundament der Informationstheorie. Mit jeder Antwort, die wir erhalten, sammeln wir Information, die die Unsicherheit reduziert. Aber wie lässt sich dieser Informationsgewinn konkret messen? Welche Menge an Information steckt in einer einzelnen Antwort?
 
-![Ich denke an eine Zahl zwischen 1 und 16. Deine Aufgabe ist es, die Zahl mit so wenig Fragen wie möglich zu erraten.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_1.png){fig-align="center" width=100% .lightbox}
+![Das Zahlenratespiel zur Veranschaulichung des Informationsbegriffs.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_1.png){fig-align="center" width=100% #fig-information-guess-num .lightbox}
+
+## Wie messen wir Information?
 
 ### Bit für Bit
 
-In der Informatik kann Information definiert werden als "das, was es ermöglicht, eine korrekte Vorhersage mit besserer Genauigkeit als der Zufall zu treffen" [CITE]. Einfacher ausgedrückt bedeutet dies, die Unsicherheit durch Eingrenzung der möglichen Optionen zu reduzieren.
+Die Informatik definiert Information präzise als das, was es uns ermöglicht, richtige Vorhersagen zu treffen, die genauer sind als der pure Zufall [@adami_what_2016]. Dabei konzentriert sich diese Definition auf den messbaren Aspekt: Information reduziert systematisch die Unsicherheit über einen Sachverhalt, indem sie die Anzahl möglicher Optionen eingrenzt.
 
-Vor diesem Hintergrund wollen wir unser Zahlenratespiel noch einmal genauer betrachten. Wie oben beschrieben, versuchst du meine Zahl zu erraten, und jede Antwort, die du von mir erhältst, grenzt den Bereich der möglichen Zahlen ein. Diese Reduzierung der Unsicherheit kann mit einer Einheit namens **Bit** gemessen werden. Ein Bit, was für **binary digit** (Binärziffer) steht, ist die grundlegende Einheit der Information. Es zeigt eine Halbierung der Unsicherheit an. Einfacher ausgedrückt: Wenn eine neue Antwort nur noch halb so viele Optionen wie zuvor übrig lässt, liefert sie uns genau ein Bit an Information.
+Betrachten wir nun unser Zahlenratespiel unter dem Aspekt der Informationstheorie. In diesem Beispiel reduziert jede Antwort systematisch die Anzahl der möglichen Zahlen. Diese Reduzierung der Unsicherheit lässt sich mit einer präzisen Maßeinheit quantifizieren: dem **Bit**. Ein Bit (von **binary digit**, Binärziffer) stellt die fundamentale Einheit der Information dar und entspricht einer Halbierung der Unsicherheit. Anders ausgedrückt: Wenn eine Antwort die Anzahl der möglichen Optionen exakt halbiert, gewinnen wir genau ein Bit an Information.
 
 Allerdings werden nicht alle Fragen und deren Antworten genau ein Bit Information liefern. Wenn zum Beispiel deine erste Frage im Ratespiel lautet: "Ist deine Zahl größer als 12?" und die Antwort "nein" ist, bleiben die Zahlen 1 bis 12 übrig. Das bedeutet, du hast noch 12 Optionen von ursprünglich 16, was die Unsicherheit nicht halbiert. Es werden nur 4 statt der nötigen 8 Möglichkeiten entfernt. Lautet die Antwort dagegen “ja”, so kannst du insgesamt 12 Möglichkeiten streichen, was mehr als der Hälfte entspricht und der Informationsgehalt der Antwort wäre größer als ein Bit.
 
-Um genau ein Bit Information zu erhalten, solltest du darauf abzielen, mit jeder Frage genau die Hälfte der möglichen Zahlen auszuschließen. Wenn du zum Beispiel fragst "Ist deine Zahl größer als 8?", stellst du sicher, dass du - egal ob die Antwort "ja" oder "nein" ist - in beiden Fällen 8 mögliche Zahlen übrig behältst. Ist die Antwort "ja", bleiben die Zahlen 9 bis 16 übrig. Ist die Antwort "nein", bleiben die Zahlen 1 bis 8. In beiden Szenarien wird deine Unsicherheit um die Hälfte reduziert, also um ein Bit.
+Um genau ein Bit Information zu erhalten, solltest du versuchen, mit jeder Frage genau die Hälfte der möglichen Zahlen auszuschließen. Wenn du zum Beispiel fragst "Ist deine Zahl größer als 8?", stellst du sicher, dass du - egal ob die Antwort "ja" oder "nein" ist - in beiden Fällen 8 mögliche Zahlen übrig behältst. Ist die Antwort "ja", bleiben die Zahlen 9 bis 16 übrig. Ist die Antwort "nein", bleiben die Zahlen 1 bis 8. In beiden Szenarien wird deine Unsicherheit um die Hälfte reduziert, also um ein Bit.
 
-Indem du deine Fragen sorgfältig so wählst, dass sie die verbleibenden Optionen jedes Mal halbieren, reduzierst du deine Unsicherheit Bit für Bit und machst es dir leichter und schneller, die richtige Zahl zu finden.
+Indem du deine Fragen sorgfältig so wählst, dass sie die verbleibenden Optionen jedes Mal halbieren, reduzierst du deine Unsicherheit Bit für Bit und du findest schneller die richtige Zahl.
 
 ![Deine Fragen sollten die Anzahl der Möglichkeiten halbieren.](https://winf-hsos.github.io/university-docs/images/number_guessing_game_2.png){fig-align="center" width=100% .lightbox}
 
@@ -72,7 +76,7 @@ Indem du weiterhin Fragen stellst, die systematisch die verbleibenden Optionen h
 
 ### Unsicherheit
 
-Wir haben gerade gelernt, dass wir mit jeder Ja/Nein-Frage, die die Hälfte der Möglichkeiten eliminiert, ein Bit an Information gewinnen. Aber wie können wir dieses Konzept der Reduktion von Unsicherheit mathematisch quantifizieren? Wir gehen das Schritt für Schritt durch.
+Wir haben oben gelernt, dass wir mit jeder Ja/Nein-Frage, die die Hälfte der Möglichkeiten eliminiert, ein Bit an Information gewinnen. Aber wie können wir dieses Konzept der Reduktion von Unsicherheit mathematisch quantifizieren? Wir gehen das Schritt für Schritt durch.
 
 Stell dir vor, du bist am Anfang unseres Zahlenratespiels. Es gibt 16 mögliche Zahlen, an die ich denken könnte, daher ist deine Wahrscheinlichkeit, beim ersten Versuch die richtige Zahl zu erraten, ziemlich gering:
 
@@ -152,7 +156,7 @@ $$
 
 Diese Antwort lieferte mehr als ein Bit, nämlich 2 Bits. Wie lässt sich dieser Unterschied erklären?
 
-### Unwahrscheinliche Antworten
+### Wahrscheinliche und unwahrscheinliche Antworten
 
 Die Menge an Information hängt von der Wahrscheinlichkeit der jeweiligen Antwort ab. Bei einer Frage, die die Möglichkeiten halbiert, hat jede Antwort "Ja" oder "Nein" auf die Frage "Ist die Zahl größer als X?" eine Wahrscheinlichkeit von genau 50%. Diese gleichmäßige Verteilung vereinfacht die Berechnung und liefert genau ein Bit an Information.
 
@@ -212,50 +216,35 @@ Bisher haben wir in unserem Zahlenratespiel nur Fragen mit zwei Antwortmöglichk
 
 Als Beispiel betrachten wir eine Urne mit farbigen Kugeln in drei Farben: Rot, Grün und Blau. Aus dieser Urne ziehen wir zwei Kugeln, wobei wir nach jedem Zug die gezogene Kugel zurück in die Urne legen. Dieses statistische Experiment bezeichnet man als "Ziehen mit Zurücklegen".
 
-## Daten repräsentieren Information
+## Wovon hängt der Informationsgehalt einer Nachricht ab?
+
+Nach den obigen Ausführungen können wir die Frage nun präzise beantworten: Der Informationsgehalt einer Nachricht hängt hauptsächlich von zwei Faktoren ab: **(1)** der *Anzahl der möglichen Alternativen* und **(2)** deren *Wahrscheinlichkeiten*.
+
+### **Anzahl der Alternativen**
+
+Je mehr verschiedene Möglichkeiten es gibt, was eine Nachricht aussagen kann, desto mehr Information kann im besten Fall vermittelt werden. Wenn zum Beispiel ein Lehrbuch-Test eine von zwei Antworten richtig haben kann (etwa wahr/falsch), dann liefert die Korrektur „richtig“ oder „falsch“ maximal 1 Bit Information – es gibt ja nur zwei mögliche Ausgänge. Hat eine Prüfungsfrage aber vier mögliche Antworten (A, B, C, D) von denen genau eine richtig ist, dann liefert die Angabe der korrekten Antwort bis zu $\log_2(4) = 2$ Bit Information. Allgemein: Ist eine Nachricht eine Auswahl aus $N$ gleich möglichen Alternativen, beträgt ihr Informationsgehalt $\log_2 N$ Bit. Mehr Alternativen bedeuten einen höheren potentiellen Informationsgehalt.
+
+### **Wahrscheinlichkeiten der Alternativen**
+
+Oft sind manche Nachrichten oder Ereignisse wahrscheinlicher als andere. Wie wir gesehen haben, tragen unwahrscheinliche (überraschende) Ereignisse mehr Information bei als sehr wahrscheinliche. Das klassische Beispiel ist das Wetter: In einer Region, in der es normalerweise jeden Tag sonnig ist, enthält die Nachricht „Heute scheint die Sonne“ kaum neue Information – es war ja ohnehin zu erwarten. Dagegen wäre in dieser Region die Nachricht „Heute regnet es“ deutlich informativer (weil Regen dort selten ist). In einer Regenwald-Region wäre es umgekehrt. **Der Informationsgehalt ist also höher, je unwahrscheinlicher (überraschender) der Inhalt der Nachricht ist.** Formal spiegelt das die Formel $I(p) = -\log_2 p$ wider: Kleine Wahrscheinlichkeit $p$ (seltenes Ereignis) ergibt großes $I(p)$.
+
+### **Länge der Nachricht (Anzahl Zeichen)**
+
+Ein weiterer offensichtlicher Faktor ist die Menge an Zeichen oder Symbolen, aus denen sich die Nachricht zusammensetzt. Eine längere Nachricht kann natürlich mehr Information tragen als eine sehr kurze, da sie mehr Inhalte übermitteln kann. Allerdings hängt das nicht nur von der Länge ab, sondern auch davon, ob die zusätzlichen Zeichen tatsächlich *neue* Information liefern oder nur bereits Bekanntes wiederholen. Mehr dazu gleich beim Thema Redundanz. Aber grundsätzlich können wir sagen: Der Informationsgehalt einer längeren Nachricht, die aus mehreren Symbolen besteht, ist – bei unabhängigen Symbolen – die Summe der Informationsgehalte der einzelnen Symbole
+
+**Beispiel**: Besteht eine Nachricht aus 3 Buchstaben, und jeder Buchstabe trägt im Durchschnitt 4 Bit Information, dann hat die ganze Nachricht etwa $3 \cdot 4 = 12$ Bit Informationsgehalt (unter der Annahme, dass die Buchstaben unabhängig und nicht vorhersagbar voneinander sind).
+
+Zusammengefasst: **Der Informationsgehalt einer Nachricht hängt von der Unsicherheit ab, die sie ausräumt.** Diese Unsicherheit wiederum ergibt sich aus der Zahl der möglichen Nachrichten und deren Verteilung. Maximal informativ ist eine Nachricht, die aus vielen möglichen, gleich wahrscheinlichen Alternativen ausgewählt wurde – dann ist die Überraschung am größten. Wenn einige Ergebnisse schon vorher sehr wahrscheinlich sind, verringert sich der Informationsgehalt entsprechend.
+
+## Was ist Redundanz und welche Rolle spielt sie?
+
+## Welcher Zusammenhang besteht zwischen Information und Daten
+
+Die kurze Antwort lautet: Daten repräsentieren Informationen. Daten sind die physische oder digitale Repräsentation von Informationen in einer bestimmten Form oder Struktur. Wenn wir zum Beispiel die Zahl "42" auf Papier schreiben oder in einem Computer speichern, dann sind die geschriebenen Ziffern oder die Bits im Speicher die Daten, während die tatsächliche Bedeutung – also die Zahl zweiundvierzig – die Information ist. Vielleicht eine Antwort auf eine Frage wie die nach dem Sinn des Lebens? Ein Computer verarbeitet dabei ausschließlich Daten in Form von Bits, die dann durch entsprechende Programme wieder in für Menschen verständliche Informationen umgewandelt werden. Dazu verwenden wir dann die Codesysteme, die wir in @sec-codesystems kennenlernen.
+
+\newpage
 
 ## Übungsaufgaben {.unnumbered}
 
-1.  Wie heißt die kleinste mögliche Informationseinheit?
-
-2.  Erkläre in deinen eigenen Worten, warum es keine kleinere Informationseinheit als das Bit geben kann!
-
-3.  Was ist ein Trit? Und wie hängt es mit dem Bit zusammen?
-
-4.  Was ist der Unterschied zwischen der Unsicherheit $H$ und Information $I$? Was haben beide Größen gemeinsam?
-
-5.  Erläutere mit eigenen Worten, warum Ja/Nein-Fragen, die den Raum der Möglichkeiten jeweils halbieren, am effizientesten sind, um möglichst viele Informationen zu erhalten!
-
-6.  Warum verwenden wir bei der Berechnung des Speicherbedarfs einer Nachricht die Formel $H = \lceil log_2(S) \rceil \times n$ und nicht $H = log_2(S) \times n$ ?
-
-7.  Warum beeinflusst unser Vorwissen über eine Informationsquelle den Informationsgehalt einer Nachricht?
-
-8.  Ihr sollt einen Buchstaben aus dem Alphabet erraten und dürft so viele Ja/Nein-Fragen stellen, wie ihr wollt. Welche konkreten Fragen stellt ihr?
-
-9.  Wie viele Bits benötigen wir, um die folgenden Anzahlen möglicher Nachrichten zu repräsentieren?
-     a.  10
-     b.  64
-     c.  128
-     d.  1.000
-     e.  1.024
-     f.  16.777.216
-
-10.  Berechnet den Bedarf an Bits, um die folgenden Nachrichten zu repräsentieren:
-     a.  Ein deutsches Autokennzeichen
-     b.  Eine Doppelkopfhand
-     c.  Die Lottozahlen
-     d.  Eine zehnstellige Telefonnummer
-     e.  Ein acht Zeichen langes Passwort, das nur Großbuchstaben, Kleinbuchstaben und Zahlen enthält
-     f.  Eine IPv4-Adresse
-
-11.  Wie viel Information steckt theoretisch in der menschlischen DNA? Warum bräuchten wir in der Praxis deutlich weniger Speicherplatz, um die menschliche DNA zu speichern?
-
-12.  Wir spielen das Spiel, bei dem sich euer Gegenüber eine beliebige Karte aus einem Pokerkartenspiel mit 52 Karten merkt. Deine Aufgabe ist es, durch Ja/Nein-Fragen Informationen zur gesuchten Karte zu erhalten. Beantworte dazu die folgenden Fragen:
-     a.  Welche Strategie für die Auwahl deiner Fragen solltest du verfolgen, um die benötigten Fragen zu minimieren?
-     b.  Wie viele Fragen benötigst du mit dieser Strategie mindestens, maximal und durchschnittlich, um die gesuchte Karte zu finden?
-     c.  Angenommen, deine erste Frage lautete: „Ist die Karte ein Ass?" Wie beurteilst du diese Frage, wenn dein Ziel ist, mit möglichst wenigen Fragen die richtige Karte zu finden?
-     d.  Angenommen, die Antwort auf die obige Frage lautet „Nein". Wie viel Information hast du gewonnen?
-     e.  Wie viel Information liefert die Antwort „Ja" auf die gleiche Frage?
-     f.  Riskantere Fragen können dir mehr Informationen als 1 Bit liefern. Allerdings ist die günstige Antwort dann auch unwahrscheinlicher. Stelle anhand des Erwartungswerts für die Information $E[I]$ einer Frage dar, warum genau ein Bit das Optimum ist!
-     g.  Erläutere mit deinen eigenen Worten und ohne Formeln, warum unwahrscheinlichere Ereignisse (hier: Antworten) mehr Informationen liefern!
+{{< include exercises/exercises-code-systems.qmd >}}
 

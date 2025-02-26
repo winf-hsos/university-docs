@@ -31,9 +31,11 @@
 
 15.  Entwickle einen Algorithmus, der prüft ob eine eingegebene Zahl eine Primzahl ist. Stelle den Algorithmus als Flussdiagramm dar!
 
-16.  Recherchiere einen Fall, bei dem ein algorithmisches System zu problematischen Entscheidungen geführt hat. Analysiere die Ursachen und schlage Möglichkeiten zur Verbesserung!
+16.  Entwirf einen Algorithmus für den einfachen Getränkeautomaten aus dem vorigen Kapitel. Schreibe den Algorithmus als Pseudocode und als Flussdiagramm auf!
 
-17.  Diskutiert die ethischen Implikationen von nicht-erklärbaren algorithmischen Entscheidungen in kritischen Bereichen wie Medizin oder Rechtsprechung! In welchen Bereichen könnte eine fehlende Erklärbarkeit noch kritisch sein?
+17.  Recherchiere einen Fall, bei dem ein algorithmisches System zu problematischen Entscheidungen geführt hat. Analysiere die Ursachen und schlage Möglichkeiten zur Verbesserung!
+
+18.  Diskutiert die ethischen Implikationen von nicht-erklärbaren algorithmischen Entscheidungen in kritischen Bereichen wie Medizin oder Rechtsprechung! In welchen Bereichen könnte eine fehlende Erklärbarkeit noch kritisch sein?
 
 
 

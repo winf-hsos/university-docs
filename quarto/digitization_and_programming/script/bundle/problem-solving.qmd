@@ -9,7 +9,7 @@ Wir beginnen das Buch im ersten Kapitel, indem wir den wichtigsten Aspekt für d
 -   Was ist das EVA-Modell und wie hilft es uns, Probleme für Computer darzustellen?
 -   Welche Problemlösungsstrategien können wir anwenden?
 
-## Welche Schritte führen zu einer Lösung ?
+## Wie lösen wir Probleme systematisch?
 
 @polya beschreiben in ihrem Aufsatz *How to Solve It* einen weit verbreiteten Ansatz zur Problemlösung. Dieser basiert auf vier Schritten, die als wiederkehrender Kreislauf angewendet werden können und sollten. Obwohl @polya diesen Ansatz ursprünglich für mathematische Probleme entwickelten, lässt er sich auch auf andere Bereiche – insbesondere die Informatik – übertragen. Folgende Schritte beschreiben beide in ihrem Aufsatz:
 

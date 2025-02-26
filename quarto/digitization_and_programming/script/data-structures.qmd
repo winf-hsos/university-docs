@@ -8,13 +8,25 @@ code-line-numbers: true
 subtitle: "Digitalisierung und Programmierung"
 bibliography: bundle/references.bib
 ---
-## Listen
+## Wie stellen wir Daten im Computer dar?
 
-## Mengen
+## Was ist eine Datenstruktur und wozu brauchen wir sie?
 
-## Graphen
+## Welche Datenstrukturen gibt es?
 
-## Bäume
+### Listen
 
-## Warteschlangen
+### Mengen
+
+### Graphen
+
+### Bäume
+
+### Warteschlangen
+
+\newpage
+
+## Übungsaufgaben {.unnumbered}
+
+{{< include exercises/exercises-data-structures.qmd >}}
 

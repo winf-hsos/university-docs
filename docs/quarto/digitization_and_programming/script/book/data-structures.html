@@ -338,11 +338,17 @@ div.csl-indent {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#listen" id="toc-listen" class="nav-link active" data-scroll-target="#listen"><span class="header-section-number">6.1</span> Listen</a></li>
-  <li><a href="#mengen" id="toc-mengen" class="nav-link" data-scroll-target="#mengen"><span class="header-section-number">6.2</span> Mengen</a></li>
-  <li><a href="#graphen" id="toc-graphen" class="nav-link" data-scroll-target="#graphen"><span class="header-section-number">6.3</span> Graphen</a></li>
-  <li><a href="#bäume" id="toc-bäume" class="nav-link" data-scroll-target="#bäume"><span class="header-section-number">6.4</span> Bäume</a></li>
-  <li><a href="#warteschlangen" id="toc-warteschlangen" class="nav-link" data-scroll-target="#warteschlangen"><span class="header-section-number">6.5</span> Warteschlangen</a></li>
+  <li><a href="#wie-stellen-wir-daten-im-computer-dar" id="toc-wie-stellen-wir-daten-im-computer-dar" class="nav-link active" data-scroll-target="#wie-stellen-wir-daten-im-computer-dar"><span class="header-section-number">6.1</span> Wie stellen wir Daten im Computer dar?</a></li>
+  <li><a href="#was-ist-eine-datenstruktur-und-wozu-brauchen-wir-sie" id="toc-was-ist-eine-datenstruktur-und-wozu-brauchen-wir-sie" class="nav-link" data-scroll-target="#was-ist-eine-datenstruktur-und-wozu-brauchen-wir-sie"><span class="header-section-number">6.2</span> Was ist eine Datenstruktur und wozu brauchen wir sie?</a></li>
+  <li><a href="#welche-datenstrukturen-gibt-es" id="toc-welche-datenstrukturen-gibt-es" class="nav-link" data-scroll-target="#welche-datenstrukturen-gibt-es"><span class="header-section-number">6.3</span> Welche Datenstrukturen gibt es?</a>
+  <ul class="collapse">
+  <li><a href="#listen" id="toc-listen" class="nav-link" data-scroll-target="#listen"><span class="header-section-number">6.3.1</span> Listen</a></li>
+  <li><a href="#mengen" id="toc-mengen" class="nav-link" data-scroll-target="#mengen"><span class="header-section-number">6.3.2</span> Mengen</a></li>
+  <li><a href="#graphen" id="toc-graphen" class="nav-link" data-scroll-target="#graphen"><span class="header-section-number">6.3.3</span> Graphen</a></li>
+  <li><a href="#bäume" id="toc-bäume" class="nav-link" data-scroll-target="#bäume"><span class="header-section-number">6.3.4</span> Bäume</a></li>
+  <li><a href="#warteschlangen" id="toc-warteschlangen" class="nav-link" data-scroll-target="#warteschlangen"><span class="header-section-number">6.3.5</span> Warteschlangen</a></li>
+  </ul></li>
+  <li><a href="#übungsaufgaben" id="toc-übungsaufgaben" class="nav-link" data-scroll-target="#übungsaufgaben">Übungsaufgaben</a></li>
   </ul>
 </nav>
     </div>
@@ -351,7 +357,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part-representation.html">Repräsentation</a></li><li class="breadcrumb-item"><a href="./data-structures.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Datenstrukturen</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Datenstrukturen</span></h1>
+<h1 class="title"><span id="sec-data-structures" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Datenstrukturen</span></span></h1>
 </div>
 
 
@@ -368,20 +374,33 @@ div.csl-indent {
 </header>
 
 
-<section id="listen" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="listen"><span class="header-section-number">6.1</span> Listen</h2>
+<section id="wie-stellen-wir-daten-im-computer-dar" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="wie-stellen-wir-daten-im-computer-dar"><span class="header-section-number">6.1</span> Wie stellen wir Daten im Computer dar?</h2>
 </section>
-<section id="mengen" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="mengen"><span class="header-section-number">6.2</span> Mengen</h2>
+<section id="was-ist-eine-datenstruktur-und-wozu-brauchen-wir-sie" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="was-ist-eine-datenstruktur-und-wozu-brauchen-wir-sie"><span class="header-section-number">6.2</span> Was ist eine Datenstruktur und wozu brauchen wir sie?</h2>
 </section>
-<section id="graphen" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="graphen"><span class="header-section-number">6.3</span> Graphen</h2>
+<section id="welche-datenstrukturen-gibt-es" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="welche-datenstrukturen-gibt-es"><span class="header-section-number">6.3</span> Welche Datenstrukturen gibt es?</h2>
+<section id="listen" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="listen"><span class="header-section-number">6.3.1</span> Listen</h3>
 </section>
-<section id="bäume" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="bäume"><span class="header-section-number">6.4</span> Bäume</h2>
+<section id="mengen" class="level3" data-number="6.3.2">
+<h3 data-number="6.3.2" class="anchored" data-anchor-id="mengen"><span class="header-section-number">6.3.2</span> Mengen</h3>
 </section>
-<section id="warteschlangen" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="warteschlangen"><span class="header-section-number">6.5</span> Warteschlangen</h2>
+<section id="graphen" class="level3" data-number="6.3.3">
+<h3 data-number="6.3.3" class="anchored" data-anchor-id="graphen"><span class="header-section-number">6.3.3</span> Graphen</h3>
+</section>
+<section id="bäume" class="level3" data-number="6.3.4">
+<h3 data-number="6.3.4" class="anchored" data-anchor-id="bäume"><span class="header-section-number">6.3.4</span> Bäume</h3>
+</section>
+<section id="warteschlangen" class="level3" data-number="6.3.5">
+<h3 data-number="6.3.5" class="anchored" data-anchor-id="warteschlangen"><span class="header-section-number">6.3.5</span> Warteschlangen</h3>
+
+</section>
+</section>
+<section id="übungsaufgaben" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="übungsaufgaben">Übungsaufgaben</h2>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">

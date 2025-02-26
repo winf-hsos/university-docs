@@ -8,13 +8,21 @@ code-line-numbers: true
 subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
 ---
 1.  Wie heißt die kleinste mögliche Informationseinheit?
+
 2.  Erkläre in deinen eigenen Worten, warum es keine kleinere Informationseinheit als das Bit geben kann!
+
 3.  Was ist ein Trit? Und wie hängt es mit dem Bit zusammen?
+
 4.  Was ist der Unterschied zwischen der Unsicherheit $H$ und Information $I$? Was haben beide Größen gemeinsam?
+
 5.  Erläutere mit eigenen Worten, warum Ja/Nein-Fragen, die den Raum der Möglichkeiten jeweils halbieren, am effizientesten sind, um möglichst viele Informationen zu erhalten!
+
 6.  Warum verwenden wir bei der Berechnung des Speicherbedarfs einer Nachricht die Formel $H = \lceil log_2(S) \rceil \times n$ und nicht $H = log_2(S) \times n$ ?
+
 7.  Warum beeinflusst unser Vorwissen über eine Informationsquelle den Informationsgehalt einer Nachricht?
+
 8.  Ihr sollt einen Buchstaben aus dem Alphabet erraten und dürft so viele Ja/Nein-Fragen stellen, wie ihr wollt. Welche konkreten Fragen stellt ihr?
+
 9.  Wie viele Bits benötigen wir, um die folgenden Anzahlen möglicher Nachrichten zu repräsentieren?
      a.  10
      b.  64
@@ -22,6 +30,7 @@ subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
      d.  1.000
      e.  1.024
      f.  16.777.216
+
 10.  Berechnet den Bedarf an Bits, um die folgenden Nachrichten zu repräsentieren:
      a.  Ein deutsches Autokennzeichen
      b.  Eine Doppelkopfhand
@@ -29,7 +38,9 @@ subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
      d.  Eine zehnstellige Telefonnummer
      e.  Ein acht Zeichen langes Passwort, das nur Großbuchstaben, Kleinbuchstaben und Zahlen enthält
      f.  Eine IPv4-Adresse
+
 11.  Wie viel Information steckt theoretisch in der menschlischen DNA? Warum bräuchten wir in der Praxis deutlich weniger Speicherplatz, um die menschliche DNA zu speichern?
+
 12.  Wir spielen das Spiel, bei dem sich euer Gegenüber eine beliebige Karte aus einem Pokerkartenspiel mit 52 Karten merkt. Deine Aufgabe ist es, durch Ja/Nein-Fragen Informationen zur gesuchten Karte zu erhalten. Beantworte dazu die folgenden Fragen:
      a.  Welche Strategie für die Auwahl deiner Fragen solltest du verfolgen, um die benötigten Fragen zu minimieren?
      b.  Wie viele Fragen benötigst du mit dieser Strategie mindestens, maximal und durchschnittlich, um die gesuchte Karte zu finden?

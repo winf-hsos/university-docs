@@ -297,7 +297,6 @@
 - [functions.pdf](quarto/digitization_and_programming/script/functions.pdf)
 - [index.pdf](quarto/digitization_and_programming/script/index.pdf)
 - [information.pdf](quarto/digitization_and_programming/script/information.pdf)
-- [lifi-project-hardware-software.pdf](quarto/digitization_and_programming/script/lifi-project-hardware-software.pdf)
 - [lifi-project.pdf](quarto/digitization_and_programming/script/lifi-project.pdf)
 - [logic-and-arithmetic.pdf](quarto/digitization_and_programming/script/logic-and-arithmetic.pdf)
 - [loops.pdf](quarto/digitization_and_programming/script/loops.pdf)

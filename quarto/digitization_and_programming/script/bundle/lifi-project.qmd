@@ -1,30 +1,44 @@
 # Das LiFi-Projekt {.unnumbered}
 
+Anhand einer praktischen Problemstellung gestaltet uns das LiFi-Projekt die Einführung in die digitale Welt interessanter, greifbarer und praxisnäher. Als klassisches Ingenieursproblem kann es die grundlegenden Prinzipien der Digitalisierung besonders anschaulich verdeutlichen.
+
 ## Worum geht es im LiFi-Projekt?
 
-[LiFi](https://en.wikipedia.org/wiki/Li-Fi) ist eine Technologie, die die Übertragung von Informationen mithilfe von Licht ermöglicht. Sie nutzt das sichtbare Lichtspektrum, um ein Signal zu erzeugen, das von einem Fotodetektor empfangen werden kann, welcher das von einer LED ausgestrahlte Licht erfasst. Durch die Veränderung der Lichteigenschaften über die Zeit, wie etwa der Wellenlänge oder der Helligkeit, können wir Daten kodieren und übertragen. LiFi bietet großes Potenzial für den Einsatz in Umgebungen, in denen Hochfrequenzsignale Mikroorganismen oder andere empfindliche elektronische Geräte stören könnten. Darüber hinaus könnte LiFi im Gegensatz zu Bluetooth oder WiFi in Robotern eingesetzt werden, die unter Wasser arbeiten.
+Das LiFi-Projekt konzentriert sich auf die Verbindung zwischen analoger und digitaler Welt. Im Zentrum steht die Nutzung von Licht zur Datenübertragung: Digitale Informationen werden in Lichtsignale umgewandelt und beim Empfang wieder zurück in digitale Form konvertiert.
 
-Deine Aufgabe als Teil eines interdisziplinären F&E-Teams in einem Hightech-Unternehmen ist die Entwicklung eines LiFi-Kommunikationsgeräts. Das Unternehmen entwickelt Roboter für Lebensmittel- und Landwirtschaftsanwendungen, und das Gerät soll in die nächste Robotergeneration integriert werden. Es besteht aus zwei Hauptkomponenten: [eine kleine LED](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/RGB_LED_V2.html), die mehr als 16 Millionen Farben des RGB-Farbsystems darstellen kann, und einen [Farbsensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Color_V2.html), der die Intensität der RGB-Farbkanäle und die Lichthelligkeit misst. Ein sogenannter [Master Brick](https://www.tinkerforge.com/en/doc/Hardware/Bricks/Master_Brick.html) – ein Minicomputer – steuert diese Komponenten und gewährleistet die reibungslose Kommunikation zwischen dem Roboter und seinen Peripheriegeräten.
+[LiFi](https://en.wikipedia.org/wiki/Li-Fi) (Light Fidelity) ist eine innovative Technologie zur optischen Datenübertragung. Sie verwendet das sichtbare Lichtspektrum und einen Fotodetektor, der LED-Signale erfasst. Durch präzise Steuerung der Lichteigenschaften - wie Wellenlänge und Helligkeit - werden Daten kodiert und übertragen. Diese Technologie eignet sich besonders für Umgebungen, in denen herkömmliche Funkwellen problematisch sind, etwa in der Nähe empfindlicher Elektronik oder bei Unterwasser-Anwendungen.
+
+Die Kombination von Hardware und Software spielt dabei eine zentrale Rolle. Dies ermöglicht uns, die Grundlagen der computergestützten Informationsverarbeitung praktisch zu verstehen und erste Programmiererfahrungen in einem realen Anwendungskontext zu sammeln.
+
+In diesem Projekt arbeitest du als Mitglied eines interdisziplinären F&E-Teams an der Entwicklung eines LiFi-Kommunikationsgeräts für Roboter im Agrar- und Lebensmittelsektor. Das System basiert auf drei Kernkomponenten: [eine RGB-LED](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/RGB_LED_V2.html) mit über 16 Millionen Farbkombinationen als Sender, ein präziser [Farbsensor](https://www.tinkerforge.com/en/doc/Hardware/Bricklets/Color_V2.html) als Empfänger und ein [Master Brick](https://www.tinkerforge.com/en/doc/Hardware/Bricks/Master_Brick.html) als zentrale Steuerungseinheit für die Kommunikation zwischen Roboter und Peripheriegeräten.
 
 ## Was sind die Ziele?
 
-Das LiFi-Projekt stellt ein typisches Ingenieursproblem dar: die Kombination von Hardware und Software zur Lösung eines Praxisproblems. Die zentralen inhaltlichen Fragen dieses Projekts lauten:
+Das LiFi-Projekt bietet eine praktische Einführung in ein klassisches Ingenieursproblem: die Integration von Hardware und Software zur Lösung realer Herausforderungen. Um die Projektziele systematisch zu erreichen, befassen wir uns mit folgenden Kernfragen:
 
--   Wie können physikalische Größen wie die Temperatur oder Licht gemessen und von einer analogen in eine digitale Form überführt werden?
--   Wie können Algorithmen Entscheidungen auf Basis der digitalen Eingabedaten treffen?
--   Wie können wir mit Lichtsignalen Informationen darstellen?
--   Wie können wir mithilfe einer LED und eines Farbsensors Informationen übertragen?
--   Welches Protokoll eignet sich am besten für die LED-basierte Datenübertragung?
--   Wie verlässlich ist die Datenübertragung?
--   Welche maximale Übertragungsdistanz ist mit Licht möglich?
--   Welche Umgebungsbedingungen sind für eine erfolgreiche Übertragung erforderlich?
--   Wie lässt sich die Datenübertragung sicher gestalten?
--   Welche Datenübertragungsrate können wir erreichen?
--   Wie können wir möglichst effizient kommunizieren?
+### Grundlegende Konzepte
 
-Eine wichtige Einschränkung besteht darin, dass wir all diese Fragen der uns bereitgestellten Hardware beantworten müssen: einer LED und einem Farbsensor.
+-   Wie erfolgt die Umwandlung physikalischer Größen (z.B. Licht, Temperatur) in digitale Daten?
+-   Wie können Algorithmen diese digitalen Daten verarbeiten und nutzen?
 
-Am Ende dieses Projekts wirst du nicht nur das Ingenieursproblem gelöst, sondern auch Antworten auf die genannten Fragen gefunden haben. Als zusätzlichen Bonus erwirbst du dabei tiefere Einblicke in die digitale Welt sowie grundlegende Programmierkenntnisse.
+### Technische Umsetzung
+
+-   Wie funktioniert die Informationsübertragung mittels Lichtsignalen?
+-   Wie lässt sich ein effektives Kommunikationssystem mit LED und Farbsensor realisieren?
+-   Welches Übertragungsprotokoll eignet sich optimal für die LED-basierte Kommunikation?
+
+### Leistungsmerkmale
+
+-   Wie zuverlässig ist die Datenübertragung?
+-   Welche maximale Übertragungsdistanz können wir erreichen?
+-   Welche Umgebungsbedingungen sind erforderlich?
+-   Wie kann die Übertragungssicherheit gewährleistet werden?
+-   Welche Datenübertragungsrate ist möglich?
+-   Wie lässt sich die Kommunikationseffizienz optimieren?
+
+Dabei arbeiten wir ausschließlich mit der bereitgestellten Hardware - einer LED und einem Farbsensor - um diese Fragen zu beantworten.
+
+Nach Abschluss des Projekts wirst du nicht nur praktische Lösungen für diese technischen Herausforderungen entwickelt haben, sondern auch ein fundiertes Verständnis der digitalen Welt und grundlegende Programmierfähigkeiten erworben haben.
 
 ## Wie gehen wir vor?
 

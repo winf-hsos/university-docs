@@ -15,9 +15,9 @@ Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Prob
 
 ### Herkunft des Begriffs
 
-Der Begriff "**Algorithmus**" [stammt vom Namen des persischen Mathematikers Muhammad al-Khwarizmi](https://www.wissenschaftsjahr.de/2008/coremedia/generator/wj2008/de/02__Mathematik__alles__was__z_C3_A4hlt/05__KW50__Algorithmus.html), der um das Jahr 780 n. Chr. geboren wurde. Al-Khwarizmi war ein bedeutender Gelehrter am Hofe des Kalifen al-Mamun und verfasste dort Schriften, die den Gebrauch der indischen Zahlzeichen erklärten. Diese Schriften wurden im 12. Jahrhundert ins Lateinische übersetzt, wobei der Titel "Algoritmi de numero Indorum" verwendet wurde. Im Laufe der Zeit wurde der Name al-Khwarizmi zur Bezeichnung für die von ihm beschriebenen Rechenverfahren und entwickelte sich schließlich zum modernen Begriff "Algorithmus".
+Der Begriff *Algorithmus *hat eine [interessante geschichtliche Herkunft](https://www.wissenschaftsjahr.de/2008/coremedia/generator/wj2008/de/02__Mathematik__alles__was__z_C3_A4hlt/05__KW50__Algorithmus.html). Er leitet sich vom Namen eines persischen Mathematikers des 9. Jahrhunderts ab: *Abu Dschaʿfar Muhammad ibn Mūsā al-Chwārizmī*. Dieser Gelehrte schrieb ein Buch über Rechenverfahren mit den damals neuen indisch-arabischen Ziffern. In lateinischer Übersetzung des Werks wurde aus seinem Namen "Algoritmi", woraus sich das Wort *Algorismus *und schließlich *Algorithmus *entwickelte. Ursprünglich bezeichnete *Algorismus *tatsächlich die schriftlichen Rechenverfahren (Addition, Subtraktion etc.) mit arabischen Ziffern. Heutzutage verstehen wir unter einem Algorithmus aber jedes Verfahren, das nach festen Regeln abläuft – nicht nur Rechenverfahren. Die historische Anekdote zeigt jedoch, dass Algorithmen seit jeher mit systematischem **Problemlösen **und **Rechenvorschriften **verbunden sind.
 
-Heute bezeichnet ein **Algorithmus**\index{Algorithmus} eine präzise Abfolge von Anweisungen, die ein bestimmtes Problem lösen oder eine Aufgabe erfüllen sollen. Im Alltag begegnen uns Algorithmen ständig, oft, ohne dass wir es merken: beim Kochen, bei der Wegbeschreibung oder beim Aufbau eines IKEA-Regals.
+Heute bezeichnet ein **Algorithmus**\index{Algorithmus} eine präzise, endliche Abfolge von Anweisungen, die ein bestimmtes Problem lösen oder eine Aufgabe erfüllen sollen. Im Alltag begegnen uns Algorithmen ständig, oft, ohne dass wir es merken: beim Kochen, bei der Wegbeschreibung oder beim Aufbau eines IKEA-Regals.
 
 ### Algorithmen und Programme
 
@@ -43,11 +43,17 @@ Die natürliche Sprache bietet eine intuitive Möglichkeit, Algorithmen zu besch
 
 Für die professionelle Informatik ist diese informelle Darstellungsform jedoch nur bedingt geeignet. Während handschriftliche oder natürlichsprachliche Notizen für erste Entwürfe und Skizzen durchaus nützlich sein können, erfordern die präzise Dokumentation und der fachliche Austausch über Algorithmen eine formellere Notation.
 
-Die natürliche Sprache weist für die präzise Beschreibung von Algorithmen zwei wesentliche Nachteile auf. Erstens ist sie mehrdeutig: Wörter und Sätze können je nach Kontext und Formulierung unterschiedlich interpretiert werden. Zweitens ist sie oft unnötig ausführlich, was die klare und effiziente Kommunikation von Algorithmen erschwert. Um diese Herausforderungen zu bewältigen, haben sich in der Informatik zwei formellere und präzisere Darstellungsformen durchgesetzt: Pseudocode und Flussdiagramme.
+Die natürliche Sprache weist für die präzise Beschreibung von Algorithmen drei wesentliche Einschränkungen auf:
+
+Erstens ist sie inhärent mehrdeutig: Ein und derselbe Satz kann je nach Kontext und Interpretation unterschiedliche Bedeutungen haben. Dies steht im Widerspruch zu der Eindeutigkeit, die Algorithmen erfordern. Das Wort "Bank" ist ein klassisches Beispiel für Mehrdeutigkeit im Deutschen. Es kann sich auf eine Sitzgelegenheit zum Ausruhen oder auf ein Finanzinstitut beziehen. Der Satz "Gehe zur Bank" könnte also zwei völlig unterschiedliche Bedeutungen haben - soll Geld abgehoben oder sich hingesetzt werden?
+
+Zweitens setzt die natürliche Sprache oft implizites Wissen und Erfahrung voraus. Ein Kochrezept kann beispielsweise die Anweisung "Backe den Kuchen, bis er goldbraun ist" enthalten. Für einen Algorithmus ist diese Anweisung problematisch, da sie keine messbaren Kriterien enthält und stattdessen menschliches Urteilsvermögen voraussetzt. Ein Algorithmus benötigt exakte Angaben, wie zum Beispiel eine Zeitdauer und eine Temperatur. Eine bessere Version im Sinne eines Algorithmus wäre demnach: “Backe den Kuchen bei 180° C im vorgeheizten Ofen für 80 Minuten.”.
+
+Drittens neigt die natürliche Sprache zu Weitschweifigkeit und Redundanz. Dies erschwert die präzise und effiziente Kommunikation algorithmischer Abläufe. Um diese Herausforderungen zu bewältigen, haben sich in der Informatik zwei formellere und präzisere Darstellungsformen etabliert: Pseudocode und Flussdiagramme.
 
 ### Pseudocode
 
-Pseudocode\index{Pseudocode} ist eine strukturierte, programmiersprachenähnliche Notation zur Beschreibung von Algorithmen. Er kombiniert Elemente der natürlichen Sprache mit grundlegenden Programmierkonzepten wie Schleifen, Bedingungen und Funktionen. Der Vorteil des Pseudocodes liegt in seiner Präzision und Klarheit, ohne dabei an die strengen syntaktischen Regeln einer echten Programmiersprache gebunden zu sein.
+Pseudocode\index{Pseudocode} ist eine strukturierte, programmiersprachenähnliche Notation zur Beschreibung von Algorithmen. Er ist eine Art Zwischenlösung zwischen natürlicher Sprache und Programmiersprache und kombiniert Elemente der natürlichen Sprache mit grundlegenden Programmierkonzepten wie Schleifen, Bedingungen und Funktionen. Der Vorteil des Pseudocodes liegt in seiner Präzision und Klarheit, ohne dabei an die strengen syntaktischen Regeln einer echten Programmiersprache gebunden zu sein.
 
 Ein wichtiges Merkmal des Pseudocodes ist seine Flexibilität: Er kann je nach Bedarf formeller oder informeller gestaltet werden, solange die grundlegende Logik und Struktur des Algorithmus klar erkennbar bleiben. Dabei werden häufig standardisierte Schlüsselwörter wie "IF", "THEN", "WHILE" oder "REPEAT" verwendet, die die algorithmische Struktur verdeutlichen.
 
@@ -63,9 +69,15 @@ Flussdiagramme\index{Flussdiagramm} bieten eine visuelle Darstellung von Algorit
 
 ![Der Euklid’sche Algorithmus als Flussdiagramm.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_gcd.png){fig-align="center" width=100% #fig-euclid-flow .lightbox}
 
+Eine Alternative zu Flussdiagrammen sind die Struktogramme, die auch [Nassi-Shneiderman-Diagramme](https://de.wikipedia.org/wiki/Nassi-Shneiderman-Diagramm) genannt werden. Diese sind insbesondere im akademischen Bereich poulär, werden hier aber nicht weiter betrachtet.
+
+### Programmcode
+
+Die praktische Umsetzung eines Algorithmus erfolgt typischerweise als Computerprogramm, das in einer spezifischen Programmiersprache wie Python, Java oder C++ geschrieben wird. Der resultierende **Code** stellt eine maschinenausführbare Repräsentation des Algorithmus dar. Dabei ist zu beachten, dass der Code strikt an die Syntax und Regeln der jeweiligen Programmiersprache gebunden ist. Derselbe Algorithmus kann in verschiedenen Programmiersprachen implementiert werden, wobei die konkreten Programme sehr unterschiedlich aussehen können. Diese Unterscheidung führt zu einer wichtigen konzeptionellen Trennung, die wir oben bereits gesehen haben: Der Algorithmus beschreibt die abstrakte Lösungsstrategie, während das Programm die spezifische technische Realisierung in einer bestimmten Programmiersprache darstellt.
+
 ## Welche Arten von Algorithmen gibt es?
 
-Algorithmen können nach ihrer Funktion und ihrem Anwendungsbereich in verschiedene Kategorien eingeteilt werden. Jede Kategorie repräsentiert einen spezifischen Problemlösungsansatz:
+Algorithmen können nach ihrer grundlegenden Vorgehensweise oder ihrem Anwendungsbereich in verschiedene Kategorien eingeteilt werden. Jede Kategorie repräsentiert einen spezifischen Problemlösungsansatz:
 
 -   **Mathematische Algorithmen**: Berechnen oder approximieren Werte
 -   **Suchalgorithmen**: Finden bestimmte Elemente in einer Datenmenge

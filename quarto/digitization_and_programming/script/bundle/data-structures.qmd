@@ -1,12 +1,24 @@
-# Datenstrukturen
+# Datenstrukturen {#sec-data-structures}
 
-## Listen
+## Wie stellen wir Daten im Computer dar?
 
-## Mengen
+## Was ist eine Datenstruktur und wozu brauchen wir sie?
 
-## Graphen
+## Welche Datenstrukturen gibt es?
 
-## Bäume
+### Listen
 
-## Warteschlangen
+### Mengen
+
+### Graphen
+
+### Bäume
+
+### Warteschlangen
+
+\newpage
+
+## Übungsaufgaben {.unnumbered}
+
+{{< include exercises/exercises-data-structures.qmd >}}
 

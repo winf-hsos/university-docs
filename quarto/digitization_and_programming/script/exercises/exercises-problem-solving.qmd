@@ -8,21 +8,28 @@ code-line-numbers: true
 subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
 ---
 1.  Formuliert drei weitere Probleme nach dem vorgestellten EVA-Modell zur Problemlösung mit digitalen Computern. Beschreibt für jedes Problem die Eingabe, die Lösung und die Ausgabe.
-2.  Welche Herausforderungen entstehen, wenn wir ein Problem aus der analogen Welt mit einem Computer lösen möchten?
-3.  Überlegt für jedes der folgenden Probleme, wie ihr es in sinnvolle Teilprobleme im Sinne der Problemzerlegungsstrategie aufteilen könntet:
+
+2.  Beschreibe einen einfachen Getränkeautomaten anhand des EVA-Modells. Überlege dir dabei, welche Eingaben er erhält, welche Entscheidungen während der Verarbeitung getroffen werden müssen und welche Ausgaben daraus resultieren.
+
+3.  Welche Herausforderungen entstehen, wenn wir ein Problem aus der analogen Welt mit einem Computer lösen möchten?
+
+4.  Überlegt für jedes der folgenden Probleme, wie ihr es in sinnvolle Teilprobleme im Sinne der Problemzerlegungsstrategie aufteilen könntet:
      a.  Die Prüfung im Fach Wirtschaftsinformatik erfolgreich bestehen
      b.  Ein Haus bauen
      c.  Einen Marathon laufen
      d.  Eine Weltreise planen
      e.  Eine Party organisieren
-4.  Analysiert die folgenden Probleme und untersucht, welche sich davon in Teilprobleme zerlegen lassen, die parallel gelöst werden können:
+
+5.  Analysiert die folgenden Probleme und untersucht, welche sich davon in Teilprobleme zerlegen lassen, die parallel gelöst werden können:
      a.  Literaturrecherche für eure Abschlussarbeit
      b.  Repräsentative Befragung zur Bundestagswahl
      c.  Ein Haus bauen
      d.  Mais ernten
      e.  Eine Hochzeit planen
-5.  Erläutere die Vor- und Nachteile der linearen Suche in einer beliebigen Liste. Wie schätzt du die Effizienz dieser Methode ein?
-6.  Erkläre den *Divide and Conquer*-Ansatz mit deinen eigenen Worten! Welche Voraussetzung muss ein Problem erfüllen, damit es mit diesem Ansatz lösbar ist?
+
+6.  Erläutere die Vor- und Nachteile der linearen Suche in einer beliebigen Liste. Wie schätzt du die Effizienz dieser Methode ein?
+
+7.  Erkläre den *Divide and Conquer*-Ansatz mit deinen eigenen Worten! Welche Voraussetzung muss ein Problem erfüllen, damit es mit diesem Ansatz lösbar ist?
 
 
 
