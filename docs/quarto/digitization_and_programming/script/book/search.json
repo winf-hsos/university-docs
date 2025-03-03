@@ -286,553 +286,6 @@
     ]
   },
   {
-    "objectID": "part-representation.html",
-    "href": "part-representation.html",
-    "title": "Repräsentation",
-    "section": "",
-    "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Repräsentation"
-    ]
-  },
-  {
-    "objectID": "information.html",
-    "href": "information.html",
-    "title": "3  Informationen",
-    "section": "",
-    "text": "3.1 Wie definieren wir Information?\nZu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.\nIm digitalen Zeitalter sind wir von Information umgeben - ein ständiger Strom von Nachrichten, Daten und Fakten prägt unseren Alltag. Doch was versteht die Informatik unter dem Begriff “Information”? Eine erste Annäherung bietet unsere alltägliche Erfahrung: Information entsteht, wenn wir etwas Neues erfahren, das uns hilft, bessere Entscheidungen zu treffen. Nehmen wir eine Wettervorhersage als Beispiel: Die Aussage “es wird morgen regnen” stellt für jemanden, der das Wetter noch nicht kennt, eine wichtige Information dar - sie reduziert die Unsicherheit über das morgige Wetter. Die Informatik und Informationstheorie greifen genau dieses Konzept auf und definieren Information präzise als die Abnahme von Unsicherheit.\nDieses Kapitel führt systematisch in den Informationsbegriff ein und legt damit das theoretische Fundament für die nachfolgenden Themen: vom Binärsystem als Grundlage der digitalen Informationsverarbeitung über verschiedene Methoden der Informationskodierung bis hin zu praktischen Anwendungen wie Datenkompression und Verschlüsselung.\nInformation begegnet uns im Alltag in vielen Formen – als Nachricht, Erkenntnis oder Mitteilung. Die Informatik verwendet jedoch einen präziseren Informationsbegriff, der sich von diesem alltäglichen Verständnis unterscheidet. Basierend auf Adami (2016) werden wir in diesem Kapitel eine formale Definition von Information entwickeln und anhand konkreter Beispiele veranschaulichen.\nUm das Konzept der Information greifbar zu machen, betrachten wir ein praktisches Gedankenexperiment: ein Zahlenratespiel. Angenommen, ich denke an eine Zahl zwischen 1 und 16 (Abbildung 3.1). Deine Aufgabe ist es, diese Zahl zu erraten. Du hast zwar nur einen finalen Rateversuch, darfst aber zuvor Fragen stellen, die ich mit “ja” oder “nein” beantworte. Diese Fragen haben die Form “Ist die Zahl größer als X?” und helfen dir, die möglichen Zahlen systematisch einzugrenzen.\nBei jeder Antwort reduziert sich deine Unsicherheit über die gesuchte Zahl. Durch den Ausschluss bestimmter Zahlen wird der Bereich möglicher Lösungen kleiner, und dein Wissen über die gesuchte Zahl wächst entsprechend.\nWichtig: Der informationstheoretische Begriff der Information unterscheidet sich vom alltäglichen Verständnis. In der Informatik geht es nicht primär um die inhaltliche Bedeutung (Semantik) einer Nachricht, sondern um die quantitative Reduktion von Unsicherheit. Die Frage ist also nicht, was eine Information inhaltlich - oder semantisch - bedeutet, sondern wie stark sie die vorhandene Ungewissheit verringert.\nDieses Prinzip der Unsicherheitsreduktion bildet das Fundament der Informationstheorie. Mit jeder Antwort, die wir erhalten, sammeln wir Information, die die Unsicherheit reduziert. Aber wie lässt sich dieser Informationsgewinn konkret messen? Welche Menge an Information steckt in einer einzelnen Antwort?",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Informationen</span>"
-    ]
-  },
-  {
-    "objectID": "information.html#wie-definieren-wir-information",
-    "href": "information.html#wie-definieren-wir-information",
-    "title": "3  Informationen",
-    "section": "",
-    "text": "Definition des Informationsbegriffs laut Adami (2016).\n\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 3.1: Das Zahlenratespiel zur Veranschaulichung des Informationsbegriffs.",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Informationen</span>"
-    ]
-  },
-  {
-    "objectID": "information.html#wie-messen-wir-information",
-    "href": "information.html#wie-messen-wir-information",
-    "title": "3  Informationen",
-    "section": "3.2 Wie messen wir Information?",
-    "text": "3.2 Wie messen wir Information?\n\n3.2.1 Bit für Bit\nDie Informatik definiert Information präzise als das, was es uns ermöglicht, richtige Vorhersagen zu treffen, die genauer sind als der pure Zufall (Adami 2016). Dabei konzentriert sich diese Definition auf den messbaren Aspekt: Information reduziert systematisch die Unsicherheit über einen Sachverhalt, indem sie die Anzahl möglicher Optionen eingrenzt.\nBetrachten wir nun unser Zahlenratespiel unter dem Aspekt der Informationstheorie. In diesem Beispiel reduziert jede Antwort systematisch die Anzahl der möglichen Zahlen. Diese Reduzierung der Unsicherheit lässt sich mit einer präzisen Maßeinheit quantifizieren: dem Bit. Ein Bit (von binary digit, Binärziffer) stellt die fundamentale Einheit der Information dar und entspricht einer Halbierung der Unsicherheit. Anders ausgedrückt: Wenn eine Antwort die Anzahl der möglichen Optionen exakt halbiert, gewinnen wir genau ein Bit an Information.\nAllerdings werden nicht alle Fragen und deren Antworten genau ein Bit Information liefern. Wenn zum Beispiel deine erste Frage im Ratespiel lautet: “Ist deine Zahl größer als 12?” und die Antwort “nein” ist, bleiben die Zahlen 1 bis 12 übrig. Das bedeutet, du hast noch 12 Optionen von ursprünglich 16, was die Unsicherheit nicht halbiert. Es werden nur 4 statt der nötigen 8 Möglichkeiten entfernt. Lautet die Antwort dagegen “ja”, so kannst du insgesamt 12 Möglichkeiten streichen, was mehr als der Hälfte entspricht und der Informationsgehalt der Antwort wäre größer als ein Bit.\nUm genau ein Bit Information zu erhalten, solltest du versuchen, mit jeder Frage genau die Hälfte der möglichen Zahlen auszuschließen. Wenn du zum Beispiel fragst “Ist deine Zahl größer als 8?”, stellst du sicher, dass du - egal ob die Antwort “ja” oder “nein” ist - in beiden Fällen 8 mögliche Zahlen übrig behältst. Ist die Antwort “ja”, bleiben die Zahlen 9 bis 16 übrig. Ist die Antwort “nein”, bleiben die Zahlen 1 bis 8. In beiden Szenarien wird deine Unsicherheit um die Hälfte reduziert, also um ein Bit.\nIndem du deine Fragen sorgfältig so wählst, dass sie die verbleibenden Optionen jedes Mal halbieren, reduzierst du deine Unsicherheit Bit für Bit und du findest schneller die richtige Zahl.\n\n\n\n\n\n\n\nDeine Fragen sollten die Anzahl der Möglichkeiten halbieren.\n\n\nAngenommen, die Antwort auf deine erste Frage “Ist deine Zahl größer als 8?” war “nein”. Was sollte deine nächste Frage sein, um die Unsicherheit weiterhin effektiv zu reduzieren? Die beste Strategie ist es zu fragen: “Ist sie größer als 4?”. Diese Vorgehensweise stellt sicher, dass dir immer nur vier mögliche Zahlen bleiben: entweder 1 bis 4, wenn die Antwort “nein” ist, oder 5 bis 8, wenn die Antwort “ja” ist. Erneut halbiert dies die verbleibenden Optionen und liefert genau ein Bit an Information.\n\n\n\n\n\n\n\nNach zwei Fragen bleiben noch 4 Möglichkeitn, wenn die Fragen gut gewählt wurden.\n\n\nLass uns mit dieser Methode fortfahren. Angenommen, deine zweite Frage “Ist sie größer als 4?” erhält ein “nein” als Antwort. Deine neue Auswahl an Zahlen ist auf 1, 2, 3 und 4 begrenzt. Um die Unsicherheit weiter zu reduzieren, wäre die nächste logische Frage: “Ist sie größer als 2?” Dies lässt dir entweder die Zahlen 1 und 2 oder 3 und 4, abhängig von der Antwort.\nIndem du weiterhin Fragen stellst, die systematisch die verbleibenden Optionen halbieren, kannst du sehen, wie wir schrittweise die Unsicherheit Bit für Bit reduzieren. Schließlich wirst du nach nur vier Fragen die Zahl auf genau eine eingrenzen, da keine anderen Möglichkeiten mehr übrig sind. Das bedeutet, du hast die Unsicherheit auf null reduziert.\n\n\n\n\n\n\n\nWir benötigen vier Ja/Nein-Fragen, um die Optionen von 16 auf eine einzige zu reduzieren.\n\n\n\n\n3.2.2 Unsicherheit\nWir haben oben gelernt, dass wir mit jeder Ja/Nein-Frage, die die Hälfte der Möglichkeiten eliminiert, ein Bit an Information gewinnen. Aber wie können wir dieses Konzept der Reduktion von Unsicherheit mathematisch quantifizieren? Wir gehen das Schritt für Schritt durch.\nStell dir vor, du bist am Anfang unseres Zahlenratespiels. Es gibt 16 mögliche Zahlen, an die ich denken könnte, daher ist deine Wahrscheinlichkeit, beim ersten Versuch die richtige Zahl zu erraten, ziemlich gering:\n\\[\nP_{correct} = \\frac{1}{16}\n\\]\nDas entspricht einer Wahrscheinlichkeit von nur 0,0625 - definitiv nicht zu deinen Gunsten. Angenommen, du stellst eine Frage, die die Möglichkeiten auf die Hälfte reduziert. Jetzt verbessert sich deine Chance, richtig zu raten:\n\\[\nP_{correct} = \\frac{1}{8}\n\\]\nMit jeder weiteren Frage verdoppelt sich diese Wahrscheinlichkeit, während sich deine Unsicherheit halbiert. Ist Wahrscheinlichkeit die beste Methode, um Unsicherheit zu messen? Wenn wir möchten, dass unser Maß für Unsicherheit abnimmt, während wir mehr Informationen sammeln, ist es es sinnvoll, den Kehrwert der Wahrscheinlichkeit zu verwenden. Das entspräche der Anzahl an Möglichkeiten, die noch im Rennen sind.\nZu Beginn gibt es 16 Möglichkeiten, also begänne die Unsicherheit bei 16. Nach der ersten Frage fiele sie auf 8, dann auf 4, 2 und schließlich 1. Allerdings würde dieses Maß uns selbst dann, wenn nur noch eine Option übrig ist, eine gewisse Unsicherheit, nämlich 1, anzeigen, was nicht ganz unserem intuitiven Verständnis entspricht. Wenn wir sicher sind, dann sollte die Unsicherheit 0 sein.\nClaude Shannon, der Vater der Informationstheorie, schlug einen anderen Ansatz vor. Er empfahl, die Unsicherheit mithilfe des Logarithmus zur Basis 2 der Anzahl der Möglichkeiten zu messen:\n\\[\nH = log_2(N)\n\\]\nDiese Methode hat mehrere Vorteile. Erstens ist die Unsicherheit gleich null, wenn es nur eine mögliche Antwort gibt (N=1), was mit unserer Intuition übereinstimmt:\n\\[\nlog_2(1) = 0\n\\]\nEin weiterer Vorteil ist die Einfachheit der Berechnungen, besonders wenn es um mehrere unabhängige Unsicherheiten geht. Nehmen wir an, das Spiel ändert sich: Jetzt denke ich an zwei unabhängige Zahlen zwischen 1 und 16. Bevor du irgendwelche Fragen stellst, beträgt deine Unsicherheit für jede Zahl:\n\\[\nlog_2(16)= 4~bits\n\\]\nDie Gesamtunsicherheit für beide Zahlen ist einfach die Summe ihrer individuellen Unsicherheiten:\n\\[\nlog_2(16)+log_2(16)=8~bits\n\\]\nWenn wir stattdessen Wahrscheinlichkeiten verwenden, müssten wir die Chancen multiplizieren, um die Wahrscheinlichkeit zu finden, beide Zahlen korrekt zu erraten:\n\\[\nP_{correct,correct}=\\frac{1}{16}\\times\\frac{1}{16}=\\frac{1}{256}\n\\]\nMit beiden Zahlen gibt es 256 Möglichkeiten. Mit Shannons Methode erhalten wir das gleiche Ergebnis:\n\\[\nlog_2(256)=8~bits\n\\]\nWie du siehst, vereinfacht die Verwendung von Logarithmen unsere Berechnungen, besonders wenn es um mehrere Quellen der Unsicherheit geht. Diese Klarheit und Einfachheit sind der Grund, warum Shannons Ansatz fundamental für die Informationstheorie geworden ist.\n\n\n3.2.3 Information\nUm den Begriff Information aus dem Begriff der Unsicherheit herzuleiten, betrachten wir zwei Zustände: Die ursprüngliche Unsicherheit vor einer Frage, die wir als \\(H_0\\) bezeichnen, und die reduzierte Unsicherheit nach der Antwort, die wir \\(H_1\\) nennen. Die Menge an Information \\(I\\), die wir durch die Antwort gewinnen, entspricht der Differenz dieser beiden Unsicherheiten:\n\\[\nI = H_0 - H_1\n\\]\nInformation ist also die Reduzierung von Unsicherheit. Mit der obigen Formel können wir die Information \\(I\\) präzise quantifizieren. Dies ermöglicht uns zu berechnen, wie viel Information wir durch jede Frage gewinnen. Betrachten wir ein konkretes Beispiel aus unserem Zahlenratespiel: Angenommen, deine erste Frage ist “Ist deine Zahl größer als 12?” und die Antwort lautet “nein”. Dann bleiben die Zahlen 1 bis 12 als Möglichkeiten übrig. Die gewonnene Information berechnet sich wie folgt:\n\\[\nI = log_2(16) - log_2(12) \\approx 4 - 3.585 \\approx 0.415~bits\n\\]\nIn diesem Fall lieferte die Antwort etwa 0,415 Bits an Information – also weniger als ein Bit. Das ist folgerichtig, da die Antwort weniger als die Hälfte der Möglichkeiten eliminiert hat.\nWie sähe es aus, wenn die Antwort “ja” gewesen wäre? In diesem Fall blieben nur die Zahlen 13, 14, 15 und 16 übrig, also vier mögliche Optionen:\n\\[\nI = log_2(16) - log_2(4) = 4-2= 2~bits\n\\]\nDiese Antwort lieferte mehr als ein Bit, nämlich 2 Bits. Wie lässt sich dieser Unterschied erklären?\n\n\n3.2.4 Wahrscheinliche und unwahrscheinliche Antworten\nDie Menge an Information hängt von der Wahrscheinlichkeit der jeweiligen Antwort ab. Bei einer Frage, die die Möglichkeiten halbiert, hat jede Antwort “Ja” oder “Nein” auf die Frage “Ist die Zahl größer als X?” eine Wahrscheinlichkeit von genau 50%. Diese gleichmäßige Verteilung vereinfacht die Berechnung und liefert genau ein Bit an Information.\nBei der Frage “Ist deine Zahl größer als 12?” sind die beiden Antworten “Ja” und “Nein” allerdings nicht gleich wahrscheinlich. Es gibt zwölf mögliche Zahlen, die ein “Nein” ergeben und nur vier, die ein “Ja” ergeben, was Wahrscheinlichkeiten von 75% für “Nein” und 25% für “Ja” bedeutet. Da die “Ja”-Antwort weniger wahrscheinlich ist, ist sie überraschender – und liefert deshalb mehr Information. Wie wir berechnet haben, gibt uns ein “Ja” 2 Bits an Information, während ein “Nein” nur 0,415 Bits liefert.\nDieser Zusammenhang ist ein Kernprinzip der Informationstheorie: Je unwahrscheinlicher ein Ereignis ist, desto mehr Information enthält sein Auftreten. Umgekehrt liefert eine sehr wahrscheinliche Antwort, wie das “Nein” im obigen Beispiel, weniger Information, da sie weniger überraschend ist.\nWarum zielen wir darauf ab, Fragen zu stellen, die die Möglichkeiten gleichmäßig halbieren? Man könnte auch wild raten in der Hoffnung, durch eine unwahrscheinlichere Antwort mehr Informationen zu bekommen – auch wenn man seltener richtig liegt. Die Antwort ist einfach: Eine Frage, die den Raum der Möglichkeiten halbiert, maximiert unseren erwarteten Informationsgewinn. Zwar können wir mit einer riskanten Frage wie “Ist die Zahl größer 15?” unser Glück herausfordern und im Erfolgsfall die Unsicherheit stark verringern. Dies ist jedoch keine nachhaltige Strategie. Wenn wir das Spiel nicht nur einmal, sondern 10, 100 oder 1000 Mal spielen, nähern wir uns im Mittel dem Erwartungswert für die gewonnene Information \\(E[I]\\). Und dieser Erwartungswert favorisiert eindeutig Fragen, die die Hälfte der Möglichkeiten eliminieren.\nUm dies zu verdeutlichen, berechnen wir zunächst den Erwartungswert für die extreme Frage “Ist die Zahl größer 15?”:\n\\[\nE[I] = \\left( \\frac{1}{16}\\times 4 \\right)+ \\left(\\frac{15}{16}\\times 0.09311 \\right)= 0.3373\n\\]\nDer Erwartungswert berechnet sich durch den mit der Wahrscheinlichkeit gewichteten Informationsgewinn für jede mögliche Antwort. Bei der Frage “Ist die Zahl größer als 15?” gibt es ein “Ja” nur dann, wenn die Zahl 16 ist. Von den sechzehn möglichen Zahlen erzeugt also nur eine diese Antwort. Die Wahrscheinlichkeit beträgt somit \\(\\frac{1}{16}\\). In diesem Fall reduziert sich unsere Unsicherheit sofort auf Null, da nur noch eine einzige Möglichkeit übrig bleibt. Die ursprüngliche Unsicherheit betrug 4 Bits:\n\\[\nH_0 = log_2(16) = 4~bits\n\\]\nUnd wenn die Unsicherheit nach der Antwort “Ja” auf Null reduziert wird:\n\\[\nH_1 = log_2(1) = 0~bits\n\\]\nDaraus ergibt sich ein Informationsgehalt von 4 Bits:\n\\[\nI = H_0 - H_1 = 4 - 0 = 4~bits\n\\]\nDies erklärt den ersten Teil der Erwartungswertgleichung. Der zweite Teil folgt demselben Prinzip, allerdings mit einem wichtigen Unterschied: Die Wahrscheinlichkeit für die Antwort “Nein” ist mit \\(\\frac{15}{16}\\) deutlich höher. Gleichzeitig verbleibt eine große Restunsicherheit \\(H_1\\), da wir lediglich eine einzige Zahl ausschließen konnten:\n\\[\nH_1 = log_2(15) \\approx 3.9069~bits\n\\]\nDie gewonnene Information ist somit sehr klein:\n\\[\nI = 4 - 3.9069 \\approx 0.0931~bits\n\\]\nAnhand der Erwartungswertformel konnten wir zeigen, dass eine extreme Frage, die mit viel Glück direkt zum Ziel führt, in unserem Ratespiel einen erwarteten Informationsgehalt von etwa einem Drittel Bit (0,3373) hat. Prüfen wir nun, ob der Erwartungswert für Fragen, die die Hälfte der Möglichkeiten eliminieren, tatsächlich höher ist:\n\\[\nE[I] = \\left(0.5 \\times 1 \\right) + \\left(0.5 \\times 1 \\right) = 0.5 + 0.5 = 1~bit\n\\]\nWie erwartet beträgt der Erwartungswert genau 1 Bit, da bei jeder Antwort – ob “Ja” oder “Nein” – jeweils die Hälfte der Optionen eliminiert wird.\n\n\n3.2.5 Mehr als zwei Antworten\nBisher haben wir in unserem Zahlenratespiel nur Fragen mit zwei Antwortmöglichkeiten betrachtet. Informationen, also Antworten auf Fragen, können jedoch vielfältiger sein. Wie berechnen wir die Information, wenn es mehr als zwei Antwortmöglichkeiten gibt?\nAls Beispiel betrachten wir eine Urne mit farbigen Kugeln in drei Farben: Rot, Grün und Blau. Aus dieser Urne ziehen wir zwei Kugeln, wobei wir nach jedem Zug die gezogene Kugel zurück in die Urne legen. Dieses statistische Experiment bezeichnet man als “Ziehen mit Zurücklegen”.",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Informationen</span>"
-    ]
-  },
-  {
-    "objectID": "information.html#wovon-hängt-der-informationsgehalt-einer-nachricht-ab",
-    "href": "information.html#wovon-hängt-der-informationsgehalt-einer-nachricht-ab",
-    "title": "3  Informationen",
-    "section": "3.3 Wovon hängt der Informationsgehalt einer Nachricht ab?",
-    "text": "3.3 Wovon hängt der Informationsgehalt einer Nachricht ab?\nNach den obigen Ausführungen können wir die Frage nun präzise beantworten: Der Informationsgehalt einer Nachricht hängt hauptsächlich von zwei Faktoren ab: (1) der Anzahl der möglichen Alternativen und (2) deren Wahrscheinlichkeiten.\n\n3.3.1 Anzahl der Alternativen\nJe mehr verschiedene Möglichkeiten es gibt, was eine Nachricht aussagen kann, desto mehr Information kann im besten Fall vermittelt werden. Wenn zum Beispiel ein Lehrbuch-Test eine von zwei Antworten richtig haben kann (etwa wahr/falsch), dann liefert die Korrektur „richtig“ oder „falsch“ maximal 1 Bit Information – es gibt ja nur zwei mögliche Ausgänge. Hat eine Prüfungsfrage aber vier mögliche Antworten (A, B, C, D) von denen genau eine richtig ist, dann liefert die Angabe der korrekten Antwort bis zu \\(\\log_2(4) = 2\\) Bit Information. Allgemein: Ist eine Nachricht eine Auswahl aus \\(N\\) gleich möglichen Alternativen, beträgt ihr Informationsgehalt \\(\\log_2 N\\) Bit. Mehr Alternativen bedeuten einen höheren potentiellen Informationsgehalt.\n\n\n3.3.2 Wahrscheinlichkeiten der Alternativen\nOft sind manche Nachrichten oder Ereignisse wahrscheinlicher als andere. Wie wir gesehen haben, tragen unwahrscheinliche (überraschende) Ereignisse mehr Information bei als sehr wahrscheinliche. Das klassische Beispiel ist das Wetter: In einer Region, in der es normalerweise jeden Tag sonnig ist, enthält die Nachricht „Heute scheint die Sonne“ kaum neue Information – es war ja ohnehin zu erwarten. Dagegen wäre in dieser Region die Nachricht „Heute regnet es“ deutlich informativer (weil Regen dort selten ist). In einer Regenwald-Region wäre es umgekehrt. Der Informationsgehalt ist also höher, je unwahrscheinlicher (überraschender) der Inhalt der Nachricht ist. Formal spiegelt das die Formel \\(I(p) = -\\log_2 p\\) wider: Kleine Wahrscheinlichkeit \\(p\\) (seltenes Ereignis) ergibt großes \\(I(p)\\).\n\n\n3.3.3 Länge der Nachricht (Anzahl Zeichen)\nEin weiterer offensichtlicher Faktor ist die Menge an Zeichen oder Symbolen, aus denen sich die Nachricht zusammensetzt. Eine längere Nachricht kann natürlich mehr Information tragen als eine sehr kurze, da sie mehr Inhalte übermitteln kann. Allerdings hängt das nicht nur von der Länge ab, sondern auch davon, ob die zusätzlichen Zeichen tatsächlich neue Information liefern oder nur bereits Bekanntes wiederholen. Mehr dazu gleich beim Thema Redundanz. Aber grundsätzlich können wir sagen: Der Informationsgehalt einer längeren Nachricht, die aus mehreren Symbolen besteht, ist – bei unabhängigen Symbolen – die Summe der Informationsgehalte der einzelnen Symbole\nBeispiel: Besteht eine Nachricht aus 3 Buchstaben, und jeder Buchstabe trägt im Durchschnitt 4 Bit Information, dann hat die ganze Nachricht etwa \\(3 \\cdot 4 = 12\\) Bit Informationsgehalt (unter der Annahme, dass die Buchstaben unabhängig und nicht vorhersagbar voneinander sind).\nZusammengefasst: Der Informationsgehalt einer Nachricht hängt von der Unsicherheit ab, die sie ausräumt. Diese Unsicherheit wiederum ergibt sich aus der Zahl der möglichen Nachrichten und deren Verteilung. Maximal informativ ist eine Nachricht, die aus vielen möglichen, gleich wahrscheinlichen Alternativen ausgewählt wurde – dann ist die Überraschung am größten. Wenn einige Ergebnisse schon vorher sehr wahrscheinlich sind, verringert sich der Informationsgehalt entsprechend.\nFachbegriffe: Informationsgehalt bezeichnet die Menge an Information, die eine konkrete Nachricht liefert. Sie ist umso höher, je mehr mögliche Alternativen es gab und je unwahrscheinlicher die empfangene Nachricht war. Bei zusammengesetzten Nachrichten addieren sich die Informationsgehalte der Teile (wenn sie unabhängig voneinander sind).",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Informationen</span>"
-    ]
-  },
-  {
-    "objectID": "information.html#was-ist-redundanz-und-welche-rolle-spielt-sie",
-    "href": "information.html#was-ist-redundanz-und-welche-rolle-spielt-sie",
-    "title": "3  Informationen",
-    "section": "3.4 Was ist Redundanz und welche Rolle spielt sie?",
-    "text": "3.4 Was ist Redundanz und welche Rolle spielt sie?",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Informationen</span>"
-    ]
-  },
-  {
-    "objectID": "information.html#welcher-zusammenhang-besteht-zwischen-information-und-daten",
-    "href": "information.html#welcher-zusammenhang-besteht-zwischen-information-und-daten",
-    "title": "3  Informationen",
-    "section": "3.5 Welcher Zusammenhang besteht zwischen Information und Daten",
-    "text": "3.5 Welcher Zusammenhang besteht zwischen Information und Daten\nDie kurze Antwort lautet: Daten repräsentieren Informationen. Daten sind die physische oder digitale Repräsentation von Informationen in einer bestimmten Form oder Struktur. Wenn wir zum Beispiel die Zahl “42” auf Papier schreiben oder in einem Computer speichern, dann sind die geschriebenen Ziffern oder die Bits im Speicher die Daten, während die tatsächliche Bedeutung – also die Zahl zweiundvierzig – die Information ist. Vielleicht eine Antwort auf eine Frage wie die nach dem Sinn des Lebens? Ein Computer verarbeitet dabei ausschließlich Daten in Form von Bits, die dann durch entsprechende Programme wieder in für Menschen verständliche Informationen umgewandelt werden. Dazu verwenden wir dann die Codesysteme, die wir in Kapitel 5 kennenlernen.",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Informationen</span>"
-    ]
-  },
-  {
-    "objectID": "information.html#übungsaufgaben",
-    "href": "information.html#übungsaufgaben",
-    "title": "3  Informationen",
-    "section": "Übungsaufgaben",
-    "text": "Übungsaufgaben\n\nIhr wollt euch für komplettes Skatspiel die Abfolge schwarzer (Pik, Kreuz) und roter (Herz, Karo) Karten merken und als Hexadezimalzahl kodieren. Wie viele Ziffern müsst ihr euch merken?\nDu schreibst eine Kurznachricht und kodierst sie mit dem ASCII-Codesystem. Deine Nachricht hat inklusive Leerzeichen 40 Zeichen. Wie viele Bytes benötigst du für Kodierung deiner Nachricht?\nDu möchtest ein Foto speichern, dessen Pixel als RGB-Werte repräsentiert werden. Das Foto soll 200 x 300 Pixel haben. Welchen Speicherbedarf haben die Farbwerte aller Pixel zusammen?\nDu möchtest ein Foto im RGB-Format speichern und hast 0,75 MB zur Verfügung. Das Foto ist quadratisch. Welche Dimension hat das größtmögliche Bild, dass in den vorhandenen Speicher passt?\nDu möchtest ein Bild in insgesamt 256 Graustufen speichern. Das Bild hat eine Auflösung von 1200 x 800 Pixel. Wie viel Speicherplatz benötigst du?\nDu möchtest ein Bild im Schwarz/Weiß-Format speichern. Du hast 0,5 KB zur Verfügung. Wie viele Pixel kannst du speichern?\nErmittle die maximale Farbtiefe, die du für ein Bild mit 1000 x 800 Pixeln und einer Dateigröße von 0,8 MB verwenden kannst.\nWie viele Farben könnten wir kodieren, wenn wir nur 7 Bits statt 8 für jede der Grundfarben Rot, Grün und Blau verwenden würden?\nWäre es sinnvoll, eine erweiterte Version des RGB-Codes zu erstellen, die für jede der Grundfarben ein zusätzliches Nibble hinzufügt? Wie viele Farben könnten wir dann kodieren? Finde Argumente für und gegen diese Idee!\nWir hatten nicht immer die vollen 16.777.216 Farben auf unseren Computerbildschirmen. Recherchiere, wie sich Farbcodes im Laufe der Geschichte der digitalen Computer entwickelt haben. Kannst du einige Screenshots aus längst vergangenen Zeiten finden?\nDu möchtest eine Audiodatei mit einer Länge von 1 Minute speichern. Du wählst eine Sample Rate von 4000 Hz und eine Bit Depth von 16 Bit. Wie groß wird die Datei?\nDu hast eine Audiodatei (unkomprimiert) mit einer Länge von 10 Sekunden und einer Größe von 100 KB. Du weißt, dass die Sample Rate 5 Khz beträgt. Welche Bit Depth hat die Aufnahme?\nDu entwirfst ein Logo für deine Firma, das du auf möglichst unterschiedlichen Medien, vom Flyer bis zum Plakat, in hoher Qualität drucken möchtest. Welches Dateiformat wählst du und warum?\nErläutere den Unterschied zwischen Codesystemen mit fester und variabler Länge. Nenne jeweils ein Beispiel.\nIst der Morsecode ein binäres Codesystem? Begründe deine Antwort.\nWie viele Bits verwendet der Braille-Code, um ein Symbol darzustellen? Ist der Braille-Code ein Binärcode?\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Informationen</span>"
-    ]
-  },
-  {
-    "objectID": "bits.html",
-    "href": "bits.html",
-    "title": "4  Bits",
-    "section": "",
-    "text": "4.1 Ist das Bit die kleinste Informationseinheit?\nZu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bits</span>"
-    ]
-  },
-  {
-    "objectID": "bits.html#was-ist-ein-byte",
-    "href": "bits.html#was-ist-ein-byte",
-    "title": "4  Bits",
-    "section": "4.2 Was ist ein Byte?",
-    "text": "4.2 Was ist ein Byte?",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bits</span>"
-    ]
-  },
-  {
-    "objectID": "bits.html#übungsaufgaben",
-    "href": "bits.html#übungsaufgaben",
-    "title": "4  Bits",
-    "section": "Übungsaufgaben",
-    "text": "Übungsaufgaben\n\nKonvertiert die folgenden Dezimalzahlen in das Binärsystem!\n\n12\n27\n85\n128\n255\n\nKonvertiert die folgenden Binärzahlen in das Dezimalsystem!\n\n1001\n1110\n101011\n1101010\n10000001\n\nKonvertiert die folgenden Oktalzahlen in das Dezimalsystem!\n\n7\n10\n20\n77\n100\n\nRecherchiert einen einfachen Algorithmus zur Konvertierung einer Dezimalzahl in eine Binärzahl. Beschreibt den Algorithmus mit euren eigenen Worten und erläutert ihn an einem konkreten Beispiel.\nIm Hexadezimalsystem zur Basis 16 reichen die Ziffern 0-9 nicht aus, um alle möglichen Werte darzustellen. Wie wird dieses Problem gelöst?\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bits</span>"
-    ]
-  },
-  {
-    "objectID": "code-systems.html",
-    "href": "code-systems.html",
-    "title": "5  Codesysteme",
-    "section": "",
-    "text": "5.1 ASCII-Code",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Codesysteme</span>"
-    ]
-  },
-  {
-    "objectID": "code-systems.html#verallgemeinerung-von-codesystemen",
-    "href": "code-systems.html#verallgemeinerung-von-codesystemen",
-    "title": "5  Codesysteme",
-    "section": "5.2 Verallgemeinerung von Codesystemen",
-    "text": "5.2 Verallgemeinerung von Codesystemen",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Codesysteme</span>"
-    ]
-  },
-  {
-    "objectID": "code-systems.html#unicode",
-    "href": "code-systems.html#unicode",
-    "title": "5  Codesysteme",
-    "section": "5.3 Unicode",
-    "text": "5.3 Unicode",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Codesysteme</span>"
-    ]
-  },
-  {
-    "objectID": "code-systems.html#rgb-code",
-    "href": "code-systems.html#rgb-code",
-    "title": "5  Codesysteme",
-    "section": "5.4 RGB-Code",
-    "text": "5.4 RGB-Code",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Codesysteme</span>"
-    ]
-  },
-  {
-    "objectID": "code-systems.html#code-vs-codec",
-    "href": "code-systems.html#code-vs-codec",
-    "title": "5  Codesysteme",
-    "section": "5.5 Code vs Codec",
-    "text": "5.5 Code vs Codec\nDer Begriff Codec leitet sich von den zwei Wörtern encoder und decoder ab. Die beiden Begriffe werden zwar ähnlich geschrieben, unterscheiden sich aber in ihrer Bedeutung. Ein Codec beschreibt ein Vorgehen oder einen Algorithmus, um Daten vor dem Senden nach einem definierten Verfahren zu kodieren und nach dem Empfang wieder zu dekodieren. Dies ist besonders sinnvoll, um Informationen effizienter zu übertragen und weniger Bandbreite zu beanspruchen. Zudem können Daten verschlüsselt und die Kommunikation dadurch sicherer gemacht werden. Wir lernen einige Methoden für beide Anwendungsfälle in einem späteren Kapitel kennen. Im Gegensatz dazu beschreibt ein Code ein System, das einer Reihe von Symbolen eine bestimmte Bedeutung zuordnet, wie wir in diesem Abschnitt gesehen haben.",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Codesysteme</span>"
-    ]
-  },
-  {
-    "objectID": "code-systems.html#übungsaufgaben",
-    "href": "code-systems.html#übungsaufgaben",
-    "title": "5  Codesysteme",
-    "section": "5.6 Übungsaufgaben",
-    "text": "5.6 Übungsaufgaben\n\nIhr wollt euch für komplettes Skatspiel die Abfolge schwarzer (Pik, Kreuz) und roter (Herz, Karo) Karten merken und als Hexadezimalzahl kodieren. Wie viele Ziffern müsst ihr euch merken?\nDu schreibst eine Kurznachricht und kodierst sie mit dem ASCII-Codesystem. Deine Nachricht hat inklusive Leerzeichen 40 Zeichen. Wie viele Bytes benötigst du für Kodierung deiner Nachricht?\nDu möchtest ein Foto speichern, dessen Pixel als RGB-Werte repräsentiert werden. Das Foto soll 200 x 300 Pixel haben. Welchen Speicherbedarf haben die Farbwerte aller Pixel zusammen?\nDu möchtest ein Foto im RGB-Format speichern und hast 0,75 MB zur Verfügung. Das Foto ist quadratisch. Welche Dimension hat das größtmögliche Bild, dass in den vorhandenen Speicher passt?\nDu möchtest ein Bild in insgesamt 256 Graustufen speichern. Das Bild hat eine Auflösung von 1200 x 800 Pixel. Wie viel Speicherplatz benötigst du?\nDu möchtest ein Bild im Schwarz/Weiß-Format speichern. Du hast 0,5 KB zur Verfügung. Wie viele Pixel kannst du speichern?\nErmittle die maximale Farbtiefe, die du für ein Bild mit 1000 x 800 Pixeln und einer Dateigröße von 0,8 MB verwenden kannst.\nWie viele Farben könnten wir kodieren, wenn wir nur 7 Bits statt 8 für jede der Grundfarben Rot, Grün und Blau verwenden würden?\nWäre es sinnvoll, eine erweiterte Version des RGB-Codes zu erstellen, die für jede der Grundfarben ein zusätzliches Nibble hinzufügt? Wie viele Farben könnten wir dann kodieren? Finde Argumente für und gegen diese Idee!\nWir hatten nicht immer die vollen 16.777.216 Farben auf unseren Computerbildschirmen. Recherchiere, wie sich Farbcodes im Laufe der Geschichte der digitalen Computer entwickelt haben. Kannst du einige Screenshots aus längst vergangenen Zeiten finden?\nDu möchtest eine Audiodatei mit einer Länge von 1 Minute speichern. Du wählst eine Sample Rate von 4000 Hz und eine Bit Depth von 16 Bit. Wie groß wird die Datei?\nDu hast eine Audiodatei (unkomprimiert) mit einer Länge von 10 Sekunden und einer Größe von 100 KB. Du weißt, dass die Sample Rate 5 Khz beträgt. Welche Bit Depth hat die Aufnahme?\nDu entwirfst ein Logo für deine Firma, das du auf möglichst unterschiedlichen Medien, vom Flyer bis zum Plakat, in hoher Qualität drucken möchtest. Welches Dateiformat wählst du und warum?\nErläutere den Unterschied zwischen Codesystemen mit fester und variabler Länge. Nenne jeweils ein Beispiel.\nIst der Morsecode ein binäres Codesystem? Begründe deine Antwort.\nWie viele Bits verwendet der Braille-Code, um ein Symbol darzustellen? Ist der Braille-Code ein Binärcode?\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Codesysteme</span>"
-    ]
-  },
-  {
-    "objectID": "data-structures.html",
-    "href": "data-structures.html",
-    "title": "6  Datenstrukturen",
-    "section": "",
-    "text": "6.1 Wie stellen wir Daten im Computer dar?",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Datenstrukturen</span>"
-    ]
-  },
-  {
-    "objectID": "data-structures.html#was-ist-eine-datenstruktur-und-wozu-brauchen-wir-sie",
-    "href": "data-structures.html#was-ist-eine-datenstruktur-und-wozu-brauchen-wir-sie",
-    "title": "6  Datenstrukturen",
-    "section": "6.2 Was ist eine Datenstruktur und wozu brauchen wir sie?",
-    "text": "6.2 Was ist eine Datenstruktur und wozu brauchen wir sie?",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Datenstrukturen</span>"
-    ]
-  },
-  {
-    "objectID": "data-structures.html#welche-datenstrukturen-gibt-es",
-    "href": "data-structures.html#welche-datenstrukturen-gibt-es",
-    "title": "6  Datenstrukturen",
-    "section": "6.3 Welche Datenstrukturen gibt es?",
-    "text": "6.3 Welche Datenstrukturen gibt es?\n\n6.3.1 Listen\n\n\n6.3.2 Mengen\n\n\n6.3.3 Graphen\n\n\n6.3.4 Bäume\n\n\n6.3.5 Warteschlangen",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Datenstrukturen</span>"
-    ]
-  },
-  {
-    "objectID": "data-structures.html#übungsaufgaben",
-    "href": "data-structures.html#übungsaufgaben",
-    "title": "6  Datenstrukturen",
-    "section": "Übungsaufgaben",
-    "text": "Übungsaufgaben\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Repräsentation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Datenstrukturen</span>"
-    ]
-  },
-  {
-    "objectID": "part-processing.html",
-    "href": "part-processing.html",
-    "title": "Verarbeitung",
-    "section": "",
-    "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Verarbeitung"
-    ]
-  },
-  {
-    "objectID": "analog-vs-digital.html",
-    "href": "analog-vs-digital.html",
-    "title": "7  Analog vs. Digital",
-    "section": "",
-    "text": "7.1 Was ist der Unterschied zwischen der analogen und digitalen Welt?\nZu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Analog vs. Digital</span>"
-    ]
-  },
-  {
-    "objectID": "analog-vs-digital.html#was-ist-der-unterschied-zwischen-der-analogen-und-digitalen-welt",
-    "href": "analog-vs-digital.html#was-ist-der-unterschied-zwischen-der-analogen-und-digitalen-welt",
-    "title": "7  Analog vs. Digital",
-    "section": "",
-    "text": "7.1.1 Endlich viele Möglichkeiten vs. Unendlichkeit\n\n\n7.1.2 Diskrete und kontinuierliche Werte\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Analog vs. Digital</span>"
-    ]
-  },
-  {
-    "objectID": "storage.html",
-    "href": "storage.html",
-    "title": "8  Speicher",
-    "section": "",
-    "text": "8.1 Ist die Speicherung von Informationen an ein Material gebunden?",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Speicher</span>"
-    ]
-  },
-  {
-    "objectID": "storage.html#ist-die-speicherung-von-informationen-an-ein-material-gebunden",
-    "href": "storage.html#ist-die-speicherung-von-informationen-an-ein-material-gebunden",
-    "title": "8  Speicher",
-    "section": "",
-    "text": "8.1.1 Substratunabhängigkeit",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Speicher</span>"
-    ]
-  },
-  {
-    "objectID": "storage.html#welche-speicherformen-gibt-es-in-der-praxis",
-    "href": "storage.html#welche-speicherformen-gibt-es-in-der-praxis",
-    "title": "8  Speicher",
-    "section": "8.2 Welche Speicherformen gibt es in der Praxis?",
-    "text": "8.2 Welche Speicherformen gibt es in der Praxis?\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Speicher</span>"
-    ]
-  },
-  {
-    "objectID": "logic-and-arithmetic.html",
-    "href": "logic-and-arithmetic.html",
-    "title": "9  Logik und Arithmetik",
-    "section": "",
-    "text": "9.1 Schalter",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
-    ]
-  },
-  {
-    "objectID": "logic-and-arithmetic.html#schalter",
-    "href": "logic-and-arithmetic.html#schalter",
-    "title": "9  Logik und Arithmetik",
-    "section": "",
-    "text": "9.1.1 Relais, Vakuumröhren und Transistoren",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
-    ]
-  },
-  {
-    "objectID": "logic-and-arithmetic.html#logikgatter",
-    "href": "logic-and-arithmetic.html#logikgatter",
-    "title": "9  Logik und Arithmetik",
-    "section": "9.2 Logikgatter",
-    "text": "9.2 Logikgatter",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
-    ]
-  },
-  {
-    "objectID": "logic-and-arithmetic.html#binäre-addition",
-    "href": "logic-and-arithmetic.html#binäre-addition",
-    "title": "9  Logik und Arithmetik",
-    "section": "9.3 Binäre Addition",
-    "text": "9.3 Binäre Addition",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
-    ]
-  },
-  {
-    "objectID": "logic-and-arithmetic.html#binäre-subtraktion",
-    "href": "logic-and-arithmetic.html#binäre-subtraktion",
-    "title": "9  Logik und Arithmetik",
-    "section": "9.4 Binäre Subtraktion",
-    "text": "9.4 Binäre Subtraktion",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
-    ]
-  },
-  {
-    "objectID": "logic-and-arithmetic.html#substratunabhängigkeit",
-    "href": "logic-and-arithmetic.html#substratunabhängigkeit",
-    "title": "9  Logik und Arithmetik",
-    "section": "9.5 Substratunabhängigkeit",
-    "text": "9.5 Substratunabhängigkeit\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Logik und Arithmetik</span>"
-    ]
-  },
-  {
-    "objectID": "computer.html",
-    "href": "computer.html",
-    "title": "10  Computer",
-    "section": "",
-    "text": "10.1 Komponenten eines Computers",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Computer</span>"
-    ]
-  },
-  {
-    "objectID": "computer.html#komponenten-eines-computers",
-    "href": "computer.html#komponenten-eines-computers",
-    "title": "10  Computer",
-    "section": "",
-    "text": "von Neumann-Architektur\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Verarbeitung",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Computer</span>"
-    ]
-  },
-  {
-    "objectID": "part-communication.html",
-    "href": "part-communication.html",
-    "title": "Kommunikation",
-    "section": "",
-    "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Kommunikation"
-    ]
-  },
-  {
-    "objectID": "signals.html",
-    "href": "signals.html",
-    "title": "11  Signale",
-    "section": "",
-    "text": "11.1 Was ist ein Signal?\n“A signal is a function that conveys information about the behavior of a system or attributes of some phenomenon”.\nEin Signal ist eine physikalische Größe, die Informationen trägt. Stellen wir uns vor, du stehst an einer Straßenecke und winkst einem Freund auf der anderen Seite zu. Deine Handbewegung ist ein optisches Signal, das die Information „Komm her!“ überträgt. Signale können auch Schallwellen (wie deine Stimme), elektrische Impulse (in Kabeln) oder Licht (in Glasfasern) sein",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Signale</span>"
-    ]
-  },
-  {
-    "objectID": "signals.html#was-ist-ein-signal",
-    "href": "signals.html#was-ist-ein-signal",
-    "title": "11  Signale",
-    "section": "",
-    "text": "11.1.1 Der Kern ist die Veränderung\nEine statische physikalische Größe kann keine Informationen übertragen. Dies haben wir bereits im Kapitel Kapitel 3 kennengelernt. Erst die Veränderung einer physikalischen Größe über die Zeit ermöglicht es, Informationen zu kodieren und zu übertragen. Ein einfaches Beispiel ist das An- und Ausschalten einer Lampe, wobei die Veränderung der Helligkeit das Signal darstellt. Die zeitliche Abfolge dieser Veränderungen kann dann als Nachricht interpretiert werden, wie etwa beim Morsecode.\n\n\n11.1.2 Häufig elektrisch\nEin Signal muss nicht unbedingt eine elektrische Größe wie Spannung (gemessen in Volt) sein. Signale können auch mechanische Größen (Druck, Beschleunigung), optische Größen (Helligkeit, Farbe) oder akustische Größen (Schallwellen) sein. Das Entscheidende ist, dass sich das Signal als messbare Größe über die Zeit verändert und dadurch Informationen transportiert.\nFür die Verarbeitung mit Computern müssen wir alle Signale in elektrische Signale umwandeln. Von dort aus ist es dann ein kleiner Schritt zum digitalen Signal, das nur die Werte Null oder Eins annehmen kann. Dafür nutzen wir sogenannte Analog-to-Digital-Converter (ADC).",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Signale</span>"
-    ]
-  },
-  {
-    "objectID": "signals.html#wie-können-wir-signale-erzeugen",
-    "href": "signals.html#wie-können-wir-signale-erzeugen",
-    "title": "11  Signale",
-    "section": "11.2 Wie können wir Signale erzeugen?",
-    "text": "11.2 Wie können wir Signale erzeugen?\n\n11.2.1 Von digital zu analog\n\n\n11.2.2 Die LED",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Signale</span>"
-    ]
-  },
-  {
-    "objectID": "signals.html#wie-können-wir-signale-emfpangen",
-    "href": "signals.html#wie-können-wir-signale-emfpangen",
-    "title": "11  Signale",
-    "section": "11.3 Wie können wir Signale emfpangen?",
-    "text": "11.3 Wie können wir Signale emfpangen?\n\n11.3.1 Von analog zu digital\n\n\n11.3.2 Der Farbsensor",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Signale</span>"
-    ]
-  },
-  {
-    "objectID": "signals.html#welche-bedeutung-hat-ein-signal",
-    "href": "signals.html#welche-bedeutung-hat-ein-signal",
-    "title": "11  Signale",
-    "section": "11.4 Welche Bedeutung hat ein Signal?",
-    "text": "11.4 Welche Bedeutung hat ein Signal?\nEin Signal ist zunächst nur eine messbare Abfolge von Veränderungen einer physikalischen Größe über die Zeit. Die Bedeutung, die wir diesen Veränderungen – oder der Modulation – zuschreiben, bestimmen wir selbst.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Signale</span>"
-    ]
-  },
-  {
-    "objectID": "protocols.html",
-    "href": "protocols.html",
-    "title": "12  Protokolle",
-    "section": "",
-    "text": "12.1 Peer-To-Peer",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Protokolle</span>"
-    ]
-  },
-  {
-    "objectID": "protocols.html#handshake",
-    "href": "protocols.html#handshake",
-    "title": "12  Protokolle",
-    "section": "12.2 Handshake",
-    "text": "12.2 Handshake",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Protokolle</span>"
-    ]
-  },
-  {
-    "objectID": "protocols.html#tcpip-https",
-    "href": "protocols.html#tcpip-https",
-    "title": "12  Protokolle",
-    "section": "12.3 TCP/IP & HTTPs",
-    "text": "12.3 TCP/IP & HTTPs\n\nHow can we communicate between two computers?\n\nProtocols / Handshake\nNetzwerk / Internet / P2P-Communication\n\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Protokolle</span>"
-    ]
-  },
-  {
-    "objectID": "encryption.html",
-    "href": "encryption.html",
-    "title": "13  Verschlüsselung",
-    "section": "",
-    "text": "13.1 Verschlüsselung",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Verschlüsselung</span>"
-    ]
-  },
-  {
-    "objectID": "encryption.html#verschlüsselung",
-    "href": "encryption.html#verschlüsselung",
-    "title": "13  Verschlüsselung",
-    "section": "",
-    "text": "13.1.1 Symmetrisch\n\nSymmetric encryption with Caesar Cipher\n\n\n\n13.1.2 Asymmetrisch\n\nAssymetric with RSA Toy",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Verschlüsselung</span>"
-    ]
-  },
-  {
-    "objectID": "encryption.html#digitale-signaturen",
-    "href": "encryption.html#digitale-signaturen",
-    "title": "13  Verschlüsselung",
-    "section": "13.2 Digitale Signaturen",
-    "text": "13.2 Digitale Signaturen\n\nDigital signatures\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Verschlüsselung</span>"
-    ]
-  },
-  {
-    "objectID": "compression.html",
-    "href": "compression.html",
-    "title": "14  Kompression",
-    "section": "",
-    "text": "14.1 Verlustfreie Kompression",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Kompression</span>"
-    ]
-  },
-  {
-    "objectID": "compression.html#verlustfreie-kompression",
-    "href": "compression.html#verlustfreie-kompression",
-    "title": "14  Kompression",
-    "section": "",
-    "text": "Huffman",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Kompression</span>"
-    ]
-  },
-  {
-    "objectID": "compression.html#verlustbehaftete-kompression",
-    "href": "compression.html#verlustbehaftete-kompression",
-    "title": "14  Kompression",
-    "section": "14.2 Verlustbehaftete Kompression",
-    "text": "14.2 Verlustbehaftete Kompression\n\nJPEG\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
-    "crumbs": [
-      "Kommunikation",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Kompression</span>"
-    ]
-  },
-  {
     "objectID": "part-programming.html",
     "href": "part-programming.html",
     "title": "Programmierung",
@@ -845,165 +298,165 @@
   {
     "objectID": "welcome-to-python.html",
     "href": "welcome-to-python.html",
-    "title": "15  Willkommen in Python",
+    "title": "3  Willkommen in Python",
     "section": "",
-    "text": "15.1 Unser erstes Programm\nUnser erstes Programm könnte so aussehen:\nEin Programm besteht aus einer Reihe von Anweisungen, die von einem Computer ausgeführt werden. Ein Programm wird als reiner Text geschrieben, und üblicherweise verwenden wir für jede neue Anweisung eine separate Zeile. Um ein Programm zu schreiben, benötigen wir lediglich einen einfachen Texteditor. Allerdings bevorzugen wir eine vollständige Entwicklungsumgebung wie Visual Studio Code, da sie viele hilfreiche Funktionen wie Syntaxhervorhebung, automatische Vervollständigung und Debugging-Tools bietet, die das Programmieren erleichtern.\nWenn ein Computer ein Programm ausführt, geht er Zeile für Zeile durch das Programm und führt aus, was jede Zeile - oder Anweisung - ihm vorgibt. Im Beispiel oben wird zuerst die Zeile\nausgeführt. Diese Zeile nutzt die Funktion input(), um eine Eingabe vom Benutzer abzufragen. Das Ergebnis wird in einer Variable namens name gespeichert. Anschließend geht der Computer zur nächsten Zeile, wo er die Anweisung\nvorfindet. print() ist eine Funktion, die eine Nachricht auf der Konsole ausgibt.\nVielleicht fragst du dich, was es mit den beiden Zeilen auf sich hat, die mit einem #-Symbol beginnen?\nDiese Zeilen sind Kommentare und gehören nicht zum eigentlichen Programm. Der Computer überspringt sie – sie dienen ausschließlich uns Menschen als Hilfestellung. Ein gut platzierter Kommentar kann das Verständnis des Codes erheblich erleichtern.\nIm Beispiel oben werden die Befehle Zeile für Zeile ausgeführt – das ist der Normalfall in einem Programm. Es gibt jedoch spezielle Anweisungen wie Schleifen, Kontrollstrukturen und Funktionen, die den Computer veranlassen, Befehle in einer anderen Reihenfolge auszuführen. Mit diesen Anweisungen kann der Computer bestimmte Aktionen wiederholen oder Codezeilen überspringen. Keine Sorge, wenn dir diese Konzepte noch nicht ganz klar sind – wir werden sie bald näher kennenlernen.",
+    "text": "3.1 Unser erstes Programm\nUnser erstes Programm könnte so aussehen:\nEin Programm besteht aus einer Reihe von Anweisungen, die von einem Computer ausgeführt werden. Ein Programm wird als reiner Text geschrieben, und üblicherweise verwenden wir für jede neue Anweisung eine separate Zeile. Um ein Programm zu schreiben, benötigen wir lediglich einen einfachen Texteditor. Allerdings bevorzugen wir eine vollständige Entwicklungsumgebung wie Visual Studio Code, da sie viele hilfreiche Funktionen wie Syntaxhervorhebung, automatische Vervollständigung und Debugging-Tools bietet, die das Programmieren erleichtern.\nWenn ein Computer ein Programm ausführt, geht er Zeile für Zeile durch das Programm und führt aus, was jede Zeile - oder Anweisung - ihm vorgibt. Im Beispiel oben wird zuerst die Zeile\nausgeführt. Diese Zeile nutzt die Funktion input(), um eine Eingabe vom Benutzer abzufragen. Das Ergebnis wird in einer Variable namens name gespeichert. Anschließend geht der Computer zur nächsten Zeile, wo er die Anweisung\nvorfindet. print() ist eine Funktion, die eine Nachricht auf der Konsole ausgibt.\nVielleicht fragst du dich, was es mit den beiden Zeilen auf sich hat, die mit einem #-Symbol beginnen?\nDiese Zeilen sind Kommentare und gehören nicht zum eigentlichen Programm. Der Computer überspringt sie – sie dienen ausschließlich uns Menschen als Hilfestellung. Ein gut platzierter Kommentar kann das Verständnis des Codes erheblich erleichtern.\nIm Beispiel oben werden die Befehle Zeile für Zeile ausgeführt – das ist der Normalfall in einem Programm. Es gibt jedoch spezielle Anweisungen wie Schleifen, Kontrollstrukturen und Funktionen, die den Computer veranlassen, Befehle in einer anderen Reihenfolge auszuführen. Mit diesen Anweisungen kann der Computer bestimmte Aktionen wiederholen oder Codezeilen überspringen. Keine Sorge, wenn dir diese Konzepte noch nicht ganz klar sind – wir werden sie bald näher kennenlernen.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Willkommen in Python</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Willkommen in Python</span>"
     ]
   },
   {
     "objectID": "welcome-to-python.html#unser-erstes-programm",
     "href": "welcome-to-python.html#unser-erstes-programm",
-    "title": "15  Willkommen in Python",
+    "title": "3  Willkommen in Python",
     "section": "",
     "text": "# Ask the user for their name\nname = input(\"What's your name? \")\n\n# Greet the user\nprint(f\"Hello {name}\")\n\n\nname = input(\"What's your name? \")\n\nprint(f\"Hello {name}\")\n\n\n# Ask the user for their name\n# Greet the user",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Willkommen in Python</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Willkommen in Python</span>"
     ]
   },
   {
     "objectID": "welcome-to-python.html#ein-programm-ausführen",
     "href": "welcome-to-python.html#ein-programm-ausführen",
-    "title": "15  Willkommen in Python",
-    "section": "15.2 Ein Programm ausführen",
-    "text": "15.2 Ein Programm ausführen\nUm ein Python-Programm auszuführen, benötigen wir einen Python-Interpreter – das Programm, das unseren Python-Code Zeile für Zeile liest und ausführt. Diesen musst du für dein Betriebssystem herunterladen und wie jedes andere Programm installieren. In Visual Studio Code können wir ein Python-Programm einfach mit einem Klick auf den „Play”-Button oder durch Drücken der Taste F5 starten. Ich persönlich bevorzuge jedoch den Weg über die Kommandozeile (oder Terminal), da wir so die volle Kontrolle über die Ausführung unseres Programms haben. Ein weiterer Vorteil: Wir lernen dabei wichtige Kommandozeilenbefehle kennen, die in der Softwareentwicklung unverzichtbar sind. Mach dich also mit dem Terminal vertraut.\nÖffne direkt ein Terminal in Visual Studio Code über das Menü “Terminal” → “New Terminal”. Bei Windows-Systemen solltest du darauf achten, dass es sich um ein “Command Prompt” (cmd) handelt. Bei Linux-Systemen heißt es “Bash”, auf einem Mac-Rechner heisst es einfach “Shell”.\npython my_first_program.py\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "3  Willkommen in Python",
+    "section": "3.2 Ein Programm ausführen",
+    "text": "3.2 Ein Programm ausführen\nUm ein Python-Programm auszuführen, benötigen wir einen Python-Interpreter – das Programm, das unseren Python-Code Zeile für Zeile liest und ausführt. Diesen musst du für dein Betriebssystem herunterladen und wie jedes andere Programm installieren. In Visual Studio Code können wir ein Python-Programm einfach mit einem Klick auf den „Play”-Button oder durch Drücken der Taste F5 starten. Ich persönlich bevorzuge jedoch den Weg über die Kommandozeile (oder Terminal), da wir so die volle Kontrolle über die Ausführung unseres Programms haben. Ein weiterer Vorteil: Wir lernen dabei wichtige Kommandozeilenbefehle kennen, die in der Softwareentwicklung unverzichtbar sind. Mach dich also mit dem Terminal vertraut.\nÖffne direkt ein Terminal in Visual Studio Code über das Menü “Terminal” → “New Terminal”. Bei Windows-Systemen solltest du darauf achten, dass es sich um ein “Command Prompt” (cmd) handelt. Bei Linux-Systemen heißt es “Bash”, auf einem Mac-Rechner heisst es einfach “Shell”.\npython my_first_program.py\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Willkommen in Python</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Willkommen in Python</span>"
     ]
   },
   {
     "objectID": "variables-and-data-types.html",
     "href": "variables-and-data-types.html",
-    "title": "16  Variablen und Datentypen",
+    "title": "4  Variablen und Datentypen",
     "section": "",
-    "text": "16.1 Wozu dienen Variablen?\nProgramme bestehen aus einer Abfolge von Anweisungen, die der Computer von oben nach unten ausführt. Jede Anweisung kann bei ihrer Ausführung ein Ergebnis erzeugen, beispielsweise wenn wir eine einfache Berechnung durchführen.\nDas obige Beispiel zeigt eine einfache Berechnung einer Rechteckfläche anhand von Breite und Höhe. Um das Ergebnis dieser Berechnung in späteren Programmschritten nutzen zu können, müssen wir es speichern. Hierfür verwenden wir in der Programmierung eine Variable.\nIm Beispiel oben weisen wir der Variable area das Ergebnis der Flächenberechnung zu. Eine Variable funktioniert dabei wie ein Notizzettel, auf dem wir uns etwas Wichtiges aufschreiben. Über den Variablennamen können wir dann jederzeit innerhalb unseres Programms auf den gespeicherten Wert zugreifen. Zum Beispiel können wir ihn auf der Konsole ausgeben:\nOder wir nutzen die Fläche, um das Volumen einer Kiste zu berechnen, nachdem der Benutzer dem Programm die Tiefe mitgeteilt hat:",
+    "text": "4.1 Wozu dienen Variablen?\nProgramme bestehen aus einer Abfolge von Anweisungen, die der Computer von oben nach unten ausführt. Jede Anweisung kann bei ihrer Ausführung ein Ergebnis erzeugen, beispielsweise wenn wir eine einfache Berechnung durchführen.\nDas obige Beispiel zeigt eine einfache Berechnung einer Rechteckfläche anhand von Breite und Höhe. Um das Ergebnis dieser Berechnung in späteren Programmschritten nutzen zu können, müssen wir es speichern. Hierfür verwenden wir in der Programmierung eine Variable.\nIm Beispiel oben weisen wir der Variable area das Ergebnis der Flächenberechnung zu. Eine Variable funktioniert dabei wie ein Notizzettel, auf dem wir uns etwas Wichtiges aufschreiben. Über den Variablennamen können wir dann jederzeit innerhalb unseres Programms auf den gespeicherten Wert zugreifen. Zum Beispiel können wir ihn auf der Konsole ausgeben:\nOder wir nutzen die Fläche, um das Volumen einer Kiste zu berechnen, nachdem der Benutzer dem Programm die Tiefe mitgeteilt hat:",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
     ]
   },
   {
     "objectID": "variables-and-data-types.html#wozu-dienen-variablen",
     "href": "variables-and-data-types.html#wozu-dienen-variablen",
-    "title": "16  Variablen und Datentypen",
+    "title": "4  Variablen und Datentypen",
     "section": "",
     "text": "width * height\n\narea = width * height\n\nprint(area)\n\nvolume = area * depth",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
     ]
   },
   {
     "objectID": "variables-and-data-types.html#konstanten",
     "href": "variables-and-data-types.html#konstanten",
-    "title": "16  Variablen und Datentypen",
-    "section": "16.2 Konstanten",
-    "text": "16.2 Konstanten\nEine Konstante ist ein Sonderfall einer Variable. Der wesentliche Unterschied besteht darin, dass einer Konstante nur einmal ein Wert zugewiesen wird, der sich im weiteren Programmverlauf nicht mehr ändert. Dies ähnelt dem Konzept mathematischer Konstanten wie \\(\\pi\\), die einen unveränderlichen Wert besitzen.\nIn Python definieren wir Konstanten, indem wir alle Buchstaben des Namens groß schreiben:\nPI = 3.14159\nINPUT_FILE = \"data.csv\"\nIn Python gibt es technisch gesehen keine echten Konstanten – sie existieren nur als Konvention. Programmierer nutzen die Großschreibung des Namens, um zu signalisieren, dass der Wert nicht mehr verändert werden soll. Wird der Wert dennoch geändert, führt dies zu keinem technischen Fehler. Dies unterscheidet Python von anderen Programmiersprachen wie Java, wo Konstanten tatsächlich unveränderlich sind.",
+    "title": "4  Variablen und Datentypen",
+    "section": "4.2 Konstanten",
+    "text": "4.2 Konstanten\nEine Konstante ist ein Sonderfall einer Variable. Der wesentliche Unterschied besteht darin, dass einer Konstante nur einmal ein Wert zugewiesen wird, der sich im weiteren Programmverlauf nicht mehr ändert. Dies ähnelt dem Konzept mathematischer Konstanten wie \\(\\pi\\), die einen unveränderlichen Wert besitzen.\nIn Python definieren wir Konstanten, indem wir alle Buchstaben des Namens groß schreiben:\nPI = 3.14159\nINPUT_FILE = \"data.csv\"\nIn Python gibt es technisch gesehen keine echten Konstanten – sie existieren nur als Konvention. Programmierer nutzen die Großschreibung des Namens, um zu signalisieren, dass der Wert nicht mehr verändert werden soll. Wird der Wert dennoch geändert, führt dies zu keinem technischen Fehler. Dies unterscheidet Python von anderen Programmiersprachen wie Java, wo Konstanten tatsächlich unveränderlich sind.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
     ]
   },
   {
     "objectID": "variables-and-data-types.html#benennung-von-variablen",
     "href": "variables-and-data-types.html#benennung-von-variablen",
-    "title": "16  Variablen und Datentypen",
-    "section": "16.3 Benennung von Variablen",
-    "text": "16.3 Benennung von Variablen\nDen Namen einer Variable vergeben wir übrigens selbst, wenn wir ein Programm schreiben. Anstatt wie im Beispiel oben die Variable volume zu nennen, hätten wie sie ebensogut volumen nennen können. Grundsätzlich sind wir frei bei der Benennung von Variablen, wenn wir uns an ein paar kleine Regeln halten, die wir gleich besprechen. Es gibt neben diesen Regeln, die wir einhalten müssen, weil es sonst zu Fehlern kommt, auch eine Konvention unter Programmierern, sich an bestimmte Abmachungen zu halten. Dazu zählt zum Beispiel, dass wir Variablennamen in Englischer Sprache halten, damit Programme weltweit geteilt und verstanden werden können.\n\n16.3.1 Regeln bei der Benennung von Variablen\nDie zwingenden Regeln sind oft spezifisch für die Programmiersprache, die wir verwenden. Allerdings gibt es zwischen den Sprachen bezüglich dieser Regeln eine große Einigkeit. Für Python gelten folgende Regeln, die bei Missachtung zu einem Fehler führen:\n\nEin Variablenname muss mit einem Buchstaben beginnen.\nIn einem Variablennamen dürfen nur Buchstaben aus dem römischen Alphabet, Zahlen und Unterstriche (_) verwendet werden. Leerzeichen, Umlaute oder andere Sonderzeichen sind nicht erlaubt.\nEin Variablenname darf kein reserviertes Schlüsselwort der Programmiersprache sein. Beispielsweise können wir keine Variable print oder if nennen, da diese Wörter in Python bereits eine besondere Bedeutung haben.\n\n\n\n16.3.2 Konventionen bei der Benennung von Variablen\nNeben den festen Regeln solltest du folgende Konventionen unbedingt berücksichtigen:\n\nEin Variablenname sollte mit einem Kleinbuchstaben beginnen. Also area und nicht Area.\nVariablennamen sollten in englischer Sprache gehalten werden. Also area und nicht flaeche.\nVariablennamen sollten aussagekräftig sein und ihre Bedeutung klar vermitteln. Ein Name wie a anstelle von area wäre ungeeignet, auch wenn er kürzer ist. Dank der Autovervollständigung in unserem Code-Editor sind längere Variablennamen kein Problem – sie sind sogar vorzuziehen, da sie die Lesbarkeit des Programms verbessern.\nWenn ein Variablenname aus zwei oder mehreren Wörtern zusammengesetzt ist, dann solltest du einen Unterstrich zur Trennung der Wörter verwenden. Also area_rectangle statt arearectangle. Auch das erhöht die Lesbarkeit des Programms.\n\nDazu sei noch erwähnt, dass Python Groß- und Kleinschreibung unterscheidet. Das heisst konkret, dass die Variablen area und Area in einem Programm zwei unterschiedliche Variablen sind.",
+    "title": "4  Variablen und Datentypen",
+    "section": "4.3 Benennung von Variablen",
+    "text": "4.3 Benennung von Variablen\nDen Namen einer Variable vergeben wir übrigens selbst, wenn wir ein Programm schreiben. Anstatt wie im Beispiel oben die Variable volume zu nennen, hätten wie sie ebensogut volumen nennen können. Grundsätzlich sind wir frei bei der Benennung von Variablen, wenn wir uns an ein paar kleine Regeln halten, die wir gleich besprechen. Es gibt neben diesen Regeln, die wir einhalten müssen, weil es sonst zu Fehlern kommt, auch eine Konvention unter Programmierern, sich an bestimmte Abmachungen zu halten. Dazu zählt zum Beispiel, dass wir Variablennamen in Englischer Sprache halten, damit Programme weltweit geteilt und verstanden werden können.\n\n4.3.1 Regeln bei der Benennung von Variablen\nDie zwingenden Regeln sind oft spezifisch für die Programmiersprache, die wir verwenden. Allerdings gibt es zwischen den Sprachen bezüglich dieser Regeln eine große Einigkeit. Für Python gelten folgende Regeln, die bei Missachtung zu einem Fehler führen:\n\nEin Variablenname muss mit einem Buchstaben beginnen.\nIn einem Variablennamen dürfen nur Buchstaben aus dem römischen Alphabet, Zahlen und Unterstriche (_) verwendet werden. Leerzeichen, Umlaute oder andere Sonderzeichen sind nicht erlaubt.\nEin Variablenname darf kein reserviertes Schlüsselwort der Programmiersprache sein. Beispielsweise können wir keine Variable print oder if nennen, da diese Wörter in Python bereits eine besondere Bedeutung haben.\n\n\n\n4.3.2 Konventionen bei der Benennung von Variablen\nNeben den festen Regeln solltest du folgende Konventionen unbedingt berücksichtigen:\n\nEin Variablenname sollte mit einem Kleinbuchstaben beginnen. Also area und nicht Area.\nVariablennamen sollten in englischer Sprache gehalten werden. Also area und nicht flaeche.\nVariablennamen sollten aussagekräftig sein und ihre Bedeutung klar vermitteln. Ein Name wie a anstelle von area wäre ungeeignet, auch wenn er kürzer ist. Dank der Autovervollständigung in unserem Code-Editor sind längere Variablennamen kein Problem – sie sind sogar vorzuziehen, da sie die Lesbarkeit des Programms verbessern.\nWenn ein Variablenname aus zwei oder mehreren Wörtern zusammengesetzt ist, dann solltest du einen Unterstrich zur Trennung der Wörter verwenden. Also area_rectangle statt arearectangle. Auch das erhöht die Lesbarkeit des Programms.\n\nDazu sei noch erwähnt, dass Python Groß- und Kleinschreibung unterscheidet. Das heisst konkret, dass die Variablen area und Area in einem Programm zwei unterschiedliche Variablen sind.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
     ]
   },
   {
     "objectID": "variables-and-data-types.html#datentypen",
     "href": "variables-and-data-types.html#datentypen",
-    "title": "16  Variablen und Datentypen",
-    "section": "16.4 Datentypen",
-    "text": "16.4 Datentypen\n\n16.4.1 Zeichenketten (Strings)\nVariablen können verschiedene Arten von Daten speichern. In den obigen Beispielen haben wir Zahlen gespeichert (Fläche, Volumen). Neben Zahlen können wir auch Zeichenketten in Variablen speichern, zum Beispiel eine E-Mail-Adresse:\nemail = \"m.mustermann@mail.de\"\nEine Zeichenkette erkennt man an den Anführungszeichen, die den Wert umschließen. Die Anführungszeichen selbst gehören nicht zum Wert, sondern dienen nur der Abgrenzung. Dabei können sowohl doppelte als auch einfache Anführungszeichen verwendet werden:\nemail = 'm.mustermann@mail.de'\nDas Besondere an diesem Datentyp ist, dass innerhalb der Anführungszeichen eine beliebige Abfolge von Zeichen stehen darf. Es können also ganze Texte als String abgebildet werden. Aber auch eher kryptische Werte wie Passwörter:\npassword = \"%?Zha§-ÄiK,!/\"\nEine Besonderheit tritt auf, wenn innerhalb einer Zeichenkette ein Anführungszeichen vorkommen soll. Das das Anführungszeichen schon als Begrenzungszeichen fungiert, müssen wir es mit einem Backslash kennzeichnen. Der Backslash fungiert dann als so genanntes Escape-Zeichen und ist selbst nicht Teil der Zeichenkette:\npassword_with_quotation_mark = \"abc\\\"123\"\nDer Wert der Variable oben wäre somit abc“123, der Backslash ist selbst nicht sichtbar. Was aber, wenn wir nun einen Backslash in einer Zeichenkette verwenden möchten? Ganz einfach, dann brauchen wir zwei Backslashes. Der erste „escaped“ den zweiten:\nstring_with_backslash = \"abc\\\\123\"\nDer Wert der Variable wäre somit abc\\123.\n\n\n16.4.2 Numerische Werte (Integer und Float)\nZahlen sind in Algorithmen und Programmen von zentraler Bedeutung, da wir regelmäßig Berechnungen durchführen müssen. Wie im Beispiel zu Beginn dieses Tutorials gezeigt, haben wir die Fläche eines Rechtecks berechnet und das Ergebnis in einer Variable gespeichert. Solch ein Ergebnis kann entweder eine ganze Zahl oder eine Zahl mit Dezimalstellen sein. Python und andere Programmiersprachen unterscheiden zwischen ganzen Zahlen und Dezimalzahlen, da beide unterschiedliche Anforderungen an den Speicher stellen. Ganze Zahlen werden in Python als Integer bezeichnet, während Dezimalzahlen (oder Gleitkommazahlen) als Float bekannt sind.\nOb es sich um den einen oder den anderen numerischen Datentyp handelt, wird anhand des Ausdrucke entschieden, der einer Variable zugewiesen wird. Betrachten wir zunächst den einfachsten Fall, die direkte Zuweisung eines Wertes:\nwidth = 5\nheight = 2.5\nIm obigen Beispiel wird der Variable width eine ganze Zahl zugewiesen, weshalb Python den Datentyp Integer wählt. Die Variable height erhält eine Dezimalzahl, wodurch Python automatisch den Datentyp Float verwendet.\narea = width * height\nWelchen Datentyp hat nun die Variable area? Da das Produkt einer ganzen Zahl und einer Dezimalzahl eine Dezimalzahl ergeben kann, weist Python automatisch den Datentyp Float zu – selbst wenn das Ergebnis theoretisch eine ganze Zahl sein könnte. Python geht auf Nummer sicher. Wäre height allerdings ebenfalls eine ganze Zahl, dann wäre auch das Ergebnis area vom Typ Integer.\n\n\n16.4.3 Wahrheitswerte (Boolean)\nFür manche Sachverhalte wollen wir lediglich wissen, ob eine Aussage wahr oder falsch ist. Ist der Kunde bereits 18 Jahre alt? Besitzt der Fahrer die Erlaubnis, einen 3,5-Tonner zu fahren? Wurde die Prüfung bestanden? In solchen Fällen gibt es nur zwei mögliche Antworten: „Ja” oder „Nein” – oder in der Sprache der Logik: „Wahr” oder „Falsch”. Für diesen Zweck existiert der Boolesche Datentyp, der nur zwei mögliche Werte annehmen kann: True und False.\nis_underage = False\nexam_passed = points_reached &gt;= 50\nIm Codebeispiel in Zeile 1 weisen wir der Variable is_underage den Wert False zu. Beachtet, dass dieser Datentyp, anders als eine Zeichenkette, keine Anführunsgzeichen benötigt. Die Begriffe True und False sind so genannte Schlüsselwörter in Python und werden automatisch als Boolsche Werte erkannt.\nDie zweite Zeile weist keinen direkten Wahrheitswert zu, sondern das Ergebnis eines logischen Ausdrucks. Dieser Ausdruck wird entweder zu wahr oder falsch ausgewertet, abhängig vom aktuellen Wert der Variable points_reached. Diese Punktzahl wurde vielleicht in vorherigen Programmzeilen berechnet.\n\n\n16.4.4 Komplexe Datentypen\nVariablen können neben den primitiven Datentypen wie Zeichenketten, Zahlen oder Boolesche Werte auch komplexere Dinge speichern. Im Prinzip lässt sich alles in einer Variable speichern, was in Python existiert. Dazu gehören beispielsweise Funktionen, die wir in einem späteren Tutorial kennenlernen. Auch sogenannte Collections (zu Deutsch: Sammlungen) zählen dazu. Collections sind Strukturen, die mehrere primitive Datentypen enthalten können. Ein Beispiel dafür ist eine Liste von Zahlen. Collections werden wir in einem späteren Tutorial ausführlich behandeln.",
+    "title": "4  Variablen und Datentypen",
+    "section": "4.4 Datentypen",
+    "text": "4.4 Datentypen\n\n4.4.1 Zeichenketten (Strings)\nVariablen können verschiedene Arten von Daten speichern. In den obigen Beispielen haben wir Zahlen gespeichert (Fläche, Volumen). Neben Zahlen können wir auch Zeichenketten in Variablen speichern, zum Beispiel eine E-Mail-Adresse:\nemail = \"m.mustermann@mail.de\"\nEine Zeichenkette erkennt man an den Anführungszeichen, die den Wert umschließen. Die Anführungszeichen selbst gehören nicht zum Wert, sondern dienen nur der Abgrenzung. Dabei können sowohl doppelte als auch einfache Anführungszeichen verwendet werden:\nemail = 'm.mustermann@mail.de'\nDas Besondere an diesem Datentyp ist, dass innerhalb der Anführungszeichen eine beliebige Abfolge von Zeichen stehen darf. Es können also ganze Texte als String abgebildet werden. Aber auch eher kryptische Werte wie Passwörter:\npassword = \"%?Zha§-ÄiK,!/\"\nEine Besonderheit tritt auf, wenn innerhalb einer Zeichenkette ein Anführungszeichen vorkommen soll. Das das Anführungszeichen schon als Begrenzungszeichen fungiert, müssen wir es mit einem Backslash kennzeichnen. Der Backslash fungiert dann als so genanntes Escape-Zeichen und ist selbst nicht Teil der Zeichenkette:\npassword_with_quotation_mark = \"abc\\\"123\"\nDer Wert der Variable oben wäre somit abc“123, der Backslash ist selbst nicht sichtbar. Was aber, wenn wir nun einen Backslash in einer Zeichenkette verwenden möchten? Ganz einfach, dann brauchen wir zwei Backslashes. Der erste „escaped“ den zweiten:\nstring_with_backslash = \"abc\\\\123\"\nDer Wert der Variable wäre somit abc\\123.\n\n\n4.4.2 Numerische Werte (Integer und Float)\nZahlen sind in Algorithmen und Programmen von zentraler Bedeutung, da wir regelmäßig Berechnungen durchführen müssen. Wie im Beispiel zu Beginn dieses Tutorials gezeigt, haben wir die Fläche eines Rechtecks berechnet und das Ergebnis in einer Variable gespeichert. Solch ein Ergebnis kann entweder eine ganze Zahl oder eine Zahl mit Dezimalstellen sein. Python und andere Programmiersprachen unterscheiden zwischen ganzen Zahlen und Dezimalzahlen, da beide unterschiedliche Anforderungen an den Speicher stellen. Ganze Zahlen werden in Python als Integer bezeichnet, während Dezimalzahlen (oder Gleitkommazahlen) als Float bekannt sind.\nOb es sich um den einen oder den anderen numerischen Datentyp handelt, wird anhand des Ausdrucke entschieden, der einer Variable zugewiesen wird. Betrachten wir zunächst den einfachsten Fall, die direkte Zuweisung eines Wertes:\nwidth = 5\nheight = 2.5\nIm obigen Beispiel wird der Variable width eine ganze Zahl zugewiesen, weshalb Python den Datentyp Integer wählt. Die Variable height erhält eine Dezimalzahl, wodurch Python automatisch den Datentyp Float verwendet.\narea = width * height\nWelchen Datentyp hat nun die Variable area? Da das Produkt einer ganzen Zahl und einer Dezimalzahl eine Dezimalzahl ergeben kann, weist Python automatisch den Datentyp Float zu – selbst wenn das Ergebnis theoretisch eine ganze Zahl sein könnte. Python geht auf Nummer sicher. Wäre height allerdings ebenfalls eine ganze Zahl, dann wäre auch das Ergebnis area vom Typ Integer.\n\n\n4.4.3 Wahrheitswerte (Boolean)\nFür manche Sachverhalte wollen wir lediglich wissen, ob eine Aussage wahr oder falsch ist. Ist der Kunde bereits 18 Jahre alt? Besitzt der Fahrer die Erlaubnis, einen 3,5-Tonner zu fahren? Wurde die Prüfung bestanden? In solchen Fällen gibt es nur zwei mögliche Antworten: „Ja” oder „Nein” – oder in der Sprache der Logik: „Wahr” oder „Falsch”. Für diesen Zweck existiert der Boolesche Datentyp, der nur zwei mögliche Werte annehmen kann: True und False.\nis_underage = False\nexam_passed = points_reached &gt;= 50\nIm Codebeispiel in Zeile 1 weisen wir der Variable is_underage den Wert False zu. Beachtet, dass dieser Datentyp, anders als eine Zeichenkette, keine Anführunsgzeichen benötigt. Die Begriffe True und False sind so genannte Schlüsselwörter in Python und werden automatisch als Boolsche Werte erkannt.\nDie zweite Zeile weist keinen direkten Wahrheitswert zu, sondern das Ergebnis eines logischen Ausdrucks. Dieser Ausdruck wird entweder zu wahr oder falsch ausgewertet, abhängig vom aktuellen Wert der Variable points_reached. Diese Punktzahl wurde vielleicht in vorherigen Programmzeilen berechnet.\n\n\n4.4.4 Komplexe Datentypen\nVariablen können neben den primitiven Datentypen wie Zeichenketten, Zahlen oder Boolesche Werte auch komplexere Dinge speichern. Im Prinzip lässt sich alles in einer Variable speichern, was in Python existiert. Dazu gehören beispielsweise Funktionen, die wir in einem späteren Tutorial kennenlernen. Auch sogenannte Collections (zu Deutsch: Sammlungen) zählen dazu. Collections sind Strukturen, die mehrere primitive Datentypen enthalten können. Ein Beispiel dafür ist eine Liste von Zahlen. Collections werden wir in einem späteren Tutorial ausführlich behandeln.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
     ]
   },
   {
     "objectID": "variables-and-data-types.html#variablen-im-computer",
     "href": "variables-and-data-types.html#variablen-im-computer",
-    "title": "16  Variablen und Datentypen",
-    "section": "16.5 Variablen im Computer",
-    "text": "16.5 Variablen im Computer\nEine Variable lässt sich bildlich als Behälter mit einem Namensetikett vorstellen. In diesen Behälter können wir beliebige Werte ablegen. Mithilfe des Namens finden wir den Behälter jederzeit wieder, können seinen Inhalt einsehen und für weitere Zwecke verwenden. Wir können auch einen neuen Wert in den Behälter legen – dabei wird der bisherige Inhalt entweder gelöscht oder muss zuvor in einen anderen Behälter umgelagert werden.\n[IMAGE VARIABLES AS CONTAINERS]\nIn Wirklichkeit sind Variablen bestimmte Bereiche im Arbeitsspeicher (RAM) des Computers. Jeder dieser Speicherorte besitzt eine eindeutige Adresse. Bei der Zuweisung eines Wertes zu einer Variable speichert der Computer diesen Wert an einer bestimmten Adresse im RAM. Der Variablenname wird dann mit dieser Adresse verknüpft, damit wir den Wert später über den Namen abrufen können. Eine Variable ist also im Grunde ein Zeiger auf eine bestimmte Stelle im Computerspeicher.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "title": "4  Variablen und Datentypen",
+    "section": "4.5 Variablen im Computer",
+    "text": "4.5 Variablen im Computer\nEine Variable lässt sich bildlich als Behälter mit einem Namensetikett vorstellen. In diesen Behälter können wir beliebige Werte ablegen. Mithilfe des Namens finden wir den Behälter jederzeit wieder, können seinen Inhalt einsehen und für weitere Zwecke verwenden. Wir können auch einen neuen Wert in den Behälter legen – dabei wird der bisherige Inhalt entweder gelöscht oder muss zuvor in einen anderen Behälter umgelagert werden.\n[IMAGE VARIABLES AS CONTAINERS]\nIn Wirklichkeit sind Variablen bestimmte Bereiche im Arbeitsspeicher (RAM) des Computers. Jeder dieser Speicherorte besitzt eine eindeutige Adresse. Bei der Zuweisung eines Wertes zu einer Variable speichert der Computer diesen Wert an einer bestimmten Adresse im RAM. Der Variablenname wird dann mit dieser Adresse verknüpft, damit wir den Wert später über den Namen abrufen können. Eine Variable ist also im Grunde ein Zeiger auf eine bestimmte Stelle im Computerspeicher.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
     ]
   },
   {
     "objectID": "functions.html",
     "href": "functions.html",
-    "title": "17  Funktionen",
+    "title": "5  Funktionen",
     "section": "",
     "text": "Funktionen definieren\nFunktionen verwenden\nModule laden und Funktionen daraus verwenden\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Funktionen</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Funktionen</span>"
     ]
   },
   {
     "objectID": "collections.html",
     "href": "collections.html",
-    "title": "18  Collections",
+    "title": "6  Collections",
     "section": "",
     "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Collections</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Collections</span>"
     ]
   },
   {
     "objectID": "conditionals.html",
     "href": "conditionals.html",
-    "title": "19  Kontrollstrukturen",
+    "title": "7  Kontrollstrukturen",
     "section": "",
     "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Kontrollstrukturen</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Kontrollstrukturen</span>"
     ]
   },
   {
     "objectID": "loops.html",
     "href": "loops.html",
-    "title": "20  Schleifen",
+    "title": "8  Schleifen",
     "section": "",
     "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Schleifen</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Schleifen</span>"
     ]
   },
   {
     "objectID": "debugging-and-error-handling.html",
     "href": "debugging-and-error-handling.html",
-    "title": "21  Fehlersuche- und Behandlung",
+    "title": "9  Fehlersuche- und Behandlung",
     "section": "",
     "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Fehlersuche- und Behandlung</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fehlersuche- und Behandlung</span>"
     ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "22  Literaturverzeichnis",
+    "title": "Literaturverzeichnis",
     "section": "",
     "text": "Adami, Christoph. 2016. “What Is Information?”\nPhilosophical Transactions of the Royal Society A: Mathematical,\nPhysical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, and Dennis Brylow. 2020. Computer Science: An\nOverview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: The Hidden Language of Computer\nHardware and Software. 2nd ed. Hoboken: Microsoft Press.\n\n\nPólya, George, and John Horton Conway. 2004. How to Solve It: A New\nAspect of Mathematical Method. Expanded Princeton Science Library\ned. Princeton Science Library. Princeton [N.J.]: Princeton University\nPress.\n\n\nScott, John C. 2009. But How Do It Know?: The Basic Principles of\nComputers for Everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Literaturverzeichnis</span>"
+      "Literaturverzeichnis"
     ]
   }
 ]
