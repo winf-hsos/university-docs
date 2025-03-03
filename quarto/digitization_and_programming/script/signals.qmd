@@ -1,13 +1,5 @@
----
-title: "Signale"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Signale
+
 ## Was ist ein Signal?
 
 “A signal is a function that conveys information about the behavior of a system or attributes of some phenomenon”.

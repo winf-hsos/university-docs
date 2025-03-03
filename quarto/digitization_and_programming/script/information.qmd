@@ -1,13 +1,5 @@
----
-title: "Informationen"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Informationen {#sec-information}
+
 :::: {layout="[0.2, 0.8]" .content-visible when-format="pdf"}
 
 :::{#firstcol}
@@ -235,6 +227,8 @@ Ein weiterer offensichtlicher Faktor ist die Menge an Zeichen oder Symbolen, aus
 **Beispiel**: Besteht eine Nachricht aus 3 Buchstaben, und jeder Buchstabe trägt im Durchschnitt 4 Bit Information, dann hat die ganze Nachricht etwa $3 \cdot 4 = 12$ Bit Informationsgehalt (unter der Annahme, dass die Buchstaben unabhängig und nicht vorhersagbar voneinander sind).
 
 Zusammengefasst: **Der Informationsgehalt einer Nachricht hängt von der Unsicherheit ab, die sie ausräumt.** Diese Unsicherheit wiederum ergibt sich aus der Zahl der möglichen Nachrichten und deren Verteilung. Maximal informativ ist eine Nachricht, die aus vielen möglichen, gleich wahrscheinlichen Alternativen ausgewählt wurde – dann ist die Überraschung am größten. Wenn einige Ergebnisse schon vorher sehr wahrscheinlich sind, verringert sich der Informationsgehalt entsprechend.
+
+**Fachbegriffe**: Informationsgehalt bezeichnet die Menge an Information, die eine konkrete Nachricht liefert. Sie ist umso höher, je mehr mögliche Alternativen es gab und je unwahrscheinlicher die empfangene Nachricht war. Bei zusammengesetzten Nachrichten addieren sich die Informationsgehalte der Teile (wenn sie unabhängig voneinander sind).
 
 ## Was ist Redundanz und welche Rolle spielt sie?
 

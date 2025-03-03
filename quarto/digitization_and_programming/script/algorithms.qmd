@@ -1,13 +1,5 @@
----
-title: "Algorithmen"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Algorithmen {#sec-algorithms}
+
 ## Zusammenfassung {.unnumbered}
 
 Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Problemlösung. In diesem Kapitel befassen wir uns mit den grundlegenden Aspekten von Algorithmen und beantworten dabei zentrale Fragen:

@@ -1,13 +1,5 @@
----
-title: "Computer"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Computer
+
 ## Komponenten eines Computers
 
 -   von Neumann-Architektur

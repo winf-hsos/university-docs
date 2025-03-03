@@ -1,13 +1,5 @@
----
-title: "Datenstrukturen"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Datenstrukturen {#sec-data-structures}
+
 ## Wie stellen wir Daten im Computer dar?
 
 ## Was ist eine Datenstruktur und wozu brauchen wir sie?

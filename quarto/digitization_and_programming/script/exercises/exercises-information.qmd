@@ -1,12 +1,3 @@
----
-title: "Übungsblatt: Informationen"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: false
-number-sections: false
-code-line-numbers: true
-subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
----
 1.  Wie heißt die kleinste mögliche Informationseinheit?
 
 2.  Erkläre in deinen eigenen Worten, warum es keine kleinere Informationseinheit als das Bit geben kann!

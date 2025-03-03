@@ -1,13 +1,5 @@
----
-title: "Variablen und Datentypen"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Variablen und Datentypen
+
 ## Wozu dienen Variablen?
 
 Programme bestehen aus einer Abfolge von Anweisungen, die der Computer von oben nach unten ausführt. Jede Anweisung kann bei ihrer Ausführung ein Ergebnis erzeugen, beispielsweise wenn wir eine einfache Berechnung durchführen.

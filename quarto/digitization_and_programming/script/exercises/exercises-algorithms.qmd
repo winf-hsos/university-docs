@@ -1,12 +1,3 @@
----
-title: "Übungsblatt: Algorithmen"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: false
-number-sections: false
-code-line-numbers: true
-subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
----
 1.  Woher stammt der Begriff "Algorithmus"?
 
 2.  Definiere, was ein Algorithmus ist, und gib drei Beispiele für Algorithmen aus dem Alltag, die keinen direkten Bezug zu Computern haben.

@@ -1,14 +1,8 @@
----
-title: "Speicher"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
-## Substratunabhängigkeit
+# Speicher
 
+## Ist die Speicherung von Informationen an ein Material gebunden?
 
+### Substratunabhängigkeit
+
+## Welche Speicherformen gibt es in der Praxis?
 

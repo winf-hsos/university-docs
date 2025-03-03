@@ -1,13 +1,5 @@
----
-title: "Programmierung"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Programmierung
+
 Die Programmierung ist der Schlüssel zur Entfaltung des vollen Potenzials von Computern. Computer führen auf Hardware-Ebene mithilfe winziger Bauteile blitzschnelle Berechnungen und Datenverarbeitungen durch. Das Herzstück dieser Operationen ist der Hauptprozessor (CPU).
 
 Die CPU verarbeitet Befehle in einer komplexen Maschinensprache - einer Sprache, die für Menschen schwer verständlich und unpraktisch für die direkte Problemlösung ist. Deshalb nutzen wir höhere Programmiersprachen wie Python. Diese Sprachen sind mit ihrer verständlichen Syntax und ihrem natürlicheren Vokabular wesentlich besser für Menschen geeignet.

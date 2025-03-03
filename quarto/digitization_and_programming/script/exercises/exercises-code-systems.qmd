@@ -1,12 +1,3 @@
----
-title: "Übungsblatt: Codesysteme"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: false
-number-sections: false
-code-line-numbers: true
-subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
----
 1.  Ihr wollt euch für komplettes Skatspiel die Abfolge schwarzer (Pik, Kreuz) und roter (Herz, Karo) Karten merken und als Hexadezimalzahl kodieren. Wie viele Ziffern müsst ihr euch merken?
 
 2.  Du schreibst eine Kurznachricht und kodierst sie mit dem ASCII-Codesystem. Deine Nachricht hat inklusive Leerzeichen 40 Zeichen. Wie viele Bytes benötigst du für Kodierung deiner Nachricht?

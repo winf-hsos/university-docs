@@ -1,13 +1,5 @@
----
-title: "Problemlösung"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Problemlösung {#sec-problem-solving}
+
 ## Zusammenfassung {.unnumbered}
 
 Wir beginnen das Buch im ersten Kapitel, indem wir den wichtigsten Aspekt für die Nutzung von Computern genauer beleuchten – das Lösen von Problemen. Konkret suchen wir Antworten auf die folgenden Fragen:

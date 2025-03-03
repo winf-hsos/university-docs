@@ -1,13 +1,5 @@
----
-title: "Probleme"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Probleme
+
 Da das LiFi-Projekt eine komplexe Herausforderung darstellt, verschaffen wir uns im ersten Teil des Buches einen Überblick darüber, wie wir computerbasierte Probleme strukturiert angehen und lösen können. 
 
 In @sec-problem-solving klären wir zunächst wichtige Fragen zum Thema **Problemlösung**:

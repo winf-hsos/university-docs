@@ -1,13 +1,5 @@
----
-title: "Willkommen in Python"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Willkommen in Python
+
 ## Unser erstes Programm
 
 Unser erstes Programm könnte so aussehen:

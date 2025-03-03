@@ -1,13 +1,5 @@
----
-title: "Codesysteme"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Codesysteme {#sec-codesystems}
+
 ## ASCII-Code
 
 ## Verallgemeinerung von Codesystemen

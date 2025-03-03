@@ -1,13 +1,5 @@
----
-title: "Das LiFi-Projekt {.unnumbered}"
-author: "Prof. Dr. Nicolas Meseth"
-format: pdf
-toc: true
-number-sections: false
-code-line-numbers: true
-subtitle: "Digitalisierung und Programmierung"
-bibliography: bundle/references.bib
----
+# Das LiFi-Projekt {.unnumbered}
+
 Anhand einer praktischen Problemstellung gestaltet uns das LiFi-Projekt die Einführung in die digitale Welt interessanter, greifbarer und praxisnäher. Als klassisches Ingenieursproblem kann es die grundlegenden Prinzipien der Digitalisierung besonders anschaulich verdeutlichen.
 
 ## Worum geht es im LiFi-Projekt?
