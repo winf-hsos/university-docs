@@ -268,10 +268,6 @@
 - [exercises-protocols.pdf](quarto/digitization_and_programming/exercises/exercises-protocols.pdf)
 - [exercises-signals.pdf](quarto/digitization_and_programming/exercises/exercises-signals.pdf)
 - [exercises-storage.pdf](quarto/digitization_and_programming/exercises/exercises-storage.pdf)
-- [exercises_logic_and_arithmetic.pdf](quarto/digitization_and_programming/exercises_logic_and_arithmetic.pdf)
-- [exercises_programming_first_program.pdf](quarto/digitization_and_programming/exercises_programming_first_program.pdf)
-- [exercises_programming_functions.pdf](quarto/digitization_and_programming/exercises_programming_functions.pdf)
-- [exercises_programming_loops_conditionals.pdf](quarto/digitization_and_programming/exercises_programming_loops_conditionals.pdf)
 
 #### Programmierübungen
 
@@ -326,4 +322,7 @@
 ### Images
 
 - [algorithm_check_prime_number.png](static/images/algorithm_check_prime_number.png)
+- [circuit_1.png](static/images/circuit_1.png)
+- [circuit_2.png](static/images/circuit_2.png)
+- [circuit_3.png](static/images/circuit_3.png)
 - [lifi_project_prototype.png](static/images/lifi_project_prototype.png)
