@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>3&nbsp; Informationen – Digitalisierung und Programmierung</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./bits.html" rel="next">
+<link href="./part-representation.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-8da5b4427184b79ecddefad3d342027e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part-representation.html">Repräsentation</a></li><li class="breadcrumb-item"><a href="./information.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Informationen</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Digitalisierung und Programmierung</a> 
+        <div class="sidebar-tools-main">
+    <a href="./book_digitalisierung_und_programmierung.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Suchen"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vorwort</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lifi-project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Das LiFi-Projekt</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part-problems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Probleme</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./problem-solving.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Problemlösung</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./algorithms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Algorithmen</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part-representation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Repräsentation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./information.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Informationen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Bits</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part-programming.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Programmierung</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./welcome-to-python.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Willkommen in Python</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./variables-and-data-types.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Variablen und Datentypen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./functions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Funktionen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./collections.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Collections</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conditionals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Kontrollstrukturen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./loops.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Schleifen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./debugging-and-error-handling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Fehlersuche- und Behandlung</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Literaturverzeichnis</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#wie-definieren-wir-information" id="toc-wie-definieren-wir-information" class="nav-link active" data-scroll-target="#wie-definieren-wir-information"><span class="header-section-number">3.1</span> Wie definieren wir Information?</a></li>
+  <li><a href="#wie-messen-wir-information" id="toc-wie-messen-wir-information" class="nav-link" data-scroll-target="#wie-messen-wir-information"><span class="header-section-number">3.2</span> Wie messen wir Information?</a>
+  <ul class="collapse">
+  <li><a href="#bit-für-bit" id="toc-bit-für-bit" class="nav-link" data-scroll-target="#bit-für-bit"><span class="header-section-number">3.2.1</span> Bit für Bit</a></li>
+  <li><a href="#unsicherheit" id="toc-unsicherheit" class="nav-link" data-scroll-target="#unsicherheit"><span class="header-section-number">3.2.2</span> Unsicherheit</a></li>
+  <li><a href="#information" id="toc-information" class="nav-link" data-scroll-target="#information"><span class="header-section-number">3.2.3</span> Information</a></li>
+  <li><a href="#wahrscheinliche-und-unwahrscheinliche-antworten" id="toc-wahrscheinliche-und-unwahrscheinliche-antworten" class="nav-link" data-scroll-target="#wahrscheinliche-und-unwahrscheinliche-antworten"><span class="header-section-number">3.2.4</span> Wahrscheinliche und unwahrscheinliche Antworten</a></li>
+  <li><a href="#mehr-als-zwei-antworten" id="toc-mehr-als-zwei-antworten" class="nav-link" data-scroll-target="#mehr-als-zwei-antworten"><span class="header-section-number">3.2.5</span> Mehr als zwei Antworten</a></li>
+  </ul></li>
+  <li><a href="#wovon-hängt-der-informationsgehalt-einer-nachricht-ab" id="toc-wovon-hängt-der-informationsgehalt-einer-nachricht-ab" class="nav-link" data-scroll-target="#wovon-hängt-der-informationsgehalt-einer-nachricht-ab"><span class="header-section-number">3.3</span> Wovon hängt der Informationsgehalt einer Nachricht ab?</a>
+  <ul class="collapse">
+  <li><a href="#anzahl-der-alternativen" id="toc-anzahl-der-alternativen" class="nav-link" data-scroll-target="#anzahl-der-alternativen"><span class="header-section-number">3.3.1</span> <strong>Anzahl der Alternativen</strong></a></li>
+  <li><a href="#wahrscheinlichkeiten-der-alternativen" id="toc-wahrscheinlichkeiten-der-alternativen" class="nav-link" data-scroll-target="#wahrscheinlichkeiten-der-alternativen"><span class="header-section-number">3.3.2</span> <strong>Wahrscheinlichkeiten der Alternativen</strong></a></li>
+  <li><a href="#länge-der-nachricht-anzahl-zeichen" id="toc-länge-der-nachricht-anzahl-zeichen" class="nav-link" data-scroll-target="#länge-der-nachricht-anzahl-zeichen"><span class="header-section-number">3.3.3</span> <strong>Länge der Nachricht (Anzahl Zeichen)</strong></a></li>
+  </ul></li>
+  <li><a href="#was-ist-redundanz-und-welche-rolle-spielt-sie" id="toc-was-ist-redundanz-und-welche-rolle-spielt-sie" class="nav-link" data-scroll-target="#was-ist-redundanz-und-welche-rolle-spielt-sie"><span class="header-section-number">3.4</span> Was ist Redundanz und welche Rolle spielt sie?</a></li>
+  <li><a href="#welcher-zusammenhang-besteht-zwischen-information-und-daten" id="toc-welcher-zusammenhang-besteht-zwischen-information-und-daten" class="nav-link" data-scroll-target="#welcher-zusammenhang-besteht-zwischen-information-und-daten"><span class="header-section-number">3.5</span> Welcher Zusammenhang besteht zwischen Information und Daten</a></li>
+  <li><a href="#übungsaufgaben" id="toc-übungsaufgaben" class="nav-link" data-scroll-target="#übungsaufgaben">Übungsaufgaben</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part-representation.html">Repräsentation</a></li><li class="breadcrumb-item"><a href="./information.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Informationen</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-information" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Informationen</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Zu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/g-QOJ6z0VFE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Im digitalen Zeitalter sind wir von <strong>Information</strong> umgeben - ein ständiger Strom von Nachrichten, Daten und Fakten prägt unseren Alltag. Doch was versteht die Informatik unter dem Begriff “Information”? Eine erste Annäherung bietet unsere alltägliche Erfahrung: Information entsteht, wenn wir etwas Neues erfahren, das uns hilft, bessere Entscheidungen zu treffen. Nehmen wir eine Wettervorhersage als Beispiel: Die Aussage “es wird morgen regnen” stellt für jemanden, der das Wetter noch nicht kennt, eine wichtige Information dar - sie reduziert die Unsicherheit über das morgige Wetter. Die Informatik und Informationstheorie greifen genau dieses Konzept auf und definieren <strong>Information</strong> präzise als die Abnahme von Unsicherheit.</p>
+<p>Dieses Kapitel führt systematisch in den Informationsbegriff ein und legt damit das theoretische Fundament für die nachfolgenden Themen: vom Binärsystem als Grundlage der digitalen Informationsverarbeitung über verschiedene Methoden der Informationskodierung bis hin zu praktischen Anwendungen wie Datenkompression und Verschlüsselung.</p>
+<section id="wie-definieren-wir-information" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="wie-definieren-wir-information"><span class="header-section-number">3.1</span> Wie definieren wir Information?</h2>
+<p>Information begegnet uns im Alltag in vielen Formen – als Nachricht, Erkenntnis oder Mitteilung. Die Informatik verwendet jedoch einen präziseren Informationsbegriff, der sich von diesem alltäglichen Verständnis unterscheidet. Basierend auf <span class="citation" data-cites="adami_what_2016">Adami (<a href="references.html#ref-adami_what_2016" role="doc-biblioref">2016</a>)</span> werden wir in diesem Kapitel eine formale Definition von Information entwickeln und anhand konkreter Beispiele veranschaulichen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://winf-hsos.github.io/university-docs/images/information_definition_adami.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Definition des Informationsbegriffs laut @adami_what_2016."><img src="https://winf-hsos.github.io/university-docs/images/information_definition_adami.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Definition des Informationsbegriffs laut Adami (2016)."></a></p>
+</figure>
+</div>
+<figcaption>Definition des Informationsbegriffs laut <span class="citation" data-cites="adami_what_2016">Adami (<a href="references.html#ref-adami_what_2016" role="doc-biblioref">2016</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>Um das Konzept der Information greifbar zu machen, betrachten wir ein praktisches Gedankenexperiment: ein Zahlenratespiel. Angenommen, ich denke an eine Zahl zwischen 1 und 16 (<a href="#fig-information-guess-num" class="quarto-xref">Abbildung&nbsp;<span>3.1</span></a>). Deine Aufgabe ist es, diese Zahl zu erraten. Du hast zwar nur einen finalen Rateversuch, darfst aber zuvor Fragen stellen, die ich mit “ja” oder “nein” beantworte. Diese Fragen haben die Form “Ist die Zahl größer als X?” und helfen dir, die möglichen Zahlen systematisch einzugrenzen.</p>
+<p>Bei jeder Antwort reduziert sich deine <strong>Unsicherheit</strong> über die gesuchte Zahl. Durch den Ausschluss bestimmter Zahlen wird der Bereich möglicher Lösungen kleiner, und dein Wissen über die gesuchte Zahl wächst entsprechend.</p>
+<p><strong>Wichtig:</strong> Der informationstheoretische Begriff der Information unterscheidet sich vom alltäglichen Verständnis. In der Informatik geht es nicht primär um die <em>inhaltliche Bedeutung</em> (Semantik) einer Nachricht, sondern um die <em>quantitative Reduktion von Unsicherheit</em>. Die Frage ist also nicht, was eine Information inhaltlich - oder semantisch - bedeutet, sondern wie stark sie die vorhandene Ungewissheit verringert.</p>
+<p>Dieses Prinzip der Unsicherheitsreduktion bildet das Fundament der Informationstheorie. Mit jeder Antwort, die wir erhalten, sammeln wir Information, die die Unsicherheit reduziert. Aber wie lässt sich dieser Informationsgewinn konkret messen? Welche Menge an Information steckt in einer einzelnen Antwort?</p>
+<div id="fig-information-guess-num" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-information-guess-num-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/number_guessing_game_1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Abbildung&nbsp;3.1: Das Zahlenratespiel zur Veranschaulichung des Informationsbegriffs."><img src="https://winf-hsos.github.io/university-docs/images/number_guessing_game_1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-information-guess-num-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;3.1: Das Zahlenratespiel zur Veranschaulichung des Informationsbegriffs.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="wie-messen-wir-information" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="wie-messen-wir-information"><span class="header-section-number">3.2</span> Wie messen wir Information?</h2>
+<section id="bit-für-bit" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="bit-für-bit"><span class="header-section-number">3.2.1</span> Bit für Bit</h3>
+<p>Die Informatik definiert Information präzise als das, was es uns ermöglicht, richtige Vorhersagen zu treffen, die genauer sind als der pure Zufall <span class="citation" data-cites="adami_what_2016">(<a href="references.html#ref-adami_what_2016" role="doc-biblioref">Adami 2016</a>)</span>. Dabei konzentriert sich diese Definition auf den messbaren Aspekt: Information reduziert systematisch die Unsicherheit über einen Sachverhalt, indem sie die Anzahl möglicher Optionen eingrenzt.</p>
+<p>Betrachten wir nun unser Zahlenratespiel unter dem Aspekt der Informationstheorie. In diesem Beispiel reduziert jede Antwort systematisch die Anzahl der möglichen Zahlen. Diese Reduzierung der Unsicherheit lässt sich mit einer präzisen Maßeinheit quantifizieren: dem <strong>Bit</strong>. Ein Bit (von <strong>binary digit</strong>, Binärziffer) stellt die fundamentale Einheit der Information dar und entspricht einer Halbierung der Unsicherheit. Anders ausgedrückt: Wenn eine Antwort die Anzahl der möglichen Optionen exakt halbiert, gewinnen wir genau ein Bit an Information.</p>
+<p>Allerdings werden nicht alle Fragen und deren Antworten genau ein Bit Information liefern. Wenn zum Beispiel deine erste Frage im Ratespiel lautet: “Ist deine Zahl größer als 12?” und die Antwort “nein” ist, bleiben die Zahlen 1 bis 12 übrig. Das bedeutet, du hast noch 12 Optionen von ursprünglich 16, was die Unsicherheit nicht halbiert. Es werden nur 4 statt der nötigen 8 Möglichkeiten entfernt. Lautet die Antwort dagegen “ja”, so kannst du insgesamt 12 Möglichkeiten streichen, was mehr als der Hälfte entspricht und der Informationsgehalt der Antwort wäre größer als ein Bit.</p>
+<p>Um genau ein Bit Information zu erhalten, solltest du versuchen, mit jeder Frage genau die Hälfte der möglichen Zahlen auszuschließen. Wenn du zum Beispiel fragst “Ist deine Zahl größer als 8?”, stellst du sicher, dass du - egal ob die Antwort “ja” oder “nein” ist - in beiden Fällen 8 mögliche Zahlen übrig behältst. Ist die Antwort “ja”, bleiben die Zahlen 9 bis 16 übrig. Ist die Antwort “nein”, bleiben die Zahlen 1 bis 8. In beiden Szenarien wird deine Unsicherheit um die Hälfte reduziert, also um ein Bit.</p>
+<p>Indem du deine Fragen sorgfältig so wählst, dass sie die verbleibenden Optionen jedes Mal halbieren, reduzierst du deine Unsicherheit Bit für Bit und du findest schneller die richtige Zahl.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://winf-hsos.github.io/university-docs/images/number_guessing_game_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Deine Fragen sollten die Anzahl der Möglichkeiten halbieren."><img src="https://winf-hsos.github.io/university-docs/images/number_guessing_game_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Deine Fragen sollten die Anzahl der Möglichkeiten halbieren."></a></p>
+</figure>
+</div>
+<figcaption>Deine Fragen sollten die Anzahl der Möglichkeiten halbieren.</figcaption>
+</figure>
+</div>
+<p>Angenommen, die Antwort auf deine erste Frage “Ist deine Zahl größer als 8?” war “nein”. Was sollte deine nächste Frage sein, um die Unsicherheit weiterhin effektiv zu reduzieren? Die beste Strategie ist es zu fragen: “Ist sie größer als 4?”. Diese Vorgehensweise stellt sicher, dass dir immer nur vier mögliche Zahlen bleiben: entweder 1 bis 4, wenn die Antwort “nein” ist, oder 5 bis 8, wenn die Antwort “ja” ist. Erneut halbiert dies die verbleibenden Optionen und liefert genau ein Bit an Information.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://winf-hsos.github.io/university-docs/images/number_guessing_game_3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Nach zwei Fragen bleiben noch 4 Möglichkeitn, wenn die Fragen gut gewählt wurden."><img src="https://winf-hsos.github.io/university-docs/images/number_guessing_game_3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Nach zwei Fragen bleiben noch 4 Möglichkeitn, wenn die Fragen gut gewählt wurden."></a></p>
+</figure>
+</div>
+<figcaption>Nach zwei Fragen bleiben noch 4 Möglichkeitn, wenn die Fragen gut gewählt wurden.</figcaption>
+</figure>
+</div>
+<p>Lass uns mit dieser Methode fortfahren. Angenommen, deine zweite Frage “Ist sie größer als 4?” erhält ein “nein” als Antwort. Deine neue Auswahl an Zahlen ist auf 1, 2, 3 und 4 begrenzt. Um die Unsicherheit weiter zu reduzieren, wäre die nächste logische Frage: “Ist sie größer als 2?” Dies lässt dir entweder die Zahlen 1 und 2 oder 3 und 4, abhängig von der Antwort.</p>
+<p>Indem du weiterhin Fragen stellst, die systematisch die verbleibenden Optionen halbieren, kannst du sehen, wie wir schrittweise die Unsicherheit Bit für Bit reduzieren. Schließlich wirst du nach nur vier Fragen die Zahl auf genau eine eingrenzen, da keine anderen Möglichkeiten mehr übrig sind. Das bedeutet, du hast die Unsicherheit auf null reduziert.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://winf-hsos.github.io/university-docs/images/number_guessing_game_6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Wir benötigen vier Ja/Nein-Fragen, um die Optionen von 16 auf eine einzige zu reduzieren."><img src="https://winf-hsos.github.io/university-docs/images/number_guessing_game_6.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Wir benötigen vier Ja/Nein-Fragen, um die Optionen von 16 auf eine einzige zu reduzieren."></a></p>
+</figure>
+</div>
+<figcaption>Wir benötigen vier Ja/Nein-Fragen, um die Optionen von 16 auf eine einzige zu reduzieren.</figcaption>
+</figure>
+</div>
+</section>
+<section id="unsicherheit" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="unsicherheit"><span class="header-section-number">3.2.2</span> Unsicherheit</h3>
+<p>Wir haben oben gelernt, dass wir mit jeder Ja/Nein-Frage, die die Hälfte der Möglichkeiten eliminiert, ein Bit an Information gewinnen. Aber wie können wir dieses Konzept der Reduktion von Unsicherheit mathematisch quantifizieren? Wir gehen das Schritt für Schritt durch.</p>
+<p>Stell dir vor, du bist am Anfang unseres Zahlenratespiels. Es gibt 16 mögliche Zahlen, an die ich denken könnte, daher ist deine Wahrscheinlichkeit, beim ersten Versuch die richtige Zahl zu erraten, ziemlich gering:</p>
+<p><span class="math display">\[
+P_{correct} = \frac{1}{16}
+\]</span></p>
+<p>Das entspricht einer Wahrscheinlichkeit von nur 0,0625 - definitiv nicht zu deinen Gunsten. Angenommen, du stellst eine Frage, die die Möglichkeiten auf die Hälfte reduziert. Jetzt verbessert sich deine Chance, richtig zu raten:</p>
+<p><span class="math display">\[
+P_{correct} = \frac{1}{8}
+\]</span></p>
+<p>Mit jeder weiteren Frage verdoppelt sich diese Wahrscheinlichkeit, während sich deine Unsicherheit halbiert. Ist Wahrscheinlichkeit die beste Methode, um Unsicherheit zu messen? Wenn wir möchten, dass unser Maß für Unsicherheit abnimmt, während wir mehr Informationen sammeln, ist es es sinnvoll, den Kehrwert der Wahrscheinlichkeit zu verwenden. Das entspräche der Anzahl an Möglichkeiten, die noch im Rennen sind.</p>
+<p>Zu Beginn gibt es 16 Möglichkeiten, also begänne die Unsicherheit bei 16. Nach der ersten Frage fiele sie auf 8, dann auf 4, 2 und schließlich 1. Allerdings würde dieses Maß uns selbst dann, wenn nur noch eine Option übrig ist, eine gewisse Unsicherheit, nämlich 1, anzeigen, was nicht ganz unserem intuitiven Verständnis entspricht. Wenn wir sicher sind, dann sollte die Unsicherheit 0 sein.</p>
+<p>Claude Shannon, der Vater der Informationstheorie, schlug einen anderen Ansatz vor. Er empfahl, die Unsicherheit mithilfe des Logarithmus zur Basis 2 der Anzahl der Möglichkeiten zu messen:</p>
+<p><span class="math display">\[
+H = log_2(N)
+\]</span></p>
+<p>Diese Methode hat mehrere Vorteile. Erstens ist die Unsicherheit gleich null, wenn es nur eine mögliche Antwort gibt (N=1), was mit unserer Intuition übereinstimmt:</p>
+<p><span class="math display">\[
+log_2(1) = 0
+\]</span></p>
+<p>Ein weiterer Vorteil ist die Einfachheit der Berechnungen, besonders wenn es um mehrere unabhängige Unsicherheiten geht. Nehmen wir an, das Spiel ändert sich: Jetzt denke ich an zwei unabhängige Zahlen zwischen 1 und 16. Bevor du irgendwelche Fragen stellst, beträgt deine Unsicherheit für jede Zahl:</p>
+<p><span class="math display">\[
+log_2(16)= 4~bits
+\]</span></p>
+<p>Die Gesamtunsicherheit für beide Zahlen ist einfach die Summe ihrer individuellen Unsicherheiten:</p>
+<p><span class="math display">\[
+log_2(16)+log_2(16)=8~bits
+\]</span></p>
+<p>Wenn wir stattdessen Wahrscheinlichkeiten verwenden, müssten wir die Chancen multiplizieren, um die Wahrscheinlichkeit zu finden, beide Zahlen korrekt zu erraten:</p>
+<p><span class="math display">\[
+P_{correct,correct}=\frac{1}{16}\times\frac{1}{16}=\frac{1}{256}
+\]</span></p>
+<p>Mit beiden Zahlen gibt es 256 Möglichkeiten. Mit Shannons Methode erhalten wir das gleiche Ergebnis:</p>
+<p><span class="math display">\[
+log_2(256)=8~bits
+\]</span></p>
+<p>Wie du siehst, vereinfacht die Verwendung von Logarithmen unsere Berechnungen, besonders wenn es um mehrere Quellen der Unsicherheit geht. Diese Klarheit und Einfachheit sind der Grund, warum Shannons Ansatz fundamental für die Informationstheorie geworden ist.</p>
+</section>
+<section id="information" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="information"><span class="header-section-number">3.2.3</span> Information</h3>
+<p>Um den Begriff <em>Information</em> aus dem Begriff der <em>Unsicherheit</em> herzuleiten, betrachten wir zwei Zustände: Die ursprüngliche Unsicherheit vor einer Frage, die wir als <span class="math inline">\(H_0\)</span> bezeichnen, und die reduzierte Unsicherheit nach der Antwort, die wir <span class="math inline">\(H_1\)</span> nennen. Die Menge an Information <span class="math inline">\(I\)</span>, die wir durch die Antwort gewinnen, entspricht der Differenz dieser beiden Unsicherheiten:</p>
+<p><span class="math display">\[
+I = H_0 - H_1
+\]</span></p>
+<p>Information ist also die Reduzierung von Unsicherheit. Mit der obigen Formel können wir die Information <span class="math inline">\(I\)</span> präzise quantifizieren. Dies ermöglicht uns zu berechnen, wie viel Information wir durch jede Frage gewinnen. Betrachten wir ein konkretes Beispiel aus unserem Zahlenratespiel: Angenommen, deine erste Frage ist “Ist deine Zahl größer als 12?” und die Antwort lautet “nein”. Dann bleiben die Zahlen 1 bis 12 als Möglichkeiten übrig. Die gewonnene Information berechnet sich wie folgt:</p>
+<p><span class="math display">\[
+I = log_2(16) - log_2(12) \approx 4 - 3.585 \approx 0.415~bits
+\]</span></p>
+<p>In diesem Fall lieferte die Antwort etwa 0,415 Bits an Information – also weniger als ein Bit. Das ist folgerichtig, da die Antwort weniger als die Hälfte der Möglichkeiten eliminiert hat.</p>
+<p>Wie sähe es aus, wenn die Antwort “ja” gewesen wäre? In diesem Fall blieben nur die Zahlen 13, 14, 15 und 16 übrig, also vier mögliche Optionen:</p>
+<p><span class="math display">\[
+I = log_2(16) - log_2(4) = 4-2= 2~bits
+\]</span></p>
+<p>Diese Antwort lieferte mehr als ein Bit, nämlich 2 Bits. Wie lässt sich dieser Unterschied erklären?</p>
+</section>
+<section id="wahrscheinliche-und-unwahrscheinliche-antworten" class="level3" data-number="3.2.4">
+<h3 data-number="3.2.4" class="anchored" data-anchor-id="wahrscheinliche-und-unwahrscheinliche-antworten"><span class="header-section-number">3.2.4</span> Wahrscheinliche und unwahrscheinliche Antworten</h3>
+<p>Die Menge an Information hängt von der Wahrscheinlichkeit der jeweiligen Antwort ab. Bei einer Frage, die die Möglichkeiten halbiert, hat jede Antwort “Ja” oder “Nein” auf die Frage “Ist die Zahl größer als X?” eine Wahrscheinlichkeit von genau 50%. Diese gleichmäßige Verteilung vereinfacht die Berechnung und liefert genau ein Bit an Information.</p>
+<p>Bei der Frage “Ist deine Zahl größer als 12?” sind die beiden Antworten “Ja” und “Nein” allerdings nicht gleich wahrscheinlich. Es gibt zwölf mögliche Zahlen, die ein “Nein” ergeben und nur vier, die ein “Ja” ergeben, was Wahrscheinlichkeiten von 75% für “Nein” und 25% für “Ja” bedeutet. Da die “Ja”-Antwort weniger wahrscheinlich ist, ist sie überraschender – und liefert deshalb mehr Information. Wie wir berechnet haben, gibt uns ein “Ja” 2 Bits an Information, während ein “Nein” nur 0,415 Bits liefert.</p>
+<p>Dieser Zusammenhang ist ein Kernprinzip der Informationstheorie: Je unwahrscheinlicher ein Ereignis ist, desto mehr Information enthält sein Auftreten. Umgekehrt liefert eine sehr wahrscheinliche Antwort, wie das “Nein” im obigen Beispiel, weniger Information, da sie weniger überraschend ist.</p>
+<p>Warum zielen wir darauf ab, Fragen zu stellen, die die Möglichkeiten gleichmäßig halbieren? Man könnte auch wild raten in der Hoffnung, durch eine unwahrscheinlichere Antwort mehr Informationen zu bekommen – auch wenn man seltener richtig liegt. Die Antwort ist einfach: Eine Frage, die den Raum der Möglichkeiten halbiert, maximiert unseren <em>erwarteten</em> Informationsgewinn. Zwar können wir mit einer riskanten Frage wie “Ist die Zahl größer 15?” unser Glück herausfordern und im Erfolgsfall die Unsicherheit stark verringern. Dies ist jedoch keine nachhaltige Strategie. Wenn wir das Spiel nicht nur einmal, sondern 10, 100 oder 1000 Mal spielen, nähern wir uns im Mittel dem Erwartungswert für die gewonnene Information <span class="math inline">\(E[I]\)</span>. Und dieser Erwartungswert favorisiert eindeutig Fragen, die die Hälfte der Möglichkeiten eliminieren.</p>
+<p>Um dies zu verdeutlichen, berechnen wir zunächst den Erwartungswert für die extreme Frage “Ist die Zahl größer 15?”:</p>
+<p><span class="math display">\[
+E[I] = \left( \frac{1}{16}\times 4 \right)+ \left(\frac{15}{16}\times 0.09311 \right)= 0.3373
+\]</span></p>
+<p>Der Erwartungswert berechnet sich durch den mit der Wahrscheinlichkeit gewichteten Informationsgewinn für jede mögliche Antwort. Bei der Frage “Ist die Zahl größer als 15?” gibt es ein “Ja” nur dann, wenn die Zahl 16 ist. Von den sechzehn möglichen Zahlen erzeugt also nur eine diese Antwort. Die Wahrscheinlichkeit beträgt somit <span class="math inline">\(\frac{1}{16}\)</span>. In diesem Fall reduziert sich unsere Unsicherheit sofort auf Null, da nur noch eine einzige Möglichkeit übrig bleibt. Die ursprüngliche Unsicherheit betrug 4 Bits:</p>
+<p><span class="math display">\[
+H_0 = log_2(16) = 4~bits
+\]</span></p>
+<p>Und wenn die Unsicherheit nach der Antwort “Ja” auf Null reduziert wird:</p>
+<p><span class="math display">\[
+H_1 = log_2(1) = 0~bits
+\]</span></p>
+<p>Daraus ergibt sich ein Informationsgehalt von 4 Bits:</p>
+<p><span class="math display">\[
+I = H_0 - H_1 = 4 - 0 = 4~bits
+\]</span></p>
+<p>Dies erklärt den ersten Teil der Erwartungswertgleichung. Der zweite Teil folgt demselben Prinzip, allerdings mit einem wichtigen Unterschied: Die Wahrscheinlichkeit für die Antwort “Nein” ist mit <span class="math inline">\(\frac{15}{16}\)</span> deutlich höher. Gleichzeitig verbleibt eine große Restunsicherheit <span class="math inline">\(H_1\)</span>, da wir lediglich eine einzige Zahl ausschließen konnten:</p>
+<p><span class="math display">\[
+H_1 = log_2(15) \approx 3.9069~bits
+\]</span></p>
+<p>Die gewonnene Information ist somit sehr klein:</p>
+<p><span class="math display">\[
+I = 4 - 3.9069 \approx 0.0931~bits
+\]</span></p>
+<p>Anhand der Erwartungswertformel konnten wir zeigen, dass eine extreme Frage, die mit viel Glück direkt zum Ziel führt, in unserem Ratespiel einen erwarteten Informationsgehalt von etwa einem Drittel Bit (0,3373) hat. Prüfen wir nun, ob der Erwartungswert für Fragen, die die Hälfte der Möglichkeiten eliminieren, tatsächlich höher ist:</p>
+<p><span class="math display">\[
+E[I] = \left(0.5 \times 1 \right) + \left(0.5 \times 1 \right) = 0.5 + 0.5 = 1~bit
+\]</span></p>
+<p>Wie erwartet beträgt der Erwartungswert genau 1 Bit, da bei jeder Antwort – ob “Ja” oder “Nein” – jeweils die Hälfte der Optionen eliminiert wird.</p>
+</section>
+<section id="mehr-als-zwei-antworten" class="level3" data-number="3.2.5">
+<h3 data-number="3.2.5" class="anchored" data-anchor-id="mehr-als-zwei-antworten"><span class="header-section-number">3.2.5</span> Mehr als zwei Antworten</h3>
+<p>Bisher haben wir in unserem Zahlenratespiel nur Fragen mit zwei Antwortmöglichkeiten betrachtet. Informationen, also Antworten auf Fragen, können jedoch vielfältiger sein. Wie berechnen wir die Information, wenn es mehr als zwei Antwortmöglichkeiten gibt?</p>
+<p>Als Beispiel betrachten wir eine Urne mit farbigen Kugeln in drei Farben: Rot, Grün und Blau. Aus dieser Urne ziehen wir zwei Kugeln, wobei wir nach jedem Zug die gezogene Kugel zurück in die Urne legen. Dieses statistische Experiment bezeichnet man als “Ziehen mit Zurücklegen”.</p>
+</section>
+</section>
+<section id="wovon-hängt-der-informationsgehalt-einer-nachricht-ab" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="wovon-hängt-der-informationsgehalt-einer-nachricht-ab"><span class="header-section-number">3.3</span> Wovon hängt der Informationsgehalt einer Nachricht ab?</h2>
+<p>Nach den obigen Ausführungen können wir die Frage nun präzise beantworten: Der Informationsgehalt einer Nachricht hängt hauptsächlich von zwei Faktoren ab: <strong>(1)</strong> der <em>Anzahl der möglichen Alternativen</em> und <strong>(2)</strong> deren <em>Wahrscheinlichkeiten</em>.</p>
+<section id="anzahl-der-alternativen" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="anzahl-der-alternativen"><span class="header-section-number">3.3.1</span> <strong>Anzahl der Alternativen</strong></h3>
+<p>Je mehr verschiedene Möglichkeiten es gibt, was eine Nachricht aussagen kann, desto mehr Information kann im besten Fall vermittelt werden. Wenn zum Beispiel ein Lehrbuch-Test eine von zwei Antworten richtig haben kann (etwa wahr/falsch), dann liefert die Korrektur „richtig“ oder „falsch“ maximal 1 Bit Information – es gibt ja nur zwei mögliche Ausgänge. Hat eine Prüfungsfrage aber vier mögliche Antworten (A, B, C, D) von denen genau eine richtig ist, dann liefert die Angabe der korrekten Antwort bis zu <span class="math inline">\(\log_2(4) = 2\)</span> Bit Information. Allgemein: Ist eine Nachricht eine Auswahl aus <span class="math inline">\(N\)</span> gleich möglichen Alternativen, beträgt ihr Informationsgehalt <span class="math inline">\(\log_2 N\)</span> Bit. Mehr Alternativen bedeuten einen höheren potentiellen Informationsgehalt.</p>
+</section>
+<section id="wahrscheinlichkeiten-der-alternativen" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="wahrscheinlichkeiten-der-alternativen"><span class="header-section-number">3.3.2</span> <strong>Wahrscheinlichkeiten der Alternativen</strong></h3>
+<p>Oft sind manche Nachrichten oder Ereignisse wahrscheinlicher als andere. Wie wir gesehen haben, tragen unwahrscheinliche (überraschende) Ereignisse mehr Information bei als sehr wahrscheinliche. Das klassische Beispiel ist das Wetter: In einer Region, in der es normalerweise jeden Tag sonnig ist, enthält die Nachricht „Heute scheint die Sonne“ kaum neue Information – es war ja ohnehin zu erwarten. Dagegen wäre in dieser Region die Nachricht „Heute regnet es“ deutlich informativer (weil Regen dort selten ist). In einer Regenwald-Region wäre es umgekehrt. <strong>Der Informationsgehalt ist also höher, je unwahrscheinlicher (überraschender) der Inhalt der Nachricht ist.</strong> Formal spiegelt das die Formel <span class="math inline">\(I(p) = -\log_2 p\)</span> wider: Kleine Wahrscheinlichkeit <span class="math inline">\(p\)</span> (seltenes Ereignis) ergibt großes <span class="math inline">\(I(p)\)</span>.</p>
+</section>
+<section id="länge-der-nachricht-anzahl-zeichen" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="länge-der-nachricht-anzahl-zeichen"><span class="header-section-number">3.3.3</span> <strong>Länge der Nachricht (Anzahl Zeichen)</strong></h3>
+<p>Ein weiterer offensichtlicher Faktor ist die Menge an Zeichen oder Symbolen, aus denen sich die Nachricht zusammensetzt. Eine längere Nachricht kann natürlich mehr Information tragen als eine sehr kurze, da sie mehr Inhalte übermitteln kann. Allerdings hängt das nicht nur von der Länge ab, sondern auch davon, ob die zusätzlichen Zeichen tatsächlich <em>neue</em> Information liefern oder nur bereits Bekanntes wiederholen. Mehr dazu gleich beim Thema Redundanz. Aber grundsätzlich können wir sagen: Der Informationsgehalt einer längeren Nachricht, die aus mehreren Symbolen besteht, ist – bei unabhängigen Symbolen – die Summe der Informationsgehalte der einzelnen Symbole</p>
+<p><strong>Beispiel</strong>: Besteht eine Nachricht aus 3 Buchstaben, und jeder Buchstabe trägt im Durchschnitt 4 Bit Information, dann hat die ganze Nachricht etwa <span class="math inline">\(3 \cdot 4 = 12\)</span> Bit Informationsgehalt (unter der Annahme, dass die Buchstaben unabhängig und nicht vorhersagbar voneinander sind).</p>
+<p>Zusammengefasst: <strong>Der Informationsgehalt einer Nachricht hängt von der Unsicherheit ab, die sie ausräumt.</strong> Diese Unsicherheit wiederum ergibt sich aus der Zahl der möglichen Nachrichten und deren Verteilung. Maximal informativ ist eine Nachricht, die aus vielen möglichen, gleich wahrscheinlichen Alternativen ausgewählt wurde – dann ist die Überraschung am größten. Wenn einige Ergebnisse schon vorher sehr wahrscheinlich sind, verringert sich der Informationsgehalt entsprechend.</p>
+<p><strong>Fachbegriffe</strong>: Informationsgehalt bezeichnet die Menge an Information, die eine konkrete Nachricht liefert. Sie ist umso höher, je mehr mögliche Alternativen es gab und je unwahrscheinlicher die empfangene Nachricht war. Bei zusammengesetzten Nachrichten addieren sich die Informationsgehalte der Teile (wenn sie unabhängig voneinander sind).</p>
+</section>
+</section>
+<section id="was-ist-redundanz-und-welche-rolle-spielt-sie" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="was-ist-redundanz-und-welche-rolle-spielt-sie"><span class="header-section-number">3.4</span> Was ist Redundanz und welche Rolle spielt sie?</h2>
+</section>
+<section id="welcher-zusammenhang-besteht-zwischen-information-und-daten" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="welcher-zusammenhang-besteht-zwischen-information-und-daten"><span class="header-section-number">3.5</span> Welcher Zusammenhang besteht zwischen Information und Daten</h2>
+<p>Die kurze Antwort lautet: Daten repräsentieren Informationen. Daten sind die physische oder digitale Repräsentation von Informationen in einer bestimmten Form oder Struktur. Wenn wir zum Beispiel die Zahl “42” auf Papier schreiben oder in einem Computer speichern, dann sind die geschriebenen Ziffern oder die Bits im Speicher die Daten, während die tatsächliche Bedeutung – also die Zahl zweiundvierzig – die Information ist. Vielleicht eine Antwort auf eine Frage wie die nach dem Sinn des Lebens? Ein Computer verarbeitet dabei ausschließlich Daten in Form von Bits, die dann durch entsprechende Programme wieder in für Menschen verständliche Informationen umgewandelt werden. Dazu verwenden wir dann die Codesysteme, die wir in <span class="quarto-unresolved-ref">?sec-codesystems</span> kennenlernen.</p>
+</section>
+<section id="übungsaufgaben" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="übungsaufgaben">Übungsaufgaben</h2>
+<ol type="1">
+<li><p>Ihr wollt euch für komplettes Skatspiel die Abfolge schwarzer (Pik, Kreuz) und roter (Herz, Karo) Karten merken und als Hexadezimalzahl kodieren. Wie viele Ziffern müsst ihr euch merken?</p></li>
+<li><p>Du schreibst eine Kurznachricht und kodierst sie mit dem ASCII-Codesystem. Deine Nachricht hat inklusive Leerzeichen 40 Zeichen. Wie viele Bytes benötigst du für Kodierung deiner Nachricht?</p></li>
+<li><p>Du möchtest ein Foto speichern, dessen Pixel als RGB-Werte repräsentiert werden. Das Foto soll 200 x 300 Pixel haben. Welchen Speicherbedarf haben die Farbwerte aller Pixel zusammen?</p></li>
+<li><p>Du möchtest ein Foto im RGB-Format speichern und hast 0,75 MB zur Verfügung. Das Foto ist quadratisch. Welche Dimension hat das größtmögliche Bild, dass in den vorhandenen Speicher passt?</p></li>
+<li><p>Du möchtest ein Bild in insgesamt 256 Graustufen speichern. Das Bild hat eine Auflösung von 1200 x 800 Pixel. Wie viel Speicherplatz benötigst du?</p></li>
+<li><p>Du möchtest ein Bild im Schwarz/Weiß-Format speichern. Du hast 0,5 KB zur Verfügung. Wie viele Pixel kannst du speichern?</p></li>
+<li><p>Ermittle die maximale Farbtiefe, die du für ein Bild mit 1000 x 800 Pixeln und einer Dateigröße von 0,8 MB verwenden kannst.</p></li>
+<li><p>Wie viele Farben könnten wir kodieren, wenn wir nur 7 Bits statt 8 für jede der Grundfarben Rot, Grün und Blau verwenden würden?</p></li>
+<li><p>Wäre es sinnvoll, eine erweiterte Version des RGB-Codes zu erstellen, die für jede der Grundfarben ein zusätzliches Nibble hinzufügt? Wie viele Farben könnten wir dann kodieren? Finde Argumente für und gegen diese Idee!</p></li>
+<li><p>Wir hatten nicht immer die vollen 16.777.216 Farben auf unseren Computerbildschirmen. Recherchiere, wie sich Farbcodes im Laufe der Geschichte der digitalen Computer entwickelt haben. Kannst du einige Screenshots aus längst vergangenen Zeiten finden?</p></li>
+<li><p>Du möchtest eine Audiodatei mit einer Länge von 1 Minute speichern. Du wählst eine Sample Rate von 4000 Hz und eine Bit Depth von 16 Bit. Wie groß wird die Datei?</p></li>
+<li><p>Du hast eine Audiodatei (unkomprimiert) mit einer Länge von 10 Sekunden und einer Größe von 100 KB. Du weißt, dass die Sample Rate 5 Khz beträgt. Welche Bit Depth hat die Aufnahme?</p></li>
+<li><p>Du entwirfst ein Logo für deine Firma, das du auf möglichst unterschiedlichen Medien, vom Flyer bis zum Plakat, in hoher Qualität drucken möchtest. Welches Dateiformat wählst du und warum?</p></li>
+<li><p>Erläutere den Unterschied zwischen Codesystemen mit fester und variabler Länge. Nenne jeweils ein Beispiel.</p></li>
+<li><p>Ist der Morsecode ein binäres Codesystem? Begründe deine Antwort.</p></li>
+<li><p>Wie viele Bits verwendet der Braille-Code, um ein Symbol darzustellen? Ist der Braille-Code ein Binärcode?</p></li>
+</ol>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-adami_what_2016" class="csl-entry" role="listitem">
+Adami, Christoph. 2016. <span>„What is <span>Information</span>?“</span> <em>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</em> 374 (2063): 20150230. <a href="https://doi.org/10.1098/rsta.2015.0230">https://doi.org/10.1098/rsta.2015.0230</a>.
+</div>
+<div id="ref-brookshear_computer_2020" class="csl-entry" role="listitem">
+Brookshear, J. Glenn, und Dennis Brylow. 2020. <em>Computer science: an overview</em>. 13th edition, global edition. NY, NY: Pearson.
+</div>
+<div id="ref-petzold_code_2022" class="csl-entry" role="listitem">
+Petzold, Charles. 2022. <em>Code: the hidden language of computer hardware and software</em>. 2. Aufl. Hoboken: Microsoft Press.
+</div>
+<div id="ref-polya" class="csl-entry" role="listitem">
+Pólya, George, und John Horton Conway. 2004. <em>How to solve it: a new aspect of mathematical method</em>. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.
+</div>
+<div id="ref-scott_but_2009" class="csl-entry" role="listitem">
+Scott, John C. 2009. <em>But how do it know?: the basic principles of computers for everyone</em>. Oldsmar, FL: John C. Scott.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./part-representation.html" class="pagination-link" aria-label="Repräsentation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Repräsentation</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./bits.html" class="pagination-link" aria-label="Bits">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Bits</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

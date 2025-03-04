@@ -22,10 +22,10 @@ book:
       chapters:
         - problem-solving.qmd
         - algorithms.qmd
-    #- part: part-representation.qmd
-    #  chapters:
-    #    - information.qmd
-    #    - bits.qmd
+    - part: part-representation.qmd
+      chapters:
+        - information.qmd
+        - bits.qmd
     #    - code-systems.qmd
     #    - data-structures.qmd
     #- part: part-processing.qmd
