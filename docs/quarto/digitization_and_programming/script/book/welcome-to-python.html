@@ -375,13 +375,25 @@ div.csl-indent {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#unser-erstes-programm" id="toc-unser-erstes-programm" class="nav-link active" data-scroll-target="#unser-erstes-programm"><span class="header-section-number">15.1</span> Unser erstes Programm</a></li>
+  <li><a href="#unser-erstes-programm" id="toc-unser-erstes-programm" class="nav-link active" data-scroll-target="#unser-erstes-programm"><span class="header-section-number">15.1</span> Unser erstes Programm</a>
+  <ul class="collapse">
+  <li><a href="#nichts-als-text" id="toc-nichts-als-text" class="nav-link" data-scroll-target="#nichts-als-text"><span class="header-section-number">15.1.1</span> Nichts als Text</a></li>
+  <li><a href="#zeile-für-zeile" id="toc-zeile-für-zeile" class="nav-link" data-scroll-target="#zeile-für-zeile"><span class="header-section-number">15.1.2</span> Zeile für Zeile</a></li>
+  <li><a href="#kommentare" id="toc-kommentare" class="nav-link" data-scroll-target="#kommentare"><span class="header-section-number">15.1.3</span> Kommentare</a></li>
+  <li><a href="#nicht-nur-sequenziell" id="toc-nicht-nur-sequenziell" class="nav-link" data-scroll-target="#nicht-nur-sequenziell"><span class="header-section-number">15.1.4</span> Nicht nur sequenziell</a></li>
+  </ul></li>
   <li><a href="#ein-programm-ausführen" id="toc-ein-programm-ausführen" class="nav-link" data-scroll-target="#ein-programm-ausführen"><span class="header-section-number">15.2</span> Ein Programm ausführen</a></li>
-  <li><a href="#befehle-in-python" id="toc-befehle-in-python" class="nav-link" data-scroll-target="#befehle-in-python"><span class="header-section-number">15.3</span> Befehle in Python</a></li>
+  <li><a href="#befehle-in-python" id="toc-befehle-in-python" class="nav-link" data-scroll-target="#befehle-in-python"><span class="header-section-number">15.3</span> Befehle in Python</a>
+  <ul class="collapse">
+  <li><a href="#eingebaute-befehle" id="toc-eingebaute-befehle" class="nav-link" data-scroll-target="#eingebaute-befehle"><span class="header-section-number">15.3.1</span> Eingebaute Befehle</a></li>
+  <li><a href="#befehle-aus-mitgelieferten-modulen" id="toc-befehle-aus-mitgelieferten-modulen" class="nav-link" data-scroll-target="#befehle-aus-mitgelieferten-modulen"><span class="header-section-number">15.3.2</span> Befehle aus mitgelieferten Modulen</a></li>
+  <li><a href="#befehle-aus-externen-modulen" id="toc-befehle-aus-externen-modulen" class="nav-link" data-scroll-target="#befehle-aus-externen-modulen"><span class="header-section-number">15.3.3</span> Befehle aus externen Modulen</a></li>
+  <li><a href="#argumente-eines-befehls" id="toc-argumente-eines-befehls" class="nav-link" data-scroll-target="#argumente-eines-befehls"><span class="header-section-number">15.3.4</span> Argumente eines Befehls</a></li>
+  </ul></li>
   <li><a href="#übungsaufgaben" id="toc-übungsaufgaben" class="nav-link" data-scroll-target="#übungsaufgaben">Übungsaufgaben</a>
   <ul class="collapse">
-  <li><a href="#reflektionsfragen" id="toc-reflektionsfragen" class="nav-link" data-scroll-target="#reflektionsfragen"><span class="header-section-number">15.3.1</span> Reflektionsfragen</a></li>
-  <li><a href="#programmieraufgaben" id="toc-programmieraufgaben" class="nav-link" data-scroll-target="#programmieraufgaben"><span class="header-section-number">15.3.2</span> Programmieraufgaben</a></li>
+  <li><a href="#reflektionsfragen" id="toc-reflektionsfragen" class="nav-link" data-scroll-target="#reflektionsfragen"><span class="header-section-number">15.3.5</span> Reflektionsfragen</a></li>
+  <li><a href="#programmieraufgaben" id="toc-programmieraufgaben" class="nav-link" data-scroll-target="#programmieraufgaben"><span class="header-section-number">15.3.6</span> Programmieraufgaben</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -416,26 +428,60 @@ div.csl-indent {
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Greet the user</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Hello </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="nichts-als-text" class="level3" data-number="15.1.1">
+<h3 data-number="15.1.1" class="anchored" data-anchor-id="nichts-als-text"><span class="header-section-number">15.1.1</span> Nichts als Text</h3>
 <p>Ein <strong>Programm</strong> besteht aus einer Reihe von Anweisungen, die von einem Computer ausgeführt werden. Ein Programm wird als reiner Text geschrieben, und üblicherweise verwenden wir für jede neue Anweisung eine separate Zeile. Um ein Programm zu schreiben, benötigen wir lediglich einen einfachen Texteditor. Allerdings bevorzugen wir eine vollständige Entwicklungsumgebung wie <a href="https://code.visualstudio.com/download">Visual Studio Code</a>, da sie viele hilfreiche Funktionen wie Syntaxhervorhebung, automatische Vervollständigung und Debugging-Tools bietet, die das Programmieren erleichtern.</p>
+</section>
+<section id="zeile-für-zeile" class="level3" data-number="15.1.2">
+<h3 data-number="15.1.2" class="anchored" data-anchor-id="zeile-für-zeile"><span class="header-section-number">15.1.2</span> Zeile für Zeile</h3>
 <p>Wenn ein Computer ein Programm ausführt, geht er Zeile für Zeile durch das Programm und führt aus, was jede Zeile - oder <strong>Anweisung</strong> - ihm vorgibt. Im Beispiel oben wird zuerst die Zeile</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"What's your name? "</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>ausgeführt. Diese Zeile nutzt die Funktion <code>input()</code>, um eine Eingabe vom Benutzer abzufragen. Das Ergebnis wird in einer Variable namens <code>name</code> gespeichert. Anschließend geht der Computer zur nächsten Zeile, wo er die Anweisung</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Hello </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>vorfindet. <code>print()</code> ist eine Funktion, die eine Nachricht auf der Konsole ausgibt.</p>
+</section>
+<section id="kommentare" class="level3" data-number="15.1.3">
+<h3 data-number="15.1.3" class="anchored" data-anchor-id="kommentare"><span class="header-section-number">15.1.3</span> Kommentare</h3>
 <p>Vielleicht fragst du dich, was es mit den beiden Zeilen auf sich hat, die mit einem #-Symbol beginnen?</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ask the user for their name</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Greet the user</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Diese Zeilen sind <strong>Kommentare </strong>und gehören nicht zum eigentlichen Programm. Der Computer überspringt sie – sie dienen ausschließlich uns Menschen als Hilfestellung. Ein gut platzierter Kommentar kann das Verständnis des Codes erheblich erleichtern.</p>
-<p>Im Beispiel oben werden die Befehle Zeile für Zeile ausgeführt – das ist der Normalfall in einem Programm. Es gibt jedoch spezielle Anweisungen wie <strong>Schleifen</strong>, <strong>Kontrollstrukturen</strong> und <strong>Funktionen</strong>, die den Computer veranlassen, Befehle in einer anderen Reihenfolge auszuführen. Mit diesen Anweisungen kann der Computer bestimmte Aktionen wiederholen oder Codezeilen überspringen. Keine Sorge, wenn dir diese Konzepte noch nicht ganz klar sind – wir werden sie bald näher kennenlernen.</p>
+</section>
+<section id="nicht-nur-sequenziell" class="level3" data-number="15.1.4">
+<h3 data-number="15.1.4" class="anchored" data-anchor-id="nicht-nur-sequenziell"><span class="header-section-number">15.1.4</span> Nicht nur sequenziell</h3>
+<p>Im Beispiel oben werden die Befehle Zeile für Zeile ausgeführt – das ist der Normalfall in einem Programm. Wir sprechen dann auch von einer sequenziellen Ausführung. Es gibt jedoch spezielle Anweisungen wie <strong>Schleifen</strong>, <strong>Kontrollstrukturen</strong> und <strong>Funktionen</strong>, die den Computer veranlassen, Befehle in einer anderen Reihenfolge auszuführen. Mit diesen Anweisungen kann der Computer bestimmte Aktionen wiederholen oder Codezeilen überspringen. Keine Sorge, wenn dir diese Konzepte noch nicht ganz klar sind – wir werden sie bald näher kennenlernen.</p>
+</section>
 </section>
 <section id="ein-programm-ausführen" class="level2" data-number="15.2">
 <h2 data-number="15.2" class="anchored" data-anchor-id="ein-programm-ausführen"><span class="header-section-number">15.2</span> Ein Programm ausführen</h2>
 <p>Um ein Python-Programm auszuführen, benötigen wir einen Python-Interpreter – das Programm, das unseren Python-Code Zeile für Zeile liest und ausführt. Diesen musst du <a href="https://www.python.org/downloads/">für dein Betriebssystem herunterladen</a> und wie jedes andere Programm installieren. In Visual Studio Code können wir ein Python-Programm einfach mit einem Klick auf den „Play”-Button oder durch Drücken der Taste F5 starten. Ich persönlich bevorzuge jedoch den Weg über die Kommandozeile (oder Terminal), da wir so die volle Kontrolle über die Ausführung unseres Programms haben. Ein weiterer Vorteil: Wir lernen dabei wichtige Kommandozeilenbefehle kennen, die in der Softwareentwicklung unverzichtbar sind. Mach dich also mit dem Terminal vertraut.</p>
 <p>Öffne direkt ein Terminal in Visual Studio Code über das Menü “Terminal” → “New Terminal”. Bei Windows-Systemen solltest du darauf achten, dass es sich um ein “Command Prompt” (cmd) handelt. Bei Linux-Systemen heißt es “Bash”, auf einem Mac-Rechner heisst es einfach “Shell”.</p>
+<p>Wenn unser Programm in einer Datei namens <code>my_first_program.py</code> im aktuellen Verzeichnis gespeichert ist, können wir es mit dem <code>python</code>-Befehl ausführen:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> my_first_program.py</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Nach Eingabe des Namens und Drücken der Enter-Taste erscheint eine freundliche Begrüßung.</p>
 </section>
 <section id="befehle-in-python" class="level2" data-number="15.3">
 <h2 data-number="15.3" class="anchored" data-anchor-id="befehle-in-python"><span class="header-section-number">15.3</span> Befehle in Python</h2>
+<section id="eingebaute-befehle" class="level3" data-number="15.3.1">
+<h3 data-number="15.3.1" class="anchored" data-anchor-id="eingebaute-befehle"><span class="header-section-number">15.3.1</span> Eingebaute Befehle</h3>
+<p>In unserem ersten Programm haben wir bereits zwei wichtige Befehle kennengelernt, die wir in Python verwenden können:</p>
+<ul>
+<li><code>input()</code>: Liest einen Text über die Tastatur ein.</li>
+<li><code>print()</code>: Gibt einen Text auf der Konsole (Terminal) aus.</li>
+</ul>
+<p>Beide Befehle stehen uns direkt zur Verfügung, da sie Teil der Standard-Python-Installation sind. Neben diesen beiden Befehlen gibt es noch viele weitere solche vordefinierten Funktionen.</p>
+</section>
+<section id="befehle-aus-mitgelieferten-modulen" class="level3" data-number="15.3.2">
+<h3 data-number="15.3.2" class="anchored" data-anchor-id="befehle-aus-mitgelieferten-modulen"><span class="header-section-number">15.3.2</span> Befehle aus mitgelieferten Modulen</h3>
+<p>Neben den standardmäßig verfügbaren Befehlen gibt es in Python auch spezialisierte Funktionen, die erst importiert werden müssen. Ein gutes Beispiel ist die Funktion <code>sqrt()</code> zur Berechnung von Quadratwurzeln. Diese Funktion ist im <code>math</code>-Modul enthalten, das zwar mit Python installiert wird, aber erst durch eine explizite Import-Anweisung in unserem Programm verfügbar wird. Dafür verwenden wir folgenden Befehl:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> math <span class="im">import</span> sqrt</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Anschließend können wir diese Funktion in unserem Programm nutzen, um eine Quadratwurzel zu berechnen:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>square_root <span class="op">=</span> sqrt(<span class="dv">16</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Auf diese Weise laden wir aus dem Modul <code>math</code> nur die einzelne Funktion <code>sqrt</code>. Alternativ können wir auch alle Funktionen des Moduls <code>math</code> auf einmal laden:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Wenn wir die Funktion auf diese Weise laden, müssen wir den qualifizierten Namen verwenden und den Modulnamen durch einen Punkt getrennt angeben:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>square_root <span class="op">=</span> math.sqrt(<span class="dv">16</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>In <a href="#fig-commands-origin" class="quarto-xref">Abbildung&nbsp;<span>15.1</span></a> werden weitere Beispiele für Befehle aus sogenannten <em>built-in modules</em>, also in Python eingebauten Modulen, gezeigt. Außerdem sehen wir ganz rechts eine dritte Kategorie von Funktionen: solche, die über externe Module eingebunden werden.</p>
 <div id="fig-commands-origin" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-commands-origin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -447,18 +493,35 @@ Abbildung&nbsp;15.1: Unterschiedliche Arten von Befehlen in Python.
 </figure>
 </div>
 </section>
+<section id="befehle-aus-externen-modulen" class="level3" data-number="15.3.3">
+<h3 data-number="15.3.3" class="anchored" data-anchor-id="befehle-aus-externen-modulen"><span class="header-section-number">15.3.3</span> Befehle aus externen Modulen</h3>
+<p>Die externen Module sind nicht Bestandteil der Python-Installation und müssen daher getrennt installiert werden. Dafür verwenden wir den mitgelieferten Paketmanager Pip:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>pip install tinkerforge</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Das Beispiel oben installiert, wenn wir den Befehl im Terminal eingeben, das Modul mit dem Bezeichner <code>tinkerforge</code>. Dabei handelt es sich um eine Bibliothek, die es uns ermöglicht, mit der Tinkerforge-Hardware zu kommunizieren, die wir im Rahmen des LiFi-Projektes verwenden. Nach der Installation können wir die Funktionen des Moduls in unserem Programm verwenden, genauso wie wir es bei den eingebauten Modulen getan haben. Solche externen Module erweitern die Funktionalität von Python erheblich und ermöglichen uns den Zugriff auf verschiedenste Hardware und Dienste.</p>
+</section>
+<section id="argumente-eines-befehls" class="level3" data-number="15.3.4">
+<h3 data-number="15.3.4" class="anchored" data-anchor-id="argumente-eines-befehls"><span class="header-section-number">15.3.4</span> Argumente eines Befehls</h3>
+<p>Ein Befehl (oder eine Funktion) in Python kann Argumente entgegennehmen – das sind Werte, die wir dem Befehl zur Verarbeitung übergeben. Diese Argumente werden in runden Klammern nach dem Befehlsnamen angegeben. Bei der Funktion <code>print()</code> ist das zum Beispiel der Text, den wir ausgeben möchten, und bei <code>sqrt()</code> ist es die Zahl, deren Quadratwurzel wir berechnen wollen.</p>
+<p>Es gibt auch Befehle, die kein Argument benötigen. Die <code>input()</code>-Funktion ist ein Beispiel dafür – obwohl wir ihr bisher immer einen Text in den Klammern mitgegeben haben, damit der Benutzer weiß, was er eingeben soll:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"What's your name? "</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Auf der Konsole erscheint dann der Text “What’s your name?”, gefolgt von einem blinkenden Cursor, der die erwartete Eingabe signalisiert.</p>
+<p>Wir können die Funktion auch ohne Argument aufrufen:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>name <span class="op">=</span> <span class="bu">input</span>()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>In diesem Fall erscheint nur der blinkende Cursor ohne Text. Wichtig: Auch wenn wir kein Argument übergeben, müssen wir die runden Klammern angeben. Sie sind das universelle Zeichen für einen Funktionsaufruf.</p>
+</section>
+</section>
 <section id="übungsaufgaben" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="übungsaufgaben">Übungsaufgaben</h2>
-<section id="reflektionsfragen" class="level3" data-number="15.3.1">
-<h3 data-number="15.3.1" class="anchored" data-anchor-id="reflektionsfragen"><span class="header-section-number">15.3.1</span> Reflektionsfragen</h3>
+<section id="reflektionsfragen" class="level3" data-number="15.3.5">
+<h3 data-number="15.3.5" class="anchored" data-anchor-id="reflektionsfragen"><span class="header-section-number">15.3.5</span> Reflektionsfragen</h3>
 <ol type="1">
 <li><p>Welche Befehle kennst du, die zum Funktionsumfang von Python gehören? Schlag in der <a href="https://docs.python.org/3/">Dokumentation</a> nach und nenne mindestens 5 Befehle und erläutere ihren Zweck!</p></li>
 <li><p>Wozu können Kommentare in einem Programm nützlich sein?</p></li>
 <li><p>Was versteht man unter dem Begriff <em>bug</em> in der Programmierung? Welche Arten kennst du?</p></li>
 </ol>
 </section>
-<section id="programmieraufgaben" class="level3" data-number="15.3.2">
-<h3 data-number="15.3.2" class="anchored" data-anchor-id="programmieraufgaben"><span class="header-section-number">15.3.2</span> Programmieraufgaben</h3>
+<section id="programmieraufgaben" class="level3" data-number="15.3.6">
+<h3 data-number="15.3.6" class="anchored" data-anchor-id="programmieraufgaben"><span class="header-section-number">15.3.6</span> Programmieraufgaben</h3>
 <ol type="1">
 <li><p>Schreibe ein Programm, das den Benutzer um die Eingabe seines Namens bittet und ihn anschließend unter Nennung seines Namens begrüßt! Formuliere dein Programm zunächst als Pseudocode und schreibe die Schritte als Kommentare in dein Programm!</p></li>
 <li><p>Recherchiere, wie wir den Benutzer um die Eingabe von Zahlen bitten können und wie wir diese Zahlen in Python verarbeiten können! Schreibe ein Programm, das den Benutzer um die Eingabe von zwei Zahlen bittet und anschließend die Summe der beiden Zahlen ausgibt! Welche Art von Fehler kann dabei auftreten?</p></li>
