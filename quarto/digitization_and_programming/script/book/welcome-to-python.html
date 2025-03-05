@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>5&nbsp; Willkommen in Python – Digitalisierung und Programmierung</title>
+<title>15&nbsp; Willkommen in Python – Digitalisierung und Programmierung</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,6 +95,9 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-8da5b4427184b79ecddefad3d342027e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -135,7 +138,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part-programming.html">Programmierung</a></li><li class="breadcrumb-item"><a href="./welcome-to-python.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Willkommen in Python</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part-programming.html">Programmierung</a></li><li class="breadcrumb-item"><a href="./welcome-to-python.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Willkommen in Python</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -219,12 +222,24 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Bits</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code-systems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Codesysteme</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-structures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Datenstrukturen</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./part-programming.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Programmierung</span></a>
+            <a href="./part-processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Verarbeitung</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -232,44 +247,114 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./analog-vs-digital.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Analog vs.&nbsp;Digital</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./storage.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Speicher</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./logic-and-arithmetic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Logik und Arithmetik</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./computer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Computer</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part-communication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kommunikation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./signals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Signale</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./protocols.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Protokolle</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./encryption.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Verschlüsselung</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./compression.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Kompression</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part-programming.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Programmierung</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./welcome-to-python.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Willkommen in Python</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Willkommen in Python</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./variables-and-data-types.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Variablen und Datentypen</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Variablen und Datentypen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./functions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Funktionen</span></span></a>
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Funktionen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./collections.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Collections</span></span></a>
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Collections</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./conditionals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Kontrollstrukturen</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Kontrollstrukturen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./loops.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Schleifen</span></span></a>
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Schleifen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./debugging-and-error-handling.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Fehlersuche- und Behandlung</span></span></a>
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Fehlersuche- und Behandlung</span></span></a>
   </div>
 </li>
       </ul>
@@ -290,12 +375,13 @@ div.csl-indent {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#unser-erstes-programm" id="toc-unser-erstes-programm" class="nav-link active" data-scroll-target="#unser-erstes-programm"><span class="header-section-number">5.1</span> Unser erstes Programm</a></li>
-  <li><a href="#ein-programm-ausführen" id="toc-ein-programm-ausführen" class="nav-link" data-scroll-target="#ein-programm-ausführen"><span class="header-section-number">5.2</span> Ein Programm ausführen</a></li>
+  <li><a href="#unser-erstes-programm" id="toc-unser-erstes-programm" class="nav-link active" data-scroll-target="#unser-erstes-programm"><span class="header-section-number">15.1</span> Unser erstes Programm</a></li>
+  <li><a href="#ein-programm-ausführen" id="toc-ein-programm-ausführen" class="nav-link" data-scroll-target="#ein-programm-ausführen"><span class="header-section-number">15.2</span> Ein Programm ausführen</a></li>
+  <li><a href="#befehle-in-python" id="toc-befehle-in-python" class="nav-link" data-scroll-target="#befehle-in-python"><span class="header-section-number">15.3</span> Befehle in Python</a></li>
   <li><a href="#übungsaufgaben" id="toc-übungsaufgaben" class="nav-link" data-scroll-target="#übungsaufgaben">Übungsaufgaben</a>
   <ul class="collapse">
-  <li><a href="#reflektionsfragen" id="toc-reflektionsfragen" class="nav-link" data-scroll-target="#reflektionsfragen"><span class="header-section-number">5.2.1</span> Reflektionsfragen</a></li>
-  <li><a href="#programmieraufgaben" id="toc-programmieraufgaben" class="nav-link" data-scroll-target="#programmieraufgaben"><span class="header-section-number">5.2.2</span> Programmieraufgaben</a></li>
+  <li><a href="#reflektionsfragen" id="toc-reflektionsfragen" class="nav-link" data-scroll-target="#reflektionsfragen"><span class="header-section-number">15.3.1</span> Reflektionsfragen</a></li>
+  <li><a href="#programmieraufgaben" id="toc-programmieraufgaben" class="nav-link" data-scroll-target="#programmieraufgaben"><span class="header-section-number">15.3.2</span> Programmieraufgaben</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -303,9 +389,9 @@ div.csl-indent {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part-programming.html">Programmierung</a></li><li class="breadcrumb-item"><a href="./welcome-to-python.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Willkommen in Python</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part-programming.html">Programmierung</a></li><li class="breadcrumb-item"><a href="./welcome-to-python.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Willkommen in Python</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Willkommen in Python</span></h1>
+<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Willkommen in Python</span></h1>
 </div>
 
 
@@ -322,8 +408,8 @@ div.csl-indent {
 </header>
 
 
-<section id="unser-erstes-programm" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="unser-erstes-programm"><span class="header-section-number">5.1</span> Unser erstes Programm</h2>
+<section id="unser-erstes-programm" class="level2" data-number="15.1">
+<h2 data-number="15.1" class="anchored" data-anchor-id="unser-erstes-programm"><span class="header-section-number">15.1</span> Unser erstes Programm</h2>
 <p>Unser erstes Programm könnte so aussehen:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ask the user for their name</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>name <span class="op">=</span> <span class="bu">input</span>(<span class="st">"What's your name? "</span>)</span>
@@ -342,27 +428,37 @@ div.csl-indent {
 <p>Diese Zeilen sind <strong>Kommentare </strong>und gehören nicht zum eigentlichen Programm. Der Computer überspringt sie – sie dienen ausschließlich uns Menschen als Hilfestellung. Ein gut platzierter Kommentar kann das Verständnis des Codes erheblich erleichtern.</p>
 <p>Im Beispiel oben werden die Befehle Zeile für Zeile ausgeführt – das ist der Normalfall in einem Programm. Es gibt jedoch spezielle Anweisungen wie <strong>Schleifen</strong>, <strong>Kontrollstrukturen</strong> und <strong>Funktionen</strong>, die den Computer veranlassen, Befehle in einer anderen Reihenfolge auszuführen. Mit diesen Anweisungen kann der Computer bestimmte Aktionen wiederholen oder Codezeilen überspringen. Keine Sorge, wenn dir diese Konzepte noch nicht ganz klar sind – wir werden sie bald näher kennenlernen.</p>
 </section>
-<section id="ein-programm-ausführen" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="ein-programm-ausführen"><span class="header-section-number">5.2</span> Ein Programm ausführen</h2>
+<section id="ein-programm-ausführen" class="level2" data-number="15.2">
+<h2 data-number="15.2" class="anchored" data-anchor-id="ein-programm-ausführen"><span class="header-section-number">15.2</span> Ein Programm ausführen</h2>
 <p>Um ein Python-Programm auszuführen, benötigen wir einen Python-Interpreter – das Programm, das unseren Python-Code Zeile für Zeile liest und ausführt. Diesen musst du <a href="https://www.python.org/downloads/">für dein Betriebssystem herunterladen</a> und wie jedes andere Programm installieren. In Visual Studio Code können wir ein Python-Programm einfach mit einem Klick auf den „Play”-Button oder durch Drücken der Taste F5 starten. Ich persönlich bevorzuge jedoch den Weg über die Kommandozeile (oder Terminal), da wir so die volle Kontrolle über die Ausführung unseres Programms haben. Ein weiterer Vorteil: Wir lernen dabei wichtige Kommandozeilenbefehle kennen, die in der Softwareentwicklung unverzichtbar sind. Mach dich also mit dem Terminal vertraut.</p>
 <p>Öffne direkt ein Terminal in Visual Studio Code über das Menü “Terminal” → “New Terminal”. Bei Windows-Systemen solltest du darauf achten, dass es sich um ein “Command Prompt” (cmd) handelt. Bei Linux-Systemen heißt es “Bash”, auf einem Mac-Rechner heisst es einfach “Shell”.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> my_first_program.py</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
+<section id="befehle-in-python" class="level2" data-number="15.3">
+<h2 data-number="15.3" class="anchored" data-anchor-id="befehle-in-python"><span class="header-section-number">15.3</span> Befehle in Python</h2>
+<div id="fig-commands-origin" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-commands-origin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://winf-hsos.github.io/university-docs/images/prog_functions_origin.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;15.1: Unterschiedliche Arten von Befehlen in Python."><img src="https://winf-hsos.github.io/university-docs/images/prog_functions_origin.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-commands-origin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;15.1: Unterschiedliche Arten von Befehlen in Python.
+</figcaption>
+</figure>
+</div>
+</section>
 <section id="übungsaufgaben" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="übungsaufgaben">Übungsaufgaben</h2>
-<section id="reflektionsfragen" class="level3" data-number="5.2.1">
-<h3 data-number="5.2.1" class="anchored" data-anchor-id="reflektionsfragen"><span class="header-section-number">5.2.1</span> Reflektionsfragen</h3>
+<section id="reflektionsfragen" class="level3" data-number="15.3.1">
+<h3 data-number="15.3.1" class="anchored" data-anchor-id="reflektionsfragen"><span class="header-section-number">15.3.1</span> Reflektionsfragen</h3>
 <ol type="1">
-<li><p>Welche Funktionen kennst du, die zum Funktionsumfang von Python gehören? Schlag in der <a href="https://docs.python.org/3/">Dokumentation</a> nach und nenne mindestens 5 Funktionen und erläutere ihren Zweck!</p></li>
-<li><p>Erläutere die Begriffe <em>Parameter</em> und <em>Rückgabewert</em> im Zusammenhang mit Funktionen in der Programmierung und nenne jeweils ein Beispiel!</p></li>
+<li><p>Welche Befehle kennst du, die zum Funktionsumfang von Python gehören? Schlag in der <a href="https://docs.python.org/3/">Dokumentation</a> nach und nenne mindestens 5 Befehle und erläutere ihren Zweck!</p></li>
 <li><p>Wozu können Kommentare in einem Programm nützlich sein?</p></li>
-<li><p>Beschreibt die Konventionen für die Benennung von Variablen oder Funktionen in Python! Warum ist es sinnvoll, Konventionen zu haben und einzuhalten?</p></li>
 <li><p>Was versteht man unter dem Begriff <em>bug</em> in der Programmierung? Welche Arten kennst du?</p></li>
-<li><p>Beschreibe mit eigenen Worten, was unter einer <em>Variable</em> zu verstehen ist! Was ist eine Variable aus technischer Sicht?</p></li>
 </ol>
 </section>
-<section id="programmieraufgaben" class="level3" data-number="5.2.2">
-<h3 data-number="5.2.2" class="anchored" data-anchor-id="programmieraufgaben"><span class="header-section-number">5.2.2</span> Programmieraufgaben</h3>
+<section id="programmieraufgaben" class="level3" data-number="15.3.2">
+<h3 data-number="15.3.2" class="anchored" data-anchor-id="programmieraufgaben"><span class="header-section-number">15.3.2</span> Programmieraufgaben</h3>
 <ol type="1">
 <li><p>Schreibe ein Programm, das den Benutzer um die Eingabe seines Namens bittet und ihn anschließend unter Nennung seines Namens begrüßt! Formuliere dein Programm zunächst als Pseudocode und schreibe die Schritte als Kommentare in dein Programm!</p></li>
 <li><p>Recherchiere, wie wir den Benutzer um die Eingabe von Zahlen bitten können und wie wir diese Zahlen in Python verarbeiten können! Schreibe ein Programm, das den Benutzer um die Eingabe von zwei Zahlen bittet und anschließend die Summe der beiden Zahlen ausgibt! Welche Art von Fehler kann dabei auftreten?</p></li>
@@ -815,11 +911,43 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./variables-and-data-types.html" class="pagination-link" aria-label="Variablen und Datentypen">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Variablen und Datentypen</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Variablen und Datentypen</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

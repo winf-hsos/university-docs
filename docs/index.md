@@ -211,6 +211,7 @@
 - [problem_word_count_parallelized.png](images/problem_word_count_parallelized.png)
 - [prog_functions_origin.png](images/prog_functions_origin.png)
 - [prog_variables_container.png](images/prog_variables_container.png)
+- [prog_variables_container_expression.png](images/prog_variables_container_expression.png)
 - [scalar_vector_data_frame.png](images/scalar_vector_data_frame.png)
 - [stringr_simple_searches_in_text.png](images/stringr_simple_searches_in_text.png)
 - [tidy_data_tidy.png](images/tidy_data_tidy.png)

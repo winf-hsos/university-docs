@@ -9,17 +9,11 @@ subtitle: "Übungsaufgaben zur Programmierung"
 ---
 ### Reflektionsfragen
 
-1.  Welche Funktionen kennst du, die zum Funktionsumfang von Python gehören? Schlag in der [Dokumentation](https://docs.python.org/3/) nach und nenne mindestens 5 Funktionen und erläutere ihren Zweck!
+1.  Welche Befehle kennst du, die zum Funktionsumfang von Python gehören? Schlag in der [Dokumentation](https://docs.python.org/3/) nach und nenne mindestens 5 Befehle und erläutere ihren Zweck!
 
-2.  Erläutere die Begriffe *Parameter* und *Rückgabewert* im Zusammenhang mit Funktionen in der Programmierung und nenne jeweils ein Beispiel!
+2.  Wozu können Kommentare in einem Programm nützlich sein?
 
-3.  Wozu können Kommentare in einem Programm nützlich sein?
-
-4.  Beschreibt die Konventionen für die Benennung von Variablen oder Funktionen in Python! Warum ist es sinnvoll, Konventionen zu haben und einzuhalten?
-
-5.  Was versteht man unter dem Begriff *bug* in der Programmierung? Welche Arten kennst du?
-
-6.  Beschreibe mit eigenen Worten, was unter einer *Variable* zu verstehen ist! Was ist eine Variable aus technischer Sicht?
+3.  Was versteht man unter dem Begriff *bug* in der Programmierung? Welche Arten kennst du?
 
 ### Programmieraufgaben
 

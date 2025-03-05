@@ -44,6 +44,10 @@ Um ein Python-Programm auszuführen, benötigen wir einen Python-Interpreter –
 ```bash
 python my_first_program.py
 ```
+## Befehle in Python
+
+![Unterschiedliche Arten von Befehlen in Python.](https://winf-hsos.github.io/university-docs/images/prog_functions_origin.png){fig-align="center" width=100% #fig-commands-origin .lightbox}
+
 ## Übungsaufgaben {.unnumbered}
 
 {{< include exercises/programming-exercise-welcome-to-python.qmd >}}

@@ -30,7 +30,7 @@ Stellenwertsysteme folgen dem *Bündelungsprinzip*: Man bündelt eine gewisse An
 
 Das Besondere daran ist, dass man mit begrenzt vielen Ziffern unendlich viele Zahlen darstellen kann. Jede ganze Zahl ab 0 kann durch eine geeignete Kombination der Ziffern dargestellt werden, solange man ausreichend Stellen zur Verfügung hat. Stellenwertsysteme machen das Rechnen und Darstellen von Zahlen äußerst effizient, weil jede Stelle für sich einen bestimmten Wert *beiträgt* und wir diese Beiträge einfach addieren können, um den Gesamtwert zu erhalten
 
-### Das Dezimalsystem zur Basis 10
+### Das Dezimalsystem
 
 Das **Dezimalsystem**\index{Dezimalsystem} ist das Zahlensystem, das wir im Alltag fast überall verwenden. Es hat die Basis 10, was bedeutet, dass wir zehn verschiedene Ziffern haben: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Jede Stelle in einer Dezimalzahl repräsentiert eine Potenz von 10. Zum Beispiel bedeutet die Zahl **203** im Dezimalsystem folgendes:
 

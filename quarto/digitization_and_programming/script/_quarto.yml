@@ -26,20 +26,20 @@ book:
       chapters:
         - information.qmd
         - bits.qmd
-    #    - code-systems.qmd
-    #    - data-structures.qmd
-    #- part: part-processing.qmd
-    #  chapters:
-    #    - analog-vs-digital.qmd
-    #    - storage.qmd
-    #    - logic-and-arithmetic.qmd
-    #    - computer.qmd
-    #- part: part-communication.qmd
-    #  chapters:
-    #    - signals.qmd
-    #    - protocols.qmd
-    #    - encryption.qmd
-    #    - compression.qmd
+        - code-systems.qmd
+        - data-structures.qmd
+    - part: part-processing.qmd
+      chapters:
+        - analog-vs-digital.qmd
+        - storage.qmd
+        - logic-and-arithmetic.qmd
+        - computer.qmd
+    - part: part-communication.qmd
+      chapters:
+        - signals.qmd
+        - protocols.qmd
+        - encryption.qmd
+        - compression.qmd
     - part: part-programming.qmd
       chapters:
         - welcome-to-python.qmd

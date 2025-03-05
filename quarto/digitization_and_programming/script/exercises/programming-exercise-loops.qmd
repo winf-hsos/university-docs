@@ -1,6 +1,8 @@
-## Reflektionsfragen
+### Reflektionsfragen
 
-## Programmieraufgaben
+1.  Welche Arten von Schleifen kennst du, und wann würdest du sie einsetzen? Beschreibe für jede Schleifenart ein anschauliches Beispiel.
+
+### Programmieraufgaben
 
 1.  Schreibt ein Programm, das die Gregory-Leibiniz-Serie für eine Anzahl Durchläufe $n$ berechnet, die als Eingabe des Benutzers abgefragt wird. Die Approximation für $\pi$ soll als Ausgabe auf der Kommandozeile erscheinen.
 
