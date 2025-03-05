@@ -334,6 +334,9 @@ window.Quarto = {
   <li><a href="#komplexe-datentypen" id="toc-komplexe-datentypen" class="nav-link" data-scroll-target="#komplexe-datentypen"><span class="header-section-number">6.4.4</span> Komplexe Datentypen</a></li>
   </ul></li>
   <li><a href="#variablen-im-computer" id="toc-variablen-im-computer" class="nav-link" data-scroll-target="#variablen-im-computer"><span class="header-section-number">6.5</span> Variablen im Computer</a></li>
+  <li><a href="#übungsaufgaben" id="toc-übungsaufgaben" class="nav-link" data-scroll-target="#übungsaufgaben">Übungsaufgaben</a></li>
+  <li><a href="#reflektionsfragen" id="toc-reflektionsfragen" class="nav-link" data-scroll-target="#reflektionsfragen"><span class="header-section-number">6.6</span> Reflektionsfragen</a></li>
+  <li><a href="#programmieraufgaben" id="toc-programmieraufgaben" class="nav-link" data-scroll-target="#programmieraufgaben"><span class="header-section-number">6.7</span> Programmieraufgaben</a></li>
   </ul>
 </nav>
     </div>
@@ -446,6 +449,42 @@ window.Quarto = {
 <p>Eine Variable lässt sich bildlich als Behälter mit einem Namensetikett vorstellen. In diesen Behälter können wir beliebige Werte ablegen. Mithilfe des Namens finden wir den Behälter jederzeit wieder, können seinen Inhalt einsehen und für weitere Zwecke verwenden. Wir können auch einen neuen Wert in den Behälter legen – dabei wird der bisherige Inhalt entweder gelöscht oder muss zuvor in einen anderen Behälter umgelagert werden.</p>
 <p>[IMAGE VARIABLES AS CONTAINERS]</p>
 <p>In Wirklichkeit sind Variablen bestimmte Bereiche im Arbeitsspeicher (RAM) des Computers. Jeder dieser Speicherorte besitzt eine eindeutige Adresse. Bei der Zuweisung eines Wertes zu einer Variable speichert der Computer diesen Wert an einer bestimmten Adresse im RAM. Der Variablenname wird dann mit dieser Adresse verknüpft, damit wir den Wert später über den Namen abrufen können. Eine Variable ist also im Grunde ein Zeiger auf eine bestimmte Stelle im Computerspeicher.</p>
+</section>
+<section id="übungsaufgaben" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="übungsaufgaben">Übungsaufgaben</h2>
+</section>
+<section id="reflektionsfragen" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="reflektionsfragen"><span class="header-section-number">6.6</span> Reflektionsfragen</h2>
+<ol type="1">
+<li>Warum sind Variablen in einem Programm nützlich?</li>
+<li>Wie kann man den Wert einer Variable auf der Konsole ausgeben?</li>
+<li>Was ist der Unterschied zwischen einer Variablen und einer Konstante?</li>
+<li>Wie kann man in Python eine Konstante definieren?</li>
+<li>Welche Zeichen sind in einem Variablennamen erlaubt?</li>
+<li>Was bedeutet es, dass Python <em>case sensitive</em> ist?</li>
+<li>Warum ist es eine gute Praxis, Variablennamen auf Englisch zu schreiben?</li>
+<li>Was sind reservierte Schlüsselwörter, und warum dürfen sie nicht als Variablennamen verwendet werden?</li>
+<li>Welche primitiven Datentypen kennst du?</li>
+<li>Welche numerischen Datentypen unterscheidet Python?</li>
+<li>Warum muss man Anführungszeichen benutzen, um eine Zeichenkette zu definieren?</li>
+<li>Wie kann man in einer Zeichenkette ein Anführungszeichen verwenden, ohne einen Fehler zu verursachen?</li>
+<li>Was ist der Boolesche Datentyp, und welche Werte kann er annehmen?</li>
+<li>Warum werden <code>True</code> und <code>False</code> in Python nicht in Anführungszeichen geschrieben?</li>
+<li>Was passiert mit dem alten Wert einer Variable, wenn ihr ein neuer Wert zugewiesen wird?</li>
+<li>Was ist eine Variable im Computer technisch gesehen?</li>
+</ol>
+</section>
+<section id="programmieraufgaben" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="programmieraufgaben"><span class="header-section-number">6.7</span> Programmieraufgaben</h2>
+<p>Erstelle für jede der folgenden Aufgaben ein separates Python-Programm in einer eigenen Datei mit der Endung <code>.py</code>!</p>
+<ol type="1">
+<li>Schreibe ein kleines Python-Programm, das eine Variable für die Fläche eines Kreises speichert und berechnet. Nutze für den Wert von <code>π</code> die Kostante aus dem <code>math</code> Modul.</li>
+<li>Definiere eine Zeichenkette mit einem Backslash auf einer Variable und gib sie auf der Konsole aus. Was fällt dir auf?</li>
+<li>Addiere zwei Zeichenketten und lass dir das Ergebnis anzeigen! Multipliziere anschließend eine Zeichenkette mit einer ganzen Zahl!</li>
+<li>Frage den Benutzer nach seinem Vor- und Nachnamen und speichere das Ergebnis in einer Variable<code>name</code>. Teile diese Variable anschließend in zwei Variablen auf:<code>first_name</code>für den Vornamen und<code>last_name</code>für den Nachnamen. Nutze die <code>find()</code>-Funktion, um das Leerzeichen zwischen Vor- und Nachnamen zu finden. Speichere die gefundene Position auf einer weiteren Variable. Verwende dann die Notation mit eckigen Klammern, um die beiden Namensteile zu extrahieren und in den entsprechenden Variablen zu speichern.</li>
+<li>Schreibe ein Programm, in dem du zwei boolesche Werte addierst und subtrahierst. Betrachte und interpretiere das Ergebnis. Multipliziere anschließend einen booleschen Wert mit einem numerischen Wert. Was passiert?</li>
+<li>Erstelle eine beliebige Variable und gib die Speicheradresse der Variable auf der Konsole aus!</li>
+</ol>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">

@@ -377,7 +377,29 @@
     "href": "bits.html",
     "title": "4  Bits",
     "section": "",
-    "text": "4.1 Ist das Bit die kleinste Informationseinheit?\nZu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.",
+    "text": "4.1 Was ist ein Zahlensystem?\nZu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bits</span>"
+    ]
+  },
+  {
+    "objectID": "bits.html#was-ist-ein-zahlensystem",
+    "href": "bits.html#was-ist-ein-zahlensystem",
+    "title": "4  Bits",
+    "section": "",
+    "text": "4.1.1 Stellenwertsysteme\nBevor wir uns speziellen Zahlensystemen zuwenden, müssen wir verstehen, was ein Stellenwertsystem** ist. In einem Stellenwert- oder Positionssystem hängt der Wert einer Ziffer vom Platz ab, an dem sie steht. Das bedeutet: Eine Zahl besteht aus einer Reihe von Ziffern, und jede Ziffer hat je nach ihrer Position einen unterschiedlichen Wert (Stellenwert). Unser gewohntes Zehnersystem (Dezimalsystem) **ist genau so ein Stellenwertsystem.\nStellenwertsysteme folgen dem Bündelungsprinzip: Man bündelt eine gewisse Anzahl an Einheiten und schiebt dann eine Stelle weiter. Ein einfaches Beispiel: Stell dir vor, du zählst Punkte und machst immer einen Strich, sobald du 10 Punkte gezählt hast. Zehn einzelne Punkte werden also zu einem Bündel (einem Strich) zusammengefasst. Dieses Bündel entspricht einer neuen Stelle in unserer Zahlenschreibweise. So wird z. B. die Anzahl “13” im Dezimalsystem interpretiert als 1 Bündel zu 10 und 3 einzelne. Allgemein gesagt: Im Dezimalsystem hat jede Stelle einen Wert, der eine Potenz von 10 ist, also etwa \\(10^0 = 1\\), \\(10^1 = 10\\), \\(10^2 = 100\\) und so weiter. Die Ziffern an diesen Stellen geben an, wie viele Bündel dieses Werts vorhanden sind.\nDas Besondere daran ist, dass man mit begrenzt vielen Ziffern unendlich viele Zahlen darstellen kann. Jede ganze Zahl ab 0 kann durch eine geeignete Kombination der Ziffern dargestellt werden, solange man ausreichend Stellen zur Verfügung hat. Stellenwertsysteme machen das Rechnen und Darstellen von Zahlen äußerst effizient, weil jede Stelle für sich einen bestimmten Wert beiträgt und wir diese Beiträge einfach addieren können, um den Gesamtwert zu erhalten\n\n\n4.1.2 Das Dezimalsystem zur Basis 10\nDas Dezimalsystem ist das Zahlensystem, das wir im Alltag fast überall verwenden. Es hat die Basis 10, was bedeutet, dass wir zehn verschiedene Ziffern haben: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Jede Stelle in einer Dezimalzahl repräsentiert eine Potenz von 10. Zum Beispiel bedeutet die Zahl 203 im Dezimalsystem folgendes:\n\nDie “3” steht an der 1er-Stelle (\\(10^0\\)), sie repräsentiert also 3 × 1.\nDie “0” steht an der 10er-Stelle (\\(10^1\\)), sie repräsentiert 0 × 10.\nDie “2” steht an der 100er-Stelle (\\(10^2\\)), sie repräsentiert 2 × 100.\n\nWenn wir das zusammenrechnen:\n\\[\n2 \\times 100 + 0\\times10 + 3\\times1 = 200 + 0 + 3 = 203\n\\]\nSo einfach ist das Prinzip – vermutlich kennst du es schon längst, ohne bisher über den Begriff Stellenwertsystem nachgedacht zu haben.\nWarum benutzen wir ausgerechnet zehn verschiedene Ziffern? Historisch liegt das vermutlich daran, dass der Mensch zehn Finger hat und es nahelag, damit zu zählen. Tatsächlich wurde das Dezimalsystem in Indien entwickelt und durch die Einführung der Ziffer “0” (Null) im 7. Jahrhundert n. Chr. besonders leistungsfähig. Über die arabische Welt gelangte es nach Europa und setzte sich schließlich durch. Heute verwenden wir das Dezimalsystem so selbstverständlich, dass es wichtig ist, uns bewusst zu machen: Es ist nur eines von vielen möglichen Zahlensystemen.\n\n\n4.1.3 Zahlensysteme mit einer anderen Basis\nTheoretisch kann ein Stellenwertsystem jede ganze Zahl ab 2 als Basis haben. Die Basis bestimmt, wie viele unterschiedliche Ziffern es gibt und um welchen Faktor der Stellenwert zunimmt, wenn man eine Stelle nach links rückt. Im Dezimalsystem (Basis 10) gibt es 10 Ziffern und jede Stelle ist 10 mal mehr wert als die Stelle rechts daneben. In einem System Basis 5 gäbe es nur die Ziffern 0–4, und jede Stelle wäre 5 mal so viel wert wie die vorige, usw.",
+    "crumbs": [
+      "Repräsentation",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bits</span>"
+    ]
+  },
+  {
+    "objectID": "bits.html#ist-das-bit-die-kleinste-informationseinheit",
+    "href": "bits.html#ist-das-bit-die-kleinste-informationseinheit",
+    "title": "4  Bits",
+    "section": "4.2 Ist das Bit die kleinste Informationseinheit?",
+    "text": "4.2 Ist das Bit die kleinste Informationseinheit?",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bits</span>"
@@ -387,8 +409,8 @@
     "objectID": "bits.html#was-ist-ein-byte",
     "href": "bits.html#was-ist-ein-byte",
     "title": "4  Bits",
-    "section": "4.2 Was ist ein Byte?",
-    "text": "4.2 Was ist ein Byte?",
+    "section": "4.3 Was ist ein Byte?",
+    "text": "4.3 Was ist ein Byte?",
     "crumbs": [
       "Repräsentation",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bits</span>"
@@ -442,7 +464,18 @@
     "href": "welcome-to-python.html#ein-programm-ausführen",
     "title": "5  Willkommen in Python",
     "section": "5.2 Ein Programm ausführen",
-    "text": "5.2 Ein Programm ausführen\nUm ein Python-Programm auszuführen, benötigen wir einen Python-Interpreter – das Programm, das unseren Python-Code Zeile für Zeile liest und ausführt. Diesen musst du für dein Betriebssystem herunterladen und wie jedes andere Programm installieren. In Visual Studio Code können wir ein Python-Programm einfach mit einem Klick auf den „Play”-Button oder durch Drücken der Taste F5 starten. Ich persönlich bevorzuge jedoch den Weg über die Kommandozeile (oder Terminal), da wir so die volle Kontrolle über die Ausführung unseres Programms haben. Ein weiterer Vorteil: Wir lernen dabei wichtige Kommandozeilenbefehle kennen, die in der Softwareentwicklung unverzichtbar sind. Mach dich also mit dem Terminal vertraut.\nÖffne direkt ein Terminal in Visual Studio Code über das Menü “Terminal” → “New Terminal”. Bei Windows-Systemen solltest du darauf achten, dass es sich um ein “Command Prompt” (cmd) handelt. Bei Linux-Systemen heißt es “Bash”, auf einem Mac-Rechner heisst es einfach “Shell”.\npython my_first_program.py\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "text": "5.2 Ein Programm ausführen\nUm ein Python-Programm auszuführen, benötigen wir einen Python-Interpreter – das Programm, das unseren Python-Code Zeile für Zeile liest und ausführt. Diesen musst du für dein Betriebssystem herunterladen und wie jedes andere Programm installieren. In Visual Studio Code können wir ein Python-Programm einfach mit einem Klick auf den „Play”-Button oder durch Drücken der Taste F5 starten. Ich persönlich bevorzuge jedoch den Weg über die Kommandozeile (oder Terminal), da wir so die volle Kontrolle über die Ausführung unseres Programms haben. Ein weiterer Vorteil: Wir lernen dabei wichtige Kommandozeilenbefehle kennen, die in der Softwareentwicklung unverzichtbar sind. Mach dich also mit dem Terminal vertraut.\nÖffne direkt ein Terminal in Visual Studio Code über das Menü “Terminal” → “New Terminal”. Bei Windows-Systemen solltest du darauf achten, dass es sich um ein “Command Prompt” (cmd) handelt. Bei Linux-Systemen heißt es “Bash”, auf einem Mac-Rechner heisst es einfach “Shell”.\npython my_first_program.py",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Willkommen in Python</span>"
+    ]
+  },
+  {
+    "objectID": "welcome-to-python.html#übungsaufgaben",
+    "href": "welcome-to-python.html#übungsaufgaben",
+    "title": "5  Willkommen in Python",
+    "section": "Übungsaufgaben",
+    "text": "Übungsaufgaben\n\n5.2.1 Reflektionsfragen\n\nWelche Funktionen kennst du, die zum Funktionsumfang von Python gehören? Schlag in der Dokumentation nach und nenne mindestens 5 Funktionen und erläutere ihren Zweck!\nErläutere die Begriffe Parameter und Rückgabewert im Zusammenhang mit Funktionen in der Programmierung und nenne jeweils ein Beispiel!\nWozu können Kommentare in einem Programm nützlich sein?\nBeschreibt die Konventionen für die Benennung von Variablen oder Funktionen in Python! Warum ist es sinnvoll, Konventionen zu haben und einzuhalten?\nWas versteht man unter dem Begriff bug in der Programmierung? Welche Arten kennst du?\nBeschreibe mit eigenen Worten, was unter einer Variable zu verstehen ist! Was ist eine Variable aus technischer Sicht?\n\n\n\n5.2.2 Programmieraufgaben\n\nSchreibe ein Programm, das den Benutzer um die Eingabe seines Namens bittet und ihn anschließend unter Nennung seines Namens begrüßt! Formuliere dein Programm zunächst als Pseudocode und schreibe die Schritte als Kommentare in dein Programm!\nRecherchiere, wie wir den Benutzer um die Eingabe von Zahlen bitten können und wie wir diese Zahlen in Python verarbeiten können! Schreibe ein Programm, das den Benutzer um die Eingabe von zwei Zahlen bittet und anschließend die Summe der beiden Zahlen ausgibt! Welche Art von Fehler kann dabei auftreten?\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Willkommen in Python</span>"
@@ -508,7 +541,40 @@
     "href": "variables-and-data-types.html#variablen-im-computer",
     "title": "6  Variablen und Datentypen",
     "section": "6.5 Variablen im Computer",
-    "text": "6.5 Variablen im Computer\nEine Variable lässt sich bildlich als Behälter mit einem Namensetikett vorstellen. In diesen Behälter können wir beliebige Werte ablegen. Mithilfe des Namens finden wir den Behälter jederzeit wieder, können seinen Inhalt einsehen und für weitere Zwecke verwenden. Wir können auch einen neuen Wert in den Behälter legen – dabei wird der bisherige Inhalt entweder gelöscht oder muss zuvor in einen anderen Behälter umgelagert werden.\n[IMAGE VARIABLES AS CONTAINERS]\nIn Wirklichkeit sind Variablen bestimmte Bereiche im Arbeitsspeicher (RAM) des Computers. Jeder dieser Speicherorte besitzt eine eindeutige Adresse. Bei der Zuweisung eines Wertes zu einer Variable speichert der Computer diesen Wert an einer bestimmten Adresse im RAM. Der Variablenname wird dann mit dieser Adresse verknüpft, damit wir den Wert später über den Namen abrufen können. Eine Variable ist also im Grunde ein Zeiger auf eine bestimmte Stelle im Computerspeicher.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "text": "6.5 Variablen im Computer\nEine Variable lässt sich bildlich als Behälter mit einem Namensetikett vorstellen. In diesen Behälter können wir beliebige Werte ablegen. Mithilfe des Namens finden wir den Behälter jederzeit wieder, können seinen Inhalt einsehen und für weitere Zwecke verwenden. Wir können auch einen neuen Wert in den Behälter legen – dabei wird der bisherige Inhalt entweder gelöscht oder muss zuvor in einen anderen Behälter umgelagert werden.\n[IMAGE VARIABLES AS CONTAINERS]\nIn Wirklichkeit sind Variablen bestimmte Bereiche im Arbeitsspeicher (RAM) des Computers. Jeder dieser Speicherorte besitzt eine eindeutige Adresse. Bei der Zuweisung eines Wertes zu einer Variable speichert der Computer diesen Wert an einer bestimmten Adresse im RAM. Der Variablenname wird dann mit dieser Adresse verknüpft, damit wir den Wert später über den Namen abrufen können. Eine Variable ist also im Grunde ein Zeiger auf eine bestimmte Stelle im Computerspeicher.",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
+    ]
+  },
+  {
+    "objectID": "variables-and-data-types.html#übungsaufgaben",
+    "href": "variables-and-data-types.html#übungsaufgaben",
+    "title": "6  Variablen und Datentypen",
+    "section": "Übungsaufgaben",
+    "text": "Übungsaufgaben",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
+    ]
+  },
+  {
+    "objectID": "variables-and-data-types.html#reflektionsfragen",
+    "href": "variables-and-data-types.html#reflektionsfragen",
+    "title": "6  Variablen und Datentypen",
+    "section": "6.6 Reflektionsfragen",
+    "text": "6.6 Reflektionsfragen\n\nWarum sind Variablen in einem Programm nützlich?\nWie kann man den Wert einer Variable auf der Konsole ausgeben?\nWas ist der Unterschied zwischen einer Variablen und einer Konstante?\nWie kann man in Python eine Konstante definieren?\nWelche Zeichen sind in einem Variablennamen erlaubt?\nWas bedeutet es, dass Python case sensitive ist?\nWarum ist es eine gute Praxis, Variablennamen auf Englisch zu schreiben?\nWas sind reservierte Schlüsselwörter, und warum dürfen sie nicht als Variablennamen verwendet werden?\nWelche primitiven Datentypen kennst du?\nWelche numerischen Datentypen unterscheidet Python?\nWarum muss man Anführungszeichen benutzen, um eine Zeichenkette zu definieren?\nWie kann man in einer Zeichenkette ein Anführungszeichen verwenden, ohne einen Fehler zu verursachen?\nWas ist der Boolesche Datentyp, und welche Werte kann er annehmen?\nWarum werden True und False in Python nicht in Anführungszeichen geschrieben?\nWas passiert mit dem alten Wert einer Variable, wenn ihr ein neuer Wert zugewiesen wird?\nWas ist eine Variable im Computer technisch gesehen?",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
+    ]
+  },
+  {
+    "objectID": "variables-and-data-types.html#programmieraufgaben",
+    "href": "variables-and-data-types.html#programmieraufgaben",
+    "title": "6  Variablen und Datentypen",
+    "section": "6.7 Programmieraufgaben",
+    "text": "6.7 Programmieraufgaben\nErstelle für jede der folgenden Aufgaben ein separates Python-Programm in einer eigenen Datei mit der Endung .py!\n\nSchreibe ein kleines Python-Programm, das eine Variable für die Fläche eines Kreises speichert und berechnet. Nutze für den Wert von π die Kostante aus dem math Modul.\nDefiniere eine Zeichenkette mit einem Backslash auf einer Variable und gib sie auf der Konsole aus. Was fällt dir auf?\nAddiere zwei Zeichenketten und lass dir das Ergebnis anzeigen! Multipliziere anschließend eine Zeichenkette mit einer ganzen Zahl!\nFrage den Benutzer nach seinem Vor- und Nachnamen und speichere das Ergebnis in einer Variablename. Teile diese Variable anschließend in zwei Variablen auf:first_namefür den Vornamen undlast_namefür den Nachnamen. Nutze die find()-Funktion, um das Leerzeichen zwischen Vor- und Nachnamen zu finden. Speichere die gefundene Position auf einer weiteren Variable. Verwende dann die Notation mit eckigen Klammern, um die beiden Namensteile zu extrahieren und in den entsprechenden Variablen zu speichern.\nSchreibe ein Programm, in dem du zwei boolesche Werte addierst und subtrahierst. Betrachte und interpretiere das Ergebnis. Multipliziere anschließend einen booleschen Wert mit einem numerischen Wert. Was passiert?\nErstelle eine beliebige Variable und gib die Speicheradresse der Variable auf der Konsole aus!\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Variablen und Datentypen</span>"
@@ -519,7 +585,29 @@
     "href": "functions.html",
     "title": "7  Funktionen",
     "section": "",
-    "text": "Funktionen definieren\nFunktionen verwenden\nModule laden und Funktionen daraus verwenden\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "text": "Übungsaufgaben",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Funktionen</span>"
+    ]
+  },
+  {
+    "objectID": "functions.html#reflektionsfragen",
+    "href": "functions.html#reflektionsfragen",
+    "title": "7  Funktionen",
+    "section": "7.1 Reflektionsfragen",
+    "text": "7.1 Reflektionsfragen\n\nWarum ist es nicht sinnvoll, hinter einer returnAnweisung innerhalb einer Funktion noch weitere Anweisungen zu schreiben?\nErläutere die Funktionsweise eine Format-Strings in Python? Was passiert mit den Platzhaltern, wenn wir das “f” als Präfix weglassen?",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Funktionen</span>"
+    ]
+  },
+  {
+    "objectID": "functions.html#programmieraufgaben",
+    "href": "functions.html#programmieraufgaben",
+    "title": "7  Funktionen",
+    "section": "7.2 Programmieraufgaben",
+    "text": "7.2 Programmieraufgaben\n\nSchreibe eine Funktion, die prüft, ob eine Zahl größer als die andere ist. Die Funktion soll beide Zahlen als Parameter entgegennehmen und True zurückgeben, wenn die erste Zahl größer ist als die zweite, andernfalls False.\nSchreibe ein Programm für das folgende Problem: Der Benutzer wird beim Start aufgefordert, einen beliebigen Text bestehend aus Buchstaben und Zahlen einzugeben. Dein Programm soll den Text in Morse-Code umwandeln und als Ton ausgeben. Verwende dazu die Funktion Beep(frequency, duration) aus dem Modul winsound. Die Funktion Beep erwartet zwei Parameter: die Frequenz des Tons in Hertz und die Dauer des Tons in Millisekunden. Wähle eine geeignete Frequenz für die Töne und recherchiere im Internet die standardmäßige Dauer für Punkte, Striche und Pausen im Morse-Code. Gehe dabei nach dem in der Vorlesung eingeführten Problemlösungsschema vor.\n\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Funktionen</span>"
@@ -530,7 +618,29 @@
     "href": "collections.html",
     "title": "8  Collections",
     "section": "",
-    "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "text": "Übungsaufgaben",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Collections</span>"
+    ]
+  },
+  {
+    "objectID": "collections.html#reflektionsfragen",
+    "href": "collections.html#reflektionsfragen",
+    "title": "8  Collections",
+    "section": "8.1 Reflektionsfragen",
+    "text": "8.1 Reflektionsfragen",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Collections</span>"
+    ]
+  },
+  {
+    "objectID": "collections.html#programmieraufgaben",
+    "href": "collections.html#programmieraufgaben",
+    "title": "8  Collections",
+    "section": "8.2 Programmieraufgaben",
+    "text": "8.2 Programmieraufgaben\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Collections</span>"
@@ -541,7 +651,29 @@
     "href": "conditionals.html",
     "title": "9  Kontrollstrukturen",
     "section": "",
-    "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "text": "Übungsaufgaben",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Kontrollstrukturen</span>"
+    ]
+  },
+  {
+    "objectID": "conditionals.html#reflektionsfragen",
+    "href": "conditionals.html#reflektionsfragen",
+    "title": "9  Kontrollstrukturen",
+    "section": "9.1 Reflektionsfragen",
+    "text": "9.1 Reflektionsfragen",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Kontrollstrukturen</span>"
+    ]
+  },
+  {
+    "objectID": "conditionals.html#programmieraufgaben",
+    "href": "conditionals.html#programmieraufgaben",
+    "title": "9  Kontrollstrukturen",
+    "section": "9.2 Programmieraufgaben",
+    "text": "9.2 Programmieraufgaben\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Kontrollstrukturen</span>"
@@ -552,7 +684,29 @@
     "href": "loops.html",
     "title": "10  Schleifen",
     "section": "",
-    "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "text": "Übungsaufgaben",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Schleifen</span>"
+    ]
+  },
+  {
+    "objectID": "loops.html#reflektionsfragen",
+    "href": "loops.html#reflektionsfragen",
+    "title": "10  Schleifen",
+    "section": "10.1 Reflektionsfragen",
+    "text": "10.1 Reflektionsfragen",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Schleifen</span>"
+    ]
+  },
+  {
+    "objectID": "loops.html#programmieraufgaben",
+    "href": "loops.html#programmieraufgaben",
+    "title": "10  Schleifen",
+    "section": "10.2 Programmieraufgaben",
+    "text": "10.2 Programmieraufgaben\n\nSchreibt ein Programm, das die Gregory-Leibiniz-Serie für eine Anzahl Durchläufe \\(n\\) berechnet, die als Eingabe des Benutzers abgefragt wird. Die Approximation für \\(\\pi\\) soll als Ausgabe auf der Kommandozeile erscheinen.\nSchreibe ein Programm, das die Summe aller Zahlen von 1 bis 100 berechnet und ausgibt. Verwende dazu eine Schleife!\nDu hast in der Vorlesung im Zusammenhang mit dem Traveling Salesman Problem den Brute Force-Algorithmus kennengerlent. Nutze deine Pythonkenntnisse, um folgende Probleme zu lösen:\n\nSchreibe ein Programm zur Berechnung der Laufzeit des Brute-Force-Ansatzes beim Traveling Salesman Problem (TSP). Das Programm soll die Anzahl der Städte als Benutzereingabe entgegennehmen und die Anzahl möglicher Routen zusammen mit der Laufzeit in Sekunden und Jahren ausgeben. Die Laufzeit des Brute-Force-Ansatzes beträgt \\(O(n!)\\), wobei \\(n\\) die Anzahl der Städte ist. Schreibe dazu deine eigene Funktion factorial() und verwende darin eine Schleife, um die Fakultät der Anzahl der Städte zu berechnen. Nimm an, dass ein Schritt eine halbe Nanosekunde dauert. Dies entspricht einer Prozessortaktung von 2 GHz.\nLass Dir von deinem Programm die Laufzeiten für 10, 15 und 20 Städte ausgeben. Wie viele Jahre würde es jeweils dauern, um alle Routen für die jeweilige Anzahl Städte zu berechnen?\nUntersuche, welchen Einfluss die Prozessortaktung oder die benötigte Zeit in Nanosekunden für einen Schritt auf die Laufzeit hat. Was passiert, wenn die Prozessortaktung auf 3 GHz erhöht wird?\n\nDu hast in der Vorlesung Algorithmen zur Annäherung der Kreiszahl \\(\\pi\\) kennengelernt. Versuche dich nun in der Umsetzung mit Python:\n\nSchreibe ein Programm, das die Kreiszahl \\(\\pi\\) mit Hilfe der Formel von Leibniz berechnet. Die Formel lautet: \\(\\pi = 4 \\cdot \\left(1 - \\frac{1}{3} + \\frac{1}{5} - \\frac{1}{7} + \\frac{1}{9} - \\ldots\\right)\\). Verwende dazu eine Schleife, die die ersten 1000 Glieder der Reihe berechnet. Gib die Annäherung von \\(\\pi\\) nach 1000 Schritten aus.\nSchreibe ein Programm, das die Kreiszahl \\(\\pi\\) mit Hilfe einer Monte Carlo-Simulation annähert. Die Formel zur Berechnung der Kreiszahl lautet: \\(\\pi = 4 \\cdot \\frac{N_{C}}{N_{Q}}\\), wobei \\(N_{C}\\) die Anzahl der Punkte im Kreis und \\(N_{Q}\\) die Anzahl der Punkte im Quadrat ist. Verwende dazu eine Schleife, die 1000 Punkte zufällig im Quadrat verteilt und zähle, wie viele Punkte innerhalb des Kreises liegen. Gib die Annäherung von \\(\\pi\\) nach 1000 Schritten aus.\n\n\nHinweis: Du kannst feststellen, ob ein Punkt innerhalb des Kreises liegt, indem du die Entfernung des Punktes zum Kreismittelpunkt berechnest. Nutze dazu die Kreisformel \\(x^2 + y^2 = r^2\\), die bei einem Kreis mit \\(r = 1\\) entsprechend einfach zu überprüfen ist.\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Schleifen</span>"
@@ -563,7 +717,29 @@
     "href": "debugging-and-error-handling.html",
     "title": "11  Fehlersuche- und Behandlung",
     "section": "",
-    "text": "Adami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
+    "text": "Übungsaufgaben",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Fehlersuche- und Behandlung</span>"
+    ]
+  },
+  {
+    "objectID": "debugging-and-error-handling.html#reflektionsfragen",
+    "href": "debugging-and-error-handling.html#reflektionsfragen",
+    "title": "11  Fehlersuche- und Behandlung",
+    "section": "11.1 Reflektionsfragen",
+    "text": "11.1 Reflektionsfragen",
+    "crumbs": [
+      "Programmierung",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Fehlersuche- und Behandlung</span>"
+    ]
+  },
+  {
+    "objectID": "debugging-and-error-handling.html#programmieraufgaben",
+    "href": "debugging-and-error-handling.html#programmieraufgaben",
+    "title": "11  Fehlersuche- und Behandlung",
+    "section": "11.2 Programmieraufgaben",
+    "text": "11.2 Programmieraufgaben\n\n\n\n\nAdami, Christoph. 2016. „What is Information?“ Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 374 (2063): 20150230. https://doi.org/10.1098/rsta.2015.0230.\n\n\nBrookshear, J. Glenn, und Dennis Brylow. 2020. Computer science: an overview. 13th edition, global edition. NY, NY: Pearson.\n\n\nPetzold, Charles. 2022. Code: the hidden language of computer hardware and software. 2. Aufl. Hoboken: Microsoft Press.\n\n\nPólya, George, und John Horton Conway. 2004. How to solve it: a new aspect of mathematical method. Expanded Princeton Science Library ed. Princeton science library. Princeton [N.J.]: Princeton University Press.\n\n\nScott, John C. 2009. But how do it know?: the basic principles of computers for everyone. Oldsmar, FL: John C. Scott.",
     "crumbs": [
       "Programmierung",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Fehlersuche- und Behandlung</span>"

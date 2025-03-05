@@ -1,2 +1,6 @@
 # Schleifen
 
+## Übungsaufgaben {.unnumbered}
+
+{{< include exercises/programming-exercise-loops.qmd >}}
+

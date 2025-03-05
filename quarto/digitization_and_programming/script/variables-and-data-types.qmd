@@ -129,5 +129,7 @@ Eine Variable lässt sich bildlich als Behälter mit einem Namensetikett vorstel
 
 In Wirklichkeit sind Variablen bestimmte Bereiche im Arbeitsspeicher (RAM) des Computers. Jeder dieser Speicherorte besitzt eine eindeutige Adresse. Bei der Zuweisung eines Wertes zu einer Variable speichert der Computer diesen Wert an einer bestimmten Adresse im RAM. Der Variablenname wird dann mit dieser Adresse verknüpft, damit wir den Wert später über den Namen abrufen können. Eine Variable ist also im Grunde ein Zeiger auf eine bestimmte Stelle im Computerspeicher.
 
+## Übungsaufgaben {.unnumbered}
 
+{{< include exercises/programming-exercise-variables-and-data-types.qmd >}}
 

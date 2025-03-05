@@ -5,9 +5,8 @@ format: pdf
 toc: false
 number-sections: false
 code-line-numbers: true
-subtitle: "Tutorials zur Programmierung"
+subtitle: "Übungsaufgaben zur Programmierung"
 ---
-
 ## Reflektionsfragen
 
 ## Programmieraufgaben

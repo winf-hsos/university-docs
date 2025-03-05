@@ -1,0 +1,11 @@
+## Reflektionsfragen
+
+1.  Warum ist es nicht sinnvoll, hinter einer `return`Anweisung innerhalb einer Funktion noch weitere Anweisungen zu schreiben?
+2.  Erläutere die Funktionsweise eine Format-Strings in Python? Was passiert mit den Platzhaltern, wenn wir das "f" als Präfix weglassen?
+
+## Programmieraufgaben
+
+1.  Schreibe eine Funktion, die prüft, ob eine Zahl größer als die andere ist. Die Funktion soll beide Zahlen als Parameter entgegennehmen und `True` zurückgeben, wenn die erste Zahl größer ist als die zweite, andernfalls `False`.
+
+2.  Schreibe ein Programm für das folgende Problem: Der Benutzer wird beim Start aufgefordert, einen beliebigen Text bestehend aus Buchstaben und Zahlen einzugeben. Dein Programm soll den Text in Morse-Code umwandeln und als Ton ausgeben. Verwende dazu die Funktion `Beep(frequency, duration)` aus dem Modul `winsound`. Die Funktion `Beep` erwartet zwei Parameter: die Frequenz des Tons in Hertz und die Dauer des Tons in Millisekunden. Wähle eine geeignete Frequenz für die Töne und recherchiere im Internet die standardmäßige Dauer für Punkte, Striche und Pausen im Morse-Code. Gehe dabei nach dem in der Vorlesung eingeführten Problemlösungsschema vor.
+

@@ -44,5 +44,9 @@ Um ein Python-Programm auszuführen, benötigen wir einen Python-Interpreter –
 ```bash
 python my_first_program.py
 ```
+## Übungsaufgaben {.unnumbered}
+
+{{< include exercises/programming-exercise-welcome-to-python.qmd >}}
+
 
 

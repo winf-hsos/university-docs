@@ -20,6 +20,40 @@ Zu diesem Kapitel habe ich ein Video auf YouTube bereitgestellt.
 
 :::
 
+## Was ist ein Zahlensystem?
+
+### Stellenwertsysteme
+
+Bevor wir uns speziellen Zahlensystemen zuwenden, müssen wir verstehen, was ein **Stellenwertsystem**\index{Stellenwertsystem}** **ist. In einem Stellenwert- oder Positionssystem hängt der Wert einer Ziffer vom Platz ab, an dem sie steht. Das bedeutet: Eine Zahl besteht aus einer Reihe von Ziffern, und jede Ziffer hat je nach ihrer Position einen unterschiedlichen Wert (Stellenwert). Unser gewohntes **Zehnersystem (Dezimalsystem) **ist genau so ein Stellenwertsystem.
+
+Stellenwertsysteme folgen dem *Bündelungsprinzip*: Man bündelt eine gewisse Anzahl an Einheiten und schiebt dann eine Stelle weiter. Ein einfaches Beispiel: Stell dir vor, du zählst Punkte und machst immer einen Strich, sobald du 10 Punkte gezählt hast. Zehn einzelne Punkte werden also zu einem Bündel (einem Strich) zusammengefasst. Dieses Bündel entspricht einer neuen Stelle in unserer Zahlenschreibweise. So wird z. B. die Anzahl "13" im Dezimalsystem interpretiert als *1 Bündel zu 10* und *3 einzelne*. Allgemein gesagt: Im Dezimalsystem hat jede Stelle einen Wert, der eine Potenz von 10 ist, also etwa $10^0 = 1$, $10^1 = 10$, $10^2 = 100$ und so weiter. Die Ziffern an diesen Stellen geben an, wie viele Bündel dieses Werts vorhanden sind.
+
+Das Besondere daran ist, dass man mit begrenzt vielen Ziffern unendlich viele Zahlen darstellen kann. Jede ganze Zahl ab 0 kann durch eine geeignete Kombination der Ziffern dargestellt werden, solange man ausreichend Stellen zur Verfügung hat. Stellenwertsysteme machen das Rechnen und Darstellen von Zahlen äußerst effizient, weil jede Stelle für sich einen bestimmten Wert *beiträgt* und wir diese Beiträge einfach addieren können, um den Gesamtwert zu erhalten
+
+### Das Dezimalsystem zur Basis 10
+
+Das **Dezimalsystem**\index{Dezimalsystem} ist das Zahlensystem, das wir im Alltag fast überall verwenden. Es hat die Basis 10, was bedeutet, dass wir zehn verschiedene Ziffern haben: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Jede Stelle in einer Dezimalzahl repräsentiert eine Potenz von 10. Zum Beispiel bedeutet die Zahl **203** im Dezimalsystem folgendes:
+
+-   Die "3" steht an der **1er-Stelle** ($10^0$), sie repräsentiert also 3 × 1.
+-   Die "0" steht an der **10er-Stelle** ($10^1$), sie repräsentiert 0 × 10.
+-   Die "2" steht an der **100er-Stelle** ($10^2$), sie repräsentiert 2 × 100.
+
+Wenn wir das zusammenrechnen:
+
+ 
+
+$$
+2 \times 100 + 0\times10 + 3\times1 = 200 + 0 + 3 = 203
+$$
+
+So einfach ist das Prinzip – vermutlich kennst du es schon längst, ohne bisher über den Begriff *Stellenwertsystem* nachgedacht zu haben.
+
+Warum benutzen wir ausgerechnet zehn verschiedene Ziffern? Historisch liegt das vermutlich daran, dass der Mensch zehn Finger hat und es nahelag, damit zu zählen. Tatsächlich wurde das Dezimalsystem in Indien entwickelt und durch die Einführung der Ziffer "0" (Null) im 7. Jahrhundert n. Chr. besonders leistungsfähig. Über die arabische Welt gelangte es nach Europa und setzte sich schließlich durch. Heute verwenden wir das Dezimalsystem so selbstverständlich, dass es wichtig ist, uns bewusst zu machen: Es ist nur eines von vielen möglichen Zahlensystemen.
+
+### Zahlensysteme mit einer anderen Basis
+
+Theoretisch kann ein Stellenwertsystem **jede ganze Zahl ab 2 als Basis **haben. Die Basis bestimmt, wie viele unterschiedliche Ziffern es gibt und um welchen Faktor der Stellenwert zunimmt, wenn man eine Stelle nach links rückt. Im Dezimalsystem (Basis 10) gibt es 10 Ziffern und jede Stelle ist 10 mal mehr wert als die Stelle rechts daneben. In einem System Basis 5 gäbe es nur die Ziffern 0–4, und jede Stelle wäre 5 mal so viel wert wie die vorige, usw.
+
 ## Ist das Bit die kleinste Informationseinheit?
 
 ## Was ist ein Byte?

@@ -1,2 +1,8 @@
 # Fehlersuche- und Behandlung
 
+## Übungsaufgaben {.unnumbered}
+
+{{< include exercises/programming-exercise-debugging-and-error-handling.qmd >}}
+
+
+

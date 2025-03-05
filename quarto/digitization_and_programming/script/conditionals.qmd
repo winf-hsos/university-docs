@@ -1,2 +1,6 @@
 # Kontrollstrukturen
 
+## Übungsaufgaben {.unnumbered}
+
+{{< include exercises/programming-exercise-conditionals.qmd >}}
+
