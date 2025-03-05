@@ -181,6 +181,7 @@
 - [problem_solving_67_prime_number_binary_search_5.png](images/problem_solving_67_prime_number_binary_search_5.png)
 - [problem_solving_67_prime_number_binary_search_6.png](images/problem_solving_67_prime_number_binary_search_6.png)
 - [problem_solving_67_prime_number_linear.png](images/problem_solving_67_prime_number_linear.png)
+- [problem_solving_decomposition.png](images/problem_solving_decomposition.png)
 - [problem_solving_even_smaller_problems.png](images/problem_solving_even_smaller_problems.png)
 - [problem_solving_example_addition.png](images/problem_solving_example_addition.png)
 - [problem_solving_example_chatgpt.png](images/problem_solving_example_chatgpt.png)
