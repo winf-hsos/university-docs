@@ -49,6 +49,7 @@
 ### Digital Lab
 
 - [SS 24 - Digital Lab.pdf](google_slides/digital_lab/SS 24 - Digital Lab.pdf) [[Edit](https://docs.google.com/presentation/d/1LA0uPQn-fv3vi0nXkFiMk5jH6ET8vtmgE7TbmemoAVE/edit)]
+- [SS 25 - Digital Lab.pdf](google_slides/digital_lab/SS 25 - Digital Lab.pdf) [[Edit](https://docs.google.com/presentation/d/12ti-4H0Kp9lk91nOoUihQdvtMZGqoKTDPFdyvnpRHIE/edit)]
 
 ### Empirisches Arbeiten
 
