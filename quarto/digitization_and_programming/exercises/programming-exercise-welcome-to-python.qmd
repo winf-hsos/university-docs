@@ -26,9 +26,7 @@ subtitle: "Übungsaufgaben zur Programmierung"
 
 3.  Nutze das Modul `math` und schreibe ein Programm, das die Quadratwurzel einer Zahl berechnet, die der Nutzer eingibt.
 
-4.  Schreibe ein Python-Programm, das eine Temperatur in Grad Celsius vom Nutzer abfragt und anschließend die entsprechende Temperatur in Grad Fahrenheit berechnet und ausgibt.
-
-Nutze dazu folgende Umrechnungsformel: $F=C\times\frac{9}{5} +32$
+4.  Schreibe ein Python-Programm, das eine Temperatur in Grad Celsius vom Nutzer abfragt und anschließend die entsprechende Temperatur in Grad Fahrenheit berechnet und ausgibt. Nutze dazu folgende Umrechnungsformel: $F=C\times\frac{9}{5} +32$
 
 5.  Schreibe ein Programm, das den Nutzer nach seinem Namen, Alter und seiner Heimatstadt fragt und anschließend eine freundliche Zusammenfassung ausgibt. Verwende dabei sinnvolle Kommentare, um deinen Code verständlich zu machen.
 
