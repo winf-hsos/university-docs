@@ -11,9 +11,11 @@ subtitle: "Übungsaufgaben zur Programmierung"
 
 1.  Welche Befehle kennst du, die zum Funktionsumfang von Python gehören? Schlag in der [Dokumentation](https://docs.python.org/3/) nach und nenne mindestens 5 Befehle und erläutere ihren Zweck!
 
-2.  Wozu können Kommentare in einem Programm nützlich sein?
+2.  Wozu können Kommentare in einem Programm nützlich sein, obwohl sie vom Computer ignortiert werden?
 
 3.  Was versteht man unter dem Begriff *bug* in der Programmierung? Welche Arten kennst du?
+
+4.  Nenne 3 Beispiele für Laufzeitfehler!
 
 ### Programmieraufgaben
 
@@ -21,4 +23,12 @@ subtitle: "Übungsaufgaben zur Programmierung"
 1.  Schreibe ein Programm, das den Benutzer um die Eingabe seines Namens bittet und ihn anschließend unter Nennung seines Namens begrüßt! Formuliere dein Programm zunächst als Pseudocode und schreibe die Schritte als Kommentare in dein Programm!
 
 2.  Recherchiere, wie wir den Benutzer um die Eingabe von Zahlen bitten können und wie wir diese Zahlen in Python verarbeiten können! Schreibe ein Programm, das den Benutzer um die Eingabe von zwei Zahlen bittet und anschließend die Summe der beiden Zahlen ausgibt! Welche Art von Fehler kann dabei auftreten?
+
+3.  Nutze das Modul `math` und schreibe ein Programm, das die Quadratwurzel einer Zahl berechnet, die der Nutzer eingibt.
+
+4.  Schreibe ein Python-Programm, das eine Temperatur in Grad Celsius vom Nutzer abfragt und anschließend die entsprechende Temperatur in Grad Fahrenheit berechnet und ausgibt.
+
+Nutze dazu folgende Umrechnungsformel: $F=C\times\frac{9}{5} +32$
+
+5.  Schreibe ein Programm, das den Nutzer nach seinem Namen, Alter und seiner Heimatstadt fragt und anschließend eine freundliche Zusammenfassung ausgibt. Verwende dabei sinnvolle Kommentare, um deinen Code verständlich zu machen.
 

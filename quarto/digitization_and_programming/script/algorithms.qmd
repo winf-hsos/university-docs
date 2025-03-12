@@ -13,6 +13,10 @@ Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Prob
 
 ## Was ist ein Algorithmus?
 
+In @fig-algo-eva sehen wir das aus dem vorherigen Kapitel bekannte EVA-Modell. Algorithmen stehen im Zentrum des Modells, da sie für die Lösung von Problemen – mit und ohne Computer – entscheidend sind. Sie beschreiben, wie ein Problem auf Basis der Eingabe gelöst werden soll und erzeugen die Ausgabe, also die Lösung selbst.
+
+![Algorithmen im EVA-Modell.](https://winf-hsos.github.io/university-docs/images/algorithms_computational_schema_algorithm.png){fig-align="center" width=100% #fig-algo-eva .lightbox}
+
 ### Herkunft des Begriffs
 
 Der Begriff *Algorithmus *hat eine [interessante geschichtliche Herkunft](https://www.wissenschaftsjahr.de/2008/coremedia/generator/wj2008/de/02__Mathematik__alles__was__z_C3_A4hlt/05__KW50__Algorithmus.html). Er leitet sich vom Namen eines persischen Mathematikers des 9. Jahrhunderts ab: *Abu Dschaʿfar Muhammad ibn Mūsā al-Chwārizmī*. Dieser Gelehrte schrieb ein Buch über Rechenverfahren mit den damals neuen indisch-arabischen Ziffern. In lateinischer Übersetzung des Werks wurde aus seinem Namen "Algoritmi", woraus sich das Wort *Algorismus *und schließlich *Algorithmus *entwickelte. Ursprünglich bezeichnete *Algorismus *tatsächlich die schriftlichen Rechenverfahren (Addition, Subtraktion etc.) mit arabischen Ziffern. Heutzutage verstehen wir unter einem Algorithmus aber jedes Verfahren, das nach festen Regeln abläuft – nicht nur Rechenverfahren. Die historische Anekdote zeigt jedoch, dass Algorithmen seit jeher mit systematischem **Problemlösen **und **Rechenvorschriften **verbunden sind.

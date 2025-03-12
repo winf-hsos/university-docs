@@ -120,6 +120,21 @@ name = input()
 ```
 In diesem Fall erscheint nur der blinkende Cursor ohne Text. Wichtig: Auch wenn wir kein Argument übergeben, müssen wir die runden Klammern angeben. Sie sind das universelle Zeichen für einen Funktionsaufruf.
 
+### Rückgabewerte eines Befehls
+
+Programme erzeugen nach dem EVA-Modell (Eingabe-Verarbeitung-Ausgabe) Ergebnisse. In Programmiersprachen wie Python können nicht nur Programme, sondern auch einzelne Befehle oder Funktionen Ergebnisse produzieren. Diese Ergebnisse nennen wir Rückgabewerte.
+
+Ein typisches Beispiel ist die `input`-Funktion:
+
+```python
+name = input("What's your name?")
+```
+Diese Funktion wartet auf eine Benutzereingabe und gibt den eingegebenen Text als Rückgabewert zurück. Mit dem Zuweisungsoperator (`=`) speichern wir diesen Rückgabewert in der Variable `name`, um ihn später im Programm weiterverwenden zu können. Das Konzept der Rückgabewerte und Variablen werden wir in den folgenden Kapiteln noch ausführlicher behandeln.
+
+## Fehler
+
+Wenn wir ein Python-Programm ausführen, können verschiedene Fehler auftreten. Die häufigsten sind **Syntaxfehler**, die entstehen, wenn wir uns nicht an die Regeln der Python-Sprache halten, zum Beispiel wenn wir vergessen, Klammern zu schließen oder Einrückungen falsch setzen. **Laufzeitfehler** treten dagegen erst während der Programmausführung auf, etwa wenn wir versuchen, durch Null zu teilen oder auf nicht vorhandene Dateien zuzugreifen.
+
 ## Übungsaufgaben {.unnumbered}
 
 {{< include exercises/programming-exercise-welcome-to-python.qmd >}}
