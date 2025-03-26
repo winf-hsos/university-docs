@@ -46,7 +46,7 @@ Erstelle für jede der folgenden Aufgaben ein separates Python-Programm in einer
 
 3.  Addiere zwei Zeichenketten und lass dir das Ergebnis anzeigen! Multipliziere anschließend eine Zeichenkette mit einer ganzen Zahl!
 
-4.  Frage den Benutzer nach seinem Vor- und Nachnamen und speichere das Ergebnis in einer Variable`name`. Teile diese Variable anschließend in zwei Variablen auf:`first_name`für den Vornamen und`last_name`für den Nachnamen. Nutze die `find()`-Funktion, um das Leerzeichen zwischen Vor- und Nachnamen zu finden. Speichere die gefundene Position auf einer weiteren Variable. Verwende dann die Notation mit eckigen Klammern, um die beiden Namensteile zu extrahieren und in den entsprechenden Variablen zu speichern.
+4.  Frage den Benutzer nach seinem Vor- und Nachnamen und speichere das Ergebnis in einer Variable`name`. Teile diese Variable anschließend in zwei Variablen auf: `first_name`für den Vornamen und `last_name` für den Nachnamen. Nutze die `find()`-Funktion, um das Leerzeichen zwischen Vor- und Nachnamen zu finden. Speichere die gefundene Position auf einer weiteren Variable. Verwende dann die Notation mit eckigen Klammern, um die beiden Namensteile zu extrahieren und in den entsprechenden Variablen zu speichern.
 
 5.  Schreibe ein Programm, in dem du zwei boolesche Werte addierst und subtrahierst. Betrachte und interpretiere das Ergebnis. Multipliziere anschließend einen booleschen Wert mit einem numerischen Wert. Was passiert?
 
