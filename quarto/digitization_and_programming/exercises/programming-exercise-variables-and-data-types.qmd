@@ -49,7 +49,7 @@ subtitle: "Übungsaufgaben zur Programmierung"
 
 Erstelle für jede der folgenden Aufgaben ein separates Python-Programm in einer eigenen Datei mit der Endung `.py`!
 
-1.  Schreibe ein kleines Python-Programm, das eine Variable für die Fläche eines Kreises berechnet und speichert. Nutze für den Wert von `π` die Konstante aus dem `math` Modul.
+1.  Schreibe ein kleines Python-Programm, das eine Variable für die Fläche eines Kreises berechnet und speichert. Nutze für den Wert von $\pi$ die Konstante aus dem `math` Modul.
 
 2.  Definiere eine Variable mit einer Zeichenkette, die einen Backslash enthält, und gib sie auf der Konsole aus. Was beobachtest du?
 
