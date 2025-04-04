@@ -260,6 +260,10 @@
 - [exercise_transcribe_youtube_videos.pdf](quarto/data_analytics/exercise_transcribe_youtube_videos.pdf)
 - [exercise_vectors_monty_hall.pdf](quarto/data_analytics/exercise_vectors_monty_hall.pdf)
 
+### Digital Lab
+
+- [exercise_programming_color_sensor_led.pdf](quarto/digital_lab/exercise_programming_color_sensor_led.pdf)
+
 ### Digitization and Programming
 
 - [digitization-and-programming-syllabus.pdf](quarto/digitization_and_programming/digitization-and-programming-syllabus.pdf)
