@@ -18,7 +18,7 @@ In this task, install the necessary software for the development environment on 
 
 -   A current version of the [R programming language](https://cran.rstudio.com/) (\>= 4.2.3)
 -   The latest version of [RStudio Desktop](https://posit.co/download/rstudio-desktop/)
--   A current version of the [Python programming language]()
+-   A current version of the [Python programming language](https://www.python.org/downloads/)
 -   [Git](https://git-scm.com/downloads)
 
 To test your working environment, open a new terminal in RStudio and checkout the [GitHub code repository for the WordLens project](https://github.com/winf-hsos/wordlens-code). Install all required R-libraries and run the first script [`1_why_data_transformation.R`](https://github.com/winf-hsos/wordlens-code/blob/main/part_1/1_why_data_transformation.R) from top to bottom. If everything works properly, the script should produce two different visualizations.

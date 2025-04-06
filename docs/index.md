@@ -254,6 +254,7 @@
 - [exercise_explore_transform_rewe_products.pdf](quarto/data_analytics/exercise_explore_transform_rewe_products.pdf)
 - [exercise_generate_youtube_video_list.pdf](quarto/data_analytics/exercise_generate_youtube_video_list.pdf)
 - [exercise_getting_started_with_the_hpc_cluster.pdf](quarto/data_analytics/exercise_getting_started_with_the_hpc_cluster.pdf)
+- [exercise_r_tidyverse_entry_test.pdf](quarto/data_analytics/exercise_r_tidyverse_entry_test.pdf)
 - [exercise_rule_based_text_classification_newspaper_articles.pdf](quarto/data_analytics/exercise_rule_based_text_classification_newspaper_articles.pdf)
 - [exercise_search_and_extract_text_data_from_tweets.pdf](quarto/data_analytics/exercise_search_and_extract_text_data_from_tweets.pdf)
 - [exercise_transcribe_and_analyze_nutrition_videos.pdf](quarto/data_analytics/exercise_transcribe_and_analyze_nutrition_videos.pdf)
