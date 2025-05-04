@@ -1,0 +1,61 @@
+---
+title: "Grammar of Graphics Step By Step"
+---
+
+This exercise guides you step by step through practicing the different layers of the Grammar of Graphics and their implementation in ggplot2. You'll create two different plots using the REWE products dataset. Load the data as follows:
+
+```{r, eval=FALSE}  
+library(tidyverse)
+library(janitor)
+rewe <- read_csv("data/rewe_products.csv") |> 
+  clean_names()
+```
+
+## Exercise 1: Products by Category
+
+1.  Create an empty canvas for your plot based in the `rewe` dataset.
+
+2.  Map the `product_category` variable to the x-axis and regenerate the plot. Describe the change you observe.
+
+3.  Add a geometry to your visualization to show the number of products per category as bars.
+
+4.  Adjust the plot to show relative proportions (%) instead of absolute counts. Use the after_stat() function to achieve this.
+
+5.  Modify the y-axis labels to display percentages.
+
+6.  Provide more descriptive axis labels: set the x-axis label to "Product Category" and the y-axis label to "Proportion".
+
+7.  Map the variable bio to the fill aesthetic. Explain the impact of this change on your plot.
+
+8.  Manually set the fill colors for the bars to "grey70" (non-bio) and "forestgreen" (bio).
+
+9.  Flip the axes to make the bars horizontal.
+
+10.  Sort the bars by descending frequency, so the categories with the highest proportion appear first.
+
+11.  Filter out products without a defined product category.
+
+12.  Apply a clean theme, such as `theme_minimal()` or `theme_classic()`.
+
+13.  Customize the appearance by setting the font family to the Google Font "Caesar Dressing" and adjusting the font size to 15.
+
+14. Add an informative title to your plot, such as "Distribution of REWE Products by Category".
+
+
+## Exercise 2: Distribution of Price per Category
+
+1.  Create a new plot illustrating the distribution of the price variable as a histogram.
+
+2.  Improve the clarity of your plot by filtering out outliers (remove products priced higher than €30).
+
+3.  Enhance interpretability further by applying a logarithmic transformation to the y-axis.
+
+4.  Use facets to create separate histograms for each product category.
+
+5.  Set each histogram to display in a distinct color.
+
+6.  Remove the legend for the fill aesthetic.
+
+7.  Apply a clean theme, set the font family to "Caesar Dressing," and adjust the font size to 15.
+
+8.  Finally, save your plot as a PNG image using the `ggsave()` function with a resolution of 300 dpi and dimensions of 1000 x 800 pixels.
