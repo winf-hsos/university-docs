@@ -15,11 +15,11 @@ Algorithmen sind ein fundamentales Konzept der Informatik und der digitalen Prob
 
 In @fig-algo-eva sehen wir das aus dem vorherigen Kapitel bekannte EVA-Modell. Algorithmen stehen im Zentrum des Modells, da sie für die Lösung von Problemen – mit und ohne Computer – entscheidend sind. Sie beschreiben, wie ein Problem auf Basis der Eingabe gelöst werden soll und erzeugen die Ausgabe, also die Lösung selbst.
 
-![Algorithmen im EVA-Modell.](https://winf-hsos.github.io/university-docs/images/algorithms_computational_schema_algorithm.png){#fig-algo-eva .lightbox fig-align="center" width="100%"}
+![Algorithmen im EVA-Modell.](https://winf-hsos.github.io/university-docs/images/algorithms_computational_schema_algorithm.png){fig-align="center" width=100% #fig-algo-eva .lightbox}
 
 ### Herkunft des Begriffs
 
-Der Begriff *Algorithmus* hat eine [interessante geschichtliche Herkunft](https://www.wissenschaftsjahr.de/2008/coremedia/generator/wj2008/de/02__Mathematik__alles__was__z_C3_A4hlt/05__KW50__Algorithmus.html). Er leitet sich vom Namen eines persischen Mathematikers des 9. Jahrhunderts ab: *Abu Dschaʿfar Muhammad ibn Mūsā al-Chwārizmī*. Dieser Gelehrte schrieb ein Buch über Rechenverfahren mit den damals neuen indisch-arabischen Ziffern. In lateinischer Übersetzung des Werks wurde aus seinem Namen "Algoritmi", woraus sich das Wort *Algorismus* und schließlich *Algorithmus* entwickelte. Ursprünglich bezeichnete *Algorismus* tatsächlich die schriftlichen Rechenverfahren (Addition, Subtraktion etc.) mit arabischen Ziffern. Heutzutage verstehen wir unter einem Algorithmus aber jedes Verfahren, das nach festen Regeln abläuft – nicht nur Rechenverfahren. Die historische Anekdote zeigt jedoch, dass Algorithmen seit jeher mit systematischem **Problemlösen** und **Rechenvorschriften** verbunden sind.
+Der Begriff *Algorithmus *hat eine [interessante geschichtliche Herkunft](https://www.wissenschaftsjahr.de/2008/coremedia/generator/wj2008/de/02__Mathematik__alles__was__z_C3_A4hlt/05__KW50__Algorithmus.html). Er leitet sich vom Namen eines persischen Mathematikers des 9. Jahrhunderts ab: *Abu Dschaʿfar Muhammad ibn Mūsā al-Chwārizmī*. Dieser Gelehrte schrieb ein Buch über Rechenverfahren mit den damals neuen indisch-arabischen Ziffern. In lateinischer Übersetzung des Werks wurde aus seinem Namen "Algoritmi", woraus sich das Wort *Algorismus *und schließlich *Algorithmus *entwickelte. Ursprünglich bezeichnete *Algorismus *tatsächlich die schriftlichen Rechenverfahren (Addition, Subtraktion etc.) mit arabischen Ziffern. Heutzutage verstehen wir unter einem Algorithmus aber jedes Verfahren, das nach festen Regeln abläuft – nicht nur Rechenverfahren. Die historische Anekdote zeigt jedoch, dass Algorithmen seit jeher mit systematischem **Problemlösen **und **Rechenvorschriften **verbunden sind.
 
 Heute bezeichnet ein **Algorithmus**\index{Algorithmus} eine präzise, endliche Abfolge von Anweisungen, die ein bestimmtes Problem lösen oder eine Aufgabe erfüllen sollen. Im Alltag begegnen uns Algorithmen ständig, oft, ohne dass wir es merken: beim Kochen, bei der Wegbeschreibung oder beim Aufbau eines IKEA-Regals.
 
@@ -37,7 +37,7 @@ Viele Algorithmen können von Computern ausgeführt werden. Dafür ist jedoch ei
 -   **Programm**\index{Programm}: Die konkrete Implementation eines oder mehrerer Algorithmen in einer Programmiersprache. Das Programm übersetzt die abstrakten Anweisungen des Algorithmus in eine Form, die ein Computer verstehen und ausführen kann.
 -   **Prozess**\index{Prozess}: Die tatsächliche Ausführung eines Programms durch einen Computer. Dabei werden die programmierten Anweisungen Schritt für Schritt abgearbeitet, um das gewünschte Ergebnis zu erzielen.
 
-Im Folgenden konzentrieren wir uns zunächst auf das Konzept des Algorithmus an sich. Die praktische Implementierung in Form von Programmen werden wir später am Beispiel der Programmiersprache Python kennenlernen. Um Algorithmen jedoch bereits jetzt systematisch beschreiben und analysieren zu können, benötigen wir geeignete Darstellungsformen und Notationen.
+Im Folgenden konzentrieren wir uns zunächst auf das Konzept des Algorithmus an sich. Die praktische Implementierung in Form von Programmen werden wir später am Beispiel der Programmiersprache Python kennenlernen. Um Algorithmen jedoch bereits jetzt systematisch beschreiben und analysieren zu können, benötigen wir geeignete Darstellungsformen und Notationen. 
 
 ## Wie stellen wir Algorithmen dar?
 
@@ -61,17 +61,17 @@ Pseudocode\index{Pseudocode} ist eine strukturierte, programmiersprachenähnlich
 
 Ein wichtiges Merkmal des Pseudocodes ist seine Flexibilität: Er kann je nach Bedarf formeller oder informeller gestaltet werden, solange die grundlegende Logik und Struktur des Algorithmus klar erkennbar bleiben. Dabei werden häufig standardisierte Schlüsselwörter wie "IF", "THEN", "WHILE" oder "REPEAT" verwendet, die die algorithmische Struktur verdeutlichen.
 
-![Der Euklid’sche Algorithmus als Pseudocode.](https://winf-hsos.github.io/university-docs/images/algorithms_pseudocode_example.png){#fig-pseudocode-gcd .lightbox fig-align="center" width="100%"}
+![Der Euklid’sche Algorithmus als Pseudocode.](https://winf-hsos.github.io/university-docs/images/algorithms_pseudocode_example.png){fig-align="center" width=100% #fig-pseudocode-gcd .lightbox}
 
 ### Flussdiagramme
 
 Flussdiagramme\index{Flussdiagramm} bieten eine visuelle Darstellung von Algorithmen durch standardisierte grafische Symbole und Verbindungslinien. Diese Notation ist besonders hilfreich, um den Ablauf eines Algorithmus und die logischen Verzweigungen auf einen Blick zu erfassen. @fig-flow-diagram-notation zeigt die wichtigsten Elemente eines Flussdiagramms: Start- und Endpunkte, Ein- und Ausgaben (Parallelogramm), Anweisungen (Rechteck), Entscheidungen (Rauten), Wiederholungen (Sechseck).
 
-![Die Notationselemente des Flussdiagramms.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_notation.png){#fig-flow-diagram-notation .lightbox fig-align="center" width="100%"}
+![Die Notationselemente des Flussdiagramms.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_notation.png){fig-align="center" width=100% #fig-flow-diagram-notation .lightbox}
 
-Dazu kommen Verbindungspfeile, die den Kontrollfluss anzeigen. Diese sind im Beispiel in @fig-euclid-flow zu sehen.
+ Dazu kommen Verbindungspfeile, die den Kontrollfluss anzeigen. Diese sind im Beispiel in @fig-euclid-flow zu sehen.
 
-![Der Euklid’sche Algorithmus als Flussdiagramm.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_gcd.png){#fig-euclid-flow .lightbox fig-align="center" width="100%"}
+![Der Euklid’sche Algorithmus als Flussdiagramm.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_gcd.png){fig-align="center" width=100% #fig-euclid-flow .lightbox}
 
 Eine Alternative zu Flussdiagrammen sind die Struktogramme, die auch [Nassi-Shneiderman-Diagramme](https://de.wikipedia.org/wiki/Nassi-Shneiderman-Diagramm) genannt werden. Diese sind insbesondere im akademischen Bereich poulär, werden hier aber nicht weiter betrachtet.
 
@@ -101,13 +101,13 @@ Im folgenden beleuchten wir ein oder mehr Beispiele für jeder der genannten Kla
 
 Der Algorithmus zur Berechnung des größten gemeinsamen Teilers (GGT) ist ein klassisches Beispiel für einen eleganten mathematischen Algorithmus. Er wurde vom griechischen Mathematiker Euklid um 300 v. Chr. in seinem Werk "Die Elemente" beschrieben und demonstriert eindrucksvoll die zeitlose Natur algorithmischen Denkens.
 
-![Vorgehen des Algorithmus nach Euklid.](https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_textual.png){#fig-euclid-algo .lightbox fig-align="center" width="100%"}
+![Vorgehen des Algorithmus nach Euklid.](https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_textual.png){fig-align="center" width=100% #fig-euclid-algo .lightbox}
 
-Das Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen (@fig-euclid-algo). Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen.
+Das Verfahren basiert auf einem einfachen, aber genialen Prinzip: Der GGT zweier Zahlen ist identisch mit dem GGT der kleineren Zahl und der Differenz beider Zahlen (@fig-euclid-algo). Zum Beispiel haben die Zahlen 48 und 18 den gleichen GGT wie 18 und 30 (48-18). Durch wiederholtes Anwenden dieser Regel wird der GGT systematisch ermittelt. Die Eleganz dieses Verfahrens liegt in seiner Einfachheit und mathematischen Präzision - Eigenschaften, die auch heute noch moderne Algorithmen auszeichnen. 
 
 @fig-euclidean-example zeigt die Schritte des Euklidschen Algorithmus für das obige Zahlenbeispiel.
 
-![Beispiel für die Anwendung des Algorithmus nach Euklid.](https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_example.png){#fig-euclidean-example .lightbox fig-align="center" width="100%"}
+![Beispiel für die Anwendung des Algorithmus nach Euklid.](https://winf-hsos.github.io/university-docs/images/algorithms_euclidean_example.png){fig-align="center" width=100% #fig-euclidean-example .lightbox}
 
 #### Babylonisches Wurzelziehen {#sec-babylonian}
 
@@ -117,7 +117,7 @@ Ein anschauliches Beispiel für das Babylonische Verfahren ist in @fig-babylonia
 
 Das Verfahren nähert sich diesem Wert schrittweise an, indem es die Seitenlängen $A$ und $B$ eines Rechtecks iterativ anpasst. Nehmen wir an, wir wollen die Quadratwurzel aus $x = 16$ ziehen. Zu Beginn setzen wir $A = 1$ und berechnen $B$ so, dass das Produkt der Seitenlängen die gesuchte Fläche ergibt: $B = \frac{x}{A} = 16$. Dieser Ausgangszustand ist in @fig-babylonian-1 dargestellt.
 
-![Ausgangszustand im Babylonischen Wurzelziehen.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_1.png){#fig-babylonian-1 .lightbox fig-align="center" width="100%"}
+![Ausgangszustand im Babylonischen Wurzelziehen.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_1.png){fig-align="center" width=100% #fig-babylonian-1 .lightbox}
 
 Nach der Festlegung der Startwerte beginnt der eigentliche iterative Prozess der Annäherung. In jedem Durchlauf werden die Werte für $A$ und $B$ nach spezifischen Formeln neu berechnet, wodurch sie sich schrittweise einander annähern:
 
@@ -143,7 +143,7 @@ $$
 B = \frac{16}{8.5} \approx 1.88
 $$
 
-![Zustand des Babylonischen Verfahrens nach dem ersten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_2.png){#fig-babylonian-2 .lightbox fig-align="center" width="100%"}
+![Zustand des Babylonischen Verfahrens nach dem ersten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_2.png){fig-align="center" width=100% #fig-babylonian-2 .lightbox}
 
 Verglichen mit dem Ausgangszustand haben sich die Werte $A$ und $B$ bereits angenähert, aber sie weichen noch deutlich voneinander ab. Um eine bessere Approximation zu erreichen, führen wir eine weitere Iteration durch und berechnen die neuen Werte für $A$ und $B$ nach dem etablierten Schema:
 
@@ -157,15 +157,15 @@ $$
 B = \frac{16}{5.19} \approx 3.08
 $$
 
-![Zustand des Babylonischen Verfahrens nach dem zweiten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_3.png){#fig-babylonian-3 .lightbox fig-align="center" width="100%"}
+![Zustand des Babylonischen Verfahrens nach dem zweiten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_3.png){fig-align="center" width=100% #fig-babylonian-3 .lightbox}
 
 Die Werte haben sich weiter angenähert. Da wir wissen, dass beide Kanten am Ende die Länge 4 haben sollen, ist eine weitere Iteration erforderlich. Nach der dritten Berechnung, wie in @fig-babylonian-4 dargestellt, nähern sich beide Kanten bereits sehr präzise dem Zielwert von 4 an.
 
-![Zustand des Babylonischen Verfahrens nach dem dritten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_4.png){#fig-babylonian-4 .lightbox fig-align="center" width="100%"}
+![Zustand des Babylonischen Verfahrens nach dem dritten Schritt.](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_4.png){fig-align="center" width=100% #fig-babylonian-4 .lightbox}
 
 Nach einer weiteren Iteration konvergiert der Algorithmus zum gesuchten Wert: Beide Seiten $A$ und $B$ erreichen durch Rundung den Wert 4. Damit haben wir das gesuchte Quadrat erfolgreich konstruiert, und der Algorithmus kann beendet werden.
 
-![](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_5.png){.lightbox fig-align="center" width="100%"}
+![](https://winf-hsos.github.io/university-docs/images/algorithms_example_babylonian_5.png){fig-align="center" width=100% .lightbox}
 
 In diesem Beispiel konvergiert der Algorithmus bereits nach wenigen Iterationen zum korrekten Ergebnis. Die Geschwindigkeit der Konvergenz hängt jedoch von zwei wesentlichen Faktoren ab:
 
@@ -176,7 +176,7 @@ Je nach Konstellation dieser Faktoren kann die Annäherung deutlich mehr Iterati
 
 Ein pragmatisches Abbruchkriterium für das Babylonische Verfahren ist das Erreichen einer vordefinierten Genauigkeit. Nach jedem Iterationsschritt wird die Differenz zwischen den Werten $A$ und $B$ berechnet. Ist diese Differenz kleiner als ein festgelegter Schwellenwert, wird der Algorithmus beendet. Der vollständige Ablauf des Verfahrens ist in @fig-babylonian-flow dargestellt.
 
-![Das Babylonische Verfahren als Flussdiagramm.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_babylonian.png){#fig-babylonian-flow .lightbox fig-align="center" width="100%"}
+![Das Babylonische Verfahren als Flussdiagramm.](https://winf-hsos.github.io/university-docs/images/algorithms_flow_diagram_babylonian.png){fig-align="center" width=100% #fig-babylonian-flow .lightbox}
 
 Das Flussdiagramm beginnt auf der linken Seite mit einer Eingabeprüfung: Die Zahl $x$ wird eingelesen und auf Positivität getestet, da die Quadratwurzel aus negativen Zahlen nicht definiert ist. Eine Verzweigung überprüft die Bedingung $x > 0$ und leitet den Algorithmus entsprechend weiter. Bei positiver Eingabe werden die Startwerte für $A$ und $B$ initialisiert. Anschließend beginnt eine WHILE-Schleife, die solange durchlaufen wird, bis die Differenz zwischen $A$ und $B$ einen definierten Schwellenwert unterschreitet. Nach erfolgreicher Konvergenz wird der finale Wert von $A$ als Ergebnis ausgegeben.
 
@@ -319,3 +319,4 @@ Die Verständlichkeit eines Algorithmus ist ein weiteres wichtiges Qualitätsmer
 ## Übungsaufgaben {.unnumbered}
 
 {{< include exercises/exercises-algorithms.qmd >}}
+
