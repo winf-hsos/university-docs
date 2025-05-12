@@ -1,15 +1,25 @@
 ### Reflektionsfragen
 
-1.  Warum ist es nicht sinnvoll, hinter einer `return`-Anweisung innerhalb einer Funktion weitere Anweisungen hinzuzufügen?
+1.  Erkläre, wann es sinnvoll ist, Code in eine Funktion auszulagern.
 
-2.  Erläutere die Begriffe *Parameter* und *Rückgabewert* im Zusammenhang mit Funktionen in der Programmierung und nenne jeweils ein Beispiel!
+2.  Was solltest du bei der Bennennung einer Funktion beachten?
+
+3.  Funktionen können aus verschiedenen Quellen stammen. Erläutere die folgenden Arten:
+     a.  Built-in Funktionen
+     b.  Funktionen aus internen Modulen
+     c.  Funktionen aus externen Modulen
+     d.  Selbst geschriebene Funktionen
+
+4.  Warum ist es nicht sinnvoll, hinter einer `return`-Anweisung innerhalb einer Funktion weitere Anweisungen hinzuzufügen?
+
+5.  Erläutere die Begriffe *Parameter* und *Rückgabewert* im Zusammenhang mit Funktionen in der Programmierung und nenne jeweils ein Beispiel!
 
 
 ### Programmieraufgaben
 
 1.  Schreibe eine Funktion, die prüft, ob eine Zahl größer als die andere ist. Die Funktion soll beide Zahlen als Parameter entgegennehmen und `True` zurückgeben, wenn die erste Zahl größer ist als die zweite, andernfalls `False`.
 
-2.  Definiere eine Funktion celsius_to_fahrenheit, die einen Celsius-Wert entgegennimmt und den entsprechenden Fahrenheit-Wert zurückgibt. Die Formel lautet: $°F = °C \times \frac{9}{5} + 32$
+2.  Definiere eine Funktion `celsius_to_fahrenheit`, die einen Celsius-Wert entgegennimmt und den entsprechenden Fahrenheit-Wert zurückgibt. Die Formel lautet: $°F = °C \times \frac{9}{5} + 32$
 
 3.  Schreibe die beiden Funktionen `square(x)` und `cube(x)`. Teste beide, indem du den Benutzer um einen Wert bittest und beide Ergebnisse auf der Konsole ausgibst.
 
