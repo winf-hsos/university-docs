@@ -36,7 +36,7 @@ subtitle: "Übungsaufgaben zur Programmierung"
 
 5.  Erstelle eine weitere Funktion, um auf Basis des BMI zu ermitteln, ob eine Person untergewichtig (< 18,5), normalgewichtig (zwischen 18,5 und 25) oder übergewichtig ist (≥ 25).
 
-6.  Erstelle eine Funktion, die prüft, ob ein String ein Palindrom ist. Sie soll `True` oder `False `zurückliefern. Groß- und Kleinschreibung soll ignoriert werden.
+6.  Erstelle eine Funktion, die prüft, ob ein String ein Palindrom ist. Sie soll `True` oder `False` zurückliefern. Groß- und Kleinschreibung soll ignoriert werden.
 
 7.  Schreibe eine Funktion `factorial(n)`, die die Fakultät einer ganzen Zahl berechnet. Prüfe, wie das Konzept der *Rekursion* dir dabei helfen kann!
 

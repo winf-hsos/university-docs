@@ -2,16 +2,23 @@
      a.  Berechnet die Werte für beide Outputs für alle möglichen Input-Kombinationen!
      b.  Ihr habt das Binärsystem kennengelernt. Wenn ihr jeden Input und Output als Bit interpretiert, was macht der Schaltkreis im Ergebnis mit den Inputs?
 
+![](https://winf-hsos.github.io/university-docs/static/images/circuit_1.png){fig-align="center" width=100% .lightbox}
+
 2.  Betrachtet den Schaltkreis unten und beantwortet die folgenden Fragen:
      a.  Was passiert mit der Glühbirne, wenn du den oberen Schalter ein- und wieder ausschaltest? Was passiert, wenn du diese Vorgänge wiederholst?
      b.  Was passiert mit der Glühbirne, wenn du anschließend dasselbe mit dem unteren Schalter durchführst?
      c.  Versuche, das Verhalten des Schaltkreises zu generalisieren. Was macht der Schaltkreis?
 
+![](https://winf-hsos.github.io/university-docs/static/images/circuit_2.png){fig-align="center" width=100% .lightbox}
+
 3.  Die Spule in dem Schaltkreis unten ist ein Elektromagnet, der bei geschlossenem Stromkreis den großen Schalter nach unten zieht (wie im Bild dargestellt). Sobald der Stromkreis unterbrochen wird und der Magnet deaktiviert ist, sorgt eine kleine Feder (nicht sichtbar im Bild) dafür, dass der große Schalter wieder nach oben gezogen wird.
 
 Was passiert, wenn der Schalter wieder oben ist und den Stromkreis erneut schließt? Was passiert danach? Was macht der Schaltkreis und wie würdest du ihn nennen?
 
-4.  Das NAND-Gate ist ein sogenanntes *universal logic gate*. Das bedeutet, wir können jedes andere Logic Gate aus einer Kombination von NAND-Gates herstellen. Dies ist für die Praxis sehr vorteilhaft, denn um einen Computer zu bauen, müssen wir lediglich NAND-Gates herstellen können, die relativ günstig zu produzieren sind. Versucht euch an den folgenden Rätseln und zeichnet die Lösungen:
+
+![](https://winf-hsos.github.io/university-docs/static/images/circuit_3.png){fig-align="center" width=100% .lightbox}
+
+1.  Das NAND-Gate ist ein sogenanntes *universal logic gate*. Das bedeutet, wir können jedes andere Logic Gate aus einer Kombination von NAND-Gates herstellen. Dies ist für die Praxis sehr vorteilhaft, denn um einen Computer zu bauen, müssen wir lediglich NAND-Gates herstellen können, die relativ günstig zu produzieren sind. Versucht euch an den folgenden Rätseln und zeichnet die Lösungen:
      a.  Baut ein NOT-Gate (Inverter) aus NAND-Gates!
      b.  Baut ein AND-Gate aus NAND-Gates!
      c.  Baut ein OR-Gate aus NAND-Gates!
