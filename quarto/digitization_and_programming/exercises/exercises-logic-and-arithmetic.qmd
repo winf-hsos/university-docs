@@ -20,14 +20,13 @@ subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
 
 ![](https://winf-hsos.github.io/university-docs/static/images/circuit_2.png){fig-align="center" width=100% .lightbox}
 
-3.  Die Spule in dem Schaltkreis unten ist ein Elektromagnet, der bei geschlossenem Stromkreis den großen Schalter nach unten zieht (wie im Bild dargestellt). Sobald der Stromkreis unterbrochen wird und der Magnet deaktiviert ist, sorgt eine kleine Feder (nicht sichtbar im Bild) dafür, dass der große Schalter wieder nach oben gezogen wird.
+3.  Die Spule in dem Schaltkreis unten ist ein Elektromagnet, der bei geschlossenem Stromkreis den großen Schalter nach unten zieht (wie im Bild dargestellt). Sobald der Stromkreis unterbrochen wird und der Magnet deaktiviert ist, sorgt eine kleine Feder (nicht sichtbar im Bild) dafür, dass der große Schalter wieder nach oben gezogen wird. 
 
 Was passiert, wenn der Schalter wieder oben ist und den Stromkreis erneut schließt? Was passiert danach? Was macht der Schaltkreis und wie würdest du ihn nennen?
 
-
 ![](https://winf-hsos.github.io/university-docs/static/images/circuit_3.png){fig-align="center" width=100% .lightbox}
 
-1.  Das NAND-Gate ist ein sogenanntes *universal logic gate*. Das bedeutet, wir können jedes andere Logic Gate aus einer Kombination von NAND-Gates herstellen. Dies ist für die Praxis sehr vorteilhaft, denn um einen Computer zu bauen, müssen wir lediglich NAND-Gates herstellen können, die relativ günstig zu produzieren sind. Versucht euch an den folgenden Rätseln und zeichnet die Lösungen:
+4.  Das NAND-Gate ist ein sogenanntes *universal logic gate*. Das bedeutet, wir können jedes andere Logic Gate aus einer Kombination von NAND-Gates herstellen. Dies ist für die Praxis sehr vorteilhaft, denn um einen Computer zu bauen, müssen wir lediglich NAND-Gates herstellen können, die relativ günstig zu produzieren sind. Versucht euch an den folgenden Rätseln und zeichnet die Lösungen:
      a.  Baut ein NOT-Gate (Inverter) aus NAND-Gates!
      b.  Baut ein AND-Gate aus NAND-Gates!
      c.  Baut ein OR-Gate aus NAND-Gates!

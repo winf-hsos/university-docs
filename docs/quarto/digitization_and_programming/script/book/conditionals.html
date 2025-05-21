@@ -373,9 +373,23 @@ div.csl-indent {
 <h2 class="unnumbered anchored" data-anchor-id="übungsaufgaben">Übungsaufgaben</h2>
 <section id="reflektionsfragen" class="level3" data-number="19.0.1">
 <h3 data-number="19.0.1" class="anchored" data-anchor-id="reflektionsfragen"><span class="header-section-number">19.0.1</span> Reflektionsfragen</h3>
+<ol type="1">
+<li><p>Was passiert, wenn mehrere <code>if</code>-Bedingungen hintereinander erfüllt sind? Welche Auswirkungen hat es, ob du <code>if</code>–<code>if</code>–<code>if</code> oder <code>if</code>–<code>elif</code>–<code>else</code> verwendest?</p></li>
+<li><p>Warum ist die Reihenfolge der Bedingungen wichtig? Was passiert, wenn du zuerst <code>if x &gt; 0:</code> und danach <code>elif x &gt; 10:</code> schreibst?</p></li>
+<li><p>Was ist deiner Meinung nach besser lesbar: viele verschachtelte <code>if</code>-Anweisungen oder wenige klar strukturierte Bedingungen? Wann wird Code durch viele Bedingungen unübersichtlich – und wie kann man das vermeiden?</p></li>
+<li><p>In welchen Fällen ist es sinnvoller, ein Dictionary zur Umsetzung einer Fallunterscheidung zu verwenden, anstatt <code>if</code>–<code>elif</code>–<code>else</code> zu schreiben?** **Welche Vorteile hat das Dictionary bei festen Zuordnungen – und welche Nachteile, wenn die Bedingungen komplizierter werden?</p></li>
+</ol>
 </section>
 <section id="programmieraufgaben" class="level3" data-number="19.0.2">
 <h3 data-number="19.0.2" class="anchored" data-anchor-id="programmieraufgaben"><span class="header-section-number">19.0.2</span> Programmieraufgaben</h3>
+<ol type="1">
+<li><p>Schreibe ein Programm für die Umwandlung von Punkten (0–100) in das übliche Notenschema der Hochschule Osnabrück. Die Bestehensgrenze liegt bei 50% der Punkte. Das Programm soll eine Punktzahl als Eingabe akzeptieren und die entsprechende Note ausgeben.</p></li>
+<li><p>Schreibe ein Programm, das prüft, ob ein eingegebenes Jahr ein Schaltjahr ist. Ein Jahr ist Schaltjahr, wenn es durch 4 teilbar ist <strong>und</strong> nicht durch 100, <strong>außer</strong> es ist durch 400 teilbar.</p></li>
+<li><p>Schreibe ein Spiel, bei dem der Computer eine zufällige Zahl zwischen 1 und 100 auswählt. Die spielende Person darf mehrmals raten, wobei der Computer nach jedem Versuch das Feedback „zu hoch” oder „zu niedrig” gibt. Das Spiel läuft weiter, bis die richtige Zahl erraten wurde. Zum Schluss zeigt der Computer die Anzahl der benötigten Versuche an. <strong>Hinweis</strong>: Ihr benötigt hierfür eine WHILE-Schleife!</p></li>
+<li><p>Viele Webseiten verlangen sichere Passwörter, um deine Daten zu schützen. Schreibe ein Programm, das ein Passwort entgegennimmt und prüft, ob es bestimmten Sicherheitskriterien entspricht. Ein Passwort gilt als sicher, wenn es <strong>mindestens 8 Zeichen lang ist</strong>, <strong>mindestens einen Großbuchstaben</strong> und <strong>mindestens eine Ziffer</strong> enthält. Gib eine passende Rückmeldung aus: entweder „Passwort ist sicher.“ oder eine Liste der fehlenden Anforderungen wie „Passwort ist zu kurz und enthält keine Zahl.“</p></li>
+<li><p>Nicht jeder Tag kommt in jedem Monat vor – zum Beispiel gibt es keinen 31. Februar. Schreibe ein Programm, das <strong>Tag</strong> und <strong>Monat</strong> als Zahl einliest und prüft, ob das eingegebene Datum existieren kann. Berücksichtige dabei: Der Februar hat <strong>höchstens 28 Tage</strong>, die Monate <strong>April, Juni, September und November</strong> jeweils <strong>30 Tage</strong>, alle anderen <strong>31 Tage</strong>. Dein Programm soll ausgeben, ob das Datum gültig ist oder nicht – zum Beispiel „Gültiges Datum“ oder „Ungültiges Datum: Der 31.4. existiert nicht.“</p></li>
+<li><p>Eine Nutzerin oder ein Nutzer gibt eine Zahl zwischen 1 und 7 ein. Dein Programm soll den passenden Wochentag ausgeben – also 1 → Montag, 2 → Dienstag, … 7 → Sonntag. Welche Methoden fallen dir ein, um die Zahlen den Wochentagen zuzuordnen? Gib bei ungültiger Eingabe (z. B. 0 oder 8) eine passende Fehlermeldung aus.</p></li>
+</ol>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
