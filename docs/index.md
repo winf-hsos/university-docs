@@ -38,6 +38,7 @@
 - [Exploratory Data Analysis with R and Python.pdf](google_slides/data_analytics/Exploratory Data Analysis with R and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1r8QPIf77zuOwwy0l41asBmtejohw70fovt_gqQbakWQ/edit)]
 - [Group Work - Text with R - TED Data.pdf](google_slides/data_analytics/Group Work - Text with R - TED Data.pdf) [[Edit](https://docs.google.com/presentation/d/1GLjCsINBULuK0CfWN68QBR8ZP43cywN9rZjWrH-e6gs/edit)]
 - [Group Work - The R Murder Mystery.pdf](google_slides/data_analytics/Group Work - The R Murder Mystery.pdf) [[Edit](https://docs.google.com/presentation/d/1-AXlXNnt3WBZpXhXAeFs6xzWL2qPKe08j4k5qy-KqnQ/edit)]
+- [Group Work - The Simpsons with R.pdf](google_slides/data_analytics/Group Work - The Simpsons with R.pdf) [[Edit](https://docs.google.com/presentation/d/1iQsBcjiIIItQFE42sr_WyNI_EMGMctrFZcJ0uaV5Ttw/edit)]
 - [Group Work - Tweets Visualization Challenge.pdf](google_slides/data_analytics/Group Work - Tweets Visualization Challenge.pdf) [[Edit](https://docs.google.com/presentation/d/1qX_eh8vdLFo1e5-O99mmzrL_72-pcIjytOrpxoRytkM/edit)]
 - [Joining data sets with R and SQL.pdf](google_slides/data_analytics/Joining data sets with R and SQL.pdf) [[Edit](https://docs.google.com/presentation/d/1ISi6MnYVgjzcjJMmCu5d1vv-CdgyBLCCXZCWM7GbSj4/edit)]
 - [ML-Based NLP with spaCy and Python.pdf](google_slides/data_analytics/ML-Based NLP with spaCy and Python.pdf) [[Edit](https://docs.google.com/presentation/d/1ftAOhRYSN2D5RrczAK7bLjWwTJIGXTLfVb8I8dxKjrQ/edit)]
