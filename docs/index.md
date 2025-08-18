@@ -8,9 +8,9 @@
 
 - [Leitlinie für Bachelor- und Masterarbeiten.pdf](google_documents/abschlussarbeiten/Leitlinie für Bachelor- und Masterarbeiten.pdf) [[Edit](https://docs.google.com/document/d/1JIpAXV8H1fgZHp-9EipvLTfSQaHK-Y1gji2WA0KstUU/edit)]
 
-### data_anaytics
+### Data Analytics
 
-- [Syllabus - Data Analytics with R.pdf](google_documents/data_anaytics/Syllabus - Data Analytics with R.pdf) [[Edit](https://docs.google.com/document/d/19mEKdITUxUD6WXI8dk3u8YlMSnu0bg84d7j2rpJkgXY/edit)]
+- [Syllabus - Data Analytics with R.pdf](google_documents/data_analytics/Syllabus - Data Analytics with R.pdf) [[Edit](https://docs.google.com/document/d/19mEKdITUxUD6WXI8dk3u8YlMSnu0bg84d7j2rpJkgXY/edit)]
 
 ### Projekt Agrar/Lebensmittel
 
