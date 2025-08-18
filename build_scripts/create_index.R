@@ -148,7 +148,7 @@ for (file in files) {
 #output
 
 # Write the markdown document
-writeLines(output, md_file)
+writeLines(enc2utf8(output), md_file)
 
 
 # Replace 'your_file.pdf' with the path to your PDF file

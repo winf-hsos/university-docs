@@ -6,7 +6,7 @@
 
 ### Abschlussarbeiten
 
-- [Leitlinie für Bachelor- und Masterarbeiten.pdf](google_documents/abschlussarbeiten/Leitlinie für Bachelor- und Masterarbeiten.pdf) [[Edit](https://docs.google.com/document/d/1JIpAXV8H1fgZHp-9EipvLTfSQaHK-Y1gji2WA0KstUU/edit)]
+- [Leitlinie fuer Bachelor- und Masterarbeiten.pdf](google_documents/abschlussarbeiten/Leitlinie fuer Bachelor- und Masterarbeiten.pdf) [[Edit](https://docs.google.com/document/d/1JIpAXV8H1fgZHp-9EipvLTfSQaHK-Y1gji2WA0KstUU/edit)]
 
 ### Data Analytics
 
