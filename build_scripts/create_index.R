@@ -36,19 +36,19 @@ category <- ""
 subcategory <- ""
 subsubcategory <- ""
 
-# Helpers
+# Helper: detect image files
 is_image <- function(x) {
   ext <- tolower(tools::file_ext(x))
   ext %in% c("png", "jpg", "jpeg", "gif", "webp", "svg")
 }
 
-# Track table state for image rows
+# Track state
 table_open <- FALSE
 cells_in_row <- 0
 
 open_table <- function() {
   if (!table_open) {
-    output <<- c(output, "<table><tbody>")
+    output <<- c(output, "<table><tbody><tr>")
     table_open <<- TRUE
     cells_in_row <<- 0
   }
@@ -58,35 +58,28 @@ close_table <- function() {
   if (table_open) {
     if (cells_in_row > 0) {
       output <<- c(output, "</tr>")
-      cells_in_row <<- 0
     }
     output <<- c(output, "</tbody></table>\n")
     table_open <<- FALSE
+    cells_in_row <<- 0
   }
 }
 
-start_row <- function() {
-  output <<- c(output, "<tr>")
-  cells_in_row <<- 0
-}
-
-end_row <- function() {
-  output <<- c(output, "</tr>")
-  cells_in_row <<- 0
-}
-
 add_image_cell <- function(img_src, alt_txt) {
-  # Each cell: fixed to 1/3 via table layout; image stretches to 100% width of cell
+  # Each cell: 25% width (4 pro Reihe)
   cell <- sprintf(
-    "<td style=\"vertical-align:top; width:33%%; padding:6px;\"><a href=\"%s\" target=\"_blank\" rel=\"noopener\"><img src=\"%s\" alt=\"%s\" style=\"max-width:100%%; height:auto;\" /></a></td>",
+    "<td style=\"vertical-align:top; width:25%%; padding:6px;\"><a href=\"%s\" target=\"_blank\" rel=\"noopener\"><img src=\"%s\" alt=\"%s\" style=\"max-width:100%%; height:auto;\" /></a></td>",
     img_src, img_src, alt_txt
   )
   output <<- c(output, cell)
   cells_in_row <<- cells_in_row + 1
-  if (cells_in_row == 3) end_row()
+  
+  if (cells_in_row == 4) {
+    output <<- c(output, "</tr><tr>")
+    cells_in_row <<- 0
+  }
 }
 
-# Before printing any new heading, ensure any open image table is closed
 flush_before_heading <- function() {
   close_table()
 }
