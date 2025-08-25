@@ -1,9 +1,12 @@
+# Build a Markdown/HTML index with images (3 per row via HTML table)
+# Works reliably on GitHub Pages without custom CSS
+
 path <- "docs"
-files <- list.files(path, full.names = TRUE, recursive = T)
-files <- files[files != "docs/index.md"]
+files <- list.files(path, full.names = TRUE, recursive = TRUE)
+files <- files[files != file.path(path, "index.md")]
 files <- sort(files)
 
-md_file <- paste0(path, "/index.md")
+md_file <- file.path(path, "index.md")
 output <- c("# Content\n")
 
 headings_dict <- c(
@@ -18,7 +21,7 @@ headings_dict <- c(
   projekt_agrar_lebensmittel = "Projekt Agrar/Lebensmittel",
   wirtschaftsinformatik = "Wirtschaftsinformatik",
   empirisches_arbeiten = "Empirisches Arbeiten",
-  data_analytics= "Data Analytics",
+  data_analytics = "Data Analytics",
   digitization_and_programming = "Digitization and Programming",
   digital_lab = "Digital Lab",
   exercises = "Übungsaufgaben",
@@ -29,90 +32,144 @@ headings_dict <- c(
   abschlussarbeiten = "Abschlussarbeiten"
 )
 
-category = ""
-subcategory = ""
-subsubcategory = ""
+category <- ""
+subcategory <- ""
+subsubcategory <- ""
 
-# Buffer für Bilder (max 3 pro Reihe)
-image_buffer <- c()
+# Helpers
+is_image <- function(x) {
+  ext <- tolower(tools::file_ext(x))
+  ext %in% c("png", "jpg", "jpeg", "gif", "webp", "svg")
+}
+
+# Track table state for image rows
+table_open <- FALSE
+cells_in_row <- 0
+
+open_table <- function() {
+  if (!table_open) {
+    output <<- c(output, "<table><tbody>")
+    table_open <<- TRUE
+    cells_in_row <<- 0
+  }
+}
+
+close_table <- function() {
+  if (table_open) {
+    if (cells_in_row > 0) {
+      output <<- c(output, "</tr>")
+      cells_in_row <<- 0
+    }
+    output <<- c(output, "</tbody></table>\n")
+    table_open <<- FALSE
+  }
+}
+
+start_row <- function() {
+  output <<- c(output, "<tr>")
+  cells_in_row <<- 0
+}
+
+end_row <- function() {
+  output <<- c(output, "</tr>")
+  cells_in_row <<- 0
+}
+
+add_image_cell <- function(img_src, alt_txt) {
+  # Each cell: fixed to 1/3 via table layout; image stretches to 100% width of cell
+  cell <- sprintf(
+    "<td style=\"vertical-align:top; width:33%%; padding:6px;\"><a href=\"%s\" target=\"_blank\" rel=\"noopener\"><img src=\"%s\" alt=\"%s\" style=\"max-width:100%%; height:auto;\" /></a></td>",
+    img_src, img_src, alt_txt
+  )
+  output <<- c(output, cell)
+  cells_in_row <<- cells_in_row + 1
+  if (cells_in_row == 3) end_row()
+}
+
+# Before printing any new heading, ensure any open image table is closed
+flush_before_heading <- function() {
+  close_table()
+}
 
 for (file in files) {
   parts <- unlist(strsplit(file, "/"))
-  current_category = parts[2]
-  current_subcategory = parts[3]
-  current_subsubcategory = parts[4]
+  current_category       <- if (length(parts) >= 2) parts[2] else ""
+  current_subcategory    <- if (length(parts) >= 3) parts[3] else ""
+  current_subsubcategory <- if (length(parts) >= 4) parts[4] else ""
   
-  if(is.na(current_subsubcategory)) current_subsubcategory = ""
-  if(grepl("\\..{3}$", current_subsubcategory)) current_subsubcategory = ""
-  
-  # Kategorie
-  if(current_category != category) {
-    category = current_category
-    heading_text = headings_dict[category]
-    if(is.na(heading_text)) heading_text = category
-    output <- c(output, paste0("\n## ", heading_text, "\n"))
+  if (is.na(current_subsubcategory) || grepl("\\..{3,4}$", current_subsubcategory)) {
+    current_subsubcategory <- ""
   }
   
-  # Subkategorie
-  if(current_subcategory != subcategory) {
-    subcategory = current_subcategory
-    heading_text = headings_dict[subcategory]
-    if(is.na(heading_text)) heading_text = subcategory
-    if(current_category != "images") {
+  # New category
+  if (current_category != category) {
+    flush_before_heading()
+    category <- current_category
+    heading_text <- headings_dict[category]
+    if (is.na(heading_text)) heading_text <- category
+    output <- c(output, paste0("\n## ", heading_text, "\n"))
+    subcategory <- ""
+    subsubcategory <- ""
+  }
+  
+  # New subcategory
+  if (current_subcategory != subcategory) {
+    flush_before_heading()
+    subcategory <- current_subcategory
+    heading_text <- headings_dict[subcategory]
+    if (is.na(heading_text)) heading_text <- subcategory
+    if (category != "images" && nzchar(subcategory)) {
       output <- c(output, paste0("\n### ", heading_text, "\n"))
     }
+    subsubcategory <- ""
   }
   
-  # Sub-Subkategorie
-  if(current_subsubcategory != "" && current_subsubcategory != subsubcategory) {
-    subsubcategory = current_subsubcategory
-    heading_text = headings_dict[subsubcategory]
-    if(is.na(heading_text)) heading_text = subsubcategory
+  # New sub-subcategory
+  if (nzchar(current_subsubcategory) && current_subsubcategory != subsubcategory) {
+    flush_before_heading()
+    subsubcategory <- current_subsubcategory
+    heading_text <- headings_dict[subsubcategory]
+    if (is.na(heading_text)) heading_text <- subsubcategory
     output <- c(output, paste0("\n#### ", heading_text, "\n"))
   }
   
-  # PDF oder PNG
-  if(endsWith(file, ".pdf") | endsWith(file, ".png")) {
-    if (grepl("%%.*%%", file)) {
-      id <- sub(".*%%(.*)%%.*", "\\1", file)
-    } else {
-      id <- ""
-    }
+  # Process supported files
+  if (grepl("\\.(pdf|png|jpg|jpeg|gif|webp|svg)$", tolower(file))) {
     
+    # Extract optional %%ID%%
+    id <- if (grepl("%%.*%%", file)) sub(".*%%(.*)%%.*", "\\1", file) else ""
+    
+    # Remove %%...%% from filename on disk
     file_renamed <- sub("%%.*%%", "", file)
-    success <- file.rename(file, file_renamed)
-    file_name <- basename(file_renamed)
-    file <- gsub("docs/", "", file_renamed)
+    try(silent = TRUE, file.rename(file, file_renamed))
     
-    if(endsWith(file, ".png")) {
-      # Für PNG → Bild inline einfügen
-      img_tag <- paste0("![](", file, "){width=30% style='display:inline-block; margin:5px;'}")
-      image_buffer <- c(image_buffer, img_tag)
+    file_name <- basename(file_renamed)
+    rel_file  <- gsub("^docs/", "", file_renamed)
+    
+    if (is_image(rel_file)) {
+      # Ensure table exists and a row is started
+      open_table()
+      if (cells_in_row == 0) start_row()
       
-      # Wenn 3 gesammelt → Zeile ausgeben
-      if(length(image_buffer) == 3) {
-        row <- paste(image_buffer, collapse=" ")
-        output <- c(output, row, "\n")
-        image_buffer <- c()
-      }
+      alt_txt <- tools::file_path_sans_ext(file_name)
+      add_image_cell(rel_file, alt_txt)
+      
     } else {
-      # Für PDF → Link
-      file_link <- paste0("- [", file_name, "](", file, ")")
-      if(id != "") {
+      # PDFs as links
+      close_table()  # make sure table doesn't interleave with list
+      file_link <- paste0("- [", file_name, "](", rel_file, ")")
+      if (nzchar(id)) {
         placeholder <- ifelse(category == "google_slides", "presentation", "document")
-        url_google <- paste0("https://docs.google.com/", placeholder, "/d/", id, "/edit")
-        file_link <- paste0(file_link, " [[Edit](", url_google, ")]")
+        url_google  <- paste0("https://docs.google.com/", placeholder, "/d/", id, "/edit")
+        file_link   <- paste0(file_link, " [[Edit](", url_google, ")]")
       }
       output <- c(output, file_link)
     }
   }
 }
 
-# Restbilder (falls <3)
-if(length(image_buffer) > 0) {
-  row <- paste(image_buffer, collapse=" ")
-  output <- c(output, row, "\n")
-}
+# Close any open image table
+close_table()
 
-# Markdown schreiben
+# Write out
 writeLines(enc2utf8(output), md_file)

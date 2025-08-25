@@ -117,116 +117,671 @@
 
 ## Images
 
-![](images/advance_organizer_dap.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_computational_schema_algorithm.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_computational_schema_blackbox.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/algorithms_euclidean_example.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_euclidean_textual.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_example_babylonian_1.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/algorithms_example_babylonian_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_example_babylonian_3.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_example_babylonian_4.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/algorithms_example_babylonian_5.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_flow_diagram_babylonian.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_flow_diagram_gcd.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/algorithms_flow_diagram_notation.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_pseudocode_example.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_recipe_handwritten.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/algorithms_size_runtime.png){width=30% style='display:inline-block; margin:5px;'} ![](images/analog_vs_digital_where_can_you_stand.png){width=30% style='display:inline-block; margin:5px;'} ![](images/chess_1.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/chess_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/chess_3.png){width=30% style='display:inline-block; margin:5px;'} ![](images/chess_move.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/codes_ascii_character_a_pixel_bits.png){width=30% style='display:inline-block; margin:5px;'} ![](images/codes_ascii_characters_abc_pixel.png){width=30% style='display:inline-block; margin:5px;'} ![](images/codes_heart_pixel.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/computational_schema_blackbox.png){width=30% style='display:inline-block; margin:5px;'} ![](images/computational_schema_chatgpt.png){width=30% style='display:inline-block; margin:5px;'} ![](images/computational_schema_chess.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/computational_schema_computation.png){width=30% style='display:inline-block; margin:5px;'} ![](images/computational_schema_function.png){width=30% style='display:inline-block; margin:5px;'} ![](images/computational_schema_input_output_function.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/computational_schema_processing_representation.png){width=30% style='display:inline-block; margin:5px;'} ![](images/data_frame_concept.png){width=30% style='display:inline-block; margin:5px;'} ![](images/database_system_architecture.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/digital_competence_society_smooth.png){width=30% style='display:inline-block; margin:5px;'} ![](images/digital_competence_society_split.png){width=30% style='display:inline-block; margin:5px;'} ![](images/digital_literacy_skills_with_languages.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/eda_process.png){width=30% style='display:inline-block; margin:5px;'} ![](images/information_balls_urn_1.png){width=30% style='display:inline-block; margin:5px;'} ![](images/information_definition_adami.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/large_complex_problem.png){width=30% style='display:inline-block; margin:5px;'} ![](images/large_complex_problem_4_smaller_problems.png){width=30% style='display:inline-block; margin:5px;'} ![](images/large_complex_problem_5_smaller_problems.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/number_guessing_game_1.png){width=30% style='display:inline-block; margin:5px;'} ![](images/number_guessing_game_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/number_guessing_game_3.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/number_guessing_game_4.png){width=30% style='display:inline-block; margin:5px;'} ![](images/number_guessing_game_5.png){width=30% style='display:inline-block; margin:5px;'} ![](images/number_guessing_game_6.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/permutations_a_no_information.png){width=30% style='display:inline-block; margin:5px;'} ![](images/permutations_abc_n2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/permutations_abcd_n2.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/permutations_abcde_n2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/poker_52_cards.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_example_addition.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_model_input_solution_output.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_in_list.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_prime_number_67.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_search_prime_number_67_binary_step_1.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_prime_number_67_binary_step_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_prime_number_67_binary_step_3.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_search_prime_number_67_binary_step_4.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_prime_number_67_binary_step_5.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_prime_number_67_linear.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_67_prime_number.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_67_prime_number_binary_search_1.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_67_prime_number_binary_search_2.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_67_prime_number_binary_search_3.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_67_prime_number_binary_search_4.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_67_prime_number_binary_search_5.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_67_prime_number_binary_search_6.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_67_prime_number_linear.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_decomposition.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_even_smaller_problems.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_addition.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_chatgpt.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_example_chess.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_chess_representation.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_count_plants_1.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_example_count_plants_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_count_plants_3.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_count_plants_4.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_example_search_in_list.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_word_count.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_word_count_distribute.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_example_word_count_distribute_further.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_word_count_distribute_parallelize.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_word_count_sequentially.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_input_blackbox_output.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_input_computation_output.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_input_computation_output_lifi.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_input_computation_output_lifi_devices.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_input_solution_output.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_large_complex_problem.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_solving_polya.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_smaller_problems.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_word_count.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_word_count_distributed_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_word_count_distributed_4.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_word_count_linear_sequential.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/problem_word_count_parallelized.png){width=30% style='display:inline-block; margin:5px;'} ![](images/prog_functions_origin.png){width=30% style='display:inline-block; margin:5px;'} ![](images/prog_variables_container.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/prog_variables_container_expression.png){width=30% style='display:inline-block; margin:5px;'} ![](images/scalar_vector_data_frame.png){width=30% style='display:inline-block; margin:5px;'} ![](images/stringr_simple_searches_in_text.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/tidy_data_tidy.png){width=30% style='display:inline-block; margin:5px;'} ![](images/tiydy_data_observations.png){width=30% style='display:inline-block; margin:5px;'} ![](images/tiydy_data_values.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](images/tiydy_data_variables.png){width=30% style='display:inline-block; margin:5px;'} ![](images/types_of_questions.png){width=30% style='display:inline-block; margin:5px;'} ![](images/variables_as_containers.png){width=30% style='display:inline-block; margin:5px;'}
-
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/advance_organizer_dap.png" target="_blank" rel="noopener"><img src="images/advance_organizer_dap.png" alt="advance_organizer_dap" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_computational_schema_algorithm.png" target="_blank" rel="noopener"><img src="images/algorithms_computational_schema_algorithm.png" alt="algorithms_computational_schema_algorithm" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_computational_schema_blackbox.png" target="_blank" rel="noopener"><img src="images/algorithms_computational_schema_blackbox.png" alt="algorithms_computational_schema_blackbox" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_euclidean_example.png" target="_blank" rel="noopener"><img src="images/algorithms_euclidean_example.png" alt="algorithms_euclidean_example" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_euclidean_textual.png" target="_blank" rel="noopener"><img src="images/algorithms_euclidean_textual.png" alt="algorithms_euclidean_textual" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_example_babylonian_1.png" target="_blank" rel="noopener"><img src="images/algorithms_example_babylonian_1.png" alt="algorithms_example_babylonian_1" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_example_babylonian_2.png" target="_blank" rel="noopener"><img src="images/algorithms_example_babylonian_2.png" alt="algorithms_example_babylonian_2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_example_babylonian_3.png" target="_blank" rel="noopener"><img src="images/algorithms_example_babylonian_3.png" alt="algorithms_example_babylonian_3" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_example_babylonian_4.png" target="_blank" rel="noopener"><img src="images/algorithms_example_babylonian_4.png" alt="algorithms_example_babylonian_4" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_example_babylonian_5.png" target="_blank" rel="noopener"><img src="images/algorithms_example_babylonian_5.png" alt="algorithms_example_babylonian_5" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_flow_diagram_babylonian.png" target="_blank" rel="noopener"><img src="images/algorithms_flow_diagram_babylonian.png" alt="algorithms_flow_diagram_babylonian" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_flow_diagram_gcd.png" target="_blank" rel="noopener"><img src="images/algorithms_flow_diagram_gcd.png" alt="algorithms_flow_diagram_gcd" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_flow_diagram_notation.png" target="_blank" rel="noopener"><img src="images/algorithms_flow_diagram_notation.png" alt="algorithms_flow_diagram_notation" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_pseudocode_example.png" target="_blank" rel="noopener"><img src="images/algorithms_pseudocode_example.png" alt="algorithms_pseudocode_example" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_recipe_handwritten.png" target="_blank" rel="noopener"><img src="images/algorithms_recipe_handwritten.png" alt="algorithms_recipe_handwritten" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/algorithms_size_runtime.png" target="_blank" rel="noopener"><img src="images/algorithms_size_runtime.png" alt="algorithms_size_runtime" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/analog_vs_digital_where_can_you_stand.png" target="_blank" rel="noopener"><img src="images/analog_vs_digital_where_can_you_stand.png" alt="analog_vs_digital_where_can_you_stand" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/chess_1.png" target="_blank" rel="noopener"><img src="images/chess_1.png" alt="chess_1" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/chess_2.png" target="_blank" rel="noopener"><img src="images/chess_2.png" alt="chess_2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/chess_3.png" target="_blank" rel="noopener"><img src="images/chess_3.png" alt="chess_3" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/chess_move.png" target="_blank" rel="noopener"><img src="images/chess_move.png" alt="chess_move" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/codes_ascii_character_a_pixel_bits.png" target="_blank" rel="noopener"><img src="images/codes_ascii_character_a_pixel_bits.png" alt="codes_ascii_character_a_pixel_bits" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/codes_ascii_characters_abc_pixel.png" target="_blank" rel="noopener"><img src="images/codes_ascii_characters_abc_pixel.png" alt="codes_ascii_characters_abc_pixel" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/codes_heart_pixel.png" target="_blank" rel="noopener"><img src="images/codes_heart_pixel.png" alt="codes_heart_pixel" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/computational_schema_blackbox.png" target="_blank" rel="noopener"><img src="images/computational_schema_blackbox.png" alt="computational_schema_blackbox" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/computational_schema_chatgpt.png" target="_blank" rel="noopener"><img src="images/computational_schema_chatgpt.png" alt="computational_schema_chatgpt" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/computational_schema_chess.png" target="_blank" rel="noopener"><img src="images/computational_schema_chess.png" alt="computational_schema_chess" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/computational_schema_computation.png" target="_blank" rel="noopener"><img src="images/computational_schema_computation.png" alt="computational_schema_computation" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/computational_schema_function.png" target="_blank" rel="noopener"><img src="images/computational_schema_function.png" alt="computational_schema_function" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/computational_schema_input_output_function.png" target="_blank" rel="noopener"><img src="images/computational_schema_input_output_function.png" alt="computational_schema_input_output_function" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/computational_schema_processing_representation.png" target="_blank" rel="noopener"><img src="images/computational_schema_processing_representation.png" alt="computational_schema_processing_representation" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/data_frame_concept.png" target="_blank" rel="noopener"><img src="images/data_frame_concept.png" alt="data_frame_concept" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/database_system_architecture.png" target="_blank" rel="noopener"><img src="images/database_system_architecture.png" alt="database_system_architecture" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/digital_competence_society_smooth.png" target="_blank" rel="noopener"><img src="images/digital_competence_society_smooth.png" alt="digital_competence_society_smooth" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/digital_competence_society_split.png" target="_blank" rel="noopener"><img src="images/digital_competence_society_split.png" alt="digital_competence_society_split" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/digital_literacy_skills_with_languages.png" target="_blank" rel="noopener"><img src="images/digital_literacy_skills_with_languages.png" alt="digital_literacy_skills_with_languages" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/eda_process.png" target="_blank" rel="noopener"><img src="images/eda_process.png" alt="eda_process" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/information_balls_urn_1.png" target="_blank" rel="noopener"><img src="images/information_balls_urn_1.png" alt="information_balls_urn_1" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/information_definition_adami.png" target="_blank" rel="noopener"><img src="images/information_definition_adami.png" alt="information_definition_adami" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/large_complex_problem.png" target="_blank" rel="noopener"><img src="images/large_complex_problem.png" alt="large_complex_problem" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/large_complex_problem_4_smaller_problems.png" target="_blank" rel="noopener"><img src="images/large_complex_problem_4_smaller_problems.png" alt="large_complex_problem_4_smaller_problems" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/large_complex_problem_5_smaller_problems.png" target="_blank" rel="noopener"><img src="images/large_complex_problem_5_smaller_problems.png" alt="large_complex_problem_5_smaller_problems" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/number_guessing_game_1.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_1.png" alt="number_guessing_game_1" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/number_guessing_game_2.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_2.png" alt="number_guessing_game_2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/number_guessing_game_3.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_3.png" alt="number_guessing_game_3" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/number_guessing_game_4.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_4.png" alt="number_guessing_game_4" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/number_guessing_game_5.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_5.png" alt="number_guessing_game_5" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/number_guessing_game_6.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_6.png" alt="number_guessing_game_6" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/permutations_a_no_information.png" target="_blank" rel="noopener"><img src="images/permutations_a_no_information.png" alt="permutations_a_no_information" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/permutations_abc_n2.png" target="_blank" rel="noopener"><img src="images/permutations_abc_n2.png" alt="permutations_abc_n2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/permutations_abcd_n2.png" target="_blank" rel="noopener"><img src="images/permutations_abcd_n2.png" alt="permutations_abcd_n2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/permutations_abcde_n2.png" target="_blank" rel="noopener"><img src="images/permutations_abcde_n2.png" alt="permutations_abcde_n2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/poker_52_cards.png" target="_blank" rel="noopener"><img src="images/poker_52_cards.png" alt="poker_52_cards" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_example_addition.png" target="_blank" rel="noopener"><img src="images/problem_example_addition.png" alt="problem_example_addition" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_model_input_solution_output.png" target="_blank" rel="noopener"><img src="images/problem_model_input_solution_output.png" alt="problem_model_input_solution_output" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_search_in_list.png" target="_blank" rel="noopener"><img src="images/problem_search_in_list.png" alt="problem_search_in_list" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_search_prime_number_67.png" target="_blank" rel="noopener"><img src="images/problem_search_prime_number_67.png" alt="problem_search_prime_number_67" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_search_prime_number_67_binary_step_1.png" target="_blank" rel="noopener"><img src="images/problem_search_prime_number_67_binary_step_1.png" alt="problem_search_prime_number_67_binary_step_1" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_search_prime_number_67_binary_step_2.png" target="_blank" rel="noopener"><img src="images/problem_search_prime_number_67_binary_step_2.png" alt="problem_search_prime_number_67_binary_step_2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_search_prime_number_67_binary_step_3.png" target="_blank" rel="noopener"><img src="images/problem_search_prime_number_67_binary_step_3.png" alt="problem_search_prime_number_67_binary_step_3" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_search_prime_number_67_binary_step_4.png" target="_blank" rel="noopener"><img src="images/problem_search_prime_number_67_binary_step_4.png" alt="problem_search_prime_number_67_binary_step_4" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_search_prime_number_67_binary_step_5.png" target="_blank" rel="noopener"><img src="images/problem_search_prime_number_67_binary_step_5.png" alt="problem_search_prime_number_67_binary_step_5" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_search_prime_number_67_linear.png" target="_blank" rel="noopener"><img src="images/problem_search_prime_number_67_linear.png" alt="problem_search_prime_number_67_linear" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_67_prime_number.png" target="_blank" rel="noopener"><img src="images/problem_solving_67_prime_number.png" alt="problem_solving_67_prime_number" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_67_prime_number_binary_search_1.png" target="_blank" rel="noopener"><img src="images/problem_solving_67_prime_number_binary_search_1.png" alt="problem_solving_67_prime_number_binary_search_1" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_67_prime_number_binary_search_2.png" target="_blank" rel="noopener"><img src="images/problem_solving_67_prime_number_binary_search_2.png" alt="problem_solving_67_prime_number_binary_search_2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_67_prime_number_binary_search_3.png" target="_blank" rel="noopener"><img src="images/problem_solving_67_prime_number_binary_search_3.png" alt="problem_solving_67_prime_number_binary_search_3" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_67_prime_number_binary_search_4.png" target="_blank" rel="noopener"><img src="images/problem_solving_67_prime_number_binary_search_4.png" alt="problem_solving_67_prime_number_binary_search_4" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_67_prime_number_binary_search_5.png" target="_blank" rel="noopener"><img src="images/problem_solving_67_prime_number_binary_search_5.png" alt="problem_solving_67_prime_number_binary_search_5" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_67_prime_number_binary_search_6.png" target="_blank" rel="noopener"><img src="images/problem_solving_67_prime_number_binary_search_6.png" alt="problem_solving_67_prime_number_binary_search_6" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_67_prime_number_linear.png" target="_blank" rel="noopener"><img src="images/problem_solving_67_prime_number_linear.png" alt="problem_solving_67_prime_number_linear" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_decomposition.png" target="_blank" rel="noopener"><img src="images/problem_solving_decomposition.png" alt="problem_solving_decomposition" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_even_smaller_problems.png" target="_blank" rel="noopener"><img src="images/problem_solving_even_smaller_problems.png" alt="problem_solving_even_smaller_problems" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_addition.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_addition.png" alt="problem_solving_example_addition" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_chatgpt.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_chatgpt.png" alt="problem_solving_example_chatgpt" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_chess.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_chess.png" alt="problem_solving_example_chess" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_chess_representation.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_chess_representation.png" alt="problem_solving_example_chess_representation" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_count_plants_1.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_count_plants_1.png" alt="problem_solving_example_count_plants_1" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_count_plants_2.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_count_plants_2.png" alt="problem_solving_example_count_plants_2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_count_plants_3.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_count_plants_3.png" alt="problem_solving_example_count_plants_3" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_count_plants_4.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_count_plants_4.png" alt="problem_solving_example_count_plants_4" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_search_in_list.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_search_in_list.png" alt="problem_solving_example_search_in_list" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_word_count.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_word_count.png" alt="problem_solving_example_word_count" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_word_count_distribute.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_word_count_distribute.png" alt="problem_solving_example_word_count_distribute" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_word_count_distribute_further.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_word_count_distribute_further.png" alt="problem_solving_example_word_count_distribute_further" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_word_count_distribute_parallelize.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_word_count_distribute_parallelize.png" alt="problem_solving_example_word_count_distribute_parallelize" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_example_word_count_sequentially.png" target="_blank" rel="noopener"><img src="images/problem_solving_example_word_count_sequentially.png" alt="problem_solving_example_word_count_sequentially" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_input_blackbox_output.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_blackbox_output.png" alt="problem_solving_input_blackbox_output" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_input_computation_output.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_computation_output.png" alt="problem_solving_input_computation_output" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_input_computation_output_lifi.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_computation_output_lifi.png" alt="problem_solving_input_computation_output_lifi" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_input_computation_output_lifi_devices.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_computation_output_lifi_devices.png" alt="problem_solving_input_computation_output_lifi_devices" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_input_solution_output.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_solution_output.png" alt="problem_solving_input_solution_output" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_large_complex_problem.png" target="_blank" rel="noopener"><img src="images/problem_solving_large_complex_problem.png" alt="problem_solving_large_complex_problem" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_polya.png" target="_blank" rel="noopener"><img src="images/problem_solving_polya.png" alt="problem_solving_polya" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_solving_smaller_problems.png" target="_blank" rel="noopener"><img src="images/problem_solving_smaller_problems.png" alt="problem_solving_smaller_problems" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_word_count.png" target="_blank" rel="noopener"><img src="images/problem_word_count.png" alt="problem_word_count" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_word_count_distributed_2.png" target="_blank" rel="noopener"><img src="images/problem_word_count_distributed_2.png" alt="problem_word_count_distributed_2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_word_count_distributed_4.png" target="_blank" rel="noopener"><img src="images/problem_word_count_distributed_4.png" alt="problem_word_count_distributed_4" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_word_count_linear_sequential.png" target="_blank" rel="noopener"><img src="images/problem_word_count_linear_sequential.png" alt="problem_word_count_linear_sequential" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/problem_word_count_parallelized.png" target="_blank" rel="noopener"><img src="images/problem_word_count_parallelized.png" alt="problem_word_count_parallelized" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/prog_functions_origin.png" target="_blank" rel="noopener"><img src="images/prog_functions_origin.png" alt="prog_functions_origin" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/prog_variables_container.png" target="_blank" rel="noopener"><img src="images/prog_variables_container.png" alt="prog_variables_container" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/prog_variables_container_expression.png" target="_blank" rel="noopener"><img src="images/prog_variables_container_expression.png" alt="prog_variables_container_expression" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/scalar_vector_data_frame.png" target="_blank" rel="noopener"><img src="images/scalar_vector_data_frame.png" alt="scalar_vector_data_frame" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/stringr_simple_searches_in_text.png" target="_blank" rel="noopener"><img src="images/stringr_simple_searches_in_text.png" alt="stringr_simple_searches_in_text" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/tidy_data_tidy.png" target="_blank" rel="noopener"><img src="images/tidy_data_tidy.png" alt="tidy_data_tidy" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/tiydy_data_observations.png" target="_blank" rel="noopener"><img src="images/tiydy_data_observations.png" alt="tiydy_data_observations" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/tiydy_data_values.png" target="_blank" rel="noopener"><img src="images/tiydy_data_values.png" alt="tiydy_data_values" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/tiydy_data_variables.png" target="_blank" rel="noopener"><img src="images/tiydy_data_variables.png" alt="tiydy_data_variables" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/types_of_questions.png" target="_blank" rel="noopener"><img src="images/types_of_questions.png" alt="types_of_questions" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
+
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="images/variables_as_containers.png" target="_blank" rel="noopener"><img src="images/variables_as_containers.png" alt="variables_as_containers" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
 
 
 ## Quarto Documents
@@ -341,9 +896,20 @@
 
 ### Images
 
-![](static/images/algorithm_check_prime_number.png){width=30% style='display:inline-block; margin:5px;'} ![](static/images/circuit_1.png){width=30% style='display:inline-block; margin:5px;'} ![](static/images/circuit_2.png){width=30% style='display:inline-block; margin:5px;'}
-
-
-![](static/images/circuit_3.png){width=30% style='display:inline-block; margin:5px;'} ![](static/images/lifi_project_prototype.png){width=30% style='display:inline-block; margin:5px;'}
-
+<table><tbody>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="static/images/algorithm_check_prime_number.png" target="_blank" rel="noopener"><img src="static/images/algorithm_check_prime_number.png" alt="algorithm_check_prime_number" style="max-width:100%; height:auto;" /></a></td>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="static/images/circuit_1.png" target="_blank" rel="noopener"><img src="static/images/circuit_1.png" alt="circuit_1" style="max-width:100%; height:auto;" /></a></td>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="static/images/circuit_2.png" target="_blank" rel="noopener"><img src="static/images/circuit_2.png" alt="circuit_2" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="static/images/circuit_3.png" target="_blank" rel="noopener"><img src="static/images/circuit_3.png" alt="circuit_3" style="max-width:100%; height:auto;" /></a></td>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="static/images/lifi_hardware_mounting_plates_with_foil.jpg" target="_blank" rel="noopener"><img src="static/images/lifi_hardware_mounting_plates_with_foil.jpg" alt="lifi_hardware_mounting_plates_with_foil" style="max-width:100%; height:auto;" /></a></td>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="static/images/lifi_hardware_mounting_plates_without_foil.jpg" target="_blank" rel="noopener"><img src="static/images/lifi_hardware_mounting_plates_without_foil.jpg" alt="lifi_hardware_mounting_plates_without_foil" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="static/images/lifi_hardware_overview.jpg" target="_blank" rel="noopener"><img src="static/images/lifi_hardware_overview.jpg" alt="lifi_hardware_overview" style="max-width:100%; height:auto;" /></a></td>
+<td style="vertical-align:top; width:33%; padding:6px;"><a href="static/images/lifi_project_prototype.png" target="_blank" rel="noopener"><img src="static/images/lifi_project_prototype.png" alt="lifi_project_prototype" style="max-width:100%; height:auto;" /></a></td>
+</tr>
+</tbody></table>
 
