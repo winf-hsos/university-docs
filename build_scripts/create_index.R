@@ -1,5 +1,5 @@
-# Build a Markdown/HTML index with images (3 per row via HTML table)
-# Works reliably on GitHub Pages without custom CSS
+# Build a Markdown/HTML index with images (4 per row via HTML table)
+# Works on GitHub Pages without extra CSS. Images open in a new tab.
 
 path <- "docs"
 files <- list.files(path, full.names = TRUE, recursive = TRUE)
@@ -36,37 +36,53 @@ category <- ""
 subcategory <- ""
 subsubcategory <- ""
 
-# Helper: detect image files
+# ---------- Helpers ----------
 is_image <- function(x) {
   ext <- tolower(tools::file_ext(x))
   ext %in% c("png", "jpg", "jpeg", "gif", "webp", "svg")
 }
 
-# Track state
+# Table state
 table_open <- FALSE
+row_open <- FALSE
 cells_in_row <- 0
 
 open_table <- function() {
   if (!table_open) {
-    output <<- c(output, "<table><tbody><tr>")
+    output <<- c(output, "<table><tbody>")
     table_open <<- TRUE
+    row_open <<- FALSE
+    cells_in_row <<- 0
+  }
+}
+
+start_row <- function() {
+  if (!row_open) {
+    output <<- c(output, "<tr>")
+    row_open <<- TRUE
+    cells_in_row <<- 0
+  }
+}
+
+close_row <- function() {
+  if (row_open) {
+    output <<- c(output, "</tr>")
+    row_open <<- FALSE
     cells_in_row <<- 0
   }
 }
 
 close_table <- function() {
   if (table_open) {
-    if (cells_in_row > 0) {
-      output <<- c(output, "</tr>")
-    }
+    if (row_open) close_row()
     output <<- c(output, "</tbody></table>\n")
     table_open <<- FALSE
-    cells_in_row <<- 0
   }
 }
 
 add_image_cell <- function(img_src, alt_txt) {
-  # Each cell: 25% width (4 pro Reihe)
+  open_table()
+  start_row()
   cell <- sprintf(
     "<td style=\"vertical-align:top; width:25%%; padding:6px;\"><a href=\"%s\" target=\"_blank\" rel=\"noopener\"><img src=\"%s\" alt=\"%s\" style=\"max-width:100%%; height:auto;\" /></a></td>",
     img_src, img_src, alt_txt
@@ -74,27 +90,31 @@ add_image_cell <- function(img_src, alt_txt) {
   output <<- c(output, cell)
   cells_in_row <<- cells_in_row + 1
   
+  # After 4 cells, close the row; next image will open a new row.
   if (cells_in_row == 4) {
-    output <<- c(output, "</tr><tr>")
-    cells_in_row <<- 0
+    close_row()
   }
 }
 
 flush_before_heading <- function() {
+  # Make sure image tables are closed before writing a new heading or a list
   close_table()
 }
+# ---------- /Helpers ----------
 
 for (file in files) {
+  # Split path into parts
   parts <- unlist(strsplit(file, "/"))
-  current_category       <- if (length(parts) >= 2) parts[2] else ""
-  current_subcategory    <- if (length(parts) >= 3) parts[3] else ""
-  current_subsubcategory <- if (length(parts) >= 4) parts[4] else ""
+  current_category        <- if (length(parts) >= 2) parts[2] else ""
+  current_subcategory     <- if (length(parts) >= 3) parts[3] else ""
+  current_subsubcategory  <- if (length(parts) >= 4) parts[4] else ""
   
+  # If subsubcategory looks like a filename, clear it
   if (is.na(current_subsubcategory) || grepl("\\..{3,4}$", current_subsubcategory)) {
     current_subsubcategory <- ""
   }
   
-  # New category
+  # New category?
   if (current_category != category) {
     flush_before_heading()
     category <- current_category
@@ -105,19 +125,20 @@ for (file in files) {
     subsubcategory <- ""
   }
   
-  # New subcategory
+  # New subcategory?
   if (current_subcategory != subcategory) {
     flush_before_heading()
     subcategory <- current_subcategory
     heading_text <- headings_dict[subcategory]
     if (is.na(heading_text)) heading_text <- subcategory
+    # No subheader for images category
     if (category != "images" && nzchar(subcategory)) {
       output <- c(output, paste0("\n### ", heading_text, "\n"))
     }
     subsubcategory <- ""
   }
   
-  # New sub-subcategory
+  # New sub-subcategory?
   if (nzchar(current_subsubcategory) && current_subsubcategory != subsubcategory) {
     flush_before_heading()
     subsubcategory <- current_subsubcategory
@@ -132,7 +153,7 @@ for (file in files) {
     # Extract optional %%ID%%
     id <- if (grepl("%%.*%%", file)) sub(".*%%(.*)%%.*", "\\1", file) else ""
     
-    # Remove %%...%% from filename on disk
+    # Remove %%...%% from filename on disk (no-op if not present)
     file_renamed <- sub("%%.*%%", "", file)
     try(silent = TRUE, file.rename(file, file_renamed))
     
@@ -140,16 +161,13 @@ for (file in files) {
     rel_file  <- gsub("^docs/", "", file_renamed)
     
     if (is_image(rel_file)) {
-      # Ensure table exists and a row is started
-      open_table()
-      if (cells_in_row == 0) start_row()
-      
+      # Images inline, 4 per row
       alt_txt <- tools::file_path_sans_ext(file_name)
       add_image_cell(rel_file, alt_txt)
       
     } else {
-      # PDFs as links
-      close_table()  # make sure table doesn't interleave with list
+      # PDFs as a bullet list; do not mix with open tables
+      flush_before_heading()
       file_link <- paste0("- [", file_name, "](", rel_file, ")")
       if (nzchar(id)) {
         placeholder <- ifelse(category == "google_slides", "presentation", "document")
@@ -164,5 +182,5 @@ for (file in files) {
 # Close any open image table
 close_table()
 
-# Write out
+# Write out (UTF-8)
 writeLines(enc2utf8(output), md_file)
