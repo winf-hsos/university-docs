@@ -41,6 +41,13 @@ is_image <- function(x) {
   ext <- tolower(tools::file_ext(x))
   ext %in% c("png", "jpg", "jpeg", "gif", "webp", "svg")
 }
+is_supported_file <- function(x) {
+  grepl("\\.(pdf|png|jpg|jpeg|gif|webp|svg)$", tolower(x))
+}
+looks_like_file <- function(x) {
+  # true wenn es wie "name.ext" aussieht
+  grepl("\\.[A-Za-z0-9]{2,4}$", x)
+}
 
 # Table state
 table_open <- FALSE
@@ -55,7 +62,6 @@ open_table <- function() {
     cells_in_row <<- 0
   }
 }
-
 start_row <- function() {
   if (!row_open) {
     output <<- c(output, "<tr>")
@@ -63,7 +69,6 @@ start_row <- function() {
     cells_in_row <<- 0
   }
 }
-
 close_row <- function() {
   if (row_open) {
     output <<- c(output, "</tr>")
@@ -71,7 +76,6 @@ close_row <- function() {
     cells_in_row <<- 0
   }
 }
-
 close_table <- function() {
   if (table_open) {
     if (row_open) close_row()
@@ -84,76 +88,95 @@ add_image_cell <- function(img_src, alt_txt) {
   open_table()
   start_row()
   cell <- sprintf(
-    "<td style=\"vertical-align:top; width:25%%; padding:6px;\"><a href=\"%s\" target=\"_blank\" rel=\"noopener\"><img src=\"%s\" alt=\"%s\" style=\"max-width:100%%; height:auto;\" /></a></td>",
+    "<td style=\"vertical-align:top; width:25%%; padding:6px;\"><a href=\"%s\" target=\"_blank\" rel=\"noopener\"><img src=\"%s\" alt=\"%s\" style=\"max-width:100%%; height:auto;\" loading=\"lazy\" /></a></td>",
     img_src, img_src, alt_txt
   )
   output <<- c(output, cell)
   cells_in_row <<- cells_in_row + 1
-  
-  # After 4 cells, close the row; next image will open a new row.
-  if (cells_in_row == 4) {
-    close_row()
-  }
+  if (cells_in_row == 4) close_row()  # neue Zeile beim nächsten Bild
 }
 
-flush_before_heading <- function() {
-  # Make sure image tables are closed before writing a new heading or a list
+# Nur DANN Tabellen flushen, wenn wir wirklich eine Überschrift schreiben
+write_category_heading <- function(key) {
   close_table()
+  heading_text <- headings_dict[key]
+  if (is.na(heading_text)) heading_text <- key
+  output <<- c(output, paste0("\n## ", heading_text, "\n"))
+}
+write_subcategory_heading <- function(parent_category, key) {
+  # Bei category == "images" nur dann Subheader, wenn key KEIN Dateiname ist
+  if (parent_category == "images" && looks_like_file(key)) return(invisible(NULL))
+  close_table()
+  if (nzchar(key)) {
+    heading_text <- headings_dict[key]
+    if (is.na(heading_text)) heading_text <- key
+    output <<- c(output, paste0("\n### ", heading_text, "\n"))
+  }
+}
+write_subsubcategory_heading <- function(key) {
+  if (!nzchar(key)) return(invisible(NULL))
+  close_table()
+  heading_text <- headings_dict[key]
+  if (is.na(heading_text)) heading_text <- key
+  output <<- c(output, paste0("\n#### ", heading_text, "\n"))
 }
 # ---------- /Helpers ----------
 
 for (file in files) {
-  # Split path into parts
   parts <- unlist(strsplit(file, "/"))
   current_category        <- if (length(parts) >= 2) parts[2] else ""
   current_subcategory     <- if (length(parts) >= 3) parts[3] else ""
   current_subsubcategory  <- if (length(parts) >= 4) parts[4] else ""
   
-  # If subsubcategory looks like a filename, clear it
-  if (is.na(current_subsubcategory) || grepl("\\..{3,4}$", current_subsubcategory)) {
+  # Wenn subsubcategory wie Datei aussieht, ignorieren (kein Heading)
+  if (is.na(current_subsubcategory) || looks_like_file(current_subsubcategory)) {
     current_subsubcategory <- ""
   }
   
-  # New category?
+  # --- Category-Wechsel ---
   if (current_category != category) {
-    flush_before_heading()
     category <- current_category
-    heading_text <- headings_dict[category]
-    if (is.na(heading_text)) heading_text <- category
-    output <- c(output, paste0("\n## ", heading_text, "\n"))
     subcategory <- ""
     subsubcategory <- ""
+    write_category_heading(category)
   }
   
-  # New subcategory?
+  # --- Subcategory-Wechsel ---
+  # Bei category=="images": viele Dateien liegen direkt darunter -> parts[3] ist Dateiname.
+  # Also NUR Heading + Flush, wenn es KEIN Dateiname ist.
   if (current_subcategory != subcategory) {
-    flush_before_heading()
-    subcategory <- current_subcategory
-    heading_text <- headings_dict[subcategory]
-    if (is.na(heading_text)) heading_text <- subcategory
-    # No subheader for images category
-    if (category != "images" && nzchar(subcategory)) {
-      output <- c(output, paste0("\n### ", heading_text, "\n"))
+    # Entscheiden, ob wir wirklich einen Subheader schreiben
+    should_write_sub <- nzchar(current_subcategory) &&
+      !looks_like_file(current_subcategory) &&
+      !(category == "images" && looks_like_file(current_subcategory))
+    if (should_write_sub && category != "images") {
+      write_subcategory_heading(category, current_subcategory)
+      subsubcategory <- ""
+      subcategory <- current_subcategory
+    } else if (should_write_sub && category == "images") {
+      # images/<folder>/<file> → Folder-Heading erlaubt
+      write_subcategory_heading(category, current_subcategory)
+      subsubcategory <- ""
+      subcategory <- current_subcategory
+    } else {
+      # Subcategory ist eigentl. Dateiname → nicht setzen, damit kein ständiger „Wechsel“ erkannt wird
+      # (wichtig für images/<datei.png>)
+      # subcategory bleibt wie sie ist.
     }
-    subsubcategory <- ""
   }
   
-  # New sub-subcategory?
+  # --- Subsubcategory-Wechsel (nur wenn kein Dateiname) ---
   if (nzchar(current_subsubcategory) && current_subsubcategory != subsubcategory) {
-    flush_before_heading()
+    write_subsubcategory_heading(current_subsubcategory)
     subsubcategory <- current_subsubcategory
-    heading_text <- headings_dict[subsubcategory]
-    if (is.na(heading_text)) heading_text <- subsubcategory
-    output <- c(output, paste0("\n#### ", heading_text, "\n"))
   }
   
-  # Process supported files
-  if (grepl("\\.(pdf|png|jpg|jpeg|gif|webp|svg)$", tolower(file))) {
-    
-    # Extract optional %%ID%%
+  # --- Dateien verarbeiten ---
+  if (is_supported_file(file)) {
+    # optionale %%ID%% extrahieren
     id <- if (grepl("%%.*%%", file)) sub(".*%%(.*)%%.*", "\\1", file) else ""
     
-    # Remove %%...%% from filename on disk (no-op if not present)
+    # %%...%% aus Dateinamen entfernen (no-op falls nicht vorhanden)
     file_renamed <- sub("%%.*%%", "", file)
     try(silent = TRUE, file.rename(file, file_renamed))
     
@@ -161,13 +184,12 @@ for (file in files) {
     rel_file  <- gsub("^docs/", "", file_renamed)
     
     if (is_image(rel_file)) {
-      # Images inline, 4 per row
+      # Bilder inline: 4 pro Zeile, Tabelle NICHT bei jedem Bild schließen
       alt_txt <- tools::file_path_sans_ext(file_name)
       add_image_cell(rel_file, alt_txt)
-      
     } else {
-      # PDFs as a bullet list; do not mix with open tables
-      flush_before_heading()
+      # PDFs als Liste; vor Liste ggf. offene Tabelle schließen
+      close_table()
       file_link <- paste0("- [", file_name, "](", rel_file, ")")
       if (nzchar(id)) {
         placeholder <- ifelse(category == "google_slides", "presentation", "document")
@@ -179,8 +201,8 @@ for (file in files) {
   }
 }
 
-# Close any open image table
+# Am Ende evtl. offene Tabelle schließen
 close_table()
 
-# Write out (UTF-8)
+# Schreiben (UTF-8)
 writeLines(enc2utf8(output), md_file)
