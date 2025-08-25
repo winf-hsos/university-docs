@@ -117,117 +117,117 @@
 
 ## Images
 
-- [advance_organizer_dap.png](images/advance_organizer_dap.png)
-- [algorithms_computational_schema_algorithm.png](images/algorithms_computational_schema_algorithm.png)
-- [algorithms_computational_schema_blackbox.png](images/algorithms_computational_schema_blackbox.png)
-- [algorithms_euclidean_example.png](images/algorithms_euclidean_example.png)
-- [algorithms_euclidean_textual.png](images/algorithms_euclidean_textual.png)
-- [algorithms_example_babylonian_1.png](images/algorithms_example_babylonian_1.png)
-- [algorithms_example_babylonian_2.png](images/algorithms_example_babylonian_2.png)
-- [algorithms_example_babylonian_3.png](images/algorithms_example_babylonian_3.png)
-- [algorithms_example_babylonian_4.png](images/algorithms_example_babylonian_4.png)
-- [algorithms_example_babylonian_5.png](images/algorithms_example_babylonian_5.png)
-- [algorithms_flow_diagram_babylonian.png](images/algorithms_flow_diagram_babylonian.png)
-- [algorithms_flow_diagram_gcd.png](images/algorithms_flow_diagram_gcd.png)
-- [algorithms_flow_diagram_notation.png](images/algorithms_flow_diagram_notation.png)
-- [algorithms_pseudocode_example.png](images/algorithms_pseudocode_example.png)
-- [algorithms_recipe_handwritten.png](images/algorithms_recipe_handwritten.png)
-- [algorithms_size_runtime.png](images/algorithms_size_runtime.png)
-- [analog_vs_digital_where_can_you_stand.png](images/analog_vs_digital_where_can_you_stand.png)
-- [chess_1.png](images/chess_1.png)
-- [chess_2.png](images/chess_2.png)
-- [chess_3.png](images/chess_3.png)
-- [chess_move.png](images/chess_move.png)
-- [codes_ascii_character_a_pixel_bits.png](images/codes_ascii_character_a_pixel_bits.png)
-- [codes_ascii_characters_abc_pixel.png](images/codes_ascii_characters_abc_pixel.png)
-- [codes_heart_pixel.png](images/codes_heart_pixel.png)
-- [computational_schema_blackbox.png](images/computational_schema_blackbox.png)
-- [computational_schema_chatgpt.png](images/computational_schema_chatgpt.png)
-- [computational_schema_chess.png](images/computational_schema_chess.png)
-- [computational_schema_computation.png](images/computational_schema_computation.png)
-- [computational_schema_function.png](images/computational_schema_function.png)
-- [computational_schema_input_output_function.png](images/computational_schema_input_output_function.png)
-- [computational_schema_processing_representation.png](images/computational_schema_processing_representation.png)
-- [data_frame_concept.png](images/data_frame_concept.png)
-- [database_system_architecture.png](images/database_system_architecture.png)
-- [digital_competence_society_smooth.png](images/digital_competence_society_smooth.png)
-- [digital_competence_society_split.png](images/digital_competence_society_split.png)
-- [digital_literacy_skills_with_languages.png](images/digital_literacy_skills_with_languages.png)
-- [eda_process.png](images/eda_process.png)
-- [information_balls_urn_1.png](images/information_balls_urn_1.png)
-- [information_definition_adami.png](images/information_definition_adami.png)
-- [large_complex_problem.png](images/large_complex_problem.png)
-- [large_complex_problem_4_smaller_problems.png](images/large_complex_problem_4_smaller_problems.png)
-- [large_complex_problem_5_smaller_problems.png](images/large_complex_problem_5_smaller_problems.png)
-- [number_guessing_game_1.png](images/number_guessing_game_1.png)
-- [number_guessing_game_2.png](images/number_guessing_game_2.png)
-- [number_guessing_game_3.png](images/number_guessing_game_3.png)
-- [number_guessing_game_4.png](images/number_guessing_game_4.png)
-- [number_guessing_game_5.png](images/number_guessing_game_5.png)
-- [number_guessing_game_6.png](images/number_guessing_game_6.png)
-- [permutations_a_no_information.png](images/permutations_a_no_information.png)
-- [permutations_abc_n2.png](images/permutations_abc_n2.png)
-- [permutations_abcd_n2.png](images/permutations_abcd_n2.png)
-- [permutations_abcde_n2.png](images/permutations_abcde_n2.png)
-- [poker_52_cards.png](images/poker_52_cards.png)
-- [problem_example_addition.png](images/problem_example_addition.png)
-- [problem_model_input_solution_output.png](images/problem_model_input_solution_output.png)
-- [problem_search_in_list.png](images/problem_search_in_list.png)
-- [problem_search_prime_number_67.png](images/problem_search_prime_number_67.png)
-- [problem_search_prime_number_67_binary_step_1.png](images/problem_search_prime_number_67_binary_step_1.png)
-- [problem_search_prime_number_67_binary_step_2.png](images/problem_search_prime_number_67_binary_step_2.png)
-- [problem_search_prime_number_67_binary_step_3.png](images/problem_search_prime_number_67_binary_step_3.png)
-- [problem_search_prime_number_67_binary_step_4.png](images/problem_search_prime_number_67_binary_step_4.png)
-- [problem_search_prime_number_67_binary_step_5.png](images/problem_search_prime_number_67_binary_step_5.png)
-- [problem_search_prime_number_67_linear.png](images/problem_search_prime_number_67_linear.png)
-- [problem_solving_67_prime_number.png](images/problem_solving_67_prime_number.png)
-- [problem_solving_67_prime_number_binary_search_1.png](images/problem_solving_67_prime_number_binary_search_1.png)
-- [problem_solving_67_prime_number_binary_search_2.png](images/problem_solving_67_prime_number_binary_search_2.png)
-- [problem_solving_67_prime_number_binary_search_3.png](images/problem_solving_67_prime_number_binary_search_3.png)
-- [problem_solving_67_prime_number_binary_search_4.png](images/problem_solving_67_prime_number_binary_search_4.png)
-- [problem_solving_67_prime_number_binary_search_5.png](images/problem_solving_67_prime_number_binary_search_5.png)
-- [problem_solving_67_prime_number_binary_search_6.png](images/problem_solving_67_prime_number_binary_search_6.png)
-- [problem_solving_67_prime_number_linear.png](images/problem_solving_67_prime_number_linear.png)
-- [problem_solving_decomposition.png](images/problem_solving_decomposition.png)
-- [problem_solving_even_smaller_problems.png](images/problem_solving_even_smaller_problems.png)
-- [problem_solving_example_addition.png](images/problem_solving_example_addition.png)
-- [problem_solving_example_chatgpt.png](images/problem_solving_example_chatgpt.png)
-- [problem_solving_example_chess.png](images/problem_solving_example_chess.png)
-- [problem_solving_example_chess_representation.png](images/problem_solving_example_chess_representation.png)
-- [problem_solving_example_count_plants_1.png](images/problem_solving_example_count_plants_1.png)
-- [problem_solving_example_count_plants_2.png](images/problem_solving_example_count_plants_2.png)
-- [problem_solving_example_count_plants_3.png](images/problem_solving_example_count_plants_3.png)
-- [problem_solving_example_count_plants_4.png](images/problem_solving_example_count_plants_4.png)
-- [problem_solving_example_search_in_list.png](images/problem_solving_example_search_in_list.png)
-- [problem_solving_example_word_count.png](images/problem_solving_example_word_count.png)
-- [problem_solving_example_word_count_distribute.png](images/problem_solving_example_word_count_distribute.png)
-- [problem_solving_example_word_count_distribute_further.png](images/problem_solving_example_word_count_distribute_further.png)
-- [problem_solving_example_word_count_distribute_parallelize.png](images/problem_solving_example_word_count_distribute_parallelize.png)
-- [problem_solving_example_word_count_sequentially.png](images/problem_solving_example_word_count_sequentially.png)
-- [problem_solving_input_blackbox_output.png](images/problem_solving_input_blackbox_output.png)
-- [problem_solving_input_computation_output.png](images/problem_solving_input_computation_output.png)
-- [problem_solving_input_computation_output_lifi.png](images/problem_solving_input_computation_output_lifi.png)
-- [problem_solving_input_computation_output_lifi_devices.png](images/problem_solving_input_computation_output_lifi_devices.png)
-- [problem_solving_input_solution_output.png](images/problem_solving_input_solution_output.png)
-- [problem_solving_large_complex_problem.png](images/problem_solving_large_complex_problem.png)
-- [problem_solving_polya.png](images/problem_solving_polya.png)
-- [problem_solving_smaller_problems.png](images/problem_solving_smaller_problems.png)
-- [problem_word_count.png](images/problem_word_count.png)
-- [problem_word_count_distributed_2.png](images/problem_word_count_distributed_2.png)
-- [problem_word_count_distributed_4.png](images/problem_word_count_distributed_4.png)
-- [problem_word_count_linear_sequential.png](images/problem_word_count_linear_sequential.png)
-- [problem_word_count_parallelized.png](images/problem_word_count_parallelized.png)
-- [prog_functions_origin.png](images/prog_functions_origin.png)
-- [prog_variables_container.png](images/prog_variables_container.png)
-- [prog_variables_container_expression.png](images/prog_variables_container_expression.png)
-- [scalar_vector_data_frame.png](images/scalar_vector_data_frame.png)
-- [stringr_simple_searches_in_text.png](images/stringr_simple_searches_in_text.png)
-- [tidy_data_tidy.png](images/tidy_data_tidy.png)
-- [tiydy_data_observations.png](images/tiydy_data_observations.png)
-- [tiydy_data_values.png](images/tiydy_data_values.png)
-- [tiydy_data_variables.png](images/tiydy_data_variables.png)
-- [types_of_questions.png](images/types_of_questions.png)
-- [variables_as_containers.png](images/variables_as_containers.png)
+![](images/advance_organizer_dap.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_computational_schema_algorithm.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_computational_schema_blackbox.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/algorithms_euclidean_example.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_euclidean_textual.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_example_babylonian_1.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/algorithms_example_babylonian_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_example_babylonian_3.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_example_babylonian_4.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/algorithms_example_babylonian_5.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_flow_diagram_babylonian.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_flow_diagram_gcd.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/algorithms_flow_diagram_notation.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_pseudocode_example.png){width=30% style='display:inline-block; margin:5px;'} ![](images/algorithms_recipe_handwritten.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/algorithms_size_runtime.png){width=30% style='display:inline-block; margin:5px;'} ![](images/analog_vs_digital_where_can_you_stand.png){width=30% style='display:inline-block; margin:5px;'} ![](images/chess_1.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/chess_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/chess_3.png){width=30% style='display:inline-block; margin:5px;'} ![](images/chess_move.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/codes_ascii_character_a_pixel_bits.png){width=30% style='display:inline-block; margin:5px;'} ![](images/codes_ascii_characters_abc_pixel.png){width=30% style='display:inline-block; margin:5px;'} ![](images/codes_heart_pixel.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/computational_schema_blackbox.png){width=30% style='display:inline-block; margin:5px;'} ![](images/computational_schema_chatgpt.png){width=30% style='display:inline-block; margin:5px;'} ![](images/computational_schema_chess.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/computational_schema_computation.png){width=30% style='display:inline-block; margin:5px;'} ![](images/computational_schema_function.png){width=30% style='display:inline-block; margin:5px;'} ![](images/computational_schema_input_output_function.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/computational_schema_processing_representation.png){width=30% style='display:inline-block; margin:5px;'} ![](images/data_frame_concept.png){width=30% style='display:inline-block; margin:5px;'} ![](images/database_system_architecture.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/digital_competence_society_smooth.png){width=30% style='display:inline-block; margin:5px;'} ![](images/digital_competence_society_split.png){width=30% style='display:inline-block; margin:5px;'} ![](images/digital_literacy_skills_with_languages.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/eda_process.png){width=30% style='display:inline-block; margin:5px;'} ![](images/information_balls_urn_1.png){width=30% style='display:inline-block; margin:5px;'} ![](images/information_definition_adami.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/large_complex_problem.png){width=30% style='display:inline-block; margin:5px;'} ![](images/large_complex_problem_4_smaller_problems.png){width=30% style='display:inline-block; margin:5px;'} ![](images/large_complex_problem_5_smaller_problems.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/number_guessing_game_1.png){width=30% style='display:inline-block; margin:5px;'} ![](images/number_guessing_game_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/number_guessing_game_3.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/number_guessing_game_4.png){width=30% style='display:inline-block; margin:5px;'} ![](images/number_guessing_game_5.png){width=30% style='display:inline-block; margin:5px;'} ![](images/number_guessing_game_6.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/permutations_a_no_information.png){width=30% style='display:inline-block; margin:5px;'} ![](images/permutations_abc_n2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/permutations_abcd_n2.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/permutations_abcde_n2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/poker_52_cards.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_example_addition.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_model_input_solution_output.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_in_list.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_prime_number_67.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_search_prime_number_67_binary_step_1.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_prime_number_67_binary_step_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_prime_number_67_binary_step_3.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_search_prime_number_67_binary_step_4.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_prime_number_67_binary_step_5.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_search_prime_number_67_linear.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_67_prime_number.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_67_prime_number_binary_search_1.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_67_prime_number_binary_search_2.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_67_prime_number_binary_search_3.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_67_prime_number_binary_search_4.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_67_prime_number_binary_search_5.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_67_prime_number_binary_search_6.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_67_prime_number_linear.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_decomposition.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_even_smaller_problems.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_addition.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_chatgpt.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_example_chess.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_chess_representation.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_count_plants_1.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_example_count_plants_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_count_plants_3.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_count_plants_4.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_example_search_in_list.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_word_count.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_word_count_distribute.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_example_word_count_distribute_further.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_word_count_distribute_parallelize.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_example_word_count_sequentially.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_input_blackbox_output.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_input_computation_output.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_input_computation_output_lifi.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_input_computation_output_lifi_devices.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_input_solution_output.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_large_complex_problem.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_solving_polya.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_solving_smaller_problems.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_word_count.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_word_count_distributed_2.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_word_count_distributed_4.png){width=30% style='display:inline-block; margin:5px;'} ![](images/problem_word_count_linear_sequential.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/problem_word_count_parallelized.png){width=30% style='display:inline-block; margin:5px;'} ![](images/prog_functions_origin.png){width=30% style='display:inline-block; margin:5px;'} ![](images/prog_variables_container.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/prog_variables_container_expression.png){width=30% style='display:inline-block; margin:5px;'} ![](images/scalar_vector_data_frame.png){width=30% style='display:inline-block; margin:5px;'} ![](images/stringr_simple_searches_in_text.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/tidy_data_tidy.png){width=30% style='display:inline-block; margin:5px;'} ![](images/tiydy_data_observations.png){width=30% style='display:inline-block; margin:5px;'} ![](images/tiydy_data_values.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](images/tiydy_data_variables.png){width=30% style='display:inline-block; margin:5px;'} ![](images/types_of_questions.png){width=30% style='display:inline-block; margin:5px;'} ![](images/variables_as_containers.png){width=30% style='display:inline-block; margin:5px;'}
+
+
 
 ## Quarto Documents
 
@@ -341,8 +341,9 @@
 
 ### Images
 
-- [algorithm_check_prime_number.png](static/images/algorithm_check_prime_number.png)
-- [circuit_1.png](static/images/circuit_1.png)
-- [circuit_2.png](static/images/circuit_2.png)
-- [circuit_3.png](static/images/circuit_3.png)
-- [lifi_project_prototype.png](static/images/lifi_project_prototype.png)
+![](static/images/algorithm_check_prime_number.png){width=30% style='display:inline-block; margin:5px;'} ![](static/images/circuit_1.png){width=30% style='display:inline-block; margin:5px;'} ![](static/images/circuit_2.png){width=30% style='display:inline-block; margin:5px;'}
+
+
+![](static/images/circuit_3.png){width=30% style='display:inline-block; margin:5px;'} ![](static/images/lifi_project_prototype.png){width=30% style='display:inline-block; margin:5px;'}
+
+

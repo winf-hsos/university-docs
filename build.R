@@ -6,7 +6,7 @@ if (exists("build_steps")) {
 } else {
   cat("Running all build steps\n")
   build_steps <- c("static_files", "google_slides", "google_docs", "quarto", "extract_images", "create_index", "push")
-  recreate_ouput_directory("docs/")
+  recreate_output_directory("docs/")
   run_all <- TRUE
 }
 

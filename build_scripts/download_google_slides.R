@@ -4,7 +4,7 @@ library(pdftools)
 
 source("build_scripts/utils.R")
 output_path <- "docs/google_slides/"
-recreate_ouput_directory(output_path)
+recreate_output_directory(output_path)
 
 library(yaml)
 docs_yaml <- read_yaml("google_slides.yaml")
