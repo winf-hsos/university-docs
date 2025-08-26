@@ -49,10 +49,10 @@ dir.create("docs/quarto/digital_lab")
 file.copy(pdf_list, pdf_dest_list, overwrite = TRUE)
 
 # Render "Digitalisierung und Programmierung" Buch (TODO: Entferne manuelles Rendering)
-cat("Rendering book as HTML and PDF\n")
+#cat("Rendering book as HTML and PDF\n")
 
 # Render the book
-quarto_render("/quarto/digitization_and_programming/script/index.qmd", quiet = TRUE)
+#quarto_render("/quarto/digitization_and_programming/script/index.qmd", quiet = TRUE)
 
-cat("Copy book files, HTML and PDF")
-file.copy("quarto/digitization_and_programming/script/book", "docs/quarto/digitization_and_programming/script", overwrite = TRUE, recursive = TRUE)
+#cat("Copy book files, HTML and PDF")
+#file.copy("quarto/digitization_and_programming/script/book", "docs/quarto/digitization_and_programming/script", overwrite = TRUE, recursive = TRUE)
