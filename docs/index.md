@@ -276,35 +276,36 @@
 </tr>
 <tr>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_input_computation_output_lifi_devices.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_computation_output_lifi_devices.png" alt="problem_solving_input_computation_output_lifi_devices" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_input_function_output.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_function_output.png" alt="problem_solving_input_function_output" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_input_solution_output.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_solution_output.png" alt="problem_solving_input_solution_output" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_large_complex_problem.png" target="_blank" rel="noopener"><img src="images/problem_solving_large_complex_problem.png" alt="problem_solving_large_complex_problem" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_polya.png" target="_blank" rel="noopener"><img src="images/problem_solving_polya.png" alt="problem_solving_polya" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_polya.png" target="_blank" rel="noopener"><img src="images/problem_solving_polya.png" alt="problem_solving_polya" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_smaller_problems.png" target="_blank" rel="noopener"><img src="images/problem_solving_smaller_problems.png" alt="problem_solving_smaller_problems" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count.png" target="_blank" rel="noopener"><img src="images/problem_word_count.png" alt="problem_word_count" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count_distributed_2.png" target="_blank" rel="noopener"><img src="images/problem_word_count_distributed_2.png" alt="problem_word_count_distributed_2" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count_distributed_4.png" target="_blank" rel="noopener"><img src="images/problem_word_count_distributed_4.png" alt="problem_word_count_distributed_4" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count_distributed_4.png" target="_blank" rel="noopener"><img src="images/problem_word_count_distributed_4.png" alt="problem_word_count_distributed_4" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count_linear_sequential.png" target="_blank" rel="noopener"><img src="images/problem_word_count_linear_sequential.png" alt="problem_word_count_linear_sequential" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count_parallelized.png" target="_blank" rel="noopener"><img src="images/problem_word_count_parallelized.png" alt="problem_word_count_parallelized" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/prog_functions_origin.png" target="_blank" rel="noopener"><img src="images/prog_functions_origin.png" alt="prog_functions_origin" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/prog_variables_container.png" target="_blank" rel="noopener"><img src="images/prog_variables_container.png" alt="prog_variables_container" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/prog_variables_container.png" target="_blank" rel="noopener"><img src="images/prog_variables_container.png" alt="prog_variables_container" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/prog_variables_container_expression.png" target="_blank" rel="noopener"><img src="images/prog_variables_container_expression.png" alt="prog_variables_container_expression" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/scalar_vector_data_frame.png" target="_blank" rel="noopener"><img src="images/scalar_vector_data_frame.png" alt="scalar_vector_data_frame" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/stringr_simple_searches_in_text.png" target="_blank" rel="noopener"><img src="images/stringr_simple_searches_in_text.png" alt="stringr_simple_searches_in_text" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/tidy_data_tidy.png" target="_blank" rel="noopener"><img src="images/tidy_data_tidy.png" alt="tidy_data_tidy" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/tidy_data_tidy.png" target="_blank" rel="noopener"><img src="images/tidy_data_tidy.png" alt="tidy_data_tidy" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/tiydy_data_observations.png" target="_blank" rel="noopener"><img src="images/tiydy_data_observations.png" alt="tiydy_data_observations" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/tiydy_data_values.png" target="_blank" rel="noopener"><img src="images/tiydy_data_values.png" alt="tiydy_data_values" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/tiydy_data_variables.png" target="_blank" rel="noopener"><img src="images/tiydy_data_variables.png" alt="tiydy_data_variables" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/types_of_questions.png" target="_blank" rel="noopener"><img src="images/types_of_questions.png" alt="types_of_questions" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/types_of_questions.png" target="_blank" rel="noopener"><img src="images/types_of_questions.png" alt="types_of_questions" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/variables_as_containers.png" target="_blank" rel="noopener"><img src="images/variables_as_containers.png" alt="variables_as_containers" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 </tbody></table>
