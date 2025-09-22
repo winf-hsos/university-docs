@@ -415,6 +415,7 @@
 
 - [klausur_ea_ss_23.pdf](static/empirisches_arbeiten/klausur_ea_ss_23.pdf)
 - [klausur_ea_ss_24.pdf](static/empirisches_arbeiten/klausur_ea_ss_24.pdf)
+- [klausur_ea_ss_25.pdf](static/empirisches_arbeiten/klausur_ea_ss_25.pdf)
 - [klausur_ea_ws_21_22.pdf](static/empirisches_arbeiten/klausur_ea_ws_21_22.pdf)
 - [klausur_ea_ws_22_23.pdf](static/empirisches_arbeiten/klausur_ea_ws_22_23.pdf)
 - [klausur_ea_ws_23_24.pdf](static/empirisches_arbeiten/klausur_ea_ws_23_24.pdf)
