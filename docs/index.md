@@ -57,6 +57,10 @@
 - [SS 24 - Digital Lab.pdf](google_slides/digital_lab/SS 24 - Digital Lab.pdf) [[Edit](https://docs.google.com/presentation/d/1LA0uPQn-fv3vi0nXkFiMk5jH6ET8vtmgE7TbmemoAVE/edit)]
 - [SS 25 - Digital Lab.pdf](google_slides/digital_lab/SS 25 - Digital Lab.pdf) [[Edit](https://docs.google.com/presentation/d/12ti-4H0Kp9lk91nOoUihQdvtMZGqoKTDPFdyvnpRHIE/edit)]
 
+### Digitization and Programming
+
+- [DUP - Experiment 01 - Rainbow Colors.pdf](google_slides/digitization_and_programming/DUP - Experiment 01 - Rainbow Colors.pdf) [[Edit](https://docs.google.com/presentation/d/1lNTxgOMhMdgHxsQFrsZZZYKCAbCRRkGFoji2pwryBjo/edit)]
+
 ### Empirisches Arbeiten
 
 - [Empirisches Arbeiten - Kick Off - Methodenuebersicht.pdf](google_slides/empirisches_arbeiten/Empirisches Arbeiten - Kick Off - Methodenuebersicht.pdf) [[Edit](https://docs.google.com/presentation/d/1beuXY3AU1DxwCYTcognnikkqIdjxf0qCPiKl1952FSE/edit)]
