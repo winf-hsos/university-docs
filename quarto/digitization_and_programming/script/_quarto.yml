@@ -1,6 +1,11 @@
+author: "Prof. Dr. Nicolas Meseth"
+lang: de
+
 format:
   pdf:
-    documentclass: scrreprt
+    #documentclass: scrreprt
+    toc: true
+    toc-depth: 3
     
 bibliography: references.bib
-lang: de
+

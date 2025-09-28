@@ -1,4 +1,6 @@
-# Problemlösung
+---
+title: "Problemlösung"
+---
 
 ## Wie lösen wir Probleme systematisch?
 
@@ -50,7 +52,7 @@ Das EVA-Modell beschreibt ein Problem und dessen Lösung durch drei Komponenten:
 
 Wenden wir das EVA-Modell auf das Experiment zum LED-Regenbogenverlauf an. Die LED muss durch ein Programm angesteuert werden, die Farben sollen in einem bestimmten Ablauf verändert werden, so dass es das Muster eines Regenbogens ergibt. Nehmen wir zudem an, dass die Geschwindigkeit durch den Benutzer gesteuert werden soll. Wie ihr bei der Durchführung des Experiments gemerkt habt, erfodert dieses scheinbar einfache Probleme eine Menge von Teilschritten, die wir getrennt voneinander umsetzen können. Dennoch können wir das EVA-Modell nutzen, um das Expierment zunächst als Ganzes darzustellen, indem wir von den Details der einzelnen Schritte abstrahieren:
 
-![](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output_rainbow.png){fig-align="center" width=100% .lightbox}
+![Der LED-Regenbogenfarbverlauf als EVA-Modell dargestellt.](https://winf-hsos.github.io/university-docs/images/problem_solving_input_computation_output_rainbow.png){fig-align="center" width=100% .lightbox}
 
 Was haben wir nun dadurch gewonnen, dass wir das EVA-Modell angewendet haben? Wir können uns nun auf die einzelnen Elemente konzentrieren und diese getrennt voneinander betrachten. Damit zerlegen wir das große, überfordernde Problem in kleinere Teile und machen es dadurch besser beherrschbar. 
 
