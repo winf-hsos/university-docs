@@ -188,6 +188,8 @@ In diesem Kapitel haben wir uns mit dem EVA-Modell auseinandergesetzt - einem fu
 
 Die Verarbeitung als zentrales Element des Modells ist dabei der Ort, an dem die eigentliche Problemlösung stattfindet. Hier kommen Algorithmen zum Einsatz - präzise Handlungsanweisungen, die Schritt für Schritt zur Lösung führen. Die genaue Natur dieser Algorithmen, ihre charakteristischen Eigenschaften und wie wir sie entwickeln können, werden wir später noch detailliert betrachten.
 
+\newpage
+
 ### Referenzen
 
 ::: {#refs}
