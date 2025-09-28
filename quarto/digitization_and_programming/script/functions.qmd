@@ -4,9 +4,4 @@
 -   Funktionen verwenden
 -   Module laden und Funktionen daraus verwenden
 
-## Übungsaufgaben {.unnumbered}
-
-{{< include exercises/programming-exercise-functions.qmd >}}
-
-
 

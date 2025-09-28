@@ -1,6 +1,2 @@
 # Collections
 
-## Übungsaufgaben {.unnumbered}
-
-{{< include exercises/programming-exercise-collections.qmd >}}
-

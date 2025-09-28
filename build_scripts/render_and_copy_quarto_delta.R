@@ -7,7 +7,7 @@ base_directory <- "quarto"
 qmd_files <- list.files(base_directory, pattern = "\\.qmd$", recursive = TRUE, full.names = TRUE)
 
 # Remove files in "script" directory, will be rendered manually at the end
-qmd_files <- qmd_files[!grepl("script", qmd_files)]
+#qmd_files <- qmd_files[!grepl("script", qmd_files)]
 
 # Iterate through the list of ".qmd" files
 for (qmd_file in qmd_files) {
@@ -18,7 +18,7 @@ for (qmd_file in qmd_files) {
   if (!file.exists(pdf_file) || file.info(qmd_file)$mtime > file.info(pdf_file)$mtime) {
     # Execute the "render_quarto()" function with the ".qmd" file
     cat("Start rendering: ", qmd_file, "\n")
-    quarto_render(qmd_file, output_format = "pdf", quiet = FALSE)
+    quarto_render(qmd_file, output_format = "pdf", quiet = TRUE)
     cat("Finished rendering: ", qmd_file, "\n")
   }
 }
@@ -40,19 +40,8 @@ dir.create("docs/quarto/data_analytics")
 dir.create("docs/quarto/digitization_and_programming")
 dir.create("docs/quarto/digitization_and_programming/exercises")
 dir.create("docs/quarto/digitization_and_programming/script")
-dir.create("docs/quarto/digitization_and_programming/script/book")
-dir.create("docs/quarto/digitization_and_programming/programming_exercises")
 dir.create("docs/quarto/big_data_analytics")
 dir.create("docs/quarto/digital_lab")
 
 # Copy PDF files
 file.copy(pdf_list, pdf_dest_list, overwrite = TRUE)
-
-# Render "Digitalisierung und Programmierung" Buch (TODO: Entferne manuelles Rendering)
-#cat("Rendering book as HTML and PDF\n")
-
-# Render the book
-#quarto_render("/quarto/digitization_and_programming/script/index.qmd", quiet = TRUE)
-
-#cat("Copy book files, HTML and PDF")
-#file.copy("quarto/digitization_and_programming/script/book", "docs/quarto/digitization_and_programming/script", overwrite = TRUE, recursive = TRUE)

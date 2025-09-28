@@ -135,9 +135,5 @@ Diese Funktion wartet auf eine Benutzereingabe und gibt den eingegebenen Text al
 
 Wenn wir ein Python-Programm ausführen, können verschiedene Fehler auftreten. Die häufigsten sind **Syntaxfehler**, die entstehen, wenn wir uns nicht an die Regeln der Python-Sprache halten, zum Beispiel wenn wir vergessen, Klammern zu schließen oder Einrückungen falsch setzen. **Laufzeitfehler** treten dagegen erst während der Programmausführung auf, etwa wenn wir versuchen, durch Null zu teilen oder auf nicht vorhandene Dateien zuzugreifen.
 
-## Übungsaufgaben {.unnumbered}
-
-{{< include exercises/programming-exercise-welcome-to-python.qmd >}}
-
 
 

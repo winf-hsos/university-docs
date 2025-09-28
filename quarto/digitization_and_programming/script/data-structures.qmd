@@ -16,9 +16,4 @@
 
 ### Warteschlangen
 
-\newpage
-
-## Übungsaufgaben {.unnumbered}
-
-{{< include exercises/exercises-data-structures.qmd >}}
 

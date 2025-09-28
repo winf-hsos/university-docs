@@ -1,0 +1,73 @@
+project:
+  type: book
+  output-dir: book
+  
+lang: de
+
+book:
+  title: "Digitalisierung und Programmierung"
+  author: "Prof. Dr. Nicolas Meseth"
+  date: today
+  date-format: long
+  output-file: "book_digitalisierung_und_programmierung"
+  search: true
+  downloads: [pdf]
+
+
+  chapters:
+    - index.qmd
+    - lifi-project.qmd
+    
+    - part: part-problems.qmd
+      chapters:
+        - problem-solving.qmd
+        - algorithms.qmd
+    - part: part-representation.qmd
+      chapters:
+        - information.qmd
+        - bits.qmd
+        - code-systems.qmd
+        - data-structures.qmd
+    - part: part-processing.qmd
+      chapters:
+        - analog-vs-digital.qmd
+        - storage.qmd
+        - logic-and-arithmetic.qmd
+        - computer.qmd
+    - part: part-communication.qmd
+      chapters:
+        - signals.qmd
+        - protocols.qmd
+        - encryption.qmd
+        - compression.qmd
+    - part: part-programming.qmd
+      chapters:
+        - welcome-to-python.qmd
+        - variables-and-data-types.qmd
+        - functions.qmd
+        - collections.qmd
+        - conditionals.qmd
+        - loops.qmd
+        - debugging-and-error-handling.qmd
+      
+    - references.qmd
+
+bibliography: references.bib
+nocite: |
+  @*
+
+format:
+  pdf:
+    documentclass: scrreprt
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
+  html:
+    theme: cosmo
+    highlight: pygments
+    toc-depth: 3
+    number-sections: true

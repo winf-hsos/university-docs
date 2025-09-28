@@ -277,136 +277,41 @@
 <tr>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_input_computation_output_lifi.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_computation_output_lifi.png" alt="problem_solving_input_computation_output_lifi" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_input_computation_output_lifi_devices.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_computation_output_lifi_devices.png" alt="problem_solving_input_computation_output_lifi_devices" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_input_computation_output_rainbow.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_computation_output_rainbow.png" alt="problem_solving_input_computation_output_rainbow" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_input_function_output.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_function_output.png" alt="problem_solving_input_function_output" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_input_solution_output.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_solution_output.png" alt="problem_solving_input_solution_output" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_input_solution_output.png" target="_blank" rel="noopener"><img src="images/problem_solving_input_solution_output.png" alt="problem_solving_input_solution_output" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_large_complex_problem.png" target="_blank" rel="noopener"><img src="images/problem_solving_large_complex_problem.png" alt="problem_solving_large_complex_problem" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_polya.png" target="_blank" rel="noopener"><img src="images/problem_solving_polya.png" alt="problem_solving_polya" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_smaller_problems.png" target="_blank" rel="noopener"><img src="images/problem_solving_smaller_problems.png" alt="problem_solving_smaller_problems" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count.png" target="_blank" rel="noopener"><img src="images/problem_word_count.png" alt="problem_word_count" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count.png" target="_blank" rel="noopener"><img src="images/problem_word_count.png" alt="problem_word_count" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count_distributed_2.png" target="_blank" rel="noopener"><img src="images/problem_word_count_distributed_2.png" alt="problem_word_count_distributed_2" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count_distributed_4.png" target="_blank" rel="noopener"><img src="images/problem_word_count_distributed_4.png" alt="problem_word_count_distributed_4" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count_linear_sequential.png" target="_blank" rel="noopener"><img src="images/problem_word_count_linear_sequential.png" alt="problem_word_count_linear_sequential" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count_parallelized.png" target="_blank" rel="noopener"><img src="images/problem_word_count_parallelized.png" alt="problem_word_count_parallelized" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_word_count_parallelized.png" target="_blank" rel="noopener"><img src="images/problem_word_count_parallelized.png" alt="problem_word_count_parallelized" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/prog_functions_origin.png" target="_blank" rel="noopener"><img src="images/prog_functions_origin.png" alt="prog_functions_origin" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/prog_variables_container.png" target="_blank" rel="noopener"><img src="images/prog_variables_container.png" alt="prog_variables_container" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/prog_variables_container_expression.png" target="_blank" rel="noopener"><img src="images/prog_variables_container_expression.png" alt="prog_variables_container_expression" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/scalar_vector_data_frame.png" target="_blank" rel="noopener"><img src="images/scalar_vector_data_frame.png" alt="scalar_vector_data_frame" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/scalar_vector_data_frame.png" target="_blank" rel="noopener"><img src="images/scalar_vector_data_frame.png" alt="scalar_vector_data_frame" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/stringr_simple_searches_in_text.png" target="_blank" rel="noopener"><img src="images/stringr_simple_searches_in_text.png" alt="stringr_simple_searches_in_text" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/tidy_data_tidy.png" target="_blank" rel="noopener"><img src="images/tidy_data_tidy.png" alt="tidy_data_tidy" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/tiydy_data_observations.png" target="_blank" rel="noopener"><img src="images/tiydy_data_observations.png" alt="tiydy_data_observations" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/tiydy_data_values.png" target="_blank" rel="noopener"><img src="images/tiydy_data_values.png" alt="tiydy_data_values" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/tiydy_data_values.png" target="_blank" rel="noopener"><img src="images/tiydy_data_values.png" alt="tiydy_data_values" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/tiydy_data_variables.png" target="_blank" rel="noopener"><img src="images/tiydy_data_variables.png" alt="tiydy_data_variables" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/types_of_questions.png" target="_blank" rel="noopener"><img src="images/types_of_questions.png" alt="types_of_questions" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/variables_as_containers.png" target="_blank" rel="noopener"><img src="images/variables_as_containers.png" alt="variables_as_containers" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 </tbody></table>
 
-
-## Quarto Documents
-
-
-### Applied Analytics
-
-- [exercise_campusbier_datentransformation.pdf](quarto/applied_analytics/exercise_campusbier_datentransformation.pdf)
-- [exercise_campusbier_erkundung.pdf](quarto/applied_analytics/exercise_campusbier_erkundung.pdf)
-- [exercise_campusbier_find_and_build_the_plot.pdf](quarto/applied_analytics/exercise_campusbier_find_and_build_the_plot.pdf)
-- [exercise_experts_in_data_transformation.pdf](quarto/applied_analytics/exercise_experts_in_data_transformation.pdf)
-- [exercise_titanic_exploration.pdf](quarto/applied_analytics/exercise_titanic_exploration.pdf)
-
-### Big Data Analytics
-
-- [syllabus-big-data-analytics.pdf](quarto/big_data_analytics/syllabus-big-data-analytics.pdf)
-
-### Data Analytics
-
-- [case_study_focus_spiegel_stern.pdf](quarto/data_analytics/case_study_focus_spiegel_stern.pdf)
-- [case_study_youtube_metadata.pdf](quarto/data_analytics/case_study_youtube_metadata.pdf)
-- [case_study_youtube_ss_24.pdf](quarto/data_analytics/case_study_youtube_ss_24.pdf)
-- [exercise_cs50r_representing_data.pdf](quarto/data_analytics/exercise_cs50r_representing_data.pdf)
-- [exercise_data_frames_monty_hall.pdf](quarto/data_analytics/exercise_data_frames_monty_hall.pdf)
-- [exercise_data_transformation_and_visualization_with_tweets.pdf](quarto/data_analytics/exercise_data_transformation_and_visualization_with_tweets.pdf)
-- [exercise_data_transformation_campusbier.pdf](quarto/data_analytics/exercise_data_transformation_campusbier.pdf)
-- [exercise_data_transformation_tweets.pdf](quarto/data_analytics/exercise_data_transformation_tweets.pdf)
-- [exercise_data_visualization_tweets.pdf](quarto/data_analytics/exercise_data_visualization_tweets.pdf)
-- [exercise_explore_campusbier.pdf](quarto/data_analytics/exercise_explore_campusbier.pdf)
-- [exercise_explore_transform_rewe_products.pdf](quarto/data_analytics/exercise_explore_transform_rewe_products.pdf)
-- [exercise_generate_youtube_video_list.pdf](quarto/data_analytics/exercise_generate_youtube_video_list.pdf)
-- [exercise_getting_started_with_the_hpc_cluster.pdf](quarto/data_analytics/exercise_getting_started_with_the_hpc_cluster.pdf)
-- [exercise_grammar_of_graphics_step_by_step.pdf](quarto/data_analytics/exercise_grammar_of_graphics_step_by_step.pdf)
-- [exercise_r_tidyverse_entry_test.pdf](quarto/data_analytics/exercise_r_tidyverse_entry_test.pdf)
-- [exercise_rule_based_text_classification_newspaper_articles.pdf](quarto/data_analytics/exercise_rule_based_text_classification_newspaper_articles.pdf)
-- [exercise_search_and_extract_text_data_from_tweets.pdf](quarto/data_analytics/exercise_search_and_extract_text_data_from_tweets.pdf)
-- [exercise_transcribe_and_analyze_nutrition_videos.pdf](quarto/data_analytics/exercise_transcribe_and_analyze_nutrition_videos.pdf)
-- [exercise_transcribe_youtube_videos.pdf](quarto/data_analytics/exercise_transcribe_youtube_videos.pdf)
-- [exercise_vectors_monty_hall.pdf](quarto/data_analytics/exercise_vectors_monty_hall.pdf)
-
-### Digital Lab
-
-- [exercise_programming_color_sensor_led.pdf](quarto/digital_lab/exercise_programming_color_sensor_led.pdf)
-
-### Digitization and Programming
-
-- [digitization-and-programming-syllabus.pdf](quarto/digitization_and_programming/digitization-and-programming-syllabus.pdf)
-
-#### Übungsaufgaben
-
-- [exercises-algorithms.pdf](quarto/digitization_and_programming/exercises/exercises-algorithms.pdf)
-- [exercises-analog-vs-digital.pdf](quarto/digitization_and_programming/exercises/exercises-analog-vs-digital.pdf)
-- [exercises-bits.pdf](quarto/digitization_and_programming/exercises/exercises-bits.pdf)
-- [exercises-code-systems.pdf](quarto/digitization_and_programming/exercises/exercises-code-systems.pdf)
-- [exercises-compression.pdf](quarto/digitization_and_programming/exercises/exercises-compression.pdf)
-- [exercises-computers.pdf](quarto/digitization_and_programming/exercises/exercises-computers.pdf)
-- [exercises-data-structures.pdf](quarto/digitization_and_programming/exercises/exercises-data-structures.pdf)
-- [exercises-encryption.pdf](quarto/digitization_and_programming/exercises/exercises-encryption.pdf)
-- [exercises-information.pdf](quarto/digitization_and_programming/exercises/exercises-information.pdf)
-- [exercises-logic-and-arithmetic.pdf](quarto/digitization_and_programming/exercises/exercises-logic-and-arithmetic.pdf)
-- [exercises-problem-solving.pdf](quarto/digitization_and_programming/exercises/exercises-problem-solving.pdf)
-- [exercises-protocols.pdf](quarto/digitization_and_programming/exercises/exercises-protocols.pdf)
-- [exercises-signals.pdf](quarto/digitization_and_programming/exercises/exercises-signals.pdf)
-- [exercises-storage.pdf](quarto/digitization_and_programming/exercises/exercises-storage.pdf)
-- [programming-exercise-collections.pdf](quarto/digitization_and_programming/exercises/programming-exercise-collections.pdf)
-- [programming-exercise-conditionals.pdf](quarto/digitization_and_programming/exercises/programming-exercise-conditionals.pdf)
-- [programming-exercise-debugging-and-error-handling.pdf](quarto/digitization_and_programming/exercises/programming-exercise-debugging-and-error-handling.pdf)
-- [programming-exercise-functions.pdf](quarto/digitization_and_programming/exercises/programming-exercise-functions.pdf)
-- [programming-exercise-loops.pdf](quarto/digitization_and_programming/exercises/programming-exercise-loops.pdf)
-- [programming-exercise-variables-and-data-types.pdf](quarto/digitization_and_programming/exercises/programming-exercise-variables-and-data-types.pdf)
-- [programming-exercise-welcome-to-python.pdf](quarto/digitization_and_programming/exercises/programming-exercise-welcome-to-python.pdf)
-
-#### Skript
-
-- [book_digitalisierung_und_programmierung.pdf](quarto/digitization_and_programming/script/book/book_digitalisierung_und_programmierung.pdf)
-
-### Information Management
-
-- [case_study_water_kefir.pdf](quarto/information_management/case_study_water_kefir.pdf)
-- [exercise_campusbier_sql_queries.pdf](quarto/information_management/exercise_campusbier_sql_queries.pdf)
-- [exercise_data_layer_with_python.pdf](quarto/information_management/exercise_data_layer_with_python.pdf)
-- [exercise_erm_exam_planning.pdf](quarto/information_management/exercise_erm_exam_planning.pdf)
-- [exercise_erm_products.pdf](quarto/information_management/exercise_erm_products.pdf)
-- [exercise_frontend_with_python_and_streamlit.pdf](quarto/information_management/exercise_frontend_with_python_and_streamlit.pdf)
-- [exercise_information_modeling.pdf](quarto/information_management/exercise_information_modeling.pdf)
-- [exercise_information_modeling_products.pdf](quarto/information_management/exercise_information_modeling_products.pdf)
-- [exercise_recruiting.pdf](quarto/information_management/exercise_recruiting.pdf)
-
-### Web Engineering
-
-- [exercise-personal-website-css.pdf](quarto/web_engineering/exercise-personal-website-css.pdf)
-- [exercise-personal-website-html.pdf](quarto/web_engineering/exercise-personal-website-html.pdf)
-- [exercise-tic-tac-toe.pdf](quarto/web_engineering/exercise-tic-tac-toe.pdf)
-- [exercise-todo-app-part-1-html-css-js.pdf](quarto/web_engineering/exercise-todo-app-part-1-html-css-js.pdf)
-- [exercise-todo-app-part-2-data.pdf](quarto/web_engineering/exercise-todo-app-part-2-data.pdf)
-- [exercise-todo-app-part-3-bootstrap.pdf](quarto/web_engineering/exercise-todo-app-part-3-bootstrap.pdf)
-- [project_water_kefir_research.pdf](quarto/web_engineering/project_water_kefir_research.pdf)
 
 ## Static Files
 

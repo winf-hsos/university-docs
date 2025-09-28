@@ -7,3 +7,5 @@ number-sections: false
 code-line-numbers: true
 subtitle: "Übungsaufgaben zur Digitalisierung und Programmierung"
 ---
+
+# Analog vs. Digital

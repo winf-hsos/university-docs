@@ -314,9 +314,3 @@ Die Komplexität eines Algorithmus beschreibt, wie sich sein Ressourcenbedarf (m
 
 Die Verständlichkeit eines Algorithmus ist ein weiteres wichtiges Qualitätsmerkmal. Ein gut strukturierter und dokumentierter Algorithmus erleichtert nicht nur die Wartung und Weiterentwicklung, sondern reduziert auch die Wahrscheinlichkeit von Fehlern bei der Implementierung. Dabei spielt die Wahl aussagekräftiger Bezeichner und eine klare Dokumentation der einzelnen Schritte eine zentrale Rolle.
 
-\newpage
-
-## Übungsaufgaben {.unnumbered}
-
-{{< include exercises/exercises-algorithms.qmd >}}
-

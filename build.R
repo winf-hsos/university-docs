@@ -35,7 +35,6 @@ if("google_slides" %in% build_steps) {
   source("build_scripts/split_pdf_slides.R")
 }
 
-
 # Quarto
 if("quarto" %in% build_steps) {
   source("build_scripts/render_and_copy_quarto_delta.R")

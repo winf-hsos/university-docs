@@ -38,6 +38,3 @@ Bei der Kommunikation stellen wir uns die Frage, wie **das Teilen von Informatio
 Das Buch ist für eine lineare Lektüre von vorne nach hinten konzipiert. An der Hochschule Osnabrück behandeln wir in der zugehörigen Veranstaltung pro Woche ein Kapitel – gelegentlich auch zwei, abhängig von der Verteilung der Feiertage im Semester. Die Kapitel hängen zusammen und bauen teilweise aufeinander auf.
 
 Wie beschrieben orientiert sich dieses Buch an der Durchführung eines Projekts – dem LiFi-Projekt. Das Projekt bildet den Ausgangspunkt jedes Kapitels, und für jedes Thema wird der praktische Bezug zum Projekt hergestellt. Was genau das LiFi-Projekt beinhaltet, schauen wir uns im nächsten Kapitel an.
-
-
-

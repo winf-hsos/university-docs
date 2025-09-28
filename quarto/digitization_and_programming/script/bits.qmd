@@ -57,12 +57,3 @@ Theoretisch kann ein Stellenwertsystem **jede ganze Zahl ab 2 als Basis **haben.
 ## Ist das Bit die kleinste Informationseinheit?
 
 ## Was ist ein Byte?
-
-
-
-\newpage
-
-## Übungsaufgaben {.unnumbered}
-
-{{< include exercises/exercises-bits.qmd >}}
-
