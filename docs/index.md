@@ -59,7 +59,8 @@
 
 ### Digitization and Programming
 
-- [DUP - Experiment 01 - Rainbow Colors.pdf](google_slides/digitization_and_programming/DUP - Experiment 01 - Rainbow Colors.pdf) [[Edit](https://docs.google.com/presentation/d/1lNTxgOMhMdgHxsQFrsZZZYKCAbCRRkGFoji2pwryBjo/edit)]
+- [DUP - Experiment 01 - Colors.pdf](google_slides/digitization_and_programming/DUP - Experiment 01 - Colors.pdf) [[Edit](https://docs.google.com/presentation/d/1lNTxgOMhMdgHxsQFrsZZZYKCAbCRRkGFoji2pwryBjo/edit)]
+- [DUP - Experiment 02 - Numbers.pdf](google_slides/digitization_and_programming/DUP - Experiment 02 - Numbers.pdf) [[Edit](https://docs.google.com/presentation/d/1B7rjda5SvEiudjyDVeMPMZl_XpLZHq25h34Oy-fYeYU/edit)]
 
 ### Empirisches Arbeiten
 
