@@ -19,7 +19,6 @@ headings_dict <- c(
   applied_analytics = "Applied Analytics",
   web_engineering = "Web Engineering",
   projekt_agrar_lebensmittel = "Projekt Agrar/Lebensmittel",
-  wirtschaftsinformatik = "Wirtschaftsinformatik",
   empirisches_arbeiten = "Empirisches Arbeiten",
   data_analytics = "Data Analytics",
   digitization_and_programming = "Digitization and Programming",
