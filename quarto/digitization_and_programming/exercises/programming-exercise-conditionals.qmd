@@ -15,7 +15,7 @@ Welche Auswirkungen hat es, ob du `if`–`if`–`if` oder `if`–`elif`–`else`
 2.  Warum ist die Reihenfolge der Bedingungen wichtig? Was passiert, wenn du zuerst `if x > 0:` und danach `elif x > 10:` schreibst?
 
 3.  Was ist deiner Meinung nach besser lesbar: viele verschachtelte `if`-Anweisungen oder wenige klar strukturierte Bedingungen? Wann wird Code durch viele Bedingungen unübersichtlich – und wie kann man das vermeiden?
-4.  In welchen Fällen ist es sinnvoller, ein Dictionary zur Umsetzung einer Fallunterscheidung zu verwenden, anstatt `if`–`elif`–`else` zu schreiben?** **Welche Vorteile hat das Dictionary bei festen Zuordnungen – und welche Nachteile, wenn die Bedingungen komplizierter werden?
+4.  In welchen Fällen ist es sinnvoller, ein Dictionary zur Umsetzung einer Fallunterscheidung zu verwenden, anstatt `if`–`elif`–`else` zu schreiben? Welche Vorteile hat das Dictionary bei festen Zuordnungen – und welche Nachteile, wenn die Bedingungen komplizierter werden?
 
 ### Programmieraufgaben
 
