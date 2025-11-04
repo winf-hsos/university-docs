@@ -23,6 +23,10 @@
 
 - [Applied Analytics - Course Logistics.pdf](google_slides/applied_analytics/Applied Analytics - Course Logistics.pdf) [[Edit](https://docs.google.com/presentation/d/1rLTsGoA1IUYDFfX1kkPrS103XZyVC1KlYqDg_7m2NC8/edit)]
 
+### Artificial Intelligence
+
+- [Artificial Neural Networks - How Do They Work.pdf](google_slides/artificial_intelligence/Artificial Neural Networks - How Do They Work.pdf) [[Edit](https://docs.google.com/presentation/d/1CM3oRCxW5-n2aRCXxsHm3hGNcyULrjCXqnSmscXy1zk/edit)]
+
 ### Data Analytics
 
 - [Data Transformation with R and dplyr.pdf](google_slides/data_analytics/Data Transformation with R and dplyr.pdf) [[Edit](https://docs.google.com/presentation/d/1HLRd41yePsS4DDA1bHMLoqv3fdHkOH4lIG2SpPFH1ME/edit)]
