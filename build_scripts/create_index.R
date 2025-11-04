@@ -10,6 +10,7 @@ md_file <- file.path(path, "index.md")
 output <- c("# Content\n")
 
 headings_dict <- c(
+  artificial_intelligence = "Artificial Intelligence",
   static = "Static Files",
   google_documents = "Google Documents",
   google_slides = "Google Slides",
