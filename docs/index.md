@@ -94,6 +94,7 @@
 - [Programming with Python - Variables and Data Types.pdf](google_slides/digitization_and_programming/Programming with Python - Variables and Data Types.pdf) [[Edit](https://docs.google.com/presentation/d/1N-HoYfpsdk4yOKgU7V3hjdLgl7vWHbQZl_6fJ8PEYno/edit)]
 - [Programming with Python - Welcome to Python.pdf](google_slides/digitization_and_programming/Programming with Python - Welcome to Python.pdf) [[Edit](https://docs.google.com/presentation/d/1N-HoYfpsdk4yOKgU7V3hjdLgl7vWHbQZl_6fJ8PEYno/edit)]
 - [Programming with Python.pdf](google_slides/digitization_and_programming/Programming with Python.pdf) [[Edit](https://docs.google.com/presentation/d/1N-HoYfpsdk4yOKgU7V3hjdLgl7vWHbQZl_6fJ8PEYno/edit)]
+- [Python - Cheat Sheet.pdf](google_slides/digitization_and_programming/Python - Cheat Sheet.pdf) [[Edit](https://docs.google.com/presentation/d/18Az84GLGxW--VMRjoE8pRdzlM-VN_jACtF8IHWUDpPQ/edit)]
 
 ### Empirisches Arbeiten
 
