@@ -26,6 +26,7 @@
 ### Artificial Intelligence
 
 - [Artificial Neural Networks - How Do They Work.pdf](google_slides/artificial_intelligence/Artificial Neural Networks - How Do They Work.pdf) [[Edit](https://docs.google.com/presentation/d/1CM3oRCxW5-n2aRCXxsHm3hGNcyULrjCXqnSmscXy1zk/edit)]
+- [The Pyramid Principle (Minto).pdf](google_slides/artificial_intelligence/The Pyramid Principle (Minto).pdf) [[Edit](https://docs.google.com/presentation/d/1jJ9ILYL6NBE_ScAkBgM0ng9vLvM1GvaTfECUhgJFH0g/edit)]
 
 ### Data Analytics
 
