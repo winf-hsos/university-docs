@@ -5,3 +5,5 @@
 
 /.quarto/
 nul
+
+**/*.quarto_ipynb
