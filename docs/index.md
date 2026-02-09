@@ -26,6 +26,9 @@
 ### Artificial Intelligence
 
 - [Artificial Neural Networks - How Do They Work.pdf](google_slides/artificial_intelligence/Artificial Neural Networks - How Do They Work.pdf) [[Edit](https://docs.google.com/presentation/d/1CM3oRCxW5-n2aRCXxsHm3hGNcyULrjCXqnSmscXy1zk/edit)]
+- [Problem Solving with Artificial Intelligence - Rules vs. Learning - 0 - Problems.pdf](google_slides/artificial_intelligence/Problem Solving with Artificial Intelligence - Rules vs. Learning - 0 - Problems.pdf) [[Edit](https://docs.google.com/presentation/d/1XFMUGBCTQkjW571F0_WISoEmWsQtCI4kD75Bs9bLQ-E/edit)]
+- [Problem Solving with Artificial Intelligence - Rules vs. Learning - 1 - Learning.pdf](google_slides/artificial_intelligence/Problem Solving with Artificial Intelligence - Rules vs. Learning - 1 - Learning.pdf) [[Edit](https://docs.google.com/presentation/d/1XFMUGBCTQkjW571F0_WISoEmWsQtCI4kD75Bs9bLQ-E/edit)]
+- [Problem Solving with Artificial Intelligence - Rules vs. Learning.pdf](google_slides/artificial_intelligence/Problem Solving with Artificial Intelligence - Rules vs. Learning.pdf) [[Edit](https://docs.google.com/presentation/d/1XFMUGBCTQkjW571F0_WISoEmWsQtCI4kD75Bs9bLQ-E/edit)]
 - [The Pyramid Principle (Minto).pdf](google_slides/artificial_intelligence/The Pyramid Principle (Minto).pdf) [[Edit](https://docs.google.com/presentation/d/1jJ9ILYL6NBE_ScAkBgM0ng9vLvM1GvaTfECUhgJFH0g/edit)]
 
 ### Data Analytics
@@ -186,76 +189,82 @@
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/codes_ascii_character_a_pixel_bits.png" target="_blank" rel="noopener"><img src="images/codes_ascii_character_a_pixel_bits.png" alt="codes_ascii_character_a_pixel_bits" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/codes_ascii_characters_abc_pixel.png" target="_blank" rel="noopener"><img src="images/codes_ascii_characters_abc_pixel.png" alt="codes_ascii_characters_abc_pixel" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/codes_heart_pixel.png" target="_blank" rel="noopener"><img src="images/codes_heart_pixel.png" alt="codes_heart_pixel" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/computational_schema_chess.png" target="_blank" rel="noopener"><img src="images/computational_schema_chess.png" alt="computational_schema_chess" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/computational_schema_blackbox.png" target="_blank" rel="noopener"><img src="images/computational_schema_blackbox.png" alt="computational_schema_blackbox" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/computational_schema_chatgpt.png" target="_blank" rel="noopener"><img src="images/computational_schema_chatgpt.png" alt="computational_schema_chatgpt" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/computational_schema_chess.png" target="_blank" rel="noopener"><img src="images/computational_schema_chess.png" alt="computational_schema_chess" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/computational_schema_computation.png" target="_blank" rel="noopener"><img src="images/computational_schema_computation.png" alt="computational_schema_computation" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/data_frame_concept.png" target="_blank" rel="noopener"><img src="images/data_frame_concept.png" alt="data_frame_concept" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+</tr>
+<tr>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/database_system_architecture.png" target="_blank" rel="noopener"><img src="images/database_system_architecture.png" alt="database_system_architecture" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/digital_literacy_skills_with_languages.png" target="_blank" rel="noopener"><img src="images/digital_literacy_skills_with_languages.png" alt="digital_literacy_skills_with_languages" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/eda_process.png" target="_blank" rel="noopener"><img src="images/eda_process.png" alt="eda_process" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_bitmap_structure.png" target="_blank" rel="noopener"><img src="images/images_bitmap_structure.png" alt="images_bitmap_structure" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_bitmap_structure.png" target="_blank" rel="noopener"><img src="images/images_bitmap_structure.png" alt="images_bitmap_structure" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_byte_compact_1.png" target="_blank" rel="noopener"><img src="images/images_byte_compact_1.png" alt="images_byte_compact_1" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_byte_compact_2.png" target="_blank" rel="noopener"><img src="images/images_byte_compact_2.png" alt="images_byte_compact_2" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_byte_compact_3.png" target="_blank" rel="noopener"><img src="images/images_byte_compact_3.png" alt="images_byte_compact_3" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_darth_vader.png" target="_blank" rel="noopener"><img src="images/images_darth_vader.png" alt="images_darth_vader" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_darth_vader.png" target="_blank" rel="noopener"><img src="images/images_darth_vader.png" alt="images_darth_vader" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_darth_vader_input_output.png" target="_blank" rel="noopener"><img src="images/images_darth_vader_input_output.png" alt="images_darth_vader_input_output" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_example_pixel.png" target="_blank" rel="noopener"><img src="images/images_example_pixel.png" alt="images_example_pixel" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_grayscale_transformation.png" target="_blank" rel="noopener"><img src="images/images_grayscale_transformation.png" alt="images_grayscale_transformation" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_hex_editor_mario.png" target="_blank" rel="noopener"><img src="images/images_hex_editor_mario.png" alt="images_hex_editor_mario" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_hex_editor_mario.png" target="_blank" rel="noopener"><img src="images/images_hex_editor_mario.png" alt="images_hex_editor_mario" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_letter_a.png" target="_blank" rel="noopener"><img src="images/images_letter_a.png" alt="images_letter_a" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_letter_s.png" target="_blank" rel="noopener"><img src="images/images_letter_s.png" alt="images_letter_s" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_pacman_animation.png" target="_blank" rel="noopener"><img src="images/images_pacman_animation.png" alt="images_pacman_animation" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_pacman_screenshot.png" target="_blank" rel="noopener"><img src="images/images_pacman_screenshot.png" alt="images_pacman_screenshot" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_pacman_screenshot.png" target="_blank" rel="noopener"><img src="images/images_pacman_screenshot.png" alt="images_pacman_screenshot" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_places_hexadecimal.png" target="_blank" rel="noopener"><img src="images/images_places_hexadecimal.png" alt="images_places_hexadecimal" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_super_mario.png" target="_blank" rel="noopener"><img src="images/images_super_mario.png" alt="images_super_mario" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_super_mario_bw.png" target="_blank" rel="noopener"><img src="images/images_super_mario_bw.png" alt="images_super_mario_bw" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_super_mario_bw_walk.png" target="_blank" rel="noopener"><img src="images/images_super_mario_bw_walk.png" alt="images_super_mario_bw_walk" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_super_mario_bw_walk.png" target="_blank" rel="noopener"><img src="images/images_super_mario_bw_walk.png" alt="images_super_mario_bw_walk" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_super_mario_grayscale.png" target="_blank" rel="noopener"><img src="images/images_super_mario_grayscale.png" alt="images_super_mario_grayscale" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_super_mario_walk_1.png" target="_blank" rel="noopener"><img src="images/images_super_mario_walk_1.png" alt="images_super_mario_walk_1" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_super_mario_walk_2.png" target="_blank" rel="noopener"><img src="images/images_super_mario_walk_2.png" alt="images_super_mario_walk_2" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_super_mario_walk_3.png" target="_blank" rel="noopener"><img src="images/images_super_mario_walk_3.png" alt="images_super_mario_walk_3" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_super_mario_walk_3.png" target="_blank" rel="noopener"><img src="images/images_super_mario_walk_3.png" alt="images_super_mario_walk_3" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_truetype_vs_bitmap.png" target="_blank" rel="noopener"><img src="images/images_truetype_vs_bitmap.png" alt="images_truetype_vs_bitmap" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_vector_example.png" target="_blank" rel="noopener"><img src="images/images_vector_example.png" alt="images_vector_example" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_vector_example_rasterization.png" target="_blank" rel="noopener"><img src="images/images_vector_example_rasterization.png" alt="images_vector_example_rasterization" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_write_pixel_coordinates.png" target="_blank" rel="noopener"><img src="images/images_write_pixel_coordinates.png" alt="images_write_pixel_coordinates" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_write_pixel_coordinates.png" target="_blank" rel="noopener"><img src="images/images_write_pixel_coordinates.png" alt="images_write_pixel_coordinates" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_write_pixel_coordinates_cross.png" target="_blank" rel="noopener"><img src="images/images_write_pixel_coordinates_cross.png" alt="images_write_pixel_coordinates_cross" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/images_write_pixel_coordinates_single.png" target="_blank" rel="noopener"><img src="images/images_write_pixel_coordinates_single.png" alt="images_write_pixel_coordinates_single" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/information_balls_urn_1.png" target="_blank" rel="noopener"><img src="images/information_balls_urn_1.png" alt="information_balls_urn_1" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/information_definition_adami.png" target="_blank" rel="noopener"><img src="images/information_definition_adami.png" alt="information_definition_adami" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/information_definition_adami.png" target="_blank" rel="noopener"><img src="images/information_definition_adami.png" alt="information_definition_adami" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/number_guessing_game_1.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_1.png" alt="number_guessing_game_1" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/number_guessing_game_2.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_2.png" alt="number_guessing_game_2" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/number_guessing_game_3.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_3.png" alt="number_guessing_game_3" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/number_guessing_game_4.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_4.png" alt="number_guessing_game_4" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/number_guessing_game_4.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_4.png" alt="number_guessing_game_4" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/number_guessing_game_5.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_5.png" alt="number_guessing_game_5" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/number_guessing_game_6.png" target="_blank" rel="noopener"><img src="images/number_guessing_game_6.png" alt="number_guessing_game_6" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/permutations_a_no_information.png" target="_blank" rel="noopener"><img src="images/permutations_a_no_information.png" alt="permutations_a_no_information" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/permutations_abc_n2.png" target="_blank" rel="noopener"><img src="images/permutations_abc_n2.png" alt="permutations_abc_n2" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/permutations_abc_n2.png" target="_blank" rel="noopener"><img src="images/permutations_abc_n2.png" alt="permutations_abc_n2" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/permutations_abcd_n2.png" target="_blank" rel="noopener"><img src="images/permutations_abcd_n2.png" alt="permutations_abcd_n2" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/permutations_abcde_n2.png" target="_blank" rel="noopener"><img src="images/permutations_abcde_n2.png" alt="permutations_abcde_n2" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/poker_52_cards.png" target="_blank" rel="noopener"><img src="images/poker_52_cards.png" alt="poker_52_cards" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_example_addition.png" target="_blank" rel="noopener"><img src="images/problem_example_addition.png" alt="problem_example_addition" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_example_addition.png" target="_blank" rel="noopener"><img src="images/problem_example_addition.png" alt="problem_example_addition" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
+<td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_example_spam.png" target="_blank" rel="noopener"><img src="images/problem_example_spam.png" alt="problem_example_spam" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_model_input_solution_output.png" target="_blank" rel="noopener"><img src="images/problem_model_input_solution_output.png" alt="problem_model_input_solution_output" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_67_prime_number.png" target="_blank" rel="noopener"><img src="images/problem_solving_67_prime_number.png" alt="problem_solving_67_prime_number" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
 <td style="vertical-align:top; width:25%; padding:6px;"><a href="images/problem_solving_67_prime_number_binary_search_1.png" target="_blank" rel="noopener"><img src="images/problem_solving_67_prime_number_binary_search_1.png" alt="problem_solving_67_prime_number_binary_search_1" style="max-width:100%; height:auto;" loading="lazy" /></a></td>
