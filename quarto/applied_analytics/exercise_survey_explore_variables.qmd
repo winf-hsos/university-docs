@@ -37,8 +37,13 @@ format: pdf
 Bearbeitet für jede dieser Fragen die folgenden Aufgaben:
 
 a.  Findet die zugehörige Variable bzw. die zugehörigen Variablen im Datensatz. Erstellt einen neuen Tibble, der nur (i) die eindeutige ID-Variable (siehe Aufgabe 8) und (ii) die Variable(n) zur jeweiligen Frage enthält. Benennt den Tibble nach dem folgenden Muster: `s_q001` für Frage 1, `s_q002` für Frage 2 usw.
+
 b.  Ermittelt das Skalenniveau der Variable(n).
+
 c.  Prüft den Datentyp, der den Variable(n) im Datensatz zugewiesen ist. Passt der Datentyp zum Skalenniveau? Falls nicht, ändert ihn im neuen Tibble, den ihr für die jeweilige Frage erstellt habt.
+
 d.  Ermittelt den Wertebereich und den Füllgrad der Variable(n).
+
 e.  Ermittelt passende Kenngrößen zur Zusammenfassung der Variable(n) (abhängig von deren Art).
+
 f.  Stellt die Verteilung der Werte der Variable(n) visuell dar. Wählt eine passende Visualisierungsform für den jeweiligen Variablentyp. Versucht, die Visualisierung so aufzubereiten, dass sie möglichst publikationsfähig ist.
