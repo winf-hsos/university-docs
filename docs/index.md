@@ -459,6 +459,10 @@
 - [exercise_information_modeling_products.pdf](quarto/information_management/exercise_information_modeling_products.pdf)
 - [exercise_recruiting.pdf](quarto/information_management/exercise_recruiting.pdf)
 
+### Problem Solving with AI
+
+- [experiment_mood_detector.pdf](quarto/problem_solving_with_ai/experiment_mood_detector.pdf)
+
 ### Web Engineering
 
 - [exercise-personal-website-css.pdf](quarto/web_engineering/exercise-personal-website-css.pdf)

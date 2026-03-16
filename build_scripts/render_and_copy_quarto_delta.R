@@ -42,6 +42,7 @@ dir.create("docs/quarto/digitization_and_programming/exercises")
 dir.create("docs/quarto/digitization_and_programming/script")
 dir.create("docs/quarto/big_data_analytics")
 dir.create("docs/quarto/digital_lab")
+dir.create("docs/quarto/problem_solving_with_ai")
 
 # Copy PDF files
 file.copy(pdf_list, pdf_dest_list, overwrite = TRUE)

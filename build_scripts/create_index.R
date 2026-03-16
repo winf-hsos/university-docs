@@ -29,7 +29,8 @@ headings_dict <- c(
   programming = "Programmierung",
   programming_exercises = "Programmierübungen",
   big_data_analytics = "Big Data Analytics",
-  abschlussarbeiten = "Abschlussarbeiten"
+  abschlussarbeiten = "Abschlussarbeiten",
+  problem_solving_with_ai = "Problem Solving with AI"
 )
 
 category <- ""
