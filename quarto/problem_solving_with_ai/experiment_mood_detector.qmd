@@ -10,7 +10,7 @@ In this experiment, you build a mood detector that predicts a person's mood from
 
 In this experiment, you write some code. Let's begin by setting up your project environment.
 
-1.  Make sure your Master Brick successfully connects to your computer and that you can control the LED using Brick Viewer.
+1.  Make sure your Master Brick successfully connects to your computer and that you can control the LED using the Brick Viewer.
 
 2.  Create a script called `mood_rb.py`. This script will be a Python program that connects to the LED. Set the LED to *off* initially.
 
@@ -59,17 +59,17 @@ Now test whether a machine learning approach can do better than your rule-based 
 
 11. Create a prompt that instructs the model to classify the user's message into one of the following labels: `good`, `bad`, `neutral`, `hungry`. Send the user's message to the model and receive its response.
 
-12. Based on the model output, set the LED color accordingly (green = good, red = bad, blue = neutral, yellow = hungry). How can you make the model output consistent and easy to parse (e.g., fixed labels, JSON-only output, low temperature)?
+12. Based on the model output, set the LED color accordingly (green = good, red = bad, blue = neutral, yellow = hungry). How can you make the model output consistent and easy to parse?
 
 ## Task 4: Systematic Testing and Comparison
 
-13. Create a table with at least 20 test sentences and assign each one an expected mood label. Include straightforward cases as well as difficult cases such as negation, sarcasm, mixed emotions, and ambiguous statements.
+13. Create a table (e.g. Excel) with at least 20 test sentences and assign each one an expected mood label. Include straightforward cases as well as difficult cases such as negation, sarcasm, mixed emotions, and ambiguous statements.
 
-14. Test both the rule-based and the learning-based system on all examples. Automate this process and record the predictions of both systems in a table (e.g., CSV or Excel).
+14. Test both the rule-based and the learning-based system on all examples. Automate this process and record the predictions of both systems and print the accuracy to the console.
 
-15. Extend both systems so they also provide a short explanation of their decision. Compare how understandable and trustworthy these explanations are.
+15. Extend both systems so they also provide a short explanation of their decision. Compare how understandable and trustworthy these explanations are. Does it make a difference which language model you use?
 
-16. Modify the learning-based system so that the model returns only one of the labels `good`, `bad`, `neutral`, or `hungry` in a *structured format* (e.g., JSON). Why is this useful when integrating the model into a program?
+16. Modify the learning-based system so that the model returns the labels `good`, `bad`, `neutral`, or `hungry` as a *structured JSON output*. Why is this useful when integrating the model into a program?
 
 ## Task 5: Reflection and Discussion
 
