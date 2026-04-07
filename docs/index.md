@@ -366,6 +366,7 @@
 
 ### Big Data Analytics
 
+- [exercise_news_explore_structured_unstructured.pdf](quarto/big_data_analytics/exercise_news_explore_structured_unstructured.pdf)
 - [syllabus-big-data-analytics.pdf](quarto/big_data_analytics/syllabus-big-data-analytics.pdf)
 
 ### Data Analytics
