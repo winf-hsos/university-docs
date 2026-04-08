@@ -22,7 +22,7 @@ Nachrichtendatensätze enthalten eine interessante Mischung: Neben klar struktur
 
 4.  Erzeugt einen neuen Ordner `scripts/` in eurem Projektverzeichnis und erstellt eine neue R-Skriptdatei `explore_news.R` in diesem Ordner.
 
-5.  Der Datensatz liegt als komprimierte ZIP-Datei vor. Entpackt die Datei — das könnt ihr direkt in R mit `unzip()` erledigen. Schaut euch die entpackte Datei genauer an und prüft, wie das Format aussieht (z. B. Trennzeichen, Zeichenkodierung). Lest die Daten dann mit einer geeigneten Funktion aus `readr` ein und speichert den Code in eurer Skriptdatei.
+5.  Der Datensatz liegt als komprimierte ZIP-Datei vor. Entpackt die Datei, das könnt ihr direkt in R mit `unzip()` erledigen. Schaut euch die entpackte Datei genauer an und prüft, wie das Format aussieht (z. B. Trennzeichen, Zeichenkodierung). Lest die Daten dann mit einer geeigneten Funktion aus `readr` ein und speichert den Code in eurer Skriptdatei.
 
 ---
 
@@ -32,7 +32,7 @@ Nachrichtendatensätze enthalten eine interessante Mischung: Neben klar struktur
 
 7.  Verschafft euch mit R einen ersten Überblick. Nutzt dafür mindestens zwei verschiedene Funktionen (z. B. `glimpse()`, `skim()`, `head()`). Beantwortet dabei: Wie viele Zeilen und Spalten hat der Datensatz? Welche Datentypen wurden beim Einlesen automatisch zugewiesen?
 
-8.  Jede Beobachtung in einem Datensatz sollte eindeutig identifizierbar sein. Welche Variable könnte hier als eindeutiger Identifikator dienen? Überprüft eure Vermutung mit R — z. B. mithilfe von `n_distinct()` oder `get_dupes()` aus dem `janitor`-Paket. Was macht ihr, wenn keine bestehende Variable geeignet ist?
+8.  Jede Beobachtung in einem Datensatz sollte eindeutig identifizierbar sein. Welche Variable könnte hier als eindeutiger Identifikator dienen? Überprüft eure Vermutung mit R, etwa mithilfe von `n_distinct()` oder `get_dupes()` aus dem `janitor`-Paket. Was macht ihr, wenn keine bestehende Variable geeignet ist?
 
 ---
 
@@ -80,7 +80,7 @@ In diesem Abschnitt konzentriert ihr euch auf die Variablen, die klare Messeigen
 
 ### Reflexion
 
-23. Fasst den Unterschied zwischen strukturierten und unstrukturierten Variablen in eigenen Worten zusammen. Welche Analyseschritte waren für beide Variablentypen möglich, und welche nur für strukturierte?
+23. Fasst den Unterschied zwischen strukturierten und unstrukturierten Variablen in eigenen Worten zusammen. Welche Analyseschritte waren für beide Variablentypen möglich, und welche nur für strukturierte? Was müssten wir mit unstrukturierten Daten wie Texten anstellen, um sie besser analysieren zu können?
 
 24. Welche Einschränkungen hat die einfache Textanalyse mit `str_detect()` im Vergleich zu einer vollwertigen inhaltsanalytischen Auswertung? Nennt mindestens zwei Probleme, die bei der Schlüsselwortsuche auftreten können.
 
