@@ -1,5 +1,5 @@
 ---
-title: "Experiment: How LLMs Work"
+title: "Experiment: An LLM by Hand"
 subtitle: "From Word Counts to Probability Distributions"
 lang: en
 format: pdf

@@ -463,7 +463,7 @@
 
 ### Problem Solving with AI
 
-- [experiment_llm_probability.pdf](quarto/problem_solving_with_ai/experiment_llm_probability.pdf)
+- [experiment_llm_by_hand.pdf](quarto/problem_solving_with_ai/experiment_llm_by_hand.pdf)
 - [experiment_mood_detector.pdf](quarto/problem_solving_with_ai/experiment_mood_detector.pdf)
 
 ### Web Engineering
