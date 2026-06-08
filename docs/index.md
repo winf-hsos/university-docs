@@ -29,6 +29,7 @@
 - [Problem Solving with Artificial Intelligence - Rules vs. Learning - 0 - Problems.pdf](google_slides/artificial_intelligence/Problem Solving with Artificial Intelligence - Rules vs. Learning - 0 - Problems.pdf) [[Edit](https://docs.google.com/presentation/d/1XFMUGBCTQkjW571F0_WISoEmWsQtCI4kD75Bs9bLQ-E/edit)]
 - [Problem Solving with Artificial Intelligence - Rules vs. Learning - 1 - Learning.pdf](google_slides/artificial_intelligence/Problem Solving with Artificial Intelligence - Rules vs. Learning - 1 - Learning.pdf) [[Edit](https://docs.google.com/presentation/d/1XFMUGBCTQkjW571F0_WISoEmWsQtCI4kD75Bs9bLQ-E/edit)]
 - [Problem Solving with Artificial Intelligence - Rules vs. Learning.pdf](google_slides/artificial_intelligence/Problem Solving with Artificial Intelligence - Rules vs. Learning.pdf) [[Edit](https://docs.google.com/presentation/d/1XFMUGBCTQkjW571F0_WISoEmWsQtCI4kD75Bs9bLQ-E/edit)]
+- [Scientific Writing and AI.pdf](google_slides/artificial_intelligence/Scientific Writing and AI.pdf) [[Edit](https://docs.google.com/presentation/d/1lYHyxFYdljQO3Zi0lU78gh-oBO0kwCIHkpL_9-_6ubA/edit)]
 - [The Pyramid Principle (Minto).pdf](google_slides/artificial_intelligence/The Pyramid Principle (Minto).pdf) [[Edit](https://docs.google.com/presentation/d/1jJ9ILYL6NBE_ScAkBgM0ng9vLvM1GvaTfECUhgJFH0g/edit)]
 
 ### Data Analytics

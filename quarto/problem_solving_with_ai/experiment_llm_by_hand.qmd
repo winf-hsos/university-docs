@@ -1,5 +1,5 @@
 ---
-title: "Experiment: An LLM by Hand"
+title: "Experiment: Word Probabilities"
 subtitle: "From Word Counts to Probability Distributions"
 lang: en
 format: pdf
